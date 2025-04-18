@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<VVE_Skyseekers.label>искатели небес</VVE_Skyseekers.label>
+<VVE_Skyseekers.description>Возвышение, как физическое, так и духовное, достигается, лишь паря в небесах.</VVE_Skyseekers.description>
+<VVE_Skyseekers.generalRules.rulesStrings>
+<li>memeAdjective_masc->летящий</li>
+<li>memeAdjective_fem->летящая</li>
+<li>memeAdjective_neutral->летящее</li>
+<li>memeAdjective_plural->летящие</li>
+<li>memeAdjective_masc->парящий</li>
+<li>memeAdjective_fem->парящая</li>
+<li>memeAdjective_neutral->парящее</li>
+<li>memeAdjective_plural->парящие</li>
+<li>memeAdjective_masc->свободный</li>
+<li>memeAdjective_fem->свободная</li>
+<li>memeAdjective_neutral->свободное</li>
+<li>memeAdjective_plural->свободные</li>
+<li>memeLeaderNoun->авиатор</li>
+<li>memeMoralist->искатель небес</li>
+<li>memeConcept->полета</li>
+</VVE_Skyseekers.generalRules.rulesStrings>
+<VVE_Skyseekers.descriptionMaker.rules.rulesStrings>
+<li>creation(tag=meme_Skyseekers)        ->[deity0_name] велеет всем своим последователям обратить взор к бесконечным небесам.</li>
+<li>episode(uses=1,tag=meme_Skyseekers)  ->[deity0_name], обращаясь к верующим: "Только покорив небеса, вы достигнете истинного просветления".</li>
+<li>intro(tag=meme_Skyseekers)           ->[place_summary] [place_name] всегда был полон конфликтов. [memberNamePlural] постоянно были осаждены своими врагами, и это глубоко огорчало [deity0_name].</li>
+<li>conflict(tag=meme_Skyseekers)        ->[deity0_name] - свидетель постоянных нападений ужасного [foeLeader], военного лидера, и [deity0_pronoun] решает дать крылатые суда [deity0_possessive] последователям, чтобы они могли парить в небесах над своими врагами.</li>
+<li>founderJoin(tag=meme_Skyseekers) ->[founderName], величайший среди наших авиаторов, получает предупреждение о плане [foeLeader] от [deity0_name], и когда [foeLeader] начинает атаку, огромная эскадрилья истребителей уже готова к встрече с [foeLeader_objective].</li>
+<li>victory(tag=meme_Skyseekers) ->[foeLeader] быстро получает бомбардировку с неба, все во имя [deity0_name].</li>
+<li>setup(tag=meme_Skyseekers) ->[founderName] - пилот, лучший в своем классе. [founder_pronoun] проводит десятилетия своей жизни, управляя всеми видами воздушных судов, как гражданских, так и военных.</li>
+<li>story(uses=1,tag=meme_Skyseekers) ->[founderName] по опыту знает, что настоящая свобода находится во время полета в бесконечном небе, далеко от всех проблем.</li>
+<li>lessonIntro(tag=meme_Skyseekers)         ->Древние авиаторы Земли были абсолютно правы. Они учили нас, что</li>
+<li>lesson(tag=meme_Skyseekers)              ->единственная настоящая свобода заключается в парении в бесконечном небе</li>
+<li>lessonReinforcement(tag=meme_Skyseekers) ->Мы нападем на наших врагов из недостижимого неба, как быстрая и божественная справедливость.</li>
+<li>archistBasis(tag=meme_Skyseekers)    ->Архотеки - это чистые разумы, существа неба.</li>
+<li>archistFact(tag=meme_Skyseekers)     ->Паря в небесах, мы приближаемся к Архотекам.</li>
+<li>archistProphecy(tag=meme_Skyseekers) ->[inTheEnd], только те, кто преодолевает границы земли, также смогут преодолеть свои физические тела.</li>
+<li>animistBasis(tag=meme_Skyseekers)    ->Духи учат нас, что бесконечное небо содержит секрет чистого существования.</li>
+<li>animistFact(tag=meme_Skyseekers)     ->Только паря в небесах, мы можем приблизиться к духам.</li>
+<li>animistProphecy(tag=meme_Skyseekers) ->[itIsSaid] только те, кто преодолевает границы земли, также смогут общаться с духовным миром.</li>
+</VVE_Skyseekers.descriptionMaker.rules.rulesStrings>
+<VVE_Skyseekers.symbolPacks.0.ideoName>Искатели небес</VVE_Skyseekers.symbolPacks.0.ideoName>
+<VVE_Skyseekers.symbolPacks.0.theme>небеса</VVE_Skyseekers.symbolPacks.0.theme>
+<VVE_Skyseekers.symbolPacks.0.adjective>поисковый</VVE_Skyseekers.symbolPacks.0.adjective>
+<VVE_Skyseekers.symbolPacks.0.member>пилот</VVE_Skyseekers.symbolPacks.0.member>
+
+<VVE_Nauticals.label>мореходы</VVE_Nauticals.label>
+<VVE_Nauticals.description>Объятие безбрежности вод предлагает глубокое соединение с тайнами жизни.</VVE_Nauticals.description>
+<VVE_Nauticals.generalRules.rulesStrings>
+<li>memeAdjective_masc->плавающий</li>
+<li>memeAdjective_fem->плавающая</li>
+<li>memeAdjective_neutral->плавающее</li>
+<li>memeAdjective_plural->плавающие</li>
+<li>memeAdjective_masc->навигационный</li>
+<li>memeAdjective_fem->навигационная</li>
+<li>memeAdjective_neutral->навигационное</li>
+<li>memeAdjective_plural->навигационные</li>
+<li>memeAdjective_masc->мореплавательный</li>
+<li>memeAdjective_fem->мореплавательная</li>
+<li>memeAdjective_neutral->мореплавательное</li>
+<li>memeAdjective_plural->мореплавательные</li>
+<li>memeLeaderNoun->навигатор</li>
+<li>memeMoralist->видящий воды</li>
+<li>memeConcept->плавание</li>
+</VVE_Nauticals.generalRules.rulesStrings>
+<VVE_Nauticals.descriptionMaker.rules.rulesStrings>
+<li>creation(tag=meme_Nauticals) ->[deity0_name] вдохновляет всех своих последователей обратить взор на бесконечные моря.</li>
+<li>episode(uses=1,tag=meme_Nauticals) ->[deity0_name], обращаясь к верующим: "Только покорив моря, вы достигнете истинного просветления".</li>
+<li>intro(tag=meme_Nauticals)           ->[place_summary] [place_name] всегда был полон конфликтов. [memberNamePlural] постоянно были осаждены своими врагами, и это глубоко огорчало [deity0_name].</li>
+<li>conflict(tag=meme_Nauticals) ->[deity0_name] - свидетель постоянных нападений ужасного [foeLeader], военного лидера, и [deity0_pronoun] решает дать паруса [deity0_possessive] последователям, чтобы они могли плавать по морям, уклоняясь и засадив своих врагов.</li>
+<li>founderJoin(tag=meme_Nauticals) ->[founderName], величайший среди наших навигаторов, получает предупреждение о плане [foeLeader] от [deity0_name], и когда [foeLeader] начинает атаку, огромный флот судов уже готов к встрече с [foeLeader_objective].</li>
+<li>victory(tag=meme_Nauticals) ->[foeLeader] быстро подвергается атаке с моря, все во имя [deity0_name].</li>
+<li>setup(tag=meme_Nauticals) ->[founderName] - навигатор, лучший в своем классе. [founder_pronoun] проводит десятилетия своей жизни, плавая на всех типах судов, как гражданских, так и военных.</li>
+<li>story(uses=1,tag=meme_Nauticals) ->[founderName] по опыту знает, что настоящая свобода находится в плавании по бесконечным морям, далеко от всех проблем.</li>
+<li>lessonIntro(tag=meme_Nauticals)         ->Древние мореходы Земли были абсолютно правы. Они учили нас, что</li>
+<li>lesson(tag=meme_Nauticals)              ->единственная настоящая свобода заключается в плавании по бесконечным морям</li>
+<li>lessonReinforcement(tag=meme_Nauticals) ->Мы нападем на наших врагов из бесконечного моря, как быстрая и божественная справедливость.</li>
+<li>archistBasis(tag=meme_Nauticals)    ->Архотеки - это чистые разумы, существа воды.</li>
+<li>archistFact(tag=meme_Nauticals)     ->Плавая по морям, мы приближаемся к Архотекам.</li>
+<li>archistProphecy(tag=meme_Nauticals) ->[inTheEnd], только те, кто преодолевает границы морей, также смогут преодолеть свои физические тела.</li>
+<li>animistBasis(tag=meme_Nauticals)    ->Духи учат нас, что бесконечное море содержит секрет чистого существования.</li>
+<li>animistFact(tag=meme_Nauticals)     ->Только плавая по морям, мы можем приблизиться к духам.</li>
+<li>animistProphecy(tag=meme_Nauticals) ->[itIsSaid] только те, кто преодолевает границы морей, также смогут общаться с духовным миром.</li>
+</VVE_Nauticals.descriptionMaker.rules.rulesStrings>
+<VVE_Nauticals.symbolPacks.0.ideoName>Мореходы</VVE_Nauticals.symbolPacks.0.ideoName>
+<VVE_Nauticals.symbolPacks.0.theme>мореходы</VVE_Nauticals.symbolPacks.0.theme>
+<VVE_Nauticals.symbolPacks.0.adjective>мореход</VVE_Nauticals.symbolPacks.0.adjective>
+<VVE_Nauticals.symbolPacks.0.member>матрос</VVE_Nauticals.symbolPacks.0.member>
+
+<VVE_Travelers.label>путешественники</VVE_Travelers.label>
+<VVE_Travelers.description>Мир велик и предназначен для исследования во всех его аспектах.</VVE_Travelers.description>
+<VVE_Travelers.generalRules.rulesStrings>
+<li>memeAdjective_masc->исследователь</li>
+<li>memeAdjective_fem->исследовательница</li>
+<li>memeAdjective_neutral->исследователь</li>
+<li>memeAdjective_plural->исследователи</li>
+<li>memeAdjective_masc->путешествующий</li>
+<li>memeAdjective_fem->путешествующая</li>
+<li>memeAdjective_neutral->путешествующее</li>
+<li>memeAdjective_plural->путешествующие</li>
+<li>memeAdjective_masc->переходящий</li>
+<li>memeAdjective_fem->переходящая</li>
+<li>memeAdjective_neutral->переходящее</li>
+<li>memeAdjective_plural->переходящие</li>
+<li>memeConcept->путешествие</li>
+<li>memeLeaderNoun->исследователь</li>
+<li>memeLeaderNoun->путешественник</li>
+</VVE_Travelers.generalRules.rulesStrings>
+<VVE_Travelers.descriptionMaker.rules.rulesStrings>
+<li>creation(tag=meme_Traveler)        ->[deity0_name] написал свои заповеди на одиннадцати табличках из пластали. Пятая заповедь гласила: "Я не буду воздерживаться от исследования мира".</li>
+<li>episode(uses=1,tag=meme_Traveler)  ->В соответствии с предписаниями [deity0_name], мы с радостью отправились в дальние страны, далеко от наших поселений, чтобы увидеть все, что может предложить наш мир.</li>
+<li>intro(tag=meme_Traveler)           ->[memberNamePlural] были беспокойны, потому что [deity0_name] приказал им исследовать окрестности, и им надоело бродить, выживая на природе.</li>
+<li>conflict(tag=meme_Traveler)        ->Один из старейшин хотел нарушить заповеди [deity0_name] и закрыть поселения для дальнейшего исследования.</li>
+<li>founderJoin(tag=meme_Traveler)     ->[founderName], Великий Исследователь, устал от непокорности старейшины и захватил его власть. С этого момента [memberNamePlural] стали самыми опытными исследователями в земле, отправляясь в дальние путешествия.</li>
+<li>victory(tag=meme_Traveler)         ->Так мы полюбили стремление к приключениям и объехали весь мир, исследуя даже его отдаленные уголки.</li>
+<li>setup(tag=meme_Traveler)           ->[founderName] был опытным исследователем. [founder_pronoun] жаждал открытий, путешествуя до отдаленных конфинов мира.</li>
+<li>story(uses=1,tag=meme_Traveler)    ->Ища азарт приключения, [founderName] собрал небольшую группу последователей и арендовал корабль, чтобы отправиться в путешествие на край звезд. Открытия [founder_possessive] были легендарны, он составил карту множества странных новых миров и цивилизаций, смело идя туда, где... извините, немного увлекся.</li>
+<li>lessonIntro(tag=meme_Traveler)         ->Люди боятся неизведанного, это факт. Совершенно очевидно, что</li>
+<li>lesson(tag=meme_Traveler)              ->нам нужно исследовать окружающее нас. Незнание того, что нас окружает, - это рецепт катастрофы </li>
+<li>lessonReinforcement(tag=meme_Traveler) ->Только истинные исследователи никогда не останутся в неведении.</li>
+<li>archistBasis(tag=meme_Traveler)    ->Архотехи всегда всё знают. Незнание окружающего воспринимается ими почти как нечто неприличное.</li>
+<li>archistFact(tag=meme_Traveler)     ->Архотехи учат нас, что исследование и путешествие - это путь к трансценденции.</li>
+<li>archistProphecy(tag=meme_Traveler) ->[inTheEnd], те, кто проводят всю свою жизнь в укрытии, не переходят в иное, в то время как те, кто проникнуты стремлением к странствиям, присоединятся к архотехам.</li>
+<li>animistBasis(tag=meme_Traveler)    ->Духи управляют всем, от самых абстрактных концепций до конкретных вещей. Каждое место имеет своего духа, и вот почему открытие и путешествие по всем этим местам приближает нас к духам.</li>
+<li>animistFact(tag=meme_Traveler)     ->Дух скитания - мощный, он наполняет нас страстью к свободе, к исследованиям: вы никогда не знаете, что принесет дорога впереди.</li>
+<li>animistProphecy(tag=meme_Traveler) ->[itIsSaid] только те, кто способны жить без корней и свободно бродить, могут истинно умиротворить духов.</li>
+</VVE_Travelers.descriptionMaker.rules.rulesStrings>
+<VVE_Travelers.symbolPacks.0.ideoName>Путешественники</VVE_Travelers.symbolPacks.0.ideoName>
+<VVE_Travelers.symbolPacks.0.theme>путешествия</VVE_Travelers.symbolPacks.0.theme>
+<VVE_Travelers.symbolPacks.0.adjective>путешествующий</VVE_Travelers.symbolPacks.0.adjective>
+<VVE_Travelers.symbolPacks.0.member>путешественник</VVE_Travelers.symbolPacks.0.member>
+
+
+<VVE_Roadragers.label>Агродрайверы</VVE_Roadragers.label>
+<VVE_Roadragers.description>Для нас дорога священна, а доминирование на ней — и вера, и свидетельство нашей силы. Мы видим рёв двигателей и гул асфальта под колесами как нечто священное.</VVE_Roadragers.description>
+<VVE_Roadragers.generalRules.rulesStrings>
+<li>memeAdjective_masc->агрессивный</li>
+<li>memeAdjective_fem->агрессивная</li>
+<li>memeAdjective_neutral->агрессивное</li>
+<li>memeAdjective_plural->агрессивные</li>
+<li>memeAdjective_masc->штурмующий</li>
+<li>memeAdjective_fem->штурмующая</li>
+<li>memeAdjective_neutral->штурмующее</li>
+<li>memeAdjective_plural->штурмующие</li>
+<li>memeAdjective_masc->безумный</li>
+<li>memeAdjective_fem->безумная</li>
+<li>memeAdjective_neutral->безумное</li>
+<li>memeAdjective_plural->безумные</li>
+<li>memeLeaderNoun->военачальник</li>
+<li>memeMoralist->священник октана</li>
+<li>memeConcept->автомобили</li>
+</VVE_Roadragers.generalRules.rulesStrings>
+<VVE_Roadragers.descriptionMaker.rules.rulesStrings>
+<li>creation(tag=meme_Roadragers)        ->У [deity0_name] была забота только о рёве двигателей. [deity0_pronoun] приказывает всем верующим отправиться на дорогу.</li>
+<li>episode(uses=1,tag=meme_Roadragers)  ->Обращаясь к верующим [deity0_possessive], [deity0_name]: "Я проведу вас через врата Вальгаллы. Вы будете ехать вечно, блестящие и хромированные!".</li>
+<li>intro(tag=meme_Roadragers)           ->[place_summary] [place_name] сверкало свежим моторным маслом, которое капало с наших священных автомобилей, являясь свидетельством славы [deity0_name].</li>
+<li>conflict(tag=meme_Roadragers)        ->Бешеный [foeLeader], желавший дотянуться до наших автомобилей, попытался напасть при помощи своих многочисленных [foeSoldiers].</li>
+<li>founderJoin(tag=meme_Roadragers)     ->[deity0_name] наделил нашего основателя, [founderName], [relic0_name], и [founder_pronoun] использовал его, чтобы прославить и усилить V8 двигатель своей специально изготовленной автомашины Road Raging, сопротивляясь нашествию.</li>
+<li>victory(tag=meme_Roadragers)         ->Бой был великолепен. [founderName] убил бесчисленное количество врагов, и мы отпраздновали это, вернувшись на дорогу, сидя во всех наших автомобилях.</li>
+<li>setup(tag=meme_Roadragers)           ->[founderName] понял, что рёв двигателя — единственная истинная мера силы.</li>
+<li>story(uses=1,tag=meme_Roadragers)    ->[founderName] всегда повторял один и тот же урок: "Я проведу вас через врата Вальгаллы. Вы будете ехать вечно, блестящие и хромированные!".</li>
+<li>lessonIntro(tag=meme_Roadragers)         ->Только рёв двигателей приносит удовольствие. Нужно понимать, что</li>
+<li>lesson(tag=meme_Roadragers)              ->Я — твой избавитель. Мной ты возродишься из пепла этого мира</li>
+<li>lessonReinforcement(tag=meme_Roadragers) ->Я проведу вас через врата Вальгаллы. Вы будете ехать вечно, блестящие и хромированные!</li>
+<li>archistBasis(tag=meme_Roadragers)    ->Архотехи понимают, что сила — это не просто средство к какому-то концу. Сила — это самоцель.</li>
+<li>archistFact(tag=meme_Roadragers)     ->Архотехи будут поражены мощным рёвом наших двигателей. Именно они вознесут нас из пепла этого мира.</li>
+<li>archistProphecy(tag=meme_Roadragers) ->[inTheEnd], они проведут нас через врата Вальгаллы. Мы будем ехать вечно, блестящие и хромированные!</li>
+<li>animistBasis(tag=meme_Roadragers)    ->Духи понимают, что сила — это не просто средство к какому-то концу. Сила — это самоцель.</li>
+<li>animistFact(tag=meme_Roadragers)     ->Именно они вознесут нас из пепла этого мира.</li>
+<li>animistProphecy(tag=meme_Roadragers) ->[itIsSaid] только те, кто допускают, чтобы рёв их двигателей превышал все остальное, будут нести духов через врата Вальгаллы. Они будут ехать вечно, блестящие и хромированные!</li>
+</VVE_Roadragers.descriptionMaker.rules.rulesStrings>
+<VVE_Roadragers.symbolPacks.0.ideoName>агродрайверы</VVE_Roadragers.symbolPacks.0.ideoName>
+<VVE_Roadragers.symbolPacks.0.theme>агродрайвера</VVE_Roadragers.symbolPacks.0.theme>
+<VVE_Roadragers.symbolPacks.0.adjective>агрессивный</VVE_Roadragers.symbolPacks.0.adjective>
+<VVE_Roadragers.symbolPacks.0.member>агрессор</VVE_Roadragers.symbolPacks.0.member>
+
+</LanguageData>

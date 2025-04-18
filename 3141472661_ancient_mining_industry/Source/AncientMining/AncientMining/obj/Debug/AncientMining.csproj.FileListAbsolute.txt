@@ -1,0 +1,13 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ancient mining industry\Assemblies\AncientMining.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ancient mining industry\Assemblies\AncientMining.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ancient mining industry\Source\AncientMining\AncientMining\obj\Debug\AncientMining.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ancient mining industry\Source\AncientMining\AncientMining\obj\Debug\AncientMining.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ancient mining industry\Source\AncientMining\AncientMining\obj\Debug\AncientMining.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ancient mining industry\Source\AncientMining\AncientMining\obj\Debug\AncientMining.pdb
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3141472661\Source\AncientMining\AncientMining\obj\Debug\AncientMining.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3141472661\Source\AncientMining\AncientMining\obj\Debug\AncientMining.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3141472661\Source\AncientMining\AncientMining\obj\Debug\AncientMining.dll
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3141472661\Source\AncientMining\AncientMining\obj\Debug\AncientMining.pdb
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3141472661\Assemblies\AncientMining.dll
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3141472661\Assemblies\AncientMining.pdb
+C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3141472661\Source\AncientMining\AncientMining\obj\Debug\AncientM.624F6211.Up2Date

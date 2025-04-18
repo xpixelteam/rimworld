@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Turret Vanilla Retexture and Restyle</name>
+  <author>NomadRw</author>
+  <supportedVersions>
+    <li>1.4</li>
+	<li>1.5</li>
+  </supportedVersions>
+  <packageId>NomadRw.TurretVanillaRetextureRestyle</packageId>
+  <description>Turret Retexture Restyle</description>
+  <loadAfter>
+        <li>Core</li>			
+    </loadAfter>
+</ModMetaData>

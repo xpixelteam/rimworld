@@ -1,0 +1,6 @@
+<LanguageData>
+  <!--Auto-Extract Genes-->
+  <nibato.AutoExtractGenes.AutoExtractGenes>Авто-извлечение генов</nibato.AutoExtractGenes.AutoExtractGenes>
+  <!--Extract genes at a gene extractor whenever it is safe to do so-->
+  <nibato.AutoExtractGenes.AutoExtractGenes.Tooltip>Извлекать гены с помощью генного экстрактора сразу, как это становится безопасно</nibato.AutoExtractGenes.AutoExtractGenes.Tooltip>
+</LanguageData>

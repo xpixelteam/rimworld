@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- UI -->
+	<kathanon.PrisonerUtil.SetOwnerPrisoner.desc>Назначьте эту кровать конкретному заключенному.</kathanon.PrisonerUtil.SetOwnerPrisoner.desc>
+	<kathanon.PrisonerUtil.ReservedForPrisoner.title>Зарезервировано для заключенных</kathanon.PrisonerUtil.ReservedForPrisoner.title>
+	<kathanon.PrisonerUtil.ReservedForPrisoner.desc>Переключается, если это зарезервировано для использования заключенными.</kathanon.PrisonerUtil.ReservedForPrisoner.desc>
+	<kathanon.PrisonerUtil.ArrestAndSet>Попытаться арестовать и ...</kathanon.PrisonerUtil.ArrestAndSet>
+	<kathanon.PrisonerUtil.CaptureAndSet>Захватить и ...</kathanon.PrisonerUtil.CaptureAndSet>
+	<kathanon.PrisonerUtil.CurrentDressPrisoner>Сейчас одевается в:</kathanon.PrisonerUtil.CurrentDressPrisoner>
+	<kathanon.PrisonerUtil.DressPrisoner>Одеть заключенного</kathanon.PrisonerUtil.DressPrisoner>
+	<kathanon.PrisonerUtil.CancelDressing>Отменить переодевание</kathanon.PrisonerUtil.CancelDressing>
+
+    <!-- UI - parameterized -->
+	<kathanon.PrisonerUtil.SelectForPrisoner>Выберите предмет одежды, который нужно надеть {0_label}</kathanon.PrisonerUtil.SelectForPrisoner>
+	<kathanon.PrisonerUtil.SelectForApparel>Выберите заключенного, которого нужно одеть в {0_label}</kathanon.PrisonerUtil.SelectForApparel>
+	<kathanon.PrisonerUtil.CancelForPrisoner>Отменить переодевание {0_label},
+щелкните правой кнопкой мыши, чтобы отменить определенный элемент.</kathanon.PrisonerUtil.CancelForPrisoner>
+	<kathanon.PrisonerUtil.CancelForApparel>Отменить переодевание {0_label} в {1_label}.</kathanon.PrisonerUtil.CancelForApparel>
+	<kathanon.PrisonerUtil.DressingIn>одевание {0_labelShort} в</kathanon.PrisonerUtil.DressingIn>
+
+	<!-- Settings -->
+	<kathanon.PrisonerUtil.InitModeStranger.title>Взаимодействие по умолчанию: Незнакомец</kathanon.PrisonerUtil.InitModeStranger.title>
+	<kathanon.PrisonerUtil.InitModeStranger.desc>При взятии в плен незнакомого человека, изначально будет настроено такое взаимодействие с ним.</kathanon.PrisonerUtil.InitModeStranger.desc>
+	<kathanon.PrisonerUtil.InitModeColonist.title>Взаимодействие по умолчанию: Колонист</kathanon.PrisonerUtil.InitModeColonist.title>
+	<kathanon.PrisonerUtil.InitModeColonist.desc>При взятии колониста в плен изначально будет настроено такое взаимодействие с ним.</kathanon.PrisonerUtil.InitModeColonist.desc>
+	<kathanon.PrisonerUtil.InitModeSlave.title>Взаимодействие по умолчанию: Раб.</kathanon.PrisonerUtil.InitModeSlave.title>
+	<kathanon.PrisonerUtil.InitModeSlave.desc>При взятии раба в плен, изначально будет настроено такое взаимодействие с ним.</kathanon.PrisonerUtil.InitModeSlave.desc>
+</LanguageData>

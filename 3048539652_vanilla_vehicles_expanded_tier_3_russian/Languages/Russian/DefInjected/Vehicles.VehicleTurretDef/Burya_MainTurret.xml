@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Burya_MainTurret.label>Ракетная турель</Burya_MainTurret.label>
+  <Burya_MainTurret.description>Мощная система залпового огня, обычно устанавливаемая на "Буре", способная выпускать мощные залпы ракет, покрывающие большую площадь. Турель не стреляет, пока не получит приказ. Она очень эффективна против больших групп слабых бойцов, но менее эффективна против небольшого количества бронированных целей. Длительная стрельба может привести к перегреву и отключению турели.</Burya_MainTurret.description>
+  <Burya_MainTurret.fireModes.0.label>Очередь</Burya_MainTurret.fireModes.0.label>
+  <Burya_MainTurret.fireModes.1.label>Одиночный</Burya_MainTurret.fireModes.1.label>
+
+
+</LanguageData>

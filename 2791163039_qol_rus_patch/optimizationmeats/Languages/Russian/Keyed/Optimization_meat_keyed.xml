@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<!-- Optimization: Meats - C# Edition -->
+
+    <OM_Category>Optimization: Мясо - C# Издание</OM_Category>
+    <OM_restart_required>ПРИМЕЧАНИЕ: требуется перезагрузка, чтобы изменения вступили в силу.</OM_restart_required>
+    <OM_animal_setting>Разрешить оптимизацию мяса животных</OM_animal_setting>
+    <OM_alien_setting>Разрешить оптимизацию инопланетного мяса (для модов на расы)</OM_alien_setting>
+    <OM_fish_setting>Разрешить оптимизацию мяса рыбы (для Vanilla Fishing Expanded)</OM_fish_setting>
+    <OM_debug_setting>Режим отладки</OM_debug_setting>
+
+    <OM_smallFishLabel>мелкая рыба</OM_smallFishLabel>
+    <OM_mediumFishLabel>средняя рыба</OM_mediumFishLabel>
+    <OM_largeFishLabel>крупная рыба</OM_largeFishLabel>
+
+</LanguageData>

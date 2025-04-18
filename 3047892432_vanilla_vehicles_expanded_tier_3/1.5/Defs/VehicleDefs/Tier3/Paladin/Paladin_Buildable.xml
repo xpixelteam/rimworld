@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Paladin_Blueprint</defName>
+		<label>Paladin</label>
+		<description>A general purpose armoured personnel carrier, the Paladin is a fast and hardy troop transport. Decent cargo holds, reinforced armour plating, all-terrain capability and a smoke grenade turret for screening troop deployment. The major downsides are no tracks for better terrain navigation and thinner plating on the rear.\n\nCompared to previous generations, this APC is designed to quickly drop infantry off at a desired location and quickly retreat. It can act as temporary cover but ideally it should be able to deploy its cargo and bring it home safely.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x6\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_LAV/Tier3_LAV</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 6)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>19500</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<researchPrerequisites>
+			<li>VVE_LightArmoredVehicles</li>
+		</researchPrerequisites>
+		
+		<size>(3, 6)</size>
+		
+		<costList>
+			<VVE_EngineBlock>2</VVE_EngineBlock>
+			<VVE_CarAlternator>2</VVE_CarAlternator>
+			<VVE_CarExhaust>4</VVE_CarExhaust>
+			<VVE_CarSuspension>8</VVE_CarSuspension>
+			<VVE_CarWheel>8</VVE_CarWheel>
+			<Steel>580</Steel>
+			<ComponentIndustrial>18</ComponentIndustrial>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
+			<VVE_CarRadiator>2</VVE_CarRadiator>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>VVE_Paladin</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

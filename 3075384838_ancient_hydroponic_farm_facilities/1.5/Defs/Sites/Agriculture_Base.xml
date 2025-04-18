@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- 隐藏的古老水培农场 -->
+  <SitePartDef>
+    <defName>Hidden_ancient_hydroponic_farm_Site</defName>
+    <label>Hidden ancient hydroponic farm</label>
+    <description>An ancient hydroponic farm that has been hidden for so long, we know very little about it.</description>
+    <siteTexture>Icon/HiddenAncientHydroponicFarms</siteTexture>
+    <expandingIconTexture>Icon/HiddenAncientHydroponicFarms</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>Hidden_ancient_hydroponic_farm</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>Hidden_ancient_hydroponic_farm_GenStep</defName>
+    <linkWithSite>Hidden_ancient_hydroponic_farm_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>Hidden_ancient_hydroponic_farm</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+ <!-- 损坏的远古粮食农场 -->
+  <SitePartDef>
+    <defName>damaged_ancient_grain_farm_A_SitePart</defName>
+    <label>Damaged ancient grain farm</label>
+    <description>A badly damaged old grain farm, which had been looted by pirates.</description>
+    <siteTexture>Icon/DamagedAncientGrainFarm</siteTexture>
+    <expandingIconTexture>Icon/DamagedAncientGrainFarm</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>damaged_ancient_grain_farm_A</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>damaged_ancient_grain_farm_A_GenStep</defName>
+    <linkWithSite>damaged_ancient_grain_farm_A_SitePart</linkWithSite>
+    <order>461</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>damaged_ancient_grain_farm_A</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <SitePartDef>
+    <defName>damaged_ancient_grain_farm_B_SitePart</defName>
+    <label>Damaged ancient grain farm</label>
+    <description>A badly damaged old grain farm, which had been looted by pirates.</description>
+    <siteTexture>Icon/DamagedAncientGrainFarm</siteTexture>
+    <expandingIconTexture>Icon/DamagedAncientGrainFarm</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>damaged_ancient_grain_farm_B</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>damaged_ancient_grain_farm_B_GenStep</defName>
+    <linkWithSite>damaged_ancient_grain_farm_B_SitePart</linkWithSite>
+    <order>462</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>damaged_ancient_grain_farm_B</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+ <!-- 被占据的远古粮食农场 -->
+  <SitePartDef>
+    <defName>occupied_ancient_grain_farm_SitePart</defName>
+    <label>Occupied ancient grain farm</label>
+    <description>An occupied ancient grain farm with fortifications and enemy activity.</description>
+    <siteTexture>Icon/AncientGrainFarm</siteTexture>
+    <expandingIconTexture>Icon/AncientGrainFarm</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>occupied_ancient_grain_farm</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>occupied_ancient_grain_farm_GenStep</defName>
+    <linkWithSite>occupied_ancient_grain_farm_SitePart</linkWithSite>
+    <order>463</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>occupied_ancient_grain_farm</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+ <!-- 废弃的营养液工厂 -->
+  <SitePartDef>
+    <defName>discarded_nutrient_solution_factory_SitePart</defName>
+    <label>Discarded nutrient solution factory</label>
+    <description>A badly discarded nutrient solution factory, which had been looted by pirates.</description>
+    <siteTexture>Icon/AncientNutrientSolutionFactory</siteTexture>
+    <expandingIconTexture>Icon/AncientNutrientSolutionFactory</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>discarded_nutrient_solution_factory</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>discarded_nutrient_solution_factory_GenStep</defName>
+    <linkWithSite>discarded_nutrient_solution_factory_SitePart</linkWithSite>
+    <order>464</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>discarded_nutrient_solution_factory</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+ <!-- 废弃的营养膏工厂 -->
+  <SitePartDef>
+    <defName>discarded_nutrient_cream_factory_SitePart</defName>
+    <label>Discarded nutrient cream factory</label>
+    <description>A badly discarded nutrient cream factory, which had been looted by pirates.</description>
+    <siteTexture>Icon/AncientNutrientPasteFactory</siteTexture>
+    <expandingIconTexture>Icon/AncientNutrientPasteFactory</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>discarded_nutrient_cream_factory</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>discarded_nutrient_cream_factory_GenStep</defName>
+    <linkWithSite>discarded_nutrient_cream_factory_SitePart</linkWithSite>
+    <order>465</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>discarded_nutrient_cream_factory</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+ <!-- 被占据的棉花农场 -->
+  <SitePartDef>
+    <defName>occupied_ancient_cotton_farm_SitePart</defName>
+    <label>Occupied ancient cotton farm</label>
+    <description>An occupied ancient cotton farm with fortifications and enemy activity</description>
+    <siteTexture>Icon/AncientCottonFarm</siteTexture>
+    <expandingIconTexture>Icon/AncientCottonFarm</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>occupied_ancient_cotton_farm</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>occupied_ancient_cotton_farm_GenStep</defName>
+    <linkWithSite>occupied_ancient_cotton_farm_SitePart</linkWithSite>
+    <order>466</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>occupied_ancient_cotton_farm</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 损毁的恶魔菇农场 -->
+  <SitePartDef>
+    <defName>damaged_ancient_Devilstrand_farm_SitePart</defName>
+    <label>Damaged ancient devilstrand cotton farm</label>
+    <description>A badly damaged ancient devilstrand cotton farm, which had been looted by pirates.</description>
+    <siteTexture>Icon/DamagedAncientDevilstrandFarm</siteTexture>
+    <expandingIconTexture>Icon/DamagedAncientDevilstrandFarm</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>damaged_ancient_Devilstrand_farm</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>damaged_ancient_Devilstrand_farm_GenStep</defName>
+    <linkWithSite>damaged_ancient_Devilstrand_farm_SitePart</linkWithSite>
+    <order>467</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>damaged_ancient_Devilstrand_farm</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 损毁的棉花农场 -->
+  <SitePartDef>
+    <defName>damaged_ancient_cotton_farm_SitePart</defName>
+    <label>Damaged ancient cotton farm</label>
+    <description>A badly damaged ancient cotton farm, which had been looted by pirates.</description>
+    <siteTexture>Icon/DamagedAncientCottonFarm</siteTexture>
+    <expandingIconTexture>Icon/DamagedAncientCottonFarm</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>damaged_ancient_cotton_farm</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>damaged_ancient_cotton_farm_GenStep</defName>
+    <linkWithSite>damaged_ancient_cotton_farm_SitePart</linkWithSite>
+    <order>468</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>damaged_ancient_cotton_farm</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 被占领的恶魔菇农场 -->
+  <SitePartDef>
+    <defName>occupied_devilstrand_cotton_farm_SitePart</defName>
+    <label>Occupied devilstrand cotton farm</label>
+    <description>An occupied devilstrand cotton farm, heavily fortified, with a large number of defenses and a large number of enemies.</description>
+    <siteTexture>Icon/AncientDevilstrandFarm</siteTexture>
+    <expandingIconTexture>Icon/AncientDevilstrandFarm</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>occupied_devilstrand_cotton_farm</li>
+    </tags>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>occupied_devilstrand_cotton_farm_GenStep</defName>
+    <linkWithSite>occupied_devilstrand_cotton_farm_SitePart</linkWithSite>
+    <order>469</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>occupied_devilstrand_cotton_farm</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+ <!-- 守军 -->
+  <SitePartDef>
+    <defName>Garrison_Site_S</defName>
+    <label>Enemy activity</label>
+    <description>Enemy activity</description>
+    <workerClass>SitePartWorker_Ambush</workerClass>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <tags>
+      <li>Garrison_S</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>Garrison_GenStep_S</defName>
+    <linkWithSite>Garrison_Site_S</linkWithSite>
+    <order>470</order>
+    <genStep Class="KCSG.Genstep_EnnemiesPresence">
+     <spawnOnEdge>false</spawnOnEdge>
+     <pointMultiplier>8.0</pointMultiplier>
+    </genStep>
+  </GenStepDef>  
+
+  <SitePartDef>
+    <defName>Garrison_Site_L</defName>
+    <label>Heavily guarded</label>
+    <description>Heavily guarded</description>
+    <workerClass>SitePartWorker_Ambush</workerClass>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <tags>
+      <li>Garrison_L</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>Garrison_GenStep_L</defName>
+    <linkWithSite>Garrison_Site_L</linkWithSite>
+    <order>471</order>
+    <genStep Class="KCSG.Genstep_EnnemiesPresence">
+     <spawnOnEdge>false</spawnOnEdge>
+     <pointMultiplier>10.0</pointMultiplier>
+    </genStep>
+  </GenStepDef> 
+</Defs>

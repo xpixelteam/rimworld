@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Hediffs.xml-->
+	<!--                 assigned to art -->
+	<AssignedToArt.label>Назначен делать Исскуство</AssignedToArt.label>
+	<!--                       Colonist has been assigned to art -->
+	<AssignedToArt.description>Колонсту была поручено задание по Искусству</AssignedToArt.description>
+
+	
+	<!--                      assigned to cleaning -->
+	<AssignedToCleaning.label>Назначен Убираться</AssignedToCleaning.label>
+	<!--                            Colonist has been assigned to cleaning -->
+	<AssignedToCleaning.description>Колонсту была поручено задание по Уборке</AssignedToCleaning.description>
+
+	
+	<!--                          assigned to construction -->
+	<AssignedToConstruction.label>Назначен Строить</AssignedToConstruction.label>
+	<!--                                Colonist has been assigned to construction -->
+	<AssignedToConstruction.description>Колонсту была поручено задание по Строительству</AssignedToConstruction.description>
+
+	
+	<!--                     assigned to cooking -->
+	<AssignedToCooking.label>Назначен Готовить</AssignedToCooking.label>
+	<!--                           Colonist has been assigned to cooking -->
+	<AssignedToCooking.description>Колонсту была поручено задание по Готовке</AssignedToCooking.description>
+
+	
+	<!--                      assigned to crafting -->
+	<AssignedToCrafting.label>Назначен Создавать предметы</AssignedToCrafting.label>
+	<!--                            Colonist has been assigned to crafting -->
+	<AssignedToCrafting.description>Колонсту была поручено задание по Созданию предметов</AssignedToCrafting.description>
+
+	
+	<!--                    assigned to doctor -->
+	<AssignedToDoctor.label>Назначен Лечить</AssignedToDoctor.label>
+	<!--                          Colonist has been assigned to doctor -->
+	<AssignedToDoctor.description>Колонсту была поручено задание по Лечению</AssignedToDoctor.description>
+
+	
+	<!--                         assigned to firefighter -->
+	<AssignedToFirefighter.label>Назначен Пожарным</AssignedToFirefighter.label>
+	<!--                               Colonist has been assigned to firefighter -->
+	<AssignedToFirefighter.description>Колонсту была поручено задание по Пожаротушению</AssignedToFirefighter.description>
+
+	
+	<!--                     assigned to growing -->
+	<AssignedToGrowing.label>Назначен Выращивать растения</AssignedToGrowing.label>
+	<!--                           Colonist has been assigned to growing -->
+	<AssignedToGrowing.description>Колонсту была поручено задание по Выращиванию растений</AssignedToGrowing.description>
+
+	
+	<!--                      assigned to handling -->
+	<AssignedToHandling.label>Назначен Ухаживать за животными</AssignedToHandling.label>
+	<!--                            Colonist has been assigned to handling -->
+	<AssignedToHandling.description>Колонсту была поручено задание по Животноводству</AssignedToHandling.description>
+
+	
+	<!--                     assigned to hauling -->
+	<AssignedToHauling.label>Назначен Переносить предметы</AssignedToHauling.label>
+	<!--                           Colonist has been assigned to hauling -->
+	<AssignedToHauling.description>Колонсту была поручено задание по Переноске</AssignedToHauling.description>
+
+	
+	<!--                     assigned to hunting -->
+	<AssignedToHunting.label>Назначен Охотиться</AssignedToHunting.label>
+	<!--                           Colonist has been assigned to hunting -->
+	<AssignedToHunting.description>Колонсту была поручено задание по Охоте</AssignedToHunting.description>
+
+	
+	<!--                    assigned to mining -->
+	<AssignedToMining.label>Назначен Копать ресурсы</AssignedToMining.label>
+	<!--                          Colonist has been assigned to mining -->
+	<AssignedToMining.description>Колонсту была поручено задание по Горному делу</AssignedToMining.description>
+
+	
+	<!--                          assigned to plant cutting -->
+	<AssignedToPlantCutting.label>Назначен Срезать растения</AssignedToPlantCutting.label>
+	<!--                                Colonist has been assigned to plant cutting -->
+	<AssignedToPlantCutting.description>Колонсту была поручено задание по Срезанию растений</AssignedToPlantCutting.description>
+
+	
+	<!--                      assigned to research -->
+	<AssignedToResearch.label>Назначен Исследовать</AssignedToResearch.label>
+	<!--                            Colonist has been assigned to research -->
+	<AssignedToResearch.description>Колонсту была поручено задание по Исследованию</AssignedToResearch.description>
+
+	
+	<!--                      assigned to smithing -->
+	<AssignedToSmithing.label>Назначен Ковать</AssignedToSmithing.label>
+	<!--                            Colonist has been assigned to smithing -->
+	<AssignedToSmithing.description>Колонсту была поручено задание по Кузнечному делу</AssignedToSmithing.description>
+
+	
+	<!--                       assigned to tailoring -->
+	<AssignedToTailoring.label>Назначен Шить одежду</AssignedToTailoring.label>
+	<!--                             Colonist has been assigned to tailoring -->
+	<AssignedToTailoring.description>Колонсту была поручено задание по Портняжному делу</AssignedToTailoring.description>
+
+	
+	<!--                    assigned to warden -->
+	<AssignedToWarden.label>Назначен Надзирать за пленниками</AssignedToWarden.label>
+	<!--                          Colonist has been assigned to warden -->
+	<AssignedToWarden.description>Колонсту была поручено задание по надсмотру</AssignedToWarden.description>
+
+	
+	<!--                   assigned a weapon -->
+	<AssignedAWeapon.label>Назначено оружие</AssignedAWeapon.label>
+	<!--                         Colonist has been assigned a weapon -->
+	<AssignedAWeapon.description>Колонсту была вручено оружие</AssignedAWeapon.description>
+</LanguageData>

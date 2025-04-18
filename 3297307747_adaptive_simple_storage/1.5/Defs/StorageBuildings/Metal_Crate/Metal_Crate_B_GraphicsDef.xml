@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef>
+        <defName>MetalCrateBGraphics</defName>
+        <targetDef>MetalCrateB</targetDef>
+        <showContainedItems>false</showContainedItems>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Metal_Crate/Metal_Crate_B</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2.66,2.66)</drawSize>
+                    <drawRotated>false</drawRotated>
+                    <shaderType>CutoutComplex</shaderType>
+                </graphicData>
+            </li>
+        </graphics>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

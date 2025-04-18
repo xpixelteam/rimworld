@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Farm marker map -->
+  <AHF_Map.label>农场设施标记地图</AHF_Map.label>
+  <!-- EN: An ancient map marked with farm locations, which will reveal the location of a farm after reading. -->
+  <AHF_Map.description>一张标记了农场设施位置的古老地图，阅读它可以揭示一个古代农业设施的具体位置。</AHF_Map.description>
+  <!-- EN: Read -->
+  <AHF_Map.comps.CompUsable.useLabel>阅读</AHF_Map.comps.CompUsable.useLabel>
+  
+</LanguageData>

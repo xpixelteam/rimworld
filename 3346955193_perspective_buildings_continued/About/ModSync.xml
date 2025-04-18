@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModSyncNinjaData>
+  <ID>464e5e83-be42-4c77-8285-5a922cfc0924</ID>
+  <ModName>Perspective: Buildings (Continued)</ModName>
+  <Version>1.5.3</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>emipa606</Owner>
+    <Project>PerspectiveBuildings</Project>
+    <AboutDir>About</AboutDir>
+    <DownloadFrom>ModSyncMainPage</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
+</ModSyncNinjaData>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef ParentName="BunsenMainTurret">
+		<defName>VVE_Bunsen_MainTurret_Launcher</defName>
+		<label>long barrel flamethrower</label>
+		<description>A lightly-armored long range inferno launcher turret sometimes mounted on bunsen tanks. Takes fuel directly from the chemtank of the vehicle. Quite devastating against infantry, bunsen inferno launcher struggles against armored targets.</description>
+		<projectile>Bullet_InfernoCannon</projectile>
+
+		<warmUpTimer>1.25</warmUpTimer>
+		
+		<rotationSpeed>3.35</rotationSpeed>
+		
+		<maxRange>26.9</maxRange>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenBursts>1</ticksBetweenBursts>
+				<spreadRadius>2.9</spreadRadius>
+				<label>Fire Spew</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+		</fireModes>
+		
+		<graphicData>
+			<texPath>Upgrades/Bunsen/Tier1_FlamerTank_UpgradeLauncher_CannonTop</texPath>
+		</graphicData>
+		
+		<motes>
+			<li>
+				<cycles>1</cycles>
+				<moteDef>Mote_CannonPlume</moteDef>
+				<animationType>Reset</animationType>
+			</li>
+		</motes>
+	</Vehicles.VehicleTurretDef>
+</Defs>

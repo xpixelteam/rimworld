@@ -1,0 +1,100 @@
+<LanguageData>
+	<!-- EN: (Restart required!) -->
+	<XP_RestartNoteHeader_Title>(Требуется перезагрузка!)</XP_RestartNoteHeader_Title>
+	<!-- EN: Mod settings do not take effect until after you restart RimWorld! -->
+	<XP_RestartNoteHeader_Description>Настройки мода не вступят в силу до тех пор, пока вы не перезапустите RimWorld!</XP_RestartNoteHeader_Description>
+
+		<!-- Search Operation Toggles -->
+	<!-- EN: Search Operation Toggles -->
+	<XP_SearchHeader_Title>Параметры поиска операций</XP_SearchHeader_Title>
+	<!-- EN: These options control which surgery operations the patcher should look for when applying them to pawn definitions. -->
+	<XP_SearchHeader_Description>Эти параметры определяют, какие хирургические операции следует учитывать патчеру при их применении к определениям пешек.</XP_SearchHeader_Description>
+
+	<!-- EN: Administer Items -->
+	<XP_SearchAdminsterRecipes_Title>Применение предметов</XP_SearchAdminsterRecipes_Title>
+	<!-- EN: Look through all "Administer Ingestible" and "Administer Usable Item" bills -->
+	<XP_SearchAdminsterRecipes_Description>Проверить все задания «Принять Пригодное для приема внутрь» и «Принять предмет».</XP_SearchAdminsterRecipes_Description>
+
+	<!-- EN: Install Natural Body Parts -->
+	<XP_SearchInstallNaturalBodyPartRecipes_Title>Установить натуральные части тела</XP_SearchInstallNaturalBodyPartRecipes_Title>
+	<!-- EN: Look through all "Install Natural Body Part" operations -->
+	<XP_SearchInstallNaturalBodyPartRecipes_Description>Проверить все операции «Установить натуральную часть тела».</XP_SearchInstallNaturalBodyPartRecipes_Description>
+
+	<!-- EN: Install Artificial Body Parts -->
+	<XP_SearchInstallArtificialBodyPartRecipes_Title>Установить искусственные части тела</XP_SearchInstallArtificialBodyPartRecipes_Title>
+	<!-- EN: Look through all "Install Artificial Body Part" operations. -->
+	<XP_SearchInstallArtificialBodyPartRecipes_Description>Проверить все операции «Установить искусственную часть тела».</XP_SearchInstallArtificialBodyPartRecipes_Description>
+
+	<!-- EN: Install Implants -->
+	<XP_SearchInstallImplantRecipes_Title>Установить импланты</XP_SearchInstallImplantRecipes_Title>
+	<!-- EN: Look through all "Install Implant" operations, such as brain implants like Joywires. -->
+	<XP_SearchInstallImplantRecipes_Description>Проверить все операции «Установка импланта», например, мозговые импланты, такие как "чип счастья".</XP_SearchInstallImplantRecipes_Description>
+
+	<!-- EN: Basic Removals -->
+	<XP_SearchVanillaRemovalRecipes_Title>Основные удаления</XP_SearchVanillaRemovalRecipes_Title>
+	<!-- EN: Look through all basic "removal" operations, such as harvesting, part removal, or excising. -->
+	<XP_SearchVanillaRemovalRecipes_Description>Проверить все основные операции по «удалению», такие как удаление части или вырезание части тела.</XP_SearchVanillaRemovalRecipes_Description>
+
+	<!-- EN: Modded Surgery Classes -->
+	<XP_SearchModdedSurgeryClasses_Title>Модифицированные классы хирургии</XP_SearchModdedSurgeryClasses_Title>
+	<!-- EN: Look through any surgery that requires a special non-vanilla worker class. -->
+	<XP_SearchModdedSurgeryClasses_Description>Проверить любую операцию, требующую специального неванильного "Worker class".</XP_SearchModdedSurgeryClasses_Description>
+
+		<!-- Patching Toggles -->
+	<!-- EN: Patching Toggles -->
+	<XP_PatchHeader_Title>Параметры патчей</XP_PatchHeader_Title>
+	<!-- EN: These options control what kind of patching jobs are ran to match surgery operations from one kind of pawn to other pawn definitions. -->
+	<XP_PatchHeader_Description>Эти параметры определяют, какие патчи будут применены для применения хирургических операций от одного типа пешки у других пешек.</XP_PatchHeader_Description>
+
+	<!-- EN: Animal Surgeries → Animals -->
+	<XP_PatchAnimalToAnimal_Title>Животные → Животные</XP_PatchAnimalToAnimal_Title>
+	<!-- EN: Patch animal surgical operations into other animals -->
+	<XP_PatchAnimalToAnimal_Description>Перенести хирургические операции над животными на других животных</XP_PatchAnimalToAnimal_Description>
+
+	<!-- EN: Humanlike Surgeries → Humanlikes -->
+	<XP_PatchHumanlikeToHumanlike_Title>Человекоподобные → Человекоподобные</XP_PatchHumanlikeToHumanlike_Title>
+	<!-- EN: Patch humanlike surgical operations into other humanlikes -->
+	<XP_PatchHumanlikeToHumanlike_Description>Перенести хирургические операции над человекоподобными на других человекоподобных</XP_PatchHumanlikeToHumanlike_Description>
+
+	<!-- EN: Artificial Parts → Mechs -->
+	<XP_PatchArtificialToMech_Title>Искусственные части → Мехи</XP_PatchArtificialToMech_Title>
+	<!-- EN: Patch artificial body part operations (and certain mech-only operations) into any mech-like creature -->
+	<XP_PatchArtificialToMech_Description>Перенести хирургические операции с искусственными частями тела (и некоторые операции, выполняемые только с мехами) на любое мехоподобное существо.</XP_PatchArtificialToMech_Description>
+
+	<!-- EN: Animal Surgeries → Humanlikes -->
+	<XP_PatchAnimalToHumanlike_Title>Животные → Человекоподобные</XP_PatchAnimalToHumanlike_Title>
+	<!-- EN: Patch animal surgical operations into humanlikes -->
+	<XP_PatchAnimalToHumanlike_Description>Перенести хирургические операции над животными на человекоподобных</XP_PatchAnimalToHumanlike_Description>
+
+	<!-- EN: Humanlike Surgeries → Animals -->
+	<XP_PatchHumanlikeToAnimal_Title>Человекоподобные → Животные</XP_PatchHumanlikeToAnimal_Title>
+	<!-- EN: Patch humanlike surgical operations into animals -->
+	<XP_PatchHumanlikeToAnimal_Description>Перенести хирургические операции над человекоподобными на животных</XP_PatchHumanlikeToAnimal_Description>
+
+	<!-- EN: Humanlike Surgeries → Mechs -->
+	<XP_PatchHumanlikeToMech_Title>Человекоподобные → Мехи</XP_PatchHumanlikeToMech_Title>
+	<!-- EN: Patch humanlike surgical operations into any mech-like creature.  Note that this may enable certain organic-like surgeries into mechs with strange side effects, like installing organic arms onto mechs with no visible effect, or applying serums & mutagens that would only make sense used on a meaty organic. -->
+	<XP_PatchHumanlikeToMech_Description>Перенести хирургические операции над человекоподобными на любое мехоподобное существо.\nОбратите внимание, что это может привести к некоторым органическим операциям на мехах со странными побочными эффектами, например, установка органических рук на мехов без видимого эффекта или применение сывороток и мутагенов, которые имеет смысл использовать только на мясистых органиках.</XP_PatchHumanlikeToMech_Description>
+
+	<!-- EN: Mech-like Surgeries → Humanlikes -->
+	<XP_PatchMechlikeToHumanlike_Title>Мехоподобные → Человекоподобные</XP_PatchMechlikeToHumanlike_Title>
+	<!-- EN: Patch mech-like surgical operations into humanlikes.  Note that this may enable certain mech-like surgeries into organics with strange side effects, like "shutting down" humans or repairing humans with a mech toolkit. -->
+	<XP_PatchMechlikeToHumanlike_Description>Перенести хирургические операции над Мехоподобными на любое Человекоподобное существо.\nОбратите внимание, что это может позволить проводить определенные механические операции на органике со странными побочными эффектами, такими как «выключение» людей или ремонт людей с помощью набора механических инструментов.</XP_PatchMechlikeToHumanlike_Description>
+
+		<!-- Cleanup Toggles -->
+	<!-- EN: Cleanup Toggles -->
+	<XP_CleanupHeader_Title>Параметры очистки</XP_CleanupHeader_Title>
+	<!-- EN: These options control how to clean up the surgeries after running through all of the patching jobs. -->
+	<XP_CleanupHeader_Description>Эти параметры управляют очисткой операций после выполнения всех патчей.</XP_CleanupHeader_Description>
+
+	<!-- EN: Hand ↔ Foot Surgeries on Humanlikes -->
+	<XP_CleanupHandFootSurgeries_Title>Руки == Ноги у Человекоподобных</XP_CleanupHandFootSurgeries_Title>
+	<!-- EN: Attempt to clean up the hand/foot mixups on humanlikes.  Animals have "hands" which also sometimes double as feet, in Power Claw surgeries for example, so the part mapping can get mixed up. -->
+	<XP_CleanupHandFootSurgeries_Description>Попытаться разобраться в путанице рук и ног на человекоподобных существах. У животных есть «руки», которые также иногда служат ногами, например, в операциях с "Силовыми когтями", поэтому отображение частей может перепутаться.</XP_CleanupHandFootSurgeries_Description>
+
+		<!-- Debug Toggle -->
+	<!-- EN: More Debug Info -->
+	<XP_MoreDebug_Title>Дополнительная отладочная информация</XP_MoreDebug_Title>
+	<!-- EN: Increases the amount of debug info during the injection process. -->
+	<XP_MoreDebug_Description>Увеличивает объем отладочной информации во время процесса внедрения.</XP_MoreDebug_Description>
+</LanguageData>

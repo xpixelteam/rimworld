@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Electrical Appliances -->
+  <BreadMoAM_ElectricalEquipment.label>电气设备</BreadMoAM_ElectricalEquipment.label>
+  <!-- EN: Miscellaneous electrical appliances used to power up the tunnel boring machine of yours. They convert electricity into hydraulic power to power the tunnel boring machine. -->
+  <BreadMoAM_ElectricalEquipment.description>古代隧道掘进机中使用的电气设备。能够将电力转换为液压动力，为隧道掘进机提供能量。</BreadMoAM_ElectricalEquipment.description>
+  
+  <!-- EN: Mineral Conveyor -->
+  <BreadMoAM_MineralConveyor.label>矿物输送机</BreadMoAM_MineralConveyor.label>
+  <!-- EN: A rebuilt mineral conveyor. Can be used to transport minerals to beneficiation machines or other places of choice. -->
+  <BreadMoAM_MineralConveyor.description>一台矿石输送机。将矿物运输至选矿机或其他地点。</BreadMoAM_MineralConveyor.description>
+  
+  <!-- EN: Mineral Outlet -->
+  <BreadMoAM_MineralExports.label>矿产出口</BreadMoAM_MineralExports.label>
+  <!-- EN: A mineral outlet, nothing more, nothing less. -->
+  <BreadMoAM_MineralExports.description>一个矿产出口</BreadMoAM_MineralExports.description>
+  
+  <!-- EN: Tunnel Boring Machine -->
+  <BreadMoAM_TunnelBoringMachine.label>隧道盾构机</BreadMoAM_TunnelBoringMachine.label>
+  <!-- EN: A reanimated tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, this mountain-trembling beast can dig through the mountains and create tunnels. With its imposing digging disk in the front, this gigantic machine is ready to chew through any mountain at your choice. -->
+  <BreadMoAM_TunnelBoringMachine.description>一种可以同时进行挖掘工作和隧道施工的巨型隧道掘进机。它外表看起来像一只沙虫。它的运动就像地震，坚硬的钻盘可以摧毁它面前的一切。</BreadMoAM_TunnelBoringMachine.description>
+  <!-- EN: Building material -->
+  <BreadMoAM_TunnelBoringMachine.comps.CompRefuelable.fuelGizmoLabel>TODO</BreadMoAM_TunnelBoringMachine.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Building material -->
+  <BreadMoAM_TunnelBoringMachine.comps.CompRefuelable.fuelLabel>TODO</BreadMoAM_TunnelBoringMachine.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Need building material -->
+  <BreadMoAM_TunnelBoringMachine.comps.CompRefuelable.outOfFuelMessage>TODO</BreadMoAM_TunnelBoringMachine.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: Tunnel Structural Support -->
+  <BreadMoAM_TunnelStructuralSupport_a.label>隧道结构支护</BreadMoAM_TunnelStructuralSupport_a.label>
+  <!-- EN: A piece of tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. -->
+  <BreadMoAM_TunnelStructuralSupport_a.description>一种隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走。</BreadMoAM_TunnelStructuralSupport_a.description>
+  
+  <!-- EN: Tunnel Structural Support -->
+  <BreadMoAM_TunnelStructuralSupport_b.label>隧道结构支护</BreadMoAM_TunnelStructuralSupport_b.label>
+  <!-- EN: A piece of tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top and a staircase for reaching the corridor. -->
+  <BreadMoAM_TunnelStructuralSupport_b.description>一种隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走，该型号配有楼梯。</BreadMoAM_TunnelStructuralSupport_b.description>
+  
+</LanguageData>

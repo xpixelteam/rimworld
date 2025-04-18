@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/ThingsDefs_Unfinished.xml-->
+                     <!-- unfinished Crate Manifest -->
+<UnfinishedManifest.label>манифест незаконченного ящика</UnfinishedManifest.label>
+                           <!-- An unfinished paper work. -->
+<UnfinishedManifest.description>Незаконченная бумажная работа.</UnfinishedManifest.description>
+
+</LanguageData>

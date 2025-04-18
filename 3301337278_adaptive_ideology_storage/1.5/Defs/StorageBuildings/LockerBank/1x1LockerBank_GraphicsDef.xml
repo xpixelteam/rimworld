@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef>
+        <defName>1x1LockerBank</defName>
+        <targetDef>1x1LockerBank</targetDef>
+        <showContainedItems>false</showContainedItems>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>LockerBank/1x1LockerBank</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(1.3,1.5)</drawSize>
+                    <drawRotated>false</drawRotated>
+                    <drawOffsetNorth>0,0,-0.50</drawOffsetNorth>
+                    <drawOffsetSouth>0,0,0.35</drawOffsetSouth>
+                    <drawOffsetEast>0,0,0.14</drawOffsetEast>
+                    <drawOffsetWest>0,0,0.14</drawOffsetWest>
+                </graphicData>
+            </li>
+        </graphics>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

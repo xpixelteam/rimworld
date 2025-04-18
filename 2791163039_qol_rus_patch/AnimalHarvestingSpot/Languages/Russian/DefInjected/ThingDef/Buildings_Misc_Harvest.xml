@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<AnimalHarvestingSpot.label>место работы с животными</AnimalHarvestingSpot.label>
+<AnimalHarvestingSpot.description>Обозначает место, где животных можно доить, стричь или забивать</AnimalHarvestingSpot.description>
+<AnimalMilkingSpot.label>место для доения</AnimalMilkingSpot.label>
+<AnimalMilkingSpot.description>Обозначает место, где животных можно доить</AnimalMilkingSpot.description>
+<AnimalShearingSpot.label>место для стрижки</AnimalShearingSpot.label>
+<AnimalShearingSpot.description>Обозначает место, где животных можно стричь</AnimalShearingSpot.description>
+<AnimalSlaughteringSpot.label>место забоя скота</AnimalSlaughteringSpot.label>
+<AnimalSlaughteringSpot.description>Обозначает место, где животные могут быть убиты</AnimalSlaughteringSpot.description>
+<AnimalTrainingSpot.label>тренировочное место животных</AnimalTrainingSpot.label>
+<AnimalTrainingSpot.description>Обозначает место, где животные могут начать свое обучение</AnimalTrainingSpot.description>
+</LanguageData>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>De-generalize Work</li>
+	</mods>
+	<match Class="PatchOperationReplace">
+		<xpath>*/ThingDef[defName="Primitive_Tools_Set"]/equippedStatOffsets/GeneralLaborSpeed</xpath>
+		<value>
+			<SmithingSpeed>0.10</SmithingSpeed>
+			<SculptingSpeed>0.10</SculptingSpeed>
+			<TailoringSpeed>0.10</TailoringSpeed>
+		</value>
+	</match>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>De-generalize Work</li>
+	</mods>
+	<match Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Basic_Tool_Set"]/equippedStatOffsets/GeneralLaborSpeed</xpath>
+		<value>
+			<SmithingSpeed>0.20</SmithingSpeed>
+			<SculptingSpeed>0.20</SculptingSpeed>
+			<TailoringSpeed>0.20</TailoringSpeed>
+		</value>
+	</match>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>De-generalize Work</li>
+	</mods>
+	<match Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Industrial_Tool_set"]/equippedStatOffsets/GeneralLaborSpeed</xpath>
+		<value>
+			<SmithingSpeed>0.35</SmithingSpeed>
+			<SculptingSpeed>0.35</SculptingSpeed>
+			<TailoringSpeed>0.35</TailoringSpeed>
+		</value>
+	</match>
+</Operation>
+</Patch>

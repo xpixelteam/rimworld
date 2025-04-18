@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>HydroponicNutrientSolution</defName>
+		<label>Hydroponic nutrient solution</label>
+		<description>A nutrient solution that can provide nutrients for hydroponic farms. The ancient technology used to make it is almost lost.</description>
+		<possessionCount>2</possessionCount>
+		<graphicData>
+			<texPath>Things/HydroponicNutrientSolution</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-4</Beauty>
+			<Mass>0.03</Mass>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+		<allowedArchonexusCount>80</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="AncientBulidingBase">
+		<defName>HNSprops</defName>
+		<label>Ancient nutrient solution outlet</label>
+		<description>The box used to contain nutrient solution, but the contents inside have long since disappeared.</description>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/HNSprops</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+	</ThingDef>
+
+</Defs>

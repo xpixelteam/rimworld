@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>Bundle_D</defName>
+        <label>Bundle D</label>
+        <graphicData>
+            <texPath>Bundle/Bundle_D_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A large bundle of textiles. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 24\n\nStore items to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexClothing</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Bundle/Bundle_D_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(2,2)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>25</MaxHitPoints>
+            <WorkToBuild>250</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>10</Mass>
+        </statBases>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>6</maxItemsInCell>
+            <fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+                        <li>Textiles</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+        </building>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

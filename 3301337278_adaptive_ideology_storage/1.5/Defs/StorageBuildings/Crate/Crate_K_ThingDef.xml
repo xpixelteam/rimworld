@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>CrateK</defName>
+        <label>Crate K</label>
+        <graphicData>
+            <texPath>Crate/Crate_K</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A tiny crate that can store a range of items. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 1\n\nRotate to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+            <li>Machining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Crate/Crate_K_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(1,1)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>15</MaxHitPoints>
+            <WorkToBuild>150</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>3</Mass>
+        </statBases>
+        <costList>
+            <Steel>5</Steel>
+        </costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>1</maxItemsInCell>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.4\Defs\OverlayGroups.xml-->
+	<!--    EN: Lines -->
+	<Line.label>Линии</Line.label>
+	<!--         EN: Rectangles -->
+	<Rectangle.label>Прямоугольники</Rectangle.label>
+	<!--               EN: Fixed rectangles -->
+	<Rectangle_Input.label>Заданные Прямоугольники</Rectangle_Input.label>
+	<!--                     EN: Rectangles with fixed sizes that the user determines. -->
+	<Rectangle_Input.description>Прямоугольники с размерами, которые определяет пользователь.</Rectangle_Input.description>
+	<!--       EN: Ellipses -->
+	<Ellipse.label>Эллипсы</Ellipse.label>
+	<!--             EN: Fixed ellipses -->
+	<Ellipse_Input.label>Заданные Эллипсы</Ellipse_Input.label>
+	<!--                   EN: Ellipses with fixed sizes that the user determines. -->
+	<Ellipse_Input.description>Эллипсы с размерами, которые определяет пользователь.</Ellipse_Input.description>
+	<!--          EN: More shapes -->
+	<MoreShapes.label>Больше форм</MoreShapes.label>
+	<!--                EN: More geometric shapes. -->
+	<MoreShapes.description>Больше геометрических форм</MoreShapes.description>
+	<!--         EN: Flood fill -->
+	<FloodFill.label>Заливка</FloodFill.label>
+	<!--               EN: Fill between a walled-in area. -->
+	<FloodFill.description>Заполните пространство между стенами.</FloodFill.description>
+	<!--   EN: Etcetera -->
+	<Etc.label>Остальное</Etc.label>
+	<!--         EN: Predefined RimWorld shapes -->
+	<Etc.description>Предопределенные формы</Etc.description>
+</LanguageData>

@@ -1,0 +1,18 @@
+<LanguageData>
+  <!--Almost there hours-->
+  <AT_AlmostThereHours_Title>Часов в пути для активации</AT_AlmostThereHours_Title>
+  <!--Set how many hours away a target has to be for "Almost there" to trigger.-->
+  <AT_AlmostThereHours_Description>Установите, на сколько часов должна быть удалена цель, чтобы сработало "Почти добрались".</AT_AlmostThereHours_Description>
+  <!--Never rest-->
+  <AT_Command_DontRest_Label>Никогда не отдыхать</AT_Command_DontRest_Label>
+  <!--Turning this on will prevent the caravan from ever resting. Use at your own risk!-->
+  <AT_Command_DontRest_Description>Включение этой функции не позволит каравану когда-либо отдыхать. Используйте на свой страх и риск!</AT_Command_DontRest_Description>
+  <!--Almost there!-->
+  <AT_Command_AlmostThere_Label>Почти добрались!</AT_Command_AlmostThere_Label>
+  <!--Cmon guys, we're almost there! With this enabled, your caravan won't rest when {0} hours away from its target. NOTE: the number of hours that are considered "almost there" can be configured in the mod settings!-->
+  <AT_Command_AlmostThere_Description>Эй, ребята, мы почти на месте! Если включено, ваш караван не будет отдыхать, когда до цели останется {0} часов. ПРИМЕЧАНИЕ: количество часов до "Почти добрались", можно изменить в настройках мода!</AT_Command_AlmostThere_Description>
+  <!--Force sleep-->
+  <AT_Command_ForceRest_Title>Принудительный сон</AT_Command_ForceRest_Title>
+  <!--Turning this on will force the pawns in your caravan to sleep. Note that this is different from the vanilla rest function for caravans, because with that your pawns only pick berries and do other stuff instead of actually resting.-->
+  <AT_Command_ForceRest_Description>Включение заставит пешек в вашем караване уснуть. Обратите внимание, что это отличается от ванильного отдыха каравана, потому что при нем ваши пешки только собирают ягоды и занимаются другими делами вместо того, чтобы на самом деле отдыхать.</AT_Command_ForceRest_Description>
+</LanguageData>

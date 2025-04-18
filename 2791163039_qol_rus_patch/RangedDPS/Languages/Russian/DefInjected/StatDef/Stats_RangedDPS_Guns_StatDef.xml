@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/Stats_RangedDPS_Guns.xml-->
+                          <!-- average ranged DPS -->
+<RangedWeapon_AverageDPS.label>DPS дальнобойный (оптимальный)</RangedWeapon_AverageDPS.label>
+                                <!-- Average potential damage dealt per second in ranged combat at the optimal range of this weapon.
+
+This stat doesn't factor in the shooter's skill or target defenses like cover and armor, so the actual value will be lower. -->
+<RangedWeapon_AverageDPS.description>Средний потенциальный урон, наносимый в секунду в дальнем бою на оптимальной дальности действия этого оружия.\n\nЭта характеристика не учитывает навык стрелка или защиту цели, такую как укрытие и броня, поэтому фактическое значение будет ниже.</RangedWeapon_AverageDPS.description>
+                      <!-- max ranged DPS -->
+<RangedWeapon_MaxDPS.label>DPS дальнобойный (максимальный)</RangedWeapon_MaxDPS.label>
+                            <!-- Maximum possible damage dealt per second in ranged combat, assuming all shots were to hit.  This is the maximum possible DPS you could get out of this gun in a target-rich environment.
+
+This stat doesn't factor in accuracy or target defenses like cover and armor, so the actual value will be lower. -->
+<RangedWeapon_MaxDPS.description>Максимально возможный урон, наносимый в секунду в дальнем бою, при условии, что все выстрелы должны были попасть в цель. Это максимально возможный DPS, который вы могли бы получить из этого оружия в среде, богатой мишенями. n\nЭта характеристика не учитывает точность или защиту цели, такую как укрытие и броня, поэтому фактическое значение будет ниже.</RangedWeapon_MaxDPS.description>
+                       <!-- ranged DPS -->
+<RangedWeapon_PawnDPS.label>DPS дальнобойный</RangedWeapon_PawnDPS.label>
+                             <!-- Average damage per second this pawn can deal in ranged combat, factoring in both the weapon and this pawn's shooting accuracy.
+
+This stat doesn't factor in target defenses like cover and armor, but is accurate for unarmored targets not in cover. -->
+<RangedWeapon_PawnDPS.description>Средний урон в секунду, который эта пешка может нанести в дальнем бою, зависит как от оружия, так и от точности стрельбы этой пешки.\n\nЭта характеристика не учитывает защиту цели, такую как укрытие и броня, но является точной для небронированных целей, не находящихся в укрытии.</RangedWeapon_PawnDPS.description>
+
+</LanguageData>

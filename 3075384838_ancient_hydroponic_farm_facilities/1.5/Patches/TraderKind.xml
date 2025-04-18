@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+           <tradeTag>AHF_Map</tradeTag>
+           <thingDefCountRange>3~5</thingDefCountRange>
+           <countRange>2~3</countRange>
+           </li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+           <tradeTag>AHF_Map</tradeTag>
+           <thingDefCountRange>1~2</thingDefCountRange>
+           <countRange>2~3</countRange>
+           </li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_ShamanMerchant"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+           <tradeTag>AHF_Map</tradeTag>
+           <thingDefCountRange>1~2</thingDefCountRange>
+           <countRange>1~2</countRange>
+           </li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+           <tradeTag>AHF_Map</tradeTag>
+           <thingDefCountRange>1~2</thingDefCountRange>
+           <countRange>2~3</countRange>
+           </li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="Base_Neolithic_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+           <tradeTag>AHF_Map</tradeTag>
+           <thingDefCountRange>1~2</thingDefCountRange>
+           <countRange>1~2</countRange>
+           </li>
+		</value>
+	</Operation>
+	
+	
+</Patch>

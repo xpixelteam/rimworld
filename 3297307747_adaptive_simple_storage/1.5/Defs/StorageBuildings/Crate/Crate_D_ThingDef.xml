@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>CrateD</defName>
+        <label>Crate D</label>
+        <graphicData>
+            <texPath>Crate/Crate_D</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.5,3.5)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A small pile of wooden crates that can store a range of items. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 18\n\nRotate to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Crate/Crate_D_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(2,1)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0.7</Beauty>
+            <MaxHitPoints>90</MaxHitPoints>
+            <WorkToBuild>1950</WorkToBuild>
+            <Flammability>1</Flammability>
+            <Mass>30</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>75</costStuffCount>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>9</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Root</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <paintable>true</paintable>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

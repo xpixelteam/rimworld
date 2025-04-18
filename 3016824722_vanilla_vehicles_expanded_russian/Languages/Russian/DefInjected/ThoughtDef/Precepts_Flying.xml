@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_Flying_Horrible.stages.0.label>{PAWN_gender ? Летал : Летала} на воздушном транспорте</VVE_Flying_Horrible.stages.0.label>
+	<VVE_Flying_Horrible.stages.0.description>Я {PAWN_gender ? был : была} в воздушном транспорте. Это было ужасно.</VVE_Flying_Horrible.stages.0.description>
+
+	<VVE_Flying_Approved.stages.0.label>{PAWN_gender ? Летал : Летала} на воздушном транспорте</VVE_Flying_Approved.stages.0.label>
+	<VVE_Flying_Approved.stages.0.description>Я {PAWN_gender ? был : была} в воздушном транспорте. Мне это понравилось.</VVE_Flying_Approved.stages.0.description>
+
+	
+	<VVE_Flying_Required.stages.0.label>Страсть к полётам (более 1 дня)</VVE_Flying_Required.stages.0.label>
+	<VVE_Flying_Required.stages.0.description>Прошло некоторое время с тех пор, как я последний раз {PAWN_gender ? летал : летала} по небу.</VVE_Flying_Required.stages.0.description>
+	
+	<VVE_Flying_Required.stages.1.label>Страсть к полётам (более 5 дней)</VVE_Flying_Required.stages.1.label>
+	<VVE_Flying_Required.stages.1.description>Мне нужно полететь, я начинаю очень нервничать.</VVE_Flying_Required.stages.1.description>
+	
+	<VVE_Flying_Required.stages.2.label>Страсть к полётам (более 10 дней)</VVE_Flying_Required.stages.2.label>
+	<VVE_Flying_Required.stages.2.description>Достаточно! Я чувствую призыв открытых небес! Я хочу взлететь!</VVE_Flying_Required.stages.2.description>
+	
+	<VVE_Flying_Required.stages.3.label>Страсть к полётам (более 20 дней)</VVE_Flying_Required.stages.3.label>
+	<VVE_Flying_Required.stages.3.description>ИКАРУС ПОДЛЕТЕЛ СЛИШКОМ БЛИЗКО К СОЛНЦУ, НО Я ОТПРАВЛЮ ТЕБЯ ТУДА ЖЕ, ЕСЛИ В СКОРОМ ВРЕМЕНИ Я НЕ БУДУ ЛЕТАТЬ!</VVE_Flying_Required.stages.3.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_NeedRoomSize_Horrible.stages.0.label>тесно</VVE_NeedRoomSize_Horrible.stages.0.label>
+	<VVE_NeedRoomSize_Horrible.stages.0.description>Это место настолько маленькое. Я чувствую себя как крыса в клетке.</VVE_NeedRoomSize_Horrible.stages.0.description>
+
+	<VVE_NeedRoomSize_Horrible.stages.1.label>стесненное пространство</VVE_NeedRoomSize_Horrible.stages.1.label>
+	<VVE_NeedRoomSize_Horrible.stages.1.description>В этой комнате слишком тесно. Хотелось бы иметь больше места для движения и дыхания.</VVE_NeedRoomSize_Horrible.stages.1.description>
+
+	<VVE_NeedRoomSize_Horrible.stages.2.label>просторно</VVE_NeedRoomSize_Horrible.stages.2.label>
+	<VVE_NeedRoomSize_Horrible.stages.2.description>Эта комната настолько просторная, я чувствую свободу.</VVE_NeedRoomSize_Horrible.stages.2.description>
+</LanguageData>

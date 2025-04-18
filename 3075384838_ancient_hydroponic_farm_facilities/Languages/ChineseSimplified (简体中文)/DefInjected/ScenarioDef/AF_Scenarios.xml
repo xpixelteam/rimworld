@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Farm covered with dust -->
+  <AncientFarm.label>尘封的远古农业站点</AncientFarm.label>
+  <AncientFarm.description>尘封的远古农业站点</AncientFarm.description>
+  <!-- EN: A sudden sandstorm hit the hydroponic farm site where you work. You and your colleagues followed the company's regulations and entered a low-temperature dormant cabin to seek refuge. Unfortunately, this climate disaster seems to have lasted for a considerable amount of time, or perhaps there was a problem with the timing system. You don't know how long you have been sleeping, perhaps for a few years, ten years, or even thousands of years. The agricultural company has lost contact, Even whether they exist in the world is a question. You are hesitating whether to awaken your colleagues, after all, the current world may not be what they want to see. Now you need to find a way to survive.\nYour initial character will lack some necessary skills, which is a highly challenging script -->
+  <AncientFarm.scenario.description>一场突如其来的沙尘暴袭击了你工作的水培农场。你和你的同事遵守了公司的规定，进入一个低温休眠舱寻求庇护。不幸的是，这场气候灾难似乎已经持续了相当长的时间，或者可能是时间系统出现了问题。你不知道自己睡了多久，可能睡了几年，十年，甚至几千年。农业公司已经失去了联系，甚至他们是否存在于这个世界上也是一个问题。你在犹豫是否要唤醒你的同事，毕竟，现在的世界可能不是他们想要看到的。现在你需要找到生存的方法。\n你的初始角色将缺乏一些必要的技能，这是一个极具挑战性的剧本</AncientFarm.scenario.description>
+  <!-- EN: Farm covered with dust -->
+  <AncientFarm.scenario.name>尘封的远古农业站点</AncientFarm.scenario.name>
+  <!-- EN: When you try to contact the company but find no results, you have already started thinking about your future. This planet has become unfamiliar to you, and the people and things you are familiar with no longer exist. You are like a ghost of the old times, out of place in this wild world.\nBut ghosts also have to survive. -->
+  <AncientFarm.scenario.parts.GameStartDialog.text>当你试图联系公司但没有结果时，你已经开始考虑自己的未来了。这个星球对你来说已经变得陌生了，你熟悉的人和事也不复存在了。你就像一个旧时代的幽灵，在这个蛮荒的世界里格格不入。\n但是幽灵也要想办法活下来。</AncientFarm.scenario.parts.GameStartDialog.text>
+  <!-- EN: An ancient agricultural worker who woke up from a low-temperature dormant chamber， Extremely difficult -->
+  <AncientFarm.scenario.summary>一位从低温休眠舱中醒来的古代农业工人，极其高难度</AncientFarm.scenario.summary>
+  
+</LanguageData>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_ClassicCars.label>Классика</VVE_ClassicCars.label>
+  <VVE_ClassicCars.description>Научитесь строить изысканные классические автомобили, такие как "Антилопа". Для исследования этого проекта необходимо найти и восстановить обломки "Антилопа".</VVE_ClassicCars.description>
+  <VVE_ClassicCars.generalRules.rulesStrings.0>subject-&gt;реставрация классических автомобилей</VVE_ClassicCars.generalRules.rulesStrings.0>
+  <VVE_ClassicCars.generalRules.rulesStrings.1>subject_story-&gt;начали путь возвращения элегантности на дороги, восстанавливая обломки антилопы</VVE_ClassicCars.generalRules.rulesStrings.1>
+  <VVE_ClassicCars.generalRules.rulesStrings.2>subject_story-&gt;соединили дизайн с современной инженерией, чтобы воссоздать очарование классических автомобилей</VVE_ClassicCars.generalRules.rulesStrings.2>
+  <VVE_ClassicCars.generalRules.rulesStrings.3>subject_gerund-&gt;оживление автомобильной элегантности</VVE_ClassicCars.generalRules.rulesStrings.3>
+
+  <VVE_SuperCars.label>Суперкары</VVE_SuperCars.label>
+  <VVE_SuperCars.description>Научитесь строить быстрые и роскошные суперкары, такие как "Молния". Для исследования этого проекта необходимо найти и восстановить обломки "Молния".</VVE_SuperCars.description>
+  <VVE_SuperCars.generalRules.rulesStrings.0>subject-&gt;разработка суперкаров</VVE_SuperCars.generalRules.rulesStrings.0>
+  <VVE_SuperCars.generalRules.rulesStrings.1>subject_story-&gt;перешли к созданию транспортных средств, воплощающих скорость и роскошь, начиная с восстановления обломков молнии</VVE_SuperCars.generalRules.rulesStrings.1>
+  <VVE_SuperCars.generalRules.rulesStrings.2>subject_story-&gt;превзошли пределы производительности и эстетики, создавая идеальные машины для вождения</VVE_SuperCars.generalRules.rulesStrings.2>
+  <VVE_SuperCars.generalRules.rulesStrings.3>subject_gerund-&gt;создание скорости и роскоши</VVE_SuperCars.generalRules.rulesStrings.3>
+
+  <VVE_BattleTanks.label>Боевые машины</VVE_BattleTanks.label>
+  <VVE_BattleTanks.description>Научитесь строить тяжело бронированные боевые танки, такие как "Маршал", оснащенные различным оружием. Для исследования этого проекта необходимо найти и восстановить обломки "Маршал".</VVE_BattleTanks.description>
+  <VVE_BattleTanks.generalRules.rulesStrings.0>subject-&gt;производство боевых танков</VVE_BattleTanks.generalRules.rulesStrings.0>
+  <VVE_BattleTanks.generalRules.rulesStrings.1>subject_story-&gt;начали эру боевых действий с броней, восстанавливая такую технику, как маршала</VVE_BattleTanks.generalRules.rulesStrings.1>
+  <VVE_BattleTanks.generalRules.rulesStrings.2>subject_story-&gt;совместили разрушительную огневую мощь с непроницаемой броней, чтобы доминировать на поле боя</VVE_BattleTanks.generalRules.rulesStrings.2>
+  <VVE_BattleTanks.generalRules.rulesStrings.3>subject_gerund-&gt;доминирование бронированной мощью</VVE_BattleTanks.generalRules.rulesStrings.3>
+
+  <VVE_LightArmoredVehicles.label>Легкие бронемашины</VVE_LightArmoredVehicles.label>
+  <VVE_LightArmoredVehicles.description>Научитесь строить легкие бронированные транспортные средства, такие как "Паладин" или "Барсук", способные эффективно перевозить солдат и обеспечивать их огневой поддержкой. Для исследования этого проекта необходимо найти и восстановить обломки "Паладин" или "Барсук".</VVE_LightArmoredVehicles.description>
+  <VVE_LightArmoredVehicles.generalRules.rulesStrings.0>subject-&gt;легкая броня</VVE_LightArmoredVehicles.generalRules.rulesStrings.0>
+  <VVE_LightArmoredVehicles.generalRules.rulesStrings.1>subject_story-&gt;вступили в область тактической универсальности, восстанавливая обломки паладина или барсука</VVE_LightArmoredVehicles.generalRules.rulesStrings.1>
+  <VVE_LightArmoredVehicles.generalRules.rulesStrings.2>subject_story-&gt;разработали транспортные средства, сбалансированные по скорости, защите и огневой мощи, чтобы поддерживать войска в мобильности</VVE_LightArmoredVehicles.generalRules.rulesStrings.2>
+  <VVE_LightArmoredVehicles.generalRules.rulesStrings.3>subject_gerund-&gt;усиление боевой мобильности</VVE_LightArmoredVehicles.generalRules.rulesStrings.3>
+
+  <VVE_OffroadJeeps.label>Внедорожники</VVE_OffroadJeeps.label>
+  <VVE_OffroadJeeps.description>Научитесь строить внедорожники, такие как "Кочевник", способные проходить любую местность с легкостью. Для исследования этого проекта необходимо найти и восстановить обломки "Кочевник".</VVE_OffroadJeeps.description>
+  <VVE_OffroadJeeps.generalRules.rulesStrings.0>subject-&gt;строительство внедорожных джипов</VVE_OffroadJeeps.generalRules.rulesStrings.0>
+  <VVE_OffroadJeeps.generalRules.rulesStrings.1>subject_story-&gt;начали овладение искусством создания универсальных внедорожных джипов, таких как кочевник, требующих восстановления из обломков</VVE_OffroadJeeps.generalRules.rulesStrings.1>
+  <VVE_OffroadJeeps.generalRules.rulesStrings.2>subject_story-&gt;открыли потенциал для исследования в ранее недоступных местах</VVE_OffroadJeeps.generalRules.rulesStrings.2>
+  <VVE_OffroadJeeps.generalRules.rulesStrings.3>subject_gerund-&gt;навигация по трудно-проходимой местности</VVE_OffroadJeeps.generalRules.rulesStrings.3>
+
+  <VVE_Louie.label>Луи</VVE_Louie.label>
+  <VVE_Louie.description>Научитесь строить крупный транспортный вертолет под названием "Луи", способный доставлять грузы и войска на большие расстояния. Для исследования этого проекта необходимо найти и восстановить обломки "Луи".</VVE_Louie.description>
+  <VVE_Louie.generalRules.rulesStrings.0>subject-&gt;разработка вертолета луи</VVE_Louie.generalRules.rulesStrings.0>
+  <VVE_Louie.generalRules.rulesStrings.1>subject_story-&gt;погрузились в воздушную логистику, научившись строить луи, крупный транспортный вертолет</VVE_Louie.generalRules.rulesStrings.1>
+  <VVE_Louie.generalRules.rulesStrings.2>subject_story-&gt;обеспечили быструю и гибкую доставку грузов и войск на огромные расстояния</VVE_Louie.generalRules.rulesStrings.2>
+  <VVE_Louie.generalRules.rulesStrings.3>subject_gerund-&gt;владение воздушной транспортировкой</VVE_Louie.generalRules.rulesStrings.3>
+
+  <VVE_BigRigs.label>Дальнобойщики</VVE_BigRigs.label>
+  <VVE_BigRigs.description>Научитесь строить крупные грузовики для дальних перевозок, такие как "Большая Фура" или "Эрмано", способные перевозить огромные грузы на огромные расстояния. Для исследования этого проекта необходимо найти и восстановить обломки "Большая Фура" или "Эрмано".</VVE_BigRigs.description>
+  <VVE_BigRigs.generalRules.rulesStrings.0>subject-&gt;фуры</VVE_BigRigs.generalRules.rulesStrings.0>
+  <VVE_BigRigs.generalRules.rulesStrings.1>subject_story-&gt;перешли к конструированию гигантских дальнобойных грузовиков, таких как большая фура или эрмано, после восстановления и изучения обломков</VVE_BigRigs.generalRules.rulesStrings.1>
+  <VVE_BigRigs.generalRules.rulesStrings.2>subject_story-&gt;драматически увеличили грузоподъемность и дальность перевозок для наземной транспортировки</VVE_BigRigs.generalRules.rulesStrings.2>
+  <VVE_BigRigs.generalRules.rulesStrings.3>subject_gerund-&gt;революционизация доставки грузов по суше</VVE_BigRigs.generalRules.rulesStrings.3>
+
+  <VVE_Cherokee.label>Чероки</VVE_Cherokee.label>
+  <VVE_Cherokee.description>Научитесь строить грузовой вертолет с двумя роторами под названием "Чероки", способный перевозить тысячи килограммов грузов. Для исследования этого проекта необходимо найти и восстановить обломки "Чероки".</VVE_Cherokee.description>
+  <VVE_Cherokee.generalRules.rulesStrings.0>subject-&gt;создание вертолета чероки</VVE_Cherokee.generalRules.rulesStrings.0>
+  <VVE_Cherokee.generalRules.rulesStrings.1>subject_story-&gt;расширили возможности воздушной логистики, разработав чероки - грузовой вертолет с двумя роторами, требующий восстановления из обломков</VVE_Cherokee.generalRules.rulesStrings.1>
+  <VVE_Cherokee.generalRules.rulesStrings.2>subject_story-&gt;облегчили перевозку массивных грузов в воздухе, обходя препятствия на земле</VVE_Cherokee.generalRules.rulesStrings.2>
+  <VVE_Cherokee.generalRules.rulesStrings.3>subject_gerund-&gt;подъем логистики на новый уровень</VVE_Cherokee.generalRules.rulesStrings.3>
+
+  <VVE_SelfpropelledArtillery.label>Самоходки</VVE_SelfpropelledArtillery.label>
+  <VVE_SelfpropelledArtillery.description>Научитесь строить мощную самоходную артиллерию, такую как "Удар", способную наносить урон врагам на ближайших территориях. Для исследования этого проекта необходимо найти и восстановить обломки "Удар".</VVE_SelfpropelledArtillery.description>
+  <VVE_SelfpropelledArtillery.generalRules.rulesStrings.0>subject-&gt;конструирование самоходной артиллерии</VVE_SelfpropelledArtillery.generalRules.rulesStrings.0>
+  <VVE_SelfpropelledArtillery.generalRules.rulesStrings.1>subject_story-&gt;начали создавать удар, мощное самоходное артиллерийское орудие, после восстановления обломков</VVE_SelfpropelledArtillery.generalRules.rulesStrings.1>
+  <VVE_SelfpropelledArtillery.generalRules.rulesStrings.2>subject_story-&gt;усилили поддержку на поле боя с помощью мобильной артиллерии, способной точно наносить удары на дальних картах</VVE_SelfpropelledArtillery.generalRules.rulesStrings.2>
+  <VVE_SelfpropelledArtillery.generalRules.rulesStrings.3>subject_gerund-&gt;развертывание стратегической огневой мощи</VVE_SelfpropelledArtillery.generalRules.rulesStrings.3>
+
+  <VVE_RocketArtillery.label>Реактивная артиллерия</VVE_RocketArtillery.label>
+  <VVE_RocketArtillery.description>Научитесь строить многоствольные реактивные системы залпового огня с возможностью покрытия всей области ракетами. Для исследования этого проекта необходимо найти и восстановить обломки "Буря".</VVE_RocketArtillery.description>
+  <VVE_RocketArtillery.generalRules.rulesStrings.0>subject-&gt;разработка реактивной артиллерии</VVE_RocketArtillery.generalRules.rulesStrings.0>
+  <VVE_RocketArtillery.generalRules.rulesStrings.1>subject_story-&gt;перешли к сборке многоствольных систем залпового огня, подобных "Буре"</VVE_RocketArtillery.generalRules.rulesStrings.1>
+  <VVE_RocketArtillery.generalRules.rulesStrings.2>subject_story-&gt;внедрили возможности насыщения районов залпами ракет, демонстрируя тактику закрытия территории и подавления</VVE_RocketArtillery.generalRules.rulesStrings.2>
+  <VVE_RocketArtillery.generalRules.rulesStrings.3>subject_gerund-&gt;массированный воздушный удар</VVE_RocketArtillery.generalRules.rulesStrings.3>
+
+  <VVE_SiegePods.label>Десантный корабль</VVE_SiegePods.label>
+  <VVE_SiegePods.description>Научитесь строить мощные десантные корабли, которые служат временными передвижными базами во время атак на территории врага. Для исследования этого проекта необходимо найти и восстановить обломки "Голиафа".</VVE_SiegePods.description>
+  <VVE_SiegePods.generalRules.rulesStrings.0>subject-&gt;инженерия десантных кораблей</VVE_SiegePods.generalRules.rulesStrings.0>
+  <VVE_SiegePods.generalRules.rulesStrings.1>subject_story-&gt;перешли к созданию десантного корабля для динамической осады баз, восстанавливая обломки "Голиафа"</VVE_SiegePods.generalRules.rulesStrings.1>
+  <VVE_SiegePods.generalRules.rulesStrings.2>subject_story-&gt;создали передвижные базы, которые могут развертываться во время атак, обеспечивая логистическую и боевую поддержку на территории врага</VVE_SiegePods.generalRules.rulesStrings.2>
+  <VVE_SiegePods.generalRules.rulesStrings.3>subject_gerund-&gt;создание передвижных крепостей</VVE_SiegePods.generalRules.rulesStrings.3>
+
+
+</LanguageData>
+

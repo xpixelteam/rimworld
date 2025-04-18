@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_VehicleRepairs_Standard.label>стандартный</VVE_VehicleRepairs_Standard.label>
+	<VVE_VehicleRepairs_Standard.description>Наш подход к ремонту сбалансирован, обеспечивая восстановление транспортных средств до их законного состояния.</VVE_VehicleRepairs_Standard.description>
+
+	<VVE_VehicleRepairs_Slow.label>медленный</VVE_VehicleRepairs_Slow.label>
+	<VVE_VehicleRepairs_Slow.description>Ремонт - это внимательный ритуал, который нельзя торопить, но который следует выполнять с благоговением.</VVE_VehicleRepairs_Slow.description>
+
+	<VVE_VehicleRepairs_Fast.label>быстрый</VVE_VehicleRepairs_Fast.label>
+	<VVE_VehicleRepairs_Fast.description>Мы ремонтируем с настойчивостью, осознавая важную роль, которую играют наши транспортные средства в нашей жизни.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Добавляет +1 к лимиту заданий на ремонт для транспортного средства (при условии, что в настройках мода активирован параметр "Множество персонажей на задание").</VVE_VehicleRepairs_Fast.description>
+</LanguageData>

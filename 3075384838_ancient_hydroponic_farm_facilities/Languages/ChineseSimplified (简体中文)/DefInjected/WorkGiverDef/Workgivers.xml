@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fill fermenters -->
+  <BMAF_WorkGiver_FillNutrientFermenter.label>填充发酵池</BMAF_WorkGiver_FillNutrientFermenter.label>
+  <!-- EN: filling -->
+  <BMAF_WorkGiver_FillNutrientFermenter.gerund>正在填充</BMAF_WorkGiver_FillNutrientFermenter.gerund>
+  <!-- EN: fill -->
+  <BMAF_WorkGiver_FillNutrientFermenter.verb>填充</BMAF_WorkGiver_FillNutrientFermenter.verb>
+  
+</LanguageData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Badger_Blueprint</defName>
+		<label>Badger</label>
+		<description>A tracked, armoured fighting vehicle, the Badger is designed to transport scouts and infantry while providing covering fire to suppress enemy troops. Reinforced side armour plating, ability to deploy blindsmoke and a powerful anti-infantry automated gun make it a powerful vehicle in small combat engagement. It’s relatively vulnerable to attacks from behind, and the short range of the turret means it is outclassed by most designated tanks.\n\nCompared to previous generations, this IFV is designed to quickly drop infantry off at a desired location and provide light covering fire. Lack of armor piercing on fired projectiles make it weak against enemy tanks.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x4\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_IFV/Tier3_IFV</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 6)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>20000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<researchPrerequisites>
+			<li>VVE_LightArmoredVehicles</li>
+		</researchPrerequisites>
+		
+		<size>(3, 5)</size>
+		
+		<costList>
+			<VVE_EngineBlock>2</VVE_EngineBlock>
+			<VVE_CarAlternator>2</VVE_CarAlternator>
+			<VVE_CarExhaust>4</VVE_CarExhaust>
+			<VVE_CarSuspension>8</VVE_CarSuspension>
+			<VVE_CarWheel>8</VVE_CarWheel>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarRadiator>2</VVE_CarRadiator>
+			<VVE_CarTransmission>2</VVE_CarTransmission>
+			<Steel>520</Steel>
+			<ComponentIndustrial>18</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>VVE_Badger</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

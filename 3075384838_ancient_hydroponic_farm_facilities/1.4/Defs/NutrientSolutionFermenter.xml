@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="AncientFacilities">
+		<defName>AncientNutrientSolutionFermenter</defName>
+		<label>Ancient nutrient solution fermenter</label>
+		<description>The ancient nutrient solution fermenter was used to process a series of raw food or fertilizers in a fermentation tank and separate them to obtain nutrient solution. The technology for manufacturing it has almost lost its existence, and its core components have long disappeared, but some parts are still intact. Perhaps destroying it can yield some useful parts.</description>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/NutrientSolutionFermenter/AncientNutrientSolutionFermenter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+						<statBases>
+		      <Mass>150</Mass>
+		</statBases>
+		<costList>
+			<Steel>450</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>105</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<HydroponicNutrientSolution>75</HydroponicNutrientSolution>
+		</killedLeavings>
+	</ThingDef>
+
+
+
+</Defs>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Scytheman_MainTurret.label>Турель саранчи</Scytheman_MainTurret.label>
+  <Scytheman_MainTurret.description>Неточная пусковая установка, способная произвести два залпа ракет, поражающих большую площадь.  Огонь ведется только по команде.  Эффективна против больших групп слабых врагов, но малоэффективна против одиночных бронированных целей.  Длительная стрельба может привести к перегреву и выходу из строя.</Scytheman_MainTurret.description>
+  <Scytheman_MainTurret.fireModes.0.label>Залп</Scytheman_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

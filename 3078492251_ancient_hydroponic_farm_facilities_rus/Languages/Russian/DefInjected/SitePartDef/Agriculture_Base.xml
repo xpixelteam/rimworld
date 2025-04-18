@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 隐藏的古老水培农场 -->
+
+  <Hidden_ancient_hydroponic_farm_Site.label>Скрытая древняя гидропонная ферма</Hidden_ancient_hydroponic_farm_Site.label>
+  <Hidden_ancient_hydroponic_farm_Site.description>Древняя гидропонная ферма, которая была скрыта так долго, что мы знаем о ней очень мало.</Hidden_ancient_hydroponic_farm_Site.description>
+
+
+  <!-- 损坏的远古粮食农场 -->
+
+  <damaged_ancient_grain_farm_A_SitePart.label>Поврежденная древняя продовольственная ферма</damaged_ancient_grain_farm_A_SitePart.label>
+  <damaged_ancient_grain_farm_A_SitePart.description>Древняя продовольственная ферма, разграбленная и сильно поврежденная пиратами.</damaged_ancient_grain_farm_A_SitePart.description>
+
+  <damaged_ancient_grain_farm_B_SitePart.label>Поврежденная древняя продовольственная ферма</damaged_ancient_grain_farm_B_SitePart.label>
+  <damaged_ancient_grain_farm_B_SitePart.description>Древняя продовольственная ферма, разграбленная и сильно поврежденная пиратами.</damaged_ancient_grain_farm_B_SitePart.description>
+
+
+  <!-- 被占据的远古粮食农场 -->
+
+  <occupied_ancient_grain_farm_SitePart.label>Оккупированная древняя продовольственная ферма</occupied_ancient_grain_farm_SitePart.label>
+  <occupied_ancient_grain_farm_SitePart.description>Оккупированная древняя продовольственная ферма с укреплениями и активностью противника.</occupied_ancient_grain_farm_SitePart.description>
+
+
+  <!-- 废弃的营养液工厂 -->
+
+  <discarded_nutrient_solution_factory_SitePart.label>Заброшенный завод питательных растворов</discarded_nutrient_solution_factory_SitePart.label>
+  <discarded_nutrient_solution_factory_SitePart.description>Заброшенный завод по производству питательных растворов, разграбленный пиратами.</discarded_nutrient_solution_factory_SitePart.description>
+
+
+  <!-- 废弃的营养膏工厂 -->
+
+  <discarded_nutrient_cream_factory_SitePart.label>Заброшенный завод по производству пищевых паст</discarded_nutrient_cream_factory_SitePart.label>
+  <discarded_nutrient_cream_factory_SitePart.description>Заброшенный завод по производству пищевых паст, разграбленный пиратами.</discarded_nutrient_cream_factory_SitePart.description>
+
+
+  <!-- 被占据的棉花农场 -->
+
+  <occupied_ancient_cotton_farm_SitePart.label>Оккупированная хлопковая ферма</occupied_ancient_cotton_farm_SitePart.label>
+  <occupied_ancient_cotton_farm_SitePart.description>Оккупированная древняя хлопковая ферма с укреплениями и активностью противника.</occupied_ancient_cotton_farm_SitePart.description>
+
+
+  <!-- 损毁的恶魔菇农场 -->
+
+  <damaged_ancient_Devilstrand_farm_SitePart.label>Разрушенная ферма дьявольских грибов</damaged_ancient_Devilstrand_farm_SitePart.label>
+  <damaged_ancient_Devilstrand_farm_SitePart.description>Древняя ферма дьявольских грибов, которая была разграблена и серьезно повреждена пиратами.</damaged_ancient_Devilstrand_farm_SitePart.description>
+
+
+  <!-- 损毁的棉花农场 -->
+
+  <damaged_ancient_cotton_farm_SitePart.label>Разрушенная хлопковая ферма</damaged_ancient_cotton_farm_SitePart.label>
+  <damaged_ancient_cotton_farm_SitePart.description>Древняя хлопковая ферма, разграбленная и сильно поврежденная пиратами.</damaged_ancient_cotton_farm_SitePart.description>
+
+
+  <!-- 被占领的恶魔菇农场 -->
+
+  <occupied_devilstrand_cotton_farm_SitePart.label>Оккупированная грибная ферма Дьявола</occupied_devilstrand_cotton_farm_SitePart.label>
+  <occupied_devilstrand_cotton_farm_SitePart.description>Оккупированная ферма Демонических Грибов, сильно укрепленная множеством турелей и множеством врагов.</occupied_devilstrand_cotton_farm_SitePart.description>
+
+
+  <!-- 守军 -->
+
+  <Garrison_Site_S.label>Активные враги</Garrison_Site_S.label>
+  <Garrison_Site_S.description>Активные враги</Garrison_Site_S.description>
+
+  <Garrison_Site_L.label>Тщательно охраняемый</Garrison_Site_L.label>
+  <Garrison_Site_L.description>Тщательно охраняемый</Garrison_Site_L.description>
+
+
+</LanguageData>

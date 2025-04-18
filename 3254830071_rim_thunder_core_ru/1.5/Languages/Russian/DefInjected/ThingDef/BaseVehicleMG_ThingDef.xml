@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\VehicleTurrets\BaseVehicleMG.xml-->
+	<!--             EN: LMG bullet -->
+	<RT_Bullet_LMG.label>LMG пуля</RT_Bullet_LMG.label>
+	<!--             EN: MMG bullet -->
+	<RT_Bullet_MMG.label>MMG пуля</RT_Bullet_MMG.label>
+	<!--             EN: HMG bullet -->
+	<RT_Bullet_HMG.label>HMG пуля</RT_Bullet_HMG.label>
+</LanguageData>

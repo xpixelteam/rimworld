@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\StandaloneModule\Defs\Recipe.xml-->
+	<!--                             EN: assembling engine. -->
+	<Make_EngineAssemble_Light.jobString>сборка двигателя.</Make_EngineAssemble_Light.jobString>
+	<!--                         EN: assemble light engine -->
+	<Make_EngineAssemble_Light.label>соберите легкий двигатель</Make_EngineAssemble_Light.label>
+	<!--                               EN: assemble a light engine, which is common used by motor boat, motorcycle and light aircraft. -->
+	<Make_EngineAssemble_Light.description>соберите легкий двигатель, который обычно используется на моторных лодках, мотоциклах и легких самолетах.</Make_EngineAssemble_Light.description>
+	
+	<!--                              EN: assembling engine. -->
+	<Make_EngineAssemble_Medium.jobString>сборка двигателя.</Make_EngineAssemble_Medium.jobString>
+	<!--                          EN: assemble medium engine -->
+	<Make_EngineAssemble_Medium.label>соберите двигатель средней мощности</Make_EngineAssemble_Medium.label>
+	<!--                                EN: assemble a medium engine, which is common used by tanks, trucks and aircrafts. -->
+	<Make_EngineAssemble_Medium.description>соберите двигатель средней мощности, который обычно используется на танках, грузовиках и самолетах.</Make_EngineAssemble_Medium.description>
+	
+	<!--                             EN: assembling engine. -->
+	<Make_EngineAssemble_Heavy.jobString>сборка двигателя.</Make_EngineAssemble_Heavy.jobString>
+	<!--                         EN: assemble heavy engine -->
+	<Make_EngineAssemble_Heavy.label>соберите тяжелый двигатель</Make_EngineAssemble_Heavy.label>
+	<!--                               EN: assemble a heavy engine, which is common used by heavy tank and transport aircraft. -->
+	<Make_EngineAssemble_Heavy.description>соберите тяжелый двигатель, который обычно используется на тяжелых танках и транспортных самолетах.</Make_EngineAssemble_Heavy.description>
+	
+	<!--                                EN: assembling engine. -->
+	<Make_EngineAssemble_TurboJet.jobString>сборка двигателя.</Make_EngineAssemble_TurboJet.jobString>
+	<!--                            EN: assemble turbojet -->
+	<Make_EngineAssemble_TurboJet.label>сборка турбореактивного двигателя</Make_EngineAssemble_TurboJet.label>
+	<!--                                  EN: assemble a turbojet, an airbreathing jet engine which is typically used in aircraft and cruise missile, consists of a gas turbine with a propelling nozzle. -->
+	<Make_EngineAssemble_TurboJet.description>соберите турбореактивный двигатель, воздушно-реактивный двигатель, который обычно используется в самолетах и крылатых ракетах, состоит из газовой турбины с двигательным соплом.</Make_EngineAssemble_TurboJet.description>
+	
+	<!--                               EN: assembling engine. -->
+	<Make_EngineAssemble_Turbine.jobString>сборка двигателя.</Make_EngineAssemble_Turbine.jobString>
+	<!--                           EN: assemble turbine engine -->
+	<Make_EngineAssemble_Turbine.label>сборка газотурбинного двигателя</Make_EngineAssemble_Turbine.label>
+	<!--                                 EN: assemble a turbine engine, which is powered by gas expansion driving turbine blades, but fuel consumption is quite high. widely used in pre-spacer world jets and military vehicles.. -->
+	<Make_EngineAssemble_Turbine.description>соберите газотурбинный двигатель, который приводится в действие за счет расширения газа, приводящего в движение лопатки турбины, но расход топлива при этом довольно высок. широко используется в реактивных самолетах и военной технике...</Make_EngineAssemble_Turbine.description>
+	
+	<!--                 EN: disassemble engine -->
+	<DisassembleEngine.label>разобрать двигатель</DisassembleEngine.label>
+	<!--                       EN: disassemble an engine into components. some part might break during to process so it can not full-recycled. -->
+	<DisassembleEngine.description>разберите двигатель на компоненты. в процессе обработки какая-либо деталь может сломаться, поэтому ее нельзя будет полностью переработать.</DisassembleEngine.description>
+	<!--                     EN: disassembling. -->
+	<DisassembleEngine.jobString>разборка.</DisassembleEngine.jobString>
+	
+	<!--                      EN: extract metal from engine -->
+	<ExtractMetalFromEngine.label>извлечение металла из двигателя</ExtractMetalFromEngine.label>
+	<!--                            EN: disassemble an engine into components. some part might break during to process so it can not full-recycled. -->
+	<ExtractMetalFromEngine.description>разберите двигатель на компоненты. в процессе обработки какая-либо деталь может сломаться, поэтому ее нельзя будет полностью переработать.</ExtractMetalFromEngine.description>
+	<!--                          EN: smelting. -->
+	<ExtractMetalFromEngine.jobString>выплавка.</ExtractMetalFromEngine.jobString>
+	
+	<!--            EN: make heavy compoment -->
+	<CastFromMold.label>сделайте тяжелый компонент</CastFromMold.label>
+	<!--                  EN: Use melted steel to make heavy compoment. -->
+	<CastFromMold.description>Используйте расплавленную сталь для изготовления тяжелых компонентов.</CastFromMold.description>
+	<!--                EN: Casting metal. -->
+	<CastFromMold.jobString>Литье металла.</CastFromMold.jobString>
+	
+	<!--                       EN: extract metal from heavy compoment -->
+	<ExtractMetalFromCasting.label>извлечение металла из тяжелых компонентов</ExtractMetalFromCasting.label>
+	<!--                             EN: Use heat and strong electromagnets to recycle useful metal from heavy compoment. -->
+	<ExtractMetalFromCasting.description>Используйте тепло и мощные электромагниты для переработки полезного металла из тяжелых компонентов.</ExtractMetalFromCasting.description>
+	<!--                           EN: Smelting metal from slag. -->
+	<ExtractMetalFromCasting.jobString>Выплавка металла из шлака.</ExtractMetalFromCasting.jobString>
+</LanguageData>

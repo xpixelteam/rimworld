@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_OpenGarage.reportString>открывает гараж.</VVE_OpenGarage.reportString>
+  <VVE_CloseGarage.reportString>закрывает гараж.</VVE_CloseGarage.reportString>
+  <VVE_RestoreWreck.reportString>восстанавливает TargetA.</VVE_RestoreWreck.reportString>
+
+
+</LanguageData>

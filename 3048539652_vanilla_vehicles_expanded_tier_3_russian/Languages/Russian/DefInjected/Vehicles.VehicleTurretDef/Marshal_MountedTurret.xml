@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Marshal_MountedTurret.label>Установленный пулемет</Marshal_MountedTurret.label>
+  <Marshal_MountedTurret.description>Маленький пулемет, установленный на танке "Маршал". Требуется перезарядка сталью. Может стрелять только на короткие расстояния, но не испытывает проблем со стрельбой по врагам, которые атакуют транспортное средство в рукопашной.</Marshal_MountedTurret.description>
+  <Marshal_MountedTurret.fireModes.0.label>Очередь</Marshal_MountedTurret.fireModes.0.label>
+
+
+</LanguageData>

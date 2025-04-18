@@ -1,0 +1,220 @@
+<LanguageData>
+		<!-- Info -->
+	<!-- EN: Undefined -->
+	<RSID_Undefined>Не определено</RSID_Undefined>
+	<!-- EN: Small -->
+	<RSID_Small>Маленький</RSID_Small>
+	<!-- EN: Medium -->
+	<RSID_Medium>Средний</RSID_Medium>
+	<!-- EN: Large -->
+	<RSID_Large>Большой</RSID_Large>
+	<!-- EN: Max hitpoints: {0} -->
+	<RSID_MaxHP>Максимальное здоровье: {0}</RSID_MaxHP>
+	<!-- EN: Max affordance: {0} -->
+	<RSID_MaxAffordance>Максимальная доступность: {0}</RSID_MaxAffordance>
+	<!-- EN: Cover: {0} -->
+	<RSID_Cover>Укрытие: {0}</RSID_Cover>
+	<!-- EN: Beauty: {0} -->
+	<RSID_Beauty>Красота: {0}</RSID_Beauty>
+	<!-- EN: Mass: {0} -->
+	<RSID_Mass>Масса: {0}</RSID_Mass>
+	<!-- EN: Size: {0} -->
+	<RSID_Size>Размер: {0}</RSID_Size>
+	<!-- EN: Wealth: {0} -->
+	<RSID_Wealth>Богатство: {0}</RSID_Wealth>
+	<!-- EN: Cleanliness: {0} -->
+	<RSID_Cleanliness>Чистота: {0}</RSID_Cleanliness>
+	<!-- EN: Joy gainfactor: {0} -->
+	<RSID_Joy>Развлечение: {0}</RSID_Joy>
+	<!-- EN: Joy kind: {0} -->
+	<RSID_JoyKind>Тип развлечения: {0}</RSID_JoyKind>
+	<!-- EN: Comfort: {0} -->
+	<RSID_Comfort>Удобство: {0}</RSID_Comfort>
+	<!-- EN: UI order: {0} -->
+	<RSID_UIOrder>Порядок UI: {0}</RSID_UIOrder>
+	<!-- EN: Bedrest: {0} -->
+	<RSID_BedRestEffectiveness>Отдых в кровати: {0}</RSID_BedRestEffectiveness>
+	<!-- EN: Immunity gainspeed: {0} -->
+	<RSID_ImmunityGainSpeedFactor>Скорость получения иммунитета: {0}</RSID_ImmunityGainSpeedFactor>
+	<!-- EN: Surgery chance: {0} -->
+	<RSID_SurgerySuccessChanceFactor>Шанс на операцию: {0}</RSID_SurgerySuccessChanceFactor>
+	<!-- EN: Research speed: {0} -->
+	<RSID_ResearchSpeedFactor>Скорость исследования: {0}</RSID_ResearchSpeedFactor>
+	<!-- EN: Tend quality offset: {0} -->
+	<RSID_MedicalTendQuality>Качество лечения: {0}</RSID_MedicalTendQuality>
+	<!-- EN: Poweruse: {0}W -->
+	<RSID_PowerUser>Энергопотребление: {0}W</RSID_PowerUser>
+	<!-- EN: Poweruse: {0}W ({1}W) -->
+	<RSID_PowerUserVaried>Энергопотребление: {0}W ({1}W)</RSID_PowerUserVaried>
+	<!-- EN: Max PowerGen: {0}W -->
+	<RSID_PowerProducer>Максимальная мощность: {0}W</RSID_PowerProducer>
+	<!-- EN: Chemfuel use: {0}/d -->
+	<RSID_ChemfuelUser>Использование химитоплива: {0}/d</RSID_ChemfuelUser>
+	<!-- EN: Gas use: {0} m3/d -->
+	<RSID_GasUser>Использование газа: {0} m3/d</RSID_GasUser>
+	<!-- EN: Max GasGen: {0} m3/d -->
+	<RSID_GasProducer>Максимум генерации газа: {0} m3/d</RSID_GasProducer>
+	<!-- EN: Affordance: {0} -->
+	<RSID_AffordanceRequirement>Доступность: {0}</RSID_AffordanceRequirement>
+	<!-- EN: Dmg/s: {0} -->
+	<RSID_DPS>Урн/с: {0}</RSID_DPS>
+	<!-- EN: Stopping power: {0} -->
+	<RSID_StoppingPower>Останавлив. сила: {0}</RSID_StoppingPower>
+	<!-- EN: Work to build: {0} -->
+	<RSID_WorkExact>Работы для постройки: {0}</RSID_WorkExact>
+	<!-- EN: Workamount: {0} -->
+	<RSID_WorkRelative>Объем работы: {0}</RSID_WorkRelative>
+	<!-- EN: Tech level: {0} -->
+	<RSID_TechLevel>Уровень технологий: {0}</RSID_TechLevel>
+	<!-- EN: Max stacks stored: {0} -->
+	<RSID_StorageSpace>Макс. хранимых стаков: {0}</RSID_StorageSpace>
+	<!-- EN: DefName: {0} -->
+	<RSID_DefName>DefName: {0}</RSID_DefName>
+	<!-- EN: Dominant style: {0} -->
+	<RSID_DominantStyle>Доминирующий стиль: {0}</RSID_DominantStyle>
+	<!-- EN: Floor Quality: {0} -->
+	<RSID_FloorQuality>Качество полов: {0}</RSID_FloorQuality>
+	<!-- EN: Fine -->
+	<RSID_FloorQuality_Fine>Отлично</RSID_FloorQuality_Fine>
+	<!-- EN: Common -->
+	<RSID_FloorQuality_Common>Обычно</RSID_FloorQuality_Common>
+		<!-- Settings -->
+	<!-- EN: Show max HP for linkable structures and doors -->
+	<RSID_ShowHP.Label>Показывать максимальное здоровье</RSID_ShowHP.Label>
+	<!-- EN: Shows the maximum hitpoints for structures such as walls, fences, doors and sandbags -->
+	<RSID_ShowHP.Tooltip>Показывает максимальное количество здоровья для таких конструкций, как стены, заборы, двери и мешки с песком</RSID_ShowHP.Tooltip>
+	<!-- EN:     Show for all stuffable -->
+	<RSID_ShowHPForAll.Label>    Показывать все материалы</RSID_ShowHPForAll.Label>
+	<!-- EN: Shows maximum hitpoints for all stuffable buildings -->
+	<RSID_ShowHPForAll.Tooltip>Показывает максимальные хитпоинты для всех материальных зданий</RSID_ShowHPForAll.Tooltip>
+	<!-- EN: Show affordance given -->
+	<RSID_ShowAffordance.Label>Показывать доступность</RSID_ShowAffordance.Label>
+	<!-- EN: Shows the maximum highest terrain affordance given by floors and bridges -->
+	<RSID_ShowAffordance.Tooltip>Показывает максимальную доступность местности, обеспечиваемую этажами и мостами</RSID_ShowAffordance.Tooltip>
+	<!-- EN: Show affordance needed -->
+	<RSID_ShowAffordanceRequirement.Label>Показывать необходимую доступность</RSID_ShowAffordanceRequirement.Label>
+	<!-- EN: Shows the minimum terrain affordance needed by buildings -->
+	<RSID_ShowAffordanceRequirement.Tooltip>Показывает минимальную доступность местности, необходимую зданиям</RSID_ShowAffordanceRequirement.Tooltip>
+	<!-- EN: Show cover given -->
+	<RSID_ShowCover.Label>Показывать укрытие</RSID_ShowCover.Label>
+	<!-- EN: Shows the cover given by structures such as fences and sandbags -->
+	<RSID_ShowCover.Tooltip>Показывает укрытие, создаваемое такими сооружениями, как заборы и мешки с песком</RSID_ShowCover.Tooltip>
+	<!-- EN: Show beauty given -->
+	<RSID_ShowBeauty.Label>Показывать красоту</RSID_ShowBeauty.Label>
+	<!-- EN: Shows the beauty given by any building, both positive and negative values are shown -->
+	<RSID_ShowBeauty.Tooltip>Показывает красоту, придаваемую любым зданием, показаны как положительные, так и отрицательные значения</RSID_ShowBeauty.Tooltip>
+	<!-- EN: Show mass -->
+	<RSID_ShowMass.Label>Показывать массу</RSID_ShowMass.Label>
+	<!-- EN: Shows the mass of any building that is minifiable -->
+	<RSID_ShowMass.Tooltip>Показывает массу любого здания, которое можно собраны (миниатюризированны)</RSID_ShowMass.Tooltip>
+	<!-- EN: Show size -->
+	<RSID_ShowSize.Label>Показывать размер</RSID_ShowSize.Label>
+	<!-- EN: Shows the size of the building when placed -->
+	<RSID_ShowSize.Tooltip>Показывает размер здания при размещении</RSID_ShowSize.Tooltip>
+	<!-- EN: Show turret DPS -->
+	<RSID_ShowDPS.Label>Показывать DPS турели</RSID_ShowDPS.Label>
+	<!-- EN: Shows the average DPS on turrets, this may show incorrect values depending on the projectile used. -->
+	<RSID_ShowDPS.Tooltip>Показывает среднее значение DPS на турелях, может показывать неверные значения в зависимости от используемого снаряда.</RSID_ShowDPS.Tooltip>
+	<!-- EN: Show wealth given -->
+	<RSID_ShowWealth.Label>Показывать богатство</RSID_ShowWealth.Label>
+	<!-- EN: Shows the colony wealth given by any building -->
+	<RSID_ShowWealth.Tooltip>Показывает богатство колонии, которое дает любое здание</RSID_ShowWealth.Tooltip>
+	<!-- EN: Show cleanliness given -->
+	<RSID_ShowCleanliness.Label>Показывать чистоту</RSID_ShowCleanliness.Label>
+	<!-- EN: Shows the cleanliness given if defined -->
+	<RSID_ShowCleanliness.Tooltip>Показывает заданную чистоту, если она определена</RSID_ShowCleanliness.Tooltip>
+	<!-- EN: Show research speed -->
+	<RSID_ShowResearchSpeed.Label>Показывать скорость исследования</RSID_ShowResearchSpeed.Label>
+	<!-- EN: Shows the relative research speed of research-benches -->
+	<RSID_ShowResearchSpeed.Tooltip>Показывает относительную скорость исследования</RSID_ShowResearchSpeed.Tooltip>
+	<!-- EN: Show tech level -->
+	<RSID_ShowTechLevel.Label>Показывать технический уровень</RSID_ShowTechLevel.Label>
+	<!-- EN: Shows the tech level of the building if any -->
+	<RSID_ShowTechLevel.Tooltip>Показывать технический уровень здания, если такой имеется</RSID_ShowTechLevel.Tooltip>
+	<!-- EN: Show joy gain factor -->
+	<RSID_ShowJoy.Label>Показывать развлечения</RSID_ShowJoy.Label>
+	<!-- EN: Shows any defined joy-gain factor of a building -->
+	<RSID_ShowJoy.Tooltip>Показывать развлечение для зданий</RSID_ShowJoy.Tooltip>
+	<!-- EN: Show joy kind -->
+	<RSID_ShowJoyKind.Label>Показывать тип развлечения</RSID_ShowJoyKind.Label>
+	<!-- EN: Shows the joy-kind for any joy-gain for buildings -->
+	<RSID_ShowJoyKind.Tooltip>Показывает вид развлечение для любого развлекательной постройки</RSID_ShowJoyKind.Tooltip>
+	<!-- EN: Show comfort given -->
+	<RSID_ShowComfort.Label>Показывать удобство</RSID_ShowComfort.Label>
+	<!-- EN: Shows any comfort given by a building -->
+	<RSID_ShowComfort.Tooltip>Показывать удобство каждого здания</RSID_ShowComfort.Tooltip>
+	<!-- EN: Show UI order -->
+	<RSID_ShowUIOrder.Label>Показывать порядок UI</RSID_ShowUIOrder.Label>
+	<!-- EN: Shows the UI order of a building. The UI order is the order in which buildings in the architect menu are displayed in. -->
+	<RSID_ShowUIOrder.Tooltip>Показывает порядок пользовательского интерфейса здания. Порядок пользовательского интерфейса - это порядок, в котором отображаются здания в меню архитектора.</RSID_ShowUIOrder.Tooltip>
+	<!-- EN: Show bedrest effectivness -->
+	<RSID_ShowBedRest.Label>Показывать эффективность отдыха в кровати</RSID_ShowBedRest.Label>
+	<!-- EN: Shows the bedrest effectivness for any bed -->
+	<RSID_ShowBedRest.Tooltip>Показывать эффективность отдыха для любой кровати</RSID_ShowBedRest.Tooltip>
+	<!-- EN: Show max storage space -->
+	<RSID_ShowStorageSpace.Label>Показывать максимальное пространство для хранения</RSID_ShowStorageSpace.Label>
+	<!-- EN: Shows the amount of possible stacks to store -->
+	<RSID_ShowStorageSpace.Tooltip>Показывает количество возможных стопок для хранения</RSID_ShowStorageSpace.Tooltip>
+	<!-- EN: Show immunity gain speed -->
+	<RSID_ShowImmunityGainSpeed.Label>Показывать скорость получения иммунитета</RSID_ShowImmunityGainSpeed.Label>
+	<!-- EN: Shows the immunity gain speed for any bed that defaults as a hospital bed, if defined, or animal bed -->
+	<RSID_ShowImmunityGainSpeed.Tooltip>Показывает скорость получения иммунитета для любой кровати, которая по умолчанию является больничной койкой, если она определена</RSID_ShowImmunityGainSpeed.Tooltip>
+	<!-- EN: Show surgery success chance -->
+	<RSID_ShowSurgerySuccessChance.Label>Показывать шанс на успех операции</RSID_ShowSurgerySuccessChance.Label>
+	<!-- EN: Shows the surgery success chance for any bed that defaults as a hospital bed, if defined, or animal bed -->
+	<RSID_ShowSurgerySuccessChance.Tooltip>Показывает вероятность успеха операции для любой кровати, которая по умолчанию является больничной койкой, если она определена</RSID_ShowSurgerySuccessChance.Tooltip>
+	<!-- EN: Show medical tend quality -->
+	<RSID_ShowMedicalTendQuality.Label>Показывать качество медицинской помощи</RSID_ShowMedicalTendQuality.Label>
+	<!-- EN: Shows the medical tend quality for any bed that defaults as a hospital bed, if defined, or animal bed -->
+	<RSID_ShowMedicalTendQuality.Tooltip>Показывает качество медицинской помощи для любой кровати, которая по умолчанию является больничной койкой, если она определена</RSID_ShowMedicalTendQuality.Tooltip>
+	<!-- EN: Show power consumption -->
+	<RSID_ShowPowerConsumer.Label>Показывать потребляемую мощность</RSID_ShowPowerConsumer.Label>
+	<!-- EN: Will show the maximum power-consumption of any building that consumes power -->
+	<RSID_ShowPowerConsumer.Tooltip>Показывает максимальное энергопотребление любого здания, потребляющего электроэнергию</RSID_ShowPowerConsumer.Tooltip>
+	<!-- EN:     Varied power-mod active, reopen this settings page after changing any power-settings. -->
+	<RSID_VariedPowerModLoaded.Label>    Мод Varied power-mod активен, повторно откройте эту страницу настроек после изменения любых настроек питания.</RSID_VariedPowerModLoaded.Label>
+	<!-- EN: There is a mod active that modifies power-draw of items when they are not in use (Turn It On and Off - RePowered or LightsOut). If you change the settings regarding power in any of these mods, reopen this settings page after to clear the cached powervalues in the descriptions. If not you will not see the updated values in game. -->
+	<RSID_VariedPowerModLoaded.Tooltip>Существует мод, изменяющий потребление энергии предметами, когда они не используются (Turn It On and Off - RePowered или LightsOut). Если вы измените настройки энергопотребления в одном из этих модов, откройте эту страницу настроек заново, чтобы очистить кэшированные значения энергопотребления в описаниях. В противном случае вы не увидите обновленные значения в игре.</RSID_VariedPowerModLoaded.Tooltip>
+	<!-- EN: Show power production -->
+	<RSID_ShowPowerProducer.Label>Показывать производство электроэнергии</RSID_ShowPowerProducer.Label>
+	<!-- EN: Will show the maximum power-production of any building that produces power -->
+	<RSID_ShowPowerProducer.Tooltip>Показывает максимальную выработку электроэнергии любым зданием, производящим электроэнергию</RSID_ShowPowerProducer.Tooltip>
+	<!-- EN: Show floor quality -->
+	<RSID_ShowFloorQuality.Label>Качество выставочных полов</RSID_ShowFloorQuality.Label>
+	<!-- EN: Will show if the floor is of fine quality for royalty, or only acceptable for common pawns. -->
+	<RSID_ShowFloorQuality.Tooltip>Покажет, является ли пол отличного качества для королевских особ или подходит только для обычных пешек.</RSID_ShowFloorQuality.Tooltip>
+	<!-- EN: Show defName -->
+	<RSID_ShowDefName.Label>Показывать defName</RSID_ShowDefName.Label>
+	<!-- EN: Will show the defname of all buildables -->
+	<RSID_ShowDefName.Tooltip>Показывать название всех элементов сборки</RSID_ShowDefName.Tooltip>
+	<!-- EN: Show dominant style -->
+	<RSID_ShowDominantStyle.Label>Показывать доминирующий стиль</RSID_ShowDominantStyle.Label>
+	<!-- EN: Will show any defined dominant style of buildables -->
+	<RSID_ShowDominantStyle.Tooltip>Показывать любой определенный доминирующий стиль построек</RSID_ShowDominantStyle.Tooltip>
+	<!-- EN:     Also Gas production/consumption -->
+	<RSID_ShowVFEGas.Label>    Также добыча/потребление газа</RSID_ShowVFEGas.Label>
+	<!-- EN: Will show the production/consumption of gas of buildings in Vanilla Furniture Expanded - Power. Depends on the power-settings above -->
+	<RSID_ShowVFEGas.Tooltip>Показывает производство / потребление газа зданиями в Vanilla Furniture Expanded - Power. Зависит от приведенных выше настроек питания</RSID_ShowVFEGas.Tooltip>
+	<!-- EN:     Also Chemfuel use -->
+	<RSID_ShowRimefeller.Label>    Также использование химтоплива</RSID_ShowRimefeller.Label>
+	<!-- EN: Will show the chemfuel use of powerplants in Rimefeller. Depends on the power-settings above -->
+	<RSID_ShowRimefeller.Tooltip>Показывает использование химического топлива на электростанциях в Romefeller. Зависит от приведенных выше настроек питания</RSID_ShowRimefeller.Tooltip>
+	<!-- EN: Show work amount -->
+	<RSID_ShowWorkToBuild.Label>Показывать объем работы</RSID_ShowWorkToBuild.Label>
+	<!-- EN: Will show the amount of work required for completing the building -->
+	<RSID_ShowWorkToBuild.Tooltip>Показывает объем работ, необходимых для завершения строительства</RSID_ShowWorkToBuild.Tooltip>
+	<!-- EN:     Show relative work-amount -->
+	<RSID_RelativeWork.Label>    Показывать относительный объем работы</RSID_RelativeWork.Label>
+	<!-- EN: Will show the workamount as small/medium/large to get more of a general idea of the amount of work -->
+	<RSID_RelativeWork.Tooltip>Показывает объем работы как малый/средний/большой, чтобы получить более общее представление об объеме работы</RSID_RelativeWork.Tooltip>
+	<!-- EN: Remove the rotate-info window -->
+	<RSID_RemoveRotateWidget.Label>Удалить окно информации о повороте</RSID_RemoveRotateWidget.Label>
+	<!-- EN: Will remove the rotate-info window above the architect menu, if you think that you have it memorized by now. -->
+	<RSID_RemoveRotateWidget.Tooltip>Убирает окно информации о повороте над меню архитектора, если вы думаете, что уже запомнили его.</RSID_RemoveRotateWidget.Tooltip>
+	<!-- EN: Use tooltip-window instead -->
+	<RSID_UseToolip.Label>Использовать окно с подсказками</RSID_UseToolip.Label>
+	<!-- EN: Will show the extra info in a tooltip window instead of adding it to the original description -->
+	<RSID_UseToolip.Tooltip>Будет показывать дополнительную информацию в окне подсказки вместо того, чтобы добавлять ее к оригинальному описанию</RSID_UseToolip.Tooltip>
+	<!-- EN: Installed mod-version: {0} -->
+	<RSID_CurrentVersion.Label>Установленная мод-версия: {0}</RSID_CurrentVersion.Label>
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Lightning.label>Молния</VVE_Lightning.label>
+  <VVE_Lightning.description>Быстрый универсальный транспортёр, "Молния" - это отличное дорожное транспортное средство для быстрой доставки значительного объема груза. Невероятно быстр на ровных дорогах, но испытывает трудности на холмах, снегу или зимних участках.\n\nТак как он разработан для скорости, поездки всегда должны планироваться с учетом движения по дорогам и наличия запасного топлива, которое может занять большую часть дополнительного грузового пространства. Из-за производительности у него ужасная эффективность использования топлива, поэтому планируйте соответственно.</VVE_Lightning.description>
+  <VVE_Lightning.properties.roles.0.label>Водитель</VVE_Lightning.properties.roles.0.label>
+  <VVE_Lightning.properties.roles.1.label>Пассажир</VVE_Lightning.properties.roles.1.label>
+  <VVE_Lightning.components.0.label>Двигатель</VVE_Lightning.components.0.label>
+  <VVE_Lightning.components.1.label>Переднее левое колесо</VVE_Lightning.components.1.label>
+  <VVE_Lightning.components.2.label>Переднее правое колесо</VVE_Lightning.components.2.label>
+  <VVE_Lightning.components.3.label>Заднее левое колесо</VVE_Lightning.components.3.label>
+  <VVE_Lightning.components.4.label>Заднее правое колесо</VVE_Lightning.components.4.label>
+  <VVE_Lightning.components.5.label>Передняя левая подвеска</VVE_Lightning.components.5.label>
+  <VVE_Lightning.components.6.label>Передняя правая подвеска</VVE_Lightning.components.6.label>
+  <VVE_Lightning.components.7.label>Задняя левая подвеска</VVE_Lightning.components.7.label>
+  <VVE_Lightning.components.8.label>Задняя правая подвеска</VVE_Lightning.components.8.label>
+  <VVE_Lightning.components.9.label>Коробка передач</VVE_Lightning.components.9.label>
+  <VVE_Lightning.components.10.label>Левая боковая панель</VVE_Lightning.components.10.label>
+  <VVE_Lightning.components.11.label>Правая боковая панель</VVE_Lightning.components.11.label>
+  <VVE_Lightning.components.12.label>Бак с химикатами</VVE_Lightning.components.12.label>
+  <VVE_Lightning.components.13.label>Передний бампер</VVE_Lightning.components.13.label>
+  <VVE_Lightning.components.14.label>Задний бампер</VVE_Lightning.components.14.label>
+  <VVE_Lightning.components.15.label>Обивка салона</VVE_Lightning.components.15.label>
+  <VVE_Lightning.components.16.label>Приборная панель</VVE_Lightning.components.16.label>
+  <VVE_Lightning.components.17.label>Руль</VVE_Lightning.components.17.label>
+  <VVE_Lightning.components.18.label>Генератор</VVE_Lightning.components.18.label>
+  <VVE_Lightning.components.19.label>Капот</VVE_Lightning.components.19.label>
+  <VVE_Lightning.components.20.label>Крыша</VVE_Lightning.components.20.label>
+
+
+</LanguageData>

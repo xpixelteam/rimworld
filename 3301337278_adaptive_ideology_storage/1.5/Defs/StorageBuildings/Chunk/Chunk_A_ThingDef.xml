@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>ChunkA</defName>
+        <label>Chunk A</label>
+        <graphicData>
+            <texPath>Chunk/Chunk_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(5,2.95)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A large freight container that can store chunks and slag. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 80\n\nStore items to change appearance.</description>
+        <researchPrerequisites>
+            <li>Machining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Chunk/Chunk_A_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(5,2)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>1250</MaxHitPoints>
+            <WorkToBuild>3500</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>315</Mass>
+        </statBases>
+        <costList>
+            <Steel>525</Steel>
+        </costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>8</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+                        <li>Chunks</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<paintable>true</paintable>
+		</building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

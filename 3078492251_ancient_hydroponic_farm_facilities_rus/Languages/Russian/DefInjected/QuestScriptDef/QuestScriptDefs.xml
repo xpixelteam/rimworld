@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 损坏的粮食农场 -->
+
+  <Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.label>Срок действия квеста истек: [resolvedQuestName]</Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.label>
+  <Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.text>Перехваченные сообщения показали, что припасы с фермы были разграблены другими. Срок действия квеста [resolvedQuestName] истек.</Explore_damaged_ancient_grain_farm_A.root.nodes.8.node.nodes.0.text>
+  <Explore_damaged_ancient_grain_farm_A.questDescriptionRules.rulesStrings.0>questDescription->Вы узнаете, что неподалеку было обнаружено древнее здание, предположительно, древняя зерновая ферма. Вы можете проникнуть в них ради добычи.</Explore_damaged_ancient_grain_farm_A.questDescriptionRules.rulesStrings.0>
+  <Explore_damaged_ancient_grain_farm_A.questNameRules.rulesStrings.0>questName->Исследование испорченной древней продовольственной фермы</Explore_damaged_ancient_grain_farm_A.questNameRules.rulesStrings.0>
+
+  <Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.label>Срок действия квеста истек: [resolvedQuestName]</Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.label>
+  <Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.text>Перехваченные сообщения показали, что припасы с фермы были разграблены другими. Срок действия квеста [resolvedQuestName] истек.</Explore_damaged_ancient_grain_farm_B.root.nodes.8.node.nodes.0.text>
+  <Explore_damaged_ancient_grain_farm_B.questDescriptionRules.rulesStrings.0>questDescription->Вы узнаете, что неподалеку было обнаружено древнее здание, предположительно, древняя зерновая ферма. Вы можете проникнуть в них ради добычи.</Explore_damaged_ancient_grain_farm_B.questDescriptionRules.rulesStrings.0>
+  <Explore_damaged_ancient_grain_farm_B.questNameRules.rulesStrings.0>questName->Исследование испорченной древней продовольственной фермы</Explore_damaged_ancient_grain_farm_B.questNameRules.rulesStrings.0>
+
+
+  <!-- 损坏的棉花农场 -->
+
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.name>солдат</Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.name>
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_damaged_ancient_cotton_farm.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.label>Срок действия квеста истек: [resolvedQuestName]</Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.text>Перехваченные сообщения показали, что припасы с фермы были разграблены другими. Срок действия квеста [resolvedQuestName] истек.</Ambuscade_damaged_ancient_cotton_farm.root.nodes.9.node.nodes.0.text>
+  <Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->Вы узнаете, что неподалеку было обнаружено древнее здание, предположительно, древняя хлопковая ферма. Вы можете ворваться и получить добычу</Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.1>questDescription(asker_factionLeader==true)->[asker_nameDef] Расскажите нам, что [asker_pronoun]обнаружил древнюю хлопковую ферму. \n[asker_pronoun] не может выделить рабочую силу для расследования, но [asker_pronoun] хочет, чтобы мы расследовали и устранили возможные угрозы.</Ambuscade_damaged_ancient_cotton_farm.questDescriptionRules.rulesStrings.1>
+  <Ambuscade_damaged_ancient_cotton_farm.questNameRules.rulesStrings.0>questName->Поврежденная древняя хлопковая ферма, которую стоит исследовать</Ambuscade_damaged_ancient_cotton_farm.questNameRules.rulesStrings.0>
+
+
+  <!-- 损毁的恶魔菇农场 -->
+
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.name>солдат</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.name>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.label>Срок действия квеста истек: [resolvedQuestName]</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.text>Перехваченные сообщения показали, что поставки с завода были разграблены другими. Срок действия квеста [resolvedQuestName] истек.</Ambuscade_damaged_ancient_devilstrand_cotton_farm.root.nodes.9.node.nodes.0.text>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->Вы узнаете, что неподалеку было обнаружено древнее здание, предположительно являющееся древней фермой по выращиванию дьявольских грибов. Вы можете ворваться и получить добычу</Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.1>questDescription(asker_factionLeader==true)->[asker_nameDef] Сообщите нам, что [asker_pronoun] обнаружил древнюю ферму дьявольских грибов. \n[asker_pronoun] нет времени на расследование, но [asker_pronoun] хотела бы нашей помощи. \n[asker_nameDef] сказал, что мы можем забрать припасы с фермы.</Ambuscade_damaged_ancient_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.1>
+  <Ambuscade_damaged_ancient_devilstrand_cotton_farm.questNameRules.rulesStrings.0>questName->Исследование испорченной фермы дьявольских грибов</Ambuscade_damaged_ancient_devilstrand_cotton_farm.questNameRules.rulesStrings.0>
+
+
+  <!-- 废弃的营养膏工厂 -->
+
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.name>солдат</Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.name>
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_discarded_nutrient_cream_factory.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.label>Срок действия квеста истек: [resolvedQuestName]</Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.text>Перехваченные сообщения показали, что поставки с завода были разграблены другими. Срок действия квеста [resolvedQuestName] истек.</Ambuscade_discarded_nutrient_cream_factory.root.nodes.9.node.nodes.0.text>
+  <Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->Вы узнаете, что неподалеку было обнаружено древнее здание, предположительно являвшееся древней фабрикой по производству пищевой пасты. Вы можете ворваться и получить добычу</Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.0>
+  <Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.1>questDescription(asker_factionLeader==true)->Какой-то отдаленный шум заставил [asker_nameDef] заметить древнее здание. Оно выглядело как заброшенная фабрика. \n[asker_nameDef] хотел, чтобы мы пошли на фабрику и осмотрели ее. [asker_pronoun] почувствовал, что в этом здании могут быть какие-то неизвестные вещи. угрожать .</Ambuscade_discarded_nutrient_cream_factory.questDescriptionRules.rulesStrings.1>
+  <Ambuscade_discarded_nutrient_cream_factory.questNameRules.rulesStrings.0>questName(priority=1)->Исследование заброшенной фабрики по производству питательных кремов</Ambuscade_discarded_nutrient_cream_factory.questNameRules.rulesStrings.0>
+
+
+  <!-- 废弃的营养液工厂 -->
+
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.name>солдат</Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.name>
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_discarded_nutrient_solution_factory.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.label>Срок действия квеста истек: [resolvedQuestName]</Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.text>Перехваченные сообщения показали, что поставки с завода были разграблены другими. Срок действия квеста [resolvedQuestName] истек.</Ambuscade_discarded_nutrient_solution_factory.root.nodes.9.node.nodes.0.text>
+  <Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->Вы узнаете, что неподалеку было обнаружено древнее здание, предположительно являвшееся древней фабрикой по производству питательных растворов. Вы можете ворваться и получить добычу</Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.0>
+  <Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.1>questDescription(asker_factionLeader==true)->[asker_nameDef] Сообщите нам, что на торговом пути [asker_pronoun] была обнаружена древняя фабрика по производству питательных растворов.  [asker_pronoun] обеспокоен тем, что его торговая безопасность находится под угрозой, поэтому [asker_pronoun] хочет, чтобы мы пошли и решили эту проблему.</Ambuscade_discarded_nutrient_solution_factory.questDescriptionRules.rulesStrings.1>
+  <Ambuscade_discarded_nutrient_solution_factory.questNameRules.rulesStrings.0>questName->Исследование завода по производству отходов питательных растворов</Ambuscade_discarded_nutrient_solution_factory.questNameRules.rulesStrings.0>
+
+
+  <!-- 隐藏的远古水培站点 -->
+
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.name>солдат</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.name>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.elseNode.nodes.0.name>askerIsNull</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.3.elseNode.nodes.0.name>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.label>Срок действия квеста истек: [resolvedQuestName]</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.label>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.text>Перехваченные сообщения показали, что припасы с фермы были разграблены другими. Срок действия квеста [resolvedQuestName] истек.</Ambuscade_Hidden_ancient_hydroponic_farm.root.nodes.9.node.nodes.0.text>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.0>questDescription(askerIsNull==true)->Вы узнаете, что неподалеку было обнаружено древнее здание, предположительно являющееся скрытой древней фермой. Вы можете ворваться туда и получить добычу.</Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.0>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.1>questDescription(asker_factionLeader==true)->[asker_nameDef]Обнаружен нетронутый древний сельскохозяйственный объект. Его местоположение очень скрыто и может содержать некоторые древние сельскохозяйственные технологии. \n\n[asker_nameDef] надеется, что мы отправимся на этот объект, чтобы получить некоторые соответствующие технологии и поделиться ими с [asker_factionName].</Ambuscade_Hidden_ancient_hydroponic_farm.questDescriptionRules.rulesStrings.1>
+  <Ambuscade_Hidden_ancient_hydroponic_farm.questNameRules.rulesStrings.0>questName->Исследование скрытых древних гидропонных объектов</Ambuscade_Hidden_ancient_hydroponic_farm.questNameRules.rulesStrings.0>
+
+
+  <!-- 被占据的粮食农场 -->
+
+  <Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.label>Квест провален: [resolvedQuestName]</Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.label>
+  <Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.text>Вам не удалось выполнить миссию по оккупированной продовольственной ферме. [siteFaction_name] переместил свою базу в более укромное место. Вы потеряли всю информацию об их базе.</Request_Occupied_ancient_grain_farm.root.nodes.9.node.nodes.0.text>
+  <Request_Occupied_ancient_grain_farm.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameDef] Скажу вам, неподалеку была обнаружена древняя зерновая ферма. В ней дислоцируется [siteFaction_name]. Судя по всему, она рассматривается как сельскохозяйственный и военный опорный пункт. Эта опорная точка представляет серьезную угрозу для окружающей безопасности. [asker_nameDef] надеется что мы можем. Враги внутри полностью уничтожены.</Request_Occupied_ancient_grain_farm.questDescriptionRules.rulesStrings.0>
+  <Request_Occupied_ancient_grain_farm.questNameRules.rulesStrings.0>questName->Оккупированная древняя продовольственная ферма</Request_Occupied_ancient_grain_farm.questNameRules.rulesStrings.0>
+
+
+  <!-- 被占领的棉花农场 -->
+
+  <Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.label>Квест провален: [resolvedQuestName]</Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.label>
+  <Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.text>Вам не удалось выполнить миссию по оккупированной хлопковой ферме.[siteFaction_name] переместил свою базу в более укромное место. Вы потеряли всю информацию об их базе.</Request_Occupied_ancient_cotton_farm.root.nodes.11.node.nodes.0.text>
+  <Request_Occupied_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameDef] Позвольте мне сообщить вам, что неподалеку была обнаружена древняя хлопковая ферма, занятая враждебными силами. \n[siteFaction_name] строит укрепления. Эта крепость представляет серьезную угрозу торговой безопасности [asker_faction_name] \n[asker_nameDef] надеется, что мы сможем Полностью уничтожьте врагов внутри.</Request_Occupied_ancient_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <Request_Occupied_ancient_cotton_farm.questNameRules.rulesStrings.0>questName->Оккупированная древняя хлопковая ферма</Request_Occupied_ancient_cotton_farm.questNameRules.rulesStrings.0>
+
+
+  <!-- 被占领的恶魔菇农场 -->
+
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.label>Квест провален: [resolvedQuestName]</Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.label>
+  <Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.text>Вам не удалось выполнить миссию в оккупированном Дьявольском грибе. [siteFaction_name] взорвал монорельсовую систему и заблокировал все дороги, ведущие к крепости.</Request_Occupied_devilstrand_cotton_farm.root.nodes.11.node.nodes.0.text>
+  <Request_Occupied_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>questDescription->[asker_nameDef] Позвольте мне сказать вам， [asker_pronoun] нашел заброшенную систему монорельсовой дороги. [asker_pronoun] обнаружил древнюю ферму дьявольских грибов, занятую [siteFaction_name] на маршруте пути. [siteFaction_name] построил полное укрепление вокруг фермы. С группой турелей. Этот акт равносилен объявлению войны. [asker_nameDef] пытался атаковать, но понес большие потери. [asker_pronoun] надеется, что мы сможем разрушить этот хорошо вооруженный оплот и отомстить за солдат [asker_factionName].</Request_Occupied_devilstrand_cotton_farm.questDescriptionRules.rulesStrings.0>
+  <Request_Occupied_devilstrand_cotton_farm.questNameRules.rulesStrings.0>questName->Оккупированная древняя ферма по выращиванию дьявольских грибов</Request_Occupied_devilstrand_cotton_farm.questNameRules.rulesStrings.0>
+
+
+</LanguageData>

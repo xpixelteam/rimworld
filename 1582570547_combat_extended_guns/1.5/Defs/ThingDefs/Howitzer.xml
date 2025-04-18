@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- === Base === -->
+	<ThingDef ParentName="BaseArtilleryBuilding">
+		<defName>CE_Artillery_Howitzer</defName>
+		<label>105mm howitzer</label>
+		<description>A high caliber, relatively compact field artillery piece for indirect fire at extended ranges.</description>
+		<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		<uiIconPath>Things/Howitzer/howitzer_uiIcon</uiIconPath>
+		<uiIconScale>0.90</uiIconScale>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<graphicData>
+			<texPath>Things/Howitzer/howitzer_base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<WorkToBuild>17000</WorkToBuild>
+			<Mass>1520</Mass>
+			<Bulk>1000</Bulk>
+		</statBases>
+		<costList>
+			<Steel>400</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<costListForDifficulty>
+			<difficultyVar>classicMortars</difficultyVar>
+			<invert>true</invert>
+			<costList>
+				<ComponentIndustrial>8</ComponentIndustrial>
+				<ReinforcedBarrel>1</ReinforcedBarrel>
+				<Steel>250</Steel>
+			</costList>
+		</costListForDifficulty>
+		<tradeTags>
+			<li>CE_Turret</li>
+		</tradeTags>
+		<building>
+			<turretGunDef>CE_Gun_Howitzer</turretGunDef>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretBurstCooldownTime>2.7</turretBurstCooldownTime>
+			<spawnedConceptLearnOpportunity>CE_MortarDirectFire</spawnedConceptLearnOpportunity>
+			<turretTopDrawSize>4</turretTopDrawSize>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<size>(3,3)</size>
+		<fillPercent>0.85</fillPercent>
+		<stuffCategories Inherit="False" />
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<researchPrerequisites>
+			<li>CE_TurretHeavyWeapons</li>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<designationCategory>Security</designationCategory>
+		<interactionCellOffset>(-1,0,-1)</interactionCellOffset>
+	</ThingDef>
+
+	<!-- === Turret === -->
+	<ThingDef ParentName="BaseArtilleryWeapon">
+		<defName>CE_Gun_Howitzer</defName>
+		<label>105mm howitzer</label>
+		<graphicData>
+			<texPath>Things/Howitzer/howitzer_gun_indirect</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>105mm artillery gun.</description>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<MarketValue>3500</MarketValue>
+			<SightsEfficiency>0.5</SightsEfficiency>
+			<RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+			<Mass>1000</Mass>
+		</statBases>
+		<weaponTags>
+			<li>TurretGun</li>
+			<li>Artillery_BaseDestroyer</li>
+		</weaponTags>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<hasStandardCommand>true</hasStandardCommand>
+				<requireLineOfSight>false</requireLineOfSight>
+				<defaultProjectile>Bullet_105mmHowitzerShell_HE</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<minRange>20</minRange>
+				<range>900</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>120mm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>50</muzzleFlashScale>
+				<indirectFirePenalty>0.3</indirectFirePenalty>
+				<circularError>1</circularError>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>5</reloadTime>
+				<ammoSet>AmmoSet_105mmHowitzerShell</ammoSet>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

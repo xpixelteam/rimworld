@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealNutrientPaste.label>Приготовление пищевой пасты</CookMealNutrientPaste.label>
+  <CookMealNutrientPaste.description>Приготовьте одну часть питательной пасты из одной части сырых продуктов.</CookMealNutrientPaste.description>
+  <CookMealNutrientPaste.jobString>Изготовление питательной пасты.</CookMealNutrientPaste.jobString>
+
+  <CookMealNutrientPasteBulk.label>Приготовление пищевой пасты x4</CookMealNutrientPasteBulk.label>
+  <CookMealNutrientPasteBulk.description>Из одной большой порции сырой пищи приготовьте 4 порции питательной пасты.</CookMealNutrientPasteBulk.description>
+  <CookMealNutrientPasteBulk.jobString>Изготовление питательной пасты x4.</CookMealNutrientPasteBulk.jobString>
+
+
+</LanguageData>

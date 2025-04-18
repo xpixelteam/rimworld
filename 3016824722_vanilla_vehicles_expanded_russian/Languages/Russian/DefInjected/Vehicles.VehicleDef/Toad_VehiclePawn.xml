@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Toad.label>Жаба</VVE_Toad.label>
+  <VVE_Toad.description>Жаба - это довольно дорогой десантный модуль с минометной установкой, позволяющий быстро начать осаду поблизости, не подвергая опасности ваших солдат. Благодаря броне толще, чем у танка, и конструкции, предназначенной для сброса с орбиты, Жаба является своего рода одноразовой штурмовой машиной.\n\nЭкономичность топлива не входит в концепцию этого аппарата. Рассчитывайте развертывание только на коротких расстояниях с достаточным запасом топлива для возвращения.\n\nБудучи летательным аппаратом, Жаба крайне заметна во время движения.\n\n&lt;color=#bb8f04&gt;Экипаж&lt;/color&gt; Оператор x1, Пассажир x3\n&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химтопливо</VVE_Toad.description>
+  <VVE_Toad.properties.roles.0.label>Оператор</VVE_Toad.properties.roles.0.label>
+<VVE_Toad.properties.roles.1.label>Пассажир</VVE_Toad.properties.roles.1.label>
+<VVE_Toad.components.0.label>Двигатель</VVE_Toad.components.0.label>
+<VVE_Toad.components.1.label>Первый Реактивный Двигатель</VVE_Toad.components.1.label>
+<VVE_Toad.components.2.label>Второй Реактивный Двигатель</VVE_Toad.components.2.label>
+<VVE_Toad.components.3.label>Третий Реактивный Двигатель</VVE_Toad.components.3.label>
+<VVE_Toad.components.4.label>Четвертый Реактивный Двигатель</VVE_Toad.components.4.label>
+<VVE_Toad.components.5.label>Химтопливный Бак</VVE_Toad.components.5.label>
+<VVE_Toad.components.6.label>Корпус</VVE_Toad.components.6.label>
+
+
+</LanguageData>

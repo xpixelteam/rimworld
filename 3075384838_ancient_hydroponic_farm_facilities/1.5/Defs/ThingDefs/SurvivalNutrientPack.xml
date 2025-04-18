@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="MealBase">
+    <defName>SurvivalNutrientPack</defName>
+    <label>Survival nutrient pastes pack</label>
+    <description>A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals.Everything the body needs,It has been packaged，While it never rots,and absolutely disgusting.</description>
+    <graphicData>
+      <texPath>Things/SurvivalNutrientPack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>14</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+      <ateEvent>AteNutrientPaste</ateEvent>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+
+
+
+</Defs>

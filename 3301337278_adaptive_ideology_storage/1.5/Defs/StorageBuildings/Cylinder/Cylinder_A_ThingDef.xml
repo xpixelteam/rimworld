@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>CylinderA</defName>
+        <label>Cylinder A</label>
+        <graphicData>
+            <texPath>Cylinder/Cylinder_A</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2,1)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A storage cylinder that can store a range of items. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 12</description>
+        <researchPrerequisites>
+            <li>BiofuelRefining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Cylinder/Cylinder_A_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(2,1)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>1</Beauty>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToBuild>150</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>35</Mass>
+        </statBases>
+        <costList>
+            <Steel>50</Steel>
+        </costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>6</maxItemsInCell>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

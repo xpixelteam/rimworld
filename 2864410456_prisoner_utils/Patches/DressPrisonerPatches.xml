@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationInsert">
+		<xpath>/Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot/subNodes/li[state="MurderousRage"]</xpath>
+		<value>
+          <li Class="ThinkNode_ConditionalMentalState">
+            <state>kathanon-PrisonerUtil-AttackDresser</state>
+            <subNodes>
+              <li Class="PrisonerUtil.JobGiver_AttackDresser" />
+              <li Class="ThinkNode_PrioritySorter">
+                <subNodes>
+                  <li Class="JobGiver_GetFood">
+                    <maxLevelPercentage>0.05</maxLevelPercentage>
+                  </li>
+                  <li Class="JobGiver_GetRest">
+                    <maxLevelPercentage>0.15</maxLevelPercentage>
+                  </li>
+                </subNodes>
+              </li>
+            </subNodes>
+          </li>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <!-- 平衡相关 -->
+
+  	<RT_TOW2_Turret.label>陶式导弹发射器</RT_TOW2_Turret.label>
+  	<RT_TOW2_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; TOW2A</RT_TOW2_Turret.gizmoDescription>
+
+</LanguageData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Research Panel - Queue</name>
+	<author>ComradeAlexey</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>A3I.Mods.VRPQ</packageId>
+	<incompatibleWith>
+  		<li>neigh.researchpalrepackage</li>
+		<li>mlie.researchtree</li>
+	</incompatibleWith>
+	<description>
+[h1]WIP!!![/h1]
+[hr][/hr]
+[h2]Description[/h2]
+Adds a queue to the research panel.
+
+Hold [b][u]Left Shift[/u][/b] and [b][u]Left-click[/u][/b] on the desired research to add/remove research to the queue.
+[hr][/hr]
+[h2]Compatibility[/h2]
+The mod should be compatible with all mods.
+But, if you found an incompatible one, please report it.
+
+[h2]Incompatibility[/h2]
+[list]
+[*][b]Research Tree[/b]
+[*][b]ResearchPal[/b]
+[*]Others replacing the vanilla research panel.
+[/list]
+[hr][/hr]
+[h2]I found a bug![/h2]
+For all errors write in the comments attaching the log.
+Messages along the lines of "everything is broken, author be damned" will be ignored!
+</description>
+</ModMetaData>

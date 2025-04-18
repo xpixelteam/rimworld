@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Security</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- ========== 105mm Howitzer - Long Range Artillery ========== -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "CE_Artillery_Howitzer"]</xpath>
+					<value>
+						<comps>
+							<li Class="VFESecurity.CompProperties_LongRangeArtillery">
+								<worldTileRange>11</worldTileRange>
+								<maxForcedMissRadiusFactor>2.5</maxForcedMissRadiusFactor>
+								<gizmoIconTexPath>Things/Building/Artillery/TurretArtillery_Top</gizmoIconTexPath>
+							</li>
+						</comps>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_TunnelBoringMachine</defName>
+		<label>Tunnel Boring Machine</label>
+		<description>A reanimated tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, this mountain-trembling beast can dig through the mountains and create tunnels. With its imposing digging disk in the front, this gigantic machine is ready to chew through any mountain at your choice.</description>
+		<altitudeLayer>LayingPawn</altitudeLayer>
+		<thingClass>AncientMining.Building_BoringMachine</thingClass>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>1</fillPercent>
+		<blockWind>true</blockWind>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/TunnelBoringMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7.5,9)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 6)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,6)</size>
+		<statBases>
+			<Mass>1500</Mass>
+			<MiningYield>1</MiningYield>
+		</statBases>
+		<costList>
+			<Steel>850</Steel>
+			<ComponentIndustrial>45</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>650</Plasteel>
+			<Uranium>175</Uranium>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>9</ChunkSlagSteel>
+			<Plasteel>135</Plasteel>
+			<ComponentIndustrial>25</ComponentIndustrial>
+		</killedLeavings>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="AncientMining.ModExtension_BoringMachine">
+				<NorthOutletFleckPos>(0, 0.1, -3.25)</NorthOutletFleckPos>
+				<NorthOutletFleckAngle>165~195</NorthOutletFleckAngle>
+				<SouthOutletFleckPos>(0, -0.1, 4.3)</SouthOutletFleckPos>
+				<SouthOutletFleckAngle>-15~15</SouthOutletFleckAngle>
+				<EastOutletFleckPos>(-4.3, -0.1, 0.5)</EastOutletFleckPos>
+				<EastOutletFleckAngle>-60~-90</EastOutletFleckAngle>
+				<WestOutletFleckPos>(4.3, -0.1, 0.5)</WestOutletFleckPos>
+				<WestOutletFleckAngle>60~90</WestOutletFleckAngle>
+				<fleck>BreadMoAM_AncientMining_Dust</fleck>
+				<toggleGizmoIcon>Icon/Start</toggleGizmoIcon>
+				<toggleGizmoLabel>BreadMo_ToggleOn</toggleGizmoLabel>
+				<toggleGizmoOffLabel>BreadMo_ToggleOff</toggleGizmoOffLabel>
+				<wallGizmoIcon>Icon/Wall</wallGizmoIcon>
+				<wallGizmoLabel>BreadMo_MakeWallOn</wallGizmoLabel>
+				<wallGizmoOffLabel>BreadMo_MakeWallOff</wallGizmoOffLabel>
+				<sustainer>BreadMoAM_TunnelBoring</sustainer>
+				<tickInterval>5</tickInterval>
+				<progressRequired>120</progressRequired>
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Building material</fuelLabel>
+				<fuelGizmoLabel>Building material</fuelGizmoLabel>
+				<outOfFuelMessage>Need building material</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>600</fuelCapacity>
+				<fuelMultiplier>1</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.5</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>false</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_ElectricalEquipment</defName>
+		<label>Electrical Appliances</label>
+		<description>Miscellaneous electrical appliances used to power up the tunnel boring machine of yours. They convert electricity into hydraulic power to power the tunnel boring machine.（decoration）</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/ElectricalEquipment</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+		</costList>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_MineralConveyor</defName>
+		<label>Mineral Conveyor</label>
+		<description>A rebuilt mineral conveyor. Can be used to transport minerals to beneficiation machines or other places of choice.（decoration）</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/MineralConveyor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+		</costList>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<killedLeavings>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_TunnelStructuralSupport_a</defName>
+		<label>Tunnel Structural Support</label>
+		<description>A piece of tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/TunnelStructuralSupport_a</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_TunnelStructuralSupport_b</defName>
+		<label>Tunnel Structural Support</label>
+		<description>A piece of tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top and a staircase for reaching the corridor.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/TunnelStructuralSupport_b</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_MineralExports</defName>
+		<label>Mineral Outlet</label>
+		<description>A mineral outlet, nothing more, nothing less.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/TunnelBoringMachine/MineralExports</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,3)</drawSize>
+			<drawOffset>(0,0,0.08)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+</Defs>

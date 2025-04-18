@@ -1,0 +1,6 @@
+<LanguageData>
+  <MorePowerInfo.Production>Всего/Исп./Баланс:	{0} / {1} / {2} W</MorePowerInfo.Production>
+  <MorePowerInfo.Storage>Автономность(Общая):	{0} Wd / {1}</MorePowerInfo.Storage>
+  <MorePowerInfo.BatteryOnly>Автономность(Запасенная):	{0}</MorePowerInfo.BatteryOnly>
+  <MorePowerInfo.Forever>Вечно</MorePowerInfo.Forever>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Bunsen_MainTurret.label>Огнеметная башня Бунзена</VVE_Bunsen_MainTurret.label>
+  <VVE_Bunsen_MainTurret.description>Легко бронированная огнеметная башня средней дальности, обычно устанавливаемая на танках Бунзен. Забирает топливо непосредственно из химтопливного бака транспорта. Довольно смертоносное оружие против пехоты, однако с тяжело бронированными целями башне будет трудно.</VVE_Bunsen_MainTurret.description>
+  <VVE_Bunsen_MainTurret.fireModes.0.label>Извержение огня</VVE_Bunsen_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

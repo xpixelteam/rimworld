@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef>
+		<defName>BMAF_WorkGiver_FillNutrientFermenter</defName>
+		<label>fill fermenters</label>
+		<giverClass>BreadMoAncientFarm.WorkGiver_FillNutrientFermenter</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>141</priorityInType>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

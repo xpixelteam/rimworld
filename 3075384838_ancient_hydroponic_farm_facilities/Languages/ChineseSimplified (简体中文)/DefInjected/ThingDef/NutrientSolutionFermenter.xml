@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient nutrient solution fermenter -->
+  <AncientNutrientSolutionFermenter.label>古代营养液发酵厂</AncientNutrientSolutionFermenter.label>
+  <!-- EN: The ancient nutrient solution fermenter was used to process a series of raw food or fertilizers in a fermentation tank and separate them to obtain nutrient solution. The technology for manufacturing it has almost lost its existence, and its core components have long disappeared, but some parts are still intact. Perhaps destroying it can yield some useful parts. -->
+  <AncientNutrientSolutionFermenter.description>古代营养液发酵厂，是用来在发酵池中处理一系列生食品或肥料，并将其分离以获得营养液。制造它的技术几乎已经不复存在，它的核心部件早已消失，但一些部件仍然完好无损。也许摧毁它可以获得一些有用的东西。</AncientNutrientSolutionFermenter.description>
+  
+</LanguageData>

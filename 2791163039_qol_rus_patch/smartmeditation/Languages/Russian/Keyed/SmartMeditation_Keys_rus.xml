@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <BasicSettings>Основные настройки</BasicSettings>
+  <AdvancedSettings>Дополнительные настройки</AdvancedSettings>
+  <ToleranceToFocusPercent>Учитывать сопротивление развлечению как концентрацию при определении потребностей</ToleranceToFocusPercent>
+  <ToleranceToFocusPercentTooltips>Умножьте текущее сопротивление развлечения от медитации (При однообразных развлечениях накапливается сопротивление развлечению, которое уменьшает прирост развлечения) на этот процент и добавьте его к значению концентраии, чтобы решить, нужна ли медитация для концентраии.
+
+Это используется для сокращения медитаций, когда колонисту наскучили уединенные развлечения.
+  </ToleranceToFocusPercentTooltips>
+  <EnoughFocusPercent>Прекратить настаивать на медитации на уровне концентраии</EnoughFocusPercent>
+  <EnoughFocusPercentTooltips>Когда колонист уже сосредоточен, больше не пытаться переключить другой тип уединенных развлечений на медитацию.
+  </EnoughFocusPercentTooltips>
+  <IgnoreToleranceWithMaxTargetFocus>Не учитывать терпимость как концентрацию, когда цель концентраии - Макс.</IgnoreToleranceWithMaxTargetFocus>
+  <IgnoreToleranceWithMaxTargetFocusTooltips>Когда Цель Концентраии установлена на максимальное значение, не добавлять терпимость как концентрацию.(при принятии решения о том, нужна ли медитация для концентраии)
+  </IgnoreToleranceWithMaxTargetFocusTooltips>
+  <MeditationForJoyExtraChanceBoost>Дополнительный шанс сменить другие уединенные развлечения на медитацию</MeditationForJoyExtraChanceBoost>
+  <MeditationForJoyExtraChanceBoostTooltips>Принимая решение о том, следует ли переключать уединенные развлечения на медитацию используется случайный шанс. Увеличить шанс медитации на эту величину.
+
+Если это значение равно 0, специально не сменять другие уединенные развлечения. (Шанс как в оригинале)
+  </MeditationForJoyExtraChanceBoostTooltips>
+  <DebugLog>Включить журнал отладки</DebugLog>
+  <DebugLogTooltips>Включить журнал отладки. Не используйте это в обычном игровом процессе (спам).</DebugLogTooltips>
+</LanguageData>

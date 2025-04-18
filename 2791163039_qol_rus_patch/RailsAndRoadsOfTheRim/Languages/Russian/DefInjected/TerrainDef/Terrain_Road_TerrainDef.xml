@@ -1,0 +1,62 @@
+<LanguageData>
+	<!--1.5\Defs\TerrainDefs\Terrain_Road.xml-->
+	<!--          EN: Recently packed dirt -->
+	<DirtRecent.label>Недавно утрамбованная грязь</DirtRecent.label>
+	<!--                EN: Packed dirt for recently built paths and roads. Neither beautiful nor clean, they still make good surfaces for cheap roads. Deconstructing packed dirt yields no resources. -->
+	<DirtRecent.description>Утрамбованная земля для недавно проложенных дорожек и мостовых. Не будучи ни красивыми, ни чистыми, они все же являются хорошим покрытием для дешевых дорог. Разборка утрамбованной земли не дает никаких ресурсов.</DirtRecent.description>
+	
+	<!--           EN: Recently built sandstone flagstone -->
+	<StoneRecent.label>Недавно построенный плитняк из песчаника</StoneRecent.label>
+	<!--                 EN: Roughly-cut stone recently built tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+	<StoneRecent.description>Грубо отесанная каменная плитка, недавно построенная. Она некрасива, но из нее получаются хорошие покрытия для дорог и наружных дорожек. Разборка каменных плит не дает никаких ресурсов.</StoneRecent.description>
+	
+	<!--             EN: recently built asphalt -->
+	<AsphaltRecent.label>недавно проложенный асфальт</AsphaltRecent.label>
+	<!--                   EN: Recently built Asphalt. Excellent for roads. Deconstructing asphalt yields no resources. -->
+	<AsphaltRecent.description>Недавно проложенный асфальт. Отлично подходит для дорог. Разборка асфальта не дает никаких ресурсов.</AsphaltRecent.description>
+	
+	<!--              EN: concrete bridge -->
+	<ConcreteBridge.label>бетонный мост</ConcreteBridge.label>
+	<!--                    EN: A concrete bridge to be built over water. Heavy structures can be built on these bridges, but they can still be destroyed. If a bridge falls, buildings on top of it fall as well. -->
+	<ConcreteBridge.description>Бетонный мост, который будет построен над водой. На этих мостах могут быть построены тяжелые конструкции, но они все равно могут быть разрушены. Если мост падает, здания на его вершине тоже падают.</ConcreteBridge.description>
+	
+	<!--           EN: glitter road -->
+	<GlitterRoad.label>передовая дорога</GlitterRoad.label>
+	<!--                 EN: Spacer level actively supported roads. Deconstructing glitter roads yields no resources. -->
+	<GlitterRoad.description>Дорога передового уровня. Демонтаж передовых дорог не дает никаких ресурсов.</GlitterRoad.description>
+	
+	<!--        EN: railroad -->
+	<Railroad.label>железная дорога</Railroad.label>
+	<!--              EN: Deconstructing rail yields no resources. -->
+	<Railroad.description>Демонтаж железнодорожных путей не дает никаких ресурсов.</Railroad.description>
+	
+	<!--                EN: railroad overpass -->
+	<RailroadOverpass.label>железнодорожная эстакада</RailroadOverpass.label>
+	<!--                      EN: Deconstructing rail yields no resources. -->
+	<RailroadOverpass.description>Демонтаж железнодорожных путей не дает никаких ресурсов..</RailroadOverpass.description>
+	
+	<!--        EN: railyard -->
+	<RailYard.label>железнодорожная развязка</RailYard.label>
+	<!--              EN: Deconstructing rail yields no resources. -->
+	<RailYard.description>Демонтаж железнодорожных путей не дает никаких ресурсов..</RailYard.description>
+	
+	<!--           EN: glitterrail -->
+	<Glitterrail.label>передовая Железная дорога</Glitterrail.label>
+	<!--                 EN: Deconstructing rail yields no resources. -->
+	<Glitterrail.description>Демонтаж железнодорожных путей не дает никаких ресурсов..</Glitterrail.description>
+	
+	<!--               EN: glitterrail overpass -->
+	<GlitterOverpass.label>передовая эстакада</GlitterOverpass.label>
+	<!--                     EN: Deconstructing rail yields no resources. -->
+	<GlitterOverpass.description>Демонтаж железнодорожных путей не дает никаких ресурсов..</GlitterOverpass.description>
+	
+	<!--           EN: glitteryard -->
+	<GlitterYard.label>передовая развязка</GlitterYard.label>
+	<!--                 EN: Deconstructing rail yields no resources. -->
+	<GlitterYard.description>Демонтаж железнодорожных путей не дает никаких ресурсов..</GlitterYard.description>
+	
+	<!--          EN: rail tunnel -->
+	<RailTunnel.label>железнодорожный туннель</RailTunnel.label>
+	<!--                EN: Deconstructing rail yields no resources. -->
+	<RailTunnel.description>Демонтаж железнодорожных путей не дает никаких ресурсов..</RailTunnel.description>
+</LanguageData>

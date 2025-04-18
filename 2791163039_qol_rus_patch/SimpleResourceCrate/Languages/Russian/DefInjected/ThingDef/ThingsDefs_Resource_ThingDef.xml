@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/ThingsDefs_Resource.xml-->
+                        <!-- Resources Crate WoodLog -->
+<ResourcesCrateWoodLog.label>Ящик с Деревом</ResourcesCrateWoodLog.label>
+                              <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateWoodLog.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateWoodLog.description>
+                      <!-- Resources Crate Steel -->
+<ResourcesCrateSteel.label>Ящик со Сталью</ResourcesCrateSteel.label>
+                            <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateSteel.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateSteel.description>
+                     <!-- Resources Crate Gold -->
+<ResourcesCrateGold.label>Ящик с Золотом</ResourcesCrateGold.label>
+                           <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateGold.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateGold.description>
+                     <!-- Resources Crate Jade -->
+<ResourcesCrateJade.label>Ящик с Нефритом</ResourcesCrateJade.label>
+                           <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateJade.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateJade.description>
+                         <!-- Resources Crate Plasteel -->
+<ResourcesCratePlasteel.label>Ящик с Пласталью</ResourcesCratePlasteel.label>
+                               <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCratePlasteel.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCratePlasteel.description>
+                        <!-- Resources Crate Uranium -->
+<ResourcesCrateUranium.label>Ящик с Ураном</ResourcesCrateUranium.label>
+                              <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateUranium.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateUranium.description>
+                      <!-- Resources Crate Cloth -->
+<ResourcesCrateCloth.label>Ящик с Тканью</ResourcesCrateCloth.label>
+                            <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateCloth.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateCloth.description>
+                          <!-- Resources Crate Synthread -->
+<ResourcesCrateSynthread.label>Ящик с Синтканью</ResourcesCrateSynthread.label>
+                                <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateSynthread.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateSynthread.description>
+                                 <!-- Resources Crate Devilstrand -->
+<ResourcesCrateDevilstrandCloth.label>Ящик с Дьявлонитником</ResourcesCrateDevilstrandCloth.label>
+                                       <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateDevilstrandCloth.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateDevilstrandCloth.description>
+                           <!-- Resources Crate Hyperweave -->
+<ResourcesCrateHyperweave.label>Ящик с Гипертканью</ResourcesCrateHyperweave.label>
+                                 <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateHyperweave.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateHyperweave.description>
+                             <!-- Resources Crate Plain Leather -->
+<ResourcesCrateLeatherPlain.label>Ящик с Кожей</ResourcesCrateLeatherPlain.label>
+                                   <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateLeatherPlain.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateLeatherPlain.description>
+                             <!-- Resources Crate Human Leather -->
+<ResourcesCrateLeatherHuman.label>Ящик с Человеческой Кожей</ResourcesCrateLeatherHuman.label>
+                                   <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateLeatherHuman.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateLeatherHuman.description>
+                             <!-- Resources Crate Light Leather -->
+<ResourcesCrateLeatherLight.label>Ящик с Легкой Кожей</ResourcesCrateLeatherLight.label>
+                                   <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateLeatherLight.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateLeatherLight.description>
+                             <!-- Resources Crate Heavy fur -->
+<ResourcesCrateLeatherHeavy.label>Ящик с Толстой Шкурой</ResourcesCrateLeatherHeavy.label>
+                                   <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateLeatherHeavy.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateLeatherHeavy.description>
+                           <!-- Resources Crate Components  -->
+<ResourcesCrateIndustrial.label>Ящик с Компонентами</ResourcesCrateIndustrial.label>
+                                 <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateIndustrial.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateIndustrial.description>
+                       <!-- Resources Crate Advanced component -->
+<ResourcesCrateSpacer.label>Ящик с Продвинутыми Компонентами</ResourcesCrateSpacer.label>
+                             <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateSpacer.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateSpacer.description>
+                         <!-- Resources Crate Chemfuel -->
+<ResourcesCrateChemfuel.label>Ящик с Химтопливом</ResourcesCrateChemfuel.label>
+                               <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateChemfuel.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateChemfuel.description>
+                               <!-- Resources Crate Medicine Herbal -->
+<ResourcesCrateMedicineHerbal.label>Ящик с Лечебными Травами</ResourcesCrateMedicineHerbal.label>
+                                     <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateMedicineHerbal.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateMedicineHerbal.description>
+                                   <!-- Resources Crate Medicine -->
+<ResourcesCrateMedicineIndustrial.label>Ящик с Медикаментами</ResourcesCrateMedicineIndustrial.label>
+                                         <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateMedicineIndustrial.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateMedicineIndustrial.description>
+                                  <!-- Resources Crate Glitterworld Medicine -->
+<ResourcesCrateMedicineUltratech.label>Ящик с Передовыми Медикаментами</ResourcesCrateMedicineUltratech.label>
+                                        <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateMedicineUltratech.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateMedicineUltratech.description>
+                       <!-- Resources Crate Silver -->
+<ResourcesCrateSilver.label>Ящик с Серебром</ResourcesCrateSilver.label>
+                             <!-- These Crates are used to store, haul and deliver Resource Items for personal use or to be sold for the Merchant Traders in exchange of Silver or Royal Favor -->
+<ResourcesCrateSilver.description>Эти ящики используются для хранения, транспортировки и доставки ресурсов для личного пользования или для продажи торговцам в обмен на серебро или королевскую милость</ResourcesCrateSilver.description>
+
+</LanguageData>

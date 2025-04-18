@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<ToggleTooltip>显示品质覆盖图层.</ToggleTooltip>
+	<EnableForBuilding>显示建筑品质</EnableForBuilding>
+	<EnableForWeapon>显示武器品质</EnableForWeapon>
+	<EnableForApparel>显示服饰品质</EnableForApparel>
+	<EnableForMinifiedThing>显示打包物品品质，如床、雕塑等</EnableForMinifiedThing>
+	<OverlayOpacitySetting>图层不透明度（需要重启游戏）</OverlayOpacitySetting>
+	<OverlayUpdateTicks>刷新频率Ticks</OverlayUpdateTicks>
+	<QualityOverlayColorSettings>不同品质的对应颜色</QualityOverlayColorSettings>
+	<ResetAll>重置所有设置</ResetAll>
+</LanguageData>

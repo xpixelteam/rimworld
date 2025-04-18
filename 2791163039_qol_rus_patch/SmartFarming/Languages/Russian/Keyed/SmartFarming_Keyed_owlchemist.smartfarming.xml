@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<SmartFarming.Icon.On>Разрешить\nсеять</SmartFarming.Icon.On>
+	<SmartFarming.Icon.On.Desc>Засеивать зону, пока идет сезон роста.</SmartFarming.Icon.On.Desc>
+	<SmartFarming.Icon.Off>Запретить\nсеять</SmartFarming.Icon.Off>
+	<SmartFarming.Icon.Off.Desc>Не засеивать.</SmartFarming.Icon.Off.Desc>
+	<SmartFarming.Icon.Smart>Умные\nпосадки</SmartFarming.Icon.Smart>
+	<SmartFarming.Icon.Smart.Desc>Засеивать зону, если растение достигнет минимального порога урожая, прежде чем умрет от холода или токсинов.</SmartFarming.Icon.Smart.Desc>
+	<SmartFarming.Icon.Force>Принудительные\nпосадки</SmartFarming.Icon.Force>
+	<SmartFarming.Icon.Force.Desc>Засеивать зону независимо от сезона роста.</SmartFarming.Icon.Force.Desc>
+	<SmartFarming.Icon.HarvestNow>Собрать урожай\nсейчас</SmartFarming.Icon.HarvestNow>
+	<SmartFarming.Icon.HarvestNow.Desc>Назначить сбора урожая для всех растений в зоне, даже если они еще не полностью выросли.</SmartFarming.Icon.HarvestNow.Desc>
+	<SmartFarming.Icon.AllowHarvest>Разрешить сбор\nурожая</SmartFarming.Icon.AllowHarvest>
+	<SmartFarming.Icon.AllowHarvest.Desc>Отключите это, чтобы запретить пешкам собирать урожай в этой зоне.</SmartFarming.Icon.AllowHarvest.Desc>
+	<SmartFarming.Icon.OrchardAlignment>Выровнять растения</SmartFarming.Icon.OrchardAlignment>
+	<SmartFarming.Icon.OrchardAlignment.Desc>Для растений, которым нужно свободное пространство, таких как деревья, пешки попытаются расположить их рядами. Это может плохо работать для зон странной формы.</SmartFarming.Icon.OrchardAlignment.Desc>
+	<SmartFarming.Icon.MergeZones>Объединить зоны</SmartFarming.Icon.MergeZones>
+	<SmartFarming.Icon.MergeZones.Desc>Объединить выбранные зоны в единую зону, используя первую выбранную зону в качестве эталонной.</SmartFarming.Icon.MergeZones.Desc>
+	
+	<SmartFarming.Icon.Low>Низкий\nПриоритет</SmartFarming.Icon.Low>
+	<SmartFarming.Icon.Normal>Обычный\nПриоритет</SmartFarming.Icon.Normal>
+	<SmartFarming.Icon.Preferred>Средний\nПриоритет</SmartFarming.Icon.Preferred>
+	<SmartFarming.Icon.Important>Высокий\nПриоритет</SmartFarming.Icon.Important>
+	<SmartFarming.Icon.Critical>Максимальный\nПриоритет</SmartFarming.Icon.Critical>
+	<SmartFarming.Icon.Priority.Desc>Назначить приоритет для засеивания и сбора урожая.</SmartFarming.Icon.Priority.Desc>
+	
+	<SmartFarming.Icon.NoPettyJobs>Никакой мелкой работы</SmartFarming.Icon.NoPettyJobs>
+	<SmartFarming.Icon.NoPettyJobs.Desc>Колонисты не будут засеивать зону, если нет достаточного количества работы (количество необходимой работы можно выбрать в настройках.)</SmartFarming.Icon.NoPettyJobs.Desc>
+	
+	<SmartFarming.Settings.ColdSowing>Разрешить холодный посев</SmartFarming.Settings.ColdSowing>
+	<SmartFarming.Settings.ColdSowing.Desc>В ванильной игре колонисты не будут засеивать зону, когда земля замерзла, даже если вид высаживаемых растений переносит низкие температуры. Отключите этот параметр, чтобы сохранить ванильные правила.</SmartFarming.Settings.ColdSowing.Desc>
+	
+	<SmartFarming.Settings.AllowHarvest>Показывать кнопку "Разрешить сбор урожая"</SmartFarming.Settings.AllowHarvest>
+	<SmartFarming.Settings.AllowHarvest.Desc>Показывать кнопку "разрешить сбор урожая". Включение может оказать некоторое влияние на производительность в колониях с высокой численностью населения. Для изменения этого параметра требуется перезапуск игры.</SmartFarming.Settings.AllowHarvest.Desc>
+	
+	<SmartFarming.Settings.SmartSowLabel>Умный посев:</SmartFarming.Settings.SmartSowLabel>
+	<SmartFarming.Settings.ProcessedFoodLabel>Множитель оценки питательности:</SmartFarming.Settings.ProcessedFoodLabel>
+	<SmartFarming.Settings.ProcessedFood.Desc>При выборе зоны, в окне инспектора показывается примерный уровень питательности производимой этой зоной. Данная настройка позволяет отобразить значение умноженное на этот множитель. Это может быть полезно для расчета питательности еды, приготовленной из растений собранных с этой зоны. При приготовлении еды, питательность сырой еды, множатеся на определенный коэффициент\n(Для простых блюд это - 1.8, изысканных блюд - 1.2, роскошных - 1.0). Это означает, что из 5 питательности сырой еды, получится простое блюдо с питательностью 5*1.8=9</SmartFarming.Settings.ProcessedFood.Desc>
+	
+	<SmartFarming.Settings.UseAverageTemperature>Использовать прогноз средней температуры</SmartFarming.Settings.UseAverageTemperature>
+	<SmartFarming.Settings.UseAverageTemperature.Desc>При прогнозировании погоды с помощью функции "Умные посадки" использовать среднюю температуру за день, а не нижнюю. Использование среднего значения продлит период посадок, но с риском потери части урожая.</SmartFarming.Settings.UseAverageTemperature.Desc>
+	
+	<SmartFarming.Settings.UseAverageFertility>Использовать среднюю плодородность зоны</SmartFarming.Settings.UseAverageFertility>
+	<SmartFarming.Settings.UseAverageFertility.Desc>При прогнозировании роста растений использовать среднюю плодородность зоны вместо самой низкой плодородности.</SmartFarming.Settings.UseAverageFertility.Desc>
+	
+	<SmartFarming.Settings.AutoCutBlighted>Автоматически помечать заражённые растения для утилизации</SmartFarming.Settings.AutoCutBlighted>
+	<SmartFarming.Settings.AutoCutBlighted.Desc>Если растения заражаются болезнью, отмечать их для срезания.</SmartFarming.Settings.AutoCutBlighted.Desc>
+	
+	<SmartFarming.Settings.AutoHarvestNow>Собирать урожай раньше, если есть угроза</SmartFarming.Settings.AutoHarvestNow>
+	<SmartFarming.Settings.AutoHarvestNow.Desc>Если сегодняшняя погода будет смертельно холодной, назначить все растения для немедленного сбора урожая.</SmartFarming.Settings.AutoHarvestNow.Desc>
+	<SmartFarming.Message.AutoHarvestNow>Для растений назначен сбор урожая в связи с прогнозируемой сегодня погодой.</SmartFarming.Message.AutoHarvestNow>
+	
+	<SmartFarming.Settings.OrchardAlignment>Показывать кнопку выравнивания</SmartFarming.Settings.OrchardAlignment>
+	<SmartFarming.Settings.OrchardAlignment.Desc>Показывать кнопку, которая побуждает пешек сажать деревья аккуратными рядами.</SmartFarming.Settings.OrchardAlignment.Desc>
+	
+	<SmartFarming.Settings.AutoCutDying>Автоматически пытаться собрать умирающие культуры</SmartFarming.Settings.AutoCutDying>
+	<SmartFarming.Settings.AutoCutDying.Desc>Если урожай погибает от холода, назначить сбор всех уцелевших растений, пока не стало слишком поздно.</SmartFarming.Settings.AutoCutDying.Desc>
+	
+	
+	
+	<SmartFarming.Settings.MinTempSlider>Минимальная допустимая температура (Стандарт: {0}, Мин: {1}, Макс: {2}): </SmartFarming.Settings.MinTempSlider>
+	<SmartFarming.Settings.MinTemp>При расчете первого дня урожая считать все, что ниже этой температуры неприемлемо, недопустимым. Хотя растения потенциально могут погибнуть при температуре 0° C, но обычно этого не происходит, если заморозки длятся всего несколько часов. Однако случайное суточное отклонение температуры может снизить точность.</SmartFarming.Settings.MinTemp>
+	
+	<SmartFarming.Settings.PettyJobsSlider>Условия на мелкие работы (Стандарт: {0}, Мин: {1}, Макс: {2}): </SmartFarming.Settings.PettyJobsSlider>
+	<SmartFarming.Settings.PettyJobs>Если в зоне включена функция "Никакой мелкой работы", колонисты не будут засевать поле, пока процент пустых клеток не превысит данное значение. Это может быть полезно для зон выпаса животных (Колонисты будут засеивать зону только после того, как в ней будет много незасеянных клеток).</SmartFarming.Settings.PettyJobs>
+	
+	<SmartFarming.Inspector.MinHarvestDay>\nПервый день урожая: </SmartFarming.Inspector.MinHarvestDay>
+	<SmartFarming.Inspector.MinHarvestDayFail>\nРастения, возможно, погибнут до сбора урожая</SmartFarming.Inspector.MinHarvestDayFail>
+	<SmartFarming.Inspector.Fertility>\nПлодородность: {0} средняя/{1} нижняя</SmartFarming.Inspector.Fertility>
+	<SmartFarming.Inspector.AverageGrowth>\nСредний рост: </SmartFarming.Inspector.AverageGrowth>
+	<SmartFarming.Inspector.Yield>\nПримерная питательность: </SmartFarming.Inspector.Yield>
+	<SmartFarming.Inspector.DaysWorth> (за {0} дней)</SmartFarming.Inspector.DaysWorth>
+	
+	<SmartFarming.Icon.SetAll>Для всех зон: </SmartFarming.Icon.SetAll>
+</LanguageData>

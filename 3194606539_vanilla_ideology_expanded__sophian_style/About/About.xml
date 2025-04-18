@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Ideology Expanded - Sophian Style</name>
+	<author>Oskar Potocki, Sarg Bjornson</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
+	<packageId>VanillaExpanded.Ideo.SophianStyle</packageId>
+	<description>This mod introduces a brand new style, inspired by that of the Empire from Royalty DLC. Featuring numerous new textures for many structures and weapons in the game, this mod also features built-in interactions with many of the Vanilla Expanded mods, changing furniture from Vanilla Furniture Expanded, or weapons from Vanilla Weapons Expanded, to interesting, new and unique empire-themed versions.
+	
+	The existence of a brand new ritual sound and ritual effects displaying the beautiful imperial banners waving in the wind will ensure that you get filled with pride every time you execute dissidents and deserters. Fallen Empire faction will be guaranteed to spawn with this ideological style.
+	</description>
+</ModMetaData>

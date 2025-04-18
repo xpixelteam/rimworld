@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<RT_Mk19_Turret.label>Mk19 自动榴弹发射器</RT_Mk19_Turret.label>
+  	<RT_Mk19_Turret.fireModes.0.label>单发</RT_Mk19_Turret.fireModes.0.label>
+	<RT_Mk19_Turret.fireModes.1.label>连发</RT_Mk19_Turret.fireModes.1.label>
+	<RT_Mk19_Turret.fireModes.2.label>点射</RT_Mk19_Turret.fireModes.2.label>
+  	<RT_Mk19_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 40x53mm Grenade</RT_Mk19_Turret.gizmoDescription>
+
+</LanguageData>

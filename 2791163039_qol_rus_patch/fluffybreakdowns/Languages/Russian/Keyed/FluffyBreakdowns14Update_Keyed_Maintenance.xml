@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<FluffyBreakdowns.Maintenance>Уровень техобслуживания:  {0}</FluffyBreakdowns.Maintenance>
+
+	<FluffyBreakdowns.ComponentLifetimeFactor>Базовый Срок службы компонента ({0})</FluffyBreakdowns.ComponentLifetimeFactor>
+	<Fluffy.Breakdowns.LowComponentLifetime>Предупреждение: Срок службы компонентов очень мал! Это значительно усложнит вашу игру.</Fluffy.Breakdowns.LowComponentLifetime>
+	<Fluffy.Breakdowns.HighComponentLifetime>Предупреждение: Срок службы компонентов очень высок! Это значительно упростит вашу игру.</Fluffy.Breakdowns.HighComponentLifetime>
+
+	<FluffyBreakdowns.NotUsedFactor>Коэффициент ухудшения технического обслуживания зданий с отключенным питанием ({0})</FluffyBreakdowns.NotUsedFactor>
+
+	<FluffyBreakdowns.MaintenanceThreshold>Порог для запуска процедуры техобслуживания ({0})</FluffyBreakdowns.MaintenanceThreshold>
+	<FluffyBreakdowns.MaintenanceThresholdTip>Колонист с навыком ремонта начнёт ремонтировать объекты, если уровень их техобслуживания будет ниже этого порога.</FluffyBreakdowns.MaintenanceThresholdTip>
+	<FluffyBreakdowns.LowMaintenanceThreshold>Внимание: Порог очень низкий!</FluffyBreakdowns.LowMaintenanceThreshold>
+
+	<FluffyBreakdowns.MaintenanceHome>Обслуживать только домашнюю зону</FluffyBreakdowns.MaintenanceHome>
+	<FluffyBreakdowns.MaintenanceHomeTip>Если выключено, то колонисты будут ремонтировать все установленные объекты.</FluffyBreakdowns.MaintenanceHomeTip>
+</LanguageData>

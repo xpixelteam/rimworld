@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: bullet casings -->
+	<Filth_BulletCasingsRifle.label>гильзы</Filth_BulletCasingsRifle.label>
+  <!-- EN: shotgun bullet casings -->
+	<Filth_BulletCasingsShotgun.label>гильзы от дробовика</Filth_BulletCasingsShotgun.label>
+  <!-- EN: energy bullet casings -->
+	<Filth_BulletCasingsCharge.label>гильзы от энергоячеек</Filth_BulletCasingsCharge.label>
+
+
+
+</LanguageData>

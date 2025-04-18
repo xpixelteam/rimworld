@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>CanisterB</defName>
+        <label>Canister B</label>
+        <graphicData>
+            <texPath>Canister/Canister_B</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A pallet of metal canisters crate that can store a range of items and is inflammable. Items stored inside will never deteriorate, burn, and don't affect the beauty of their surroundings.\n\nTotal Capacity: 32</description>
+        <researchPrerequisites>
+            <li>BiofuelRefining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Canister/Canister_B_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(2,2)</size>
+        <rotatable>false</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0.7</Beauty>
+            <MaxHitPoints>800</MaxHitPoints>
+            <WorkToBuild>2500</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>65</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>8</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Root</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <paintable>true</paintable>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

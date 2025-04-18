@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/TerrainDefs/Terrain_Farmland.xml-->
+           <!-- farmland -->
+<Farmland.label>Посадки</Farmland.label>
+                   <!-- dirt -->
+<Farmland.tools.0.label>грязь</Farmland.tools.0.label>
+               <!-- rich farmland -->
+<FarmlandRich.label>богатые посадки</FarmlandRich.label>
+                       <!-- dirt -->
+<FarmlandRich.tools.0.label>грязь</FarmlandRich.tools.0.label>
+              <!-- poor farmland -->
+<FarmlandDry.label>бедные посадки</FarmlandDry.label>
+                      <!-- dirt -->
+<FarmlandDry.tools.0.label>грязь</FarmlandDry.tools.0.label>
+
+</LanguageData>

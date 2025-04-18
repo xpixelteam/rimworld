@@ -1,0 +1,12 @@
+<LanguageData>
+	<!--1.5\Defs\WorldObjectDefs\WorldObjects.xml-->
+	<!--                    EN: road construction site -->
+	<RoadConstructionSite.label>дорожно-строительная площадка</RoadConstructionSite.label>
+	<!--                          EN: The site of a road under construction -->
+	<RoadConstructionSite.description>Участок строящейся дороги</RoadConstructionSite.description>
+	
+	<!--                   EN: road construction leg -->
+	<RoadConstructionLeg.label>этап дорожного строительства</RoadConstructionLeg.label>
+	<!--                         EN: Section of a planned road -->
+	<RoadConstructionLeg.description>Участок планируемой дороги</RoadConstructionLeg.description>
+</LanguageData>

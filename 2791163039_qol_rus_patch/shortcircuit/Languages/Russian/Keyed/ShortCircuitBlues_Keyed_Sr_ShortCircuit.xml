@@ -1,0 +1,156 @@
+<LanguageData>
+	<!-- EN: Short Circuit Blues -->
+	<SCB_Main>Short Circuit Blues</SCB_Main>
+	<!-- EN: Battery Drain Settings -->
+	<SCB_DrainSet>Настройки разряда батареи</SCB_DrainSet>
+	<!-- EN: Battery drain: %{0} -->
+	<SCB_Drain>Разряд батареи: {0}%</SCB_Drain>
+	<!-- EN: Battery drain min: %{0} -->
+	<SCB_DrainMin>Разряд батареи мин: {0}%</SCB_DrainMin>
+	<!-- EN: Battery drain max: %{0} -->
+	<SCB_DrainMax>Разряд батареи макс: {0}%</SCB_DrainMax>
+
+	<!-- EN: of Stored Energy -->
+	<SCB_Stored>накопленной энергии</SCB_Stored>
+	<!-- EN: of Total Capacity -->
+	<SCB_Total>общей емкости</SCB_Total>
+	<!-- EN: Randomized -->
+	<SCB_Rand>Рандомизация</SCB_Rand>
+
+	<!-- EN: Try with a fuse mod;  -->
+	<SCB_Get>Попробуйте с модами:</SCB_Get>
+	<!-- EN: Power Logic -->
+	<SCB_PL>Power Logic</SCB_PL>
+	<!-- EN: RT Fuse -->
+	<SCB_RT>RT Fuse</SCB_RT>
+
+
+		<!-- Non-Fused with Fuse Mods -->
+	<!-- EN: Battery Drain without Fuse: {0} -->
+	<SCB_FuseLess>Разрядка аккумулятора без предохранителя:\n		{0}</SCB_FuseLess>
+
+	<!-- EN: Total Stored -->
+	<SCB_FuselessTot>Вся хранимая энергия</SCB_FuselessTot>
+	<!-- EN: Same as Mitigated -->
+	<SCB_FuselessSame>1 * Рассеивание</SCB_FuselessSame>
+	<!-- EN: {0} * Mitigated -->
+	<SCB_FuselessMult>{0} * Рассеивание</SCB_FuselessMult>
+
+
+		<!-- RT Fuse -->
+	<!-- EN: RT Fuse Settings -->
+	<SCB_RT_Settings>Настройки RT Fuse</SCB_RT_Settings>
+	<!-- EN: RT Fuses' mitigation power should exceed the total stored power in the network they are in. -->
+	<SCB_RT_SettingsDesc>Мощность, рассеиваемая предохранителями RT Fuses, должна превышать общую накопленную мощность в сети, в которой они находятся.</SCB_RT_SettingsDesc>
+	<!-- EN: Mitigation Power Multiplier: {0} -->
+	<SCB_RT_Mult>Множитель рассеиваемой мощности: {0}</SCB_RT_Mult>
+	<!-- EN: No Mitigation Power Multiplier -->
+	<SCB_RT_Mult_N>Множитель рассеиваемой мощности: 1</SCB_RT_Mult_N>
+	<!-- EN: Fuses will be this much powerful. (This won't change the fuse description.) -->
+	<SCB_RT_MultDesc>Изменить мощность рассеивания Предохранителей. (Это не изменит описание предохранителей).</SCB_RT_MultDesc>
+
+	<!-- EN: Proper activation without batteries -->
+	<SCB_RTZero>Правильная активация без батарей</SCB_RTZero>
+	<!-- EN: On default, RT Fuses protect against fires even when they are broken or flicked when there's a power source but no battery. This makes it so that they can only protect when they are capable. -->
+	<SCB_RTZeroDesc>По умолчанию предохранители RT Fuse защищают от возгорания, даже если они сломаны, выключены когда есть источник питания, но нет батареи.\n	Эта настройка позволяет им защищать только тогда, когда они способны на это.</SCB_RTZeroDesc>
+
+
+		<!-- PowerLogic -->
+	<!-- EN: Power Logic Settings -->
+	<SCB_PL_Settings>Настройки Power Logic</SCB_PL_Settings>
+	<!-- EN: Power Logic fuses should be placed on straight lines, not corners. They usually won't be able to protect other conduits behind the batteries. Their mitigation power is infinite, but only if placed properly. -->
+	<SCB_PL_SettingsDesc>Предохранители Power Logic следует размещать на прямых линиях, а не в углах. Обычно они не могут защитить другие провода за батареями. Их рассеивающая мощность безгранична, но только при правильном размещении.</SCB_PL_SettingsDesc>
+
+	<!-- EN: Flick instead of Breakdown -->
+	<SCB_PL_Flic>Выключить вместо поломки</SCB_PL_Flic>
+	<!-- EN: Fuses Prevent Explosions -->
+	<SCB_PL_Protec>Предохранители предотвращают взрывы</SCB_PL_Protec>
+
+	<!-- EN: Fuse triggering chance: %{0} -->
+	<SCB_PL_Chance>Вероятность срабатывания предохранителя: {0}%</SCB_PL_Chance>
+	<!-- EN: Fuse chance: %50 (Power Logic default) -->
+	<SCB_PL_ChanceDefault>Вероятность: 50% (По умолчанию в Power Logic)</SCB_PL_ChanceDefault>
+
+
+		<!-- Advanced -->
+	<!-- EN: Advanced Settings -->
+	<SCB_Advanced>Расширенные настройки</SCB_Advanced>
+
+	<!-- EN: Minimum power limit (energy gain) for fires: {0} Watts -->
+	<SCB_FireWats>Мин. мощность для пожара (выработка): {0} Вт</SCB_FireWats>
+	<!-- EN: Non-Fused power discharges below this limit will not cause any fire or explosions. -->
+	<SCB_FireWatsDesc>Замыкания без предохранителей мощностью до этого предела не будут вызывать пожар и взрывы.</SCB_FireWatsDesc>
+
+	<!-- EN: Minimum power limit (stored) for explosions: {0} Watts -->
+	<SCB_ExploWats>Мин. мощность для взрыва (хранимая): {0} Вт</SCB_ExploWats>
+	<!-- EN: Non-Fused power discharges below this limit will result in fires instead of explosions. Default is ~20W. -->
+	<SCB_ExploWatsDesc>Замыкания без предохранителей мощностью до этого предела приведут к пожару, а не к взрыву. По умолчанию ~20 Вт.</SCB_ExploWatsDesc>
+
+	<!-- EN: Non-Fused fire or explosion chance: {0}% -->
+	<SCB_DmgOdds>Шанс пожара/взрыва без предохранителей: {0}%</SCB_DmgOdds>
+	<!-- EN: Chance of fire or explosions in a short circuit, if other conditions are met. Default is %100. -->
+	<SCB_DmgOddsDesc>Вероятность пожара или взрыва при коротком замыкании, если соблюдены другие условия. По умолчанию 100%</SCB_DmgOddsDesc>
+
+	<!-- EN: Apply damage on explosion bypass. -->
+	<SCB_DamageInstead>Повредить эл. контур взамен взрыва.</SCB_DamageInstead>
+	<!-- EN: If an explosion didn't occur due to probability setting, do some blunt damage to the circuit instead. -->
+	<SCB_DamageInsteadDesc>Если взрыв не произошел из-за настройки вероятности - нанести эл. контуру тупой ущерб.</SCB_DamageInsteadDesc>
+
+	<!-- EN: Start fire on explosion bypass. -->
+	<SCB_BurnInstead>Зажечь огонь взамен взрыва.</SCB_BurnInstead>
+	<!-- EN: If an explosion didn't occur due to probability setting, add some fire to the equation. -->
+	<SCB_BurnInsteadDesc>Если взрыв не произошел из-за настройки вероятности - добавить немного огня, чтобы уравнять ситуацию.</SCB_BurnInsteadDesc>
+
+	<!-- EN: Non-Fused breakdown probability: {0}% -->
+	<SCB_BrekOdds>Вероятность поломки без предохранителя: {0}%</SCB_BrekOdds>
+	<!-- EN: Adds breakdown chance to the short-circuited building if the short circuit wasn't mitigated. -->
+	<SCB_BrekOddsDesc>Добавляет вероятность поломки здания, подвергшегося короткому замыканию, если короткое замыкание не было устранено.</SCB_BrekOddsDesc>
+
+	<!-- EN: Explosion radius multiplier: *{0} -->
+	<SCB_Explorad>Множитель радиуса взрыва: *{0}</SCB_Explorad>
+	<!-- EN: Can be huge, use at your own risk. -->
+	<SCB_ExploradDesc>Может быть огромным, используйте на свой страх и риск.</SCB_ExploradDesc>
+
+	<!-- EN: Fuse sound from short circuits -->
+	<SCB_SoundFused>Звук предохранителя при коротком замыкании</SCB_SoundFused>
+	<!-- EN: Show message instead of letter -->
+	<SCB_RemoveLetter>Показать сообщение вместо уведомления</SCB_RemoveLetter>
+
+
+		<!-- Message -->
+	<!-- EN: A fault in {0} caused a short circuit. -->
+	<SCB_Message1_0>Неисправность в {0} вызвала короткое замыкание.</SCB_Message1_0>
+	<!-- EN: A fault in {0} caused a short circuit and some damage. -->
+	<SCB_Message1_1>Неисправность в {0} вызвала короткое замыкание и некоторые повреждения.</SCB_Message1_1>
+	<!-- EN: A fault in {0} caused a short circuit with a fire. -->
+	<SCB_Message1_2>Неисправность в {0} вызвала короткое замыкание с возгоранием.</SCB_Message1_2>
+	<!-- EN: A fault in {0} caused a short circuit with an explosion. -->
+	<SCB_Message1_3>Неисправность в {0} вызвала короткое замыкание со взрывом.</SCB_Message1_3>
+	<!-- EN: A fault in {0} caused a short circuit with a huge explosion. -->
+	<SCB_Message1_4>Неисправность в {0} вызвала короткое замыкание с огромным взрывом.</SCB_Message1_4>
+
+	<!-- EN:  {0} Wd of energy was discharged. -->
+	<SCB_Message2_1>Было разряжено {0} Вт энергии.</SCB_Message2_1>
+
+
+		<!-- EVENT -->
+	<!-- EN: Fuses mitigated some of the loss but it wasn't enough. -->
+	<SCB_tried>Предохранители немного смягчили потери, но этого было недостаточно.</SCB_tried>
+
+	<!-- EN: {0} Wd of energy in the connected batteries has been discharged -->
+	<SCB_discharged>Разряжено {0} Вт энергии в подключенных батареях</SCB_discharged>
+
+	<!-- EN:  and caused an explosion. -->
+	<SCB_exploded> и произошел взрыв.</SCB_exploded>
+	<!-- EN:  and started a fire. -->
+	<SCB_burnt> и начался пожар.</SCB_burnt>
+	<!-- EN:  and caused some damage. -->
+	<SCB_hurt> и были получены некоторые повреждения.</SCB_hurt>
+	<!-- EN: , but there wasn't any damage. -->
+	<SCB_sallgood>, но никаких повреждений не было.</SCB_sallgood>
+
+	<!-- EN: Fuses prevented any possible power discharge. -->
+	<SCB_fused>Предохранители предотвращают возможный разряд тока.</SCB_fused>
+	<!-- EN: There wasn't any battery discharge. -->
+	<SCB_nothing>Разряда батареи не было.</SCB_nothing>
+</LanguageData>

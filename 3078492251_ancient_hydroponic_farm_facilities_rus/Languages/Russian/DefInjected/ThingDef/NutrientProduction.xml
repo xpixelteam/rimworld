@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BreadMo_NutrientDispenser.label>Дозатор питательного раствора</BreadMo_NutrientDispenser.label>
+  <BreadMo_NutrientDispenser.description>Дозатор питательного раствора, используемый для обработки и преобразования питательной пасты в питательный раствор, который затем транспортируется по системе трубопроводов для использования в гидропонике.</BreadMo_NutrientDispenser.description>
+  <BreadMo_NutrientDispenser_Blueprint.label>Дозатор питательных растворов (чертеж)</BreadMo_NutrientDispenser_Blueprint.label>
+  <BreadMo_NutrientDispenser_Frame.label>Дозатор питательного раствора (в стадии строительства)</BreadMo_NutrientDispenser_Frame.label>
+  <BreadMo_NutrientDispenser_Frame.description>Дозатор питательного раствора, используемый для обработки и преобразования питательной пасты в питательный раствор, который затем транспортируется по системе трубопроводов для использования в гидропонике.</BreadMo_NutrientDispenser_Frame.description>
+
+  <NutrientSolutionFermenter.label>Завод по ферментации питательных растворов</NutrientSolutionFermenter.label>
+  <NutrientSolutionFermenter.description>Установка для ферментации питательных растворов используется для обработки ряда сырых пищевых продуктов или удобрений в бродильных резервуарах и их разделения для получения питательных растворов.</NutrientSolutionFermenter.description>
+  <NutrientSolutionFermenter_Blueprint.label>Завод по ферментации питательных растворов (чертеж)</NutrientSolutionFermenter_Blueprint.label>
+  <NutrientSolutionFermenter_Frame.label>Завод по ферментации питательных растворов (в стадии строительства)</NutrientSolutionFermenter_Frame.label>
+  <NutrientSolutionFermenter_Frame.description>Установка для ферментации питательных растворов используется для обработки ряда сырых пищевых продуктов или удобрений в бродильных резервуарах и их разделения для получения питательных растворов.</NutrientSolutionFermenter_Frame.description>
+
+
+</LanguageData>

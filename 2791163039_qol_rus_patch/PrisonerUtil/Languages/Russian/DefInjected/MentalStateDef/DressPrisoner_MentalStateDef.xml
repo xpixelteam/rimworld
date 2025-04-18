@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<kathanon-PrisonerUtil-AttackDresser.label>Яростное сопротивление</kathanon-PrisonerUtil-AttackDresser.label>
+<kathanon-PrisonerUtil-AttackDresser.recoveryMessage>{0} больше не оказывает яростного сопротивления.</kathanon-PrisonerUtil-AttackDresser.recoveryMessage>
+<kathanon-PrisonerUtil-AttackDresser.beginLetter>{0} был разгневан попыткой {1} насильно одеть [PAWN_objective] и яростно сопротивляется.</kathanon-PrisonerUtil-AttackDresser.beginLetter>
+<kathanon-PrisonerUtil-AttackDresser.baseInspectLine>Психическое состояние: Яростное сопротивление</kathanon-PrisonerUtil-AttackDresser.baseInspectLine>
+
+</LanguageData>

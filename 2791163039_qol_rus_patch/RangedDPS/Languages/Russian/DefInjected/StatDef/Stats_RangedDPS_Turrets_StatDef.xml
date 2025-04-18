@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/Stats_RangedDPS_Turrets.xml-->
+                   <!-- ranged DPS -->
+<RangedTurret_DPS.label>DPS дальнобойный</RangedTurret_DPS.label>
+                         <!-- Average damage per second this turret can deal in ranged combat, factoring in both the weapon and this turret's shooting accuracy.  This stat is equivalent to the "Ranged DPS" stat on pawns.
+
+This stat doesn't factor in target defenses like cover and armor, but is accurate for unarmored targets not in cover. -->
+<RangedTurret_DPS.description>Средний урон в секунду, который эта башня может наносить в дальнем бою, зависит как от оружия, так и от точности стрельбы этой башни. Этот показатель эквивалентен показателю "DPS дальнобойный" для пешек.\n\nЭта характеристика не учитывает защиту цели, такую как укрытие и броня, но является точной для небронированных целей, не находящихся в укрытии.</RangedTurret_DPS.description>
+                         <!-- weapon ranged DPS -->
+<RangedTurret_WeaponDPS.label>DPS дальнобойный (оптимальный)</RangedTurret_WeaponDPS.label>
+                               <!-- Average potential damage dealt per second in ranged combat at the optimal range of this turret's weapon, not factoring in the shooting accuracy of the turret mount.  This stat is equivalent to the "Average ranged DPS" stat on ranged weapons.
+
+This stat doesn't factor in the turret's shooting accuracy or target defenses like cover and armor, so the actual value will be lower. -->
+<RangedTurret_WeaponDPS.description>Средний потенциальный урон, наносимый в секунду в дальнем бою на оптимальной дальности действия оружия этой башни, без учета точности стрельбы турельной установки.  Этот показатель эквивалентен показателю "DPS дальнобойный (оптимальный)" для оружия дальнего боя.\n\nЭта характеристика не учитывает точность стрельбы башни или защиту цели, такую как укрытие и броня, поэтому фактическое значение будет ниже.</RangedTurret_WeaponDPS.description>
+                      <!-- max ranged DPS -->
+<RangedTurret_MaxDPS.label>DPS дальнобойный (максимальный)</RangedTurret_MaxDPS.label>
+                            <!-- Maximum potential damage dealt per second in ranged combat, assuming all shots were to hit.  This is the maximum possible DPS you could get out of this turret in a target-rich environment.
+
+This stat doesn't factor in accuracy or target defenses like cover and armor, so the actual value will be lower. -->
+<RangedTurret_MaxDPS.description>Максимальный потенциальный урон, наносимый в секунду в дальнем бою, при условии, что все выстрелы должны были попасть в цель.  Это максимально возможный DPS, который вы могли бы получить от этой турели в среде, богатой целями.\n\nЭта характеристика не учитывает точность или защиту цели, такую как укрытие и броня, поэтому фактическое значение будет ниже.</RangedTurret_MaxDPS.description>
+                                 <!-- damage per resource -->
+<RangedTurret_DamagePerResource.label>урон за ресурс</RangedTurret_DamagePerResource.label>
+                                       <!-- The average amount of damage this turret can deal for every unit of resource used for ammo or barrel replenishment, including missed shots.  Higher values mean the turret is more resource-efficient at dealing damage.
+
+This stat refers to the actual amount of raw resources used, not the amount of "barrel durability" used up.  E.g., for a turret that is rearmed with steel, this is how much damage you get out of 1 unit of steel.  It does not account for the resources used to build the turret, only the resources used when the turret shoots. -->
+<RangedTurret_DamagePerResource.description>Среднее количество урона, которое может нанести эта башня за каждую единицу ресурса, использованную для пополнения боеприпасов или ствола, включая пропущенные выстрелы.  Более высокие значения означают, что турель более ресурсоэффективна при нанесении урона.\n\n Эта статистика относится к фактическому количеству использованных сырьевых ресурсов, а не к количеству израсходованной "прочности ствола". Например, для башни, которая перевооружена сталью, это то, сколько урона вы получаете от 1 единицы стали. В нем не учитываются ресурсы, использованные для создания башни, только ресурсы, используемые при стрельбе из башни.</RangedTurret_DamagePerResource.description>
+                                    <!-- max damage per resource -->
+<RangedTurret_MaxDamagePerResource.label>урон за ресурс (максимальный)</RangedTurret_MaxDamagePerResource.label>
+                                          <!-- The maximum amount of damage this turret can deal for every unit of resource used for ammo or barrel replenishment, assuming all shots were to hit.  Higher values mean the turret is more resource-efficient at dealing damage.  This is the maximum possible efficiency you could get out of this turret in a target-rich environment.
+
+This stat refers to the actual amount of raw resources used, not the amount of "barrel durability" used up.  E.g., for a turret that is rearmed with steel, this is how much damage you get out of 1 unit of steel.  It does not account for missed shots, so the actual value will be lower. -->
+<RangedTurret_MaxDamagePerResource.description>Максимальное количество урона, которое может нанести эта турель за каждую единицу ресурса, использованную для пополнения боеприпасов или стволов, при условии, что все выстрелы должны были попасть в цель.  Более высокие значения означают, что турель более ресурсоэффективна при нанесении урона.  Это максимально возможная эффективность, которую вы могли бы получить от этой башни в среде, богатой целями.\n\n Эта статистика относится к фактическому количеству использованных сырьевых ресурсов, а не к количеству израсходованной "прочности ствола". Например, для башни, которая перевооружена сталью, это то, сколько урона вы получаете от 1 единицы стали.  Она не учитывает пропущенные выстрелы, поэтому фактическое значение будет ниже.</RangedTurret_MaxDamagePerResource.description>
+
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\VehicleTurrets\BaseLauncher.xml-->
+	<!--                             EN: Select Target.\n\nFire for effect -->
+	<RT_GrenadeLauncher.gizmoDescription>Выберите цель. Стреляйте для пущего эффекта</RT_GrenadeLauncher.gizmoDescription>
+	<!--                  EN: Smoke grenade launcher -->
+	<RT_GrenadeLauncher.label>Дымовой гранатомет</RT_GrenadeLauncher.label>
+	<!--                              EN: Single -->
+	<RT_GrenadeLauncher.fireModes.0.label>Одиночный</RT_GrenadeLauncher.fireModes.0.label>
+	<!--                              EN: Burst -->
+	<RT_GrenadeLauncher.fireModes.1.label>пулеметная очередь</RT_GrenadeLauncher.fireModes.1.label>
+</LanguageData>

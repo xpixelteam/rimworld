@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_M1078_LMTV.label>M1078 LMTV</RT_M1078_LMTV.label>
+  <RT_M1078_LMTV.description>Среднетоннажный тактический грузовик с грузоподъёмностью 2,5 тонны, может переключаться между 4x4 и 6x6.</RT_M1078_LMTV.description>
+  
+  <RT_M1078_LMTV.properties.roles.0.label>Водитель</RT_M1078_LMTV.properties.roles.0.label>
+  <RT_M1078_LMTV.properties.roles.1.label>Пассажир 1</RT_M1078_LMTV.properties.roles.1.label>
+  <RT_M1078_LMTV.properties.roles.2.label>Пассажир 2</RT_M1078_LMTV.properties.roles.2.label>
+  <RT_M1078_LMTV.properties.roles.3.label>Пассажир 3</RT_M1078_LMTV.properties.roles.3.label>
+  <RT_M1078_LMTV.properties.roles.4.label>Пассажир 4</RT_M1078_LMTV.properties.roles.4.label>
+  <RT_M1078_LMTV.properties.roles.5.label>Пассажир 5</RT_M1078_LMTV.properties.roles.5.label>
+  <RT_M1078_LMTV.properties.roles.6.label>Пассажир 6</RT_M1078_LMTV.properties.roles.6.label>
+  <RT_M1078_LMTV.properties.roles.7.label>Пассажир 7</RT_M1078_LMTV.properties.roles.7.label>
+  <RT_M1078_LMTV.properties.roles.8.label>Пассажир 8</RT_M1078_LMTV.properties.roles.8.label>
+  <RT_M1078_LMTV.properties.roles.9.label>Пассажир 9</RT_M1078_LMTV.properties.roles.9.label>
+  <RT_M1078_LMTV.properties.roles.10.label>Пассажир 10</RT_M1078_LMTV.properties.roles.10.label>
+  <RT_M1078_LMTV.properties.roles.11.label>Пассажир 11</RT_M1078_LMTV.properties.roles.11.label>
+  <RT_M1078_LMTV.properties.roles.12.label>Пассажир 12</RT_M1078_LMTV.properties.roles.12.label> 
+  <RT_M1078_LMTV.components.0.label>Двигатель</RT_M1078_LMTV.components.0.label>
+  <RT_M1078_LMTV.components.1.label>Передняя левая подвеска</RT_M1078_LMTV.components.1.label>
+  <RT_M1078_LMTV.components.2.label>Передняя правая подвеска</RT_M1078_LMTV.components.2.label>
+  <RT_M1078_LMTV.components.3.label>Задняя левая подвеска</RT_M1078_LMTV.components.3.label>
+  <RT_M1078_LMTV.components.4.label>Задняя правая подвеска</RT_M1078_LMTV.components.4.label>
+  <RT_M1078_LMTV.components.5.label>Коробка передач</RT_M1078_LMTV.components.5.label>
+  <RT_M1078_LMTV.components.6.label>Топливный бак</RT_M1078_LMTV.components.6.label>
+  <RT_M1078_LMTV.components.7.label>Переднее левое колесо</RT_M1078_LMTV.components.7.label>
+  <RT_M1078_LMTV.components.8.label>Переднее правое колесо</RT_M1078_LMTV.components.8.label>
+  <RT_M1078_LMTV.components.9.label>Заднее левое колесо</RT_M1078_LMTV.components.9.label>
+  <RT_M1078_LMTV.components.10.label>Заднее правое колесо</RT_M1078_LMTV.components.10.label>
+  <RT_M1078_LMTV.components.11.label>Капот</RT_M1078_LMTV.components.11.label>
+  <RT_M1078_LMTV.components.12.label>Крыша</RT_M1078_LMTV.components.12.label>
+  <RT_M1078_LMTV.components.13.label>Грузовой отсек</RT_M1078_LMTV.components.13.label>
+  <RT_M1078_LMTV.components.14.label>Левая дверь</RT_M1078_LMTV.components.14.label>
+  <RT_M1078_LMTV.components.15.label>Правая дверь</RT_M1078_LMTV.components.15.label>
+  <RT_M1078_LMTV.components.16.label>Запасное колесо</RT_M1078_LMTV.components.16.label>
+  <RT_M1078_LMTV.components.17.label>Передний бампер</RT_M1078_LMTV.components.17.label>
+  <RT_M1078_LMTV.components.18.label>Задний бампер</RT_M1078_LMTV.components.18.label>
+  <RT_M1078_LMTV.components.19.label>Интерьер</RT_M1078_LMTV.components.19.label>
+  <RT_M1078_LMTV.components.20.label>Приборная панель</RT_M1078_LMTV.components.20.label>
+  <RT_M1078_LMTV.components.21.label>Руль</RT_M1078_LMTV.components.21.label>
+
+
+</LanguageData>

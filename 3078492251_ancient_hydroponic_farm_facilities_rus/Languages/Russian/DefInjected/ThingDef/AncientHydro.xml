@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AncientHydro.label>Древний горшок для гидропонного растения</AncientHydro.label>
+  <AncientHydro.description>Древний искусственный гидропонный горшок для выращивания растений. Он не потребляет электроэнергию, но его основные компоненты повреждены, а его эффективность вдвое ниже, чем у обычной гидропоники.</AncientHydro.description>
+  <AncientHydro_Blueprint.label>Древний горшок для гидропонного растения (чертеж)</AncientHydro_Blueprint.label>
+  <AncientHydro_Blueprint_Install.label>Древняя гидропоника (чертеж)</AncientHydro_Blueprint_Install.label>
+  <AncientHydro_Frame.label>Древняя гидропоника (в стадии строительства)</AncientHydro_Frame.label>
+  <AncientHydro_Frame.description>Древний искусственный гидропонный горшок для выращивания растений. Он не потребляет электроэнергию, но его основные компоненты повреждены, а его эффективность вдвое ниже, чем у обычной гидропоники.</AncientHydro_Frame.description>
+
+  <DamagedHydro.label>Поврежденный древний горшок с гидропонным растением</DamagedHydro.label>
+  <DamagedHydro.description>Древний искусственный гидропонный горшок, используемый для выращивания растений, его основные компоненты давно повреждены, и теперь он представляет собой груду бесполезного железного лома.</DamagedHydro.description>
+  <DamagedHydro_Blueprint.label>Поврежденный древний горшок с гидропонным растением (чертеж)</DamagedHydro_Blueprint.label>
+  <DamagedHydro_Frame.label>Поврежденный древний горшок с гидропонным растением (здание)</DamagedHydro_Frame.label>
+  <DamagedHydro_Frame.description>Древний искусственный гидропонный горшок для выращивания растений. Его основные компоненты давно повреждены и теперь представляют собой груду бесполезного железного лома.</DamagedHydro_Frame.description>
+
+  <AncientDualHydroponicsBasin.label>Древний двухслойный гидропонный горшок для растений</AncientDualHydroponicsBasin.label>
+  <AncientDualHydroponicsBasin.description>Старый двухслойный гидропонный горшок, используемый для выращивания растений, его основные компоненты давно повреждены, и только установленная внутри солнечная лампа все еще излучает слабый свет.</AncientDualHydroponicsBasin.description>
+  <AncientDualHydroponicsBasin_Blueprint.label>Древний двухслойный гидропонный горшок для растений (чертеж)</AncientDualHydroponicsBasin_Blueprint.label>
+  <AncientDualHydroponicsBasin_Frame.label>Древний двухслойный гидропонный горшок для растений (здание)</AncientDualHydroponicsBasin_Frame.label>
+  <AncientDualHydroponicsBasin_Frame.description>Старый двухслойный гидропонный горшок, используемый для выращивания растений, его основные компоненты давно повреждены, и только установленная внутри солнечная лампа все еще излучает слабый свет.</AncientDualHydroponicsBasin_Frame.description>
+
+
+</LanguageData>

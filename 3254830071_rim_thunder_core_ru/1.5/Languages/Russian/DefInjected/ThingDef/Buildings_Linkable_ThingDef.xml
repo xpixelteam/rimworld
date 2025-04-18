@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\Buildings\Buildings_Linkable.xml-->
+	<!--             EN: tool shelf -->
+	<RTC_ToolShelf.label>полка для инструментов</RTC_ToolShelf.label>
+	<!--                   EN: Increases work speed when placed near a bridge crane or Assembly platfrom. One workbench can use up to two tool shelves. -->
+	<RTC_ToolShelf.description>Увеличивает скорость работы при размещении рядом с мостовым краном или сборочной платформой. На одном верстаке можно разместить до двух полок для инструментов.</RTC_ToolShelf.description>
+	
+	<!--                EN: blast cabinet -->
+	<RTC_BlastCabinet.label>Дробеструйный шкаф</RTC_BlastCabinet.label>
+	<!--                      EN: A blast cabinet is essentially a closed loop system that allows the operator to blast the part and recycle the abrasive. Increases work speed when placed near an Assembly platfrom. One workbench can use one blast cabinet. -->
+	<RTC_BlastCabinet.description>Дробеструйный шкаф - это, по сути, система с замкнутым циклом, которая позволяет оператору производить дробеструйную обработку детали и повторно использовать абразив. Установка рядом со сборочной платформой увеличивает скорость работы. На одном рабочем месте можно использовать один дробеструйный шкаф.</RTC_BlastCabinet.description>
+	
+	<!--                EN: engine hanger -->
+	<RTC_EngineHanger.label>подвеска двигателя</RTC_EngineHanger.label>
+	<!--                      EN: Increases work speed when placed near a bridge crane. One workbench can use up to two engine hanger. -->
+	<RTC_EngineHanger.description>Установка рядом с мостовым краном увеличивает скорость работы. На одном рабочем месте можно установить до двух подвесок для двигателя.</RTC_EngineHanger.description>
+</LanguageData>

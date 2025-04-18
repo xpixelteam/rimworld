@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientOreDressingMachine</defName>
+		<label>Ancient Ore Dressing Machine</label>
+		<description>An ancient ore dressing machine. Once capable of screening useable metal from slags or rubbles using water washing, sieving and magnets, with its core components gone, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<rotatable>false</rotatable>
+		<altitudeLayer>ItemImportant</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/OreDressingMachine/AncientOreDressingMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<statBases>
+			<Mass>150</Mass>
+		</statBases>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Plasteel>75</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Cloths Crate -->
+  <ClothCrate.label>布料板条箱</ClothCrate.label>
+  <!-- EN: Many cloths stacked in the Crate，They are bound by tarpaulins and ropes, perhaps destroying it can obtain some resources -->
+  <ClothCrate.description>许多布堆放在板条箱中，它们被防水油布和绳索捆绑，也许破坏它可以获得一些资源</ClothCrate.description>
+  
+  <!-- EN: Devilstrand Crate -->
+  <DevilstrandCrate.label>魔菇布板条箱</DevilstrandCrate.label>
+  <!-- EN: Many Devilstrands stacked in the Crate，They are bound by tarpaulins and ropes, perhaps destroying it can obtain some resources -->
+  <DevilstrandCrate.description>许多魔菇布堆放在板条箱中，它们被防水油布和绳索捆绑，也许摧毁它可以获得一些资源</DevilstrandCrate.description>
+  
+  <!-- EN: Nutrient solution Crate -->
+  <NutrientSolutionCrate.label>营养液板条箱</NutrientSolutionCrate.label>
+  <!-- EN: The boxes of nutrient solution stacked in the Crate，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources -->
+  <NutrientSolutionCrate.description>箱子里堆放着营养液，用油布和绳子捆着，也许打碎它们可以获得一些资源</NutrientSolutionCrate.description>
+  
+  <!-- EN: SurvivalNutrientPack Crate -->
+  <SurvivalNutrientPackCrateA.label>包装生存营养膏板条箱</SurvivalNutrientPackCrateA.label>
+  <!-- EN: The boxes of survival nutrient pastes pack stacked in the Crate，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources -->
+  <SurvivalNutrientPackCrateA.description>板条箱里堆放着一箱箱的生存营养膏，它们被防水油布和绳子捆着，也许打碎它们可以获得一些资源</SurvivalNutrientPackCrateA.description>
+  
+  <!-- EN: SurvivalNutrientPack Crate -->
+  <SurvivalNutrientPackCrateB.label>包装生存营养膏板条箱</SurvivalNutrientPackCrateB.label>
+  <!-- EN: The boxes of survival nutrient pastes pack stacked in the Crate，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources -->
+  <SurvivalNutrientPackCrateB.description>板条箱里堆放着一箱箱的生存营养膏，它们被防水油布和绳子捆着，也许打碎它们可以获得一些资源</SurvivalNutrientPackCrateB.description>
+  
+</LanguageData>

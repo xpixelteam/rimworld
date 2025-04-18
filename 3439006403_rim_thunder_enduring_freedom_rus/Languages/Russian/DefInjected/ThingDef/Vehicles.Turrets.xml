@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ракетные снаряды -->
+
+  <RT_TOW2Missile.label>фугасная ракета</RT_TOW2Missile.label>
+  <Bullet_Mk19_grenade.label>40-мм граната Mk19</Bullet_Mk19_grenade.label>
+
+
+</LanguageData>

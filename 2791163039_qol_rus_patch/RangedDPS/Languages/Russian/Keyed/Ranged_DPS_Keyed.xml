@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StatsReport_RangedDPSAccuracy>Средние показатели DPS и точности на различных дистанциях:</StatsReport_RangedDPSAccuracy>
+  <StatsReport_RangedDPSResourceAccuracy>Средний урон на ресурс и точность на различных дистанциях:</StatsReport_RangedDPSResourceAccuracy>
+  <StatsReport_RangedDPSOptimalRange>на {0} кл.</StatsReport_RangedDPSOptimalRange>
+</LanguageData>

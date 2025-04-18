@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>DamagedSunlamp</defName>
+    <label>Damaged Sun lamp</label>
+    <description>An ancient self-powered Sunlamp. Its internal power supply is badly depleted, but it still emits a weak glow.</description>
+    <altitudeLayer>Building</altitudeLayer>
+	    <minifiedDef>MinifiedThing</minifiedDef>
+		        <thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>14</pathCost>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/AncientSunlamp/DamagedSunlamp</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5.5</glowRadius>
+        <glowColor>(71,43,6,0)</glowColor>
+      </li>
+    </comps>
+    <statBases>
+	      <Mass>4.5</Mass>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+  </ThingDef>
+  
+    <ThingDef Abstract="True" Name="AncientLampBase" ParentName="BuildingBase">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>14</pathCost>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <uiOrder>2800</uiOrder>
+    <rotatable>false</rotatable>
+    <uiIconOffset>(0, 0.03)</uiIconOffset>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+    <ThingDef ParentName="AncientLampBase">
+    <defName>AncientSunlamp</defName>
+    <label>Ancient sun lamp</label>
+    <description>An ancient self-powered Sunlamp.Its shell is sturdy, and it is powered by a thermonuclear battery inside, providing a very long lifespan. Automatically turns itself off at night.</description>
+    <thingClass>Building_SunLamp</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AncientSunlamp/AncientSunlamp</texPath>
+    </graphicData>
+    <blockWind>true</blockWind>
+    <tickerType>Rare</tickerType>
+    <statBases>
+      <WorkToBuild>330</WorkToBuild>
+      <Mass>4.5</Mass>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+	  <ComponentIndustrial>5</ComponentIndustrial>
+	  <Plasteel>25</Plasteel>
+	  <Uranium>50</Uranium>
+    </costList>
+    <uiOrder>2995</uiOrder>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>7.0</overlightRadius>
+        <glowRadius>14</glowRadius>
+        <glowColor>(370,370,370,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Schedule">
+        <!-- Match plant growing times -->
+        <startTime>0.25</startTime>
+        <endTime>0.8</endTime>
+        <offMessage>Off for plant resting period</offMessage>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3</heatPerSecond>
+      </li>
+    </comps>
+    <!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+    <specialDisplayRadius>5.8</specialDisplayRadius>
+  </ThingDef>
+
+</Defs>

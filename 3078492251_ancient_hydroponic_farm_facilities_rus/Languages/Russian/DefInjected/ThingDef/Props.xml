@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SurvivalNutrientPackCrateA.label>Упаковка Ящик для питательного крема для выживания</SurvivalNutrientPackCrateA.label>
+  <SurvivalNutrientPackCrateA.description>В ящиках сложены коробки с питательной пастой для выживания. Они связаны брезентом и веревками. Возможно, если их сломать, можно получить немного ресурсов.</SurvivalNutrientPackCrateA.description>
+  <SurvivalNutrientPackCrateA_Blueprint.label>Упаковка ящика с питательным кремом для выживания (чертеж)</SurvivalNutrientPackCrateA_Blueprint.label>
+  <SurvivalNutrientPackCrateA_Frame.label>Ящик для упаковки питательных кремов для выживания (здание)</SurvivalNutrientPackCrateA_Frame.label>
+  <SurvivalNutrientPackCrateA_Frame.description>В ящиках сложены коробки с питательной пастой для выживания. Они связаны брезентом и веревками. Возможно, если их сломать, можно получить немного ресурсов.</SurvivalNutrientPackCrateA_Frame.description>
+
+  <SurvivalNutrientPackCrateB.label>Упаковка Ящик для питательного крема для выживания</SurvivalNutrientPackCrateB.label>
+  <SurvivalNutrientPackCrateB.description>В ящиках сложены коробки с питательной пастой для выживания. Они связаны брезентом и веревками. Возможно, если их сломать, можно получить немного ресурсов.</SurvivalNutrientPackCrateB.description>
+  <SurvivalNutrientPackCrateB_Blueprint.label>Упаковка Ящик для крема для питания для выживания (чертеж)</SurvivalNutrientPackCrateB_Blueprint.label>
+  <SurvivalNutrientPackCrateB_Frame.label>Ящик для упаковки питательных кремов для выживания (здание)</SurvivalNutrientPackCrateB_Frame.label>
+  <SurvivalNutrientPackCrateB_Frame.description>В ящиках сложены коробки с питательной пастой для выживания. Они связаны брезентом и веревками. Возможно, если их сломать, можно получить немного ресурсов.</SurvivalNutrientPackCrateB_Frame.description>
+
+  <NutrientSolutionCrate.label>Ящик с питательным раствором</NutrientSolutionCrate.label>
+  <NutrientSolutionCrate.description>В ящиках, перевязанных брезентом и веревкой, сложены питательные растворы. Возможно, сломав их, можно получить немного ресурсов.</NutrientSolutionCrate.description>
+  <NutrientSolutionCrate_Blueprint.label>Ящик с питательным раствором (чертеж)</NutrientSolutionCrate_Blueprint.label>
+  <NutrientSolutionCrate_Frame.label>Ящик с питательным раствором N (здание)</NutrientSolutionCrate_Frame.label>
+  <NutrientSolutionCrate_Frame.description>В ящиках, перевязанных брезентом и веревкой, сложены питательные растворы. Возможно, сломав их, можно получить немного ресурсов.</NutrientSolutionCrate_Frame.description>
+
+  <ClothCrate.label>тканевый ящик</ClothCrate.label>
+  <ClothCrate.description>Многие ткани сложены в ящики, они связаны брезентом и веревками, возможно, разрушьте их, чтобы получить немного ресурсов.</ClothCrate.description>
+  <ClothCrate_Blueprint.label>Тканевый ящик (чертеж)</ClothCrate_Blueprint.label>
+  <ClothCrate_Frame.label>тканевый ящик (здание)</ClothCrate_Frame.label>
+  <ClothCrate_Frame.description>Многие ткани сложены в ящики, они связаны брезентом и веревками, возможно, разрушьте их, чтобы получить немного ресурсов.</ClothCrate_Frame.description>
+
+  <DevilstrandCrate.label>Ящик из ткани «Волшебный гриб»</DevilstrandCrate.label>
+  <DevilstrandCrate.description>Множество тканей волшебных грибов сложены в ящиках, они связаны брезентом и веревками, возможно, разрушьте их, чтобы получить немного ресурсов.</DevilstrandCrate.description>
+  <DevilstrandCrate_Blueprint.label>Ящик из ткани с волшебными грибами (чертеж)</DevilstrandCrate_Blueprint.label>
+  <DevilstrandCrate_Frame.label>Ящик из ткани с волшебными грибами (здание)</DevilstrandCrate_Frame.label>
+  <DevilstrandCrate_Frame.description>Множество тканей волшебных грибов сложены в ящиках, они связаны брезентом и веревками, возможно, разрушьте их, чтобы получить немного ресурсов.</DevilstrandCrate_Frame.description>
+
+
+</LanguageData>

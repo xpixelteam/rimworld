@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient Barrier Gate -->
+  <BreadMoAM_AncientBarrierGate.label>古代道闸</BreadMoAM_AncientBarrierGate.label>
+  <!-- EN: An ancient barrier gate that's no longer functioning properly. -->
+  <BreadMoAM_AncientBarrierGate.description>一个古老的道闸，不再正常工作。</BreadMoAM_AncientBarrierGate.description>
+  
+  <!-- EN: Ancient Broken Turret -->
+  <BreadMoAM_AncientBrokenTurret.label>古代损坏炮塔</BreadMoAM_AncientBrokenTurret.label>
+  <!-- EN: The large shotgun turret, badly damaged, is no longer usable. -->
+  <BreadMoAM_AncientBrokenTurret.description>大型霰弹炮塔，已经严重受损，无法使用。</BreadMoAM_AncientBrokenTurret.description>
+  
+  <!-- EN: Ancient Empty Mining Car -->
+  <BreadMoAM_AncientEmptyMiningCar.label>古代空矿车</BreadMoAM_AncientEmptyMiningCar.label>
+  <!-- EN: An empty mine car -->
+  <BreadMoAM_AncientEmptyMiningCar.description>一节古代空矿车</BreadMoAM_AncientEmptyMiningCar.description>
+  
+  <!-- EN: Ancient Indoor Fire Hydrants -->
+  <BreadMoAM_AncientIndoorFireHydrants.label>古代室内消防栓</BreadMoAM_AncientIndoorFireHydrants.label>
+  <!-- EN: An ancient fire hydrant with no water left inside. -->
+  <BreadMoAM_AncientIndoorFireHydrants.description>里面没有水的古代消防栓。</BreadMoAM_AncientIndoorFireHydrants.description>
+  
+  <!-- EN: Ancient Mud Carriage -->
+  <BreadMoAM_AncientMudCarriage.label>古代泥矿车</BreadMoAM_AncientMudCarriage.label>
+  <!-- EN: A mining car loaded with mud -->
+  <BreadMoAM_AncientMudCarriage.description>装满了泥巴的矿车</BreadMoAM_AncientMudCarriage.description>
+  
+  <!-- EN: Ancient Plasteel Mining Car -->
+  <BreadMoAM_AncientPlasteelMiningCars.label>古代玻璃钢矿车</BreadMoAM_AncientPlasteelMiningCars.label>
+  <!-- EN: A mining car loaded with Plasteel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources. -->
+  <BreadMoAM_AncientPlasteelMiningCars.description>一节满载玻璃钢的矿车，它们被油布和绳索捆绑，也许打破它们可以获得一些资源。</BreadMoAM_AncientPlasteelMiningCars.description>
+  
+  <!-- EN: Ancient Rock Mining Car -->
+  <BreadMoAM_AncientRockMiningCar.label>古代岩石矿车</BreadMoAM_AncientRockMiningCar.label>
+  <!-- EN: A mining car loaded with Rock -->
+  <BreadMoAM_AncientRockMiningCar.description>一节满载了岩石的矿车</BreadMoAM_AncientRockMiningCar.description>
+  
+  <!-- EN: Ancient Rusted Truck -->
+  <BreadMoAM_AncientRustedTruck.label>古代锈蚀卡车</BreadMoAM_AncientRustedTruck.label>
+  <!-- EN: The trucks used to transport trucks at the mine have been stripped of their useful parts. -->
+  <BreadMoAM_AncientRustedTruck.description>用于在矿场运输卡车的卡车，核心部件已经遗失。</BreadMoAM_AncientRustedTruck.description>
+  
+  <!-- EN: Ancient Semi Trailer -->
+  <BreadMoAM_AncientSemiTrailer.label>古代半挂车</BreadMoAM_AncientSemiTrailer.label>
+  <!-- EN: An old truck trunk was filled with dirt. -->
+  <BreadMoAM_AncientSemiTrailer.description>一辆古代卡车的车厢里堆满了泥土。</BreadMoAM_AncientSemiTrailer.description>
+  
+  <!-- EN: Ancient Steel Mining Car -->
+  <BreadMoAM_AncientSteelMiningCars.label>古代钢铁矿车</BreadMoAM_AncientSteelMiningCars.label>
+  <!-- EN: A mining car loaded with Steel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources. -->
+  <BreadMoAM_AncientSteelMiningCars.description>一节满载钢铁的矿车，它们被油布和绳索捆绑，也许打破它们可以获得一些资源。</BreadMoAM_AncientSteelMiningCars.description>
+  
+  <!-- EN: Ancient Truck Compartment -->
+  <BreadMoAM_AncientTruckCompartment.label>古代卡车车厢</BreadMoAM_AncientTruckCompartment.label>
+  <!-- EN: An old truck trunk was filled with dirt. -->
+  <BreadMoAM_AncientTruckCompartment.description>一辆古代卡车的车厢里堆满了泥土。</BreadMoAM_AncientTruckCompartment.description>
+  
+  <!-- EN: Ancient Uranium Mining Car -->
+  <BreadMoAM_AncientUraniumMiningCars.label>古代铀矿车</BreadMoAM_AncientUraniumMiningCars.label>
+  <!-- EN: A mining car loaded with Uranium，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources. -->
+  <BreadMoAM_AncientUraniumMiningCars.description>一节满载铀的矿车，它们被油布和绳索捆绑，也许打破它们可以获得一些资源。</BreadMoAM_AncientUraniumMiningCars.description>
+  
+  <!-- EN: Discarded Radiation Suit -->
+  <BreadMoAM_DiscardedRadiationSuit.label>废弃辐射防护服</BreadMoAM_DiscardedRadiationSuit.label>
+  
+  <!-- EN: Pick Axe -->
+  <BreadMoAM_PickAxe.label>鹤嘴锄</BreadMoAM_PickAxe.label>
+  <!-- EN: An abandoned pickaxe. -->
+  <BreadMoAM_PickAxe.description>废弃的鹤嘴锄</BreadMoAM_PickAxe.description>
+  
+  <!-- EN: Shovel -->
+  <BreadMoAM_Shovel.label>铁锹</BreadMoAM_Shovel.label>
+  <!-- EN: An abandoned shovel. -->
+  <BreadMoAM_Shovel.description>废弃的铁锹</BreadMoAM_Shovel.description>
+  
+  <!-- EN: Warning Board -->
+  <BreadMoAM_WarningBoard.label>警告牌</BreadMoAM_WarningBoard.label>
+  <!-- EN: Beware of radiation. -->
+  <BreadMoAM_WarningBoard.description>当心辐射</BreadMoAM_WarningBoard.description>
+  
+</LanguageData>

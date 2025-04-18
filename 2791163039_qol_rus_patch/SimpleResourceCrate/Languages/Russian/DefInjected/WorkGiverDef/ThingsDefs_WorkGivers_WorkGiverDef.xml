@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/ThingsDefs_WorkGivers.xml-->
+                      <!-- Make Crate -->
+<DoBillsMakeJDSCrate.label>Делать ящики с ресурсами</DoBillsMakeJDSCrate.label>
+                     <!-- packing table things -->
+<DoBillsMakeJDSCrate.verb>Упаковывать ящики</DoBillsMakeJDSCrate.verb>
+                       <!-- packing table thing at -->
+<DoBillsMakeJDSCrate.gerund>Работать на</DoBillsMakeJDSCrate.gerund>
+
+</LanguageData>

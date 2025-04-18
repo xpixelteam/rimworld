@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<VFECore.ExpandableProjectileDef ParentName="BaseBunsenBullet">
+		<defName>VVE_Bullet_Bunsen_Long</defName>
+
+		<projectile>
+			<speed>38</speed>
+		</projectile>
+
+		<widthScaleFactor>0.35</widthScaleFactor>
+	</VFECore.ExpandableProjectileDef>
+
+	<Vehicles.VehicleTurretDef ParentName="BunsenMainTurret">
+		<defName>VVE_Bunsen_MainTurret_Long</defName>
+		<label>long barrel flamethrower</label>
+		<description>A lightly-armored long range flamethrower turret usually mounted on bunsen tanks. Takes fuel directly from the chemtank of the vehicle. Quite devastating against infantry, bunsen flamethrower struggles against armored targets.</description>
+		<projectile>VVE_Bullet_Bunsen_Long</projectile>
+
+		<warmUpTimer>2.25</warmUpTimer>
+		
+		<rotationSpeed>2.25</rotationSpeed>
+		
+		<maxRange>22.9</maxRange>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenBursts>1</ticksBetweenBursts>
+				<spreadRadius>2.9</spreadRadius>
+				<label>Fire Spew</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+		</fireModes>
+		
+		<graphicData>
+			<texPath>Upgrades/Bunsen/Tier1_FlamerTank_UpgradeLong_CannonTop</texPath>
+		</graphicData>
+	</Vehicles.VehicleTurretDef>
+</Defs>

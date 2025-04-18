@@ -1,0 +1,31 @@
+<ModMetaData>
+	<name>Ancient mining industry rus</name>
+	<author>Kamikadza13</author>
+	<packageId>Kamikadza13.XMB.AncientMiningIndustry.MO</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>XMB.AncientMiningIndustry.MO</packageId>
+			<displayName>Ancient mining industry</displayName>
+			<steamWorkshopUrl>https:/steamcommunity.com/sharedfiles/filedetails/?id=3141472661</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>XMB.AncientMiningIndustry.MO</li>
+	</loadAfter>
+	<description>Перевод Ancient mining industry
+Для перевода использовалась программа [url=https://github.com/kamikadza13/Text-grabber]Text Grabber[/url] 
+Буду рад если вы будете использовать ее и сообщать об ошибках в ее поведении или предложениях об улучшении.
+
+
+
+Если вы заметили что-то не переведенное, то напишите об этом в комментариях под переводом ^_^
+
+Также мой перевод кучи мелких QOL модов
+QOL rus
+https://steamcommunity.com/sharedfiles/filedetails/?id=2791163039
+(зайдите посмотрите, там много вкусного)</description>
+</ModMetaData>

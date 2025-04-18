@@ -1,0 +1,12 @@
+<LanguageData>
+
+	<!-- FloatMenu -->
+	<TrainingFacility_PracticeShooting>Практиковать стрельбу</TrainingFacility_PracticeShooting>
+	<TrainingFacility_RangedWeaponRequired>Требуется оружие дальнего боя</TrainingFacility_RangedWeaponRequired>
+	
+	<TrainingFacility_PracticeMartialArts>Практиковать боевые искусства</TrainingFacility_PracticeMartialArts>
+	<TrainingFacility_MeleeWeaponRequired>Требуется оружие ближнего боя</TrainingFacility_MeleeWeaponRequired>
+	
+	<TrainingFacility_DangerousWeaponFound_ThrowingStones>Снаряженное оружие слишком опасно для стрельбы. {0} будет бросать камни вместо этого.</TrainingFacility_DangerousWeaponFound_ThrowingStones>
+	
+</LanguageData>

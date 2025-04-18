@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RitualVisualEffectDef ParentName="RitualSmokeAbstract">
+		<defName>VIES_SophianVisuals</defName>
+		<tintColor>(120, 120, 120)</tintColor>
+		<comps>
+			<li Class="CompProperties_RitualEffectConstantCircle">
+				<radius>3.0</radius>
+				<numCopies>2</numCopies>
+				<moteDef>VIES_ImperialBanner</moteDef>
+				<scalePositionWithRoom>true</scalePositionWithRoom>
+				<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+				<offset>(0, 0, 4.5)</offset>
+				<roomCheckOffset>(0, 0, -1)</roomCheckOffset>
+			</li>
+			<li Class="CompProperties_RitualEffectConstantCircle">
+				<radius>5.0</radius>
+				<numCopies>5</numCopies>
+				<moteDef>VIES_ImperialBanner</moteDef>
+				<scalePositionWithRoom>true</scalePositionWithRoom>
+				<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+				<offset>(2, 0, -3)</offset>
+				<roomCheckOffset>(0, 0, -1)</roomCheckOffset>
+			</li>
+			<li Class="CompProperties_RitualEffectConstantCircle">
+				<radius>7.0</radius>
+				<numCopies>3</numCopies>
+				<moteDef>VIES_ImperialBanner</moteDef>
+				<scalePositionWithRoom>true</scalePositionWithRoom>
+				<onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+				<offset>(1, 0, -5)</offset>
+				<roomCheckOffset>(0, 0, -1)</roomCheckOffset>
+			</li>
+			<li Class="CompProperties_RitualEffectIntervalSpawnArea">
+				<fleckDef>Leaf</fleckDef>
+				<area>(20, 20)</area>
+				<offset>(0, 0, 8)</offset>
+				<spawnIntervalTicks>23</spawnIntervalTicks>
+				<spawnCount>5</spawnCount>
+				<velocityDir>(0, 0, -1)</velocityDir>
+				<velocity>0.9~1.6</velocity>
+				<rotation>-5~75</rotation>
+				<overrideColors>
+					<li>(255, 192, 203)</li>
+					<li>(255, 192, 203)</li>
+					<li>(255, 192, 203)</li>
+				</overrideColors>
+				<scalePositionWithRoom>true</scalePositionWithRoom>
+			</li>
+		</comps>
+	</RitualVisualEffectDef>
+	<ThingDef ParentName="MoteBase">
+		<defName>VIES_ImperialBanner</defName>
+		<thingClass>MoteAttached</thingClass>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<fadeInTime>0.05</fadeInTime>
+			<fadeOutTime>30</fadeOutTime>
+			<solidTime>30</solidTime>
+		</mote>
+		<graphicData>
+			<texPath>Things/Mote/ImperialBanner</texPath>
+			<graphicClass>Graphic_Mote</graphicClass>
+			<shaderType>TransparentAnimated</shaderType>
+			<shaderParameters>
+				<_NumFrames>6</_NumFrames>
+				<_FramesPerSec>8</_FramesPerSec>
+			</shaderParameters>
+			<drawSize>(3, 3)</drawSize>
+		</graphicData>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,38 @@
+<LanguageData>
+<!--Common/Defs/RecipeDefs/Recipes_Stonecutting.xml-->
+                                <!-- make sandstone blocks x3 -->
+<Make_StoneBlocksBulkSandstone.label>Сделать блоки песчаника x3</Make_StoneBlocksBulkSandstone.label>
+                                      <!-- Cuts sandstone chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkSandstone.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkSandstone.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSandstone.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkSandstone.jobString>
+                              <!-- make granite blocks x3 -->
+<Make_StoneBlocksBulkGranite.label>Сделать блоки гранита x3</Make_StoneBlocksBulkGranite.label>
+                                    <!-- Cuts granite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkGranite.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkGranite.description>
+                                  <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkGranite.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkGranite.jobString>
+                                <!-- make limestone blocks x3 -->
+<Make_StoneBlocksBulkLimestone.label>Сделать блоки известняка x3</Make_StoneBlocksBulkLimestone.label>
+                                      <!-- Cuts limestone chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkLimestone.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkLimestone.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkLimestone.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkLimestone.jobString>
+                            <!-- make slate blocks x3 -->
+<Make_StoneBlocksBulkSlate.label>Сделать блоки сланца x3</Make_StoneBlocksBulkSlate.label>
+                                  <!-- Cuts slate chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkSlate.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkSlate.description>
+                                <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSlate.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkSlate.jobString>
+                             <!-- make marble blocks x3 -->
+<Make_StoneBlocksBulkMarble.label>Сделать блоки мрамора x3</Make_StoneBlocksBulkMarble.label>
+                                   <!-- Cuts marble chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkMarble.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkMarble.description>
+                                 <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkMarble.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkMarble.jobString>
+
+
+<Make_StoneBlocksBulkAny.label>Сделать любые блоки x3</Make_StoneBlocksBulkAny.label>
+<Make_StoneBlocksBulkAny.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkAny.description>
+<Make_StoneBlocksBulkAny.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkAny.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<RimworldFavourites_AllowFavourited.label>Разрешить избранное</RimworldFavourites_AllowFavourited.label>
+<RimworldFavourites_AllowFavourited.description>Разрешить вещи, которые обозначены как избранные</RimworldFavourites_AllowFavourited.description>
+
+<RimworldFavourites_AllowUnfavourited.label>Разрешить НЕ избранное</RimworldFavourites_AllowUnfavourited.label>
+<RimworldFavourites_AllowUnfavourited.description>Разрешить вещи, которые не обозначены как избранные или мусор</RimworldFavourites_AllowUnfavourited.description>
+
+<RimworldFavourites_AllowJunk.label>Разрешить мусор</RimworldFavourites_AllowJunk.label>
+<RimworldFavourites_AllowJunk.description>Разрешить вещи, которые обозначены как мусор</RimworldFavourites_AllowJunk.description>
+</LanguageData>

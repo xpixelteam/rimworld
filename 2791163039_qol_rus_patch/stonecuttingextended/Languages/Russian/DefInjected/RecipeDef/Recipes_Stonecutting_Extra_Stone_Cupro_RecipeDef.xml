@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Common/Defs/RecipeDefs/Recipes_Stonecutting_Extra_Stone_Cupro.xml-->
+                                      <!-- make dark andesite блоки x3 -->
+<Make_StoneBlocksBulkDarkAndesiteESC.label>Сделать блоки темного андезита  x3</Make_StoneBlocksBulkDarkAndesiteESC.label>
+                                            <!-- Cuts dark andesite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkDarkAndesiteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkDarkAndesiteESC.description>
+                                          <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkDarkAndesiteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkDarkAndesiteESC.jobString>
+                                     <!-- make anorthosite блоки x3 -->
+<Make_StoneBlocksBulkAnorthositeESC.label>Сделать блоки анортозита x3</Make_StoneBlocksBulkAnorthositeESC.label>
+                                           <!-- Cuts anorthosite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkAnorthositeESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkAnorthositeESC.description>
+                                         <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkAnorthositeESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkAnorthositeESC.jobString>
+                                <!-- make basalt блоки x3 -->
+<Make_StoneBlocksBulkBasaltESC.label>Сделать блоки базальта x3</Make_StoneBlocksBulkBasaltESC.label>
+                                      <!-- Cuts basalt chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkBasaltESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkBasaltESC.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkBasaltESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkBasaltESC.jobString>
+                                    <!-- make blueschist блоки x3 -->
+<Make_StoneBlocksBulkBlueschistESC.label>Сделать блоки блюскиста x3</Make_StoneBlocksBulkBlueschistESC.label>
+                                          <!-- Cuts blueschist chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkBlueschistESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkBlueschistESC.description>
+                                        <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkBlueschistESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkBlueschistESC.jobString>
+                               <!-- make chalk блоки x3 -->
+<Make_StoneBlocksBulkChalkESC.label>Сделать блоки мела x3</Make_StoneBlocksBulkChalkESC.label>
+                                     <!-- Cuts chalk chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkChalkESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkChalkESC.description>
+                                   <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkChalkESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkChalkESC.jobString>
+                                     <!-- make charnockite блоки x3 -->
+<Make_StoneBlocksBulkCharnockiteESC.label>Сделать блоки чарнокита x3</Make_StoneBlocksBulkCharnockiteESC.label>
+                                           <!-- Cuts charnockite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkCharnockiteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkCharnockiteESC.description>
+                                         <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkCharnockiteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkCharnockiteESC.jobString>
+                                      <!-- make creole блоки x3 -->
+<Make_StoneBlocksBulkCreoleMarbleESC.label>Сделать блоки креола x3</Make_StoneBlocksBulkCreoleMarbleESC.label>
+                                            <!-- Cuts creole chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkCreoleMarbleESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkCreoleMarbleESC.description>
+                                          <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkCreoleMarbleESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkCreoleMarbleESC.jobString>
+                                <!-- make dacite блоки x3 -->
+<Make_StoneBlocksBulkDaciteESC.label>Сделать блоки дацита x3</Make_StoneBlocksBulkDaciteESC.label>
+                                      <!-- Cuts dacite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkDaciteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkDaciteESC.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkDaciteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkDaciteESC.jobString>
+                                       <!-- make vibrant dunite блоки x3 -->
+<Make_StoneBlocksBulkVibrantDuniteESC.label>Сделать блоки яркого дунита x3</Make_StoneBlocksBulkVibrantDuniteESC.label>
+                                             <!-- Cuts vibrant dunite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkVibrantDuniteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkVibrantDuniteESC.description>
+                                           <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkVibrantDuniteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkVibrantDuniteESC.jobString>
+                                       <!-- make emperador dark блоки x3 -->
+<Make_StoneBlocksBulkEmperadordarkESC.label>Сделать блоки темного имперадора x3</Make_StoneBlocksBulkEmperadordarkESC.label>
+                                             <!-- Cuts emperador dark chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkEmperadordarkESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkEmperadordarkESC.description>
+                                           <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkEmperadordarkESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkEmperadordarkESC.jobString>
+                                      <!-- make etowah marble блоки x3 -->
+<Make_StoneBlocksBulkEtowahMarbleESC.label>Сделать блоки мраморного этова x3</Make_StoneBlocksBulkEtowahMarbleESC.label>
+                                            <!-- Cuts etowah marble chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkEtowahMarbleESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkEtowahMarbleESC.description>
+                                          <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkEtowahMarbleESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkEtowahMarbleESC.jobString>
+                                     <!-- make green gabbro блоки x3 -->
+<Make_StoneBlocksBulkGreenGabbroESC.label>Сделать блоки зеленого габбро x3</Make_StoneBlocksBulkGreenGabbroESC.label>
+                                           <!-- Cuts green gabbro chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkGreenGabbroESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkGreenGabbroESC.description>
+                                         <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkGreenGabbroESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkGreenGabbroESC.jobString>
+                                     <!-- make greenschist блоки x3 -->
+<Make_StoneBlocksBulkGreenSchistESC.label>Сделать блоки гриншиста x3</Make_StoneBlocksBulkGreenSchistESC.label>
+                                           <!-- Cuts greenschist chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkGreenSchistESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkGreenSchistESC.description>
+                                         <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkGreenSchistESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkGreenSchistESC.jobString>
+                                    <!-- make jaspillite блоки x3 -->
+<Make_StoneBlocksBulkJaspilliteESC.label>Сделать блоки джаспиллита x3</Make_StoneBlocksBulkJaspilliteESC.label>
+                                          <!-- Cuts jaspillite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkJaspilliteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkJaspilliteESC.description>
+                                        <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkJaspilliteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkJaspilliteESC.jobString>
+                                    <!-- make lepidolite блоки x3 -->
+<Make_StoneBlocksBulkLepidoliteESC.label>Сделать блоки лепидолита x3</Make_StoneBlocksBulkLepidoliteESC.label>
+                                          <!-- Cuts lepidolite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkLepidoliteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkLepidoliteESC.description>
+                                        <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkLepidoliteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkLepidoliteESC.jobString>
+                                    <!-- make lherzolite блоки x3 -->
+<Make_StoneBlocksBulkLherzoliteESC.label>Сделать блоки лерцолита x3</Make_StoneBlocksBulkLherzoliteESC.label>
+                                          <!-- Cuts lherzolite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkLherzoliteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkLherzoliteESC.description>
+                                        <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkLherzoliteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkLherzoliteESC.jobString>
+                                 <!-- make lignite блоки x3 -->
+<Make_StoneBlocksBulkLigniteESC.label>Сделать блоки бурого угля x3</Make_StoneBlocksBulkLigniteESC.label>
+                                       <!-- Cuts lignite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkLigniteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkLigniteESC.description>
+                                     <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkLigniteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkLigniteESC.jobString>
+                                   <!-- make migmatite блоки x3 -->
+<Make_StoneBlocksBulkMigmatiteESC.label>Сделать блоки мигматита x3</Make_StoneBlocksBulkMigmatiteESC.label>
+                                         <!-- Cuts migmatite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkMigmatiteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkMigmatiteESC.description>
+                                       <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkMigmatiteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkMigmatiteESC.jobString>
+                                   <!-- make monzonite блоки x3 -->
+<Make_StoneBlocksBulkMonzoniteESC.label>Сделать блоки монцонита x3</Make_StoneBlocksBulkMonzoniteESC.label>
+                                         <!-- Cuts monzonite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkMonzoniteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkMonzoniteESC.description>
+                                       <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkMonzoniteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkMonzoniteESC.jobString>
+                                  <!-- make obsidian блоки x3 -->
+<Make_StoneBlocksBulkObsidianESC.label>Сделать блоки обсидиана x3</Make_StoneBlocksBulkObsidianESC.label>
+                                        <!-- Cuts obsidian chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkObsidianESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkObsidianESC.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkObsidianESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkObsidianESC.jobString>
+                                  <!-- make rhyolite блоки x3 -->
+<Make_StoneBlocksBulkRhyoliteESC.label>Сделать блоки риолита x3</Make_StoneBlocksBulkRhyoliteESC.label>
+                                        <!-- Cuts rhyolite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkRhyoliteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkRhyoliteESC.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkRhyoliteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkRhyoliteESC.jobString>
+                                <!-- make scoria блоки x3 -->
+<Make_StoneBlocksBulkScoriaESC.label>Сделать блоки скории x3</Make_StoneBlocksBulkScoriaESC.label>
+                                      <!-- Cuts scoria chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkScoriaESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkScoriaESC.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkScoriaESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkScoriaESC.jobString>
+                                      <!-- make serpentinite блоки x3 -->
+<Make_StoneBlocksBulkSerpentiniteESC.label>Сделать блоки серпентинита x3</Make_StoneBlocksBulkSerpentiniteESC.label>
+                                            <!-- Cuts serpentinite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkSerpentiniteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkSerpentiniteESC.description>
+                                          <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSerpentiniteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkSerpentiniteESC.jobString>
+                                   <!-- make siltstone блоки x3 -->
+<Make_StoneBlocksBulkSiltstoneESC.label>Сделать блоки алевролита x3</Make_StoneBlocksBulkSiltstoneESC.label>
+                                         <!-- Cuts siltstone chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkSiltstoneESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkSiltstoneESC.description>
+                                       <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSiltstoneESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkSiltstoneESC.jobString>
+                                <!-- make sovite блоки x3 -->
+<Make_StoneBlocksBulkSoviteESC.label>Сделать блоки совайта x3</Make_StoneBlocksBulkSoviteESC.label>
+                                      <!-- Cuts sovite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkSoviteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkSoviteESC.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSoviteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkSoviteESC.jobString>
+                                      <!-- make thometzekite блоки x3 -->
+<Make_StoneBlocksBulkThometzekiteESC.label>Сделать блоки тометзекита x3</Make_StoneBlocksBulkThometzekiteESC.label>
+                                            <!-- Cuts thometzekite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkThometzekiteESC.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkThometzekiteESC.description>
+                                          <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkThometzekiteESC.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkThometzekiteESC.jobString>
+
+</LanguageData>

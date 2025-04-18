@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TIM.BelongsToRoomCommon>Общий</TIM.BelongsToRoomCommon>
+  <TIM.BelongsToRoomPrivate>Принадлежит владельцу кровати</TIM.BelongsToRoomPrivate>
+  <TIM.BelongsToRoomDesc>Принадлежит комнате</TIM.BelongsToRoomDesc>
+  <TIM.ConnectToRoom>Назначить для комнаты</TIM.ConnectToRoom>
+  <TIM.ConnectToRoomDesc>Назначить принадлежность к комнате</TIM.ConnectToRoomDesc>
+  <TIM.UnassignFromRoom>Отменить назначение</TIM.UnassignFromRoom>
+  <TIM.UnassignFromRoomDesc>Отменить назначение для комнаты</TIM.UnassignFromRoomDesc>
+</LanguageData>

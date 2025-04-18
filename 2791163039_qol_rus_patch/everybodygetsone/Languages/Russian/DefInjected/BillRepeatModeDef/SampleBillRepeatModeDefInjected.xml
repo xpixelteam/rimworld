@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<!-- Everybody Gets One + TD -->
+<TD_ColonistCount.label>Одну вещь на поселенца</TD_ColonistCount.label>
+<RepeatCount.label>делать X раз</RepeatCount.label>
+<TargetCount.label>делать пока не станет X</TargetCount.label>
+<Forever.label>делать бесконечно</Forever.label>
+<TD_ColonistCount.label>Одну вещь на колониста + X</TD_ColonistCount.label>
+<TD_XPerColonist.label>X на колониста</TD_XPerColonist.label>
+<TD_WithSurplusIng.label>При избытке материала</TD_WithSurplusIng.label>
+<TD_SlaveCount.label>Одну вещь на раба + X</TD_SlaveCount.label>
+<TD_XPerSlave.label>X на раба</TD_XPerSlave.label>
+</LanguageData>

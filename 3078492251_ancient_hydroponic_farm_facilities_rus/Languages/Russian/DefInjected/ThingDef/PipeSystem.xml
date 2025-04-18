@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AncientNutrientPump.label>Древний насос для питательного раствора</AncientNutrientPump.label>
+  <AncientNutrientPump.description>Древние насосы для питательных растворов, поскольку трубопроводы древних технологий отличаются от сегодняшних, использовали централизованную перекачку для подачи питательного раствора. Этот насос поврежден, его уничтожение может принести что-то полезное.</AncientNutrientPump.description>
+  <AncientNutrientPump_Blueprint.label>Древний насос для питательных растворов (чертеж)</AncientNutrientPump_Blueprint.label>
+  <AncientNutrientPump_Frame.label>Древний насос для питательного раствора (в стадии строительства)</AncientNutrientPump_Frame.label>
+  <AncientNutrientPump_Frame.description>Древние насосы для питательных растворов, поскольку трубопроводы древних технологий отличаются от сегодняшних, использовали централизованную перекачку для подачи питательного раствора. Этот насос поврежден, его уничтожение может принести что-то полезное.</AncientNutrientPump_Frame.description>
+
+  <AncientNutrientSolutionStorageTank.label>Древний резервуар для хранения питательных растворов</AncientNutrientSolutionStorageTank.label>
+  <AncientNutrientSolutionStorageTank.description>Древний резервуар с питательным раствором, разрушив его, можно получить что-то полезное.</AncientNutrientSolutionStorageTank.description>
+  <AncientNutrientSolutionStorageTank_Blueprint.label>Древний резервуар для хранения питательного раствора (чертеж)</AncientNutrientSolutionStorageTank_Blueprint.label>
+  <AncientNutrientSolutionStorageTank_Frame.label>Древний резервуар для хранения питательных растворов (здание)</AncientNutrientSolutionStorageTank_Frame.label>
+  <AncientNutrientSolutionStorageTank_Frame.description>Древний резервуар с питательным раствором, разрушив его, можно получить что-то полезное.</AncientNutrientSolutionStorageTank_Frame.description>
+
+  <AncientNutrientSolutionFeedPort.label>Древний порт подачи питательного раствора</AncientNutrientSolutionFeedPort.label>
+  <AncientNutrientSolutionFeedPort.description>Старый порт подачи питательного раствора сломан.</AncientNutrientSolutionFeedPort.description>
+  <AncientNutrientSolutionFeedPort_Blueprint.label>Древний вход для питательного раствора (чертеж)</AncientNutrientSolutionFeedPort_Blueprint.label>
+  <AncientNutrientSolutionFeedPort_Frame.label>Древний вход питательного раствора (здание)</AncientNutrientSolutionFeedPort_Frame.label>
+  <AncientNutrientSolutionFeedPort_Frame.description>Старый порт подачи питательного раствора сломан.</AncientNutrientSolutionFeedPort_Frame.description>
+
+  <AncientNutrientSolutionOutlet.label>Древний кран для питательного раствора</AncientNutrientSolutionOutlet.label>
+  <AncientNutrientSolutionOutlet.description>Древний кран с питательным раствором, он был поврежден.</AncientNutrientSolutionOutlet.description>
+  <AncientNutrientSolutionOutlet_Blueprint.label>Древний кран для питательного раствора (чертеж)</AncientNutrientSolutionOutlet_Blueprint.label>
+  <AncientNutrientSolutionOutlet_Frame.label>Древний кран с питательным раствором (здание)</AncientNutrientSolutionOutlet_Frame.label>
+  <AncientNutrientSolutionOutlet_Frame.description>Древний кран с питательным раствором, он был поврежден.</AncientNutrientSolutionOutlet_Frame.description>
+
+
+</LanguageData>

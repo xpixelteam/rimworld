@@ -1,0 +1,128 @@
+<LanguageData>
+  <!--Work Tab-->
+  <WorkTab>Work Tab</WorkTab>
+  <!-- Main tab toggle buttons -->
+  <!--Currently showing numeric priorities\n\nClick to switch to on/off priorities-->
+  <WorkTab.PrioritiesSimple>Точные приоритеты\n\nНажмите, чтобы переключиться на упрощенные приоритеты</WorkTab.PrioritiesSimple>
+  <!--Currently showing on/off priorities\n\nClick to switch to numeric priorities-->
+  <WorkTab.PrioritiesDetailed>Упрощенные приоритеты\n\nНажмите, чтобы переключиться на точные приоритеты</WorkTab.PrioritiesDetailed>
+  <!--Currently showing all-day priorities\n\nClick to switch to scheduled priorities-->
+  <WorkTab.PrioritiesTimed>Суточные приоритеты\n\nНажмите, чтобы переключиться расписание по времени</WorkTab.PrioritiesTimed>
+  <!--Currently showing scheduled priorities\n\nClick to switch to all-day priorities-->
+  <WorkTab.PrioritiesWholeDay>Расписание по времени\n\nНажмите, чтобы переключиться суточные приоритеты</WorkTab.PrioritiesWholeDay>
+  <!--Click to expand all priorities\nCtrl-click headers to toggle expanding individual priorities-->
+  <WorkTab.ExpandAll>Щелкните, чтобы развернуть все приоритеты\nCtrl+ЛКМ на заголовке работы, чтобы развернуть список</WorkTab.ExpandAll>
+  <!--Click to collapse all priorities\nCtrl-click headers to toggle expanding individual priorities-->
+  <WorkTab.CollapseAll>Щелкните, чтобы свернуть все приоритеты\nCtrl+ЛКМ на заголовке работы, чтобы развернуть список</WorkTab.CollapseAll>
+  <!-- column header tooltips -->
+  <!--Shift + left-click or scroll up to increase priorities\nShift + right click or scroll down to decrease priorities-->
+  <WorkTab.DetailedColumnTip>Shift + ЛКМ\ПКМ или колесо прокрутки вверх\вниз чтобы увеличить\уменьшить приоритет</WorkTab.DetailedColumnTip>
+  <!--Shift + left-click or scroll up to toggle priorities on\nShift + right click or scroll down to toggle priorities off-->
+  <WorkTab.ToggleColumnTip>Shift + ЛКМ\ПКМ чтобы включить\отключить приоритет</WorkTab.ToggleColumnTip>
+  <!--Ctrl + click to expand list of detailed priorities-->
+  <WorkTab.ExpandWorkgiversColumnTip>Ctrl+ЛКМ, чтобы развернуть подробный список приоритетов</WorkTab.ExpandWorkgiversColumnTip>
+  <!--Ctrl + click to collapse list of detailed priorities-->
+  <WorkTab.CollapseWorkgiversColumnTip>Ctrl+ЛКМ, чтобы свернуть подробный список приоритетов</WorkTab.CollapseWorkgiversColumnTip>
+  <!-- settings -->
+  <!--24 hour mode-->
+  <WorkTab.24HourMode>24 часовой формат времени</WorkTab.24HourMode>
+  <!--Should times be shown in 12h (e.g. noon, 9p.m.) or 24h (e.g. 12:00, 21:00) mode?-->
+  <WorkTab.24HourModeTip>Показывать время в 12 часовом формате (т.е. полдень, 9p.m.) или 24 часовой (т.е. 12:00, 21:00) mode?</WorkTab.24HourModeTip>
+  <!--Levels of priority-->
+  <WorkTab.MaxPriority>Максимальный приоритет</WorkTab.MaxPriority>
+  <!--How many levels of priority should we use? (Limited to between 4 and 9)-->
+  <WorkTab.MaxPriorityTip>Сколько уровней приоритета использовать? (От 4 до 9)</WorkTab.MaxPriorityTip>
+  <!--Sounds-->
+  <WorkTab.PlaySounds>Звук</WorkTab.PlaySounds>
+  <!--Play sounds when a priority is changed?-->
+  <WorkTab.PlaySoundsTip>Воспроизводить звук при изменении приоритета?</WorkTab.PlaySoundsTip>
+  <!--Crunchy sounds-->
+  <WorkTab.PlayCrunch>Хрустящие звуки</WorkTab.PlayCrunch>
+  <!--Play a crunchy sound when a pawn is assigned to a job they are not skilled at?-->
+  <WorkTab.PlayCrunchTip>Издавать хрустящий звук, когда пешке поручают работу, в которой она не разбирается?</WorkTab.PlayCrunchTip>
+  <!--Disable Scrollwheel-->
+  <WorkTab.DisableScrollwheel>Отключить колесо прокрутки</WorkTab.DisableScrollwheel>
+  <!--Disable the scrollwheel functions (when hovering over skills)-->
+  <WorkTab.DisableScrollwheelTip>Отключить изменение приоритетов с помощью колеса мыши (при наведении курсора мыши на навыки)</WorkTab.DisableScrollwheelTip>
+  <!--Vertical labels-->
+  <WorkTab.VerticalLabels>Вертикальные названия работ</WorkTab.VerticalLabels>
+  <!--Display work labels vertically-->
+  <WorkTab.VerticalLabelsTip>Отображать названия работ вертикально</WorkTab.VerticalLabelsTip>
+  <!--Fix vertical fonts-->
+  <WorkTab.FontFix>Исправить вертикальные шрифты</WorkTab.FontFix>
+  <!--Unity (the engine RimWorld is built on) does not deal well with rotated fonts, causing a blur. This fix removes the blur, but can cause slightly odd letter positioning.-->
+  <WorkTab.FontFixTip>Unity (движок, на котором построен RimWorld) плохо справляется с повернутыми шрифтами, что приводит к размытости. Это исправление устраняет размытость, но может привести к немного странному расположению букв.</WorkTab.FontFixTip>
+  <!-- scheduler -->
+  <!--{0}-{1} is currently {2}\n\n{3}-->
+  <WorkTab.SchedulerHourTip>{0}-{1} теперь {2}\n\n{3}</WorkTab.SchedulerHourTip>
+  <!--selected-->
+  <WorkTab.Selected>выделен</WorkTab.Selected>
+  <!--not selected-->
+  <WorkTab.NotSelected>не выделен</WorkTab.NotSelected>
+  <!--Click to select\nShift-click to deselect all others-->
+  <WorkTab.ClickToSelect>Нажмите, чтобы выделить\nShift+ЛКМ, чтобы отменить выделение всего остального</WorkTab.ClickToSelect>
+  <!--Click to focus-->
+  <WorkTab.ClickToFocus>Нажмите для перехода</WorkTab.ClickToFocus>
+  <!--Right click to deselect-->
+  <WorkTab.RightClickToDeselect>ПКМ снимет выделение</WorkTab.RightClickToDeselect>
+  <!--midnight-->
+  <midnight>полночь</midnight>
+  <!--noon-->
+  <noon>полдень</noon>
+  <!--Select whole day-->
+  <WorkTab.SelectWholeDayTip>Выделить весь день</WorkTab.SelectWholeDayTip>
+  <!--Select current hour-->
+  <WorkTab.SelectCurrentHourTip>Выделить текущий час</WorkTab.SelectCurrentHourTip>
+  <!-- detailed tooltips  -->
+  <!--{0} is assigned to {1}-->
+  <WorkTab.XIsAssignedToY>{0} назначен {1}</WorkTab.XIsAssignedToY>
+  <!-- pawn label tooltip  -->
+  <!--Click to jump to\nShift-left-click or scroll up to increment priorities\nShift-right-click or scroll down to decrement priorities-->
+  <WorkTab.LabelCellTip>Нажмите для перехода к поселенцу\nShift+ЛКМ или Shift+прокрутка вверх — повысить приоритеты всех задач для поселенца\nShift+ПКМ или Shift+прокрутка вниз — понизить приоритеты всех задач для поселенца</WorkTab.LabelCellTip>
+  <!-- Favourites -->
+  <!--Create new favourite-->
+  <Fluffy.WorkTab.CreateFavourite>Создать новый пресет</Fluffy.WorkTab.CreateFavourite>
+  <!--Load favourite-->
+  <Fluffy.WorkTab.LoadFavourite>Загрузить пресет</Fluffy.WorkTab.LoadFavourite>
+  <!--Clear favourite-->
+  <Fluffy.WorkTab.ClearFavourite>Очистить пресет</Fluffy.WorkTab.ClearFavourite>
+  <!--Unload-->
+  <Fluffy.WorkTab.UnloadFavourite>Выгрузить</Fluffy.WorkTab.UnloadFavourite>
+  <!--Unload and delete-->
+  <Fluffy.WorkTab.DeleteFavourite>Выгрузить и удалить из сохраненных</Fluffy.WorkTab.DeleteFavourite>
+  <!--Favourite-->
+  <Fluffy.WorkTab.DefaultFavouriteLabel>Пресет 1</Fluffy.WorkTab.DefaultFavouriteLabel>
+  <!--Create new favourite-->
+  <Fluffy.WorkTab.CreateFavouritesDialogTitle>Создать новый пресет</Fluffy.WorkTab.CreateFavouritesDialogTitle>
+  <!--Editing "{0}"-->
+  <Fluffy.WorkTab.EditFavouritesDialogTitle>Редактирование "{0}"</Fluffy.WorkTab.EditFavouritesDialogTitle>
+  <!--No favourites stored-->
+  <Fluffy.WorkTab.NoStoredFavourites>Пресетов не сохранено</Fluffy.WorkTab.NoStoredFavourites>
+  <!--Favourite name cannot be empty-->
+  <Fluffy.WorkTab.FavouriteLabelCannotBeEmpty>Имя пресета не может быть пустым</Fluffy.WorkTab.FavouriteLabelCannotBeEmpty>
+  <!--"{0}" is not a valid name, favourite names must be valid file names-->
+  <Fluffy.WorkTab.FavouriteInvalidFilename>"{0}" - недопустимое имя</Fluffy.WorkTab.FavouriteInvalidFilename>
+  <!--A favourite of that name already exists-->
+  <Fluffy.WorkTab.FavouriteAlreadyExists>Пресет с таким именем уже существует</Fluffy.WorkTab.FavouriteAlreadyExists>
+  <!-- priority labels -->
+  <!--Will not do-->
+  <Fluffy.WorkTab.Priority.None>Не будет делать</Fluffy.WorkTab.Priority.None>
+  <!--Top priority-->
+  <Fluffy.WorkTab.Priority.Top>Высший приоритет</Fluffy.WorkTab.Priority.Top>
+  <!--Very high priority-->
+  <Fluffy.WorkTab.Priority.VeryHigh>Очень высокий приоритет</Fluffy.WorkTab.Priority.VeryHigh>
+  <!--High priority-->
+  <Fluffy.WorkTab.Priority.High>Высокий приоритет</Fluffy.WorkTab.Priority.High>
+  <!--Above normal priority-->
+  <Fluffy.WorkTab.Priority.AboveNormal>Приоритет выше обычного</Fluffy.WorkTab.Priority.AboveNormal>
+  <!--Normal priority-->
+  <Fluffy.WorkTab.Priority.Normal>Обычный приоритет</Fluffy.WorkTab.Priority.Normal>
+  <!--Below normal priority-->
+  <Fluffy.WorkTab.Priority.BelowNormal>Приоритет ниже обычного</Fluffy.WorkTab.Priority.BelowNormal>
+  <!--Low priority-->
+  <Fluffy.WorkTab.Priority.Low>Низкий приоритет</Fluffy.WorkTab.Priority.Low>
+  <!--Very low priority-->
+  <Fluffy.WorkTab.Priority.VeryLow>Очень низкий приоритет</Fluffy.WorkTab.Priority.VeryLow>
+  <!--Lowest priority-->
+  <Fluffy.WorkTab.Priority.Lowest>Самый низкий приоритет</Fluffy.WorkTab.Priority.Lowest>
+</LanguageData>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: shotgun bullet -->
+  <BreadMoAM_BIGBullet_AMShotgunPellet.label>大口径霰弹弹丸</BreadMoAM_BIGBullet_AMShotgunPellet.label>
+  
+  <!-- EN: shotgun bullet -->
+  <BreadMoAM_Bullet_AMShotgunPellet.label>霰弹弹丸</BreadMoAM_Bullet_AMShotgunPellet.label>
+  
+  <!-- EN: large shotgun shell -->
+  <BreadMoAM_Bullet_LargeShotgunTurret.label>大口径霰弹</BreadMoAM_Bullet_LargeShotgunTurret.label>
+  
+  <!-- EN: mini-turret bullet -->
+  <BreadMoAM_Bullet_ShotgunTurret.label>小型霰弹</BreadMoAM_Bullet_ShotgunTurret.label>
+  
+  <!-- EN: large shotgun turret -->
+  <BreadMoAM_Gun_LargeShotgunTurret.label>大型霰弹炮</BreadMoAM_Gun_LargeShotgunTurret.label>
+  <!-- EN: A self-loading large-bore shotcannon designed to be attached to a turret. -->
+  <BreadMoAM_Gun_LargeShotgunTurret.description>一种自行装填的大口径霰弹炮，设计用于安装在炮塔上。</BreadMoAM_Gun_LargeShotgunTurret.description>
+  <!-- EN: large shotgun turret -->
+  <BreadMoAM_Gun_LargeShotgunTurret.verbs.Verb_ShootCE.label>TODO</BreadMoAM_Gun_LargeShotgunTurret.verbs.Verb_ShootCE.label>
+  
+  <!-- EN: ancient mini-turret shotgun -->
+  <BreadMoAM_Gun_ShotgunTurret.label>远古小型霰弹炮</BreadMoAM_Gun_ShotgunTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <BreadMoAM_Gun_ShotgunTurret.description>一种安装在炮塔上的简单自动炮.</BreadMoAM_Gun_ShotgunTurret.description>
+  <!-- EN: ancient mini-turret shotgun -->
+  <BreadMoAM_Gun_ShotgunTurret.verbs.Verb_ShootCE.label>TODO</BreadMoAM_Gun_ShotgunTurret.verbs.Verb_ShootCE.label>
+  
+  <!-- EN: mini-turret shotgun -->
+  <BreadMoAM_Gun_ShotgunTurretN.label>小型霰弹炮</BreadMoAM_Gun_ShotgunTurretN.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <BreadMoAM_Gun_ShotgunTurretN.description>一种安装在炮塔上的简单自动炮</BreadMoAM_Gun_ShotgunTurretN.description>
+  <!-- EN: mini-turret shotgun -->
+  <BreadMoAM_Gun_ShotgunTurretN.verbs.Verb_ShootCE.label>TODO</BreadMoAM_Gun_ShotgunTurretN.verbs.Verb_ShootCE.label>
+  
+  <!-- EN: Large Caliber Shotgun Turret -->
+  <BreadMoAM_Turret_LargeShotgun.label>大型霰弹炮塔</BreadMoAM_Turret_LargeShotgun.label>
+  <!-- EN: A large caliber shotgun turret, powerful enough to pose a destructive threat at medium to close range. Capable of punching through insectoid chitin with ease, it is a genuine insectoid killing machine usually deployed for defending military excavation sites. -->
+  <BreadMoAM_Turret_LargeShotgun.description>大口径霰弹炮塔，威力足以在中近距离构成破坏性威胁，能够轻易的贯穿昆虫的几丁质外壳，经常用于军事矿洞防御。</BreadMoAM_Turret_LargeShotgun.description>
+  
+  <!-- EN: Ancient Mini Shotgun Turret -->
+  <BreadMoAM_Turret_ShotgunTurret.label>远古小型霰弹炮塔</BreadMoAM_Turret_ShotgunTurret.label>
+  <!-- EN: An ancient compact mini Shotgun turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+  <BreadMoAM_Turret_ShotgunTurret.description>一种古老的便携式自动霰弹枪炮塔。大量使用后需要钢材来替换枪管。损坏时可能会爆炸。它愚蠢的ai大脑无法直接控制，所以要小心友军伤害。</BreadMoAM_Turret_ShotgunTurret.description>
+  
+  <!-- EN: Mini Shotgun Turret -->
+  <BreadMoAM_Turret_ShotgunTurretN.label>小型霰弹炮塔</BreadMoAM_Turret_ShotgunTurretN.label>
+  <!-- EN: An ancient compact mini Shotgun turret.Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
+  <BreadMoAM_Turret_ShotgunTurretN.description>一种便携式自动霰弹枪炮塔。大量使用后需要钢材来替换枪管。损坏时可能会爆炸。它愚蠢的ai大脑无法直接控制，所以要小心友军伤害。</BreadMoAM_Turret_ShotgunTurretN.description>
+  
+</LanguageData>

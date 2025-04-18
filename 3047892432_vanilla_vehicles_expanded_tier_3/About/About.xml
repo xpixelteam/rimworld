@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Vanilla Vehicles Expanded - Tier 3</name>
+    <author>Oskar Potocki, xrushha, Smash Phil, Taranchuk, Reann Shepard</author>
+    <url></url>
+    <description>Delve deeper into the world of vehicular advancements with the Tier 3 expansion for Vanilla Vehicles Expanded. While the term "Tier 3" might conjure up images of futuristic, sci-fi machines for some, my focus has remained on the creation of highly specialized and rare vehicles that add both depth and dimension to your in-game experience.
+
+The expansion introduces a total of 11 meticulously designed vehicles. From the much-requested mobile artillery and functional refrigerated trucks to the robust tanks equipped with coaxial machine guns, there's a vehicle to suit every need.
+
+Adding a layer of engagement to the gameplay, these vehicles won't be readily available off the bat. They'll be discovered in their wrecked form, scattered across the map. To gain the knowledge and ability to manufacture these vehicles, players must first locate, recover, and restore them to their former glory. While these wrecked treasures can make an appearance on any map type, players will find a higher concentration on those with roads, adding an element of strategy in map selection and exploration.
+
+This mod introduces many new vehicles, including:
+
+Classic Cars: Elevate the spirits of your colonists with these vintage beauties. Not just for show, they serve a functional purpose, boosting morale when used.
+Supercars: Built for the road, these are the epitome of speed, but only if your colony is connected to destination via roads.
+Battle Tanks and Infantry Vehicles: Designed for combat, they come equipped with heavy armor and powerful guns. An asset for any colony facing threats.
+Mobile Artillery: Respond to threats in real-time, raining a variety of shells upon your adversaries.
+Versatile Helicopters: Meet diverse needs from cargo transport to troop movement with these airborne assets.
+</description>
+    <packageId>OskarPotocki.VanillaVehiclesExpandedTier3</packageId>
+    <supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>SmashPhil.VehicleFramework</packageId>
+			<displayName>Vehicle Framework</displayName>
+			<downloadUrl>https://github.com/SmashPhil/Vehicles/releases/latest</downloadUrl>
+			<steamWorkshopUrl/>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaVehiclesExpanded</packageId>
+			<displayName>Vanilla Vehicles Expanded</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014906877</downloadUrl>
+			<steamWorkshopUrl/>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>OskarPotocki.VanillaVehiclesExpanded</li>
+	</loadAfter>
+</ModMetaData>

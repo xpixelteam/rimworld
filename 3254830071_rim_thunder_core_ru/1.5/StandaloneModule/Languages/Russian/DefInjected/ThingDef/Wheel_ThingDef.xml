@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\StandaloneModule\Defs\Wheel.xml-->
+	<!--                  EN: road wheel -->
+	<ComponentWheelRoad.label>Металлическое дистк</ComponentWheelRoad.label>
+	<!--                        EN: A metallic wheel that is capable to withstand heavier chassis, it's also the frame of tyre. -->
+	<ComponentWheelRoad.description>Металлическое дистк, способное выдержать более тяжелое шасси, также является каркасом шины.</ComponentWheelRoad.description>
+	
+	<!--                  EN: tyre -->
+	<ComponentWheelTire.label>шина</ComponentWheelTire.label>
+	<!--                        EN: An advanced wheel consisting of an air-filled outer wheel and a metal rim. -->
+	<ComponentWheelTire.description>Усовершенствованное колесо, состоящее из внешнего колеса, заполненного воздухом, и металлического обода.</ComponentWheelTire.description>
+</LanguageData>

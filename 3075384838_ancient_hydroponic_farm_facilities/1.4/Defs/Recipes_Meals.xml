@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>CookMealNutrientPaste</defName>
+    <label>cook nutrient paste </label>
+    <description>Cook a nutrient paste  from one ingredient.</description>
+    <jobString>Cooking nutrient paste.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.3</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealNutrientPaste>1</MealNutrientPaste>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>30</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>CookMealNutrientPasteBulk</defName>
+    <label>cook nutrient paste x4</label>
+    <description>Cook 4 nutrient pastes from one ingredient.</description>
+    <jobString>Cooking 4 nutrient pastes.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>FoodRaw</li>
+          </categories>
+        </filter>
+        <count>1.2</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealNutrientPaste>4</MealNutrientPaste>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>70</displayPriority>
+  </RecipeDef>
+
+</Defs>

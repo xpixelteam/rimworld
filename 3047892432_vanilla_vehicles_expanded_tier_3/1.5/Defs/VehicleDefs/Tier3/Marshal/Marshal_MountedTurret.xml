@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>Marshal_MountedTurret</defName>
+		<label>Mounted Turret</label>
+		<description>A small machine gun mounted on a marshal tank. Needs to be reloaded with steel. Can only fire over short range, but doesn’t have any issues with firing at enemies that engage the vehicle in melee.</description>
+		
+		<turretType>Rotatable</turretType>
+		<shotSound>GunShotA</shotSound>
+		
+		<projectile>Bullet_MiniTurret</projectile>
+		<reloadTimer>2.4</reloadTimer>
+		<warmUpTimer>1.2</warmUpTimer>
+		<chargePerAmmoCount>0.25</chargePerAmmoCount>
+		
+		<magazineCapacity>75</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<hitFlags>IntendedTarget</hitFlags>
+		
+		<autoSnapTargeting>true</autoSnapTargeting>
+		
+		<projectileOffset>1</projectileOffset>
+		
+		<maxRange>28.9</maxRange>
+		
+		<recoil>
+			<distanceTotal>0.15</distanceTotal>
+			<distancePerTick>0.05</distancePerTick>
+			<speedMultiplierPostRecoil>0.1</speedMultiplierPostRecoil>
+		</recoil>
+		
+		<attachProjectileFlag>VVE_Tank</attachProjectileFlag>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>4</shotsPerBurst>
+				<ticksBetweenShots>8</ticksBetweenShots>
+				<ticksBetweenBursts>120</ticksBetweenBursts>
+				<burstsTillWarmup>3</burstsTillWarmup>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_ModernArmor/Tier3_ModernArmor_TurretTop</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+</Defs>

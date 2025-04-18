@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef>
+        <defName>CrateHGraphics</defName>
+        <targetDef>CrateH</targetDef>
+        <showContainedItems>false</showContainedItems>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Crate/Crate_H</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(1,1)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

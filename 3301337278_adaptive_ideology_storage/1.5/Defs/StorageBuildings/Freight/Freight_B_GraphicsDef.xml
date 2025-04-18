@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef Name="Freight_B_BaseGraphics" Abstract="True">
+        <targetDef>Freight_B</targetDef>
+        <showContainedItems>false</showContainedItems>
+    </AdaptiveStorage.GraphicsDef>
+
+    <AdaptiveStorage.GraphicsDef ParentName="Freight_B_BaseGraphics">
+        <defName>Freight_B_Base</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Freight/Freight_B_Base</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(5,2.95)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>Freight/Freight_B_Covered</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(5,2.95)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+        </graphics>
+        <randomSelectionWeight>0</randomSelectionWeight>
+    </AdaptiveStorage.GraphicsDef>
+
+    <AdaptiveStorage.GraphicsDef ParentName="Freight_B_BaseGraphics">
+        <defName>Freight_B_Steel</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Freight/Freight_B_Steel</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(5,2.95)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+        </graphics>
+        <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+        <requiredThingDefs>
+            <li>Steel</li>
+        </requiredThingDefs>
+    </AdaptiveStorage.GraphicsDef>
+
+    <AdaptiveStorage.GraphicsDef ParentName="Freight_B_BaseGraphics">
+        <defName>Freight_B_Plasteel</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Freight/Freight_B_Plasteel</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(5,2.95)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+        </graphics>
+        <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+        <requiredThingDefs>
+            <li>Plasteel</li>
+        </requiredThingDefs>
+    </AdaptiveStorage.GraphicsDef>
+
+    <AdaptiveStorage.GraphicsDef ParentName="Freight_B_BaseGraphics">
+        <defName>Freight_B_Uranium</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Freight/Freight_B_Uranium</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(5,2.95)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+        </graphics>
+        <onlyAllowRequiredThingDefs>true</onlyAllowRequiredThingDefs>
+        <requiredThingDefs>
+            <li>Uranium</li>
+        </requiredThingDefs>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

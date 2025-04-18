@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>LMTV 货运改装</RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>切换为优先货运。</RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>MTV 货运改装</RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>升级为M1083 6x6 MTV，提升运力。</RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>MTV 客运改装</RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>升级为M1083 6x6 MTV，提升运力。</RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.label>M2HB 武器站</RT_MATV_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.description>在车顶加装M2HB遥控武器站。</RT_MATV_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.label>陶式导弹发射器</RT_MATV_Vehicle_UpgradeTree.nodes.1.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.description>在车顶加装陶式导弹发射器。</RT_MATV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.label>Mk19榴弹发射器</RT_MATV_Vehicle_UpgradeTree.nodes.2.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.description>在车顶加装Mk19自动榴弹发射器。</RT_MATV_Vehicle_UpgradeTree.nodes.2.description>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+  <TD.SettingDeliverAny>Доставлять ресурсы, даже если их недостаточно для завершения строительства</TD.SettingDeliverAny>
+  <TD.SettingBlockingJobs>Назначить другие работы для очистки места под чертежи</TD.SettingBlockingJobs>
+  <TD.SettingBlockingJobsDesc>Лесорубы (фермеры) и шахтеры уберут все в месте расположения чертежа.\n\n(Есть сообщения о том, что из-за этого щелчок правой кнопкой мыши замедляется, поэтому отключите это, чтобы, вероятно, исправить это.)</TD.SettingBlockingJobsDesc>
+  <TD.ShareTheLoad>Share The Load</TD.ShareTheLoad>
+	
+</LanguageData>

@@ -1,0 +1,107 @@
+<LanguageData>
+	<!-- EN: Prepare Procedurally -->
+	<Necrofancy.PrepareProcedurally.Button>Prepare Procedurally</Necrofancy.PrepareProcedurally.Button>
+
+	<!-- EN: Determine Backstories and Traits -->
+	<Necrofancy.PrepareProcedurally.PageTitle>Определить предысторию и черты характера</Necrofancy.PrepareProcedurally.PageTitle>
+
+	<!-- EN: Group Passions For Each Skill -->
+	<Necrofancy.PrepareProcedurally.SkillsGroupLabel>Групповые увлечения по каждому навыку</Necrofancy.PrepareProcedurally.SkillsGroupLabel>
+	<!-- EN: Capable: -->
+	<Necrofancy.PrepareProcedurally.CapableOf>Может:</Necrofancy.PrepareProcedurally.CapableOf>
+	<!-- EN: Generation will try to create pawns such that there are:\n - {0} with a major passion.\n - {1} more with a minor passion.\n - {2} more capable of {3}. -->
+	<Necrofancy.PrepareProcedurally.SkillSettingsTooltip>Генерировать пешек:\n - {0} с горячим интересом.\n - {1} со средним интересом.\n - {2} способных на {3}.</Necrofancy.PrepareProcedurally.SkillSettingsTooltip>
+
+	<!-- EN: Biological Settings -->
+	<Necrofancy.PrepareProcedurally.BiologicalSettingsLabel>Биологические настройки</Necrofancy.PrepareProcedurally.BiologicalSettingsLabel>
+	<!-- EN: Adults Will Have an Age Between {0} Years -->
+	<Necrofancy.PrepareProcedurally.BiologicalAgeRange>Возраст взрослых будет от {0} лет.</Necrofancy.PrepareProcedurally.BiologicalAgeRange>
+	<!-- EN: Skin Color Variation -->
+	<Necrofancy.PrepareProcedurally.BiologicalMelaninRange>Вариации цвета кожи</Necrofancy.PrepareProcedurally.BiologicalMelaninRange>
+	<!-- EN: Allow Injuries -->
+	<Necrofancy.PrepareProcedurally.BiologicalAllowInjuriesLabel>Разрешить травмы</Necrofancy.PrepareProcedurally.BiologicalAllowInjuriesLabel>
+	<!-- EN: If disabled, characters will not generate with permanent injuries or addictions.\n\nThey may still have implants related to their technology level. -->
+	<Necrofancy.PrepareProcedurally.BiologicalAllowInjuriesTooltip>Если отключено, пешки будут генерироваться без необратимых травм или зависимостей.\n\nУ них все еще могут быть имплантаты, соответствующие их технологическому уровню.</Necrofancy.PrepareProcedurally.BiologicalAllowInjuriesTooltip>
+	<!-- EN: Allow Relationships -->
+	<Necrofancy.PrepareProcedurally.BiologicalAllowRelationshipsLabel>Разрешить отношения</Necrofancy.PrepareProcedurally.BiologicalAllowRelationshipsLabel>
+	<!-- EN: If disabled, characters will generate with no relationships at the start -->
+	<Necrofancy.PrepareProcedurally.BiologicalAllowRelationshipsTooltip>Если отключено, пешки будут генерироваться без каких-либо связей в начале.</Necrofancy.PrepareProcedurally.BiologicalAllowRelationshipsTooltip>
+	<!-- EN: Allow Pregnancy -->
+	<Necrofancy.PrepareProcedurally.BiologicalAllowPregnancyLabel>Разрешить беременность</Necrofancy.PrepareProcedurally.BiologicalAllowPregnancyLabel>
+	<!-- EN: If disabled, characters will not generate with an initial pregnancy.\n\nThis does not stop them from becoming pregnant after the game starts. -->
+	<Necrofancy.PrepareProcedurally.BiologicalAllowPregnancyTooltip>Если отключено, пешки не будут генерироваться с беременностью.\n\nЭто не помешает им забеременеть после запуска игры.</Necrofancy.PrepareProcedurally.BiologicalAllowPregnancyTooltip>
+
+	<!-- EN: Backstory and Passion Settings -->
+	<Necrofancy.PrepareProcedurally.BackstoryPassionLabel>Предыстория и настройки интереса</Necrofancy.PrepareProcedurally.BackstoryPassionLabel>
+	<!-- EN: Vary Skill Weights By 100%-{0} For Backstory Variety -->
+	<Necrofancy.PrepareProcedurally.VariationLabel>Вес навыков 100% – {0}.</Necrofancy.PrepareProcedurally.VariationLabel>
+	<!-- EN: Procedural generation will try to pick pawn backstories and simulate randomization to quickly arrive at a certain loadout of passions. It does so by attaching a weight for each skill and picking stories by the best weight.\n\nVarying this weight by a random amount on generation gives more backstory variety and can help get out of ruts without having to specify each weight to get a specific story combination. -->
+	<Necrofancy.PrepareProcedurally.SkillVariationTooltip>Процедурная генерация попытается выбрать предыстории пешек и смоделировать рандомизацию, чтобы быстро достичь определенного набора интересов. Это делается путем присвоения веса каждому навыку и выбора историй по наилучшему весу.\n\nИзменение этого веса на случайную величину при генерации дает больше разнообразия предыстории и может помочь выйти из рутины без необходимости указывать каждый вес, чтобы получить конкретную комбинация историй.</Necrofancy.PrepareProcedurally.SkillVariationTooltip>
+	<!-- EN: Unvarying -->
+	<Necrofancy.PrepareProcedurally.SkillVariationLeft>Неизменный</Necrofancy.PrepareProcedurally.SkillVariationLeft>
+	<!-- EN: 1-5x Variation -->
+	<Necrofancy.PrepareProcedurally.SkillVariationRight>5x</Necrofancy.PrepareProcedurally.SkillVariationRight>
+	<!-- EN: Max "Passion Points" in Generating Pawns {0} -->
+	<Necrofancy.PrepareProcedurally.PassionPointsLabel>Максимальное количество очков интересов - {0}</Necrofancy.PrepareProcedurally.PassionPointsLabel>
+	<!-- EN: When characters are generated, they are given a range of points between 0-9, based on a normal distribution centered at five points. Outliers on the far ends (i.e. exactly 0 or 9) are exceedingly unlikely.\n\n    - Minor passions take 1 point\n    - Major passions take 1.5 points\n\nCertain traits can force or prevent passions, but otherwise a set amount of major and minor passions are given based on the skill level for the pawn generated. -->
+	<Necrofancy.PrepareProcedurally.PassionPointsTooltip>При создании персонажей им присваивается диапазон очков от 0 до 9, основанных на нормальном распределении с центром в пяти. Ровно 0 или 9 - крайне маловероятны.\n\n - Незначительный интерес 1 балл.\n - Горячий интерес 1,5 балла.\n\nОпределенные черты могут добавлять или убирать интерес в навыках, но обычно количество будет генерироваться в зависимости от уровня навыков созданной пешки.</Necrofancy.PrepareProcedurally.PassionPointsTooltip>
+	<!-- EN: The groupwide skill requirements make up {0} of possible passion points. -->
+	<Necrofancy.PrepareProcedurally.GroupwideUsageIndicator>Требования к навыкам для всей группы составляют {0} возможных баллов интереса.</Necrofancy.PrepareProcedurally.GroupwideUsageIndicator>
+
+		<!-- Scale these up or down according to the how long your language is -->
+		<!-- For English, this is scaled so that "Construction" is one line for the former and there is a comfy even margin for the row length. -->
+	<!-- EN: 85 -->
+	<Necrofancy.PrepareProcedurally.SkillTextLength>120</Necrofancy.PrepareProcedurally.SkillTextLength>
+	<!-- EN: 490 -->
+	<Necrofancy.PrepareProcedurally.SelectSkillWidgetLength>515</Necrofancy.PrepareProcedurally.SelectSkillWidgetLength>
+
+	<!-- EN: Pawn generation was not able to satisfy the following requirements with the given passions per pawn:\n\n{0}\nThis can be fixed by lowering some skill/passion requirements or increasing the passions each pawn can have.\n\nDo you wish to continue anyways? -->
+	<Necrofancy.PrepareProcedurally.WarnUnsatisfiedSkillsMessage>Генерация пешек не смогла удовлетворить следующие требования с заданными увлечениями на пешку:\n\n{0}\nЭто можно исправить, снизив некоторые требования к навыкам/увлечениям или увеличив увлечения, которые может иметь каждая пешка.\n\nВсе равно хотите продолжить?</Necrofancy.PrepareProcedurally.WarnUnsatisfiedSkillsMessage>
+	<!-- EN: Prepare Procedurally has had an error trying to randomize pawns.\n\n{0}\n\nTo prevent catastrophic error state, all starting characters have been rerolled. -->
+	<Necrofancy.PrepareProcedurally.PrepareProcedurallyErrorMessage>Произошла ошибка при попытке рандомизировать пешки.\n\n{0}\n\nЧтобы предотвратить катастрофическое состояние ошибки, все начальные пешки были перераспределены.</Necrofancy.PrepareProcedurally.PrepareProcedurallyErrorMessage>
+	<!-- EN: This pawn is locked in and will not be randomized or changed in any way by the procedural editor.\n\nClick to unlock. -->
+	<Necrofancy.PrepareProcedurally.LockedPawnTooltip>Эта пешка заблокирована и не будет рандомизирована или каким-либо образом изменена процедурным редактором.\n\nНажмите, чтобы разблокировать.</Necrofancy.PrepareProcedurally.LockedPawnTooltip>
+	<!-- EN: This pawn is not locked in and will be randomized as needed by the procedural editor to fit other requests.\n\nClick to lock. -->
+	<Necrofancy.PrepareProcedurally.UnlockedPawnTooltip>Эта пешка не заблокирована и будет рандомизирована процедурным редактором по мере необходимости в соответствии с другими запросами.\n\nНажмите, чтобы заблокировать.</Necrofancy.PrepareProcedurally.UnlockedPawnTooltip>
+	<!-- EN: Click to customize this pawn slot a bit more. -->
+	<Necrofancy.PrepareProcedurally.ClickToCustomizePawnTooltip>Нажмите, чтобы еще больше настроить этот слот для пешки.</Necrofancy.PrepareProcedurally.ClickToCustomizePawnTooltip>
+
+	<!-- EN: Male -->
+	<Necrofancy.PrepareProcedurally.ProcGenPreferMaleLabel>Мужчина</Necrofancy.PrepareProcedurally.ProcGenPreferMaleLabel>
+	<!-- EN: Female -->
+	<Necrofancy.PrepareProcedurally.ProcGenPreferFemaleLabel>Женщина</Necrofancy.PrepareProcedurally.ProcGenPreferFemaleLabel>
+	<!-- EN: Either -->
+	<Necrofancy.PrepareProcedurally.ProcGenNoGenderPreferenceTooltip>Любой</Necrofancy.PrepareProcedurally.ProcGenNoGenderPreferenceTooltip>
+
+	<!-- EN: Generation will prefer male characters in generation, and limit backstories that have an incompatible gender. -->
+	<Necrofancy.PrepareProcedurally.ProcGenPreferMaleTooltip>Генератор будет отдавать предпочтение мужским персонажам в поколении и ограничивать предыстории, имеющие несовместимый пол.</Necrofancy.PrepareProcedurally.ProcGenPreferMaleTooltip>
+	<!-- EN: Generation will prefer female characters in generation, and limit backstories that have an incompatible gender. -->
+	<Necrofancy.PrepareProcedurally.ProcGenPreferFemaleTooltip>Генератор будет отдавать предпочтение женским персонажам и ограничивать предыстории, имеющие несовместимый пол.</Necrofancy.PrepareProcedurally.ProcGenPreferFemaleTooltip>
+	<!-- EN: When generating characters, no preference will be enforced to limit backstories. -->
+	<Necrofancy.PrepareProcedurally.ProcGenPreferNoGenderPreferenceTooltip>При создании персонажей не будут применяться никакие предпочтения, ограничивающие предысторию.</Necrofancy.PrepareProcedurally.ProcGenPreferNoGenderPreferenceTooltip>
+	<!-- EN: This race is monosex; it cannot be changed. -->
+	<Necrofancy.PrepareProcedurally.ProcGenCannotRequestGender>Эта раса однополая; Нельзя изменить.</Necrofancy.PrepareProcedurally.ProcGenCannotRequestGender>
+
+	<!-- EN: This trait is forced by the given backstory of the pawn. Locked pawns will not have this trait removed for trait options, and unlocked pawns may reroll a different backstory to avoid this trait if chosen traits conflict with it. -->
+	<Necrofancy.PrepareProcedurally.TraitIsBackstoryTooltip>Эта черта обусловлена ​​предысторией пешки.</Necrofancy.PrepareProcedurally.TraitIsBackstoryTooltip>
+	<!-- EN: This trait is being locked in on request. Click this trait to remove the lock in for this pawn slot. -->
+	<Necrofancy.PrepareProcedurally.PlayerRequestedTraitLabel>Эта черта Заблокирована вами. Щелкните эту черту, чтобы снять блокировку.</Necrofancy.PrepareProcedurally.PlayerRequestedTraitLabel>
+	<!-- EN: This trait is being forced by scenario or mod-based character generation. It cannot be removed. -->
+	<Necrofancy.PrepareProcedurally.TraitScenarioForcedLabel>Эта черта создана сценарием или генерацией персонажа на основе модов. Ее невозможно удалить.</Necrofancy.PrepareProcedurally.TraitScenarioForcedLabel>
+
+	<!-- EN: Click For Skill Loadout UI -->
+	<Necrofancy.PrepareProcedurally.CustomizePawnSkillsLabel>Нажмите на имя пешки, чтобы просмотреть интерфейс выбора навыков</Necrofancy.PrepareProcedurally.CustomizePawnSkillsLabel>
+	<!-- EN: Customize Specific Pawn: -->
+	<Necrofancy.PrepareProcedurally.EditSpecificPawnTitle>Настроить конкретную пешку:</Necrofancy.PrepareProcedurally.EditSpecificPawnTitle>
+	<!-- EN: Try to make this pawn randomize with a major passion in {0}. -->
+	<Necrofancy.PrepareProcedurally.MajorPassionTooltip>Генерировать с горячим интересом в {0}.</Necrofancy.PrepareProcedurally.MajorPassionTooltip>
+	<!-- EN: Try to make this pawn randomize with a minor passion or better in {0}. -->
+	<Necrofancy.PrepareProcedurally.MinorPassionTooltip>Генерировать со средним интересом в {0}.</Necrofancy.PrepareProcedurally.MinorPassionTooltip>
+	<!-- EN: Try to make this pawn randomize so that it is capable of {0}. -->
+	<Necrofancy.PrepareProcedurally.UsableTooltip>Генерировать, чтобы пешка была способна на {0}.</Necrofancy.PrepareProcedurally.UsableTooltip>
+	<!-- EN: Put no weight or emphasis on {0}. -->
+	<Necrofancy.PrepareProcedurally.NoEmphasisTooltip>Не обращать внимания на интерес/способность к {0}.</Necrofancy.PrepareProcedurally.NoEmphasisTooltip>
+
+	<!-- EN: Reroll -->
+	<Necrofancy.PrepareProcedurally.RerollButton>Сгенерировать заново</Necrofancy.PrepareProcedurally.RerollButton>
+</LanguageData>

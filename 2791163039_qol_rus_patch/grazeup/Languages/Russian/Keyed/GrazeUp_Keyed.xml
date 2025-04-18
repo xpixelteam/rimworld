@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<GU_Title>Graze Up</GU_Title>
+	<GU_ResetToDefault>По умолчанию</GU_ResetToDefault>
+
+	<GU_GrazeInSnowName>Трава в снегу</GU_GrazeInSnowName>
+	<GU_GrazeInSnowDesc>Животные могут есть растения, занесенные снегом? Vanilla = OFF</GU_GrazeInSnowDesc>
+	<GU_LifespanName>Продолжительность жизни растения</GU_LifespanName>
+	<GU_LifespanDesc>Количество времени, в течение которого растения живут. Vanilla = 100%</GU_LifespanDesc>
+	<GU_LifespanFloorName>Минимальная продолжительности жизни растения</GU_LifespanFloorName>
+	<GU_LifespanFloorDesc>Если продолжительность жизни растения будет ниже этого значения после масштабирования продолжительности жизни, оно будет смещено на половину к этому значению. Vanilla = 0 days</GU_LifespanFloorDesc>
+	<GU_NutritionName>Питательные вещества</GU_NutritionName>
+	<GU_NutritionDesc>Количество питательных веществ, которые дают растения. Vanilla = 100%</GU_NutritionDesc>
+	<GU_NutritionRegrowName>Питательные вещества, вновь растущие растения</GU_NutritionRegrowName>
+	<GU_NutritionRegrowDesc>Количество питательных веществ, которые дают вновь растущие растения. Vanilla = 350%</GU_NutritionRegrowDesc>
+	<GU_NutritionDestroyName>Бонус за уничтожение растений</GU_NutritionDestroyName>
+	<GU_NutritionDestroyDesc>Количество питательных веществ, которое дает уничтожение растения. Vanilla = 0%</GU_NutritionDestroyDesc>
+	<GU_DestructiveGrazersName>Разрушительные травоядные</GU_DestructiveGrazersName>
+	<GU_DestructiveGrazersDesc>Существа, которые могут уничтожать растения при выпасе скота. Vanilla = ALL</GU_DestructiveGrazersDesc>
+</LanguageData>

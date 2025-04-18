@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--<VVE_Frog.label>Лягушка</VVE_Frog.label>-->
+  <!--<VVE_Frog.description>Простая многоразовая транспортная капсула, Лягушка - это относительно дешёвое транспортное средство, которое является первым выбором, когда речь идёт о полёте без падения на землю. Несколько раз быстрее обычных транспортных капсул с приемлемой бронёй для одного пассажира, что делает его идеальным транспортным средством для засады.\n\nЕщё хуже, чем другие транспортные средства уровня 1, эффективность использования топлива не применима к этому транспорту. Необходимо позаботиться о том, чтобы заправиться на посадочной площадке или взять достаточно запасного топлива для обратного пути.\n\nБудучи летающим транспортным средством, его движение крайне заметно.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1\n&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химтопливо</VVE_Frog.description>-->
+  <!--<VVE_Frog.properties.roles.0.label>Оператор</VVE_Frog.properties.roles.0.label>-->
+  <!--<VVE_Frog.components.0.label>Двигатель</VVE_Frog.components.0.label>-->
+  <!--<VVE_Frog.components.1.label>Первый тяговый двигатель</VVE_Frog.components.1.label>-->
+  <!--<VVE_Frog.components.2.label>Второй тяговый двигатель</VVE_Frog.components.2.label>-->
+  <!--<VVE_Frog.components.3.label>Третий тяговый двигатель</VVE_Frog.components.3.label>-->
+  <!--<VVE_Frog.components.4.label>Стабилизаторы</VVE_Frog.components.4.label>-->
+
+
+</LanguageData>

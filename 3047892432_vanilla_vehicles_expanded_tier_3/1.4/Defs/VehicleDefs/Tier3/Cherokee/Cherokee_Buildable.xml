@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Cherokee_Blueprint</defName>
+		<label>Cherokee</label>
+		<description>A heavy duty transport aircraft, the Cherokee is a hulking monstrosity of aeronautical engineering. Very slow due to all the bulk, equally thirsty, and sports massive cargo capacity. Plan accordingly.\n\nA dedicated transport helicopter with a modified cargo bay, it requires two pilots to operate and frequent refueling. However, nothing comes even close to bulk transportation at its tech level.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_CargoHelicopter/Tier3_CargoHelicopter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,12)</drawSize>
+		</graphicData>
+		
+		<researchPrerequisites>
+			<li>VVE_Cherokee</li>
+		</researchPrerequisites>
+		
+		<size>(3,10)</size>
+		
+		<statBases>
+			<WorkToBuild>52000</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<costList>
+			<VVE_EngineBlock>8</VVE_EngineBlock>
+			<VVE_CarAlternator>14</VVE_CarAlternator>
+			<VVE_CarExhaust>10</VVE_CarExhaust>
+			<VVE_CarSuspension>8</VVE_CarSuspension>
+			<VVE_CarWheel>4</VVE_CarWheel>
+			<Steel>1080</Steel>
+			<ComponentIndustrial>36</ComponentIndustrial>
+			<VVE_CarFuelTank>4</VVE_CarFuelTank>
+			<VVE_CarTransmission>6</VVE_CarTransmission>
+			<VVE_CarRadiator>2</VVE_CarRadiator>
+			<VVE_CarWiring>6</VVE_CarWiring>
+			<VVE_CarBattery>4</VVE_CarBattery>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>VVE_Cherokee</thingToSpawn>
+	</Vehicles.VehicleBuildDef>
+</Defs>

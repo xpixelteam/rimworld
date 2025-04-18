@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Goliath_Blueprint</defName>
+		<label>Goliath</label>
+		<description>More of a movable mini-base than a deployment pod, Goliath is an expensive but powerful solution to any immovable enemy object. Equipped with four military turret stations and a long range rocket swarm turret at the top, this siege pod is capable of raining fire in 360 degree radius. Nearly impenetrable, it can serve as a portable base of operations, keeping all troops inside safe.\n\nIt’s incredibly heavy and lift off requires single-use boosters that separate once the trajectory and velocity is reached. In order to lift off again, the boosters need to be rebuilt.\n\nBeing a flying vehicle, it is extremely obvious when on the move.</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_SiegePod/Tier3_SiegePod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6, 6)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		
+		<rotatable>false</rotatable>
+
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>30000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<size>(5, 5)</size>
+		
+		<researchPrerequisites>
+			<li>VVE_SiegePods</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<VVE_EngineBlock>4</VVE_EngineBlock>
+			<VVE_CarAlternator>4</VVE_CarAlternator>
+			<VVE_CarExhaust>16</VVE_CarExhaust>
+			<VVE_CarSuspension>8</VVE_CarSuspension>
+			<VVE_CarTransmission>2</VVE_CarTransmission>
+			<VVE_CarFuelTank>4</VVE_CarFuelTank>
+			<Steel>220</Steel>
+			<ComponentIndustrial>14</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>VVE_Goliath</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

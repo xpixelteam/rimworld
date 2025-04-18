@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Dirtbike.label>Мотоцикл-внедорожник</VVE_Dirtbike.label>
+  <VVE_Dirtbike.description>Простой внедорожный мотоцикл, Мотоцикл-внедорожник - это очень дешёвое транспортное средство, позволяющее одному пользователю быстро, эффективно и бесшумно перемещаться. Невероятно лёгкий и практически бумажно тонкий по броне, он плохо себя ведёт зимой или на снегу, либо и то, и другое, и у него совсем нет грузоподъёмности.\n\nПодобно другим транспортным средствам уровня 1, оно потребляет много топлива и лучше всего подходит для средних расстояний.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1\n&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химтопливо</VVE_Dirtbike.description>
+  <VVE_Dirtbike.properties.roles.0.label>Водитель</VVE_Dirtbike.properties.roles.0.label>
+  <VVE_Dirtbike.components.0.label>Переднее колесо</VVE_Dirtbike.components.0.label>
+  <VVE_Dirtbike.components.1.label>Заднее колесо</VVE_Dirtbike.components.1.label>
+  <VVE_Dirtbike.components.2.label>Двигатель</VVE_Dirtbike.components.2.label>
+  <VVE_Dirtbike.components.3.label>Передняя подвеска</VVE_Dirtbike.components.3.label>
+  <VVE_Dirtbike.components.4.label>Задняя подвеска</VVE_Dirtbike.components.4.label>
+
+
+</LanguageData>

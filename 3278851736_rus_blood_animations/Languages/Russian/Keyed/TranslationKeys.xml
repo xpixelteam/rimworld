@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Blood Animations -->
+	<BloodAnimations_Title>Blood Animations</BloodAnimations_Title>
+  <!-- EN: *High numbers may impact performance -->
+	<BloodAnimations_Warning>*Большие значения могут повлиять на производительность</BloodAnimations_Warning>
+  <!-- EN: Amount of blood/debris particles (Flying particles from direct damage) -->
+	<BloodAnimations_BloodMultiplier>Количество частиц крови/обломков (летающие частицы от прямого урона)</BloodAnimations_BloodMultiplier>
+  <!-- EN: Amount of bleeding particles (Animated bleeding based on pawn bleed rate) -->
+	<BloodAnimations_BleedRate>Количество кровоточащих частиц (анимированное кровотечение на основе скорости кровотечения персонажа)</BloodAnimations_BleedRate>
+  <!-- EN: Time until particles fade -->
+	<BloodAnimations_BloodTime>Время, пока частицы не исчезнут</BloodAnimations_BloodTime>
+  <!-- EN: Filth left by particles (Percentage of particles that leave blood/debris filth that require colonists to clean up) -->
+	<BloodAnimations_FilthMultiplier>Грязь, оставленная частицами (процент частиц, оставляющих кровь/обломки, которые требуют уборки колонистами)</BloodAnimations_FilthMultiplier>
+  <!-- EN: Enable bullet casings (Shell ejection animation from firing guns) -->
+	<BloodAnimations_BulletCasingToggle>Включить гильзы (анимация выброса гильз из оружия)</BloodAnimations_BulletCasingToggle>
+  <!-- EN: Enable filth left by bullets (Chance for gunfire to leave bullet casing filth that require colonists to clean up) -->
+	<BloodAnimations_BulletCasingFilthToggle>Включить грязь, оставленную пулями (вероятность того, что при стрельбе останется гильзы от пуль, которую колонистам придется убирать)</BloodAnimations_BulletCasingFilthToggle>
+  <!-- EN: Reset All -->
+	<BloodAnimations_ResetAll>Сбросить все</BloodAnimations_ResetAll>
+
+
+</LanguageData>

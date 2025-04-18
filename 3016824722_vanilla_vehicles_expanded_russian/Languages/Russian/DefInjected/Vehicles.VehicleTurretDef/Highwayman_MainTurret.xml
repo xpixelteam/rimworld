@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Highwayman_MainTurret.label>Башня Разбойника</Highwayman_MainTurret.label>
+  <Highwayman_MainTurret.description>Легко бронированная башня с двумя связанными пушками-минитурелями. Обычно устанавливается на бронетранспортеры "Разбойник". Требуется перезарядка сталью. Может стрелять только на короткое расстояние, но не имеет проблем с отстреливанием врагов, атакующих транспортное средство в ближнем бою.</Highwayman_MainTurret.description>
+  <Highwayman_MainTurret.fireModes.0.label>Залп</Highwayman_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

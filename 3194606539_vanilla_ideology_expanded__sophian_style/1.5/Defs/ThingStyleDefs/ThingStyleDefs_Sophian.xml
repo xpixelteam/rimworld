@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ====== Sophian ======== -->
+
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ArmorCataphractHelmet</defName>
+		<wornGraphicPath>Things/Apparel/Sophian/CataphractHelmet/CataphractHelmetSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/CataphractHelmet/CataphractHelmetSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_AdvancedHelmet</defName>
+
+		<wornGraphicPath>Things/Apparel/Sophian/FlakHelmet/FlakHelmetSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/FlakHelmet/FlakHelmetSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_FlakJacket</defName>
+
+		<wornGraphicPath>Things/Apparel/Sophian/FlakJacket/FlakJacketSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/FlakJacket/FlakJacketSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_GasMask</defName>
+
+		<wornGraphicPath>Things/Apparel/Sophian/GasMask/GasMaskSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/GasMask/GasMaskSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Gunlink</defName>
+
+		<wornGraphicPath>Things/Apparel/Sophian/Gunlink/GunlinkSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/Gunlink/GunlinkSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_PowerArmorHelmet</defName>
+		<wornGraphicPath>Things/Apparel/Sophian/MarineHelmet/MarineHelmetSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/MarineHelmet/MarineHelmetSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ReconArmorHelmet</defName>
+		<wornGraphicPath>Things/Apparel/Sophian/ReconHelmet/ReconHelmetSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/ReconHelmet/ReconHelmetSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_SimpleHelmet</defName>
+
+		<wornGraphicPath>Things/Apparel/Sophian/SimpleHelmet/SimpleHelmetSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/SimpleHelmet/SimpleHelmetSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_VisageMask</defName>
+
+		<wornGraphicPath>Things/Apparel/Sophian/VisageMask/VisageMaskSophian</wornGraphicPath>
+		<graphicData>
+			<texPath>Things/Apparel/Sophian/VisageMask/VisageMaskSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Gladius</defName>
+
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Gladius</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Mace</defName>
+
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Mace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Ikwa</defName>
+
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Ikwa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Club</defName>
+
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Club</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Spear</defName>
+
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Spear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Knife</defName>
+
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Sword</defName>
+
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Longsword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Axe</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Axe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Hammer</defName>
+		<graphicData>
+
+			<texPath>Things/Weapons/Sophian/Warhammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Pickaxe</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/BreachAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+
+
+
+
+
+
+
+
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_SniperRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_BoltActionRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/BoltActionRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Revolver</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Revolver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_PumpShotgun</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargeRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargeRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_HeavySMG</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/HeavySMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_MachinePistol</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/MachinePistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_LMG</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/LMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChainShotgun</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChainShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Autopistol</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Autopistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_AssaultRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargeLance</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargeLance</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Minigun</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Minigun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Bow</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ShortBow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_RecurveBow</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/RecurveBow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_GreatBow</defName>
+		<overrideLabel>great crossbow</overrideLabel>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/GreatBow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargePistol</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargePistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargeShotgun</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargeShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargeSMG</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargeSMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargeLMG</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargeLMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargeSniperRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargeSniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ChargeMinigun</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ChargeMinigun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_AntiMaterialRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/AntiMaterialRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_LongBow</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/LongBow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_HandCannon</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Handcannon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_CombatHandgun</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/CombatPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_BattleRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/BattleRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_CarbineVWE</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Carbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Crossbow</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Crossbow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_HMG</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/HMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_SawedOffShotgun</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/SawedOffShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_SemiAutomaticRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/SemiAutomaticRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_LeverActionRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/LeverActionRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_LightSMG</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/LightSMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_SMG</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/SMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_ServiceRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/ServiceRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_MarksmanRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/MarksmanRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_HammerVWE</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Hammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_BattleAxe</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/BattleAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Sophian_Halberd</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/Halberd</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>VIES_Sophian_AltarSmall</defName>
+		<graphicData>
+			<texPath>Structures/Altars/SophianAltar1x1</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.8, 1, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_AltarMedium</defName>
+		<graphicData>
+			<texPath>Structures/Altars/SophianAltar1x3</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,1)</drawSize>
+			<shadowData>
+				<volume>(2.4, 1, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_AltarLarge</defName>
+		<graphicData>
+			<texPath>Structures/Altars/SophianAltar2x3</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<shadowData>
+				<volume>(2.4, 1, 1.6)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_AltarGrand</defName>
+		<graphicData>
+			<texPath>Structures/Altars/SophianAltar3x3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(2.4, 1, 2.4)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_Armchair</defName>
+		<graphicData>
+			<texPath>Structures/Armchair/SophianArmchair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.23, 0.26, 0.23)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_CommsConsole</defName>
+		<graphicData>
+			<texPath>Structures/CommsConsole/SophianCommsConsole</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,4)</drawSize>
+			<damageData>
+				<rect>(0,0,3,1.8)</rect>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(3,0.5,2)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_Chair</defName>
+		<graphicData>
+			<texPath>Structures/DiningChair/SophianDiningChair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.23, 0.26, 0.23)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_Dresser</defName>
+		<graphicData>
+			<texPath>Structures/Dresser/SophianDresser</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_EndTable</defName>
+		<graphicData>
+			<texPath>Structures/EndTable/SophianEndTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+	</ThingStyleDef><ThingStyleDef>
+		<defName>VIES_Sophian_LightEndTable</defName>
+		<graphicData>
+			<texPath>Structures/EndTableLamp/SophianEndTableLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_Stool</defName>
+		<graphicData>
+			<texPath>Structures/Stool/SophianStool</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+				<rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+				<rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+				<rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.18, 0.23, 0.18)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>VIES_Sophian_Table1x1c</defName>
+		<graphicData>
+			<texPath>Structures/Tables/SophianTable1x1</texPath>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>VIES_Sophian_Table1x2c</defName>
+		<graphicData>
+			<texPath>Structures/Tables/SophianTable1x2</texPath>
+			<drawSize>(3,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>VIES_Sophian_Table2x2c</defName>
+		<graphicData>
+			<texPath>Structures/Tables/SophianTable2x2</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>VIES_Sophian_Table2x4c</defName>
+		<graphicData>
+			<texPath>Structures/Tables/SophianTable2x4</texPath>
+			<drawSize>(4,6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>VIES_Sophian_Table3x3c</defName>
+		<graphicData>
+			<texPath>Structures/Tables/SophianTable3x3</texPath>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_Wardrobe</defName>
+		<graphicData>
+			<texPath>Structures/Wardrobe/SophianWardrobe</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			 <drawSize>(3.55,3.02)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+		<ThingStyleDef ParentName="IdeoColumnStyleBase">
+		<defName>VIES_Sophian_Column</defName>
+		<graphicData>
+			<texPath>Structures/SophianColumn</texPath>
+			<drawSize>(0.625,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_WoodFiredGenerator</defName>
+		<graphicData>
+			<texPath>Structures/SophianWoodFiredGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_ChemfuelPoweredGenerator</defName>
+		<graphicData>
+			<texPath>Structures/SophianChemfuelPoweredGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>VIES_Sophian_GeothermalGenerator</defName>
+		<graphicData>
+			<texPath>Structures/GeothermalPlantSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_Scarecrow</defName>
+		<graphicData>
+			<texPath>Structures/ScarecrowSophian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>VIES_Sophian_MultiAnalyzer</defName>
+		<graphicData>
+			<texPath>Structures/SophianMultianalyzer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>2.46875</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<!-- QuickDraw -->
+	
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Gun_AutomaticPistol</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/AutomaticPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Gun_BullpupRifle</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/BullpupRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Gun_BullpupDMR</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/BullpupDMR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="VIES_RotateWeapons">
+		<defName>VIES_Gun_PDW</defName>
+		<graphicData>
+			<texPath>Things/Weapons/Sophian/PDW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

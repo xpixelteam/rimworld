@@ -1,0 +1,66 @@
+<LanguageData>
+	<!--1.4/Defs/Markers.xml-->
+	<!--            WOW Style -->
+	<WowStyle.label>Стиль WOW</WowStyle.label>
+	<!--                  Markers inspired by the Raid-markers in World of Warcraft -->
+	<WowStyle.description>Маркеры, вдохновленные рейдовыми маркерами в World of Warcraft</WowStyle.description>
+
+	<!--           Numbers -->
+	<Numbers.label>Нумерация</Numbers.label>
+	<!--                 Markers with simple numbering -->
+	<Numbers.description>Маркеры с простой нумерацией</Numbers.description>
+
+	<!--          Skills -->
+	<Skills.label>Навыки</Skills.label>
+	<!--                Markers to indicate work-skills -->
+	<Skills.description>Маркеры для обозначения рабочих навыков</Skills.description>
+
+	<!--        Jobs -->
+	<Jobs.label>Работа</Jobs.label>
+	<!--              Markers to indicate job designations, made by [✚] Survivalmaster -->
+	<Jobs.description>Маркеры для обозначения заданий, сделанные [✚] Мастером выживания</Jobs.description>
+
+	<!--           Militar -->
+	<Militar.label>Военные США</Militar.label>
+	<!--                 Marker based on the united states military -->
+	<Militar.description>Маркеры, основанные на вооруженных силах Соединенных Штатов</Militar.description>
+
+	<!--       GDI -->
+	<GDI.label>ГСБ (GDI)</GDI.label>
+	<!--             Marker based on the GDI-faction from the game Command and Conquer -->
+	<GDI.description>Маркер, основанный на фракции GDI из игры Command and Conquer</GDI.description>
+
+	<!--       Nod -->
+	<Nod.label>Братство НОД</Nod.label>
+	<!--             Marker based on the Nod-faction from the game Command and Conquer -->
+	<Nod.description>Маркер, основанный на фракции Nod из игры Command and Conquer</Nod.description>
+
+	<!--        XCOM -->
+	<XCOM.label>XCOM</XCOM.label>
+	<!--              Marker based on the game XCOM, made by Botaxalim -->
+	<XCOM.description>Маркер по мотивам игры XCOM, созданной Botaxalim.</XCOM.description>
+
+	<!--           Weapons -->
+	<Weapons.label>Оружие</Weapons.label>
+	<!--                 Generic weapon-types, made by max.icons on flaticon.com -->
+	<Weapons.description>Универсальные типы оружия, созданные max.icons на flaticon.com</Weapons.description>
+
+	<!--                XCOM Medieval -->
+	<XCOMMedieval.label>XCOM Среднев.</XCOMMedieval.label>
+	<!--                      Marker based on the game XCOM but in a medieval style, made by Botaxalim -->
+	<XCOMMedieval.description>Маркер по мотивам игры XCOM, но в средневековом стиле, сделанный Botaxalim</XCOMMedieval.description>
+
+	<!--           Symbols -->
+	<Symbols.label>Символы</Symbols.label>
+	<!--                 Markers with generic symbols -->
+	<Symbols.description>Маркеры с общими символами</Symbols.description>
+
+	<!--            Ideology -->
+	<Ideology.label>Идеология</Ideology.label>
+	<!--                  Markers from Ideology, made by Yoann -->
+	<Ideology.description>Маркеры из идеологии, сделанные Yoann</Ideology.description>
+	
+	<XCOMTwo.label>XCOM 2</XCOMTwo.label>
+	<XCOMTwo.description>Маркер по мотивам игры XCOM 2, симпатичный от Lekoda</XCOMTwo.description>
+	
+	</LanguageData>

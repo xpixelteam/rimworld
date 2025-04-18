@@ -1,0 +1,26 @@
+<LanguageData>
+	<!--1.4/Defs/UpdateInfo.xml-->
+	<!--                        Since the response of the mod was so positive I decided to expand on it further.
+It is now possible to change the icon-set in the mod-options as well as have different icon-sets based on the pawn-type.
+The icon-sets are now based on xml and it should be pretty simple to add more.
+I added two new sets, one with simple numberings and also one with icons based on work-skills.
+The latter is based on icons from the Pawn Badge mod, following its included License.
+1.3 is now also supported but adding features to both versions is a bit of a pain so only the 1.4 version will see further additions.
+If you have any ideas for additional marker-icons, please leave a comment on the mod-page or on the linked Discord server! -->
+	<MarkThatPawn_1_4_1.content>Поскольку реакция мода была настолько положительной, я решил рассказать об этом подробнее.
+Теперь можно изменять набор значков в настройках мода, а также иметь разные наборы значков в зависимости от типа пешки.
+Наборы значков теперь основаны на xml, и добавить их должно быть довольно просто.
+Я добавил два новых набора, один с простыми номерами, а также один со значками, основанными на рабочих навыках.
+Последний основан на иконках из мода Pawn Badge в соответствии с прилагаемой лицензией.
+Версия 1.3 теперь также поддерживается, но добавление функций в обе версии сопряжено с некоторыми трудностями, поэтому дальнейшие дополнения появятся только в версии 1.4.
+Если у вас есть какие-либо идеи для дополнительных значков-маркеров, пожалуйста, оставьте комментарий на странице мода или на связанном сервере Discord!</MarkThatPawn_1_4_1.content>
+	<!--                        Since it was requested by multiple users there is now mod-options for marking pawns automatically based on various conditions.
+These rules will be checked whenever a pawn spawns into the world and will mark them if applicable. The marking can be changed or removed from the pawn if needed.
+If you have suggestions for new rule-types, please leave a comment on the mod-page or the Discord-server!
+I also added a few more icon-packs; Ideology icons by Yoann, Weapon-types by max.icons, XCOM-icons by Botoxalim, Job-icons by Survivalmaster. -->
+	<MarkThatPawn_1_4_6.content>Поскольку это было запрошено несколькими пользователями, теперь есть мод-опции для автоматической маркировки пешек в зависимости от различных условий.
+Эти правила будут проверяться всякий раз, когда пешка появляется в мире, и будут отмечены, если это применимо. При необходимости маркировка может быть изменена или удалена с пешки.
+Если у вас есть предложения по новым типам правил, пожалуйста, оставьте комментарий на странице мода или на сервере Discord!
+Я также добавил еще несколько наборов иконок; иконки идеологии от Yoann, типы оружия от max.icons, иконки XCOM от Botoxalim, иконки заданий от Survivalmaster.</MarkThatPawn_1_4_6.content>
+	<MarkThatPawn_1_4_23.content>Теперь есть опции для отображения всех применимых значков для пешек. Это можно отключить в настройках, если вы по-прежнему хотите показывать только значок с наивысшим приоритетом.\nВы также можете выбрать поворот текущего значка из всех применимых значков для пешки.\nНадеюсь, это будет полезно!</MarkThatPawn_1_4_23.content>
+</LanguageData>

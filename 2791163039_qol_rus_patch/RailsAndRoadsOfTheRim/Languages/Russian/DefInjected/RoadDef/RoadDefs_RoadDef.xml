@@ -1,0 +1,27 @@
+<LanguageData>
+	<!--1.5\Defs\RoadDefs\RoadDefs.xml-->
+	<!--             EN: dirt path+ -->
+	<DirtPathBuilt.label>грунтовая тропа+</DirtPathBuilt.label>
+	<!--             EN: dirt road+ -->
+	<DirtRoadBuilt.label>грунтовая дорога+</DirtRoadBuilt.label>
+	<!--              EN: stone road+ -->
+	<StoneRoadBuilt.label>каменная дорога+</StoneRoadBuilt.label>
+	<!--           EN: asphalt road -->
+	<AsphaltRoad.label>асфальтированная дорога</AsphaltRoad.label>
+	<!--           EN: glitter road -->
+	<GlitterRoad.label>передовая дорога</GlitterRoad.label>
+	<!--        EN: railroad -->
+	<Railroad.label>железная дорога</Railroad.label>
+	<!--                EN: rail overpass -->
+	<RailroadOverpass.label>железнодорожная эстакада</RailroadOverpass.label>
+	<!--        EN: railyard -->
+	<RailYard.label>железнодорожная развязка</RailYard.label>
+	<!--           EN: glitterrail -->
+	<Glitterrail.label>передовая Железная дорога</Glitterrail.label>
+	<!--               EN: glit overpass -->
+	<GlitterOverpass.label>передовая эстакада</GlitterOverpass.label>
+	<!--           EN: glitteryard -->
+	<GlitterYard.label>передовая развязка</GlitterYard.label>
+	<!--          EN: rail tunnel -->
+	<RailTunnel.label>железнодорожный туннель</RailTunnel.label>
+</LanguageData>

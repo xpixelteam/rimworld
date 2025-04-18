@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient Ore Dressing Machine -->
+  <BreadMoAM_AncientOreDressingMachine.label>古代选矿机</BreadMoAM_AncientOreDressingMachine.label>
+  <!-- EN: An ancient ore dressing machine. Once capable of screening useable metal from slags or rubbles using water washing, sieving and magnets, with its core components gone, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientOreDressingMachine.description>一种古老的选矿机。通过水洗，筛分，磁力从矿渣和块堆中筛选出有用的矿物，其核心部件已锈蚀和风化。也许摧毁它可以帮助回收一些有用的材料。</BreadMoAM_AncientOreDressingMachine.description>
+  
+</LanguageData>

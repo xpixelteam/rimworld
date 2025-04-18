@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>CanisterC</defName>
+        <label>Canister C</label>
+        <graphicData>
+            <texPath>Canister/Canister_C</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,2)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A large tank that can store a range of liquids. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 48</description>
+        <researchPrerequisites>
+            <li>BiofuelRefining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Canister/Canister_C_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(3,2)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0.7</Beauty>
+            <MaxHitPoints>950</MaxHitPoints>
+            <WorkToBuild>3500</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Mass>120</Mass>
+        </statBases>
+        <costList>
+			<Steel>200</Steel>
+		</costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>8</maxItemsInCell>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

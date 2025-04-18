@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Trawler.label>Тральщик</VVE_Trawler.label>
+  <VVE_Trawler.description>Универсальная лодка, Тральщик - эффективное средство для долгих перевозок на открытых водах. Проявляет себя не очень хорошо на реках и должен двигаться медленно в зимний сезон.\n\nКак и другие транспортные средства 2-го уровня, у Траулера двойная эффективность топлива на карте мира, что делает его более эффективным, чем транспорт 1-го уровня. Они также менее заметны благодаря улучшенному производству.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1\n&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химтопливо</VVE_Trawler.description>
+  <VVE_Trawler.properties.roles.0.label>Водитель</VVE_Trawler.properties.roles.0.label>
+  <VVE_Trawler.properties.roles.1.label>Пассажир</VVE_Trawler.properties.roles.1.label>
+  <VVE_Trawler.components.0.label>Двигатель</VVE_Trawler.components.0.label>
+  <VVE_Trawler.components.1.label>Левая боковая панель</VVE_Trawler.components.1.label>
+  <VVE_Trawler.components.2.label>Правая боковая панель</VVE_Trawler.components.2.label>
+
+
+</LanguageData>

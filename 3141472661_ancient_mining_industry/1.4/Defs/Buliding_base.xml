@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Abstract="True" Name="BreadMoAM_AncientMiningBulidingBase" ParentName="BuildingBase">
+		<fillPercent>0.5</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<drawerType>MapMeshOnly</drawerType>
+		<repairEffect>ConstructMetal</repairEffect>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<statBases>
+			<Mass>15</Mass>
+			<MaxHitPoints>280</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>-20</Beauty>
+			<WorkToBuild>50000</WorkToBuild>
+		</statBases>
+		<building>
+			<claimable>true</claimable>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="BreadMoAM_AncientMiningFacilities" ParentName="BuildingBase">
+		<fillPercent>0.5</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<drawerType>MapMeshOnly</drawerType>
+		<repairEffect>ConstructMetal</repairEffect>
+		<passability>Impassable</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<Mass>150</Mass>
+			<MaxHitPoints>3000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>-20</Beauty>
+			<WorkToBuild>30000</WorkToBuild>
+		</statBases>
+		<building>
+			<deconstructible>false</deconstructible>
+			<claimable>true</claimable>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+	</ThingDef>
+
+	<ThingDef Abstract="True" Name="BreadMoAM_MiningFacilities" ParentName="BreadMoAM_AncientMiningFacilities">
+		<building>
+			<deconstructible>true</deconstructible>
+			<claimable>true</claimable>
+		</building>
+		<designationCategory>Production</designationCategory>
+	</ThingDef>
+</Defs>

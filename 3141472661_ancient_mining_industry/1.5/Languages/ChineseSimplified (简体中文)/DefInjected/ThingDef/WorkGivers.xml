@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient detection scanner -->
+  <BreadMo_AncientRemoteMineralScanners.label>远古探测扫描仪</BreadMo_AncientRemoteMineralScanners.label>
+  <!-- EN: An ancient detection scanner commonly used to scan minerals and assist in locating large underground equipment. Due to the loss of key technologies, Reproductions made by colonizers often made some errors during scanning. -->
+  <BreadMo_AncientRemoteMineralScanners.description>一种古老的探测扫描仪，通常用于扫描矿物并帮助定位大型地下设备。由于关键技术的丢失，殖民者建造的复制品在扫描过程中经常会出现一些错误。</BreadMo_AncientRemoteMineralScanners.description>
+  <!-- EN: Abandoned Uranium Mining Site -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.0.questTypeName>废弃铀矿</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.0.questTypeName>
+  <!-- EN: Abandoned Steel Mine Site -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.1.questTypeName>废弃铁矿</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.1.questTypeName>
+  <!-- EN: Abandoned Plasteel Mine Site -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.2.questTypeName>废弃玻璃钢矿</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.2.questTypeName>
+  <!-- EN: Ancient Open Pit Mining Site -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.3.questTypeName>露天矿场</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.3.questTypeName>
+  <!-- EN: Ancient Shield Mining Site -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.4.questTypeName>隧道矿场</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.4.questTypeName>
+  <!-- EN: Ancient Tunnel Ruins -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.5.questTypeName>隧道遗址</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.5.questTypeName>
+  <!-- EN: Mineral Screening Station -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.6.questTypeName>废弃选矿站</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.6.questTypeName>
+  <!-- EN: Abandoned Mine -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.7.questTypeName>废弃矿洞</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.quests.7.questTypeName>
+  <!-- EN: Unselected -->
+  <BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.unselectedString>随机扫描</BreadMo_AncientRemoteMineralScanners.comps.CompQuestScanner.unselectedString>
+  
+</LanguageData>

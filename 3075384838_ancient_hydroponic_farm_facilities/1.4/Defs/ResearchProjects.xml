@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ResearchProjectDef>
+    <defName>AncientHydroponicTechniques</defName>
+    <label>Ancient hydroponic techniques</label>
+    <description>Research on a hydroponic technique for using nutrient solution to ripen crops, including a pipeline system and two factory facilities.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Hydroponics</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  <researchViewX>12.00</researchViewX>
+  <researchViewY>2.80</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

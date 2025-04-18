@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef Name="AHF_HighValueItem" Abstract="True">
+        <thingClass>ThingWithComps</thingClass>
+        <category>Item</category>
+        <drawerType>MapMeshOnly</drawerType>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <useHitPoints>true</useHitPoints>
+        <selectable>true</selectable>
+        <altitudeLayer>Item</altitudeLayer>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <intricate>true</intricate>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <statBases>
+          <Flammability>0</Flammability>
+          <DeteriorationRate>2.0</DeteriorationRate>
+          <Beauty>0</Beauty>
+        </statBases>
+        <comps>
+          <li Class="CompProperties_Forbiddable"/>
+        </comps>
+        <alwaysHaulable>true</alwaysHaulable>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <rotatable>false</rotatable>
+        <pathCost>14</pathCost>
+		<tradeTags>
+        <li>ExoticMisc</li>
+        </tradeTags>
+		<stackLimit>5</stackLimit>
+        <allowedArchonexusCount>5</allowedArchonexusCount>
+    </ThingDef>
+	
+	<ThingDef ParentName="AHF_HighValueItem">
+        <defName>AHF_Map</defName>
+        <label>Farm marker map</label>
+        <description>An ancient map marked with farm locations, which will reveal the location of a farm after reading.</description>
+        <graphicData>
+          <texPath>Things/Map</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+          <MaxHitPoints>50</MaxHitPoints>
+          <MarketValue>300</MarketValue>
+          <Mass>0.4</Mass>
+        </statBases>
+		<tradeTags>
+        <li>AHF_Map</li>
+        </tradeTags>
+		<comps>
+        <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Read</useLabel>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+            <li Class="BreadMoAncientFarm.CompProperties_UseEffectGiveQuestRandom">
+                <quests>
+				<li>Explore_damaged_ancient_grain_farm_A</li>
+				<li>Explore_damaged_ancient_grain_farm_B</li>
+				<li>Ambuscade_damaged_ancient_cotton_farm</li>
+				<li>Ambuscade_damaged_ancient_devilstrand_cotton_farm</li>
+				<li>Ambuscade_discarded_nutrient_cream_factory</li>
+				<li>Ambuscade_discarded_nutrient_solution_factory</li>
+				<li>Ambuscade_Hidden_ancient_hydroponic_farm</li>
+				<li>Informant_Occupied_ancient_grain_farm</li>
+				<li>Informant_Occupied_ancient_cotton_farm</li>
+				<li>Informant_Occupied_devilstrand_cotton_farm</li>
+				</quests>
+            </li>
+    </comps>
+	<thingCategories>
+        <li>Manufactured</li>
+        </thingCategories>
+    </ThingDef>
+	
+
+
+</Defs>

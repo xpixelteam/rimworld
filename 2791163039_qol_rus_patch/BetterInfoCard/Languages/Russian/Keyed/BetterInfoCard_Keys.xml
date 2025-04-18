@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <coverage>покрытие</coverage>
+  <body_part>часть тела</body_part>
+   
+  <Collapsed_by_default>Сжатый по умолчанию</Collapsed_by_default>
+  <Focus_Search_by_default>При открытии инфо сфокусироваться на поле поиска</Focus_Search_by_default>
+  <Hide_Filtered_Stat>Скрывать отфильтрованные статы при поиске</Hide_Filtered_Stat>
+  <Open_Info_Card_Hotkey>Горячая клавиша: Открыть инфо</Open_Info_Card_Hotkey>
+  <Init_width>Начальная Ширина  </Init_width>
+  <Init_height>Начальная Высота   </Init_height>
+  <Reset>Сброс</Reset>
+  
+  <Greater_is_Better>Больше - Лучше</Greater_is_Better>
+  <Lesser_is_Better>Меньше - Лучше</Lesser_is_Better>
+  <Stats_Compare_Detail>Детали сравнения статистики:</Stats_Compare_Detail>
+
+</LanguageData>

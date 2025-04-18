@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[thingClass="Building_PlantGrower" and tickerType !="never" or thingClass="VFEF.Building_PlantGrower_NoEmptyLines"]/comps</xpath>
+	<match Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[thingClass="Building_PlantGrower" and tickerType !="never" or thingClass="VFEF.Building_PlantGrower_NoEmptyLines"]/comps</xpath>
+		<value>
+				<li Class="BreadMoAncientFarm.CompProperties_Fertilizer">
+					<pipeNet>BreadMo_NutrientNetwork</pipeNet>
+					<ticksPerCycle>2499</ticksPerCycle>
+					<FertilizerUsePerPlantPerCycle>0.0833333</FertilizerUsePerPlantPerCycle>
+				</li>
+		</value>
+	</match>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[thingClass="Building_PlantGrower" and tickerType !="never" or thingClass="VFEF.Building_PlantGrower_NoEmptyLines"]</xpath>
+		<value>
+			<comps>
+				<li Class="BreadMoAncientFarm.CompProperties_Fertilizer">
+					<pipeNet>BreadMo_NutrientNetwork</pipeNet>
+					<ticksPerCycle>2499</ticksPerCycle>
+					<FertilizerUsePerPlantPerCycle>0.0833333</FertilizerUsePerPlantPerCycle>
+				</li>
+			</comps>
+		</value>
+	</nomatch>
+</Operation>
+
+</Patch>

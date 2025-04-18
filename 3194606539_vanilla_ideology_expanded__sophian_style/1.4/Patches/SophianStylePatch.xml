@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/StyleCategoryDef[defName = "VIES_Sophian"]/thingDefStyles</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/StyleCategoryDef[defName = "VIES_Sophian"]/thingDefStyles</xpath>
+						<value>
+							<li>
+								<thingDef>VWE_Gun_ChargePistol</thingDef>
+								<styleDef>VIES_Sophian_ChargePistol</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_ChargeShotgun</thingDef>
+								<styleDef>VIES_Sophian_ChargeShotgun</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_ChargeSMG</thingDef>
+								<styleDef>VIES_Sophian_ChargeSMG</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_ChargeLMG</thingDef>
+								<styleDef>VIES_Sophian_ChargeLMG</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_ChargeSniperRifle</thingDef>
+								<styleDef>VIES_Sophian_ChargeSniperRifle</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_ChargeMinigun</thingDef>
+								<styleDef>VIES_Sophian_ChargeMinigun</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_AntiMaterialRifle</thingDef>
+								<styleDef>VIES_Sophian_AntiMaterialRifle</styleDef>
+							</li>
+							
+							<li>
+								<thingDef>VWE_Bow_Long</thingDef>
+								<styleDef>VIES_Sophian_LongBow</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_HandCannon</thingDef>
+								<styleDef>VIES_Sophian_HandCannon</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_CombatHandgun</thingDef>
+								<styleDef>VIES_Sophian_CombatHandgun</styleDef>
+							</li>
+							
+							<li>
+								<thingDef>VWE_Gun_BattleRifle</thingDef>
+								<styleDef>VIES_Sophian_BattleRifle</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_Carbine</thingDef>
+								<styleDef>VIES_Sophian_CarbineVWE</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Bow_Crossbow</thingDef>
+								<styleDef>VIES_Sophian_Crossbow</styleDef>
+							</li>
+							
+							<li>
+								<thingDef>VWE_Gun_HMG</thingDef>
+								<styleDef>VIES_Sophian_HMG</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_SawedOffShotgun</thingDef>
+								<styleDef>VIES_Sophian_SawedOffShotgun</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_SemiAutomaticRifle</thingDef>
+								<styleDef>VIES_Sophian_SemiAutomaticRifle</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_LeverActionRifle</thingDef>
+								<styleDef>VIES_Sophian_LeverActionRifle</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_LightSMG</thingDef>
+								<styleDef>VIES_Sophian_LightSMG</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_SMG</thingDef>
+								<styleDef>VIES_Sophian_SMG</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_ServiceRifle</thingDef>
+								<styleDef>VIES_Sophian_ServiceRifle</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_Gun_MarksmanRifle</thingDef>
+								<styleDef>VIES_Sophian_MarksmanRifle</styleDef>
+							</li>
+							
+							<li>
+								<thingDef>VWE_MeleeWeapon_Hammer</thingDef>
+								<styleDef>VIES_Sophian_HammerVWE</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_MeleeWeapon_BattleAxe</thingDef>
+								<styleDef>VIES_Sophian_BattleAxe</styleDef>
+							</li>
+							<li>
+								<thingDef>VWE_MeleeWeapon_Halberd</thingDef>
+								<styleDef>VIES_Sophian_Halberd</styleDef>
+							</li>
+							
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/StyleCategoryDef[defName = "VIES_Sophian"]/thingDefStyles</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/StyleCategoryDef[defName = "VIES_Sophian"]/thingDefStyles</xpath>
+						<value>
+							<li>
+								<thingDef>Table_LightEndTable</thingDef>
+								<styleDef>VIES_Sophian_LightEndTable</styleDef>
+							</li>
+							<li>
+								<thingDef>Table_1x1c</thingDef>
+								<styleDef>VIES_Sophian_Table1x1c</styleDef>
+							</li>
+							<li>
+								<thingDef>Table_Wardrobe</thingDef>
+								<styleDef>VIES_Sophian_Wardrobe</styleDef>
+							</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Farming</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/StyleCategoryDef[defName = "VIES_Sophian"]/thingDefStyles</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/StyleCategoryDef[defName = "VIES_Sophian"]/thingDefStyles</xpath>
+						<value>
+							<li>
+								<thingDef>VFE_Scarecrow</thingDef>
+								<styleDef>VIES_Sophian_Scarecrow</styleDef>
+							</li>
+						
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

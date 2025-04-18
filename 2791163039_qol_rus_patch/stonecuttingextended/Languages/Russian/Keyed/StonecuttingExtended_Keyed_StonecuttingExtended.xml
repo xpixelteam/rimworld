@@ -1,0 +1,13 @@
+<LanguageData>
+
+  <SCE_UsedSkill_Label>Используемый навык</SCE_UsedSkill_Label>
+  <SCE_UsedSkill_Description>Навык, используемый для нарезки кусков на каменные блоки.</SCE_UsedSkill_Description>
+
+  <SCE_WorkingAndLearningSpeed_Label>Скорость работы и обучения</SCE_WorkingAndLearningSpeed_Label>
+  <SCE_WorkingAndLearningSpeed_Description>Установите множители для скорости работы и обучения.</SCE_WorkingAndLearningSpeed_Description>
+
+  <SCE_WorkAmountMultiplier>Множитель объема работы</SCE_WorkAmountMultiplier>
+  <SCE_BulkWorkAmountMultiplier>Множитель объема работы для х3 блоков</SCE_BulkWorkAmountMultiplier>
+  <SCE_SkillLearnFactor>Фактор обучения навыкам</SCE_SkillLearnFactor>
+  
+</LanguageData>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>CrateB</defName>
+        <label>Crate B</label>
+        <graphicData>
+            <texPath>Crate/Crate_B</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2.5,2.5)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A tall wooden crate that can store a range of items. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 12\n\nRotate to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Crate/Crate_B_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(1,1)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0.7</Beauty>
+            <MaxHitPoints>60</MaxHitPoints>
+            <WorkToBuild>1084</WorkToBuild>
+            <Flammability>1</Flammability>
+            <Mass>20</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>50</costStuffCount>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>12</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Root</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <paintable>true</paintable>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

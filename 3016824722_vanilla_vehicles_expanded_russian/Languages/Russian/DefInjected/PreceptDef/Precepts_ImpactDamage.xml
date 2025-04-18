@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_ImpactDamage_High.label>высокое</VVE_ImpactDamage_High.label>
+	<VVE_ImpactDamage_High.description>По нашим убеждениям, сила транспортного средства проявляется в его внушительном ударе.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n- Урон, наносимый при сбивании людей, увеличивается в дополнительные 1,25 раза.</VVE_ImpactDamage_High.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient Automatic Drilling Rig -->
+  <BreadMoAM_AncientAutomaticDrillingRig.label>古代自动钻井</BreadMoAM_AncientAutomaticDrillingRig.label>
+  <!-- EN: The remains of what was an automatical drill desingned for automatic ore extraction, once supported by a multitude of infrastructures. Missing most supporting infrastructures, and, most critically, its core components, it wouldn't function as of now. Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientAutomaticDrillingRig.description>一个古老的自动钻井系统。最初，这个钻井系统有许多配套设施，但现在都不见了。这台钻机的核心部件已经丢失，也许摧毁它可以回收一些有用的材料。</BreadMoAM_AncientAutomaticDrillingRig.description>
+  
+</LanguageData>

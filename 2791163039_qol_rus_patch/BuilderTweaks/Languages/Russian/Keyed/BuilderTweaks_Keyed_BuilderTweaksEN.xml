@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- EN: Enable cancel dragging with right click -->
+	<BT_enableCancelDragging_title>Отмена перетаскиванием с ПКМ</BT_enableCancelDragging_title>
+	<!-- EN: Drag with right click to cancel building designation. -->
+	<BT_enableCancelDragging_desc>Перетаскивание с зажатой правой кнопкой мыши, чтобы отменить чертеж.</BT_enableCancelDragging_desc>
+
+	<!-- EN: Only cancel same kind -->
+	<BT_cancelOnlySameKind_title>Отменять только один и тот же тип</BT_cancelOnlySameKind_title>
+	<!-- EN: When cancel dragging, only cancel the same kind of currently selected building designation. -->
+	<BT_cancelOnlySameKind_desc>При отмене перетаскиванием отменяется только тот же тип чертежа, что и выбран в данный момент.</BT_cancelOnlySameKind_desc>
+
+	<!-- EN: Enable continuous designating with left click -->
+	<BT_enableContinuousDesignating_title>Неперывное размещение с ЛКМ</BT_enableContinuousDesignating_title>
+	<!-- EN: Drag with left click to continuously place designation. -->
+	<BT_enableContinuousDesignating_desc>Перетаскивание с зажатой ЛКМ для непрерывного размещения зданий.</BT_enableContinuousDesignating_desc>
+
+	<!-- EN: Enable middle click -->
+	<BT_enableMiddleClick_title>Выбор назначения с СКМ</BT_enableMiddleClick_title>
+	<!-- EN: Middle click to select designator of the building below. -->
+	<BT_enableMiddleClick_desc>Нажатие на колесо мыши чтобы выбрать здание для постройки.</BT_enableMiddleClick_desc>
+</LanguageData>

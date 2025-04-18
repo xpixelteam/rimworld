@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Command buttons -->
+  <HaulExplicitly.SetUnhaulableLabel>Не переносить</HaulExplicitly.SetUnhaulableLabel>
+  <HaulExplicitly.SetUnhaulableDesc>Ваши колонисты оставят этот предмет там, где он есть, - если только он не понадобится в ближайшее время, или вы явно создадите задание, чтобы доставить его куда-нибудь</HaulExplicitly.SetUnhaulableDesc>
+  <HaulExplicitly.SetHaulableLabel>Унести</HaulExplicitly.SetHaulableLabel>
+  <HaulExplicitly.SetHaulableDesc>Ваши колонисты свободно доставят этот предмет в любой подходящий склад</HaulExplicitly.SetHaulableDesc>
+  <HaulExplicitly.HaulExplicitlyLabel>Перенести к</HaulExplicitly.HaulExplicitlyLabel>
+  <HaulExplicitly.HaulExplicitlyDesc>Укажите конкретное место, куда будет доставлен товар. Оттуда его не будут переносить до тех пор, пока вы снова не разрешите переносить</HaulExplicitly.HaulExplicitlyDesc>
+  <HaulExplicitly.CancelHaulExplicitlyLabel>Отменить перенос</HaulExplicitly.CancelHaulExplicitlyLabel>
+  <HaulExplicitly.CancelHaulExplicitlyDesc>Товар не перенесут в указанное вами ранее место назначения</HaulExplicitly.CancelHaulExplicitlyDesc>
+  <HaulExplicitly.SelectAllHaulExplicitlyLabel>Перенести туда же</HaulExplicitly.SelectAllHaulExplicitlyLabel>
+  <HaulExplicitly.SelectAllHaulExplicitlyDesc>Выберете каждый предмет который необходимо перенести туда же</HaulExplicitly.SelectAllHaulExplicitlyDesc>
+  <HaulExplicitly.RetainingZoneLabel>Удерживать пердметы</HaulExplicitly.RetainingZoneLabel>
+  <HaulExplicitly.RetainingZoneDesc>Предметы из этого склада будут оставаться здесь до тех пор, пока не будут использованы, или не будут перемещены в другой склад</HaulExplicitly.RetainingZoneDesc>
+  <!-- Other -->
+  <HaulExplicitly.InventoryLabel>Предметы для переноса</HaulExplicitly.InventoryLabel>
+  <HaulExplicitly.ItemHaulSetQuantity>Перенести {{0}}x {ITEMTYPE}</HaulExplicitly.ItemHaulSetQuantity>
+</LanguageData>

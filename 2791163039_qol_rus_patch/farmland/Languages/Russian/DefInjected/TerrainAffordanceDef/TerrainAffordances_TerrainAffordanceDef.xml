@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/TerrainDefs/TerrainAffordances.xml-->
+           <!-- Soil Only -->
+<Tillable.label>Только почва</Tillable.label>
+          <!-- Rich Soil Only -->
+<Fertile.label>Только богатая почва</Fertile.label>
+          <!-- Dry Soil Only -->
+<DrySoil.label>Только засушливая почва</DrySoil.label>
+
+</LanguageData>

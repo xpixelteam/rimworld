@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Badger_MainTurret</defName>
+		<label>anti-infantry shell</label>
+		
+		<thingClass>Projectile_Explosive</thingClass>
+		
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<speed>96</speed>
+			<explosionRadius>1.9</explosionRadius>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_Rocket</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+	
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>Badger_MainTurret</defName>
+		<label>badger chain gun</label>
+		<description>A powerful turret mounted on a Badger Infantry Fighting Vehicle. Its explosive shots deal significant damage to enemy infantry, but it’s low armor-piercing makes it subpar against armored targets, and it uses up a lot of ammo.</description>
+		<turretType>Rotatable</turretType>
+		<shotSound>VVE_IFVCannonSound</shotSound>
+		<reloadSound>VVE_IFVCannonReload</reloadSound>
+		
+		<projectile>Bullet_Badger_MainTurret</projectile>
+		<reloadTimer>4.4</reloadTimer>
+		<warmUpTimer>3.2</warmUpTimer>
+		
+		<magazineCapacity>150</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<hitFlags>IntendedTarget</hitFlags>
+		
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>2.6</rotationSpeed>
+		
+		<projectileOffset>2.25</projectileOffset>
+		
+		<minRange>2.9</minRange>
+		<maxRange>29.9</maxRange>
+		
+		<recoil>
+			<distanceTotal>0.15</distanceTotal>
+			<distancePerTick>0.05</distancePerTick>
+			<speedMultiplierPostRecoil>0.1</speedMultiplierPostRecoil>
+		</recoil>
+		
+		<attachProjectileFlag>VVE_Tank</attachProjectileFlag>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenShots>120</ticksBetweenShots>
+				<ticksBetweenBursts>120</ticksBetweenBursts>
+				<spreadRadius>0.9</spreadRadius>
+				<label>Single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>5</shotsPerBurst>
+				<ticksBetweenShots>16</ticksBetweenShots>
+				<ticksBetweenBursts>120</ticksBetweenBursts>
+				<spreadRadius>2.9</spreadRadius>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_IFV/Tier3_IFV_CannonTop</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(4, 4)</drawSize>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+</Defs>

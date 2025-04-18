@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE04C8B0-931E-4548-B198-E9EA34A757F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MVCF</RootNamespace>
+    <AssemblyName>MVCF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\1.5\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\1.2\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\CommandPart.cs" />
+    <Compile Include="Commands\Command_VerbTargetExtended.cs" />
+    <Compile Include="Comps\AdditionalVerbProps.cs" />
+    <Compile Include="Comps\CompRandomVerbs.cs" />
+    <Compile Include="Comps\CompVerbsFromInventory.cs" />
+    <Compile Include="Comps\HediffComp_ExtendedVerbGiver.cs" />
+    <Compile Include="Comps\Properties.cs" />
+    <Compile Include="DebugActionsMVCF.cs" />
+    <Compile Include="Features\Feature.cs" />
+    <Compile Include="Features\Feature_ApparelVerbs.cs" />
+    <Compile Include="Features\Feature_Drawing.cs" />
+    <Compile Include="Features\Feature_ExtraEquipmentVerbs.cs" />
+    <Compile Include="Features\Feature_HediffVerb.cs" />
+    <Compile Include="Features\Feature_Humanoid.cs" />
+    <Compile Include="Features\Feature_IndependentVerbs.cs" />
+    <Compile Include="Features\Feature_IntegratedToggle.cs" />
+    <Compile Include="Features\Feature_InventoryVerbs.cs" />
+    <Compile Include="Features\Feature_MeleeVerbs.cs" />
+    <Compile Include="Features\Feature_MultiVerb.cs" />
+    <Compile Include="Features\Feature_RangedAnimals.cs" />
+    <Compile Include="Features\Feature_Reloading.cs" />
+    <Compile Include="Features\Feature_VerbComps.cs" />
+    <Compile Include="PatchSets\PatchSet_Animals.cs" />
+    <Compile Include="PatchSets\PatchSet_InfoCard.cs" />
+    <Compile Include="PatchSets\PatchSet_Melee.cs" />
+    <Compile Include="PatchSets\PatchSet_Stats.cs" />
+    <Compile Include="PatchSets\Trackers\PatchSet_Apparel.cs" />
+    <Compile Include="PatchSets\PatchSet_Base.cs" />
+    <Compile Include="PatchSets\PatchSet_Drawing.cs" />
+    <Compile Include="PatchSets\PatchSet_ExtraEquipment.cs" />
+    <Compile Include="PatchSets\Trackers\PatchSet_Hediffs.cs" />
+    <Compile Include="PatchSets\PatchSet_HumanoidGizmos.cs" />
+    <Compile Include="PatchSets\PatchSet_IndependentVerbs.cs" />
+    <Compile Include="PatchSets\PatchSet_IntegratedToggle.cs" />
+    <Compile Include="PatchSets\Trackers\PatchSet_Inventory.cs" />
+    <Compile Include="PatchSets\PatchSet_PreferMelee.cs" />
+    <Compile Include="PatchSets\PatchSet_MultiVerb.cs" />
+    <Compile Include="PatchSets\PatchSet_Brawlers.cs" />
+    <Compile Include="PatchSets\PatchSet_Debug.cs" />
+    <Compile Include="PatchSets\PatchSet_DualWield.cs" />
+    <Compile Include="PatchSets\Trackers\PatchSet_Equipment.cs" />
+    <Compile Include="PatchSets\PatchSet_Reloading.cs" />
+    <Compile Include="PatchSets\PatchSet_TargetFinder.cs" />
+    <Compile Include="ModCompat\DualWieldCompat.cs" />
+    <Compile Include="PatchSets\PatchSet_RunAndGun.cs" />
+    <Compile Include="PatchSets\PatchSet_Hunting.cs" />
+    <Compile Include="PatchSets\PatchSet_BatteLog.cs" />
+    <Compile Include="JobGiver_ManhunterRanged.cs" />
+    <Compile Include="ManagedVerb.cs" />
+    <Compile Include="PatchSets\PatchSet_VerbComps.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reloading\Comps\CompChangeableAmmo.cs" />
+    <Compile Include="Reloading\Comps\CompReloadable.cs" />
+    <Compile Include="Reloading\Comps\HediffComp_ChangeableAmmo.cs" />
+    <Compile Include="Reloading\Comps\HediffComp_Reloadable.cs" />
+    <Compile Include="Reloading\Comps\VerbComp_Reloadable_ChangeableAmmo.cs" />
+    <Compile Include="Reloading\Jobs\JobDriver_Reload.cs" />
+    <Compile Include="Reloading\Jobs\JobDriver_ReloadFromInventory.cs" />
+    <Compile Include="Reloading\Jobs\JobDriver_Unload.cs" />
+    <Compile Include="Reloading\Jobs\JobGiver_Reload.cs" />
+    <Compile Include="Reloading\Jobs\JobGiver_ReloadFromInventory.cs" />
+    <Compile Include="Reloading\Jobs\JobGiver_SwitchWeapon.cs" />
+    <Compile Include="Reloading\ReloadingDefOf.cs" />
+    <Compile Include="Utilities\DebugUtility.cs" />
+    <Compile Include="Utilities\DrawUtility.cs" />
+    <Compile Include="Utilities\FloatMenuUtility.cs" />
+    <Compile Include="Utilities\ManagedVerbUtility.cs" />
+    <Compile Include="Utilities\MeleeVerbUtility.cs" />
+    <Compile Include="Utilities\PatchUtility.cs" />
+    <Compile Include="Utilities\ReloadingUtility.cs" />
+    <Compile Include="Utilities\TargetFinder.cs" />
+    <Compile Include="Utilities\VerbCompsUtility.cs" />
+    <Compile Include="Utilities\VerbManagerUtility.cs" />
+    <Compile Include="Utilities\VerbStatsUtility.cs" />
+    <Compile Include="VerbComps\VerbComp.cs" />
+    <Compile Include="VerbComps\VerbCompProperties.cs" />
+    <Compile Include="Reloading\Comps\VerbComp_Reloadable.cs" />
+    <Compile Include="VerbComps\VerbComp_Cooldown.cs" />
+    <Compile Include="VerbComps\VerbComp_Draw.cs" />
+    <Compile Include="VerbComps\VerbComp_ForceUse.cs" />
+    <Compile Include="VerbComps\VerbComp_Switch.cs" />
+    <Compile Include="VerbComps\VerbComp_TargetEffect.cs" />
+    <Compile Include="VerbComps\VerbComp_Turret.cs" />
+    <Compile Include="VerbManager.cs" />
+    <Compile Include="Verbs\Verb_SmokePop.cs" />
+    <Compile Include="VerbWithComps.cs" />
+    <Compile Include="WorldComponent_MVCF.cs" />
+    <Compile Include="MVCF.cs" />
+    <Compile Include="Commands\Command_ToggleVerbUsage.cs" />
+    <Compile Include="Utilities\PawnVerbGizmoUtility.cs" />
+    <Compile Include="Utilities\PawnVerbUtility.cs" />
+    <Compile Include="Comps\Comp_VerbGiver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Zetrith.Prepatcher">
+      <Version>1.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

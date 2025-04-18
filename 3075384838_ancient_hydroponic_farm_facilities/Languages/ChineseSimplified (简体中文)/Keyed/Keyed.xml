@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- EN: Ancient Hydroponics -->
+  <BMAF_Setting>古代水培</BMAF_Setting>
+	<!-- EN: Fertilizer efficiency:  -->
+  <BM_FertilizerEfficiency>营养液效率: </BM_FertilizerEfficiency>
+	<!-- EN: Approx. nutrient solution use per plant per day:  -->
+  <BM_ApproxNutrientUse>预估营养液使用速率，每株植物每天: </BM_ApproxNutrientUse>
+</LanguageData>

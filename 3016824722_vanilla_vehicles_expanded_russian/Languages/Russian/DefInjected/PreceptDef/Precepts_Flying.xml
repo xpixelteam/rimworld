@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_Flying_Forbidden.label>запрещено</VVE_Flying_Forbidden.label>
+	<VVE_Flying_Forbidden.description>Взмывать в небеса - это оскорбление наших традиций и убеждений.</VVE_Flying_Forbidden.description>
+
+	<VVE_Flying_Horrible.label>ужасно</VVE_Flying_Horrible.label>
+	<VVE_Flying_Horrible.description>Мы верим, что поднятие в воздух нарушает естественное равновесие.</VVE_Flying_Horrible.description>
+	<VVE_Flying_Horrible.comps.0.description>Путешествовал на воздушном транспорте</VVE_Flying_Horrible.comps.0.description>
+
+	<VVE_Flying_Allowed.label>разрешено</VVE_Flying_Allowed.label>
+	<VVE_Flying_Allowed.description>Небеса открыты для нас, как и должно быть для всех, кто желает их пересечь.</VVE_Flying_Allowed.description>
+
+	<VVE_Flying_Approved.label>одобрено</VVE_Flying_Approved.label>
+	<VVE_Flying_Approved.description>Мы считаем, что полеты приближают нас к божественному.</VVE_Flying_Approved.description>
+	<VVE_Flying_Approved.comps.0.description>Путешествовал на воздушном транспорте</VVE_Flying_Approved.comps.0.description>
+
+	<VVE_Flying_Required.label>обязательно</VVE_Flying_Required.label>
+	<VVE_Flying_Required.description>Чистота духа находится среди облаков; нужно периодически ощущать свободу полета.</VVE_Flying_Required.description>
+	<VVE_Flying_Required.comps.1.thoughtStageDescriptions.0>Страсть к полётам (1 день без полетов)</VVE_Flying_Required.comps.1.thoughtStageDescriptions.0>
+	<VVE_Flying_Required.comps.1.thoughtStageDescriptions.1>Страсть к полётам (5 дней без полетов)</VVE_Flying_Required.comps.1.thoughtStageDescriptions.1>
+	<VVE_Flying_Required.comps.1.thoughtStageDescriptions.2>Страсть к полётам (10 дней без полетов)</VVE_Flying_Required.comps.1.thoughtStageDescriptions.2>
+	<VVE_Flying_Required.comps.1.thoughtStageDescriptions.3>Страсть к полётам (20 дней без полетов)</VVE_Flying_Required.comps.1.thoughtStageDescriptions.3>
+</LanguageData>

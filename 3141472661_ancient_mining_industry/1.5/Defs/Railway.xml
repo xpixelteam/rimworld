@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BreadMoAM_Rail</defName>
+		<label>Rail</label>
+		<description>Common, rather rusty railway track.</description>
+    	<thingClass>Building</thingClass>
+    	<category>Building</category>
+    	<graphicData>
+      		<texPath>Things/Building/Railway/Rail_Altlas</texPath>
+      		<graphicClass>Graphic_Single</graphicClass>
+      		<damageData>
+       		<rect>(0,0.35,1,0.3)</rect>
+      		</damageData>
+            <linkType>Transmitter</linkType>
+            <linkFlags>
+              <li>PowerConduit</li>
+            </linkFlags>
+    	</graphicData>
+		<uiIconPath>Things/Building/Railway/Rail_UI</uiIconPath>
+    	<altitudeLayer>SmallWire</altitudeLayer>
+    	<passability>Standable</passability>
+    	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    	<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    	<statBases>
+      		<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+    	<placingDraggableDimensions>1</placingDraggableDimensions>
+    	<costList>
+    	  <Steel>8</Steel>
+    	</costList>
+    	<rotatable>false</rotatable>
+    	<selectable>true</selectable>
+    	<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+				<designationCategory>Misc</designationCategory>
+  	</ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+		<defName>BreadMoAM_Crosstie</defName>
+		<label>Crosstie</label>
+		<description>A rail road crosstie placed under the railroad tracks.</description>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Railway/Crosstie</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+        <altitudeLayer>FloorCoverings</altitudeLayer>
+		<size>(3,1)</size>
+		<statBases>
+			<Mass>600</Mass>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+		</killedLeavings>
+        <clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>	
+				<designationCategory>Misc</designationCategory>
+	</ThingDef>
+</Defs>

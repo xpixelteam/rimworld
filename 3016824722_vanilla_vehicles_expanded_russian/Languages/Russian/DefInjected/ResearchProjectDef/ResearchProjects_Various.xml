@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_BasicVehicles.label>основные транспортные средства</VVE_BasicVehicles.label>
+  <VVE_BasicVehicles.description>Изучите создание базовых, неэффективных транспортных средств, от багги до одноместных танков.</VVE_BasicVehicles.description>
+  <VVE_BasicVehicles.generalRules.rulesStrings.0>subject-&gt;первый транспорт</VVE_BasicVehicles.generalRules.rulesStrings.0>
+  <VVE_BasicVehicles.generalRules.rulesStrings.1>subject_story-&gt;начали создавать простые транспортные средства, такие как багги и одноместные танки</VVE_BasicVehicles.generalRules.rulesStrings.1>
+  <VVE_BasicVehicles.generalRules.rulesStrings.2>subject_story-&gt;изменили, то как далеко мы можем пойти и что мы можем теперь перевозить</VVE_BasicVehicles.generalRules.rulesStrings.2>
+  <VVE_BasicVehicles.generalRules.rulesStrings.3>subject_story-&gt;сделали передвижение быстрее, чем когда-либо прежде</VVE_BasicVehicles.generalRules.rulesStrings.3>
+  <VVE_BasicVehicles.generalRules.rulesStrings.4>subject_gerund-&gt;изобретая новые способы передвижения</VVE_BasicVehicles.generalRules.rulesStrings.4>
+
+  <VVE_ComplexVehicles.label>сложные транспортные средства</VVE_ComplexVehicles.label>
+  <VVE_ComplexVehicles.description>Изучите создание сложных транспортных средств, таких как фургоны, скоростные вездеходы и похитители, используя компоненты, которые легко изготовить.</VVE_ComplexVehicles.description>
+  <VVE_ComplexVehicles.generalRules.rulesStrings.0>subject-&gt;улучшенный транспорт</VVE_ComplexVehicles.generalRules.rulesStrings.0>
+  <VVE_ComplexVehicles.generalRules.rulesStrings.1>subject_story-&gt;построили более сложные транспортные средства, такие как фургоны и быстрые автомобили</VVE_ComplexVehicles.generalRules.rulesStrings.1>
+  <VVE_ComplexVehicles.generalRules.rulesStrings.2>subject_story-&gt;сделали проще перемещать вещи и людей на большие расстояния</VVE_ComplexVehicles.generalRules.rulesStrings.2>
+  <VVE_ComplexVehicles.generalRules.rulesStrings.3>subject_story-&gt;транспорт стал более полезным и универсальным</VVE_ComplexVehicles.generalRules.rulesStrings.3>
+  <VVE_ComplexVehicles.generalRules.rulesStrings.4>subject_gerund-&gt;совершенствуя наши средства передвижения</VVE_ComplexVehicles.generalRules.rulesStrings.4>
+
+  <VVE_AerialVehicles.label>воздушные транспортные средства</VVE_AerialVehicles.label>
+  <VVE_AerialVehicles.description>Изучите создание транспортных средств, способных передвигаться над землей, таких как вертолет москит и грузовой самолет контрабандиста.</VVE_AerialVehicles.description>
+  <VVE_AerialVehicles.generalRules.rulesStrings.0>subject-&gt;летательные машины</VVE_AerialVehicles.generalRules.rulesStrings.0>
+  <VVE_AerialVehicles.generalRules.rulesStrings.1>subject_story-&gt;создали вертолеты и грузовые самолеты для преодоления препятствий</VVE_AerialVehicles.generalRules.rulesStrings.1>
+  <VVE_AerialVehicles.generalRules.rulesStrings.2>subject_story-&gt;открыли новые способы исследований и торговли</VVE_AerialVehicles.generalRules.rulesStrings.2>
+  <VVE_AerialVehicles.generalRules.rulesStrings.3>subject_story-&gt;сделали воздушное путешествие возможным, изменив наше видение мира</VVE_AerialVehicles.generalRules.rulesStrings.3>
+  <VVE_AerialVehicles.generalRules.rulesStrings.4>subject_gerund-&gt;поднимаясь в небо</VVE_AerialVehicles.generalRules.rulesStrings.4>
+
+  <VVE_CombatVehicles.label>боевые транспортные средства</VVE_CombatVehicles.label>
+  <VVE_CombatVehicles.description>Изучите создание сложных боевых транспортных средств, таких как боевые танки "Бульдог", бронированные транспортёры "Танго" и боевые самолеты "Боевая птица".</VVE_CombatVehicles.description>
+  <VVE_CombatVehicles.generalRules.rulesStrings.0>subject-&gt;боевые машины</VVE_CombatVehicles.generalRules.rulesStrings.0>
+  <VVE_CombatVehicles.generalRules.rulesStrings.1>subject_story-&gt;создали мощные боевые транспортные средства, такие как танки и бронированные самолеты</VVE_CombatVehicles.generalRules.rulesStrings.1>
+  <VVE_CombatVehicles.generalRules.rulesStrings.2>subject_story-&gt;транспорт теперь помогает нам сражаться и защищаться в войнах</VVE_CombatVehicles.generalRules.rulesStrings.2>
+  <VVE_CombatVehicles.generalRules.rulesStrings.3>subject_story-&gt;изменили способы ведения боев с помощью этих новых машин</VVE_CombatVehicles.generalRules.rulesStrings.3>
+  <VVE_CombatVehicles.generalRules.rulesStrings.4>subject_gerund-&gt;строя для битвы</VVE_CombatVehicles.generalRules.rulesStrings.4>
+
+
+</LanguageData>

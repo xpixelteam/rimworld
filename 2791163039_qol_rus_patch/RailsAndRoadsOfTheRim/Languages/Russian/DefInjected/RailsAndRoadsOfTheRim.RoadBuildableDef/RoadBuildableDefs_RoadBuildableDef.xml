@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\RoadBuildableDefs\RoadBuildableDefs.xml-->
+	<!--                      EN: Dirt path -->
+	<RoadsOfTheRim_DirtPath.label>Грунтовая тропа</RoadsOfTheRim_DirtPath.label>
+	
+	<!--                      EN: Dirt road -->
+	<RoadsoftheRim_DirtRoad.label>Грунтовая дорога</RoadsoftheRim_DirtRoad.label>
+	<!--                       EN: Stone road -->
+	<RoadsoftheRim_StoneRoad.label>Каменная дорога</RoadsoftheRim_StoneRoad.label>
+	<!--                         EN: Asphalt road -->
+	<RoadsoftheRim_AsphaltRoad.label>Асфальтированная дорога</RoadsoftheRim_AsphaltRoad.label>
+</LanguageData>

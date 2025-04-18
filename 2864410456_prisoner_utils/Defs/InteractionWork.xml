@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>kathanon-PrisonerUtil-ConvertThenRecruit</defName>
+    <label>convert prisoners</label>
+    <giverClass>PrisonerUtil.WorkGiver_Warden_ConvertThenRecruit</giverClass>
+    <workType>Warden</workType>
+    <verb>convert</verb>
+    <gerund>converting</gerund>
+    <priorityInType>72</priorityInType>
+    <requiredCapacities>
+      <li>Talking</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>kathanon-PrisonerUtil-RecruitAfterConverting</defName>
+    <label>chat with prisoners</label>
+    <giverClass>PrisonerUtil.WorkGiver_Warden_RecruitAfterConverting</giverClass>
+    <workType>Warden</workType>
+    <verb>chat with</verb>
+    <gerund>chatting with</gerund>
+    <priorityInType>60</priorityInType>
+    <requiredCapacities>
+      <li>Talking</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>

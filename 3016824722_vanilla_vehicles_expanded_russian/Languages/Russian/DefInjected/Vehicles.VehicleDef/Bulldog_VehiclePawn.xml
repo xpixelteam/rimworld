@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Bulldog.label>Бульдог</VVE_Bulldog.label>
+  <VVE_Bulldog.description>Основной боевой танк, Бульдог - это улучшенное боевое транспортное средство, которое хорошо себя показывает в любом бою. Выполняет лучше на менее благоприятной местности со всеми сторонами бронированного, самая тонкая бронировка находится сзади у мотора.\n\nВ отличие от других транспортных средств 2-го уровня, это имеет обычную эффективность топливопотребления и довольно заметно, что всё же улучшение по сравнению с танками 1-го уровня.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x1\n&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химтопливо</VVE_Bulldog.description>
+  <VVE_Bulldog.properties.roles.0.label>Водитель</VVE_Bulldog.properties.roles.0.label>
+  <VVE_Bulldog.properties.roles.1.label>Стрелок</VVE_Bulldog.properties.roles.1.label>
+  <VVE_Bulldog.components.0.label>Двигатель</VVE_Bulldog.components.0.label>
+  <VVE_Bulldog.components.1.label>Левая гусеница</VVE_Bulldog.components.1.label>
+  <VVE_Bulldog.components.2.label>Правая гусеница</VVE_Bulldog.components.2.label>
+  <VVE_Bulldog.components.3.label>Передний левый приводной звездочки</VVE_Bulldog.components.3.label>
+  <VVE_Bulldog.components.4.label>Передний правый приводной звездочки</VVE_Bulldog.components.4.label>
+  <VVE_Bulldog.components.5.label>Задний левый приводной звездочки</VVE_Bulldog.components.5.label>
+  <VVE_Bulldog.components.6.label>Задний правый приводной звездочки</VVE_Bulldog.components.6.label>
+  <VVE_Bulldog.components.7.label>Коробка передач</VVE_Bulldog.components.7.label>
+  <VVE_Bulldog.components.8.label>Пластина бронирования спереди</VVE_Bulldog.components.8.label>
+  <VVE_Bulldog.components.9.label>Пластина бронирования слева</VVE_Bulldog.components.9.label>
+  <VVE_Bulldog.components.10.label>Пластина бронирования справа</VVE_Bulldog.components.10.label>
+  <VVE_Bulldog.components.11.label>Пластина бронирования сзади</VVE_Bulldog.components.11.label>
+  <VVE_Bulldog.components.12.label>Химрезервуар</VVE_Bulldog.components.12.label>
+  <VVE_Bulldog.components.13.label>Приборная панель</VVE_Bulldog.components.13.label>
+  <VVE_Bulldog.components.14.label>Управляющий аппарат</VVE_Bulldog.components.14.label>
+  <VVE_Bulldog.components.15.label>Генератор</VVE_Bulldog.components.15.label>
+  <VVE_Bulldog.components.16.label>Крыша</VVE_Bulldog.components.16.label>
+
+
+</LanguageData>

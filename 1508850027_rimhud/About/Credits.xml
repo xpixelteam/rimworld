@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Credits>
+  <Group Label="DIAMOND Patreons"
+         Special="0"
+         Color="00FFFF"
+         Format="&lt;b&gt;★ {0} ★&lt;/b&gt;">
+  </Group>
+  <Group Label="GOLD Patreons"
+         Special="0"
+         Color="FFDD00"
+         Format="&lt;b&gt;{0}&lt;/b&gt;">
+    <Entry Label="BombTime"
+           Quote="Nikki H. is the most amazing" />
+    <Entry Label="Lightfox Lowell" />
+  </Group>
+  <Group Label="SILVER Patreons"
+         Special="1"
+         Color="BBBBBB">
+    <Entry Label="Random_Supporter" />
+  </Group>
+  <Group Label="BRONZE Patreons"
+         Special="1"
+         Color="FF7700">
+    <Entry Label="Daniel Saksa" />
+    <Entry Label="Jed Murphy" />
+    <Entry Label="joseasoler" />
+    <Entry Label="Kupokraft" />
+    <Entry Label="Numblock"
+           Quote="Hello World!" />
+  </Group>
+  <Group Label="Shoutouts"
+         Special="1">
+    <Entry Label="T-362" />
+    <Entry Label="Miggs" />
+  </Group>
+  <Group Label="&lt;i&gt;Example&lt;/i&gt;"
+         Color="AAAAAA"
+         Format="&lt;color=#CCCCCC&gt;{0}&lt;/color&gt;">
+    <Entry Label="(Your name here)"
+           Quote="Say something and/or add a link"
+           Link="https://www.example.com" />
+  </Group>
+</Credits>

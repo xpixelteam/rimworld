@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FilterManager.Preset.Label>Пресет</FilterManager.Preset.Label>
+
+  <FilterManager.Button.Invert>Инверт</FilterManager.Button.Invert>
+  <FilterManager.Button.Presets>Пресеты</FilterManager.Button.Presets>
+
+  <FilterManager.Button.Save>Сохранить</FilterManager.Button.Save>
+
+  <FilterManager.Button.PresetMenu.Apply>Применить</FilterManager.Button.PresetMenu.Apply>
+  <FilterManager.Button.PresetMenu.ApplyInverse>Применить инвертирование</FilterManager.Button.PresetMenu.ApplyInverse>
+
+  <FilterManager.Button.PresetMenu.Delete>Удалить</FilterManager.Button.PresetMenu.Delete>
+  <FilterManager.Button.PresetMenu.Overwrite>Перезаписать текущим</FilterManager.Button.PresetMenu.Overwrite>
+
+  <FilterManager.Button.PresetMenu.CheckAllowed>Выбрать только разрешенное</FilterManager.Button.PresetMenu.CheckAllowed>
+  <FilterManager.Button.PresetMenu.CheckForbidden>Выбрать только запрещенное</FilterManager.Button.PresetMenu.CheckForbidden>
+  <FilterManager.Button.PresetMenu.UncheckAllowed>Снять выбор только разрешенного</FilterManager.Button.PresetMenu.UncheckAllowed>
+  <FilterManager.Button.PresetMenu.UncheckForbidden>Снять выбор только запрещенного</FilterManager.Button.PresetMenu.UncheckForbidden>
+
+  <FilterManager.IntegratedPreset.Degradable>Разлагаемый</FilterManager.IntegratedPreset.Degradable>
+  <FilterManager.IntegratedPreset.Rottable>Гниющий</FilterManager.IntegratedPreset.Rottable>
+</LanguageData>

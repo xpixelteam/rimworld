@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- BetterSliders -->
+	<BetterSliders.DisplayStyle.Label>Стиль отображения поля ввода</BetterSliders.DisplayStyle.Label>
+	<BetterSliders.DisplayStyles.Hover>При наведении</BetterSliders.DisplayStyles.Hover>
+	<BetterSliders.DisplayStyles.AlwaysOn>Всегда показывается</BetterSliders.DisplayStyles.AlwaysOn>
+	<BetterSliders.HysteresisBegin.Label>Нажмите, чтобы настроить порог запуска для системы</BetterSliders.HysteresisBegin.Label>
+	<BetterSliders.HysteresisEnd.Label>Щелкните, чтобы настроить конечный порог для системы</BetterSliders.HysteresisEnd.Label>
+	<BetterSliders.HysteresisView.Label>Щелкните, чтобы просмотреть пороговые значения для системы</BetterSliders.HysteresisView.Label>
+	<BetterSliders.Hysteresis.Calculate>Вычислить</BetterSliders.Hysteresis.Calculate>
+	<BetterSliders.Hysteresis.View>Показать</BetterSliders.Hysteresis.View>
+	<BetterSliders.Hysteresis.Hide>Скрыть</BetterSliders.Hysteresis.Hide>
+	<BetterSliders.HysteresisLegend.Label>Легенда</BetterSliders.HysteresisLegend.Label>
+	<BetterSliders.HysteresisLegend.Begin>Начальный порог</BetterSliders.HysteresisLegend.Begin>
+	<BetterSliders.HysteresisLegend.End>Конечный Порог</BetterSliders.HysteresisLegend.End>
+
+</LanguageData>

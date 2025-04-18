@@ -1,0 +1,163 @@
+<LanguageData>
+
+<!-- tabs -->
+	<Kopp_CISE_Weapons>Оружие и одежда</Kopp_CISE_Weapons>
+	<Kopp_CISE_Textiles>Текстиль</Kopp_CISE_Textiles>
+	<Kopp_CISE_Misc>Редко используемое</Kopp_CISE_Misc>
+	<Kopp_CISE_Unassigned>Неназначенное</Kopp_CISE_Unassigned>
+	<Kopp_CISE_UnassignedCopy>Неназначенное (копия)</Kopp_CISE_UnassignedCopy>
+	
+<!-- sections -->
+	<Kopp_CISE_PackAnimalsSection>Вьючные животные</Kopp_CISE_PackAnimalsSection>
+	<Kopp_CISE_TrainedAnimalsObedienceSection>Животные: Защита</Kopp_CISE_TrainedAnimalsObedienceSection>
+	<Kopp_CISE_TrainedAnimalsReleaseSection>Животные: Атака</Kopp_CISE_TrainedAnimalsReleaseSection>
+	<Kopp_CISE_TrainedAnimalsRescueSection>Животные: Спасение</Kopp_CISE_TrainedAnimalsRescueSection>
+	<Kopp_CISE_TrainedAnimalsHaulSection>Животные: Переноска</Kopp_CISE_TrainedAnimalsHaulSection>
+	<Kopp_CISE_PawnsOthers>Остальное</Kopp_CISE_PawnsOthers>
+
+	<Kopp_CISE_BuildingMaterials>Материалы</Kopp_CISE_BuildingMaterials>
+	<Kopp_CISE_Stoneblocks>Каменные блоки</Kopp_CISE_Stoneblocks>
+	<Kopp_CISE_Components>Компоненты</Kopp_CISE_Components>
+	<Kopp_CISE_Shells>Снаряды</Kopp_CISE_Shells>
+	<Kopp_CISE_Rest>Вне категорий</Kopp_CISE_Rest>
+	<Kopp_CISE_PlantMatter>Растительное</Kopp_CISE_PlantMatter>
+	<Kopp_CISE_Artifacts>Артефакты</Kopp_CISE_Artifacts>
+	<Kopp_CISE_BuildingsItem>Постройки</Kopp_CISE_BuildingsItem>
+	<Kopp_CISE_Bodyparts>Части тела</Kopp_CISE_Bodyparts>
+	<Kopp_CISE_Relicts>Реликвии</Kopp_CISE_Relicts>
+	<Kopp_CISE_Skilltrainers>Нейротренировщики</Kopp_CISE_Skilltrainers>
+	<Kopp_CISE_Techprints>Чертежи</Kopp_CISE_Techprints>
+
+	<Kopp_CISE_Food>Блюда</Kopp_CISE_Food>
+	<Kopp_CISE_Medicine>Медицина</Kopp_CISE_Medicine>
+	<Kopp_CISE_Drugs>Наркотики</Kopp_CISE_Drugs>
+	<Kopp_CISE_BuildingsTravelSupply>Здания</Kopp_CISE_BuildingsTravelSupply>
+	<Kopp_CISE_Ammunition>Боеприпасы</Kopp_CISE_Ammunition>
+	<Kopp_CISE_AnimalFood>Пища для животных</Kopp_CISE_AnimalFood>
+
+	<Kopp_CISE_WeaponRangedSection>Оружие дальнего боя</Kopp_CISE_WeaponRangedSection>
+	<Kopp_CISE_WeaponMeleeSection>Оружие ближнего боя</Kopp_CISE_WeaponMeleeSection>
+	<Kopp_CISE_ApparelArmorSection>Бронированная одежда</Kopp_CISE_ApparelArmorSection>
+	<Kopp_CISE_ApparelUtilitySection>Рабочая одежда</Kopp_CISE_ApparelUtilitySection>
+	<Kopp_CISE_ApparelNonArmorSection>Одежда</Kopp_CISE_ApparelNonArmorSection>
+
+	<Kopp_CISE_TextilesRest>Разное</Kopp_CISE_TextilesRest>
+	<Kopp_CISE_TextilesLeather>Кожа</Kopp_CISE_TextilesLeather>
+	<Kopp_CISE_TextilesWool>Шерсть</Kopp_CISE_TextilesWool>
+
+	<Kopp_CISE_Meat>Сырое мясо</Kopp_CISE_Meat>
+	<Kopp_CISE_RawFood>Сырые продукты</Kopp_CISE_RawFood>
+	<Kopp_CISE_Eggs>Яйца</Kopp_CISE_Eggs>
+	<Kopp_CISE_Beddings>Постельные принадлежности</Kopp_CISE_Beddings>
+	<Kopp_CISE_StoneChunks>Куски породы</Kopp_CISE_StoneChunks>
+	<Kopp_CISE_Corpses>Трупы</Kopp_CISE_Corpses>
+
+<!-- settings menu -->
+	<Kopp_CISE_Button_SettingsMenu>Вкладки ☰</Kopp_CISE_Button_SettingsMenu>
+	<!-- Main -->
+	<Kopp_CISE_MainTabs_TabsSettings>Настройка вкладок</Kopp_CISE_MainTabs_TabsSettings>
+	<Kopp_CISE_MainTabs_TabsSubcategories>Настройка подкатегорий</Kopp_CISE_MainTabs_TabsSubcategories>
+
+	<Kopp_CISE_Button_Helper>Помощь</Kopp_CISE_Button_Helper>
+
+	<Kopp_CISE_Button_NewTab>Новая вкладка</Kopp_CISE_Button_NewTab>
+	<Kopp_CISE_Button_SwitchTab>Переместить вкладку</Kopp_CISE_Button_SwitchTab>
+	<Kopp_CISE_Button_RenameTab>Переименовать вкладку</Kopp_CISE_Button_RenameTab>
+	<Kopp_CISE_Button_NewTabFromCfg>Добавить из конфиг.</Kopp_CISE_Button_NewTabFromCfg>
+	<Kopp_CISE_Button_DeleteTab>Удалить вкладку</Kopp_CISE_Button_DeleteTab>
+	<Kopp_CISE_Button_LoadConfig>Загрузить конфиг.</Kopp_CISE_Button_LoadConfig>
+	<Kopp_CISE_Button_SaveConfig>Сохранить конфиг.</Kopp_CISE_Button_SaveConfig>
+	<Kopp_CISE_Button_DeleteConfig>Удалить конфиг.</Kopp_CISE_Button_DeleteConfig>
+	<Kopp_CISE_Button_RecreateDefaultConfig>Сбросить станд. конфиг.</Kopp_CISE_Button_RecreateDefaultConfig>
+
+	<Kopp_CISE_TabGainsName>Вкладка теперь называется {0}.</Kopp_CISE_TabGainsName>
+	<Kopp_CISE_ConfirmLoadConfig>Действительно загрузить конфигурацию {0}?\n\nЕсли конфигурация, который вы используете прямо сейчас, не сохранена, она будет потеряна.</Kopp_CISE_ConfirmLoadConfig>
+	<Kopp_CISE_DefaultConfigRecreated>Конфигурация по умолчанию была создана заново! Старая конфигурация по умолчанию содержала {0} thingDefs, в то время как новая конфигурация по умолчанию содержит {1} thingDefs.</Kopp_CISE_DefaultConfigRecreated>
+	
+	<Kopp_CISE_UseVanillaPawnsTab>Использовать ванильную вкладку пешек вместо.\nЭто может быть полезно/необходимо, если вы используете моды, которые изменяют ванильную вкладку пешек.\nЭтот параметр применяется ко всем пресетам.</Kopp_CISE_UseVanillaPawnsTab>
+	<Kopp_CISE_ContentPawnsTab>Содержимое вкладки пешек жестко запрограммировано\nи не может быть изменено.\n
+Однако вкладку можно переименовать\nи изменить ее положение.</Kopp_CISE_ContentPawnsTab>
+	<!-- Subcategories -->
+	<Kopp_CISE_Button_NewSubcategory>Новая подкатегория</Kopp_CISE_Button_NewSubcategory>
+	<Kopp_CISE_Button_SwitchSubcategory>Переместить</Kopp_CISE_Button_SwitchSubcategory>
+	<Kopp_CISE_Button_RenameSubcategory>Переименовать</Kopp_CISE_Button_RenameSubcategory>
+	<Kopp_CISE_Button_ExclusiveSubcategory>Исключ. или нет</Kopp_CISE_Button_ExclusiveSubcategory>
+	<Kopp_CISE_Button_DeleteSubcategory>Удалить подкатегорию</Kopp_CISE_Button_DeleteSubcategory>
+	
+	<Kopp_CISE_SubcategoryGainsName>Подкатегория теперь называется {0}</Kopp_CISE_SubcategoryGainsName>
+	
+	<Kopp_CISE_ConfigSaved>Конфигурация сохранена как {0}. Введите допустимое имя, чтобы переименовать его.</Kopp_CISE_ConfigSaved>
+	<Kopp_CISE_ConfigGainsName>Конфигурация переименована в {0}.</Kopp_CISE_ConfigGainsName>
+	<Kopp_CISE_ConfigGainsNameFail>Название {0} либо недопустимо, либо уже используется. Выбери другое.</Kopp_CISE_ConfigGainsNameFail>
+	
+	<!-- helper overlay -->
+	<Kopp_CISE_Helper_MainTabs>Мод имеет 2 разных окна: "Настройка вкладок" и "Настройка подкатегорий".
+\nВанилла имеет три вкладки: Пешки, Дорожные принадлежности и Предметы.
+\nВ Ванилле на вкладке Пешки есть подкатегории: Колонисты, Заключенные, рабы, Животные, ...
+\nВ строке ниже вы можете увидеть все вкладки, которые есть в вашей конфигурации, и переключаться между ними, а затем вносить изменения.</Kopp_CISE_Helper_MainTabs>
+	
+	<Kopp_CISE_Helper_FilterUI>Пользовательский интерфейс фильтра:
+Выберите предметы, которые должны быть показаны на соответствующих вкладках.
+Затем вы можете прикрепить эти предметы к подкатегориям в настройках подкатегории, если хотите.
+\nПредметы могут отображаться более чем на одной вкладке.
+\nОбъекты на карте, которых нет ни в одной вкладке, автоматически появятся в новой вкладке под названием "Неназначенное(Unassigned)".
+Эта вкладка не видна в настройках вкладки, так как ее нельзя изменить.
+Однако: вы можете легко создать новую вкладку со всеми вещами, которые вы еще не назначили вкладке, используя кнопку "Новая вкладка из сохраненной конфигурации" в правой части графического интерфейса, затем выберите "tmpConfig", затем "Неназначенное(Unassigned)".
+Обратите внимание, что если вы не назначили вкладке предметы определенного качества (например, легендарное оружие) или с определенным процентом хитпоинтов, на скопированной неназначенной вкладке будут разрешены только те, которые есть на карте прямо сейчас. И разрешен любой уровень качества / процент попаданий.</Kopp_CISE_Helper_FilterUI>
+
+	<Kopp_CISE_Helper_CategoryTabs>Добавьте новую вкладку, либо пустую, либо (независимую) копию существующей.
+В копию будут включены все подкатегории родительского элемента и выбраны все разрешенные элементы родительского элемента.
+\nНа каждой вкладке может быть не более 15 вкладок и не более 15 подкатегорий.</Kopp_CISE_Helper_CategoryTabs>
+	
+	<Kopp_CISE_Helper_Configs>Конфигурация содержит всю информацию, необходимую для "отображения" вкладок и их содержимого в графическом интерфейсе каравана/транспортника.
+Например, количество вкладок, названия, подкатегории и выбранные элементы.
+\nПредставьте, что перед вами лист бумаги с этой информацией. Этот лист бумаги ВСЕГЛА будет использоваться для отображения вкладок.
+Все изменения, которые вы вносите, ВСЕГДА будут вноситься и в этот лист тоже. Это называется 'tmpConfig'.
+Рядом с листом находится стопка бумаг, которые представляют собой сохраненные конфигурации.
+\nЕсли вы загружаете конфигурацию, соответствующая бумага из стопки копируется и заменяет лист перед вами.
+Если вы сохраняете конфигурацию, лист перед вами копируется, и копия помещается в стопку бумаг.
+\nЭто означает, что если вы сохраняете конфигурацию и впоследствии вносите в нее изменения, эти изменения применяются к листу перед вами, но не к сохраненной конфигурации.
+\nВ результате невозможно перезаписать конфигурацию. Вы должны удалить старый и сохранить новый.
+Конфигурации являются глобальными, а не для каждой сохраненной игры. Ваши изменения сохраняются либо сразу, либо при закрытии меню настроек вкладки.
+Конфигурация, которую вы видите при первом использовании этого мода, является копией 'defaultConfig'.
+Если вы работаете только с одной конфигурацией, вам вообще не нужно беспокоиться о сохранении / загрузке или системе конфигурации. Просто вносите изменения и будьте счастливы.
+\nКнопка "Сбросить станд. конфиг." может быть полезна, если вы добавляете/удаляете моды во время использования этого мода, чтобы конфигурация по умолчанию обновлялась новыми элементами.</Kopp_CISE_Helper_Configs>
+
+	<Kopp_CISE_Helper_Close>Чтобы закрыть вспомогательный оверлей, либо нажмите кнопку снизу, ESC или кнопку, которую вы использовали для открытия оверлея, либо используйте кнопку закрыть в правом верхнем углу.
+Извините за плохую реализацию...</Kopp_CISE_Helper_Close>
+
+	<!-- loading list -->
+	<Kopp_CISE_NeedsRestart>Для применения следующих настроек требуется перезагрузка!</Kopp_CISE_NeedsRestart>
+	<Kopp_CISE_ShowLoadingList>Показать список загрузки: </Kopp_CISE_ShowLoadingList>
+	<Kopp_CISE_ShowLoadingListTooltip>Посмотреть список всех предметов /пешек, уже выбранных при формировании каравана (или разделении, или загрузке транспортеров).</Kopp_CISE_ShowLoadingListTooltip>
+	<Kopp_CISE_Pawns>Пешки</Kopp_CISE_Pawns>
+	<Kopp_CISE_Items>Предметы</Kopp_CISE_Items>
+	<Kopp_CISE_CaravanItemSelectionEnhanced>Caravan Item Selection Enhanced</Kopp_CISE_CaravanItemSelectionEnhanced>
+
+	<!-- presets -->
+	<Kopp_CISE_PresetGainsName>Вкладка теперь называется {0}.</Kopp_CISE_PresetGainsName>
+	<Kopp_CISE_UnselectedStuff>Не удалось выбрать:</Kopp_CISE_UnselectedStuff>
+	<Kopp_CISE_PresetContains>Пресет содержит следующие предметы:</Kopp_CISE_PresetContains>
+	<Kopp_CISE_Presets>Пресеты</Kopp_CISE_Presets>
+	<Kopp_CISE_Preset>Пресет: </Kopp_CISE_Preset>
+	<Kopp_CISE_Load>Загрузить</Kopp_CISE_Load>
+	<Kopp_CISE_LoadOnTop>Загрузить поверх текущего выбора</Kopp_CISE_LoadOnTop>
+	<Kopp_CISE_Rename>Переименовать</Kopp_CISE_Rename>
+	<Kopp_CISE_Overwrite>Перезаписать текущим выбором</Kopp_CISE_Overwrite>
+	<Kopp_CISE_OverwriteConfirmation>Вы уверены, что хотите перезаписать этот пресет текущим выбором?</Kopp_CISE_OverwriteConfirmation>
+	<Kopp_CISE_Delete>Удалить</Kopp_CISE_Delete>
+	<Kopp_CISE_DeleteConfirmation>Вы уверены, что хотите удалить этот пресет?</Kopp_CISE_DeleteConfirmation>
+	<Kopp_CISE_ShowContent>Показать содержимое</Kopp_CISE_ShowContent>
+	<Kopp_CISE_SavePreset>Сохранить текущий выбор в качестве нового пресета</Kopp_CISE_SavePreset>
+	<Kopp_CISE_NewPreset>Новый пресет</Kopp_CISE_NewPreset>
+	<Kopp_CISE_UnselectedStuffAgain>Показать еще раз то, что не удалось выбрать</Kopp_CISE_UnselectedStuffAgain>
+	<Kopp_CISE_HitpointRange>Пресеты: Допустимый разброс % здоровья: </Kopp_CISE_HitpointRange>
+	<Kopp_CISE_HitpointRangeTooltip>Если установлено значение, отличное от 100%, мод учитывает хитпоинты предметов (которые имеют качество или являются зданиями) при загрузке пресета.\n\nПример: Вы сохраняете пресет с револьвером, у которого осталось 60% хит-пойнтов, и устанавливаете "Допустимый диапазон" равным 20%.\nПри загрузке пресета должен быть доступен револьвер, у которого осталось от 40% до 80% хит-пойнтов (и качество сохраненного один), в противном случае револьвер не будет выбран.</Kopp_CISE_HitpointRangeTooltip>
+
+	<Kopp_CISE_ShowSelectEveryhing>Показывать кнопку "Выбрать все" в диалоговом окне формирования каравана, независимо от того, активен ли режим разработчика:</Kopp_CISE_ShowSelectEveryhing>
+
+	<Kopp_CISE_ReformCaravanDropdown>Показывать выпадающее меню при нажатии кнопки "Реформировать караван", чтобы определить, следует ли предварительно выбирать предметы и пешки</Kopp_CISE_ReformCaravanDropdown>
+	<Kopp_CISE_ReformSelectEverything>Предварительно выбрать все (релевантные) предметы и пешек (ванильно)</Kopp_CISE_ReformSelectEverything>
+	<Kopp_CISE_ReformSelectNone>Не выбирать предварительно какие-либо предметы или пешек</Kopp_CISE_ReformSelectNone>
+
+		</LanguageData>

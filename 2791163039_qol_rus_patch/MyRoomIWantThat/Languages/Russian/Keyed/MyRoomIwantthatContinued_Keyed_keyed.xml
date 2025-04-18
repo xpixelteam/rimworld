@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MyRoom.Version>Версия: {0}</MyRoom.Version>
+  <MyRoom.ImproveLabel>Частота улучшения комнаты</MyRoom.ImproveLabel>
+  <MyRoom.Seldom>Редко</MyRoom.Seldom>
+  <MyRoom.Often>Часто</MyRoom.Often>
+  <MyRoom.WantedImpressiveness>Пешки будут пытаться достичь впечатления {0}</MyRoom.WantedImpressiveness>
+  <MyRoom.WantedImpressiveness.Tooltip>Пешки попробуют улучшить свою комнату до этого значения</MyRoom.WantedImpressiveness.Tooltip>
+  <MyRoom.MinimumSpace>Требуемое минимальное пространство: {0}</MyRoom.MinimumSpace>
+  <MyRoom.MinimumSpace.Tooltip>Пешки не будут улучшать свою комнату, если пространство в ней меньше, чем это значение.</MyRoom.MinimumSpace.Tooltip>
+  <MyRoom.TraitInfo>Аскетичные пешки не будут улучшать свою комнату, алчные всегда будут это делать.</MyRoom.TraitInfo>
+</LanguageData>

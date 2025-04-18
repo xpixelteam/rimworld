@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Paladin_MainTurret.label>Дымовая гранатометная установка на "Паладине"</Paladin_MainTurret.label>
+  <Paladin_MainTurret.description>Дымовая гранатометная установка, установленная на БТР "Паладин". Отлично подходит для создания дымовой завесы для пехоты, эта башня не имеет возможностей для боевого продвижения.</Paladin_MainTurret.description>
+  <Paladin_MainTurret.fireModes.0.label>Одиночный</Paladin_MainTurret.fireModes.0.label>
+  <Paladin_MainTurret.fireModes.1.label>Очередь</Paladin_MainTurret.fireModes.1.label>
+
+
+</LanguageData>

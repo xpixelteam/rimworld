@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>	
+	<ToggleTooltip>Toggle quality overlay.</ToggleTooltip>
+	<EnableForBuilding>Enable overlay for buildings.</EnableForBuilding>
+	<EnableForWeapon>Enable overlay for weapons.</EnableForWeapon>
+	<EnableForApparel>Enable overlay for apparels.</EnableForApparel>
+	<EnableForMinifiedThing>Enable overlay for minified things, such as bed, sculpture.</EnableForMinifiedThing>
+	<OverlayOpacitySetting>Opacity of the overlay (Require restart)</OverlayOpacitySetting>
+	<OverlayUpdateTicks>Overlay update interval</OverlayUpdateTicks>
+	<QualityOverlayColorSettings>Overlay colors for different quality</QualityOverlayColorSettings>
+	<ResetAll>Reset all settings</ResetAll>
+</LanguageData>

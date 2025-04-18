@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_MATV_Vehicle.label>Oshkosh M-ATV</RT_MATV_Vehicle.label>
+  <RT_MATV_Vehicle.description>Машина с противоминной защитой и защитой от засад, предназначенная для транспортировки в боевых зонах. Оснащается различными видами вооружения.</RT_MATV_Vehicle.description>
+  <RT_MATV_Vehicle.properties.roles.0.label>Водитель</RT_MATV_Vehicle.properties.roles.0.label>
+  <RT_MATV_Vehicle.properties.roles.1.label>Пассажир</RT_MATV_Vehicle.properties.roles.1.label>
+  <RT_MATV_Vehicle.properties.roles.2.label>Стрелок</RT_MATV_Vehicle.properties.roles.2.label>
+  <RT_MATV_Vehicle.components.0.label>Двигатель</RT_MATV_Vehicle.components.0.label>
+  <RT_MATV_Vehicle.components.1.label>Передняя левая подвеска</RT_MATV_Vehicle.components.1.label>
+  <RT_MATV_Vehicle.components.2.label>Передняя правая подвеска</RT_MATV_Vehicle.components.2.label>
+  <RT_MATV_Vehicle.components.3.label>Задняя левая подвеска</RT_MATV_Vehicle.components.3.label>
+  <RT_MATV_Vehicle.components.4.label>Задняя правая подвеска</RT_MATV_Vehicle.components.4.label>
+  <RT_MATV_Vehicle.components.5.label>Коробка передач</RT_MATV_Vehicle.components.5.label>
+  <RT_MATV_Vehicle.components.6.label>Топливный бак</RT_MATV_Vehicle.components.6.label>
+  <RT_MATV_Vehicle.components.7.label>Переднее левое колесо</RT_MATV_Vehicle.components.7.label>
+  <RT_MATV_Vehicle.components.8.label>Переднее правое колесо</RT_MATV_Vehicle.components.8.label>
+  <RT_MATV_Vehicle.components.9.label>Заднее левое колесо</RT_MATV_Vehicle.components.9.label>
+  <RT_MATV_Vehicle.components.10.label>Заднее правое колесо</RT_MATV_Vehicle.components.10.label>
+  <RT_MATV_Vehicle.components.11.label>Капот</RT_MATV_Vehicle.components.11.label>
+  <RT_MATV_Vehicle.components.12.label>Крыша</RT_MATV_Vehicle.components.12.label>
+  <RT_MATV_Vehicle.components.13.label>Левая дверь</RT_MATV_Vehicle.components.13.label>
+  <RT_MATV_Vehicle.components.14.label>Правая дверь</RT_MATV_Vehicle.components.14.label>
+  <RT_MATV_Vehicle.components.15.label>Запасное колесо</RT_MATV_Vehicle.components.15.label>
+  <RT_MATV_Vehicle.components.16.label>Передний бампер</RT_MATV_Vehicle.components.16.label>
+  <RT_MATV_Vehicle.components.17.label>Задний бампер</RT_MATV_Vehicle.components.17.label>
+  <RT_MATV_Vehicle.components.18.label>Интерьер</RT_MATV_Vehicle.components.18.label>
+  <RT_MATV_Vehicle.components.19.label>Приборная панель</RT_MATV_Vehicle.components.19.label>
+  <RT_MATV_Vehicle.components.20.label>Руль</RT_MATV_Vehicle.components.20.label>
+
+
+</LanguageData>

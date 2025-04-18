@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <WeightPrice>Цена за кг</WeightPrice>
+    <WeightPriceFormat>{0} $/кг</WeightPriceFormat>
+
+    <WeightPriceTip>Цена за кг</WeightPriceTip>
+    <WeightPriceTipBuyPrice>Цена покупки: </WeightPriceTipBuyPrice>
+    <WeightPriceTipSellPrice>Цена продажи: </WeightPriceTipSellPrice>
+    <WeightPriceTipMass>Масса: </WeightPriceTipMass>
+    <WeightPriceTipTip>Цена за кг: </WeightPriceTipTip>
+</LanguageData>

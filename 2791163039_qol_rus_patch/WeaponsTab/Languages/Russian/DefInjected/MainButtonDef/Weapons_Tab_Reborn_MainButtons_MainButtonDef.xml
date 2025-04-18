@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/Misc/MainButtonDefs/MainButtons.xml-->
+             <!-- weapons -->
+<WeaponsTab.label>Оружие</WeaponsTab.label>
+                   <!-- View Colonist Weapons and assign Loadouts -->
+<WeaponsTab.description>Просматривайте оружие колонистов и назначайте снаряжение</WeaponsTab.description>
+
+</LanguageData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Lightning_Blueprint</defName>
+		<label>Lightning</label>
+		<description>A fast general purpose transporter, the Lightning is an excellent road vehicle for getting an appreciable amount of cargo in a very small time frame. Incredibly fast on flat roads and will struggle on hills, snow or winter tiles.\n\nAs it is designed for speed, trips should always be planned for staying on roads and having extra fuel, which can occupy most of the extra cargo space. It has terrible fuel efficiency due to the performance, so plan accordingly.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_Supercar/Tier3_Supercar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 5)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>18500</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<researchPrerequisites>
+			<li>VVE_SuperCars</li>
+		</researchPrerequisites>
+		
+		<size>(2, 4)</size>
+		
+		<costList>
+			<VVE_EngineBlock>1</VVE_EngineBlock>
+			<VVE_CarAlternator>2</VVE_CarAlternator>
+			<VVE_CarExhaust>4</VVE_CarExhaust>
+			<VVE_CarSuspension>4</VVE_CarSuspension>
+			<VVE_CarWheel>4</VVE_CarWheel>
+			<Steel>260</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<Silver>360</Silver>
+			<VVE_CarTransmission>2</VVE_CarTransmission>
+			<VVE_CarRadiator>2</VVE_CarRadiator>
+			<VVE_CarWiring>1</VVE_CarWiring>
+			<VVE_CarBattery>1</VVE_CarBattery>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>VVE_Lightning</thingToSpawn>
+	</Vehicles.VehicleBuildDef>
+</Defs>

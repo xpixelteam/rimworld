@@ -1,0 +1,18 @@
+<LanguageData>
+  <!--Intentional Proselytism-->
+  <IntentionalProselytism.Setting>Intentional Proselytism</IntentionalProselytism.Setting>
+  <!--Choose Ideo-->
+  <IntentionalProselytism.ChooseIdeo>Идеология</IntentionalProselytism.ChooseIdeo>
+  <!--Remove Current Ideo-->
+  <IntentionalProselytism.RemoveCurrentIdeo>Без Идеологии</IntentionalProselytism.RemoveCurrentIdeo>
+  <!--No Ideo Assigned-->
+  <IntentionalProselytism.NoIdeoAssigned>Идеология не назначена</IntentionalProselytism.NoIdeoAssigned>
+  <!--Ideo Description-->
+  <IntentionalProselytism.IdeoDesc>...</IntentionalProselytism.IdeoDesc>
+  <!--The certainty loss factor when the selected ideo of the convertee is different from the converter.-->
+  <IntentionalProselytism.CertaintyReduceFactor.Desc>Коэффициент потери уверенности, когда выбранная идеология заключенного отличается от идеологии надзирателя.</IntentionalProselytism.CertaintyReduceFactor.Desc>
+  <!--Reset-->
+  <IntentionalProselytism.ResetToDefault>Сброс</IntentionalProselytism.ResetToDefault>
+  <!--Make Fluid-->
+  <IntentionalProselytism.MakeFluid>Создать Идеологию</IntentionalProselytism.MakeFluid>
+</LanguageData>

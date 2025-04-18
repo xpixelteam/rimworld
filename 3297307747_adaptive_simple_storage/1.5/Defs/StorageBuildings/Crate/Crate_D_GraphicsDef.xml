@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef>
+        <defName>CrateDGraphics</defName>
+        <targetDef>CrateD</targetDef>
+        <showContainedItems>false</showContainedItems>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Crate/Crate_D</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(3.5,3.5)</drawSize>
+                    <drawRotated>false</drawRotated>
+                    <shaderType>CutoutComplex</shaderType>
+                </graphicData>
+            </li>
+        </graphics>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

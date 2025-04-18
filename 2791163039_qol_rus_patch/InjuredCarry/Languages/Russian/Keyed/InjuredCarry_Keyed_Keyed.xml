@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <InjuredCarry>Перенос Раненых</InjuredCarry>
+  <InjuredCarry.Settings.RescueNotInjured>Перенести не травмированных пешек</InjuredCarry.Settings.RescueNotInjured>
+  <InjuredCarry.Settings.RescueNotInjured.Desc>Переносить не травмированых</InjuredCarry.Settings.RescueNotInjured.Desc>
+</LanguageData>

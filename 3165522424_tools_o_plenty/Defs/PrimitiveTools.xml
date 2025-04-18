@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Primitive_Knife</defName>
+    <label>primitive knife</label>
+    <description>Crafted from natural materials such as stone, bone, or obsidian, this rudimentary tool features a simple blade affixed to a basic handle. Designed for essential cutting tasks, it embodies the ingenuity of early human craftsmanship, offering reliability in wilderness survival scenarios and historical reenactments.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Primitive/Primitive_knife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.30</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<CookSpeed>0.10</CookSpeed>
+<ButcheryFleshSpeed>0.10</ButcheryFleshSpeed>
+<SurgerySuccessChanceFactor>0.05</SurgerySuccessChanceFactor>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <tools>
+	<li>
+     <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Mortar_And_Pestle</defName>
+    <label>mortal and pestle</label>
+    <description>A traditional culinary tool consisting of a sturdy bowl (mortar) and a blunt, club-shaped instrument (pestle). Used for grinding, crushing, and mixing herbs, spices, and other ingredients, it offers a timeless method for preparing flavorful concoctions and unlocking the aromas and flavors of various substances through manual pulverization.</description>
+    <possessionCount>1</possessionCount>
+
+    <graphicData>
+      <texPath>Primitive/Mortar_and_pestle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.30</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<DrugSynthesisSpeed>0.10</DrugSynthesisSpeed>
+<DrugCookingSpeed>0.10</DrugCookingSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <tools>
+	<li>
+     <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+  
+	  <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+	  <skillRequirements>
+        <Crafting>3</Crafting>   
+		</skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Mallet</defName>
+    <label>mallet</label>
+    <description>A simple yet versatile tool featuring a solid head, typically made of wood, rubber, or metal, attached to a sturdy handle. Designed for delivering controlled force without damaging delicate surfaces, it serves various purposes in woodworking and construction, offering precision and effectiveness in tasks requiring gentle yet impactful percussion.</description>
+    <possessionCount>1</possessionCount>
+
+    <graphicData>
+      <texPath>Primitive/Mallet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(1,1)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<ConstructionSpeed>0.10</ConstructionSpeed>
+<ConstructSuccessChance>0.05</ConstructSuccessChance>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+	      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	   <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Primitive_Pick</defName>
+    <label>primitive pick</label>
+    <description>A rugged hand tool fashioned from durable materials such as wood, bone, or stone. Characterized by a pointed or chiseled end affixed to a sturdy handle, it serves as a versatile implement for digging, breaking up soil, and extracting minerals or resources. Reflecting early human ingenuity, it embodies the essential tool for survival and resource gathering in primitive environments.</description>
+    <possessionCount>1</possessionCount>
+
+    <graphicData>
+      <texPath>Primitive/Primitive_pick</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(1,1)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.10</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+  <MiningSpeed>0.10</MiningSpeed>
+  <MiningYield>0.10</MiningYield>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <tools>
+	    <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+	   <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Primitive_Axe</defName>
+    <label>primitive axe</label>
+    <description>A rudimentary cutting tool crafted from natural materials like stone, flint, or bone. Featuring a sharp, wedge-shaped blade securely attached to a wooden or bone handle, it embodies early human innovation in woodworking and survival. Used for chopping wood, shaping materials, and various tasks requiring efficient cutting, it represents an essential tool in ancient civilizations and early human societies.</description>
+    <possessionCount>1</possessionCount>
+
+    <graphicData>
+      <texPath>Primitive/Primitive_axe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(1,1)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<PlantHarvestYield>0.05</PlantHarvestYield>
+  <PlantWorkSpeed>0.10</PlantWorkSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <tools>
+	    <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+	   <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Primitive_Tools_Set</defName>
+    <label>primitive tools set</label>
+    <description>The primitive leather-bound toolset is a collection of essential implements crafted for basic manual tasks, encompassing a chisel, a small hammer, and a file. Encased within a durable leather sheath, these tools are designed to facilitate precision workmanship in various materials, such as wood or metal.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Primitive/Primitive_tools</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(1,1)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>20</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+       <li>Leathery</li>
+    </stuffCategories>
+<costList>
+<Steel>30</Steel>
+	   </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>0.5</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+	      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	   <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Parchment</defName>
+    <label>parchment</label>
+    <description>A durable material made from specially prepared animal skin, typically sheep, goat, or calf. Through a meticulous process of cleaning, stretching, and drying, parchment becomes smooth and resilient, suitable for writing, drawing, or painting. Widely used historically for manuscripts, legal documents, and artwork, parchment embodies a timeless medium prized for its longevity and elegance in preserving written or visual creations.</description>
+    <possessionCount>1</possessionCount>
+
+    <graphicData>
+      <texPath>Primitive/Parchment</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(1,1)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.10</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+  <GlobalLearningFactor>0.08</GlobalLearningFactor>
+  <TradePriceImprovement>0.08</TradePriceImprovement>
+  <ResearchSpeed>0.08</ResearchSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+   <li>Leathery</li>
+    </stuffCategories>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	   <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	   <li>FueledSmithy</li>
+	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Sraw_Broom</defName>
+    <label>straw broom</label>
+    <description>A traditional cleaning tool composed of straw or natural fibers bundled together. With its simple yet effective design, the straw broom efficiently sweeps dirt, dust, and debris from floors and surfaces. Known for its versatility and durability, it remains a staple in household cleaning routines, offering a timeless solution for tidying indoor and outdoor spaces with ease.</description>
+    <possessionCount>1</possessionCount>
+
+    <graphicData>
+      <texPath>Primitive/Straw_broom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>20</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.20</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+  <CleaningSpeed>0.10</CleaningSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>1</Crafting>
+      </skillRequirements>
+	   <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	   <li>FueledSmithy</li>
+	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Primitive_Comb</defName>
+    <label>primitive comb</label>
+    <description>A simple yet effective grooming tool designed for use in taming and caring for animals. Crafted from basic materials such as bone or wood, this comb features strategically placed teeth to gently untangle fur and remove debris, promoting the health and well-being of domesticated creatures. With its rudimentary design and practical functionality.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Primitive/Primitive_comb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.30</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<AnimalGatherSpeed>0.10</AnimalGatherSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <tools>
+	<li>
+     <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Primitive_Bandage</defName>
+    <label>primitive bandage</label>
+    <description>A primitive bandage typically consists of strips of cloth, leaves, or other natural materials, used to cover and protect wounds or injuries. These bandages are rudimentary in nature, lacking modern adhesive or sterile properties, and are typically secured by tying or wrapping. While basic, they serve the fundamental purpose of providing some level of protection and support to the injured area.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Primitive/Primitive_bandage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>10</costStuffCount> 
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.30</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<MedicalTendSpeed>0.10</MedicalTendSpeed>
+<MedicalTendQuality>0.05</MedicalTendQuality>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Leathery</li>
+      <li>Fabric</li>
+    </stuffCategories>
+
+    <tools>
+	<li>
+     <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>0.1</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PrimitiveTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	  <li>CraftingSpot</li>
+	  <li>FueledSmithy</li>
+	  	   <li>ElectricSmithy</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- EN: Smart Turret Covering -->
+	<SmartTurretCovering.Title>Smart Turret Covering</SmartTurretCovering.Title>
+
+	<!-- EN: Covered Factor for Turrets -->
+	<SmartTurretCovering.CoveredFactorForTurrets>Показатель укрытия для турелей</SmartTurretCovering.CoveredFactorForTurrets>
+	<!-- EN: Fortified -->
+	<SmartTurretCovering.Fortified>Высокий</SmartTurretCovering.Fortified>
+	<!-- EN: Solid -->
+	<SmartTurretCovering.Solid>Выше среднего</SmartTurretCovering.Solid>
+	<!-- EN: Decent -->
+	<SmartTurretCovering.Decent>Средний</SmartTurretCovering.Decent>
+	<!-- EN: Modest -->
+	<SmartTurretCovering.Modest>Небольшой</SmartTurretCovering.Modest>
+	<!-- EN: (same as no mod) -->
+	<SmartTurretCovering.SameAsNoMod>(как без мода)</SmartTurretCovering.SameAsNoMod>
+	<!-- EN: (mod default) -->
+	<SmartTurretCovering.Default>(по умолчанию)</SmartTurretCovering.Default>
+	<!-- EN: └ Same Rate as for Pawn -->
+	<SmartTurretCovering.Fortified.description>└ Такой же показатель, как и для пешек</SmartTurretCovering.Fortified.description>
+	<!-- EN: └ One-Half Rate -->
+	<SmartTurretCovering.Solid.description>└ Половина защиты</SmartTurretCovering.Solid.description>
+	<!-- EN: └ One-Third Rate -->
+	<SmartTurretCovering.Decent.description>└ Треть защиты</SmartTurretCovering.Decent.description>
+	<!-- EN: └ One-Quarter Rate -->
+	<SmartTurretCovering.Modest.description>└ Четверть защиты</SmartTurretCovering.Modest.description>
+	<!-- EN: Continuously cover rate transition -->
+	<SmartTurretCovering.AnalogCoverRate>Более плавная защита от попаданий\nДиагональные преграды перестают\nзащищать лучшечем вертикальные и\nгоризонтальные</SmartTurretCovering.AnalogCoverRate>
+</LanguageData>

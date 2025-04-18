@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/Misc/MainButtonDefs/MainButtons.xml-->
+            <!-- inventory -->
+<Inventory.label>Инвентарь</Inventory.label>
+                  <!-- Shows all items in the colonys stockpile. -->
+<Inventory.description>Отображает все предметы из складов колонии</Inventory.description>
+
+</LanguageData>

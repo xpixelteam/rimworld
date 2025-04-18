@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef ParentName="RoadkillMainTurret">
+		<defName>Roadkill_MainTurret_ShortBarrel</defName>
+		<label>roadkill cannon</label>
+
+		<reloadTimer>3</reloadTimer>
+		<warmUpTimer>2.5</warmUpTimer>
+		
+		<rotationSpeed>1.5</rotationSpeed>
+		
+		<projectileOffset>2.5</projectileOffset>
+		<maxRange>24.9</maxRange>
+		
+		<fireModes Inherit = "FALSE">
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenBursts>1</ticksBetweenBursts>
+				<spreadRadius>5</spreadRadius>
+				<label>Single Shot</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+		</fireModes>
+		
+		<graphicData>
+			<texPath>Upgrades/Roadkill/Tier1_Tank_UpgradeShort_CannonTop</texPath>
+		</graphicData>
+
+		<motes Inherit = "False">
+			<li>
+				<cycles>1</cycles>
+				<moteDef>Mote_CannonPlume</moteDef>
+				<offset>(0, 0, 1.15)</offset>
+				<animationType>Reset</animationType>
+			</li>
+		</motes>
+	</Vehicles.VehicleTurretDef>
+</Defs>

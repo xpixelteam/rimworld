@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/KeyBindings.xml-->
+<ToggleableOverlays.label>Toggleable Overlays</ToggleableOverlays.label>
+<ToggleableOverlays.description>Назначение клавиш для Toggle Overlays (отображать/скрывать подписи предметов и некоторые иконки, например, закончившиеся дрова в костре).</ToggleableOverlays.description>
+
+</LanguageData>

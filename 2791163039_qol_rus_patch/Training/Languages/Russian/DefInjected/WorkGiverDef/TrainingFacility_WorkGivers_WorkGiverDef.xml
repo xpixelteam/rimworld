@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/WorkGiverDefs/TrainingFacility_WorkGivers.xml-->
+<MiscTraining_CombatTraining.label>тренироваться</MiscTraining_CombatTraining.label>
+<MiscTraining_CombatTraining.verb>тренироваться</MiscTraining_CombatTraining.verb>
+<MiscTraining_CombatTraining.gerund>тренировка</MiscTraining_CombatTraining.gerund>
+
+</LanguageData>

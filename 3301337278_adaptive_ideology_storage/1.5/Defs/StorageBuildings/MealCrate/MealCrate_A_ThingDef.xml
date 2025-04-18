@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>MealCrate_A</defName>
+        <label>Meal Crate A</label>
+        <graphicData>
+            <texPath>MealCrate/MealCrate_A_Base_Empty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <drawRotated>false</drawRotated>
+        </graphicData>
+        <description>A large crate that is designed to store meals. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 32\n\nStore items to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>MealCrate/MealCrate_A_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(2,2)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>1000</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>20</Mass>
+        </statBases>
+        <costList>
+            <Steel>75</Steel>
+        </costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>8</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <disallowNotEverStorable>true</disallowNotEverStorable>
+                    <categories>
+                        <li>FoodMeals</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

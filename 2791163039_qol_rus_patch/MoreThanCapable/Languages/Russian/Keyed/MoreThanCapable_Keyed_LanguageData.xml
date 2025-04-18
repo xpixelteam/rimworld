@@ -1,0 +1,41 @@
+<LanguageData>
+	<!-- More than Capable -->
+	<MTC.MoreThanCapable>More than Capable</MTC.MoreThanCapable>
+
+	<!-- Allow "Force Do Job" Behavior. -->
+	<MTC.allowFDJ>Разрешить Поведение "Принудительно выполнять работу".</MTC.allowFDJ>
+	<!-- If this is checked, a pawn can be told to do a specific job, even if not assigned to the work type to which the job belongs, so long as they don't actually hate the work type. If you prefer vanilla behavior, and want to be able to tell a pawn to do a specific job only if they are actually assigned to the relevant work type, then uncheck it. Requires restart to apply. -->
+	<MTC.allowFDJTip>Если этот флажок установлен, пешке можно приказать выполнить определенную работу, даже если она не квалифицирована для этого, при условии, пока она на самом деле не возненавидит этот тип работы.\nЕсли вы предпочитаете простое поведение и хотите иметь возможность указывать пешке выполнять определенную работу только в том случае, если она действительно назначена соответствующему типу работы, снимите флажок. Для применения требуется перезагрузка.</MTC.allowFDJTip>
+
+	<!-- Obey Life Stages. -->
+	<MTC.obeyLifeStages>Соблюдать возрастные ограничения.</MTC.obeyLifeStages>
+	<!-- If this is checked, work types that have age requirements will be obeyed. -->
+	<MTC.obeyLifeStagesTip>Будут выполняться только разрешенные для возраста виды работ</MTC.obeyLifeStagesTip>
+
+	<!-- Obey Guest Exceptions. -->
+	<MTC.obeyGuestExceptions>Соблюдать гостевые исключения.</MTC.obeyGuestExceptions>
+	<!-- If this is checked, work types that forbid guests (slaves) from working will be obeyed. -->
+	<MTC.obeyGuestExceptionsTip>Будут выполняться только разрешенные гостям (рабам) работы.</MTC.obeyGuestExceptionsTip>
+
+	<!-- Hated work types -->
+	<MTC.IncapableOf>Ненавистная работа</MTC.IncapableOf>
+	<!-- {0} hates doing this kind of work. -->
+	<MTC.CannotDoThisWork>{0} ненавидит заниматься такого рода работой.</MTC.CannotDoThisWork>
+
+	<!-- Cannot prioritize (non-violent pawn not assigned a weapon) -->
+	<MTC.CannotPrioritizeWorkGiverDisabled>Не удается расставить приоритеты (ненасильственной пешке не назначено оружие)</MTC.CannotPrioritizeWorkGiverDisabled>
+	<!-- Cannot prioritize (pawn hates and/or is not assigned to {0}) -->
+	<MTC.CannotPrioritizeNotAssignedToWorkType>Не удается установить приоритет (пешка ненавидит и/или ей не назначено {0})</MTC.CannotPrioritizeNotAssignedToWorkType>
+	<!-- {0} is non-violent and not assigned a weapon -->
+	<MTC.IsIncapableOfViolenceLower>{0} является пацифистом и не имеет оружия</MTC.IsIncapableOfViolenceLower>
+
+	<!-- Bad work assignment -->
+	<MTC.BadWorkAssignment.Label>Ненавистное рабочее задание</MTC.BadWorkAssignment.Label>
+	<!-- At least one pawn has been assigned to a hated work type. In the short term, this probably isn't a problem, but over time, it could lead to extreme unhappiness. -->
+	<MTC.BadWorkAssignment.Explanation>По крайней мере, одна пешка была назначена на ненавистный тип работы. В краткосрочной перспективе это, вероятно, не проблема, но со временем это может привести к крайнему недовольству.</MTC.BadWorkAssignment.Explanation>
+
+	<!-- Non-violent pawn assigned a weapon -->
+	<MTC.AssignedAWeapon.Label>Ненасильственной пешке присвоено оружие</MTC.AssignedAWeapon.Label>
+	<!-- A pawn who detests violence has been assigned a weapon. In the short term, this probably isn't a problem, but over time, it could lead to extreme unhappiness. -->
+	<MTC.AssignedAWeapon.Explanation>Пешка, которая ненавидит насилие, получила оружие. В краткосрочной перспективе это, вероятно, не проблема, но со временем это может привести к крайнему недовольству.</MTC.AssignedAWeapon.Explanation>
+</LanguageData>

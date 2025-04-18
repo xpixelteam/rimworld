@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Crosstie -->
+  <BreadMoAM_Crosstie.label>枕木</BreadMoAM_Crosstie.label>
+  <!-- EN: A rail road crosstie placed under the railroad tracks. -->
+  <BreadMoAM_Crosstie.description>一条铁轨下的枕木。</BreadMoAM_Crosstie.description>
+  
+  <!-- EN: Rail -->
+  <BreadMoAM_Rail.label>铁轨</BreadMoAM_Rail.label>
+  <!-- EN: Common, rather rusty railway track. -->
+  <BreadMoAM_Rail.description>铁路轨道。</BreadMoAM_Rail.description>
+  
+</LanguageData>

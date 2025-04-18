@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Common/Defs/RecipeDefs/Recipes_Stonecutting_CCP_Stone_Tweaks.xml-->
+                                 <!-- make pink marble blocks x3 -->
+<Make_StoneBlocksBulkPinkMarble.label>Сделать блоки розового кварца x3</Make_StoneBlocksBulkPinkMarble.label>
+                                       <!-- Cuts pink marble chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkPinkMarble.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkPinkMarble.description>
+                                     <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkPinkMarble.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkPinkMarble.jobString>
+                                  <!-- make blue granite blocks x3 -->
+<Make_StoneBlocksBulkBlueGranite.label>Сделать блоки голубого гранита x3</Make_StoneBlocksBulkBlueGranite.label>
+                                        <!-- Cuts blue granite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkBlueGranite.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkBlueGranite.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkBlueGranite.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkBlueGranite.jobString>
+                                  <!-- make green marble blocks x3 -->
+<Make_StoneBlocksBulkGreenMarble.label>Сделать блоки зеленого мрамора x3</Make_StoneBlocksBulkGreenMarble.label>
+                                        <!-- Cuts green marble chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkGreenMarble.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkGreenMarble.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkGreenMarble.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkGreenMarble.jobString>
+
+</LanguageData>

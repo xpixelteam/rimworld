@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef>
+        <defName>BundleAGraphics</defName>
+        <targetDef>BundleA</targetDef>
+        <showContainedItems>false</showContainedItems>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Bundle/Bundle_A</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(1.08,1.08)</drawSize>
+                    <drawRotated>false</drawRotated>
+                    <shaderType>CutoutComplex</shaderType>
+                </graphicData>
+            </li>
+        </graphics>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

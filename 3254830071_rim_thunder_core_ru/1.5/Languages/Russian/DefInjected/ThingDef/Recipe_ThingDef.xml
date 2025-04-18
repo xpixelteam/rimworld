@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\Base\Recipe.xml-->
+	<!--                 EN: fueling compoment -->
+	<ComponentFuelTank.label>заправочный компонент</ComponentFuelTank.label>
+	<!--                       EN: metal parts such as fuel tank, carburetor, fuel pump and filter that is necessary for a fuel powered vehicle. -->
+	<ComponentFuelTank.description>металлические детали, такие как топливный бак, карбюратор, топливный насос и фильтр, необходимые для автомобиля, работающего на топливе.</ComponentFuelTank.description>
+	
+	<!--                     EN: transmisson compoment -->
+	<ComponentTransmission.label>трансмиссионный компонент</ComponentTransmission.label>
+	<!--                           EN: Metal parts such as driveshafts, gearboxes, differentials and planetary gears that are necessary to transmit torque. -->
+	<ComponentTransmission.description>Металлические детали, такие как приводные валы, коробки передач, дифференциалы и планетарные передачи, необходимые для передачи крутящего момента.</ComponentTransmission.description>
+</LanguageData>

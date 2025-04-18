@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<kathanon.FollowTheVein.MineFollowLabel>Выкопать жилу</kathanon.FollowTheVein.MineFollowLabel>
+	<kathanon.FollowTheVein.MineFollowDesc>Выкопать всю жилу материала. По мере горных работ, при открытии новых залежей материала, область копания обновляется.</kathanon.FollowTheVein.MineFollowDesc>
+	<kathanon.FollowTheVein.AllowRock>Разрешить обозначение породы</kathanon.FollowTheVein.AllowRock>
+</LanguageData>

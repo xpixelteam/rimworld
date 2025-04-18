@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Stoneborn - Dwarven Style Pack</name>
+	<author>DetVisor</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>vanillaexpanded.vfecore</li>
+		<li>det.stoneborn</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+		 <packageId>Ludeon.RimWorld.Ideology</packageId>
+		 <displayName>Ideology</displayName>
+		 <steamWorkshopUrl>https://store.steampowered.com/app/1392840/RimWorld__Ideology/</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+   <packageId>det.dwarvenstyle</packageId>
+	<description>Adds an indepth dwarven ideology style for stoneborn colonies.</description>
+</ModMetaData>

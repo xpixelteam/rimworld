@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>BarrelA</defName>
+        <label>Barrel A</label>
+        <graphicData>
+            <texPath>Barrel/Barrel_A</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1.75,1.75)</drawSize>
+            <drawRotated>false</drawRotated>
+        </graphicData>
+        <description>A barrel that can store a range of items. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 8\n\nRotate to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Barrel/Barrel_A_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(1,1)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0.7</Beauty>
+            <MaxHitPoints>30</MaxHitPoints>
+            <WorkToBuild>650</WorkToBuild>
+            <Flammability>1</Flammability>
+            <Mass>10</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>25</costStuffCount>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>8</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Root</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <paintable>true</paintable>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

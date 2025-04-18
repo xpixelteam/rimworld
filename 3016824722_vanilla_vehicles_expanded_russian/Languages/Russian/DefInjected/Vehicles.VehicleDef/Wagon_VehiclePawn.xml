@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Wagon.label>Универсал</VVE_Wagon.label>
+  <VVE_Wagon.description>Универсальное многоцелевое транспортное средство, Универсал хорошо себя проявляет во всех категориях с хорошей грузоподъёмностью и вместимостью пассажиров. Лучше всего подходит для ровных дорог и будет испытывать некоторые трудности на холмах, снегу или зимних плитках.\n\nПодобно другим транспортным средствам 2-го уровня, это имеет двойную топливную эффективность на мировой карте, что делает их более эффективными, чем транспортные средства 1-го уровня. Они также менее заметны благодаря улучшенной производительности.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x3\n&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химтопливо</VVE_Wagon.description>
+  <VVE_Wagon.properties.roles.0.label>Водитель</VVE_Wagon.properties.roles.0.label>
+  <VVE_Wagon.properties.roles.1.label>Пассажир</VVE_Wagon.properties.roles.1.label>
+  <VVE_Wagon.components.0.label>Двигатель</VVE_Wagon.components.0.label>
+  <VVE_Wagon.components.1.label>Переднее левое колесо</VVE_Wagon.components.1.label>
+  <VVE_Wagon.components.2.label>Переднее правое колесо</VVE_Wagon.components.2.label>
+  <VVE_Wagon.components.3.label>Заднее левое колесо</VVE_Wagon.components.3.label>
+  <VVE_Wagon.components.4.label>Заднее правое колесо</VVE_Wagon.components.4.label>
+  <VVE_Wagon.components.5.label>Передняя левая подвеска</VVE_Wagon.components.5.label>
+  <VVE_Wagon.components.6.label>Передняя правая подвеска</VVE_Wagon.components.6.label>
+  <VVE_Wagon.components.7.label>Задняя левая подвеска</VVE_Wagon.components.7.label>
+  <VVE_Wagon.components.8.label>Задняя правая подвеска</VVE_Wagon.components.8.label>
+  <VVE_Wagon.components.9.label>Коробка передач</VVE_Wagon.components.9.label>
+  <VVE_Wagon.components.10.label>Левая боковая панель</VVE_Wagon.components.10.label>
+  <VVE_Wagon.components.11.label>Правая боковая панель</VVE_Wagon.components.11.label>
+  <VVE_Wagon.components.12.label>Химтопливный бак</VVE_Wagon.components.12.label>
+  <VVE_Wagon.components.13.label>Передний бампер</VVE_Wagon.components.13.label>
+  <VVE_Wagon.components.14.label>Задний бампер</VVE_Wagon.components.14.label>
+  <VVE_Wagon.components.15.label>Обивка</VVE_Wagon.components.15.label>
+  <VVE_Wagon.components.16.label>Приборная панель</VVE_Wagon.components.16.label>
+  <VVE_Wagon.components.17.label>Рулевое устройство</VVE_Wagon.components.17.label>
+  <VVE_Wagon.components.18.label>Генератор</VVE_Wagon.components.18.label>
+  <VVE_Wagon.components.19.label>Капот</VVE_Wagon.components.19.label>
+  <VVE_Wagon.components.20.label>Крыша</VVE_Wagon.components.20.label>
+
+
+</LanguageData>

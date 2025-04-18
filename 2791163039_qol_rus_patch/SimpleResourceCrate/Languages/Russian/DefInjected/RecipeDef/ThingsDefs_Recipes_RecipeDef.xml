@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/ThingsDefs_Recipes.xml-->
+                        <!-- Распаковать ящик с WoodLog -->
+<JDSUnpackcrateWoodlog.label>Распаковать ящик с Деревом</JDSUnpackcrateWoodlog.label>
+                            <!-- Unpacking WoodLog Crate. -->
+<JDSUnpackcrateWoodlog.jobString>Распаковка ящика с Деревом</JDSUnpackcrateWoodlog.jobString>
+                      <!-- Распаковать ящик с Steel -->
+<JDSUnpackcrateSteel.label>Распаковать ящик со Сталью</JDSUnpackcrateSteel.label>
+                          <!-- Unpacking Steel Crate. -->
+<JDSUnpackcrateSteel.jobString>Распаковка ящика со Сталью</JDSUnpackcrateSteel.jobString>
+                     <!-- Распаковать ящик с Gold -->
+<JDSUnpackcrateGold.label>Распаковать ящик с Золотом</JDSUnpackcrateGold.label>
+                         <!-- Unpacking Gold Crate. -->
+<JDSUnpackcrateGold.jobString>Распаковка ящика с Золотом</JDSUnpackcrateGold.jobString>
+                     <!-- Распаковать ящик с Jade -->
+<JDSUnpackcrateJade.label>Распаковать ящик с Нефритом</JDSUnpackcrateJade.label>
+                         <!-- Unpacking Jade Crate. -->
+<JDSUnpackcrateJade.jobString>Распаковка ящика с Нефритом</JDSUnpackcrateJade.jobString>
+                         <!-- Распаковать ящик с Plasteel -->
+<JDSUnpackcratePlasteel.label>Распаковать ящик с Пласталью</JDSUnpackcratePlasteel.label>
+                             <!-- Unpacking Plasteel Crate. -->
+<JDSUnpackcratePlasteel.jobString>Распаковка ящика с Пласталью</JDSUnpackcratePlasteel.jobString>
+                        <!-- Распаковать ящик с Uranium -->
+<JDSUnpackcrateUranium.label>Распаковать ящик с Ураном</JDSUnpackcrateUranium.label>
+                            <!-- Unpacking Uranium Crate. -->
+<JDSUnpackcrateUranium.jobString>Распаковка ящика с Ураном</JDSUnpackcrateUranium.jobString>
+                      <!-- Распаковать ящик с Cloth -->
+<JDSUnpackcrateCloth.label>Распаковать ящик с Тканью</JDSUnpackcrateCloth.label>
+                          <!-- Unpacking Cloth Crate. -->
+<JDSUnpackcrateCloth.jobString>Распаковка ящика с Тканью</JDSUnpackcrateCloth.jobString>
+                          <!-- Распаковать ящик с Synthread -->
+<JDSUnpackcrateSynthread.label>Распаковать ящик с Синтканью</JDSUnpackcrateSynthread.label>
+                              <!-- Unpacking Synthread Crate. -->
+<JDSUnpackcrateSynthread.jobString>Распаковка ящика с Синтканью</JDSUnpackcrateSynthread.jobString>
+                                 <!-- Распаковать ящик с Devilstrand -->
+<JDSUnpackcrateDevilstrandCloth.label>Распаковать ящик с Дьявлонитником</JDSUnpackcrateDevilstrandCloth.label>
+                                     <!-- Unpacking DevilstrandCloth Crate. -->
+<JDSUnpackcrateDevilstrandCloth.jobString>Распаковка ящика с Дьявлонитником</JDSUnpackcrateDevilstrandCloth.jobString>
+                           <!-- Распаковать ящик с Hyperweave -->
+<JDSUnpackcrateHyperweave.label>Распаковать ящик с Гипертканью</JDSUnpackcrateHyperweave.label>
+                               <!-- Unpacking Hyperweave Crate. -->
+<JDSUnpackcrateHyperweave.jobString>Распаковка ящика с Гипертканью</JDSUnpackcrateHyperweave.jobString>
+                             <!-- Распаковать ящик с Plain Leather -->
+<JDSUnpackcrateLeatherPlain.label>Распаковать ящик с Кожей</JDSUnpackcrateLeatherPlain.label>
+                                 <!-- Unpacking Plain Leather Crate. -->
+<JDSUnpackcrateLeatherPlain.jobString>Распаковка ящика с Кожей</JDSUnpackcrateLeatherPlain.jobString>
+                             <!-- Распаковать ящик с Human Leather -->
+<JDSUnpackcrateLeatherHuman.label>Распаковать ящик с Человеческой Кожей</JDSUnpackcrateLeatherHuman.label>
+                                 <!-- Unpacking Leather Human Crate. -->
+<JDSUnpackcrateLeatherHuman.jobString>Распаковка ящика с Человеческой Кожей</JDSUnpackcrateLeatherHuman.jobString>
+                             <!-- Распаковать ящик с light Leather -->
+<JDSUnpackcrateLeatherLight.label>Распаковать ящик с Легкой Кожей</JDSUnpackcrateLeatherLight.label>
+                                 <!-- Unpacking Leather Human Crate. -->
+<JDSUnpackcrateLeatherLight.jobString>Распаковка ящика с Легкой Кожей</JDSUnpackcrateLeatherLight.jobString>
+                             <!-- Распаковать ящик с Heavy Leather -->
+<JDSUnpackcrateLeatherHeavy.label>Распаковать ящик с Толстой Шкурой</JDSUnpackcrateLeatherHeavy.label>
+                                 <!-- Unpacking Leather Heavy Crate. -->
+<JDSUnpackcrateLeatherHeavy.jobString>Распаковка ящика с Толстой Шкурой</JDSUnpackcrateLeatherHeavy.jobString>
+                           <!-- Распаковать ящик с Components -->
+<JDSUnpackcrateIndustrial.label>Распаковать ящик с Компонентами</JDSUnpackcrateIndustrial.label>
+                               <!-- Unpacking Components Crate. -->
+<JDSUnpackcrateIndustrial.jobString>Распаковка ящика с Компонентами</JDSUnpackcrateIndustrial.jobString>
+                       <!-- Распаковать ящик с Advanced component -->
+<JDSUnpackcrateSpacer.label>Распаковать ящик с Продвинутыми Компонентами</JDSUnpackcrateSpacer.label>
+                           <!-- Unpacking Advanced component Crate. -->
+<JDSUnpackcrateSpacer.jobString>Распаковка ящика с Продвинутыми Компонентами</JDSUnpackcrateSpacer.jobString>
+                         <!-- Распаковать ящик с Chemfuel -->
+<JDSUnpackcrateChemfuel.label>Распаковать ящик с Химтопливом</JDSUnpackcrateChemfuel.label>
+                             <!-- Unpacking Chemfuel Crate. -->
+<JDSUnpackcrateChemfuel.jobString>Распаковка ящика с Химтопливом</JDSUnpackcrateChemfuel.jobString>
+                               <!-- Распаковать ящик с Medicine Herbal -->
+<JDSUnpackcrateMedicineHerbal.label>Распаковать ящик с Лечебными Травами</JDSUnpackcrateMedicineHerbal.label>
+                                   <!-- Unpacking Medicine Herbal Crate. -->
+<JDSUnpackcrateMedicineHerbal.jobString>Распаковка ящика с Лечебными Травами</JDSUnpackcrateMedicineHerbal.jobString>
+                         <!-- Распаковать ящик с Medicine -->
+<JDSUnpackcrateMedicine.label>Распаковать ящик с Медикаментами</JDSUnpackcrateMedicine.label>
+                             <!-- Unpacking Medicine Crate. -->
+<JDSUnpackcrateMedicine.jobString>Распаковка ящика с Медикаментами</JDSUnpackcrateMedicine.jobString>
+                                     <!-- Распаковать ящик с Glitterworld Medicine -->
+<JDSUnpackcrateGlitterworldMedicine.label>Распаковать ящик с Передовыми Медикаментами</JDSUnpackcrateGlitterworldMedicine.label>
+                                         <!-- Unpacking Glitterworld Medicine Crate. -->
+<JDSUnpackcrateGlitterworldMedicine.jobString>Распаковка ящика с Передовыми Медикаментами</JDSUnpackcrateGlitterworldMedicine.jobString>
+                       <!-- Распаковать ящик с Silver -->
+<JDSUnpackcrateSilver.label>Распаковать ящик с Серебром</JDSUnpackcrateSilver.label>
+                           <!-- Unpacking Silver Crate. -->
+<JDSUnpackcrateSilver.jobString>Распаковка ящика с Серебром</JDSUnpackcrateSilver.jobString>
+
+</LanguageData>

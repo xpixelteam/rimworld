@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc -->
+
+  <Hyper_SmoothSandstone.label>гладкий песчаник</Hyper_SmoothSandstone.label>
+  <Hyper_SmoothSandstone.description>Гладкий каменный пол. Красиво на вид, но на постройку требуется некоторое время.</Hyper_SmoothSandstone.description>
+
+  <Hyper_SmoothGranite.label>гладкий гранит</Hyper_SmoothGranite.label>
+  <Hyper_SmoothGranite.description>Гладкий каменный пол. Красиво на вид, но на постройку требуется некоторое время.</Hyper_SmoothGranite.description>
+
+  <Hyper_SmoothLimestone.label>гладкий известняк</Hyper_SmoothLimestone.label>
+  <Hyper_SmoothLimestone.description>Гладкий каменный пол. Красиво на вид, но на постройку требуется некоторое время.</Hyper_SmoothLimestone.description>
+
+  <Hyper_SmoothSlate.label>гладкий сланец</Hyper_SmoothSlate.label>
+  <Hyper_SmoothSlate.description>Гладкий каменный пол. Красиво на вид, но на постройку требуется некоторое время.</Hyper_SmoothSlate.description>
+
+  <Hyper_SmoothMarble.label>гладкий мрамор</Hyper_SmoothMarble.label>
+  <Hyper_SmoothMarble.description>Гладкий каменный пол. Красиво на вид, но на постройку требуется некоторое время.</Hyper_SmoothMarble.description>
+
+
+</LanguageData>

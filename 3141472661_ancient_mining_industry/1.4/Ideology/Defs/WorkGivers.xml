@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef>
+		<defName>BreadMo_QuestScan</defName>
+		<label>operate ancient detection scanner</label>
+		<giverClass>WorkGiver_OperateScanner</giverClass>
+		<workType>Research</workType>
+		<priorityInType>50</priorityInType>
+		<verb>scan</verb>
+		<gerund>scanning at</gerund>
+		<scannerDef>BreadMo_AncientRemoteMineralScanners</scannerDef>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BreadMo_AncientRemoteMineralScanners</defName>
+		<label>Ancient detection scanner</label>
+		<description>An ancient detection scanner commonly used to scan minerals and assist in locating large underground equipment. Due to the loss of key technologies, Reproductions made by colonizers often made some errors during scanning.</description>
+		<uiIconPath>Things/Building/Props/Scaner</uiIconPath>
+		<uiIconScale>1.2</uiIconScale>
+		<graphicData>
+			<texPath>Things/Building/Props/ANScaner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4, 4)</drawSize>
+			<shadowData>
+				<volume>(1.4, 0.4, 1.4)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>700</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="AncientMining.CompProperties_QuestScanner">
+				<scanSpeedStat>ResearchSpeed</scanSpeedStat>
+				<scanFindMtbDays>4</scanFindMtbDays>
+				<scanFindGuaranteedDays>8</scanFindGuaranteedDays>
+				<soundWorking>ScannerLongRangeMineral_Ambience</soundWorking>
+				<unselectedTexPath>World/WorldObjects/Sites/Outpost</unselectedTexPath>
+				<unselectedString>Unselected</unselectedString>
+				<skill>Intellectual</skill>
+				<quests>
+					<li>
+						<quest>Scan_AbandonedUraniumMiningSite</quest>
+						<texPath>Icon/AbandonedUraniumMiningSite</texPath>
+						<questTypeName>Abandoned Uranium Mining Site</questTypeName>
+					</li>
+					<li>
+						<quest>Scan_AbandonedSteelMineSite</quest>
+						<texPath>Icon/AbandonedSteelMineSite</texPath>
+						<questTypeName>Abandoned Steel Mine Site</questTypeName>
+					</li>
+					<li>
+						<quest>Scan_AbandonedPlasteelMineSite</quest>
+						<texPath>Icon/AbandonedPlasteelMineSite</texPath>
+						<questTypeName>Abandoned Plasteel Mine Site</questTypeName>
+					</li>
+					<li>
+						<quest>Scan_AncientOpenPitMiningSite</quest>
+						<texPath>Icon/AncientOpenPitMiningSite</texPath>
+						<questTypeName>Ancient Open Pit Mining Site</questTypeName>
+					</li>
+					<li>
+						<quest>Scan_AncientShieldMiningSite</quest>
+						<texPath>Icon/AncientShieldMiningSite</texPath>
+						<questTypeName>Ancient Shield Mining Site</questTypeName>
+					</li>
+					<li>
+						<quest>Scan_AncientTunnelRuins</quest>
+						<texPath>Icon/AncientTunnelRuins</texPath>
+						<questTypeName>Ancient Tunnel Ruins</questTypeName>
+					</li>
+					<li>
+						<quest>Scan_MineralScreeningStation</quest>
+						<texPath>Icon/AbandonedMineralSeparationPlant</texPath>
+						<questTypeName>Mineral Screening Station</questTypeName>
+					</li>
+					<li>
+						<quest>Scan_AbandonedMine</quest>
+						<texPath>Icon/AbandonedMine</texPath>
+						<questTypeName>Abandoned Mine</questTypeName>
+					</li>
+				</quests>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<altitudeLayer>Building</altitudeLayer>
+		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>-8</Beauty>
+		</statBases>
+		<fillPercent>0.40</fillPercent>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<designationCategory>Misc</designationCategory>
+		<rotatable>false</rotatable>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<interactionCellIcon>DiningChair</interactionCellIcon>
+		<interactionCellIconReverse>true</interactionCellIconReverse>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<canOverlapZones>false</canOverlapZones>
+		<size>(3, 3)</size>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+</Defs>

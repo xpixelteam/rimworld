@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 古代探测扫描仪（蓝图） -->
+  <Blueprint_BreadMo_AncientRemoteMineralScanners.label>Ancient detection scanners (blueprint)</Blueprint_BreadMo_AncientRemoteMineralScanners.label>
+  
+  <!-- EN: 自动钻井（蓝图） -->
+  <Blueprint_BreadMoAM_AutomaticDrillingRig.label>Automatic Drilling Rig (blueprint)</Blueprint_BreadMoAM_AutomaticDrillingRig.label>
+  
+  <!-- EN: 电气设备（蓝图） -->
+  <Blueprint_BreadMoAM_ElectricalEquipment.label>Electrical Equipment (blueprint)</Blueprint_BreadMoAM_ElectricalEquipment.label>
+  
+  <!-- EN: 矿物输送机（蓝图） -->
+  <Blueprint_BreadMoAM_MineralConveyor.label>Mineral Conveyor (blueprint)</Blueprint_BreadMoAM_MineralConveyor.label>
+  
+  <!-- EN: 矿产出口（蓝图） -->
+  <Blueprint_BreadMoAM_MineralExports.label>Mineral Exports (blueprint)</Blueprint_BreadMoAM_MineralExports.label>
+  
+  <!-- EN: 选矿机（蓝图） -->
+  <Blueprint_BreadMoAM_OreDressingMachine.label>Ore Dressing Machine (blueprint)</Blueprint_BreadMoAM_OreDressingMachine.label>
+  
+  <!-- EN: 隧道盾构机（蓝图） -->
+  <Blueprint_BreadMoAM_TunnelBoringMachine.label>Tunnel Boring Machine (blueprint)</Blueprint_BreadMoAM_TunnelBoringMachine.label>
+  
+  <!-- EN: 隧道结构支护（蓝图） -->
+  <Blueprint_BreadMoAM_TunnelStructuralSupport_a.label>Tunnel Structural Support (blueprint)</Blueprint_BreadMoAM_TunnelStructuralSupport_a.label>
+  
+  <!-- EN: 隧道结构支护（蓝图） -->
+  <Blueprint_BreadMoAM_TunnelStructuralSupport_b.label>Tunnel Structural Support (blueprint)</Blueprint_BreadMoAM_TunnelStructuralSupport_b.label>
+  
+  <!-- EN: 大型霰弹炮塔（蓝图） -->
+  <Blueprint_BreadMoAM_Turret_LargeShotgun.label>large shotgun turret (blueprint)</Blueprint_BreadMoAM_Turret_LargeShotgun.label>
+  
+  <!-- EN: 小型霰弹炮塔（蓝图） -->
+  <Blueprint_BreadMoAM_Turret_ShotgunTurretN.label>Mini Shotgun Turret (blueprint)</Blueprint_BreadMoAM_Turret_ShotgunTurretN.label>
+  
+  <!-- EN: 古代自动钻井（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientAutomaticDrillingRig.label>Ancient Automatic Drilling Rig (blueprint)</Blueprint_Install_BreadMoAM_AncientAutomaticDrillingRig.label>
+  
+  <!-- EN: 古代道闸（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientBarrierGate.label>Ancient Barrier Gate (blueprint)</Blueprint_Install_BreadMoAM_AncientBarrierGate.label>
+  
+  <!-- EN: 古代电气设备（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientElectricalEquipment.label>Ancient Electrical Equipment (blueprint)</Blueprint_Install_BreadMoAM_AncientElectricalEquipment.label>
+  
+  <!-- EN: 古代空矿车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientEmptyMiningCar.label>Ancient Empty Mining Car (blueprint)</Blueprint_Install_BreadMoAM_AncientEmptyMiningCar.label>
+  
+  <!-- EN: 古代巨型挖掘机斗轮（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientExcavatorBucketWheel.label>Ancient Excavator Bucket Wheel (blueprint)</Blueprint_Install_BreadMoAM_AncientExcavatorBucketWheel.label>
+  
+  <!-- EN: 古代挖掘机动力设施（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientExcavatorPowerFacilities.label>Ancient Excavator Power Facilities (blueprint)</Blueprint_Install_BreadMoAM_AncientExcavatorPowerFacilities.label>
+  
+  <!-- EN: 古代巨型岩石挖掘机底盘（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientGiantRockExcavator.label>Ancient Giant Rock Excavator Chassis (blueprint)</Blueprint_Install_BreadMoAM_AncientGiantRockExcavator.label>
+  
+  <!-- EN: 古代室内消防栓（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientIndoorFireHydrants.label>Ancient Indoor Fire Hydrants (blueprint)</Blueprint_Install_BreadMoAM_AncientIndoorFireHydrants.label>
+  
+  <!-- EN: 古代矿物输送机（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientMineralConveyor.label>Ancient Mineral Conveyor (blueprint)</Blueprint_Install_BreadMoAM_AncientMineralConveyor.label>
+  
+  <!-- EN: 古代矿产出口（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientMineralExports.label>Ancient Mineral Exports (blueprint)</Blueprint_Install_BreadMoAM_AncientMineralExports.label>
+  
+  <!-- EN: 古代泥矿车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientMudCarriage.label>Ancient Mud Carriage (blueprint)</Blueprint_Install_BreadMoAM_AncientMudCarriage.label>
+  
+  <!-- EN: 古代选矿机（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientOreDressingMachine.label>Ancient Ore Dressing Machine (blueprint)</Blueprint_Install_BreadMoAM_AncientOreDressingMachine.label>
+  
+  <!-- EN: 古代玻璃钢矿车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientPlasteelMiningCars.label>Ancient Plasteel Mining Car (blueprint)</Blueprint_Install_BreadMoAM_AncientPlasteelMiningCars.label>
+  
+  <!-- EN: 古代岩石矿车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientRockMiningCar.label>Ancient Rock Mining Car (blueprint)</Blueprint_Install_BreadMoAM_AncientRockMiningCar.label>
+  
+  <!-- EN: 古代锈蚀卡车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientRustedTruck.label>Ancient Rusted Truck (blueprint)</Blueprint_Install_BreadMoAM_AncientRustedTruck.label>
+  
+  <!-- EN: 古代半挂车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientSemiTrailer.label>Ancient Semi Trailer (blueprint)</Blueprint_Install_BreadMoAM_AncientSemiTrailer.label>
+  
+  <!-- EN: 古代钢铁矿车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientSteelMiningCars.label>Ancient Steel Mining Car (blueprint)</Blueprint_Install_BreadMoAM_AncientSteelMiningCars.label>
+  
+  <!-- EN: 古代卡车车厢（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientTruckCompartment.label>Ancient Truck Compartment (blueprint)</Blueprint_Install_BreadMoAM_AncientTruckCompartment.label>
+  
+  <!-- EN: 古代隧道盾构机（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientTunnelBoringMachine.label>Ancient Tunnel Boring Machine (blueprint)</Blueprint_Install_BreadMoAM_AncientTunnelBoringMachine.label>
+  
+  <!-- EN: 古代隧道结构支护（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientTunnelStructuralSupport_a.label>Ancient Tunnel Structural Support (blueprint)</Blueprint_Install_BreadMoAM_AncientTunnelStructuralSupport_a.label>
+  
+  <!-- EN: 古代隧道结构支护（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientTunnelStructuralSupport_b.label>Ancient Tunnel Structural Support (blueprint)</Blueprint_Install_BreadMoAM_AncientTunnelStructuralSupport_b.label>
+  
+  <!-- EN: 古代隧道结构支护（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientTunnelStructuralSupport_c.label>Ancient Tunnel Structural Support (blueprint)</Blueprint_Install_BreadMoAM_AncientTunnelStructuralSupport_c.label>
+  
+  <!-- EN: 古代铀矿车（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AncientUraniumMiningCars.label>Ancient Uranium Mining Car (blueprint)</Blueprint_Install_BreadMoAM_AncientUraniumMiningCars.label>
+  
+  <!-- EN: 自动钻井（蓝图） -->
+  <Blueprint_Install_BreadMoAM_AutomaticDrillingRig.label>Automatic Drilling Rig (blueprint)</Blueprint_Install_BreadMoAM_AutomaticDrillingRig.label>
+  
+  <!-- EN: 电气设备（蓝图） -->
+  <Blueprint_Install_BreadMoAM_ElectricalEquipment.label>Electrical Equipment (blueprint)</Blueprint_Install_BreadMoAM_ElectricalEquipment.label>
+  
+  <!-- EN: 矿物输送机（蓝图） -->
+  <Blueprint_Install_BreadMoAM_MineralConveyor.label>Mineral Conveyor (blueprint)</Blueprint_Install_BreadMoAM_MineralConveyor.label>
+  
+  <!-- EN: 矿产出口（蓝图） -->
+  <Blueprint_Install_BreadMoAM_MineralExports.label>Mineral Exports (blueprint)</Blueprint_Install_BreadMoAM_MineralExports.label>
+  
+  <!-- EN: 选矿机（蓝图） -->
+  <Blueprint_Install_BreadMoAM_OreDressingMachine.label>Ore Dressing Machine (blueprint)</Blueprint_Install_BreadMoAM_OreDressingMachine.label>
+  
+  <!-- EN: 隧道盾构机（蓝图） -->
+  <Blueprint_Install_BreadMoAM_TunnelBoringMachine.label>Tunnel Boring Machine (blueprint)</Blueprint_Install_BreadMoAM_TunnelBoringMachine.label>
+  
+  <!-- EN: 隧道结构支护（蓝图） -->
+  <Blueprint_Install_BreadMoAM_TunnelStructuralSupport_a.label>Tunnel Structural Support (blueprint)</Blueprint_Install_BreadMoAM_TunnelStructuralSupport_a.label>
+  
+  <!-- EN: 隧道结构支护（蓝图） -->
+  <Blueprint_Install_BreadMoAM_TunnelStructuralSupport_b.label>Tunnel Structural Support (blueprint)</Blueprint_Install_BreadMoAM_TunnelStructuralSupport_b.label>
+  
+  <!-- EN: 大型霰弹炮塔（蓝图） -->
+  <Blueprint_Install_BreadMoAM_Turret_LargeShotgun.label>large shotgun turret (blueprint)</Blueprint_Install_BreadMoAM_Turret_LargeShotgun.label>
+  
+  <!-- EN: 古代小型霰弹炮塔（蓝图） -->
+  <Blueprint_Install_BreadMoAM_Turret_ShotgunTurret.label>Ancient Mini Shotgun Turret (blueprint)</Blueprint_Install_BreadMoAM_Turret_ShotgunTurret.label>
+  
+  <!-- EN: 小型霰弹炮塔（蓝图） -->
+  <Blueprint_Install_BreadMoAM_Turret_ShotgunTurretN.label>Mini Shotgun Turret (blueprint)</Blueprint_Install_BreadMoAM_Turret_ShotgunTurretN.label>
+  
+  <!-- EN: 警告牌（蓝图） -->
+  <Blueprint_Install_BreadMoAM_WarningBoard.label>Warning Board (blueprint)</Blueprint_Install_BreadMoAM_WarningBoard.label>
+  
+  <!-- EN: 古代探测扫描仪（建造中） -->
+  <Frame_BreadMo_AncientRemoteMineralScanners.label>Ancient detection scanners (building)</Frame_BreadMo_AncientRemoteMineralScanners.label>
+  <!-- EN: 一种古老的探测扫描仪，通常用于扫描矿物并帮助定位大型地下设备。由于关键技术的丢失，殖民者建造的复制品在扫描过程中经常会出现一些错误。 -->
+  <Frame_BreadMo_AncientRemoteMineralScanners.description>一种古老的探测扫描仪，通常用于扫描矿物并帮助定位大型地下设备。由于关键技术的丢失，殖民者建造的复制品在扫描过程中经常会出现一些错误。</Frame_BreadMo_AncientRemoteMineralScanners.description>
+  
+  <!-- EN: 自动钻井（建造中） -->
+  <Frame_BreadMoAM_AutomaticDrillingRig.label>Automatic Drilling Rig (building)</Frame_BreadMoAM_AutomaticDrillingRig.label>
+  <!-- EN: 被设计用于自动开采矿物的自动钻井，只要有电力支持，它就可以24小时不间断地挖掘已经探明的矿物。 -->
+  <Frame_BreadMoAM_AutomaticDrillingRig.description>被设计用于自动开采矿物的自动钻井，只要有电力支持，它就可以24小时不间断地挖掘已经探明的矿物。</Frame_BreadMoAM_AutomaticDrillingRig.description>
+  
+  <!-- EN: 电气设备（建造中） -->
+  <Frame_BreadMoAM_ElectricalEquipment.label>Electrical Equipment (building)</Frame_BreadMoAM_ElectricalEquipment.label>
+  <!-- EN: 古代隧道掘进机中使用的电气设备。能够将电力转换为液压动力，为隧道掘进机提供能量。 -->
+  <Frame_BreadMoAM_ElectricalEquipment.description>古代隧道掘进机中使用的电气设备。能够将电力转换为液压动力，为隧道掘进机提供能量。</Frame_BreadMoAM_ElectricalEquipment.description>
+  
+  <!-- EN: 矿物输送机（建造中） -->
+  <Frame_BreadMoAM_MineralConveyor.label>Mineral Conveyor (building)</Frame_BreadMoAM_MineralConveyor.label>
+  <!-- EN: 一台矿石输送机。将矿物运输至选矿机或其他地点。 -->
+  <Frame_BreadMoAM_MineralConveyor.description>一台矿石输送机。将矿物运输至选矿机或其他地点。</Frame_BreadMoAM_MineralConveyor.description>
+  
+  <!-- EN: 矿产出口（建造中） -->
+  <Frame_BreadMoAM_MineralExports.label>Mineral Exports (building)</Frame_BreadMoAM_MineralExports.label>
+  <!-- EN: 一个矿产出口 -->
+  <Frame_BreadMoAM_MineralExports.description>一个矿产出口</Frame_BreadMoAM_MineralExports.description>
+  
+  <!-- EN: 选矿机（建造中） -->
+  <Frame_BreadMoAM_OreDressingMachine.label>Ore Dressing Machine (building)</Frame_BreadMoAM_OreDressingMachine.label>
+  <!-- EN: 选矿机。通过水洗和筛分，利用磁力从矿渣和块堆中筛选出有用的矿物。 -->
+  <Frame_BreadMoAM_OreDressingMachine.description>选矿机。通过水洗和筛分，利用磁力从矿渣和块堆中筛选出有用的矿物。</Frame_BreadMoAM_OreDressingMachine.description>
+  
+  <!-- EN: 隧道盾构机（建造中） -->
+  <Frame_BreadMoAM_TunnelBoringMachine.label>Tunnel Boring Machine (building)</Frame_BreadMoAM_TunnelBoringMachine.label>
+  <!-- EN: 一种可以同时进行挖掘工作和隧道施工的巨型隧道掘进机。它外表看起来像一只沙虫。它的运动就像地震，坚硬的钻盘可以摧毁它面前的一切。 -->
+  <Frame_BreadMoAM_TunnelBoringMachine.description>一种可以同时进行挖掘工作和隧道施工的巨型隧道掘进机。它外表看起来像一只沙虫。它的运动就像地震，坚硬的钻盘可以摧毁它面前的一切。</Frame_BreadMoAM_TunnelBoringMachine.description>
+  
+  <!-- EN: 隧道结构支护（建造中） -->
+  <Frame_BreadMoAM_TunnelStructuralSupport_a.label>Tunnel Structural Support (building)</Frame_BreadMoAM_TunnelStructuralSupport_a.label>
+  <!-- EN: 一种隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走。 -->
+  <Frame_BreadMoAM_TunnelStructuralSupport_a.description>一种隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走。</Frame_BreadMoAM_TunnelStructuralSupport_a.description>
+  
+  <!-- EN: 隧道结构支护（建造中） -->
+  <Frame_BreadMoAM_TunnelStructuralSupport_b.label>Tunnel Structural Support (building)</Frame_BreadMoAM_TunnelStructuralSupport_b.label>
+  <!-- EN: 一种隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走，该型号配有楼梯。 -->
+  <Frame_BreadMoAM_TunnelStructuralSupport_b.description>一种隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走，该型号配有楼梯。</Frame_BreadMoAM_TunnelStructuralSupport_b.description>
+  
+  <!-- EN: 大型霰弹炮塔（建造中） -->
+  <Frame_BreadMoAM_Turret_LargeShotgun.label>large shotgun turret (building)</Frame_BreadMoAM_Turret_LargeShotgun.label>
+  <!-- EN: 大口径霰弹炮塔，威力足以在中近距离构成破坏性威胁，能够轻易的贯穿昆虫的几丁质外壳，经常用于军事矿洞防御。 -->
+  <Frame_BreadMoAM_Turret_LargeShotgun.description>大口径霰弹炮塔，威力足以在中近距离构成破坏性威胁，能够轻易的贯穿昆虫的几丁质外壳，经常用于军事矿洞防御。</Frame_BreadMoAM_Turret_LargeShotgun.description>
+  
+  <!-- EN: 小型霰弹炮塔（建造中） -->
+  <Frame_BreadMoAM_Turret_ShotgunTurretN.label>Mini Shotgun Turret (building)</Frame_BreadMoAM_Turret_ShotgunTurretN.label>
+  <!-- EN: 一种便携式自动霰弹枪炮塔。大量使用后需要钢材来替换枪管。损坏时可能会爆炸。它愚蠢的ai大脑无法直接控制，所以要小心友军伤害。 -->
+  <Frame_BreadMoAM_Turret_ShotgunTurretN.description>一种便携式自动霰弹枪炮塔。大量使用后需要钢材来替换枪管。损坏时可能会爆炸。它愚蠢的ai大脑无法直接控制，所以要小心友军伤害。</Frame_BreadMoAM_Turret_ShotgunTurretN.description>
+  
+</LanguageData>

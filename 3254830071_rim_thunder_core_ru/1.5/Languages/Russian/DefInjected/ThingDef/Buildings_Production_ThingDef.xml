@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\Buildings\Buildings_Production.xml-->
+	
+	<!--                EN: assembly platfrom -->
+	<RT_AssemblyBench.label>монтажная платформа</RT_AssemblyBench.label>
+	<!--                      EN: A workbench with heavy equipment and tools for components assembly. -->
+	<RT_AssemblyBench.description>Верстак с тяжелым оборудованием и инструментами для сборки деталей.</RT_AssemblyBench.description>
+	
+	<!--                EN: assembly bridge crane -->
+	<RT_AssemblyCrane.label>монтажный мостовой кран</RT_AssemblyCrane.label>
+	<!--                      EN: A type of crane found in industrial environments, often used in the assembly and maintenance of heavy equipment and vehicles. -->
+	<RT_AssemblyCrane.description>Тип крана, применяемый в промышленных условиях, часто используется при сборке и обслуживании тяжелого оборудования и транспортных средств..</RT_AssemblyCrane.description>
+	
+	<!--                     EN: unfinished vehicle -->
+	<RTC_UnfinishedVehicle.label>недостроенный автомобиль</RTC_UnfinishedVehicle.label>
+	<!--                           EN: An unfinished vehicle's part and tools. -->
+	<RTC_UnfinishedVehicle.description>Незавершенная деталь автомобиля и инструменты.</RTC_UnfinishedVehicle.description>
+</LanguageData>

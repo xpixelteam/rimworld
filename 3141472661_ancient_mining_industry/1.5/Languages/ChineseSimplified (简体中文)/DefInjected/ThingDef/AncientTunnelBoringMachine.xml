@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient Electrical Appliances -->
+  <BreadMoAM_AncientElectricalEquipment.label>远古电气设备</BreadMoAM_AncientElectricalEquipment.label>
+  <!-- EN: Weathered electrical appliances once used in an ancient tunnel boring machines. Back in its haydays, it was capable of converting electricity into hydraulic power, thus powering up the drilling behemoth at one flick of switch. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientElectricalEquipment.description>远古隧道掘进机中使用的电气设备。能够将电力转换为液压动力，为盾构机提供能量，其核心部件已锈蚀和风化。也许销毁它可以帮助回收一些有用的材料。</BreadMoAM_AncientElectricalEquipment.description>
+  
+  <!-- EN: Ancient Mineral Conveyor -->
+  <BreadMoAM_AncientMineralConveyor.label>远古矿物输送机</BreadMoAM_AncientMineralConveyor.label>
+  <!-- EN: A torn ancient mineral conveyor once used for transporting minerals to beneficiation machines or any other locations of mind. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientMineralConveyor.description>一个古老的矿物输送机。将矿物运输到选矿机或其他地点，其核心部件已锈蚀和风化。也许摧毁它可以帮助回收一些有用的材料。</BreadMoAM_AncientMineralConveyor.description>
+  
+  <!-- EN: Ancient Mineral Outlet -->
+  <BreadMoAM_AncientMineralExports.label>远古矿产出口</BreadMoAM_AncientMineralExports.label>
+  <!-- EN: A piece of ancient mineral outlet. With its core components rusted and weathered, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientMineralExports.description>一个古老的矿物出口，其核心部件已经锈蚀和风化。也许摧毁它可以帮助回收一些有用的材料。</BreadMoAM_AncientMineralExports.description>
+  
+  <!-- EN: Ancient Tunnel Boring Machine -->
+  <BreadMoAM_AncientTunnelBoringMachine.label>远古隧道盾构机</BreadMoAM_AncientTunnelBoringMachine.label>
+  <!-- EN: The rusted, gigantic husk of an ancient tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, it was used to dig through the mountains in the mean time of building tunnels. Back into its haydays, every motion of this behemoth trembles the ground more like manmade earthquake, plus its imposing digging disk that could eat through any material with ease. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientTunnelBoringMachine.description>一种巨大的远古隧道掘进机，可以同时进行挖掘工作和隧道施工。它外表看起来像一只沙虫。它的运动就像地震，坚硬的钻盘可以挖出它面前的一切。它的核心部件已经丢失，也许摧毁它可以产生一些有用的材料。</BreadMoAM_AncientTunnelBoringMachine.description>
+  
+  <!-- EN: Ancient Structural Support -->
+  <BreadMoAM_AncientTunnelStructuralSupport_a.label>远古隧道结构支护</BreadMoAM_AncientTunnelStructuralSupport_a.label>
+  <!-- EN: A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientTunnelStructuralSupport_a.description>一种古老的隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走，其核心部件已锈蚀和风化。也许摧毁它可以帮助回收一些有用的材料。</BreadMoAM_AncientTunnelStructuralSupport_a.description>
+  
+  <!-- EN: Ancient Structural Support -->
+  <BreadMoAM_AncientTunnelStructuralSupport_b.label>远古隧道结构支护</BreadMoAM_AncientTunnelStructuralSupport_b.label>
+  <!-- EN: A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientTunnelStructuralSupport_b.description>一种古老的隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走。该模型配有楼梯，其核心部件已锈蚀和风化。也许摧毁它可以帮助回收一些有用的材料。</BreadMoAM_AncientTunnelStructuralSupport_b.description>
+  
+  <!-- EN: Ancient Structural Support -->
+  <BreadMoAM_AncientTunnelStructuralSupport_c.label>远古隧道结构支护</BreadMoAM_AncientTunnelStructuralSupport_c.label>
+  <!-- EN: A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientTunnelStructuralSupport_c.description>一种古老的隧道施工支撑架，用于支撑一系列隧道采矿设备，顶部有走廊供工人行走。该模型配有楼梯，其核心部件已锈蚀和风化。也许摧毁它可以帮助回收一些有用的材料。</BreadMoAM_AncientTunnelStructuralSupport_c.description>
+  
+</LanguageData>

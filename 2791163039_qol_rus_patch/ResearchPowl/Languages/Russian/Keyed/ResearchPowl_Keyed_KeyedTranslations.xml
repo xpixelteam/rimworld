@@ -1,0 +1,122 @@
+<LanguageData>
+	<ResearchPal.RClickInstaFinish>(DEBUG) ПКМ для мгновенного изучения</ResearchPal.RClickInstaFinish>
+	<ResearchPal.PreparingTree.Setup>Подготовка списка исследований</ResearchPal.PreparingTree.Setup>
+	<ResearchPal.PreparingTree.CrossingReduction>Уменьшение пересечений</ResearchPal.PreparingTree.CrossingReduction>
+	<ResearchPal.PreparingTree.Layout>Окончательная обработка слоев</ResearchPal.PreparingTree.Layout>
+	<ResearchPal.PreparingTree.RestoreQueue>Восстановление очереди</ResearchPal.PreparingTree.RestoreQueue>
+  
+	<ResearchPal>ResearchPowl</ResearchPal>
+
+	<ResearchPal.AllowsBuildingX>Позволяет строить {0}</ResearchPal.AllowsBuildingX>
+	<ResearchPal.AllowsCraftingX>Позволяет {0}</ResearchPal.AllowsCraftingX>
+	<ResearchPal.AllowsSowingXinY>Позволяет высаживать {0} in {1}</ResearchPal.AllowsSowingXinY>
+	<ResearchPal.AllowsPlantingX>Позволяет выращивать {0}</ResearchPal.AllowsPlantingX>
+	<ResearchPal.AllowGeneralX>Открывает {0}</ResearchPal.AllowGeneralX>
+	<ResearchPal.OtherPrerequisites>Другие предварительные условия: {0}</ResearchPal.OtherPrerequisites>
+
+	<ResearchPal.ShortcutManual>Нажмите Shift для отображения инструкции.</ResearchPal.ShortcutManual>
+	<ResearchPal.LClickReplaceQueue>ЛКМ для замены в очереди</ResearchPal.LClickReplaceQueue>
+	<ResearchPal.LClickRemoveFromQueue>ЛКМ для удаления из очереди</ResearchPal.LClickRemoveFromQueue>
+	<ResearchPal.SLClickAddToQueue>Shift+ЛКМ для добавления в очередь</ResearchPal.SLClickAddToQueue>
+	<ResearchPal.ALClickAddToQueue>Alt + Left-click для добавления в начало очереди.</ResearchPal.ALClickAddToQueue>
+	<ResearchPal.CLClickDebugInstant>(DEBUG) Ctrl + Left-click для мгновенного изучения.</ResearchPal.CLClickDebugInstant>
+	<ResearchPal.Drag>Перетащите, чтобы взаимодействовать с очередью исследований.</ResearchPal.Drag>
+	<ResearchPal.RightClickNode>Right-click для непрерывной подсветки.</ResearchPal.RightClickNode>
+	<ResearchPal.RightClickIcon>Right-click на значке предмета (или на значке с точками) для отображения подробной информации.</ResearchPal.RightClickIcon>
+
+
+	<ResearchPal.TechLevel>Тех уровень:</ResearchPal.TechLevel>
+	<ResearchPal.Requires>Требует</ResearchPal.Requires>
+	<ResearchPal.LeadsTo>Ведет к</ResearchPal.LeadsTo>
+	<ResearchPal.None>none</ResearchPal.None>
+	<ResearchPal.TechLevelTooLow>Технический уровень вашей фракции слишком низок ({0}), стоимость исследования умножается на {1} (от {2}).</ResearchPal.TechLevelTooLow>
+
+	<ResearchPal.QueuedNode>Уже в очереди</ResearchPal.QueuedNode>
+	<ResearchPal.MissingFacilities>Отсутствует {0}</ResearchPal.MissingFacilities>
+	<ResearchPal.MissingTechprints>Применены не все требуемые чертежи {0}/{1}</ResearchPal.MissingTechprints>
+
+	<ResearchPal.NoResearchFound>нечего исследовать</ResearchPal.NoResearchFound>
+	<ResearchPal.NothingQueued>исследований не назначено</ResearchPal.NothingQueued>
+	<ResearchPal.NextInQueue>Следующее на очереди: {0}</ResearchPal.NextInQueue>
+
+	<ResearchPal.BuildingResearchTree>Создание дерева исследований</ResearchPal.BuildingResearchTree>
+	<ResearchPal.BuildingResearchTreeAsync>Создавать дерево исследований на заднем плане</ResearchPal.BuildingResearchTreeAsync>
+
+	<ResearchPal.ResetLayout>Перестроить макет дерева исследований</ResearchPal.ResetLayout>
+	<ResearchPal.LayoutRegenerated>Макет дерева исследований перестроен</ResearchPal.LayoutRegenerated>
+
+	<ResearchPal.ShowNotificationPopup>Показывать всплывающее уведомление</ResearchPal.ShowNotificationPopup>
+	<ResearchPal.ShowNotificationPopupTip>Всякий раз, когда вы заканчиваете исследование, ставить на паузу и показывать уведомление по умолчанию.</ResearchPal.ShowNotificationPopupTip>
+	
+	<ResearchPal.ShouldSeparateByTechLevels>Организовать по техническому уровню</ResearchPal.ShouldSeparateByTechLevels>
+	<ResearchPal.ShouldSeparateByTechLevelsTip>Разделить дерево на технические уровни. Отключите это для более плотного расположения.</ResearchPal.ShouldSeparateByTechLevelsTip>
+	
+	<ResearchPal.ShouldPauseOnOpen>Пауза при откытии дерева исследований</ResearchPal.ShouldPauseOnOpen>
+	<ResearchPal.ShouldPauseOnOpenTip>Приостановить игру, когда открывается вкладка "Исследование".</ResearchPal.ShouldPauseOnOpenTip>
+	
+	<ResearchPal.ShouldResetOnOpen>Очистка при откытии дерева исследований</ResearchPal.ShouldResetOnOpen>
+	<ResearchPal.ShouldResetOnOpenTip>Очистить фильтрацию и сбросить положение прокрутки при открытии дерева исследований.</ResearchPal.ShouldResetOnOpenTip>
+	
+	<ResearchPal.AlignCloserToAncestors>Выровнять ближе к предварительным условиям</ResearchPal.AlignCloserToAncestors>
+	<ResearchPal.AlignCloserToAncestorsTip>Распологать исследовательские узлы ближе к их родительским элементам, а не к дочерним элементам.</ResearchPal.AlignCloserToAncestorsTip>
+	
+	<ResearchPal.MinimumSeparateModTech>Минимальное количество проектов за мод</ResearchPal.MinimumSeparateModTech>
+	<ResearchPal.MinimumSeparateModTechTip>Если мод добавит больше, чем это количество исследовательских проектов, они будут сгруппированы вместе в дереве.</ResearchPal.MinimumSeparateModTechTip>
+	
+	<ResearchPal.GroupBy>Группировка по:</ResearchPal.GroupBy>
+	<ResearchPal.GroupNothing>	Нет</ResearchPal.GroupNothing>
+	<ResearchPal.GroupTabs>	Одинаковой вкладке</ResearchPal.GroupTabs>
+	<ResearchPal.GroupModTechs>	Отдельным модам</ResearchPal.GroupModTechs>
+	<ResearchPal.PlaceSeparatelyTip>Объединять исследовательские проекты, игнорируя зависимости.</ResearchPal.PlaceSeparatelyTip>
+	
+	<ResearchPal.SearchByDescription>Поиск по описаниям</ResearchPal.SearchByDescription>
+	<ResearchPal.SearchByDescriptionTip>Ключевые слова будут искаться в описаниях исследований (может ухудшить производительность поиска).</ResearchPal.SearchByDescriptionTip>
+	
+	<ResearchPal.DelayLayoutGeneration>Отложенная генерация дерева</ResearchPal.DelayLayoutGeneration>
+	<ResearchPal.DelayLayoutGenerationTip>Создавать дерево исследований при первом открытии дерева исследований, а не при загрузке игры.</ResearchPal.DelayLayoutGenerationTip>
+	
+	<ResearchPal.AsyncLoadingOnStartup>Фоновая генерация дерева</ResearchPal.AsyncLoadingOnStartup>
+	<ResearchPal.AsyncLoadingOnStartupTip>Создавать дерево исследований в фоновом режиме при загрузке игры.</ResearchPal.AsyncLoadingOnStartupTip>
+	
+	<ResearchPal.ProgressTooltip>Всплывающая подсказка о ходе исследования</ResearchPal.ProgressTooltip>
+	<ResearchPal.ProgressTooltipTip>Показывать ход исследования во всплывающей подсказке для незавершенного проекта.</ResearchPal.ProgressTooltipTip>
+	
+	<ResearchPal.AlwaysDisplayProgress>Всегда отображать прогресс</ResearchPal.AlwaysDisplayProgress>
+	<ResearchPal.AlwaysDisplayProgressTip>Всегда отображать оставшийся прогресс, необходимый для завершения проекта.</ResearchPal.AlwaysDisplayProgressTip>
+	
+	<ResearchPal.ShowQueueIndexOnQueue>Отображение прогресс исследования  в очереди исследований</ResearchPal.ShowQueueIndexOnQueue>
+	<ResearchPal.ShowQueueIndexOnQueueTip>Отображать прогресс исследований в очереди исследований.</ResearchPal.ShowQueueIndexOnQueueTip>
+	
+	<ResearchPal.DontIgnoreHiddenPrerequisites>Соблюдать скрытые зависимости</ResearchPal.DontIgnoreHiddenPrerequisites>
+	<ResearchPal.DontIgnoreHiddenPrerequisitesTip>Оставьте включенным для сбалансированного игрового процесса. Возможность отключить эту опцию предназначена для совместимости\n\nПерезапустите игру, чтобы применить.</ResearchPal.DontIgnoreHiddenPrerequisitesTip>
+	
+	<ResearchPal.NeedsRestart>Настройки исследований изменены, перезапустите RimWorld, чтобы применить изменения.</ResearchPal.NeedsRestart>
+	<ResearchPal.DisableShortcutManual>Скрыть Hot-Key подсказки</ResearchPal.DisableShortcutManual>
+	
+	<ResearchPal.SwapZoomMode>Изменить поведение колеса прокрутки</ResearchPal.SwapZoomMode>
+	<ResearchPal.SwapZoomModeTip>Если включено, shift + колесо прокрутки будут выполнять вертикальную прокрутку вместо масштабирования.</ResearchPal.SwapZoomModeTip>
+
+	<ResearchPal.ScrollSpeedMultiplier>Множитель скорости прокрутки</ResearchPal.ScrollSpeedMultiplier>
+	<ResearchPal.ScrollSpeedMultiplierTip>Регулировка скорости прокрутки основного дерева исследований по горизонтали и вертикали</ResearchPal.ScrollSpeedMultiplierTip>
+	
+	<ResearchPal.ZoomingSpeedMultiplier>Множитель скорости масштабирования</ResearchPal.ZoomingSpeedMultiplier>
+	<ResearchPal.ZoomingSpeedMultiplierTip>Регулировка чувствительности к масштабированию основного дерева исследований</ResearchPal.ZoomingSpeedMultiplierTip>
+	
+	<ResearchPal.DraggingDisplayDelay>Задержка перетаскивания</ResearchPal.DraggingDisplayDelay>
+	<ResearchPal.DraggingDisplayDelayTip>Задержка в секундах перетаскиваемого узла в дереве исследований до того как он будет отображен как перетаскиваемый. (не влияет на перетаскивание узлов в очереди и фактический триггер перетаскивания)</ResearchPal.DraggingDisplayDelayTip>
+
+	<ResearchPal.VerboseLogging>Подробное ведение журнала</ResearchPal.VerboseLogging>
+	<ResearchPal.VerboseLoggingTip>Создавать подробный журнал отладки  в режиме разработчика.</ResearchPal.VerboseLoggingTip>
+
+	<ResearchPal.ShowVanillaResearchFinishedMessage>Использовать стандартное уведомление "Исследование завершено"</ResearchPal.ShowVanillaResearchFinishedMessage>
+	<ResearchPal.ShowVanillaResearchFinishedMessageTip>Этот мод может отправить свое собственное уведомление, когда исследование будет завершено, или вместо этого может быть использовано  стандартное поведение.</ResearchPal.ShowVanillaResearchFinishedMessageTip>
+
+	<ResearchPal.ResearchFinished>Ислледование завершено: {0}</ResearchPal.ResearchFinished>
+	
+	<ResearchPal.MaxAllowedTechLvl>Переопределение максимального технического уровня: {0}</ResearchPal.MaxAllowedTechLvl>
+	<ResearchPal.MaxAllowedTechLvlTip>Если вы используете мод, который ограничивает исследование, и ограничение работает некорректно, вы можете переопределить его здесь вручную.</ResearchPal.MaxAllowedTechLvlTip>
+	
+	<ResearchPal.DontShowUnallowedTech>Не показывать запрещенные технологии</ResearchPal.DontShowUnallowedTech>
+	<ResearchPal.ReadOnlyMode>Режим только для чтения</ResearchPal.ReadOnlyMode>
+	<ResearchPal.ReadOnlyModeTip>Если включено, дерево технологий можно рассматривать только как справочное, но не как интерфейс для запуска проектов. Этот режим предназначен для использования с модами, удаляющими свободу действий игрока, таких как Случайное Исследование (Random Research).</ResearchPal.ReadOnlyModeTip>
+</LanguageData>

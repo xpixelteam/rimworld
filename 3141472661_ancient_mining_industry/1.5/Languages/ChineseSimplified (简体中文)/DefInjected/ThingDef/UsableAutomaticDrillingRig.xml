@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Automatic Drilling Rig -->
+  <BreadMoAM_AutomaticDrillingRig.label>自动钻井</BreadMoAM_AutomaticDrillingRig.label>
+  <!-- EN: A straightforward automatic drilling system built for automated mining. Mines up ores 24/7 so long as it is properly powered and placed on a tile with discovered ore deposit. -->
+  <BreadMoAM_AutomaticDrillingRig.description>被设计用于自动开采矿物的自动钻井，只要有电力支持，它就可以24小时不间断地挖掘已经探明的矿物。</BreadMoAM_AutomaticDrillingRig.description>
+  
+</LanguageData>

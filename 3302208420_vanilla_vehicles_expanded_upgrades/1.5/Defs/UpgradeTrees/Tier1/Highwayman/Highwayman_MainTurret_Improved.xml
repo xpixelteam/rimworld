@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef ParentName="HighwaymanMainTurret">
+		<defName>Highwayman_MainTurret_Improved</defName>
+		
+		<reloadTimer>2.2</reloadTimer>
+		<warmUpTimer>0.8</warmUpTimer>
+
+		<rotationSpeed>2.5</rotationSpeed>
+
+		<maxRange>30.9</maxRange>
+
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenShots>2</ticksBetweenShots>
+				<ticksBetweenBursts>2</ticksBetweenBursts>
+				<burstsTillWarmup>16</burstsTillWarmup>
+				<label>Full Auto</label>
+				<texPath>UI/Gizmos/FireRate_Auto</texPath>
+			</li>
+		</fireModes>
+		
+		<graphicData>
+			<texPath>Upgrades/Highwayman/Tier1_APC_UpgradeImproved_CannonTop</texPath>
+		</graphicData>
+	</Vehicles.VehicleTurretDef>
+</Defs>

@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef Name="MealCrateBaseA" Abstract="True">
+        <targetDef>MealCrate_A</targetDef>
+        <showContainedItems>false</showContainedItems>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Base Empty -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Empty</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Base_Empty</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+        <maximumThingCount>0</maximumThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Base Full -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_EqualStack</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Base_Full</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+        <randomSelectionWeight>0</randomSelectionWeight>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Simple base -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Simple</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Simple_Half</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Simple_Full</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <randomSelectionWeight>15</randomSelectionWeight>
+        <requiredThingDefs>
+            <li>MealSimple</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Simple_ic -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Simple_Carnivore</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Simple_Half_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Simple_Full_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealSimple</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Simple_iv -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Simple_Vegetarian</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Simple_Half_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Simple_Full_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealSimple</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Fine base -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Fine</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Half</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Full</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <randomSelectionWeight>15</randomSelectionWeight>
+        <requiredThingDefs>
+            <li>MealFine</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Fine_ic -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Fine_Carnivore</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Half_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Full_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealFine</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Fine_iv -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Fine_Vegetarian</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Half_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Full_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealFine</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Fine_v -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Fine_Veg</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Half_v</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Full_v</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealFine_Veg</li>
+        </requiredThingDefs>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Fine_c -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Fine_Meat</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Half_c</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Fine_Full_c</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealFine_Meat</li>
+        </requiredThingDefs>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Lavish base -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Lavish</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Half</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Full</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <randomSelectionWeight>15</randomSelectionWeight>
+        <requiredThingDefs>
+            <li>MealLavish</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Lavish_ic -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Lavish_Carnivore</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Half_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Full_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealLavish</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Lavish_iv -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Lavish_Vegetarian</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Half_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Full_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealLavish</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Lavish_v -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Lavish_Veg</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Half_v</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Full_v</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealLavish_Veg</li>
+        </requiredThingDefs>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Lavish_c -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Lavish_Meat</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Half_c</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Lavish_Full_c</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealLavish_Meat</li>
+        </requiredThingDefs>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Nutrient base -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Nutrient</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Nutrient_Half</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Nutrient_Full</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <randomSelectionWeight>15</randomSelectionWeight>
+        <requiredThingDefs>
+            <li>MealNutrientPaste</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Nutrient_ic -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Nutrient_Carnivore</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Nutrient_Half_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Nutrient_Full_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealNutrientPaste</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+    
+    <!-- Nutrient_iv -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Nutrient_Vegetarian</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Nutrient_Half_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Nutrient_Full_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealNutrientPaste</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Survival base -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Survival</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Survival_Half</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Survival_Full</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <randomSelectionWeight>15</randomSelectionWeight>
+        <requiredThingDefs>
+            <li>MealSurvivalPack</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Survival_ic -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Survival_Carnivore</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Survival_Half_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Survival_Full_ic</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealSurvivalPack</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowVegetarian</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+
+    <!-- Survival_iv -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA">
+        <defName>MealCrate_A_Survival_Vegetarian</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Survival_Half_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_Survival_Full_iv</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>MealSurvivalPack</li>
+        </requiredThingDefs>
+        <allowedFilter>
+            <specialFiltersToDisallow>
+                <li MayRequire="Ludeon.RimWorld.Ideology">AllowCarnivore</li>
+            </specialFiltersToDisallow>
+        </allowedFilter>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef> 
+
+    <!-- SurvivalNutrient -->
+    <AdaptiveStorage.GraphicsDef ParentName="MealCrateBaseA" MayRequire="XMB.AncientHydroponicFarmFacilities.MO">
+        <defName>MealCrate_A_SurvivalNutrient</defName>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_SurvivalNutrient_Half</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>1</minimumStackCount>
+            </li>
+            <li>
+                <graphicData>
+                    <texPath>MealCrate/MealCrate_A_SurvivalNutrient_Full</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+                <minimumStackCount>3</minimumStackCount>
+            </li>
+        </graphics>
+        <requiredThingDefs>
+            <li>SurvivalNutrientPack</li>
+        </requiredThingDefs>
+        <allowedRequirement>Majority</allowedRequirement>
+        <minimumAllowedThingCount>1</minimumAllowedThingCount>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

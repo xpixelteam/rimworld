@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/Misc/PawnColumnDefs/PawnColumns.xml-->
+             <!-- weapon -->
+<WeaponIcon.label>Оружие</WeaponIcon.label>
+                <!-- loadout -->
+<WeaponLoadout.label>Боевая выкладка</WeaponLoadout.label>
+              <!-- utility -->
+<UtilityIcon.label>Доп.</UtilityIcon.label>
+
+</LanguageData>

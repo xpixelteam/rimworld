@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_Acceleration_Standard.label>стандартное</VVE_Acceleration_Standard.label>
+	<VVE_Acceleration_Standard.description>Наши транспортные средства двигаются сбалансированно, ни слишком быстро, ни слишком медленно.</VVE_Acceleration_Standard.description>
+	
+	<VVE_Acceleration_SundayDriver.label>воскресный водитель</VVE_Acceleration_SundayDriver.label>
+	<VVE_Acceleration_SundayDriver.description>Умеренный темп поддерживает баланс мира и предоставляет нам время на наслаждение путешествием. \n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - У всех транспортных средств множитель скорости: х0.8</VVE_Acceleration_SundayDriver.description>
+
+	<VVE_Acceleration_High.label>высокая</VVE_Acceleration_High.label>
+	<VVE_Acceleration_High.description>С быстрым ускорением мы движемся вперед с силой, завоевывая день с пылом. \n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - У всех транспортных средств множитель скорости: х1.25</VVE_Acceleration_High.description>
+</LanguageData>

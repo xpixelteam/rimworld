@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RitualVisualEffectDef ParentName="RitualSmokeAbstract">
+    <defName>DV_DwarvenRitual</defName>
+    <tintColor>(220, 71, 10)</tintColor>
+    <comps>
+      <li Class="CompProperties_RitualEffectConstantCircle">
+        <radius>7.0</radius>
+        <numCopies>6</numCopies>
+        <moteDef>DV_Mote_SwordOutline</moteDef>
+        <scalePositionWithRoom>true</scalePositionWithRoom>
+        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+        <offset>(0, 0, 0.5)</offset>
+        <roomCheckOffset>(0, 0, -1)</roomCheckOffset>
+      </li>
+    <li>
+        <compClass>CompRitualEffect_ConstantCenter</compClass>
+        <moteDef>DV_Mote_DwarvenCircle</moteDef>
+    </li>
+    </comps>
+  </RitualVisualEffectDef>
+
+</Defs>

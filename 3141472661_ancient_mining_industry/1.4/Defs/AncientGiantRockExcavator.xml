@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientGiantRockExcavator</defName>
+		<label>Ancient Giant Rock Excavator Chassis</label>
+		<description>The gigantic husk of what was a mountain-devouring mechanical beast, larger than most conventional buildings. Maybe the ancient human being hated their planet, so much that they built this piece of machinery to tear it down. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/AncientGiantRockExcavator/AncientGiantRockExcavator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(13.5,13.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(9, 0.8, 9)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(9,9)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<statBases>
+			<Mass>1500</Mass>
+		</statBases>
+		<costList>
+			<Steel>250</Steel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>9</ChunkSlagSteel>
+			<Plasteel>145</Plasteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientExcavatorPowerFacilities</defName>
+		<label>Ancient Excavator Power System</label>
+		<description>Torn power system of the ancient giant rock excavator. Back in its hayday, this electro-hydraulic driven engine ccould easily lift giant rocks or, even better, a whole mountain with ease. With its core components gone, however, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/AncientGiantRockExcavator/AncientExcavatorPowerFacilities</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<statBases>
+			<Mass>450</Mass>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>5</ChunkSlagSteel>
+			<Plasteel>35</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientExcavatorBucketWheel</defName>
+		<label>Ancient Excavator Bucket Wheel</label>
+		<description>A rusted bucket wheel of ancient giant rock excavator. Made of high-strength alloy, these wheels could, at one time, grind down stone chunks with ease. With its core components lost, however, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientGiantRockExcavator/AncientExcavatorBucketWheel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<statBases>
+			<Mass>450</Mass>
+		</statBases>
+		<costList>
+			<Steel>55</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>15</Plasteel>
+			<Uranium>15</Uranium>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>6</ChunkSlagSteel>
+			<Plasteel>50</Plasteel>
+			<Uranium>50</Uranium>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+</Defs>

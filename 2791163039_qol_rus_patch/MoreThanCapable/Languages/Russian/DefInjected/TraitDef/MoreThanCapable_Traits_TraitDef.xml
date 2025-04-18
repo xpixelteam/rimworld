@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Traits.xml-->
+	<!--                                hates dumb labor -->
+	<HatesDumbLabor.degreeDatas.0.label>ненавидящий тупой труд</HatesDumbLabor.degreeDatas.0.label>
+	<!--                                      [PAWN_nameDef] detests manual labor, feeling that tasks such as cleaning and hauling are beneath [PAWN_objective]. [PAWN_pronoun] will perform such tasks more slowly than others would, and will also carry less per load when required to haul. -->
+	<HatesDumbLabor.degreeDatas.0.description>[PAWN_nameDef] ненавидит ручной труд, считая, что такие задачи, как уборка и переноска, ниже себя. [PAWN_pronoun] будет выполнять такие задачи медленнее, чем другие, а также будет переносить меньше груза, когда это потребуется.</HatesDumbLabor.degreeDatas.0.description>
+	<!--                                      hates dumb labor -->
+	<HatesDumbLabor.degreeDatas.0.labelFemale>ненавидящая тупой труд</HatesDumbLabor.degreeDatas.0.labelFemale>
+</LanguageData>

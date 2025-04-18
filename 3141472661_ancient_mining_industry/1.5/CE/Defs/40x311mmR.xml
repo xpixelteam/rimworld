@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_40x311mmR_BreadmoShotgun</defName>
+		<label>40x311mmR (shotgun)</label>
+		<ammoTypes>
+			<Ammo_40x311mmR_Canister>Bullet_40x311mmR_Canister</Ammo_40x311mmR_Canister>
+			<Ammo_40x311mmR_AP>Bullet_40x311mmR_AP</Ammo_40x311mmR_AP>
+			<Ammo_40x311mmR_Incendiary>Bullet_40x311mmR_Incendiary</Ammo_40x311mmR_Incendiary>
+			<Ammo_40x311mmR_HE>Bullet_40x311mmR_HE</Ammo_40x311mmR_HE>
+			<Ammo_40x311mmR_Sabot>Bullet_40x311mmR_Sabot</Ammo_40x311mmR_Sabot>
+		</ammoTypes>
+		<similarTo>AmmoSet_Autocannon_BreadmoShotgun</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo40x311mmRBase">
+		<defName>Ammo_40x311mmR_Canister</defName>
+		<label>40x311mmR (Canister)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/Bofors/Canister</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>11.49</MarketValue>
+		</statBases>
+		<ammoClass>BuckShot</ammoClass>
+		<cookOffProjectile>Bullet_40x311mmR_Canister</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="Base40x311mmRBullet">
+		<defName>Bullet_40x311mmR_Canister</defName>
+		<label>40x311mmR canister pellet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Shotgun_Pellet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>16</damageAmountBase>
+			<pelletCount>20</pelletCount>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
+			<armorPenetrationBlunt>40.52</armorPenetrationBlunt>
+			<spreadMult>8.9</spreadMult>
+			<speed>108</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_40x311mmR_Canister</defName>
+		<label>make 40x311mmR (Canister) cartridge x50</label>
+		<description>Craft 50 40x311mmR (Canister) cartridges.</description>
+		<jobString>Making 40x311mmR (Canister) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>216</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_40x311mmR_Canister>50</Ammo_40x311mmR_Canister>
+		</products>
+		<workAmount>25920</workAmount>
+	</RecipeDef>
+</Defs>

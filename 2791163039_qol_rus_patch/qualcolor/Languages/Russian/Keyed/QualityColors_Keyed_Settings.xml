@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<QualityColors>Quality Colors</QualityColors>
+	<QualityColors.Colors.Label>Quality Colors</QualityColors.Colors.Label>
+	<!-- <QualityColors.Colors.Label>Quality Colors</QualityColors.Colors.Label> -->
+	<QualityColors.Colors.Tooltip>Изменить Цвета предметов</QualityColors.Colors.Tooltip>
+	<QualityColors.Change>Изменить цвет для предмета с качеством: "{0}"</QualityColors.Change>
+	<QualityColors.Presets>Выбрать набор цветов из пресетов</QualityColors.Presets>
+	<QualityColors.Presets.Legacy>Наследие. То, каким мод изначально был</QualityColors.Presets.Legacy>
+	<QualityColors.Presets.WoW>World of Warcraft\nМир военного ремесла ^_^</QualityColors.Presets.WoW>
+	<QualityColors.Presets.Default>По умолчанию</QualityColors.Presets.Default>
+	<QualityColors.Presets.Colorblind>Режим дальтонизма (Очень жаль, если я все испортил)</QualityColors.Presets.Colorblind>
+	<QualityColors.Presets.FFXIV>Final Fantasy 14 (Автор: Эрин)</QualityColors.Presets.FFXIV>
+	<QualityColors.Apply>Применить</QualityColors.Apply>
+	<QualityColors.Red>Красный:</QualityColors.Red>
+	<QualityColors.Blue>Синий:</QualityColors.Blue>
+	<QualityColors.Green>Зеленый:</QualityColors.Green>
+	<QualityColors.Preview>Превью:</QualityColors.Preview>
+	<QualityColors.Changing>Изменяется цвет:{0}</QualityColors.Changing>
+	<QualityColors.FullLabel.Label>Изменять цвет названия предмета в инспекторе</QualityColors.FullLabel.Label>
+	<QualityColors.FullLabel.Tooltip>Изменить цвет названия предмета\n(Когда предметы выбран в окне инспектора)</QualityColors.FullLabel.Tooltip>
+</LanguageData>

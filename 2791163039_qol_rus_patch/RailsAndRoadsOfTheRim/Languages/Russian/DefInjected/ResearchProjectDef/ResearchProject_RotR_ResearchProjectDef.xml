@@ -1,0 +1,42 @@
+<LanguageData>
+	<!--1.5\Defs\ResearchProjectDefs\ResearchProject_RotR.xml-->
+	<!--                             EN: Stone road building -->
+	<ResearchProject_RotRStoneRoad.label>Прокладка каменных дорог</ResearchProject_RotRStoneRoad.label>
+	<!--                                   EN: Allows construction of Stone roads on the world map. -->
+	<ResearchProject_RotRStoneRoad.description>Позволяет строить каменные дороги на карте мира.</ResearchProject_RotRStoneRoad.description>
+	
+	<!--                               EN: Asphalt road building -->
+	<ResearchProject_RotRAsphaltRoad.label>Прокладка асфальтированных дорог</ResearchProject_RotRAsphaltRoad.label>
+	<!--                                     EN: Allows construction of Asphalt roads on the world map. -->
+	<ResearchProject_RotRAsphaltRoad.description>Позволяет строить асфальтированные дороги на карте мира.</ResearchProject_RotRAsphaltRoad.description>
+	
+	<!--                               EN: Glitter road building -->
+	<ResearchProject_RotRGlitterRoad.label>Прокладка передовых дорог</ResearchProject_RotRGlitterRoad.label>
+	<!--                                     EN: Allows construction of Glitter roads on the world map. -->
+	<ResearchProject_RotRGlitterRoad.description>Позволяет строить передовые дороги на карте мира.</ResearchProject_RotRGlitterRoad.description>
+	
+	<!--                         EN: ISR2G -->
+	<ResearchProject_RotRISR2G.label>СРДнМ</ResearchProject_RotRISR2G.label>
+	<!--                               EN: Allows construction of the In Situ Road Resource Gatherer (ISR2G).  Uses local resources when building roads, completely eliminating the need to bring wood and stone at the cost of 4 times the work. -->
+	<ResearchProject_RotRISR2G.description>Позволяет построить сборщик ресурсов для дорог на месте (СРДнМ). Использует местные ресурсы при строительстве дорог, полностью избавляя от необходимости привозить дерево и камень, затрачивая в 4 раза больше труда.</ResearchProject_RotRISR2G.description>
+	
+	<!--                          EN: AISR2G -->
+	<ResearchProject_RotRAISR2G.label>УСРДнМ</ResearchProject_RotRAISR2G.label>
+	<!--                                EN: Allows construction of the Advanced In Situ Road Resource Gatherer (AISR2G). Uses local resources when building roads, completely eliminating the need to bring wood, stone , steel, Chemfuel , Plasteel and Uranium at the cost of twice the work. -->
+	<ResearchProject_RotRAISR2G.description>Позволяет построить усовершенствованный сборщик дорожных ресурсов на месте (AISR2G). Использует местные ресурсы при строительстве дорог, полностью избавляя от необходимости привозить дерево, камень, сталь, химтопливо, пласталь и уран, затрачивая при этом в два раза больше работы.</ResearchProject_RotRAISR2G.description>
+	
+	<!--                            EN: Railroad laying -->
+	<ResearchProject_RotRRailroad.label>Прокладка Железных дорог</ResearchProject_RotRRailroad.label>
+	<!--                                  EN: Allows construction of Railroads on the world map. -->
+	<ResearchProject_RotRRailroad.description>Позволяет строить железные дороги на карте мира.</ResearchProject_RotRRailroad.description>
+	
+	<!--                              EN: Rail Tunnel building -->
+	<ResearchProject_RotRRailTunnel.label>Прокладка железнодорожных туннелей</ResearchProject_RotRRailTunnel.label>
+	<!--                                    EN: Allows construction of Rail Tunnels on the world map. -->
+	<ResearchProject_RotRRailTunnel.description>Позволяет строить железнодорожные туннели на карте мира.</ResearchProject_RotRRailTunnel.description>
+	
+	<!--                               EN: Glitterrail laying -->
+	<ResearchProject_RotRGlitterrail.label>Прокладка Передовых Железных дорог</ResearchProject_RotRGlitterrail.label>
+	<!--                                     EN: Allows construction of Glitterrail on the world map. -->
+	<ResearchProject_RotRGlitterrail.description>Позволяет строить передовые железные дороги на карте мира.</ResearchProject_RotRGlitterrail.description>
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<FleckDef ParentName = "FleckBase_Thrown">
+		<defName>Fleck_BoosterDetach</defName>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_SiegePod/Tier3_SiegePod_Booster</texPath>
+			<drawSize>(3, 3)</drawSize>
+			<renderInstanced>true</renderInstanced>
+		</graphicData>
+		
+		<solidTime>1.5</solidTime>
+		<fadeOutTime>1.5</fadeOutTime>
+		<acceleration>(0, 0, -4)</acceleration>
+	</FleckDef>
+ </Defs>

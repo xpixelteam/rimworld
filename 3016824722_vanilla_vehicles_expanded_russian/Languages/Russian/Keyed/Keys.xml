@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<VVE_StatsReport_AccelerationRate>Acceleration rate: {0}
+Current speed: {1} c/s</VVE_StatsReport_AccelerationRate>-->
+  <!--<VVE_HandbrakeWarning>{VEHICLE_nameDef} will not have enough room to decelerate and will need to use the handbrake. This will cause damage to the tires.</VVE_HandbrakeWarning>-->
+  <!--<VVE_Open>Open</VVE_Open>-->
+  <!--<VVE_Close>Close</VVE_Close>-->
+  <!--<VVE_OpenDescription>Designate the garage door to be opened.</VVE_OpenDescription>-->
+  <!--<VVE_CloseDescription>Designate the garage door to be closed.</VVE_CloseDescription>-->
+  <!--<VVE_OpenDescription_AutoDoor>Open the auto garage door.</VVE_OpenDescription_AutoDoor>-->
+  <!--<VVE_CloseDescription_AutoDoor>Close the auto garage door.</VVE_CloseDescription_AutoDoor>-->
+
+  <!--<VVE_StatsReport_AccelerationRate>Скорость ускорения: {0}
+Текущая скорость: {1} кл/с</VVE_StatsReport_AccelerationRate>-->
+  <!--<VVE_HandbrakeWarning>{VEHICLE_nameDef} не будет иметь достаточно места для замедления и будет нуждаться в использовании ручного тормоза. Это повредит шины.</VVE_HandbrakeWarning>-->
+  <!--<VVE_Open>Открыть</VVE_Open>-->
+  <!--<VVE_Close>Закрыть</VVE_Close>-->
+  <!--<VVE_OpenDescription>Открыть гаражные ворота.</VVE_OpenDescription>-->
+  <!--<VVE_CloseDescription>Закрыть гаражные ворота.</VVE_CloseDescription>-->
+  <!--<VVE_OpenDescription_AutoDoor>Открыть автоматические гаражные ворота.</VVE_OpenDescription_AutoDoor>-->
+  <!--<VVE_CloseDescription_AutoDoor>Закрыть автоматические гаражные ворота.</VVE_CloseDescription_AutoDoor>-->
+
+</LanguageData>

@@ -1,0 +1,67 @@
+<LanguageData>
+<UINotIncluded.Setting.tabsOnTop>Вкладки Сверху</UINotIncluded.Setting.tabsOnTop>
+<UINotIncluded.Setting.tabsOnTop.Description>Когда включено, панель с основными вкладками и часами будет находиться сверху, а не снизу.</UINotIncluded.Setting.tabsOnTop.Description>
+<UINotIncluded.Setting.togglersOnTop>Переключатели отображения сверху</UINotIncluded.Setting.togglersOnTop>
+<UINotIncluded.Setting.togglersOnTop.Description>Когда включено, панель с переключателями для настроек внутриигрового отображения будет находиться сверху, а не снизу.</UINotIncluded.Setting.togglersOnTop.Description>
+<UINotIncluded.Setting.barOnRight>Расширенная планка с правой стороны</UINotIncluded.Setting.barOnRight>
+<UINotIncluded.Setting.barOnRight.Description>Когда включено, панель с виджетами климата и даты будет находиться справа, а не слева.</UINotIncluded.Setting.barOnRight.Description>
+<UINotIncluded.Setting.designationsOnLeft>Панель назначений на левой стороне</UINotIncluded.Setting.designationsOnLeft>
+<UINotIncluded.Setting.designationsOnLeft.Description>Когда включено, новая панель назначений будет находиться слева.</UINotIncluded.Setting.designationsOnLeft.Description>
+<UINotIncluded.Setting.vanillaArchitect>Использовать оригинальное меню Строительства</UINotIncluded.Setting.vanillaArchitect>
+<UINotIncluded.Setting.vanillaArchitect.Description>Это отключит новое меню Строительства</UINotIncluded.Setting.vanillaArchitect.Description>
+<UINotIncluded.Setting.vanillaAnimals>Использовать оригинальные меню "Животные" и "Фауна"</UINotIncluded.Setting.vanillaAnimals>
+<UINotIncluded.Setting.vanillaAnimals.Description>Это отключит новое положение кнопок меню "Животные" и "Фауна"</UINotIncluded.Setting.vanillaAnimals.Description>
+<UINotIncluded.Setting.useDesignatorBar>Используйте новую панель назначений</UINotIncluded.Setting.useDesignatorBar>
+<UINotIncluded.Setting.useDesignatorBar.Description>Это позволит включить новую панель назначений. Эта панель очень настраиваема и отображает на экране список приказов на выполнение заданий.</UINotIncluded.Setting.useDesignatorBar.Description>
+<UINotIncluded.Playsetting.altinspect.tooltip>Переключить Alt-inspector.\n\nКогда Alt-inspector активен, информация о ячейке в левом нижнем углу исчезнет. Эта информация теперь будет отображаться в виде всплывающей подсказки рядом с мышью при нажатии клавиши "Alt".</UINotIncluded.Playsetting.altinspect.tooltip>
+<UINotIncluded.Setting.DesignatorBar.Description>Настройки панели назначений</UINotIncluded.Setting.DesignatorBar.Description>
+<UINotIncluded.Setting.Toolbars.Description>Настройки панели основных кнопок</UINotIncluded.Setting.Toolbars.Description>
+<UINotIncluded.Setting.fontSize>Шрифт Виджетов</UINotIncluded.Setting.fontSize>
+<UINotIncluded.Setting.style>Стиль виджетов</UINotIncluded.Setting.style>
+<UINotIncluded.Setting.barHeight>Высота панели вкладок: {0}px</UINotIncluded.Setting.barHeight>
+
+<UINotIncluded.Setting.forceCustomTab>Принудительная настройка вкладок</UINotIncluded.Setting.forceCustomTab>
+<UINotIncluded.Setting.forceCustomTab.Description>Некоторые моды могут добавлять вкладки с пользовательским поведением. Этот мод перезаписывает это поведение, чтобы сделать вкладки настраиваемыми. Если вы предпочитаете это поведение из модов, снимите флажок с этой опции. Эта опция вступит в силу после перезагрузки игры.</UINotIncluded.Setting.forceCustomTab.Description>
+
+<UINotIncluded.Setting.vanillaReadout>Оригинальная информация о поверхрности</UINotIncluded.Setting.vanillaReadout>
+<UINotIncluded.Setting.vanillaReadout.Description>Когда включено, в левом нижнем углу экрана появится отображение информации о плитке, над которой наведен указатель мыши. Если этот параметр не установлен, вы должны полагаться только на alt-inspector.</UINotIncluded.Setting.vanillaReadout.Description>
+
+<UINotIncluded.Setting.vanillaControlSpeed>Оригинальные настройки скорости течения времени</UINotIncluded.Setting.vanillaControlSpeed>
+<UINotIncluded.Setting.vanillaControlSpeed.Description>Когда включено, элементы управления скоростью времени на оригинальном месте.</UINotIncluded.Setting.vanillaControlSpeed.Description>
+
+<UINotIncluded.Setting.vanillaDate>Оригинальная информация о дате</UINotIncluded.Setting.vanillaDate>
+<UINotIncluded.Setting.vanillaDate.Description>Когда включено, информация о дате на оригинальном месте.</UINotIncluded.Setting.vanillaDate.Description>
+
+<UINotIncluded.Setting.vanillaRealtime>Оригинальные часы реального времени</UINotIncluded.Setting.vanillaRealtime>
+<UINotIncluded.Setting.vanillaRealtime.Description>Когда включено, часы реального времени на оригинальном месте.</UINotIncluded.Setting.vanillaRealtime.Description>
+
+<UINotIncluded.Setting.vanillaWeather>Оригинальная информация о погоде</UINotIncluded.Setting.vanillaWeather>
+<UINotIncluded.Setting.vanillaWeather.Description>Когда включено, информация о погоде на оригинальном месте.</UINotIncluded.Setting.vanillaWeather.Description>
+
+<UINotIncluded.Setting.vanillaTemperature>Оригинальная информация о температуре</UINotIncluded.Setting.vanillaTemperature>
+<UINotIncluded.Setting.vanillaTemperature.Description>Когда включено, информация о температуре на оригинальном месте.</UINotIncluded.Setting.vanillaTemperature.Description>
+
+<UINotIncluded.Setting.legacyAltInspector>Использовать всплывающую подсказку, подобную Alt-Inspector</UINotIncluded.Setting.legacyAltInspector>
+<UINotIncluded.Setting.legacyAltInspector.Description>Когда включено, инспектор Alt-Inspector будет использовать свой устаревший режим для отображения информации во всплывающей подсказке.</UINotIncluded.Setting.legacyAltInspector.Description>
+
+<UINotIncluded.AltInspector.TopLayer>Поверхность</UINotIncluded.AltInspector.TopLayer>
+<UINotIncluded.AltInspector.WalkSpeed>Скорость</UINotIncluded.AltInspector.WalkSpeed>
+<UINotIncluded.AltInspector.Fertility>Плодородность</UINotIncluded.AltInspector.Fertility>
+<UINotIncluded.AltInspector.Brightness>Свет</UINotIncluded.AltInspector.Brightness>
+<UINotIncluded.AltInspector.Roof>Крыша</UINotIncluded.AltInspector.Roof>
+
+<UINotIncluded.Windows.EditButton>Редактирование кнопки</UINotIncluded.Windows.EditButton>
+<UINotIncluded.Windows.Minimize>Минимизировать</UINotIncluded.Windows.Minimize>
+<UINotIncluded.Windows.forceVisible>Всегда видна</UINotIncluded.Windows.forceVisible>
+
+<UINotIncluded.Alerts.SettingsChecked.Label>Проверьте настройки UINotIncluded</UINotIncluded.Alerts.SettingsChecked.Label>
+<UINotIncluded.Alerts.SettingsChecked.Description>UINotIncluded полностью о настройке под себя. Конфигурация по умолчанию, вероятно, не удовлетворит вашим потребностям.\n\nПожалуйста, проверьте настройки мода и настройте мод.</UINotIncluded.Alerts.SettingsChecked.Description>
+
+<UINotIncluded.Setting.centeredWindows>Центрировать большинство окон</UINotIncluded.Setting.centeredWindows>
+<UINotIncluded.Setting.centeredWindows.Description>Большинство окон теперь будут расположены по центру в середине экрана или в середине слева.</UINotIncluded.Setting.centeredWindows.Description>
+
+<UINotIncluded.Setting.dateFormat>Формат даты</UINotIncluded.Setting.dateFormat>
+<UINotIncluded.Setting.roundHour>Округлять часы до</UINotIncluded.Setting.roundHour>
+<UINotIncluded.Setting.clockFormat>Формат часов</UINotIncluded.Setting.clockFormat>
+
+</LanguageData>

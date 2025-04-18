@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_DoBillsGarageBench.label>Изготовление предметов на гаражном верстаке</VVE_DoBillsGarageBench.label>
+  <VVE_DoBillsGarageBench.verb>Работать</VVE_DoBillsGarageBench.verb>
+  <VVE_DoBillsGarageBench.gerund>Работает на</VVE_DoBillsGarageBench.gerund>
+
+  <VVE_OpenGarages.label>Открытие гаражей</VVE_OpenGarages.label>
+  <VVE_OpenGarages.verb>Открыть гараж</VVE_OpenGarages.verb>
+  <VVE_OpenGarages.gerund>Открывает гараж</VVE_OpenGarages.gerund>
+
+  <VVE_CloseGarages.label>Закрытие гаражей</VVE_CloseGarages.label>
+  <VVE_CloseGarages.verb>Закрыть гараж</VVE_CloseGarages.verb>
+  <VVE_CloseGarages.gerund>Закрывает гараж</VVE_CloseGarages.gerund>
+
+  <VVE_RestoreWreck.label>Восстановление поврежденной техники</VVE_RestoreWreck.label>
+<VVE_RestoreWreck.verb>восстановить</VVE_RestoreWreck.verb>
+<VVE_RestoreWreck.gerund>восстановление</VVE_RestoreWreck.gerund>
+
+
+</LanguageData>

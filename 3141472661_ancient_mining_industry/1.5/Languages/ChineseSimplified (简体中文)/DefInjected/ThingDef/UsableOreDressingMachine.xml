@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ore Dressing Machine -->
+  <BreadMoAM_OreDressingMachine.label>选矿机</BreadMoAM_OreDressingMachine.label>
+  <!-- EN: An ore dressing machine brought back to life.Utilizing a mix of water washing, sieving and magnets, it screens useable metals from slags and blocks alike. -->
+  <BreadMoAM_OreDressingMachine.description>选矿机。通过水洗和筛分，利用磁力从矿渣和块堆中筛选出有用的矿物。</BreadMoAM_OreDressingMachine.description>
+  
+</LanguageData>

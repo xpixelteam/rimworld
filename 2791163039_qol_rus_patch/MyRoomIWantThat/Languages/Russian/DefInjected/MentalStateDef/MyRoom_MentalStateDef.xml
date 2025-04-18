@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/MyRoom.xml-->
+<Steal_OwnRoom.label>кража мебели</Steal_OwnRoom.label>
+<Steal_OwnRoom.recoveryMessage>{0} собирает мебель в комнате [PAWN_possessive].</Steal_OwnRoom.recoveryMessage>
+<Steal_OwnRoom.beginLetterLabel>прячется в комнате</Steal_OwnRoom.beginLetterLabel>
+<Steal_OwnRoom.beginLetter>{0} переносит мебель в комнату [PAWN_possessive].</Steal_OwnRoom.beginLetter>
+<Steal_OwnRoom.baseInspectLine>Психическое состояние: Передвигает мебель</Steal_OwnRoom.baseInspectLine>
+
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Common/Defs/RecipeDefs/Recipes_Stonecutting_Alpha_Biomes.xml-->
+                                   <!-- make rose quartz blocks x3 -->
+<Make_StoneBlocksBulkRoseQuartzAB.label>Сделать блоки розового кварца x3</Make_StoneBlocksBulkRoseQuartzAB.label>
+                                         <!-- Cuts rose quartz chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkRoseQuartzAB.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkRoseQuartzAB.description>
+                                       <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkRoseQuartzAB.jobString>Нарезает каменные блоки кусков породы</Make_StoneBlocksBulkRoseQuartzAB.jobString>
+                                  <!-- make cragstone blocks x3 -->
+<Make_StoneBlocksBulkCragstoneAB.label>Сделать блоки скального камня x3</Make_StoneBlocksBulkCragstoneAB.label>
+                                        <!-- Cuts cragstone chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkCragstoneAB.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkCragstoneAB.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkCragstoneAB.jobString>Нарезает каменные блоки кусков породы</Make_StoneBlocksBulkCragstoneAB.jobString>
+                                 <!-- make obsidian blocks x3 -->
+<Make_StoneBlocksBulkObsidianAB.label>Сделать блоки обсидиана x3</Make_StoneBlocksBulkObsidianAB.label>
+                                       <!-- Cuts obsidian chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkObsidianAB.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkObsidianAB.description>
+                                     <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkObsidianAB.jobString>Нарезает каменные блоки кусков породы</Make_StoneBlocksBulkObsidianAB.jobString>
+                                 <!-- make mudstone blocks x3 -->
+<Make_StoneBlocksBulkMudstoneAB.label>Сделать блоки аргиллитового камня x3</Make_StoneBlocksBulkMudstoneAB.label>
+                                       <!-- Cuts mudstone chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkMudstoneAB.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkMudstoneAB.description>
+                                     <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkMudstoneAB.jobString>Нарезает каменные блоки кусков породы</Make_StoneBlocksBulkMudstoneAB.jobString>
+                                   <!-- turn hardened slime chunks into "food" x3 -->
+<Make_StoneBlocksBulkSlimeStoneAB.label>Сделать из затвердевших кусков слизи - "пищу" x3</Make_StoneBlocksBulkSlimeStoneAB.label>
+                                         <!-- Cuts slime stone chunks into semi-edible food in bulk. -->
+<Make_StoneBlocksBulkSlimeStoneAB.description>Измельчает куски слизистого камня в полусъедобные продукты.</Make_StoneBlocksBulkSlimeStoneAB.description>
+                                       <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSlimeStoneAB.jobString>Нарезает каменные блоки кусков породы</Make_StoneBlocksBulkSlimeStoneAB.jobString>
+
+</LanguageData>

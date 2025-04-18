@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef  ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientAutomaticDrillingRig</defName>
+		<label>Ancient Automatic Drilling Rig</label>
+		<description>The remains of what was an automatical drill desingned for automatic ore extraction, once supported by a multitude of infrastructures. Missing most supporting infrastructures, and, most critically, its core components, it wouldn't function as of now. Destroying it may yield some useful resources.</description>
+		<altitudeLayer>ItemImportant</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/AncientAutomaticDrillingRig/AncientAutomaticDrillingRig</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(3, 0.8, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,3)</size>
+		<statBases>
+			<Mass>75</Mass>
+		</statBases>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</killedLeavings>
+	</ThingDef>
+
+
+
+</Defs>

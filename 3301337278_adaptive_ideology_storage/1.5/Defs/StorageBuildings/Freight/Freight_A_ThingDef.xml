@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>Freight_A</defName>
+        <label>Freight A</label>
+        <graphicData>
+            <texPath>Freight/Freight_A_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(5,2.95)</drawSize>
+            <drawRotated>false</drawRotated>
+        </graphicData>
+        <description>A large freight container that is designed to store raw resources. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 180\n\nStore items to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+            <li>Machining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Freight/Freight_A_UI</uiIconPath>
+        <uiIconScale>1.0</uiIconScale>
+        <size>(5,2)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>1250</MaxHitPoints>
+            <WorkToBuild>3500</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>315</Mass>
+        </statBases>
+        <costList>
+            <Steel>525</Steel>
+        </costList>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>8</maxItemsInCell>
+            <fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>ResourcesRaw</li>
+                        <li>Manufactured</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+        </building>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient nutrient solution outlet -->
+  <HNSprops.label>古代营养液空盒</HNSprops.label>
+  <!-- EN: The box used to contain nutrient solution, but the contents inside have long since disappeared. -->
+  <HNSprops.description>这个盒子曾经装营养液，但里面的东西早已不见了.</HNSprops.description>
+  
+  <!-- EN: Hydroponic nutrient solution -->
+  <HydroponicNutrientSolution.label>水培营养液</HydroponicNutrientSolution.label>
+  <!-- EN: A nutrient solution that can provide nutrients for hydroponic farms. The ancient technology used to make it is almost lost. -->
+  <HydroponicNutrientSolution.description>一种营养液，可以为水培农场的植物提供营养。用来制造它的古老科技几乎失传了。</HydroponicNutrientSolution.description>
+  
+</LanguageData>

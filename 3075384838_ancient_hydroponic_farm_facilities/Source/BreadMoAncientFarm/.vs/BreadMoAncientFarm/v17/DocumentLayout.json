@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3075384838\\Source\\BreadMoAncientFarm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3075384838\\source\\breadmoancientfarm\\breadmoancientfarm\\compnutrienttoresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|solutionrelative:breadmoancientfarm\\compnutrienttoresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3075384838\\source\\breadmoancientfarm\\breadmoancientfarm\\workgiver_fillnutrientfermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12286369-4307-4200-8C70-A4529A0939DA}|BreadMoAncientFarm\\BreadMoAncientFarm.csproj|solutionrelative:breadmoancientfarm\\workgiver_fillnutrientfermenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkGiver_FillNutrientFermenter.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "RelativeDocumentMoniker": "BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "RelativeToolTip": "BreadMoAncientFarm\\WorkGiver_FillNutrientFermenter.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T21:02:56.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompNutrientToResource.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\CompNutrientToResource.cs",
+              "RelativeDocumentMoniker": "BreadMoAncientFarm\\CompNutrientToResource.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3075384838\\Source\\BreadMoAncientFarm\\BreadMoAncientFarm\\CompNutrientToResource.cs",
+              "RelativeToolTip": "BreadMoAncientFarm\\CompNutrientToResource.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwBUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T21:01:35.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

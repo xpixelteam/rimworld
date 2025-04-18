@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!--<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="HydroponicsBasin"]/comps</xpath>
+		<value>
+			<li Class="BreadMoAncientFarm.CompProperties_Fertilizer">
+				<pipeNet>BreadMo_NutrientNetwork</pipeNet>
+				<ticksPerCycle>2499</ticksPerCycle>
+				<FertilizerUsePerPlantPerCycle>0.0833333</FertilizerUsePerPlantPerCycle>
+			</li>
+		</value>
+	</Operation>-->
+	
+	<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName="ElectricStove"]/recipes</xpath>
+  <value>
+      <li>CookMealNutrientPaste</li>
+	  <li>CookMealNutrientPasteBulk</li>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName="FueledStove"]/recipes</xpath>
+  <value>
+      <li>CookMealNutrientPaste</li>
+	  <li>CookMealNutrientPasteBulk</li>
+  </value>
+</Operation>
+
+</Patch>

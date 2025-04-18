@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_GarageCabinet.label>гаражный шкаф</VVE_GarageCabinet.label>
+  <VVE_GarageCabinet.description>Удобный шкаф, который содержит множество дополнительных инструментов различных размеров и функций. Увеличивает скорость работы при размещении рядом с верстаком для транспорта. Один верстак может использовать до двух гаражных шкафов.</VVE_GarageCabinet.description>
+
+  <VVE_RefuelingPump.label>Заправочный насос</VVE_RefuelingPump.label>
+<VVE_RefuelingPump.description>Заправочный насос, который автоматически заправляет транспортные средства, работающие на химтопливе, находящиеся в зоне взаимодействия. Необходимо заполнить химтопливом.</VVE_RefuelingPump.description>
+
+
+</LanguageData>

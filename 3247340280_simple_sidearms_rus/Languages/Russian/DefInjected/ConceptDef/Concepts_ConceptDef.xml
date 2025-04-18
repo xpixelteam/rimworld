@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\TutorDefs\Concepts.xml-->
+	<!--                               SS: Sidearms -->
+	<Concept_SimpleSidearmsBasic.label>SS: Дополнительное оружие</Concept_SimpleSidearmsBasic.label>
+	<!--                                  Simple Sidearms\n\nIn order to equip weapons as sidearms, rightclick them and select the Equip as sidearm option.\n\nBy default, colonists will use whichever weapon type they are best skilled with or passionate about. Ranged weapon users will also switch to a melee weapon when engaged in close combat. This behaviour can be altered in the mod settings. -->
+	<Concept_SimpleSidearmsBasic.helpText>Дополнительное оружие\n\nЧтобы использовать оружие в качестве дополнительного оружия, щелкните по нему правой кнопкой мыши и выберите опцию "Использовать как дополнительное оружие".\n\nПо умолчанию колонисты будут использовать тот тип оружия, в котором они лучше всего разбираются или которым они увлекаются. Колонисты, использующие оружие дальнего боя, также переключатся на оружие ближнего боя, когда вступят в ближний бой. Это поведение можно изменить в настройках мода.</Concept_SimpleSidearmsBasic.helpText>
+	
+	<!--                            SS: Dropping sidearms -->
+	<Concept_SidearmsDropping.label>SS: Выпадение дополнительного оружия</Concept_SidearmsDropping.label>
+	<!--                               Sidearms with a gray background are currently in a colonists inventory and eligible for use. Right click to drop. -->
+	<Concept_SidearmsDropping.helpText>Оружие с серым фоном в настоящее время находится в инвентаре колонистов и может быть использовано. Щелкните правой кнопкой мыши, чтобы удалить.</Concept_SidearmsDropping.helpText>
+	
+	<!--                           SS: Missing sidearms -->
+	<Concept_SidearmsMissing.label>SS: Отсутствие дополнительного оружия</Concept_SidearmsMissing.label>
+	<!--                              Sidearms with a dark purple background are currently missing from a colonists loadout. They will attempt to replace them at earliest opportunity, assuming any can be found. Right click to forget about the sidearm. -->
+	<Concept_SidearmsMissing.helpText>В настоящее время в экипировке колонистов отсутствует оружие с темно-фиолетовым фоном. Они попытаются заменить его при первой же возможности, если таковые найдутся. Щелкните правой кнопкой мыши, чтобы забыть об оружии.</Concept_SidearmsMissing.helpText>
+	
+	<!--                                    SS: Weapon preference -->
+	<Concept_SimpleSidearmsPreference.label>SS: Предпочтение в оружии</Concept_SimpleSidearmsPreference.label>
+	<!--                                       Colonists can have sidearm use configured on an individual basis. The options are: \nUse ranged weapons\nUse weapons colonist is passionate about or skilled with \nUse melee weapons -->
+	<Concept_SimpleSidearmsPreference.helpText>Колонисты могут настроить использование оружия на индивидуальной основе. Возможны следующие варианты: \nИспользуйте оружие дальнего боя\nИспользуйте оружие, которым колонист увлечен или умело владеет \nИспользуйте оружие ближнего боя</Concept_SimpleSidearmsPreference.helpText>
+	
+	<!--                                        SS: Advanced controls (ranged) -->
+	<Concept_SimpleSidearmsAdvancedRanged.label>SS: Расширенные настройки (дальний бой)</Concept_SimpleSidearmsAdvancedRanged.label>
+	<!--                                           Left click a carried ranged weapon to set it as the default ranged weapon. If the colonist weapon preference is set to ranged (or skill on a colonist more skilled with ranged weapons), this weapon will be what the colonist equips when not in active combat. It will also be used while hunting. \n\nClick a default ranged weapon again to force its use regardless of range/DPS. \n\nRight click to remove forced use/default status. -->
+	<Concept_SimpleSidearmsAdvancedRanged.helpText>Щелкните левой кнопкой мыши на переносном оружии дальнего боя, чтобы установить его в качестве оружия дальнего боя по умолчанию. Если в качестве оружия колониста выбрано дальнобойное (или навык колониста, более опытного в обращении с дальнобойным оружием), то это оружие будет тем, что колонист использует, когда не участвует в активном бою. Он также будет использоваться во время охоты. \n\nНажмите на оружие дальнего боя по умолчанию еще раз, чтобы принудительно использовать его независимо от дальности стрельбы / урона. \n\nЩелкните правой кнопкой мыши, чтобы удалить статус принудительного использования/по умолчанию.</Concept_SimpleSidearmsAdvancedRanged.helpText>
+	
+	<!--                                       SS: Advanced controls (melee) -->
+	<Concept_SimpleSidearmsAdvancedMelee.label>SS: Расширенные настройки (ближний бой)</Concept_SimpleSidearmsAdvancedMelee.label>
+	<!--                                          Left click a carried melee weapon to set it as the preferred ranged weapon. The colonist will always use this weapon when weapon preference is set to melee (or skill on a colonist more skilled with melee weapons) and when forced into close combat. \n\nClick a preferred melee weapon again to force its use at all times. \n\nRight click to remove forced use/preference. -->
+	<Concept_SimpleSidearmsAdvancedMelee.helpText>Щелкните левой кнопкой мыши на оружии ближнего боя, чтобы выбрать его в качестве предпочтительного оружия. Колонист всегда будет использовать это оружие, когда предпочтение отдается оружию ближнего боя (или навыку колониста, более искусного в обращении с оружием ближнего боя) и когда его вынуждают вступить в ближний бой. \n\nНажмите на предпочитаемое оружие ближнего боя еще раз, чтобы принудительно использовать его постоянно. \n\nЩелкните правой кнопкой мыши, чтобы удалить принудительное использование / предпочтения.</Concept_SimpleSidearmsAdvancedMelee.helpText>
+	
+	<!--                                         SS: Advanced controls (drafted) -->
+	<Concept_SimpleSidearmsAdvancedDrafted.label>SS: Расширенные настройки (нахождение в бою)</Concept_SimpleSidearmsAdvancedDrafted.label>
+	<!--                                            Left click a carried weapon while drafted to force its use until end of combat. \n\nNote that most changes to sidearm loadout require the pawn to not be drafted. -->
+	<Concept_SimpleSidearmsAdvancedDrafted.helpText>Щелкните левой кнопкой мыши по оружию, которое вы носите наготове, чтобы принудительно использовать его до конца боя. \n\nОбратите внимание, что большинство изменений в снаряжении оружия требуют, чтобы пешка не была в бою.</Concept_SimpleSidearmsAdvancedDrafted.helpText>
+	
+	<!--                                       SS: Losing weapons -->
+	<Concept_SimpleSidearmsLosingWeapons.label>SS: Потеря оружия</Concept_SimpleSidearmsLosingWeapons.label>
+	<!--                                          Depending on the settings, Simple Sidearms can cause colonists to drop their weapons in a variety of situations (default is attacks in melee). Don't worry - your colonists will retrieve their weapons after the fight. \n\nThis is a customizable feature - take a look in the mod settings dialog to learn more. -->
+	<Concept_SimpleSidearmsLosingWeapons.helpText>В зависимости от настроек, Дополнительное оружие может привести к тому, что колонисты бросят свое оружие в различных ситуациях (по умолчанию используются атаки в ближнем бою).. Не волнуйтесь - ваши колонисты вернут свое оружие после боя. \n\nЭто настраиваемая функция - загляните в диалоговое окно настроек мода, чтобы узнать больше.</Concept_SimpleSidearmsLosingWeapons.helpText>
+	
+	<!--                      SS: CE patch -->
+	<Concept_CEOverride.label>SS: исправления Combat Extended</Concept_CEOverride.label>
+	<!--                         Combat Extended is loaded. SimpleSidearms inventory management functionality is disabled. -->
+	<Concept_CEOverride.helpText>Combat Extended загружен. SimpleSidearms - функция управления инвентарём отключена.</Concept_CEOverride.helpText>
+</LanguageData>

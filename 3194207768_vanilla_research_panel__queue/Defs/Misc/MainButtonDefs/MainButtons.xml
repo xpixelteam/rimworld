@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MainButtonDef>
+    <defName>Research</defName>
+    <label>research</label>
+    <description>Examine and decide on research projects.</description>
+    <workerClass>MainButtonWorker_ToggleResearchTab</workerClass>
+    <tabWindowClass>MainTabWindow_Research_New</tabWindowClass>
+    <order>60</order>
+    <defaultHotKey>F6</defaultHotKey>
+  </MainButtonDef>
+</Defs>

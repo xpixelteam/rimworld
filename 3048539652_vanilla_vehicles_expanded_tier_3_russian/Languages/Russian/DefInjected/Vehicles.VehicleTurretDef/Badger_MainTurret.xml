@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Badger_MainTurret.label>Пулемет "Барсука"</Badger_MainTurret.label>
+  <Badger_MainTurret.description>Мощная башня, установленная на боевой машине пехоты "Барсук". Фугасные снаряды наносят существенный урон пехоте противника, но низкий урон по броне делает ее не очень эффективной против бронированных целей, а ещё она расходует много боеприпасов.</Badger_MainTurret.description>
+  <Badger_MainTurret.fireModes.0.label>Одиночный</Badger_MainTurret.fireModes.0.label>
+  <Badger_MainTurret.fireModes.1.label>Очередь</Badger_MainTurret.fireModes.1.label>
+
+
+</LanguageData>

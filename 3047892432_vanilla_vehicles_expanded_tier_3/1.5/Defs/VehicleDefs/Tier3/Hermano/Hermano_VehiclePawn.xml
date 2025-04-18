@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleDef ParentName="VehiclePawn_Mechanical">
+		<defName>VVE_Hermano</defName>
+		<label>Hermano</label>
+		<description>A dedicated refrigeration vehicle, the Hermano is a decent cargo transporter with a specific niche in ferrying perishable goods. Decent in long-range travel along roads, it performs terribly in off-road or winter conditions.\n\nWhile there are better cargo transporters even in lower tiers, this truck can transport cargo in a frozen state, preventing spoilage. Due to the extra machinery, performance suffers and it should stay away from conflict zones.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_RefrigeratedTruck/Tier3_RefrigeratedTruck</texPath>
+			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(4, 7)</drawSize>
+			<color>(124, 129, 164)</color>
+		</graphicData>
+		
+		<fillPercent>1</fillPercent>
+		
+		<buildDef>VVE_Hermano_Blueprint</buildDef>
+		
+		<size>(2, 5)</size>
+		
+		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
+		<vehicleCategory>Transport</vehicleCategory>
+		<techLevel>Industrial</techLevel>
+		<vehicleType>Land</vehicleType>
+		
+		<statBases>
+			<ArmorRating_Blunt>0.27</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<MarketValue>3870</MarketValue>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<vehicleStats>
+			<Mass>320</Mass>
+			<MoveSpeed>11.8</MoveSpeed>
+			<CargoCapacity>800</CargoCapacity>
+			<RepairRate>0.45</RepairRate>
+			<AccelerationRate>0.04</AccelerationRate>
+		</vehicleStats>
+		
+		<soundSustainersOnEvent>
+			<li>
+				<start>IgnitionOn</start>
+				<stop>IgnitionOff</stop>
+				<value>VVE_VehicleEngineMuscleCar</value>
+			</li>
+		</soundSustainersOnEvent>
+		
+		<properties>
+			<worldSpeedMultiplier>1.2</worldSpeedMultiplier>
+			<winterSpeedMultiplier>1.5</winterSpeedMultiplier>
+			
+			<customRoadCosts AssignDefaults = "0.75" />
+			
+			<vehicleJobLimitations>
+				<li>(RepairVehicle, 2)</li>
+			</vehicleJobLimitations>
+			
+			<roles>
+				<li>
+					<key>driver</key>
+					<label>Driver</label>
+					<slots>1</slots>
+					<slotsToOperate>1</slotsToOperate>
+					
+					<handlingTypes>
+						<li>Movement</li>
+					</handlingTypes>
+					
+					<hitbox>
+						<cells>
+							<li>(0, 2)</li>
+						</cells>
+					</hitbox>
+				</li>
+				<li>
+					<key>passenger</key>
+					<label>Passenger</label>
+					<slots>1</slots>
+					
+					<hitbox>
+						<cells>
+							<li>(1, 2)</li>
+						</cells>
+					</hitbox>
+				</li>
+			</roles>
+		</properties>
+		
+		<components>
+			<li>
+				<key>Engine</key>
+				<label>Engine</label>
+				<health>75</health>
+				<priorityStatEfficiency>true</priorityStatEfficiency>
+				<depth>Internal</depth>
+				
+				<reactors>
+					<li Class = "Vehicles.Reactor_Explosive">
+						<indicator>VF_Explosive</indicator>
+						<chance>0.25</chance>
+						<maxHealth>0.2</maxHealth>
+						<radius>3</radius>
+						<damageDef>Flame</damageDef>
+					</li>
+				</reactors>
+				
+				<hitbox>
+					<cells>
+						<li>(0, 2)</li>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontLeftWheel</key>
+				<label>Front Left Wheel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(0, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontRightWheel</key>
+				<label>Front Right Wheel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackLeftWheel</key>
+				<label>Back Left Wheel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(0, -2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackRightWheel</key>
+				<label>Back Right Wheel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(1, -2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontLeftSuspension</key>
+				<label>Front Left Suspension</label>
+				<health>40</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(0, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontRightSuspension</key>
+				<label>Front Right Suspension</label>
+				<health>40</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackLeftSuspension</key>
+				<label>Back Left Suspension</label>
+				<health>40</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(0, -2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackRightSuspension</key>
+				<label>Back Right Suspension</label>
+				<health>40</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(1, -2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>Gearbox</key>
+				<label>Gearbox</label>
+				<health>40</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(0, 2)</li>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>LeftSidePanel</key>
+				<label>Left Side Panel</label>
+				<health>80</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Left</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>RightSidePanel</key>
+				<label>Right Side Panel</label>
+				<health>80</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Right</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>Chemtank</key>
+				<label>Left Chemtank</label>
+				<health>80</health>
+				<depth>Internal</depth>
+				
+				<reactors>
+					<li Class = "Vehicles.Reactor_FuelLeak"/>
+					<li Class = "Vehicles.Reactor_Explosive">
+						<indicator>VF_Explosive</indicator>
+						<chance>0.5</chance>
+						<maxHealth>0.3</maxHealth>
+						<radius>3</radius>
+						<damageDef>Bomb</damageDef>
+					</li>
+				</reactors>
+				
+				<hitbox>
+					<cells>
+						<li>(0, -1)</li>
+						<li>(1, -1)</li>
+					</cells>
+				</hitbox>
+			</li>
+			<li>
+				<key>FrontBumper</key>
+				<label>Front Bumper</label>
+				<health>45</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Front</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>RearBumper</key>
+				<label>Rear Bumper</label>
+				<health>30</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Back</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>Upholstery</key>
+				<label>Upholstery</label>
+				<health>35</health>
+				<depth>Internal</depth>
+				<hitWeight>5</hitWeight>
+			</li>
+			<li>
+				<key>Dashboard</key>
+				<label>Dashboard</label>
+				<health>35</health>
+				<depth>Internal</depth>
+				<hitWeight>2</hitWeight>
+			</li>
+			<li>
+				<key>SteeringWheel</key>
+				<label>Steering Wheel</label>
+				<health>30</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Alternator</key>
+				<label>Alternator</label>
+				<health>30</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Grill</key>
+				<label>Grill</label>
+				<health>50</health>
+				<depth>External</depth>
+				<hitWeight>5</hitWeight>
+			</li>
+			<li>
+				<key>Roof</key>
+				<label>Roof</label>
+				<health>40</health>
+				<depth>External</depth>
+				<hitWeight>5</hitWeight>
+			</li>
+		</components>
+		
+		<comps>
+			<li Class="Vehicles.CompProperties_FueledTravel">
+				<fuelType>Chemfuel</fuelType>
+				<leakDef>Filth_Fuel</leakDef>
+				<fuelConsumptionRate>28</fuelConsumptionRate>
+				<fuelCapacity>92</fuelCapacity>
+				<fuelConsumptionWorldMultiplier>0.8333</fuelConsumptionWorldMultiplier>
+			</li>
+			<li Class="VanillaVehiclesExpanded.CompProperties_Refrigerator">
+				<label>Cargo refrigeration</label>
+				<description>Enable or disable cargo refrigeration on this refrigerated truck. Refrigeration will stop items from spoiling, but will continuously use up fuel.</description>
+				<fuelConsumptionPerDay>12</fuelConsumptionPerDay>
+				<iconPath>UI/HermanoRefrigeration</iconPath>
+			</li>
+		</comps>
+	</Vehicles.VehicleDef>
+</Defs>

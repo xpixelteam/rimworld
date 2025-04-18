@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_BigRig_Blueprint</defName>
+		<label>Big Rig</label>
+		<description>A dedicated cargo transporter, the Big Rig is the epitome of bulk material transportation. While best suited on flat roads, it still has a powerful enough engine to effectively charge through difficult terrain.\n\nA surprisingly quick, gas-guzzling cargo transporter that has terrible acceleration, but very little can slow it down once it gets up to speed.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_Truck/Tier3_Truck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 8)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>18000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<researchPrerequisites>
+			<li>VVE_BigRigs</li>
+		</researchPrerequisites>
+		
+		<size>(3, 6)</size>
+		
+		<costList>
+			<VVE_EngineBlock>4</VVE_EngineBlock>
+			<VVE_CarAlternator>2</VVE_CarAlternator>
+			<VVE_CarExhaust>6</VVE_CarExhaust>
+			<VVE_CarSuspension>8</VVE_CarSuspension>
+			<VVE_CarWheel>6</VVE_CarWheel>
+			<Steel>400</Steel>
+			<ComponentIndustrial>18</ComponentIndustrial>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarTransmission>2</VVE_CarTransmission>
+			<VVE_CarRadiator>4</VVE_CarRadiator>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>VVE_BigRig</thingToSpawn>
+	</Vehicles.VehicleBuildDef>
+</Defs>

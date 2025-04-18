@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Abandoned Mine -->
+  <AbandonedMine_Site.label>废弃采矿场</AbandonedMine_Site.label>
+  <!-- EN: An abandoned mine with a lot of unmined minerals. -->
+  <AbandonedMine_Site.description>一个废弃的矿场，有很多未开采的矿物。</AbandonedMine_Site.description>
+  
+  <!-- EN: Abandoned Plasteel Mine Site -->
+  <AbandonedPlasteelMineSite_Site.label>废弃的玻璃钢矿场</AbandonedPlasteelMineSite_Site.label>
+  <!-- EN: A glass reinforced plasteel mine with a large amount of untapped glass reinforced plasteel deposits. -->
+  <AbandonedPlasteelMineSite_Site.description>一个玻璃钢矿山，有大量未开发的玻璃钢矿床。</AbandonedPlasteelMineSite_Site.description>
+  
+  <!-- EN: Abandoned Steel Mine Site -->
+  <AbandonedSteelMineSite_Site.label>废弃的钢铁矿场</AbandonedSteelMineSite_Site.label>
+  <!-- EN: An iron mine with a lot of untapped iron ore. -->
+  <AbandonedSteelMineSite_Site.description>一个铁矿，有很多未开发的铁矿石。</AbandonedSteelMineSite_Site.description>
+  
+  <!-- EN: Abandoned Uranium Mining Site -->
+  <AbandonedUraniumMiningSite_Site.label>废弃铀矿场</AbandonedUraniumMiningSite_Site.label>
+  <!-- EN: An occupied military uranium mine, heavily defended. -->
+  <AbandonedUraniumMiningSite_Site.description>一座被占领的军用铀矿，戒备森严。</AbandonedUraniumMiningSite_Site.description>
+  
+  <!-- EN: Ancient Open Pit Mining Site -->
+  <AncientOpenPitMiningSite_Site.label>远古露天矿场</AncientOpenPitMiningSite_Site.label>
+  <!-- EN: An abandoned mine,among them was the remains of a huge excavator. -->
+  <AncientOpenPitMiningSite_Site.description>一个废弃的矿井，其中有一台巨大挖掘机的残骸。</AncientOpenPitMiningSite_Site.description>
+  
+  <!-- EN: Ancient Shield Mining Site -->
+  <AncientShieldMiningSite_Site.label>远古隧道矿井遗址</AncientShieldMiningSite_Site.label>
+  <!-- EN: A mine whose entrance had collapsed. -->
+  <AncientShieldMiningSite_Site.description>一个入口坍塌的矿井.</AncientShieldMiningSite_Site.description>
+  
+  <!-- EN: Ancient Tunnel Ruins -->
+  <AncientTunnelRuins_Site.label>远古隧道遗址</AncientTunnelRuins_Site.label>
+  <!-- EN: An ancient unfinished tunnel. -->
+  <AncientTunnelRuins_Site.description>一条古老的未完工隧道。</AncientTunnelRuins_Site.description>
+  
+  <!-- EN: Mineral Screening Station -->
+  <MineralScreeningStation_Site.label>矿物筛分站</MineralScreeningStation_Site.label>
+  <!-- EN: An abandoned sifting station with a lot of recyclable resources in the wreckage. -->
+  <MineralScreeningStation_Site.description>一个废弃的筛分站，残骸中有很多可回收资源。</MineralScreeningStation_Site.description>
+  
+  <!-- EN: Enemy activity -->
+  <Soldier_L.label>敌对势力活动</Soldier_L.label>
+  <!-- EN: Enemy activity -->
+  <Soldier_L.description>敌对势力活动</Soldier_L.description>
+  
+  <!-- EN: Enemy activity -->
+  <Soldier_M.label>敌对势力活动</Soldier_M.label>
+  <!-- EN: Enemy activity -->
+  <Soldier_M.description>敌对势力活动</Soldier_M.description>
+  
+  <!-- EN: Enemy activity -->
+  <Soldier_S.label>敌对势力活动</Soldier_S.label>
+  <!-- EN: Enemy activity -->
+  <Soldier_S.description>敌对势力活动</Soldier_S.description>
+  
+</LanguageData>

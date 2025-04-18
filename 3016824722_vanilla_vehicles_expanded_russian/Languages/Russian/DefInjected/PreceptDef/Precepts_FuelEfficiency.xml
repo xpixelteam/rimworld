@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_FuelEfficiency_Standard.label>стандартное</VVE_FuelEfficiency_Standard.label>
+	<VVE_FuelEfficiency_Standard.description>У нас остается традиционное потребление топлива.</VVE_FuelEfficiency_Standard.description>
+	
+<VVE_FuelEfficiency_Inefficient.label>неэффективное</VVE_FuelEfficiency_Inefficient.label>
+<VVE_FuelEfficiency_Inefficient.description>Наши транспортные средства имеют больший аппетит к топливу.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n- Этот принцип увеличивает скорость потребления топлива (если применено) на 50%.</VVE_FuelEfficiency_Inefficient.description>
+	
+	<VVE_FuelEfficiency_Efficient.label>эффективное</VVE_FuelEfficiency_Efficient.label>
+<VVE_FuelEfficiency_Efficient.description>Наши транспортные средства оптимизированы для минимального потребления топлива.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n- Этот принцип уменьшает скорость потребления топлива (если применено) на 50%.</VVE_FuelEfficiency_Efficient.description>
+</LanguageData>

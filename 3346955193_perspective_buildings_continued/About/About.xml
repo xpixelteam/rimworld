@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Perspective: Buildings (Continued)</name>
+  <packageId>Mlie.PerspectiveBuildings</packageId>
+  <author>Owlchemist</author>
+  <url>https://github.com/emipa606/PerspectiveBuildings</url>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Owlchemists mod https://steamcommunity.com/sharedfiles/filedetails/?id=2594383552
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/PerspectiveBuildings][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+This mod adds a gizmo to most buildings which allows the player to adjust its position. For example, you can nudge a building down a bit and tuck it behind a wall, giving it a better sense of perspective.
+
+It also allows you to mirror non-rotatable buildings.
+
+This mod was originally created for the new [b]Fencepost Lights[/b] added to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2565545335]Simple Utilities: Walls[/url]
+
+[h1]Limitations[/h1]
+This is purely a graphical mod and does not impact the gameplay. It can be added or removed at any time.
+
+The main limitation is that associated objects, like meals on tables, do not respect the offset... At least not yet, I'm still looking into fixing that.
+
+[h1]Compatibility[/h1]
+[list]
+[*]Not compatible with [b]Graphic Chair Overhaul[/b] (at least for chairs) due to its custom drawing routine.
+[/list]
+
+[h1]For other modders[/h1]
+Unless custom specified, buildings get a list of [i]standard offsets[/i] that the adjuster button iterates through. If you're a modder and would like to add custom offsets to your building, [url=https://github.com/Owlchemist/perspective-buildings/wiki]check the wiki[/url] for documentation.
+
+[h1]Credits[/h1]
+[list]
+[*]German translation by Dimos
+[/list]
+
+[h1]You may also like...[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2567126933][img]https://steamuserimages-a.akamaihd.net/ugc/1681520338007971077/4A1979E54D0804AD466AA50477EFAB45F946D3C1/?imw=5000&amp;amp;imh=5000&amp;amp;ima=fit&amp;amp;impolicy=Letterbox&amp;amp;imcolor=%23000000&amp;amp;letterbox=false[/img][/url]
+
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/][img]https://img.shields.io/github/v/release/emipa606/PerspectiveBuildings?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: building adjustments,  graphical enhancement,  customizable buildings 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3346955193][img]https://img.shields.io/github/v/release/emipa606/PerspectiveBuildings?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: building adjustments,  graphical enhancement,  customizable buildings</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.3</modVersion>
+</ModMetaData>

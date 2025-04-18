@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>1x3LockerBank</defName>
+        <label>1x3LockerBank</label>
+        <graphicData>
+            <texPath>LockerBank/1x3LockerBank</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.5,1.5)</drawSize>
+            <drawRotated>false</drawRotated>
+            <drawOffsetNorth>0,0,-0.50</drawOffsetNorth>
+            <drawOffsetSouth>0,0,0.35</drawOffsetSouth>
+            <drawOffsetEast>0,0,0.14</drawOffsetEast>
+            <drawOffsetWest>0,0,0.14</drawOffsetWest>
+        </graphicData>
+        <description>A locker designed to store apparel. Items stored inside will never deteriorate and don't affect the beauty of their surroundingssurroundings.\n\nTotal Capacity: 36</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>LockerBank/1x3LockerBank_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(3,1)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToBuild>850</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>120</Mass>
+        </statBases>
+        <costList>
+            <Steel>175</Steel>
+        </costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<maxItemsInCell>12</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+                      				<li>Weapons</li>             
+                        			<li>Apparel</li>     						
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Preferred</priority>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+                      				<li>Weapons</li>             
+                        			<li>Apparel</li>     						
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+			<paintable>true</paintable>
+		</building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

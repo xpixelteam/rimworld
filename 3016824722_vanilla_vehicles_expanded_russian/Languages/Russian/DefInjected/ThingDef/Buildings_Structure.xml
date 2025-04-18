@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_GarageDoor.label>гаражные ворота (1x4)</VVE_GarageDoor.label>
+  <VVE_GarageDoor.description>Разделяет помещения. Ручное управление позволяет людям открывать их, пропуская транспортные средства.</VVE_GarageDoor.description>
+  <VVE_GarageDoor_Blueprint.label>гаражные ворота (1x4) (чертёж)</VVE_GarageDoor_Blueprint.label>
+  <VVE_GarageDoor_Frame.label>гаражные ворота (1x4) (сборка)</VVE_GarageDoor_Frame.label>
+  <VVE_GarageDoor_Frame.description>Разделяет помещения. Ручное управление позволяет людям открывать их, пропуская транспортные средства.</VVE_GarageDoor_Frame.description>
+
+  <VVE_GarageDoorOpened.label>гаражные ворота (1x4)</VVE_GarageDoorOpened.label>
+  <VVE_GarageDoorOpened.description>Разделяет помещения. Ручное управление позволяет людям открывать их, пропуская транспортные средства.</VVE_GarageDoorOpened.description>
+
+  <VVE_GarageDoorLarge.label>гаражные ворота (1x5)</VVE_GarageDoorLarge.label>
+  <VVE_GarageDoorLarge.description>Разделяет помещения. Ручное управление позволяет людям открывать их, пропуская транспортные средства.</VVE_GarageDoorLarge.description>
+  <VVE_GarageDoorLarge_Blueprint.label>гаражные ворота (1x5) (чертёж)</VVE_GarageDoorLarge_Blueprint.label>
+  <VVE_GarageDoorLarge_Frame.label>гаражные ворота (1x5) (сборка)</VVE_GarageDoorLarge_Frame.label>
+  <VVE_GarageDoorLarge_Frame.description>Разделяет помещения. Ручное управление позволяет людям открывать их, пропуская транспортные средства.</VVE_GarageDoorLarge_Frame.description>
+
+  <VVE_GarageDoorLargeOpened.label>гаражные ворота (1x5)</VVE_GarageDoorLargeOpened.label>
+  <VVE_GarageDoorLargeOpened.description>Разделяет помещения. Ручное управление позволяет людям открывать их, пропуская транспортные средства.</VVE_GarageDoorLargeOpened.description>
+
+  <VVE_GarageAutoDoor.label>автоматические гаражные ворота (1x4)</VVE_GarageAutoDoor.label>
+  <VVE_GarageAutoDoor.description>Разделяет помещения. Электрическая работа позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</VVE_GarageAutoDoor.description>
+  <VVE_GarageAutoDoor_Blueprint.label>автоматические гаражные ворота (1x4) (чертёж)</VVE_GarageAutoDoor_Blueprint.label>
+  <VVE_GarageAutoDoor_Frame.label>автоматические гаражные ворота (1x4) (сборка)</VVE_GarageAutoDoor_Frame.label>
+  <VVE_GarageAutoDoor_Frame.description>Разделяет помещения. Электрическая работа позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</VVE_GarageAutoDoor_Frame.description>
+
+  <VVE_GarageAutoDoorOpened.label>автоматические гаражные ворота (1x4)</VVE_GarageAutoDoorOpened.label>
+  <VVE_GarageAutoDoorOpened.description>Разделяет помещения. Электрическая работа позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</VVE_GarageAutoDoorOpened.description>
+
+  <VVE_GarageAutoDoorLarge.label>автоматические гаражные ворота (1x5)</VVE_GarageAutoDoorLarge.label>
+  <VVE_GarageAutoDoorLarge.description>Разделяет помещения. Электрическая работа позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</VVE_GarageAutoDoorLarge.description>
+  <VVE_GarageAutoDoorLarge_Blueprint.label>автоматические гаражные ворота (1x5) (чертёж)</VVE_GarageAutoDoorLarge_Blueprint.label>
+  <VVE_GarageAutoDoorLarge_Frame.label>автоматические гаражные ворота (1x5) (сборка)</VVE_GarageAutoDoorLarge_Frame.label>
+  <VVE_GarageAutoDoorLarge_Frame.description>Разделяет помещения. Электрическая работа позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</VVE_GarageAutoDoorLarge_Frame.description>
+
+  <VVE_GarageAutoDoorLargeOpened.label>автоматические гаражные ворота (1x5)</VVE_GarageAutoDoorLargeOpened.label>
+  <VVE_GarageAutoDoorLargeOpened.description>Разделяет помещения. Электрическая работа позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</VVE_GarageAutoDoorLargeOpened.description>
+
+
+</LanguageData>

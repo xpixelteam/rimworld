@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient nutrient solution dispenser -->
+  <AncientNutrientDispenser.label>古代营养液分配器</AncientNutrientDispenser.label>
+  <!-- EN: The ancient nutrient solution dispenser was used to process and convert nutrient ointments into nutrient solutions, and then transport nutrient solutions for hydroponic cultivation through a pipeline system. Its core components have disappeared, but some are still intact. Perhaps destroying it can yield some useful things. -->
+  <AncientNutrientDispenser.description>一种古代的营养液分配器，用于将营养膏加工并转化为营养液，然后通过管道系统运输营养液用于水培。它的核心部件已经消失，但有些仍然完好无损。也许摧毁它可以获得一些有用的东西。</AncientNutrientDispenser.description>
+  
+</LanguageData>

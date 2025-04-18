@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <StockpileLimit_SetLimit>Предел</StockpileLimit_SetLimit>
+    <StockpileLimit_SetLimitTooltip>Установите верхний предел для каждой клетки в складе. Ограничение действует только для пешек. Пешки не будут складывать предметы, если они количество превышают верхний предел.</StockpileLimit_SetLimitTooltip>
+    <StockpileLimit_LimitMenu_NoLimit>Нет</StockpileLimit_LimitMenu_NoLimit>
+    <StockpileLimit_LimitMenu_OtherLimit>Другой:</StockpileLimit_LimitMenu_OtherLimit>
+    <StockpileLimit_LimitTooltip_NoLimit>Без ограничений. Как в ванильной игре.</StockpileLimit_LimitTooltip_NoLimit>
+    <StockpileLimit_LimitTooltip_Zero>Хранить пустым, как будто склада нет</StockpileLimit_LimitTooltip_Zero>
+	
+	
+    <StockpileLimit_RefillAt>Пополн.</StockpileLimit_RefillAt>
+    <StockpileLimit_RefillAtTooltip>Установить пороговое значение пополнения *каждой клетки* на этом складе. Это можно рассматривать как нижний предел</StockpileLimit_RefillAtTooltip>
+    <StockpileLimit_RefillMenu_Full>Всегда</StockpileLimit_RefillMenu_Full>
+    <StockpileLimit_RefillMenu_Half>Когда Половина</StockpileLimit_RefillMenu_Half>
+    <StockpileLimit_RefillMenu_Empty>Когда Пустой</StockpileLimit_RefillMenu_Empty>
+    <StockpileLimit_RefillMenu_Other>Другое:</StockpileLimit_RefillMenu_Other>
+    <StockpileLimit_RefillTooltip_Full>Полнять всегда. Как в ванильной игре.</StockpileLimit_RefillTooltip_Full>
+    <StockpileLimit_RefillTooltip_Empty>Пополнять, когда пусто</StockpileLimit_RefillTooltip_Empty>
+
+
+
+    <StockpileLimit_PauseRefilling>Приостановить пополнение</StockpileLimit_PauseRefilling>
+    <StockpileLimit_PauseRefillingTooltip>Временно отключить восполнение запасов для всех клеток в этом хранилище. Это просто удобная функция, а не часть настроек хранилища.</StockpileLimit_PauseRefillingTooltip>
+
+</LanguageData>

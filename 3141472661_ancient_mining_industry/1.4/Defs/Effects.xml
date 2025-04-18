@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>BreadMoAM_AncientMining_Dust</defName>
+		<altitudeLayer>LayingPawn</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Mote/DustPuff</texPath>
+			<renderInstanced>true</renderInstanced>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<fadeInTime>0.1</fadeInTime>
+		<solidTime>0.6</solidTime>
+		<fadeOutTime>2</fadeOutTime>
+		<acceleration>(0,0,-1)</acceleration>
+	</FleckDef>
+</Defs>

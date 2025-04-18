@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HydroponicNutrientSolution.label>гидропонный питательный раствор</HydroponicNutrientSolution.label>
+  <HydroponicNutrientSolution.description>Питательный раствор, обеспечивающий питательными веществами растения на гидропонных фермах. Древняя технология, использованная для его создания, практически утеряна.</HydroponicNutrientSolution.description>
+
+  <HNSprops.label>Пустая коробка от древнего питательного раствора</HNSprops.label>
+  <HNSprops.description>В этой коробочке когда-то находился питательный раствор, но его содержимое давно исчезло.</HNSprops.description>
+  <HNSprops_Blueprint.label>Пустая коробка от древнего питательного раствора (чертеж)</HNSprops_Blueprint.label>
+  <HNSprops_Frame.label>Пустой ящик из древнего питательного раствора (здание)</HNSprops_Frame.label>
+  <HNSprops_Frame.description>В этой коробочке когда-то находился питательный раствор, но его содержимое давно исчезло.</HNSprops_Frame.description>
+
+
+</LanguageData>

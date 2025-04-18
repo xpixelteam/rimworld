@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Multi_Tool</defName>
+    <label>Multi Tool</label>
+    <description>A state-of-the-art device optimized for material acquisition and crafting in futuristic settings. This advanced tool integrates cutting-edge technology, including molecular scanners, energy manipulators, and nano-fabrication capabilities. It can analyze and harvest raw materials from various sources, manipulate their molecular structures, and fabricate them into desired components or objects. With its compact design and versatile functionality, the sci-fi multitool revolutionizes resource procurement and crafting processes, making it an indispensable tool for explorers, engineers, and artisans across the galaxy.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Spacer/Multi_tool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Spacer</techLevel>
+
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<WorkSpeedGlobal>0.60</WorkSpeedGlobal>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+<costList>
+<Plasteel>100</Plasteel>
+<Uranium>50</Uranium>
+	<ComponentSpacer>5</ComponentSpacer>
+	   </costList>
+    <tools>
+     <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+     <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+  
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>SpacerTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>FabricationBench</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Datapad</defName>
+    <label>Datapad</label>
+    <description>A portable electronic device resembling a tablet, commonly used in science fiction settings. It serves as a versatile tool for data storage, communication, and information retrieval. Featuring a touchscreen interface and wireless connectivity, the datapad allows users to access databases, analyze data, send messages, and perform various tasks on-the-go. With its compact design and advanced functionality, it is an indispensable tool for scientists, engineers, and spacefarers navigating futuristic environments.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Spacer/Datapad</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Spacer</techLevel>
+
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+ <ResearchSpeed>0.28</ResearchSpeed>
+ <GlobalLearningFactor>0.28</GlobalLearningFactor>
+   <TradePriceImprovement>0.28</TradePriceImprovement>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+<costList>
+<Plasteel>50</Plasteel>
+	<ComponentSpacer>3</ComponentSpacer>
+	   </costList>
+    <tools>
+     <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>SpacerTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>FabricationBench</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Medical_Stim</defName>
+    <label>Medical Stim</label>
+    <description>A potent pharmaceutical agent designed to swiftly alleviate pain and heal physical damage. Administered via injection, this stimulant acts rapidly promotes accelerated healing. With its potent blend of pharmacological compounds, the Medical Stim serves as a vital tool in emergency medical situations, offering colonists a crucial edge in combat scenarios or when facing severe injuries.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Spacer/Medical_stim</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Spacer</techLevel>
+
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<MedicalTendSpeed>0.70</MedicalTendSpeed>
+<MedicalTendQualityOffset>0.50</MedicalTendQualityOffset>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+<costList>
+<Plasteel>50</Plasteel>
+<MedicineUltratech>1</MedicineUltratech>
+	<ComponentSpacer>3</ComponentSpacer>
+	   </costList>
+    <tools>
+     <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>SpacerTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>FabricationBench</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

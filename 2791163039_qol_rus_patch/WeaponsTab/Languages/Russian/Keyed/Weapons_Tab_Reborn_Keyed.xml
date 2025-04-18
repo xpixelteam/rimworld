@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<SelectLoadout>Выбрать выкладку</SelectLoadout>
+<NewLoadout>Новая выкладка</NewLoadout>
+<DeleteLoadout>Удалить выкладку</DeleteLoadout>
+<NoLoadoutSelected>Нет выбранных выкладок</NoLoadoutSelected>
+<Loadout>Выкладка</Loadout>
+<LoadoutAnything>Что угодно</LoadoutAnything>
+<LoadoutPacifist>Пацифист</LoadoutPacifist>
+<ManageLoadouts>Настроить выкладки</ManageLoadouts>
+<LoadoutInUse>Выкладка используется</LoadoutInUse>
+
+</LanguageData>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Abstract="True" Name="AncientBulidingBase" ParentName="BuildingBase">		
+		<fillPercent>0.5</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<drawerType>MapMeshOnly</drawerType>
+		<repairEffect>ConstructMetal</repairEffect>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<defaultPlacingRot>East</defaultPlacingRot>
+		<statBases>
+		<Mass>5</Mass>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>-20</Beauty>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+	</ThingDef>
+	
+	<ThingDef Abstract="True" Name="AncientFacilities" ParentName="BuildingBase">
+		<fillPercent>0.5</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>		
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<drawerType>MapMeshOnly</drawerType>
+		<repairEffect>ConstructMetal</repairEffect>
+	 <passability>Impassable</passability>
+    <canOverlapZones>false</canOverlapZones>
+		<statBases>
+		    <Mass>75</Mass>
+			<MaxHitPoints>1080</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>-20</Beauty>
+			<WorkToBuild>300</WorkToBuild>
+		</statBases>
+		<building>
+		   <deconstructible>false</deconstructible>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+	</ThingDef>
+
+</Defs>

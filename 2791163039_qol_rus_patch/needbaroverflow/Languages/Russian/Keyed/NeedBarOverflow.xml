@@ -1,0 +1,160 @@
+<LanguageData>
+		
+	<NBO.Name>Need Bar Overflow</NBO.Name>
+	<NBO.RestartReq> (Требуется перезапуск)</NBO.RestartReq>
+	<NBO.RestartNReq>(НЕ Требуется перезапуск)</NBO.RestartNReq>
+	<NBO.RestartReq_tip>Для вступления в силу некоторых изменений требуется перезапуск игры. До перезапуска они могут частично не функционировать.</NBO.RestartReq_tip>
+    <NBO.RestartNReq_tip>Все изменения применяются при закрытии окна настроек. Перезапуск игры не требуется, если не указано иное.</NBO.RestartNReq_tip>
+
+	
+	
+	<NBO.FoodOverfEnabled>Включить Переполнение Уровня Еды</NBO.FoodOverfEnabled>
+	<NBO.FoodOverfEnabled_Tip>Позвольте панелям насыщения пешек переполниться. В этом суть мода, поэтому вы, вероятно, захотите включить это.</NBO.FoodOverfEnabled_Tip>
+	<NBO.FoodOverfPerc>Перенасыщение %:</NBO.FoodOverfPerc>
+	<NBO.FoodOverfPerc_Tip>Дополнительный процент сытости, который может удерживать пешка\nЕсли пешка может нормально съесть 1,1 единицы питания, то при 200% они могут съесть 3,3 единицы питания.\nВ зависимости от фактического размера пищевой панели, будет применяться более высокое результирующее значение этого и единиц переполнения пищи.</NBO.FoodOverfPerc_Tip>
+	<NBO.FoodOverfVal>Перенасыщение значение:</NBO.FoodOverfVal>
+	<NBO.FoodOverfVal_Tip>Сколько дополнительных единиц питания может взять пешка\nЕсли пешка обычно может съесть 1,1 единицы питания, то при 2 они могут съесть 3,1 единицы питания.\nВ зависимости от фактического размера пищевой панели будет применяться более высокое результирующее значение этого параметра и % переполнения пищи.</NBO.FoodOverfVal_Tip>
+	<NBO.FoodOverflowDisableEating>Запретить Прием Пищи Выше {0} от полного</NBO.FoodOverflowDisableEating>
+	<NBO.FoodOverflowDisableEating_Tip>Если уровень насыщения пешки выше {0}, игрок не может приказать пешке потреблять больше пищи с содержанием питательных веществ, пешка все еще может употреблять наркотики с содержанием питательных веществ 0 или потреблять пищу в пищевом разгуле.</NBO.FoodOverflowDisableEating_Tip>
+	<NBO.Disabled_FoodFull>Слишком Полный</NBO.Disabled_FoodFull>
+	<NBO.RestOverfEnabled>Включить Переполнение Уровня Отдыха</NBO.RestOverfEnabled>
+	<NBO.RestOverfEnabled_Tip>Включить Переполнение Уровня Отдыха</NBO.RestOverfEnabled_Tip>
+	<NBO.RestOverfPerc>Переполнение Уровня Отдыха:</NBO.RestOverfPerc>
+	<NBO.RestOverfPerc_Tip>Процент переполнения для потребности в отдыхе\nесли установлено значение 100%, уровень отдыха может достигать 200%</NBO.RestOverfPerc_Tip>
+	<NBO.JoyOverfEnabled>Включить Переполнение Уровня Развлечений</NBO.JoyOverfEnabled>
+	<NBO.JoyOverfEnabled_Tip>Включить Переполнение Уровня Развлечений</NBO.JoyOverfEnabled_Tip>
+	<NBO.JoyOverfPerc>Переполнение Уровня Развлечений:</NBO.JoyOverfPerc>
+	<NBO.JoyOverfPerc_Tip>Процент переполнения для потребностей в развлечениях\nесли установлено значение 100%, уровень развлечений может достигать 200%</NBO.JoyOverfPerc_Tip>
+	<NBO.BeautyOverfEnabled>Включить Переполнение Уровня Красоты</NBO.BeautyOverfEnabled>
+	<NBO.BeautyOverfEnabled_Tip>Включить Переполнение Уровня Красоты</NBO.BeautyOverfEnabled_Tip>
+	<NBO.BeautyOverfPerc>Переполнение Уровня Красоты:</NBO.BeautyOverfPerc>
+	<NBO.BeautyOverfPerc_Tip>Процент переполнения для потребностей в красоте\nесли установлено значение 100%, уровень красоты может достигать 200%</NBO.BeautyOverfPerc_Tip>
+	<NBO.ComfortOverfEnabled>Включить Переполнение Уровня Комфорта</NBO.ComfortOverfEnabled>
+	<NBO.ComfortOverfEnabled_Tip>Включить Переполнение Уровня Комфорта</NBO.ComfortOverfEnabled_Tip>
+	<NBO.ComfortOverfPerc>Переполнение Уровня Комфорта:</NBO.ComfortOverfPerc>
+	<NBO.ComfortOverfPerc_Tip>Процент переполнения для потребностей в комфорте\nесли установлено значение 100%, уровень комфорта может достигать 200%</NBO.ComfortOverfPerc_Tip>
+	<NBO.ChemicalOverfEnabled>Включить Переполнение Уровня Химии</NBO.ChemicalOverfEnabled>
+	<NBO.ChemicalOverfEnabled_Tip>Включить Переполнение Уровня Химии</NBO.ChemicalOverfEnabled_Tip>
+	<NBO.ChemicalOverfPerc>Переполнение Уровня Химии:</NBO.ChemicalOverfPerc>
+	<NBO.ChemicalOverfPerc_Tip>Процент переполнения для потребностей в химии\nесли установлено значение 100%, уровень химии может достигать 200%</NBO.ChemicalOverfPerc_Tip>
+	<NBO.MoodOverfEnabled>Включить Переполнение Уровня Настроения</NBO.MoodOverfEnabled>
+	<NBO.MoodOverfEnabled_Tip>Включить Переполнение Уровня Настроения</NBO.MoodOverfEnabled_Tip>
+	<NBO.MoodOverfPerc>Переполнение Уровня Настроения:</NBO.MoodOverfPerc>
+	<NBO.MoodOverfPerc_Tip>Процент переполнения для уровня настроения\nесли установить значение 100%, уровень настроения может достигать 200%</NBO.MoodOverfPerc_Tip>
+
+
+  <NBO.FoodOverfDisableEating>Запретить прием пищи выше {0}</NBO.FoodOverfDisableEating>
+  <NBO.FoodOverfDisableEating_Tip>Если уровень питания пешки выше {0}, игрок не может приказать пешке съесть больше еды. Пешка все еще может использовать препараты с 0 питания.</NBO.FoodOverfDisableEating_Tip>
+  <NBO.FoodOverfAffectHunger>Потребность в еде уменьшается быстрее, когда Переполнен</NBO.FoodOverfAffectHunger>
+  <NBO.FoodOverfAffectHunger_Tip>Если уровень питания пешки превышает 100%, их потребность в пище падает быстрее.</NBO.FoodOverfAffectHunger_Tip>
+  <NBO.FoodOverfAffectHealing>Заживление происходит быстрее, когда Переполнен</NBO.FoodOverfAffectHealing>
+  <NBO.FoodOverfAffectHealing_Tip>Если уровень питания пешки превышает 100%, ее раны заживают немного быстрее.</NBO.FoodOverfAffectHealing_Tip>
+  <NBO.FoodOverfAffectMoving>Передвигаться медленнее, когда Переполнен</NBO.FoodOverfAffectMoving>
+  <NBO.FoodOverfAffectMoving_Tip>Если уровень питания пешки превышает 100%, она будет двигаться медленнее.</NBO.FoodOverfAffectMoving_Tip>
+  <NBO.FoodOverfCauseVomit>Случайная рвота, когда Переполнен</NBO.FoodOverfCauseVomit>
+  <NBO.FoodOverfCauseVomit_Tip>Если уровень питания пешки превышает 100%, ее может иногда рвать.</NBO.FoodOverfCauseVomit_Tip>
+  <NBO.FoodOverfAffectEating>Ешьте медленнее, когда Переполнен</NBO.FoodOverfAffectEating>
+  <NBO.FoodOverfAffectEating_Tip>Если уровень питания пешки превышает 100%, она будет есть медленнее.</NBO.FoodOverfAffectEating_Tip>
+  <NBO.FoodOverfHealthDetails>Показать настройку эффекта для здоровья</NBO.FoodOverfHealthDetails>
+  <NBO.FoodOverfHealthDetails_Tip>Эти настройки будут применяться до тех пор, пока установлен соответствующий флажок выше. Просто показывает/скрывает настройки.</NBO.FoodOverfHealthDetails_Tip>
+
+
+  <NBO.FoodOverfNonHumanMult>Множитель эффекта для не людей : {0}</NBO.FoodOverfNonHumanMult>
+  <NBO.FoodOverfNonHumanMult_Tip>Когда уровень пищи не людей превышает 100%, они получают уменьшенный эффект от переполнения пищи, как если бы они были переполнены на {0}.</NBO.FoodOverfNonHumanMult_Tip>
+  <NBO.FoodOverfGourmandMult>Множитель эффекта гурмана: {0}</NBO.FoodOverfGourmandMult>
+  <NBO.FoodOverfGourmandMult_Tip>Когда уровень еды пешек-гурманов превышает 100%, они получают уменьшенный эффект от переполнения пищи, как если бы они были переполнены на {0}.</NBO.FoodOverfGourmandMult_Tip>
+  <NBO.FoodOverfShowHediffLvl>Эффекты отображаются только при заполнении выше {0}</NBO.FoodOverfShowHediffLvl>
+  <NBO.FoodOverfShowHediffLvl_Tip>Последствия переполнения пищи для здоровья видны, когда значение переполнения выше {0}, это учитывает предыдущие две настройки, поэтому этим пешкам может потребоваться больше переполнения, чтобы показать видимые эффекты.</NBO.FoodOverfShowHediffLvl_Tip>
+  
+  <NBO.FoodOverfLevel>Когда пешка заполнена по крайней мере {0}...</NBO.FoodOverfLevel>
+  <NBO.FoodHungerFactor>Уровень пищи пешки будет истощаться со скоростью {0}</NBO.FoodHungerFactor>
+  <NBO.FoodHealingFactor>Раны пешки заживают со скоростью {0}</NBO.FoodHealingFactor>
+  <NBO.FoodMovingOffset>Способность пешки к перемещению уменьшится на {0}</NBO.FoodMovingOffset>
+  <NBO.FoodVomitFreq>Пешку будет рвать в среднем {0} раз в день</NBO.FoodVomitFreq>
+  <NBO.FoodEatingOffset>Скорость поедания пешки уменьшится на {0}</NBO.FoodEatingOffset>
+
+  <NBO.RestOverfFastDrain>При Переполненном отдыхе уровень сна снижается быстрее: {0}</NBO.RestOverfFastDrain>
+  <NBO.RestOverfFastDrain_Tip>Когда уровень сна пешки превышает 100%, ее уровень сна будет падать ({0} × Количество переполнения) быстрее, когда она бодрствует. Чем выше уровень сна и эта настройка, тем быстрее падает уровень сна.</NBO.RestOverfFastDrain_Tip>
+  <NBO.RestOverfSlowGain>При Переполненном Отдыхе Уровень сна повышается медленнее: {0}</NBO.RestOverfSlowGain>
+  <NBO.RestOverfSlowGain_Tip>Когда уровень сна пешки превышает 100%, ее уровень сна восстанавливается с нормальной скоростью ÷ (100% + {0} × Количество переполнения) во время сна. Чем выше уровень сна и эта настройка, тем менее эффективным является пересыпание. Это влияет только на сон, а не на другие способы достижения сна, такие как употребление наркотиков.</NBO.RestOverfSlowGain_Tip>
+
+  <NBO.JoyOverfFastDrain>Быстрее теряешь развлечение, когда уровень развлечение Переполнен: {0}</NBO.JoyOverfFastDrain>
+  <NBO.JoyOverfFastDrain_Tip>Когда уровень развлечения пешки превышает 100%, их уровень отдыха будет падать ({0} × Сумма переполнения) быстрее. Чем выше уровень отдыха и эта настройка, тем быстрее падает уровень отдыха.</NBO.JoyOverfFastDrain_Tip>
+  <NBO.JoyOverfSlowGain>Медленнее получаешь развлечение, когда уровень развлечение Переполнен: {0} Эффект</NBO.JoyOverfSlowGain>
+  <NBO.JoyOverfSlowGain_Tip>Когда уровень развлечение пешки превышает 100%, их уровень развлечение ÷ (100% + {0} × Сумма переполнения). Чем выше уровень отдыха и эта настройка, тем меньше будет получено.</NBO.JoyOverfSlowGain_Tip>
+
+  <NBO.ChemicalAnyOverfEnabled>Включить Переполнение Уровня Химии (Особенности)</NBO.ChemicalAnyOverfEnabled>
+  <NBO.ChemicalAnyOverfEnabled_Tip>Включить переполнение уровня химии , такого рода потребность обычно не различает наркотики и часто вызвана особенностями пешек.</NBO.ChemicalAnyOverfEnabled_Tip>
+  <NBO.ChemicalAnyOverfPerc>Множитель Переполнения Уровня Химии (Особенности): {0}</NBO.ChemicalAnyOverfPerc>
+  <NBO.ChemicalAnyOverfPerc_Tip>Максимальный Уровня Химии {0}.</NBO.ChemicalAnyOverfPerc_Tip>
+
+  <NBO.OutdoorsOverfEnabled>Включить переполнение уровня "На открытом воздухе"</NBO.OutdoorsOverfEnabled>
+  <NBO.OutdoorsOverfEnabled_Tip>Включить переполнение уровня "На открытом воздухе"</NBO.OutdoorsOverfEnabled_Tip>
+  <NBO.OutdoorsOverfPerc>Множитель Переполнения уровня "На открытом воздухе": {0}</NBO.OutdoorsOverfPerc>
+  <NBO.OutdoorsOverfPerc_Tip>Максимальный уровень "На открытом воздухе" {0}.</NBO.OutdoorsOverfPerc_Tip>
+
+  <NBO.IndoorsOverfEnabled>Включить переполнение уровня "В помещении"</NBO.IndoorsOverfEnabled>
+  <NBO.IndoorsOverfEnabled_Tip>Включить переполнение уровня "В помещении"</NBO.IndoorsOverfEnabled_Tip>
+  <NBO.IndoorsOverfPerc>Множитель Переполнения уровня "В помещении": {0}</NBO.IndoorsOverfPerc>
+  <NBO.IndoorsOverfPerc_Tip>Максимальный уровень "В помещении" {0}.</NBO.IndoorsOverfPerc_Tip>
+
+  <NBO.SuppressionOverfEnabled>Включить переполнение уровня Подавления</NBO.SuppressionOverfEnabled>
+  <NBO.SuppressionOverfEnabled_Tip>Разрешить переполнение уровня подавления рабов, хотя нет никакого ванильного способа переполнить этот уровень.</NBO.SuppressionOverfEnabled_Tip>
+  <NBO.SuppressionOverfPerc>Множитель Переполнения уровня Подавления: {0}</NBO.SuppressionOverfPerc>
+  <NBO.SuppressionOverfPerc_Tip>Максимальный уровень Подавления {0}.</NBO.SuppressionOverfPerc_Tip>
+
+  <NBO.RoomSizeOverfEnabled>Включить переполнение уровня размера комнаты</NBO.RoomSizeOverfEnabled>
+  <NBO.RoomSizeOverfEnabled_Tip>Разрешить переполнение баров размера комнаты пешек, хотя нет никакого ванильного способа переполнить этот уровень.</NBO.RoomSizeOverfEnabled_Tip>
+  <NBO.RoomSizeOverfPerc>Множитель Переполнения уровня размера комнаты: {0}</NBO.RoomSizeOverfPerc>
+  <NBO.RoomSizeOverfPerc_Tip>Максимальный уровень размера комнаты, которого может достичь пешка, равен {0}.</NBO.RoomSizeOverfPerc_Tip>
+
+  <NBO.DeathrestOverfEnabled>Включить переполнение уровня покоя смерти(Deathrest)</NBO.DeathrestOverfEnabled>
+  <NBO.DeathrestOverfEnabled_Tip>Включить переполнение уровня покоя смерти(Deathrest)</NBO.DeathrestOverfEnabled_Tip>
+  <NBO.DeathrestOverfPerc>Множитель Переполнения уровня покоя смерти(Deathrest): {0}</NBO.DeathrestOverfPerc>
+  <NBO.DeathrestOverfPerc_Tip>Максимальный уровень покоя смерти(Deathrest), которого может достичь пешка, равен {0}.</NBO.DeathrestOverfPerc_Tip>
+
+  <NBO.KillThirstOverfEnabled>Включить переполнение уровня Насыщения убийством</NBO.KillThirstOverfEnabled>
+  <NBO.KillThirstOverfEnabled_Tip>Включить переполнение уровня Насыщения убийством</NBO.KillThirstOverfEnabled_Tip>
+  <NBO.KillThirstOverfPerc>Множитель Переполнения уровня Насыщения убийством: {0}</NBO.KillThirstOverfPerc>
+  <NBO.KillThirstOverfPerc_Tip>Максимальный уровень насыщения убийством, которого может достичь пешка, равен {0}</NBO.KillThirstOverfPerc_Tip>
+  <NBO.KillThirstOverfFastDrain>Насыщения убийством снижается быстрее, когда Переполнен: {0}</NBO.KillThirstOverfFastDrain>
+  <NBO.KillThirstOverfFastDrain_Tip>Когда уровень Насыщения убийством пешки превышает 100%, их Насыщение убийством будет падать ({0} × Сумма переполнения) быстрее. Чем выше значение Насыщения убийством и эта настройка, тем быстрее оно падает.</NBO.KillThirstOverfFastDrain_Tip>
+  <NBO.KillThirstOverfSlowGain>Медленнее получаешь уровень Насыщения убийством: {0}</NBO.KillThirstOverfSlowGain>
+  <NBO.KillThirstOverfSlowGain_Tip>Когда уровень Насыщения убийством пешки превышает 100%, дополнительные убийства будут насыщать только на 100% ÷ (100% + {0} × Сумма переполнения). Чем выше значение Насыщения убийством и эта настройка, тем меньше будет насыщения.</NBO.KillThirstOverfSlowGain_Tip>
+
+  <NBO.MechEnergyOverfEnabled>Включить переполнение уровня Энергии механоидов</NBO.MechEnergyOverfEnabled>
+  <NBO.MechEnergyOverfEnabled_Tip>Включить переполнение уровня Энергии для механоидов'</NBO.MechEnergyOverfEnabled_Tip>
+  <NBO.MechEnergyOverfPerc>Множитель Переполнения уровня Энергии механоидов: {0}</NBO.MechEnergyOverfPerc>
+  <NBO.MechEnergyOverfPerc_Tip>Максимальный уровень энергии, которого может достичь механоид, равен {0}.</NBO.MechEnergyOverfPerc_Tip>
+
+  <NBO.LearningOverfEnabled>Включить переполнение уровня Обучения</NBO.LearningOverfEnabled>
+  <NBO.LearningOverfEnabled_Tip>Включить переполнение уровня Обучения для детей, хотя нет никакого ванильного способа переполнить этот уровень.</NBO.LearningOverfEnabled_Tip>
+  <NBO.LearningOverfPerc>Множитель Переполнения уровня Обучения: {0}</NBO.LearningOverfPerc>
+  <NBO.LearningOverfPerc_Tip>Максимальный уровень обучения, которого может достичь ребенок, равен {0}.</NBO.LearningOverfPerc_Tip>
+
+  <NBO.PlayOverfEnabled>Включить переполнение уровня Игры</NBO.PlayOverfEnabled>
+  <NBO.PlayOverfEnabled_Tip>Включить переполнение уровня Игры для младенцев, хотя нет никакого ванильного способа переполнить этот уровень.</NBO.PlayOverfEnabled_Tip>
+  <NBO.PlayOverfPerc>Множитель Переполнения уровня Игры: {0}</NBO.PlayOverfPerc>
+  <NBO.PlayOverfPerc_Tip>Максимальный уровень игры, которого может достичь ребенок, равен {0}.</NBO.PlayOverfPerc_Tip>
+
+  <NBO.ShowHiddenSettings>Показывать не рекомендуемые настройки переполнения</NBO.ShowHiddenSettings>
+  <NBO.ShowHiddenSettings_Tip>Приведенные ниже настройки либо не реализованы в vanilla, либо изначально содержат ошибки, поэтому вы можете отключить их. Обратите внимание, что этот флажок скрывает/показывает только настройки, и вам все равно нужно отключить их по отдельности, если они включены.</NBO.ShowHiddenSettings_Tip>
+
+  <NBO.DefaultOverfEnabled>Включить переполнение уровня Стандартных потребностей</NBO.DefaultOverfEnabled>
+  <NBO.DefaultOverfEnabled_Tip>Включить переполнение уровня любого вида потребностей, которые в настоящее время не поддерживаются. Это может привести ко многим неожиданным поведениям / ошибкам, но это единственный вариант, если вы действительно хотите что-то изменить.</NBO.DefaultOverfEnabled_Tip>
+  <NBO.DefaultOverfPerc>Множитель Переполнения уровня Стандартных потребностей: {0}</NBO.DefaultOverfPerc>
+  <NBO.DefaultOverfPerc_Tip>Для любых в настоящее время неподдерживаемых потребностей максимальный уровень потребности, которого может достичь пешка, равен {0}.</NBO.DefaultOverfPerc_Tip>
+
+  <NBO.AuthorityOverfEnabled>Включить переполнение уровня Власти (authority)</NBO.AuthorityOverfEnabled>
+  <NBO.AuthorityOverfEnabled_Tip>Включить переполнение уровня Власти(authority), хотя это всего лишь фиктивная потребность, так что, скорее всего, она ничего не делает.</NBO.AuthorityOverfEnabled_Tip>
+  <NBO.AuthorityOverfPerc>Множитель Переполнения уровня Власти(authority): {0}</NBO.AuthorityOverfPerc>
+  <NBO.AuthorityOverfPerc_Tip>Максимальный уровень Власти(authority), которого может достичь пешка, равен {0}.</NBO.AuthorityOverfPerc_Tip>
+
+  <NBO.SadismOverfEnabled>Включить переполнение уровня Садизма</NBO.SadismOverfEnabled>
+  <NBO.SadismOverfEnabled_Tip>Включить переполнение уровня садизма, эта потребность не завершена в ванильной игре, поэтому она, скорее всего, ничего не делает.</NBO.SadismOverfEnabled_Tip>
+  <NBO.SadismOverfPerc>Множитель Переполнения уровня Садизма: {0}</NBO.SadismOverfPerc>
+  <NBO.SadismOverfPerc_Tip>Максимальный уровень Садизма, которого может достичь пешка, равен {0}.</NBO.SadismOverfPerc_Tip>
+  
+
+
+  </LanguageData>

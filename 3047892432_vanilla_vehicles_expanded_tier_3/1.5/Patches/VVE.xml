@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/VFECore.ObjectSpawnsDef[defName="VVE_AllMaps_VehicleWrecks"]/thingDefs</xpath>
+		<value>
+			<VVE_ClassicCarWreck>1</VVE_ClassicCarWreck>
+			<VVE_SupercarWreck>1</VVE_SupercarWreck>
+			<VVE_BattleTankWreck>1</VVE_BattleTankWreck>
+			<VVE_LightArmoredVehicleWreck>1</VVE_LightArmoredVehicleWreck>
+			<VVE_OffroadJeepWreck>1</VVE_OffroadJeepWreck>
+			<VVE_HelicopterWreck>1</VVE_HelicopterWreck>
+			<VVE_TruckWreck>1</VVE_TruckWreck>
+			<VVE_ArtilleryWreck>1</VVE_ArtilleryWreck>
+			<VVE_CargoHelicopterWreck>1</VVE_CargoHelicopterWreck>
+			<VVE_RefrigeratedTruckWreck>1</VVE_RefrigeratedTruckWreck>
+			<VVE_InfantryFightingVehicleWreck>1</VVE_InfantryFightingVehicleWreck>
+			<VVE_RocketArtilleryWreck>1</VVE_RocketArtilleryWreck>
+			<VVE_SiegePodWreck>1</VVE_SiegePodWreck>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/VFECore.ObjectSpawnsDef[defName="VVE_DirtPath_VehicleWrecks"]/thingDefs</xpath>
+		<value>
+			<VVE_ClassicCarWreck>1</VVE_ClassicCarWreck>
+			<VVE_SupercarWreck>1</VVE_SupercarWreck>
+			<VVE_BattleTankWreck>1</VVE_BattleTankWreck>
+			<VVE_LightArmoredVehicleWreck>1</VVE_LightArmoredVehicleWreck>
+			<VVE_OffroadJeepWreck>1</VVE_OffroadJeepWreck>
+			<VVE_HelicopterWreck>1</VVE_HelicopterWreck>
+			<VVE_TruckWreck>1</VVE_TruckWreck>
+			<VVE_ArtilleryWreck>1</VVE_ArtilleryWreck>
+			<VVE_CargoHelicopterWreck>1</VVE_CargoHelicopterWreck>
+			<VVE_RefrigeratedTruckWreck>1</VVE_RefrigeratedTruckWreck>
+			<VVE_InfantryFightingVehicleWreck>1</VVE_InfantryFightingVehicleWreck>
+			<VVE_RocketArtilleryWreck>1</VVE_RocketArtilleryWreck>
+			<VVE_SiegePodWreck>1</VVE_SiegePodWreck>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/VFECore.ObjectSpawnsDef[defName="VVE_DirtRoad_VehicleWrecks"]/thingDefs</xpath>
+		<value>
+			<VVE_ClassicCarWreck>1</VVE_ClassicCarWreck>
+			<VVE_SupercarWreck>1</VVE_SupercarWreck>
+			<VVE_BattleTankWreck>1</VVE_BattleTankWreck>
+			<VVE_LightArmoredVehicleWreck>1</VVE_LightArmoredVehicleWreck>
+			<VVE_OffroadJeepWreck>1</VVE_OffroadJeepWreck>
+			<VVE_HelicopterWreck>1</VVE_HelicopterWreck>
+			<VVE_TruckWreck>1</VVE_TruckWreck>
+			<VVE_ArtilleryWreck>1</VVE_ArtilleryWreck>
+			<VVE_CargoHelicopterWreck>1</VVE_CargoHelicopterWreck>
+			<VVE_RefrigeratedTruckWreck>1</VVE_RefrigeratedTruckWreck>
+			<VVE_InfantryFightingVehicleWreck>1</VVE_InfantryFightingVehicleWreck>
+			<VVE_RocketArtilleryWreck>1</VVE_RocketArtilleryWreck>
+			<VVE_SiegePodWreck>1</VVE_SiegePodWreck>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/VFECore.ObjectSpawnsDef[defName="VVE_StoneRoad_VehicleWrecks"]/thingDefs</xpath>
+		<value>
+			<VVE_ClassicCarWreck>1</VVE_ClassicCarWreck>
+			<VVE_SupercarWreck>1</VVE_SupercarWreck>
+			<VVE_BattleTankWreck>1</VVE_BattleTankWreck>
+			<VVE_LightArmoredVehicleWreck>1</VVE_LightArmoredVehicleWreck>
+			<VVE_OffroadJeepWreck>1</VVE_OffroadJeepWreck>
+			<VVE_HelicopterWreck>1</VVE_HelicopterWreck>
+			<VVE_TruckWreck>1</VVE_TruckWreck>
+			<VVE_ArtilleryWreck>1</VVE_ArtilleryWreck>
+			<VVE_CargoHelicopterWreck>1</VVE_CargoHelicopterWreck>
+			<VVE_RefrigeratedTruckWreck>1</VVE_RefrigeratedTruckWreck>
+			<VVE_InfantryFightingVehicleWreck>1</VVE_InfantryFightingVehicleWreck>
+			<VVE_RocketArtilleryWreck>1</VVE_RocketArtilleryWreck>
+			<VVE_SiegePodWreck>1</VVE_SiegePodWreck>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/VFECore.ObjectSpawnsDef[defName="VVE_AncientAsphaltRoad_VehicleWrecks"]/thingDefs</xpath>
+		<value>
+			<VVE_ClassicCarWreck>1</VVE_ClassicCarWreck>
+			<VVE_SupercarWreck>1</VVE_SupercarWreck>
+			<VVE_BattleTankWreck>1</VVE_BattleTankWreck>
+			<VVE_LightArmoredVehicleWreck>1</VVE_LightArmoredVehicleWreck>
+			<VVE_OffroadJeepWreck>1</VVE_OffroadJeepWreck>
+			<VVE_HelicopterWreck>1</VVE_HelicopterWreck>
+			<VVE_TruckWreck>1</VVE_TruckWreck>
+			<VVE_ArtilleryWreck>1</VVE_ArtilleryWreck>
+			<VVE_CargoHelicopterWreck>1</VVE_CargoHelicopterWreck>
+			<VVE_RefrigeratedTruckWreck>1</VVE_RefrigeratedTruckWreck>
+			<VVE_InfantryFightingVehicleWreck>1</VVE_InfantryFightingVehicleWreck>
+			<VVE_RocketArtilleryWreck>1</VVE_RocketArtilleryWreck>
+			<VVE_SiegePodWreck>1</VVE_SiegePodWreck>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/VFECore.ObjectSpawnsDef[defName="VVE_AncientAsphaltHighway_VehicleWrecks"]/thingDefs</xpath>
+		<value>
+			<VVE_ClassicCarWreck>1</VVE_ClassicCarWreck>
+			<VVE_SupercarWreck>1</VVE_SupercarWreck>
+			<VVE_BattleTankWreck>1</VVE_BattleTankWreck>
+			<VVE_LightArmoredVehicleWreck>1</VVE_LightArmoredVehicleWreck>
+			<VVE_OffroadJeepWreck>1</VVE_OffroadJeepWreck>
+			<VVE_HelicopterWreck>1</VVE_HelicopterWreck>
+			<VVE_TruckWreck>1</VVE_TruckWreck>
+			<VVE_ArtilleryWreck>1</VVE_ArtilleryWreck>
+			<VVE_CargoHelicopterWreck>1</VVE_CargoHelicopterWreck>
+			<VVE_RefrigeratedTruckWreck>1</VVE_RefrigeratedTruckWreck>
+			<VVE_InfantryFightingVehicleWreck>1</VVE_InfantryFightingVehicleWreck>
+			<VVE_RocketArtilleryWreck>1</VVE_RocketArtilleryWreck>
+			<VVE_SiegePodWreck>1</VVE_SiegePodWreck>
+		</value>
+	</Operation>
+
+</Patch>

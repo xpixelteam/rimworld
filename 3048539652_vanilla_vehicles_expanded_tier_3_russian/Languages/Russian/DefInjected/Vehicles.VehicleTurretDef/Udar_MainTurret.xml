@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Udar_MainTurret.label>Артиллерия "Удар"</Udar_MainTurret.label>
+  <Udar_MainTurret.description>Огромная артиллерийская установка, способная стрелять различными типами снарядов на средние расстояния. Несмотря на то, что она не может стрелять на разные мировые плиты, тот факт, что она установлена на бронированной мобильной платформе, придает ей большую универсальность. Она может поворачиваться только на 35 градусов в обе стороны. Обычно устанавливается на артиллерии "Удар".</Udar_MainTurret.description>
+  <Udar_MainTurret.fireModes.0.label>Одиночный</Udar_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <JobInBar_NameColorButton>Цвет имени</JobInBar_NameColorButton>
+  <JobInBar_JobColorButton>Цвет работы</JobInBar_JobColorButton>
+  <JobInBar_ShowJobLabelFor>Показать</JobInBar_ShowJobLabelFor>
+  <JobInBar_Settings_Enabled>Мод включен:</JobInBar_Settings_Enabled>
+  <JobInBar_Settings_Enabled_desc>Используйте это, чтобы полностью отключить мод, если что-то ведет себя странно.</JobInBar_Settings_Enabled_desc>
+  <JobInBar_Settings_Positioning>Позиция текста</JobInBar_Settings_Positioning>
+  <JobInBar_Settings_Ypos>Вертикальный отступ: </JobInBar_Settings_Ypos>
+  <JobInBar_Settings_Ydist>Вертикальный отступ между надписями: </JobInBar_Settings_Ydist>
+  <JobInBar_Settings_DrawBG>Показывать фон:</JobInBar_Settings_DrawBG>
+  <JobInBar_Settings_DrawBG_desc>Показывать черный прямоугольник позади названия работы, так как на тексте с именем.</JobInBar_Settings_DrawBG_desc>
+  <JobInBar_Settings_Truncate>Обрезать длинные названия</JobInBar_Settings_Truncate>
+  <JobInBar_Settings_Truncate_desc>Если этот параметр отключен, длинные названия работ будут писаться полностью. Выглядит некрасиво, но может быть именно тем поведением, которое вам нужно.</JobInBar_Settings_Truncate_desc>
+  <JobInBar_Settings_HideDrafted>Скрывать при призыве</JobInBar_Settings_HideDrafted>
+  <JobInBar_Settings_HideDrafted_desc>Скрывать текст с названием работы при призыве колониста. Полезно при использовании других модов панели колонистов, таких как Show Draftees Weapon.</JobInBar_Settings_HideDrafted_desc>
+  <JobInBar_Settings_OffsetWhenWeaponEquipped>Отступ, когда вооружен</JobInBar_Settings_OffsetWhenWeaponEquipped>
+  <JobInBar_Settings_OffsetWhenWeaponEquipped_desc>Отступ для текста, пока у пешки есть оружие. Выглядит лучше с модом Show Draftees Weapon, чтобы убрать текст с иконки оружия.</JobInBar_Settings_OffsetWhenWeaponEquipped_desc>
+  <JobInBar_Settings_Job>Показывать работу</JobInBar_Settings_Job>
+  <JobInBar_Settings_Job_desc>Показывать текущую работу колониста. Основная функция мода.</JobInBar_Settings_Job_desc>
+  <JobInBar_Settings_CurrentJobHeader>Включите, чтобы при наведении курсора мыши появлялся текст, показывающий, какую задачу пешка выполняет в данный момент.
+Обратите внимание, что это потенциально может оказать негативное влияние на производительность.</JobInBar_Settings_CurrentJobHeader>
+  <JobInBar_Settings_DrawCurrentJob>Показывать текущее занятие</JobInBar_Settings_DrawCurrentJob>
+  <JobInBar_Settings_DrawCurrentJob_desc>Будет отображаться занятие которое в данный момент выполняет пешка (например, уборка / крафт / строительство). Обратите внимание, что показывается только для пешки, на которую наведен указатель мыши, по соображениям производительности и визуального беспорядка.</JobInBar_Settings_DrawCurrentJob_desc>
+  <JobInBar_Settings_CurrentJobLabelColor>Цвет текущего занятия</JobInBar_Settings_CurrentJobLabelColor>
+  <JobInBar_Settings_DrawOnlyOnHover>Показывать только при наведении мыши</JobInBar_Settings_DrawOnlyOnHover>
+  <JobInBar_Settings_DrawOnlyOnHover_desc>Показывать только для пешек, на которые в данный момент наведена мышь на панели колонистов.</JobInBar_Settings_DrawOnlyOnHover_desc>
+  <JobInBar_Settings_Role>Показывать роли специалистов из идеологии (если таковые имеются)</JobInBar_Settings_Role>
+  <JobInBar_Settings_Role_desc>Если установлена идеология, показывает роли специалистов в цвете их идеологии под ярлыком вакансии.</JobInBar_Settings_Role_desc>
+  <JobInBar_Settings_RoleColor>Используйте цвет идеологии для ролей</JobInBar_Settings_RoleColor>
+  <JobInBar_Settings_RoleColor_desc>Отключите, если цвет идеологии затрудняет чтение цвета роли специалиста или он отвлекает вас.</JobInBar_Settings_RoleColor_desc>
+  <JobInBar_Settings_RoleColorAbility>Используйте цвет роли только в том случае, если способности готовы к использованию</JobInBar_Settings_RoleColorAbility>
+  <JobInBar_Settings_RoleColorAbility_desc>Если включено, цвет роли идеологии будет использоваться только в том случае, если перезарядка способностей роли завершена и способность может быть использована. В противном случае будет того же цвета, что и текст с именем.</JobInBar_Settings_RoleColorAbility_desc>
+  <JobInBar_Settings_Title>Показывать титулы (если таковые имеются)</JobInBar_Settings_Title>
+  <JobInBar_Settings_Title_desc>Если установлен Royalty, показывает королевские титулы, принадлежащие пешке, под ярлыком задания.</JobInBar_Settings_Title_desc>
+  <JobInBar_Settings_Alpha>Непрозрачность для всех меток</JobInBar_Settings_Alpha>
+  <JobInBar_Settings_JobLabelColor>Цвет работы по умолчанию</JobInBar_Settings_JobLabelColor>
+  <JobInBar_Settings_DefaultShow>Показывать работу по умолчанию</JobInBar_Settings_DefaultShow>
+  <JobInBar_Settings_DefaultShow_desc>Задает значение по умолчанию для того, должен ли отображаться текст работы. Может переключаться индивидуально для каждого колониста.</JobInBar_Settings_DefaultShow_desc>
+  <JobInBar_Settings_DisplaySettingsLabel>Настройки отображения</JobInBar_Settings_DisplaySettingsLabel>
+  <JobInBar_SettingsCategory>Job Label In Colonist Bar</JobInBar_SettingsCategory>
+
+</LanguageData>

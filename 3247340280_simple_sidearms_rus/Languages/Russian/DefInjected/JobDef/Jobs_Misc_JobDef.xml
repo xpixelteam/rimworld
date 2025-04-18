@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\JobDefs\Jobs_Misc.xml-->
+	<!--                         equipping TargetA as sidearm. -->
+	<EquipSecondary.reportString>экипирование оружия как дополнительного.</EquipSecondary.reportString>
+	<!--                           re-equipping TargetA as sidearm. -->
+	<ReequipSecondary.reportString>переэкипировка оружия как дополнительного.</ReequipSecondary.reportString>
+	<!--                                 re-equipping TargetA as sidearm. -->
+	<ReequipSecondaryCombat.reportString>переэкипировка оружия как дополнительного.</ReequipSecondaryCombat.reportString>
+</LanguageData>

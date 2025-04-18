@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Muzzle Flash</name>
+	<author>Issac Zhuang</author>
+	<packageId>IssacZhuang.MuzzleFlash</packageId>
+	<description>add muzzule flash to the gun.</description>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef  ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientMudCarriage</defName>
+		<label>Ancient Mud Carriage</label>
+		<description>A mining car loaded with mud</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientMudCarriage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<statBases>
+			<Mass>350</Mass>
+		</statBases>
+		<costList>
+			<Steel>250</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>		
+	</ThingDef>
+
+	<ThingDef  ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientSteelMiningCars</defName>
+		<label>Ancient Steel Mining Car</label>
+		<description>A mining car loaded with Steel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientSteelMiningCars</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<statBases>
+			<Mass>450</Mass>
+		</statBases>
+		<costList>
+			<Steel>750</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+			<Steel>375</Steel>
+		</killedLeavings>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>		
+	</ThingDef>
+
+	<ThingDef  ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientUraniumMiningCars</defName>
+		<label>Ancient Uranium Mining Car</label>
+		<description>A mining car loaded with Uranium，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientUraniumMiningCars</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<statBases>
+			<Mass>550</Mass>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<Uranium>375</Uranium>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+			<Uranium>375</Uranium>
+		</killedLeavings>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>				
+	</ThingDef>
+
+	<ThingDef  ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientPlasteelMiningCars</defName>
+		<label>Ancient Plasteel Mining Car</label>
+		<description>A mining car loaded with Plasteel，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientPlasteelMiningCars</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<statBases>
+			<Mass>550</Mass>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<Plasteel>375</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+			<Plasteel>375</Plasteel>
+		</killedLeavings>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>				
+	</ThingDef>
+
+	<ThingDef  ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientEmptyMiningCar</defName>
+		<label>Ancient Empty Mining Car</label>
+		<description>An empty mine car</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientEmptyCarriage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<statBases>
+			<Mass>100</Mass>
+		</statBases>
+		<costList>
+			<Steel>250</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>				
+	</ThingDef>
+
+	<ThingDef  ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientRockMiningCar</defName>
+		<label>Ancient Rock Mining Car</label>
+		<description>A mining car loaded with Rock</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientRockCarriage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,4.5)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,3)</size>
+		<statBases>
+			<Mass>500</Mass>
+		</statBases>
+		<costList>
+			<Steel>250</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+		<clearBuildingArea>false</clearBuildingArea>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>		
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientIndoorFireHydrants</defName>
+		<label>Ancient Indoor Fire Hydrants</label>
+		<description>An ancient fire hydrant with no water left inside.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientIndoorFireHydrants</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+	</ThingDef>
+ 
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientBarrierGate</defName>
+		<label>Ancient Barrier Gate</label>
+		<description>An ancient barrier gate that's no longer functioning properly.</description>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientBarrierGate</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(4,1)</size>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientTruckCompartment</defName>
+		<label>Ancient Truck Compartment</label>
+		<description>An old truck trunk was filled with dirt.</description>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientTruckCompartment</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.5,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,2)</size>
+		<statBases>
+			<Mass>200</Mass>
+		</statBases>
+		<costList>
+			<Steel>80</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientSemiTrailer</defName>
+		<label>Ancient Semi Trailer</label>
+		<description>An old truck trunk was filled with dirt.</description>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/AncientSemiTrailers</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5.5,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,2)</size>
+		<statBases>
+			<Mass>200</Mass>
+		</statBases>
+		<costList>
+			<Steel>90</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+		</killedLeavings>
+
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientRustedTruck</defName>
+		<label>Ancient Rusted Truck</label>
+		<description>The trucks used to transport trucks at the mine have been stripped of their useful parts.</description>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/RustedTruck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,2)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(3, 0.8, 1.5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(4,2)</size>
+		<statBases>
+			<Mass>600</Mass>
+		</statBases>
+		<costList>
+			<Steel>100</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+		</killedLeavings>
+
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_WarningBoard</defName>
+		<label>Warning Board</label>
+		<description>Beware of radiation.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/WarningBoard</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+		</statBases>
+		<costList>
+		  <Steel>5</Steel>
+		</costList>
+		<resourcesFractionWhenDeconstructed>3</resourcesFractionWhenDeconstructed>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+	</ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>BreadMoAM_DiscardedRadiationSuit</defName>
+        <label>Discarded Radiation Suit</label>
+        <graphicData>
+          <texPath>Things/Building/Props/DiscardedRadiationSuit</texPath>
+          <graphicClass>Graphic_multi</graphicClass>
+		  <drawSize>(1.8,1.8)</drawSize>
+        </graphicData>
+        <altitudeLayer>Filth</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+		</statBases>		
+		<costList>
+		  <Cloth>5</Cloth>
+		</costList>
+    </ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BreadMoAM_PickAxe</defName>
+		<label>Pick Axe</label>
+		<description>An abandoned pickaxe.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/PickAxe</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>SmallWire</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+		</statBases>
+		<costList>
+		  <Steel>5</Steel>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BreadMoAM_Shovel</defName>
+		<label>Shovel</label>
+		<description>An abandoned shovel.</description>
+		<graphicData>
+			<texPath>Things/Building/Props/Shovel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<altitudeLayer>SmallWire</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+		</statBases>
+		<costList>
+		  <Steel>5</Steel>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>BreadMoAM_AncientBrokenTurret</defName>
+		<label>Ancient Broken Turret</label>
+		<description>The large shotgun turret, badly damaged, is no longer usable.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Turret/AncientBrokenTurret</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.2,2.2)</drawSize>
+			<drawOffset>(0.02,0,-0.1)</drawOffset>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+		<costList>
+		  <Steel>30</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+</Defs>

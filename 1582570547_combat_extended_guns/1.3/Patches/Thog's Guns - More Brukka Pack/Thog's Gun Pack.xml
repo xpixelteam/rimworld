@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Thog's Guns - More Brukka Pack</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!--=== Weapon renaming to their real life counterparts ===-->
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_VarmitRifle"]/label</xpath>
+					<value>
+						<label>Ruger 10/22</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_VarmitPistol"]/label</xpath>
+					<value>
+						<label>Ruger Mark IV</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_Snubby"]/label</xpath>
+					<value>
+						<label>Cobra snubnose</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_SMG"]/label</xpath>
+					<value>
+						<label>MPX</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_ServiceSAW"]/label</xpath>
+					<value>
+						<label>RPK-74</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_ServiceRifle"]/label</xpath>
+					<value>
+						<label>AKM</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_ServiceHMG"]/label</xpath>
+					<value>
+						<label>PKM</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_ServiceDMR"]/label</xpath>
+					<value>
+						<label>SVD</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_ServiceCarbineBayonet"]/label</xpath>
+					<value>
+						<label>AKS-74u Bayonet</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_ServiceCarbine"]/label</xpath>
+					<value>
+						<label>AKS-74u</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_SawnoffPumpShotgun"]/label</xpath>
+					<value>
+						<label>Sawnoff Mossberg500</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_SAW"]/label</xpath>
+					<value>
+						<label>M249</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_PDW"]/label</xpath>
+					<value>
+						<label>M4 Spectre</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Turret_MountedSAW"]/label</xpath>
+					<value>
+						<label>Mounted M249</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Turret_MountedMMG"]/label</xpath>
+					<value>
+						<label>Mounted PKM</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Turret_MountedMinigun"]/label</xpath>
+					<value>
+						<label>M134 Minigun</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Turret_MountedLMG"]/label</xpath>
+					<value>
+						<label>Mounted DP-27</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Turret_MountedHMG"]/label</xpath>
+					<value>
+						<label>Mounted M1924</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_Magnum"]/label</xpath>
+					<value>
+						<label>Anaconda</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_LightSMG"]/label</xpath>
+					<value>
+						<label>Uzi</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_LightMinigun"]/label</xpath>
+					<value>
+						<label>XM Microgun</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_LightAutopistol"]/label</xpath>
+					<value>
+						<label>G21</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_HMG"]/label</xpath>
+					<value>
+						<label>M1924 HMG</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_HeavySniperRifle"]/label</xpath>
+					<value>
+						<label>AWP</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_HeavyAutopistol"]/label</xpath>
+					<value>
+						<label>Desert eagle</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_EBR"]/label</xpath>
+					<value>
+						<label>Mk.14 EBR</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_DMR"]/label</xpath>
+					<value>
+						<label>AR-10/30</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_CrudeSMG"]/label</xpath>
+					<value>
+						<label>M13 Grease gun</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_CrudeRifle"]/label</xpath>
+					<value>
+						<label>Mosin Nagant</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_CrudeLMG"]/label</xpath>
+					<value>
+						<label>Type99 LMG</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_CrudeCarbine"]/label</xpath>
+					<value>
+						<label>SKS Bayonet</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_CombatShotgun"]/label</xpath>
+					<value>
+						<label>M870</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_CarbineBayonet"]/label</xpath>
+					<value>
+						<label>M4A1 Bayonet</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_Carbine"]/label</xpath>
+					<value>
+						<label>M4A1</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_BreacherShotgunSemi"]/label</xpath>
+					<value>
+						<label>M870 Shorty auto</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_BreacherShotgun"]/label</xpath>
+					<value>
+						<label>M870 Shorty</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_BattleRifle"]/label</xpath>
+					<value>
+						<label>G3A3</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_BattleDMR"]/label</xpath>
+					<value>
+						<label>G3SG</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_BattleCarbine"]/label</xpath>
+					<value>
+						<label>G3A4 CQB</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_AutomaticShotgun"]/label</xpath>
+					<value>
+						<label>M1014</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_AdvancedShotgun"]/label</xpath>
+					<value>
+						<label>KSG-25</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_AdvancedRevolver"]/label</xpath>
+					<value>
+						<label>Python</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_AdvancedPDW"]/label</xpath>
+					<value>
+						<label>Type 05</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Gun_AdvancedAssaultRifle"]/label</xpath>
+					<value>
+						<label>FA-03</label>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>

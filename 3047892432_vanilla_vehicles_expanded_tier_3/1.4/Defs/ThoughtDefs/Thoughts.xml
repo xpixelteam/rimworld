@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>VVE_FeelingClassy</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>Feeling classy</label>
+        <description>I got around in a classic car. I feel great!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>VVE_FeelingClassyInCar</defName>
+    <workerClass>VanillaVehiclesExpanded_Tier3.ThoughtWorker_FeelingClassyInCar</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>Feeling classy</label>
+        <description>I got around in a classic car. I feel great!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

@@ -1,0 +1,122 @@
+<ModMetaData>
+	<name>QOL rus</name>
+	<author>Kamikadza13</author>
+	<packageId>kamikadza13QOL.All</packageId>
+	<supportedVersions>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Перевод всего, что нашел на английском.
+Еесли у вас нет некоторых модов, для которых я делал перевод, все будет в порядке, перевод проверяет наличие модов.
+Тут собраны в основном QOL моды, которые слишком маленькие, чтобы мне было бы не лень делать для них отдельный перевод.
+
+Этот перевод включен в мой перевод кучи мелких QOL модов:
+QOL rus
+https://steamcommunity.com/sharedfiles/filedetails/?id=2791163039
+
+Если вы заметили что-то не переведенное, то напишите об этом в комментариях под переводом ^_^
+
+если поставите сборку переводов, то этот мод не нужен
+(зайдите посмотрите, там много вкусного)
+
+</description>
+	<loadAfter>
+		<li>seohyeon.optimizationmeats</li>
+		<li>owlchemist.quietinstruments</li>
+		<li>mastertea.RandomPlus</li>
+		<li>owlchemist.scatteredflames</li>
+		<li>owlchemist.fridgeutilities</li>
+		<li>denev.smartturretcovering</li>
+		<li>scherub.stonecuttingextended</li>
+		<li>captainmuscles.priceiswhat</li>
+		<li>owlchemist.toggleablereadouts</li>
+		<li>deivisis.weightprice</li>
+		<li>uuugggg.whatismypurpose</li>
+		<li>codeoptimist.jobsofopportunity</li>
+		<li>moretraitslots.kv.rw</li>
+		<li>fr.eleven.velcroboy333</li>
+		<li>netrve.dsgui</li>
+		<li>legodude17.qualcolor</li>
+		<li>tr.qualcolor</li>
+		<li>amch.needbaroverflow</li>
+		<li>kapitanoczywisty.minimallightcontrol</li>
+		<li>mlie.boommodexpanded</li>
+		<li>sirrandoo.bettersliders</li>
+		<li>bustedbunny.chooseyourrecipe</li>
+		<li>mahrimba.farmland.adopted</li>
+		<li>kittahkhan.grazeup</li>
+		<li>xeonovadan.visiblepants</li>
+		<li>uuugggg.everybodygetsone</li>
+		<li>hyper.smoothwallsandfloors</li>
+		<li>sarg.smartspeed</li>
+		<li>puremj.mjrimmods.smartmeditation</li>
+		<li>GonDragon.UINotIncluded</li>
+		<li>Uuugggg.ShareTheLoad</li>
+		<li>Kota.InventoryTab</li>
+		<li>zzz.WallVitalsMonitor</li>
+		<li>smashphil.dropspot</li>
+		<li>Mlie.ThisIsMine</li>
+		<li>Uuugggg.StockpileRanking</li>
+		<li>Mlie.RelevantStatsInDescription</li>
+		<li>kathanon.PrisonerUtil</li>
+		<li>Uuugggg.MiningPriority</li>
+		<li>juanlopez2008.LightsOut</li>
+		<li>likeafox.haulexplicitly</li>
+		<li>XeoNovaDan.RimworldFavourites</li>
+		<li>CaptainMuscles.DropInventory</li>
+		<li>Dark.JobInBar</li>
+		<li>jaxe.filtermanager</li>
+		<li>Mlie.BrrandPhew</li>
+		<li>CM.SpotsTabMod</li>
+		<li>Mlie.AnimalHarvestingSpot</li>
+		<li>Mlie.RangedDPS</li>		
+		<li>Creeper.BetterInfoCard</li>
+		<li>papercrane1001.WeaponsTab</li>
+		<li>gguake.ui.armorinfo</li>
+		<li>SlimeSenpai.EndlessGrowth</li>	
+		<li>JangoDsoul.SimpleResourceCrate</li>
+		<li>visibleraidpoints.1trickPwnyta</li>	
+		<li>legodude17.htsb</li>	
+		<li>arl85.MorePowerInfo</li>
+		<li>Haecriver.InjuredCarry</li>
+		<li>SimplePhysics.PerishableSpoilTimeFilter</li>
+		<li>seohyeon.StockpileLimit</li>
+		<li>kathanon.FollowTheVein</li>
+		<li>04.23.2020</li>
+		<li>telardo.QualityOverlay</li>
+		<li>georodin.deepdrillindicator</li>
+		<li>theeyeofbrows.fluffybreakdowns</li>
+		<li>Mlie.MealRadius</li>
+		<li>quickjumptolocation.1trickPwnyta</li>
+		<li>Nonnonstop.ResizeFilterTab</li>
+		<li>Owlchemist.SimpleFX.Vapor</li>
+		<li>Mlie.MyRoomIWantThat</li>
+		<li>Haplo.Miscellaneous.Training</li>
+		<li>Owlchemist.ToggleableOverlays</li>
+		<li>KB.DropInventory</li>
+		<li>caravanjourneyspot.leeh</li>
+		<li>Kopp.CaravanFormationImprovements</li>
+		<li>Owlchemist.ResearchPowl</li>
+		<li>Mlie.DefaultIngredientRadius</li>
+		<li>Owlchemist.SmartFarming</li>
+		<li>Kopp.CaravanItemSelectionEnhanced</li>
+		<li>Nibato.AutoExtractGenes</li>
+		<li>Fluffy.WorkTab</li>
+		<li>roolo.AlmostThere</li>		
+		<li>ordpus.intentionalproselytism</li>
+		<li>Cliffyq.ShowBuildCost</li>
+		<li>Mlie.MarkThatPawn</li>
+		<li>notfood.MoreThanCapable</li>
+		<li>RU.pashka.TranslateForSomeMods</li>
+		<li>Taggerung.IAintBuildingThat</li>
+		<li>SineSwiper.XenobionicPatcher</li>
+		<li>InsertKey.BuilderTweaks</li>
+		<li>Merthsoft.DesignatorShapes</li>
+		<li>blues.shortcircuit</li>
+		<li>ratys.rtfuse</li>
+		<li>Necrofancy.PrepareProcedurally</li>
+		<li>Mlie.RailsAndRoadsOfTheRim</li>
+	</loadAfter>
+	<incompatibleWith/>
+</ModMetaData>

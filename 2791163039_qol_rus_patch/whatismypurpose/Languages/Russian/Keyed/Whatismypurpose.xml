@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<TD.SettingColonistGizmo>Отображение иконки текущей работы пешки</TD.SettingColonistGizmo>
+	<TD.SettingTargetGizmo>Отображение того, кто использует выбранную вещь</TD.SettingTargetGizmo>
+	<TD.SettingMultiGizmos>Показывать иконки работы для каждой пешки, если их выбрано меньше {0}</TD.SettingMultiGizmos>
+	<TD.Reserved>Занято:</TD.Reserved>
+	<TD.WhatIsMyPurpose>What Is My Purpose</TD.WhatIsMyPurpose>
+	<TD.SelectAllReservedThings>Выбрать все зарезервированные вещи</TD.SelectAllReservedThings>
+	
+</LanguageData>

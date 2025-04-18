@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<QuietInstruments.Settings.Volume>Громкость инструментов (по умолчанию: {0}, Мин: {1}, Макс: {2}): </QuietInstruments.Settings.Volume>
+	<QuietInstruments.Settings.Fade>Отключить затухание фоновой музыки</QuietInstruments.Settings.Fade>
+	<QuietInstruments.Settings.Fade.Desc>Обычно, когда вы находитесь рядом с играющим инструментом, фоновая музыка затихает, чтобы вы могли ее услышать. Если вы включите это, это затухание будет отключено.</QuietInstruments.Settings.Fade.Desc>
+</LanguageData>

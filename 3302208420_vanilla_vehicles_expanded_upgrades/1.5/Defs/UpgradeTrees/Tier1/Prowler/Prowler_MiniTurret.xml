@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef Name = "ProwlerMiniTurret" ParentName="VehicleTurretBase">
+		<defName>Prowler_MiniTurret</defName>
+		<label>mounted turret</label>
+		<description>A small gun turret mounted on a prowler explorer vehicle. Only capable of firing single-shots. Requires steel to refurbish its barrel after heavy use.</description>
+		
+		<turretType>Rotatable</turretType>
+		<shotSound>GunShotA</shotSound>
+		
+		<projectile>Bullet_MiniTurret</projectile>
+		<reloadTimer>2.4</reloadTimer>
+		<warmUpTimer>1.2</warmUpTimer>
+		
+		<chargePerAmmoCount>0.25</chargePerAmmoCount>
+		
+		<magazineCapacity>75</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<hitFlags>IntendedTarget</hitFlags>
+		
+		<autoSnapTargeting>true</autoSnapTargeting>
+		
+		<projectileOffset>1</projectileOffset>
+		
+		<maxRange>28.9</maxRange>
+		
+		<recoil>
+			<distanceTotal>0.12</distanceTotal>
+			<distancePerTick>0.04</distancePerTick>
+			<speedMultiplierPostRecoil>0.15</speedMultiplierPostRecoil>
+		</recoil>
+		
+		<attachProjectileFlag>VVE_Tank</attachProjectileFlag>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>75</shotsPerBurst>
+				<ticksBetweenShots>72</ticksBetweenShots>
+				<ticksBetweenBursts>72</ticksBetweenBursts>
+				<label>Single Shot</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Upgrades/Prowler/Tier1_Explorer_TurretTop</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>(1, 1)</drawSize>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+</Defs>

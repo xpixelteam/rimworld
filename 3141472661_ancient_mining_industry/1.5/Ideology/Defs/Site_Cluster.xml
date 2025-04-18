@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 盾构机矿山 -->
+
+  <SitePartDef>
+    <defName>AncientShieldMiningSite_Site</defName>
+    <label>Ancient Shield Mining Site</label>
+    <description>A mine whose entrance had collapsed.</description>
+    <siteTexture>Icon/AncientShieldMiningSite</siteTexture>
+    <expandingIconTexture>Icon/AncientShieldMiningSite</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>AncientShieldMiningSite</li>
+    </tags>
+    <minMapSize>(200, 1, 200)</minMapSize>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>AncientShieldMiningSite_GenStep</defName>
+    <linkWithSite>AncientShieldMiningSite_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>AncientShieldMiningSite_A</li>
+        <li>AncientShieldMiningSite_B</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 隧道施工遗址 -->
+
+  <SitePartDef>
+    <defName>AncientTunnelRuins_Site</defName>
+    <label>Ancient Tunnel Ruins</label>
+    <description>An ancient unfinished tunnel.</description>
+    <siteTexture>Icon/AncientTunnelRuins</siteTexture>
+    <expandingIconTexture>Icon/AncientTunnelRuins</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>AncientTunnelRuins</li>
+    </tags>
+    <minMapSize>(200, 1, 200)</minMapSize>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>AncientTunnelRuins_GenStep</defName>
+    <linkWithSite>AncientTunnelRuins_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>AncientTunnelRuins_A</li>
+        <li>AncientTunnelRuins_B</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 挖掘机矿场 -->
+
+  <SitePartDef>
+    <defName>AncientOpenPitMiningSite_Site</defName>
+    <label>Ancient Open Pit Mining Site</label>
+    <description>An abandoned mine,among them was the remains of a huge excavator.</description>
+    <siteTexture>Icon/AncientOpenPitMiningSite</siteTexture>
+    <expandingIconTexture>Icon/AncientOpenPitMiningSite</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>AncientOpenPitMiningSite</li>
+    </tags>
+    <minMapSize>(200, 1, 200)</minMapSize>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>AncientOpenPitMiningSite_GenStep</defName>
+    <linkWithSite>AncientOpenPitMiningSite_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>AncientOpenPitMiningSite_A</li>
+        <li>AncientOpenPitMiningSite_B</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 铁矿场 -->
+
+  <SitePartDef>
+    <defName>AbandonedSteelMineSite_Site</defName>
+    <label>Abandoned Steel Mine Site</label>
+    <description>An iron mine with a lot of untapped iron ore.</description>
+    <siteTexture>Icon/AbandonedSteelMineSite</siteTexture>
+    <expandingIconTexture>Icon/AbandonedSteelMineSite</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>AbandonedSteelMineSite</li>
+    </tags>
+    <minMapSize>(200, 1, 200)</minMapSize>
+  </SitePartDef>
+  
+  <GenStepDef>
+    <defName>AbandonedSteelMineSite_GenStep</defName>
+    <linkWithSite>AbandonedSteelMineSite_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>AbandonedSteelMineSite</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <SitePartDef>
+    <defName>Soldier_S</defName>
+    <label>Enemy activity</label>
+    <description>Enemy activity</description>
+    <workerClass>SitePartWorker_Ambush</workerClass>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <tags>
+      <li>Soldier_S</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>Soldier_S</defName>
+    <linkWithSite>Soldier_S</linkWithSite>
+    <order>400</order>
+    <genStep Class="KCSG.GenStep_EnnemiesPresence">
+      <spawnOnEdge>false</spawnOnEdge>
+      <pointMultiplier>2</pointMultiplier>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 铀矿场 -->
+
+  <SitePartDef>
+    <defName>AbandonedUraniumMiningSite_Site</defName>
+    <label>Abandoned Uranium Mining Site</label>
+    <description>An occupied military uranium mine, heavily defended.</description>
+    <siteTexture>Icon/AbandonedUraniumMiningSite</siteTexture>
+    <expandingIconTexture>Icon/AbandonedUraniumMiningSite</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>AbandonedUraniumMiningSite</li>
+    </tags>
+    <minMapSize>(200, 1, 200)</minMapSize>
+  </SitePartDef>
+  
+  <GenStepDef>
+    <defName>AbandonedUraniumMiningSite_GenStep</defName>
+    <linkWithSite>AbandonedUraniumMiningSite_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>AbandonedUraniumMiningSite</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <SitePartDef>
+    <defName>Soldier_L</defName>
+    <label>Enemy activity</label>
+    <description>Enemy activity</description>
+    <workerClass>SitePartWorker_Ambush</workerClass>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <tags>
+      <li>Soldier_L</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>Soldier_L</defName>
+    <linkWithSite>Soldier_L</linkWithSite>
+    <order>400</order>
+    <genStep Class="KCSG.GenStep_EnnemiesPresence">
+      <spawnOnEdge>false</spawnOnEdge>
+      <pointMultiplier>7.0</pointMultiplier>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 玻璃钢矿场 -->
+
+  <SitePartDef>
+    <defName>AbandonedPlasteelMineSite_Site</defName>
+    <label>Abandoned Plasteel Mine Site</label>
+    <description>A glass reinforced plasteel mine with a large amount of untapped glass reinforced plasteel deposits.</description>
+    <siteTexture>Icon/AbandonedPlasteelMineSite</siteTexture>
+    <expandingIconTexture>Icon/AbandonedPlasteelMineSite</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>AbandonedPlasteelMineSite</li>
+    </tags>
+    <minMapSize>(200, 1, 200)</minMapSize>
+  </SitePartDef>
+  
+  <GenStepDef>
+    <defName>AbandonedPlasteelMineSite_GenStep</defName>
+    <linkWithSite>AbandonedPlasteelMineSite_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>AbandonedPlasteelMineSite</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <SitePartDef>
+    <defName>Soldier_M</defName>
+    <label>Enemy activity</label>
+    <description>Enemy activity</description>
+    <workerClass>SitePartWorker_Ambush</workerClass>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <tags>
+      <li>Soldier_M</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>Soldier_M</defName>
+    <linkWithSite>Soldier_M</linkWithSite>
+    <order>400</order>
+    <genStep Class="KCSG.GenStep_EnnemiesPresence">
+      <spawnOnEdge>false</spawnOnEdge>
+      <pointMultiplier>4</pointMultiplier>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 废弃筛矿站 -->
+
+  <SitePartDef>
+    <defName>MineralScreeningStation_Site</defName>
+    <label>Mineral Screening Station</label>
+    <description>An abandoned sifting station with a lot of recyclable resources in the wreckage.</description>
+    <siteTexture>Icon/AbandonedMineralSeparationPlant</siteTexture>
+    <expandingIconTexture>Icon/AbandonedMineralSeparationPlant</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>MineralScreeningStation</li>
+    </tags>
+  </SitePartDef>
+  
+  <GenStepDef>
+    <defName>MineralScreeningStation_GenStep</defName>
+    <linkWithSite>MineralScreeningStation_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>MineralScreeningStation_A</li>
+        <li>MineralScreeningStation_B</li>
+        <li>MineralScreeningStation_C</li>
+        <li>MineralScreeningStation_D</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+
+  <!-- 废弃矿坑 -->
+  <SitePartDef>
+    <defName>AbandonedMine_Site</defName>
+    <label>Abandoned Mine</label>
+    <description>An abandoned mine with a lot of unmined minerals.</description>
+    <siteTexture>Icon/AbandonedMine</siteTexture>
+    <expandingIconTexture>Icon/AbandonedMine</expandingIconTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <tags>
+      <li>AbandonedMine</li>
+    </tags>
+  </SitePartDef>
+  
+  <GenStepDef>
+    <defName>AbandonedMine_GenStep</defName>
+    <linkWithSite>AbandonedMine_Site</linkWithSite>
+    <order>460</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>AbandonedMine_Plasteel</li>
+        <li>AbandonedMine_Silver</li>
+        <li>AbandonedMine_Gold</li>
+        <li>AbandonedMine_Steel</li>
+        <li>AbandonedMine_Uranium</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+</Defs>

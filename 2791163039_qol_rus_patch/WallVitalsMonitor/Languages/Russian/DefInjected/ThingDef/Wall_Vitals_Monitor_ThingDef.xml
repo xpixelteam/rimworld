@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/ThingDefs/Wall_Vitals_Monitor.xml-->
+                       <!-- wall vitals monitor -->
+<Wall_M_VitalsMonitor.label>настенный монитор жизненных показателей</Wall_M_VitalsMonitor.label>
+                             <!-- Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect. -->
+<Wall_M_VitalsMonitor.description>Повышает качество медицинской помощи, вероятность успеха операции и скорость повышения иммунитета при размещении непосредственно рядом с больничной койкой. Работает только для больничных коек. Прикрепление более одного монитора жизненно важных функций к одной кровати не даст никакого эффекта.</Wall_M_VitalsMonitor.description>
+
+</LanguageData>

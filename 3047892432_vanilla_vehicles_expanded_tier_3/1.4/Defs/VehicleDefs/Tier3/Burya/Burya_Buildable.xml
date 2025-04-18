@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Burya_Blueprint</defName>
+		<label>Burya</label>
+		<description>A dedicated multiple launch rocket system platform, the Burya is a long-range siege and area denial weapon that can be operated by a two-man crew for faster loading speeds. Capable of firing continuous volleys of long range missiles, Burya can blanket whole areas in anti-infantry rocket explosions.\n\nSlow-moving and vulnerable to enemy fire, Burya needs to deploy before it can open fire, which may leave it stranded in enemy territory.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_RocketArtillery/Tier3_RocketArtillery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 8)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>26000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<researchPrerequisites>
+			<li>VVE_RocketArtillery</li>
+		</researchPrerequisites>
+		
+		<size>(3, 6)</size>
+		
+		<costList>
+			<VVE_EngineBlock>4</VVE_EngineBlock>
+			<VVE_CarAlternator>4</VVE_CarAlternator>
+			<VVE_CarExhaust>6</VVE_CarExhaust>
+			<VVE_CarSuspension>6</VVE_CarSuspension>
+			<VVE_CarWheel>6</VVE_CarWheel>
+			<VVE_CarTransmission>2</VVE_CarTransmission>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarRadiator>2</VVE_CarRadiator>
+			<Steel>500</Steel>
+			<ComponentIndustrial>20</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>VVE_Burya</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

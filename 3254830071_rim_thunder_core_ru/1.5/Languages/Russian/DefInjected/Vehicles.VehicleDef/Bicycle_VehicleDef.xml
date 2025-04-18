@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\Vehicles\Bicycle.xml-->
+	
+	<!--          EN: bicycle -->
+	<RT_Bicycle.label>велосипед</RT_Bicycle.label>
+	<!--                EN: A man-powered bicycle, cheap and useful in most cases. -->
+	<RT_Bicycle.description>Велосипед с приводом от человека, дешевый и полезный в большинстве случаев.</RT_Bicycle.description>
+	<!--                                       EN: (RepairVehicle, 1) -->
+	<RT_Bicycle.properties.vehicleJobLimitations.0>(Ремонтное транспортное средство, 1)</RT_Bicycle.properties.vehicleJobLimitations.0>
+	<!--                             EN: Rider -->
+	<RT_Bicycle.properties.roles.0.label>седло</RT_Bicycle.properties.roles.0.label>
+	<!--                       EN: Transmission gear -->
+	<RT_Bicycle.components.0.label>Передаточное устройство</RT_Bicycle.components.0.label>
+	<!--                       EN: Structure Frame -->
+	<RT_Bicycle.components.1.label>Каркас конструкции</RT_Bicycle.components.1.label>
+	<!--                       EN: Transmission chain -->
+	<RT_Bicycle.components.2.label>Передаточная цепь</RT_Bicycle.components.2.label>
+	<!--                       EN: Front Wheel -->
+	<RT_Bicycle.components.3.label>Переднее колесо</RT_Bicycle.components.3.label>
+	<!--                       EN: Back Wheel -->
+	<RT_Bicycle.components.4.label>Заднее колесо</RT_Bicycle.components.4.label>
+</LanguageData>

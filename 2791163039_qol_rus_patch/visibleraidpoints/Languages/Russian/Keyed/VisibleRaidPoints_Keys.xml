@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<VisibleRaidPoints_RaidPointsUsed>Используемые очки угрозы</VisibleRaidPoints_RaidPointsUsed>
+	<VisibleRaidPoints_ShowPointsInLetterLabel>Показывать очки в Названии события</VisibleRaidPoints_ShowPointsInLetterLabel>
+	<VisibleRaidPoints_ShowPointsInLetterText>Показывать очки в Тексте события</VisibleRaidPoints_ShowPointsInLetterText>
+	<VisibleRaidPoints_ShowBreakdownInLetterText>Показывать подробно об очках угрозы в тексте события</VisibleRaidPoints_ShowBreakdownInLetterText>
+	<VisibleRaidPoints_PointsBreakdown>Очки угрозы</VisibleRaidPoints_PointsBreakdown>
+	<VisibleRaidPoints_BreakdownPlayerWealthForStorytellerDesc>Ценность игрока для рассказчика</VisibleRaidPoints_BreakdownPlayerWealthForStorytellerDesc>
+	<VisibleRaidPoints_BreakdownPlayerWealthForStorytellerExpl>Общая ценность - (Ценность зданий / 2)</VisibleRaidPoints_BreakdownPlayerWealthForStorytellerExpl>
+	<VisibleRaidPoints_BreakdownPointsFromWealthDesc>Очки за ценность</VisibleRaidPoints_BreakdownPointsFromWealthDesc>
+	<VisibleRaidPoints_BreakdownPointsPerPawnDesc>Очки за пешку</VisibleRaidPoints_BreakdownPointsPerPawnDesc>
+	<VisibleRaidPoints_BreakdownPointsPerPawnExpl>основано на богатстве</VisibleRaidPoints_BreakdownPointsPerPawnExpl>
+	<VisibleRaidPoints_BreakdownPointsFromPawnsDesc>Всего очков от пешек</VisibleRaidPoints_BreakdownPointsFromPawnsDesc>
+	<VisibleRaidPoints_BreakdownTargetRandomFactorDesc>Случайный фактор каравана</VisibleRaidPoints_BreakdownTargetRandomFactorDesc>
+	<VisibleRaidPoints_BreakdownAdaptationFactorDesc>Фактор адаптации</VisibleRaidPoints_BreakdownAdaptationFactorDesc>
+	<VisibleRaidPoints_BreakdownThreatScaleDesc>Степень угрозы</VisibleRaidPoints_BreakdownThreatScaleDesc>
+	<VisibleRaidPoints_BreakdownGraceFactorDesc>Фактор милости</VisibleRaidPoints_BreakdownGraceFactorDesc>
+	<VisibleRaidPoints_BreakdownGraceFactorExpl>в зависимости от возраста колонии</VisibleRaidPoints_BreakdownGraceFactorExpl>
+	<VisibleRaidPoints_BreakdownClampLowDesc>Сила - минимум {0} баллов</VisibleRaidPoints_BreakdownClampLowDesc>
+	<VisibleRaidPoints_BreakdownClampHighDesc>Сила - максимум {0} баллов</VisibleRaidPoints_BreakdownClampHighDesc>
+	<VisibleRaidPoints_BreakdownTotal>Конечный результат</VisibleRaidPoints_BreakdownTotal>
+	<VisibleRaidPoints_StorytellerRandomFactorDesc>Случайный фактор Рэнди</VisibleRaidPoints_StorytellerRandomFactorDesc>
+	<VisibleRaidPoints_RaidArrivalModeFactorDesc>Коэффициент режима прибытия рейда</VisibleRaidPoints_RaidArrivalModeFactorDesc>
+	<VisibleRaidPoints_RaidStrategyFactorDesc>Фактор стратегии рейда</VisibleRaidPoints_RaidStrategyFactorDesc>
+	<VisibleRaidPoints_RunningTotalPreClampDesc>Промежуточный итог</VisibleRaidPoints_RunningTotalPreClampDesc>
+</LanguageData>

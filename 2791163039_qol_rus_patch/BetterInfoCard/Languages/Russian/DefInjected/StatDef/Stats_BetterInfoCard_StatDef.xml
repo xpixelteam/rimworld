@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/Stats/Stats_BetterInfoCard.xml-->
+             <!-- Attack tool -->
+<AttackTool.label>Урон расовых атак</AttackTool.label>
+           <!-- Body part -->
+<BodyPart.label>Части тела</BodyPart.label>
+
+</LanguageData>

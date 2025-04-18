@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <EventSpeed>Скорость\nсобытий</EventSpeed>
+  <EventSpeedLabel>Сменить\nСкорость\nсобытий</EventSpeedLabel>
+  <Slow>Медленно</Slow>
+  <Normal>Нормально</Normal>
+  <Fast>Быстро</Fast>
+  <Half>Половина</Half>
+  <Ignore>Игнорировать</Ignore>
+	
+
+  <SS_EventSpeed>Скорость\nсобытий</SS_EventSpeed>
+  <EventSpeedLabel>Сменить\nСкорость\nсобытий</EventSpeedLabel>
+  <SS_Slow>Медленная (0.5х нормальной)</SS_Slow>
+  <SS_Normal>Нормальная</SS_Normal>
+  <SS_Fast>Быстрая (2х нормальной)</SS_Fast>
+  <SS_Half>Половина текущей</SS_Half>
+  <SS_Ignore>Игнорировать (без земедления)</SS_Ignore>
+  
+  <SS_normalSpeed>Нормальная скорость (скорость 1)</SS_normalSpeed>
+  <SS_normalSpeedTooltip>Множитель для нормальной скорости. Значение по умолчанию равно 1, что соответствует 60 тикам в секунду.</SS_normalSpeedTooltip>
+  <SS_fastSpeed>Быстрая (скорость 2)</SS_fastSpeed>
+  <SS_fastSpeedTooltip>Множитель для быстрой скорости. Значение по умолчанию равно 3, что соответствует 180 тикам в секунду.</SS_fastSpeedTooltip>
+  <SS_superfastSpeed>Сверхбыстрая скорость (скорость 3)</SS_superfastSpeed>
+  <SS_superfastSpeedTooltip>Множитель для сверхбыстрой скорости. Значение по умолчанию равно 6, что соответствует 360 тикам в секунду.</SS_superfastSpeedTooltip>
+  <SS_ultrafastSpeed>Ультрабыстрая скорость  (скорость 4)</SS_ultrafastSpeed>
+  <SS_ultrafastSpeedTooltip>Множитель для ультрабыстрой скорости. Значение по умолчанию равно 15, что соответствует 900 тикам в секунду. Имейте в виду, что это не волшебство. Если ваш компьютер может обрабатывать 8000 тиков в секунду, то так и будет. Если нет, то он будет ограничен.</SS_ultrafastSpeedTooltip>
+  <SS_Reset>Сброс</SS_Reset>
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_Driving_Forbidden.label>запрещено</VVE_Driving_Forbidden.label>
+	<VVE_Driving_Forbidden.description>Передвижение по земле на транспорте нарушает наши основные убеждения.</VVE_Driving_Forbidden.description>
+
+	<VVE_Driving_Horrible.label>ужасно</VVE_Driving_Horrible.label>
+	<VVE_Driving_Horrible.description>Мы видим вождение по суше на автотранспорте как глубокое оскорбление наших ценностей.</VVE_Driving_Horrible.description>
+	<VVE_Driving_Horrible.comps.0.description>Управлять транспортом на суше</VVE_Driving_Horrible.comps.0.description>
+
+	<VVE_Driving_Allowed.label>разрешено</VVE_Driving_Allowed.label>
+	<VVE_Driving_Allowed.description>Движение по миру на транспорте - это принятая практика в нашем сообществе.</VVE_Driving_Allowed.description>
+
+	<VVE_Driving_Approved.label>одобрено</VVE_Driving_Approved.label>
+	<VVE_Driving_Approved.description>Каждая поездка по суше подтверждает наш общий дух и радость.</VVE_Driving_Approved.description>
+	<VVE_Driving_Approved.comps.0.description>Управлять транспортом на суше</VVE_Driving_Approved.comps.0.description>
+
+	<VVE_Driving_Required.label>обязательно</VVE_Driving_Required.label>
+	<VVE_Driving_Required.description>Наши люди верят в необходимость движения, не водить транспорт - значит пренебрегать своим долгом перед собой.</VVE_Driving_Required.description>
+	<VVE_Driving_Required.comps.1.thoughtStageDescriptions.0>Дорожная ярость (1 день без вождения)</VVE_Driving_Required.comps.1.thoughtStageDescriptions.0>
+	<VVE_Driving_Required.comps.1.thoughtStageDescriptions.1>Дорожная ярость (5 дней без вождения)</VVE_Driving_Required.comps.1.thoughtStageDescriptions.1>
+	<VVE_Driving_Required.comps.1.thoughtStageDescriptions.2>Дорожная ярость (10 дней без вождения)</VVE_Driving_Required.comps.1.thoughtStageDescriptions.2>
+	<VVE_Driving_Required.comps.1.thoughtStageDescriptions.3>Дорожная ярость (20 дней без вождения)</VVE_Driving_Required.comps.1.thoughtStageDescriptions.3>
+</LanguageData>

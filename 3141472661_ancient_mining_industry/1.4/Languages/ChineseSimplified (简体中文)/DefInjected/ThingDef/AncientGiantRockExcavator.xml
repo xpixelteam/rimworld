@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient Excavator Bucket Wheel -->
+  <BreadMoAM_AncientExcavatorBucketWheel.label>远古巨型挖掘机斗轮</BreadMoAM_AncientExcavatorBucketWheel.label>
+  <!-- EN: A rusted bucket wheel of ancient giant rock excavator. Made of high-strength alloy, these wheels could, at one time, grind down stone chunks with ease. With its core components lost, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientExcavatorBucketWheel.description>远古巨型岩石挖掘机的挖掘斗轮。这些由高强度合金制成的铲斗可以很容易地压碎岩石。这台机器的核心部件已经消失了，也许摧毁它可以产生一些有用的材料。</BreadMoAM_AncientExcavatorBucketWheel.description>
+  
+  <!-- EN: Ancient Excavator Power System -->
+  <BreadMoAM_AncientExcavatorPowerFacilities.label>远古挖掘机动力设施</BreadMoAM_AncientExcavatorPowerFacilities.label>
+  <!-- EN: Torn power system of the ancient giant rock excavator. Back in its hayday, this electro-hydraulic driven engine ccould easily lift giant rocks or, even better, a whole mountain with ease. With its core components gone, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientExcavatorPowerFacilities.description>远古巨石挖掘机的动力系统，这种电液驱动的发动机让挖掘机可以轻松地举起巨石，震动山脉。这台机器的核心部件已经消失了，也许摧毁它可以产生一些有用的材料。</BreadMoAM_AncientExcavatorPowerFacilities.description>
+  
+  <!-- EN: Ancient Giant Rock Excavator Chassis -->
+  <BreadMoAM_AncientGiantRockExcavator.label>远古巨型岩石挖掘机底盘</BreadMoAM_AncientGiantRockExcavator.label>
+  <!-- EN: The gigantic husk of what was a mountain-devouring mechanical beast, larger than most conventional buildings. Maybe the ancient human being hated their planet, so much that they built this piece of machinery to tear it down. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources. -->
+  <BreadMoAM_AncientGiantRockExcavator.description>一个吞噬山脉的机械野兽的巨大外壳，比大多数传统建筑都大。也许远古人类非常憎恨他们的星球，以至于他们建造了这台机器来摧毁它。然而，由于其核心部件锈蚀和风化，它目前无法正常工作。摧毁它可能会产生一些有用的资源。</BreadMoAM_AncientGiantRockExcavator.description>
+  
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Marshal_MainTurret.label>Основная башня</Marshal_MainTurret.label>
+  <Marshal_MainTurret.description>Большая и мощная танковая пушка, способная стрелять осколочными(каморными) снарядами на дальние расстояния. Обычно устанавливается на танках "Маршал".</Marshal_MainTurret.description>
+  <Marshal_MainTurret.fireModes.0.label>Одиночный</Marshal_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

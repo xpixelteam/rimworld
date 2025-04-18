@@ -1,0 +1,508 @@
+<LanguageData>
+	<!-- Simple Sidearms -->
+	<SimpleSidearms_ModTitle>Дополнительное оружие</SimpleSidearms_ModTitle>
+
+	<!-- First time running Simple Sidearms?
+
+This icon indicates the mod's settings have not been configured yet. It will go away when the settings menu is first accessed.
+
+Click to go to settings now. -->
+	<FirstTimeSettingsWarning>Первый раз запускаете мод на Дополнительное оружие?
+
+Этот значок указывает на то, что настройки мода еще не были настроены. Он исчезнет при первом доступе к меню настроек.
+
+Нажмите, чтобы перейти к настройкам прямо сейчас.</FirstTimeSettingsWarning>
+
+	<!-- None -->
+	<ActiveTab_desc/>
+	<!-- Configuration tabs -->
+	<ActiveTab_title>Вкладка конфигурации</ActiveTab_title>
+	<!-- Should pawns switch tools/weapons with statboosts for their current job? -->
+	<ToolAutoSwitch_desc>Должны ли пешки менять инструменты / оружие с повышением характеристик для своей текущей работы?</ToolAutoSwitch_desc>
+	<!-- Tool use autoswitch -->
+	<ToolAutoSwitch_title>Автоматическое переключение используемых инструментов</ToolAutoSwitch_title>
+	<!-- Should pawns automatically switch to a higher DPS melee weapon? -->
+	<OptimalMelee_desc>Должны ли пешки автоматически оснащаться оружием ближнего боя с наибольшим уроном ?</OptimalMelee_desc>
+	<!-- Use best melee weapon -->
+	<OptimalMelee_title>Использовать лучшее оружие ближнего боя</OptimalMelee_title>
+	<!-- Should pawns switch to their melee sidearms when attacked in melee? -->
+	<CQCAutoSwitch_desc>Должны ли пешки вынимать свое огнестрельное оружие при атаке в ближнем бою ?</CQCAutoSwitch_desc>
+	<!-- Melee combat autoswitch -->
+	<CQCAutoSwitch_title>Автоматическое переключение на ближний бой</CQCAutoSwitch_title>
+	<!-- Should pawns switch even when they are not using a weapon? -->
+	<CQCFistSwitch_desc>Должны ли пешки менять оружие, даже когда они им не пользуются ?</CQCFistSwitch_desc>
+	<!-- Unarmed combat autoswitch -->
+	<CQCFistSwitch_title>Автоматическое переключение оружия без помощи игрока</CQCFistSwitch_title>
+	<!-- Should pawns only react to attacks from their current target? -->
+	<CQCTargetOnly_desc>Должны ли пешки реагировать только на атаки своей текущей цели ?</CQCTargetOnly_desc>
+	<!-- Switch only on attacks from target -->
+	<CQCTargetOnly_title>Изменяться только при атаках на цель</CQCTargetOnly_title>
+
+	<!-- In which situations might pawns fumble and drop their weapon instead of moving it to their inventory? -->
+	<DropMode_desc>В каких ситуациях пешки вынуждены выбрасывать свое оружие, а не убирать его в свой инвентарь ?</DropMode_desc>
+	<!-- Weapon fumble criteria -->
+	<DropMode_title>Основания для сброса оружия</DropMode_title>
+	<!-- Chance to avoid weapon fumble -->
+	<FumbleRecoveryChance_title>Шанс избежать столкновения с оружием</FumbleRecoveryChance_title>
+	<!-- Vertical axis is chance to avoid fumbling
+Horizontal axis is melee or ranged skill (whichever is better) -->
+	<FumbleRecoveryChance_hint>Вертикальная ось - это шанс избежать столкновения
+Горизонтальная ось - это навык ближнего боя или дальнобойной стрельбы (в зависимости от того, что лучше).</FumbleRecoveryChance_hint>
+
+	<!-- After having dropped a weapon, auto-re-equip it after combat once out of immediate danger. -->
+	<ReEquipOutOfCombat_desc>После того, как вы уронили оружие, автоматически перезарядите его после боя, как только оно окажется вне непосредственной опасности.</ReEquipOutOfCombat_desc>
+	<!-- Re-equip dropped weapons -->
+	<ReEquipOutOfCombat_title>Переоборудуйте выпавшее оружие</ReEquipOutOfCombat_title>
+	<!-- Auto-re-equip will find the best weapon available (instead of the closest) -->
+	<ReEquipBest_desc>Автоматическое переоснащение позволит найти лучшее доступное оружие (вместо ближайшего).</ReEquipBest_desc>
+	<!-- Re-equip best available -->
+	<ReEquipBest_title>Переоборудовать наилучее из имеющихся</ReEquipBest_title>
+	<!-- Auto-re-equip weapons even in combat, when not actively fighting. -->
+	<ReEquipInCombat_desc>Автоматическое переоснащение оружия даже в бою, когда оно не принимает активного участия в боевых действиях.</ReEquipInCombat_desc>
+	<!-- Re-equip during combat -->
+	<ReEquipInCombat_title>Переоснащение во время боя</ReEquipInCombat_title>
+
+	<!-- Disallow auto-equip of dangerous weapons (molotov cocktails, frag grenades, rocket launchers, etc.) -->
+	<SkipDangerousWeapons_desc>Запретить автоматическое включение опасного оружия (коктейли Молотова, осколочные гранаты, ракетные установки и т.д.)</SkipDangerousWeapons_desc>
+	<!-- Skip dangerous weapons -->
+	<SkipDangerousWeapons_title>Пропустите опасное оружие</SkipDangerousWeapons_title>
+	<!-- Disallow auto-equip of EMP weapons (note that pawns will only consider auto-equipping these when fighting mechanoids anyway). -->
+	<SkipEMPWeapons_desc>Запретить автоматическое оснащение ЭМИ-оружия (обратите внимание, что пешки в любом случае будут использовать автоматическое оснащение только при сражении с механоидами)..</SkipEMPWeapons_desc>
+	<!-- Skip EMP weapons -->
+	<SkipEMPWeapons_title>Пропустить ЭМИ-оружие</SkipEMPWeapons_title>
+
+	<!-- Keep sidearms in the right inventory when returning from caravans. (Experimental, implemented by XT-0xFF @Github) -->
+	<PreserveInventoryInCaravans_desc>Храните оружие в надлежащем инвентаре, когда возвращаетесь из караванов. (Экспериментально, реализовано XT-0xFF @Github)</PreserveInventoryInCaravans_desc>
+	<!-- Preserve sideams through caravans -->
+	<PreserveInventoryInCaravans_title>Сохраняйте дополнительное оружие в фургонах</PreserveInventoryInCaravans_title>
+
+	<!-- Hide sideams in caravan dialogs, to prevent accidentaly selling them. (Experimental, implemented by XT-0xFF @Github) -->
+	<HideSidearmsInCaravanDialogs_desc>Спрячьте дополнительное оружие в диалоговых окнах каравана, чтобы случайно не продать его. (Экспериментально, реализовано XT-0xFF @Github)</HideSidearmsInCaravanDialogs_desc>
+	<!-- Hide sidearms in caravan dialogs -->
+	<HideSidearmsInCaravanDialogs_title>Спрячьте дополнительное оружие в диалоговых окнах каравана</HideSidearmsInCaravanDialogs_title>
+
+	<!-- Show alerts for colonists that remember having sidearms that they no longer have and can't find a replacement for. -->
+	<ShowAlertsMissingSidearm_desc>Показывать предупреждения для колонистов, которые помнят, что у них было дополнительное оружие, которых у них больше нет, и не могут найти им замену.</ShowAlertsMissingSidearm_desc>
+	<!-- Show missing sidearm alerts -->
+	<ShowAlertsMissingSidearm_title>Показывать предупреждения о пропаже оружия</ShowAlertsMissingSidearm_title>
+
+	<!-- Play sounds when swapping weapons. -->
+	<SidearmsPlaySounds_desc>Воспроизводите звуки при замене оружия.</SidearmsPlaySounds_desc>
+	<!-- Play sounds -->
+	<SidearmsPlaySounds_title>Воспроизведение звуков</SidearmsPlaySounds_title>
+
+	<!-- Show a dev tool gizmo that reveals the selected pawns internal state. -->
+	<ShowBrainscope_desc>Показать окно с инструментом разработки, которая показывает внутреннее состояние выбранных пешек.</ShowBrainscope_desc>
+	<!-- Show Brainscope -->
+	<ShowBrainscope_title>Показать Brainscope</ShowBrainscope_title>
+
+	<!-- Allow usage of weapons that are normally blocked (such as persona weapons, biocoded weapons, and Ideology role-restricted weapons) - see XKCD #1172 -->
+	<AllowBlockedWeaponUse_desc>Разрешить использование оружия, которое обычно заблокировано (например, личного оружия, оружия с биокодами и оружия с идеологическими ограничениями) - см. XKCD #1172</AllowBlockedWeaponUse_desc>
+	<!-- Allow use of blocked weapons -->
+	<AllowBlockedWeaponUse_title>Разрешить использование заблокированного оружия</AllowBlockedWeaponUse_title>
+
+	<!-- None -->
+	<LimitCarryInfo_desc/>
+	<!-- Always limited by pawn's carry capacity -->
+	<LimitCarryInfo_title>Всегда ограничена грузоподъемностью пешки</LimitCarryInfo_title>
+
+	<!-- None -->
+	<CEOverrideInfo_desc/>
+	<!-- Disabled in favor of CE's system. -->
+	<CEOverrideInfo_title>Отключить в пользу Combat Extended.</CEOverrideInfo_title>
+
+	<!-- Total sidearms limit mode -->
+	<LimitModeAmount_title>Режим ограничения общего количества дополнительного огнестрельного оружия</LimitModeAmount_title>
+	<!-- Total melee sidearms limit mode -->
+	<LimitModeAmountMelee_title>Режим ограничения общего количества дополнительного оружия ближнего боя</LimitModeAmountMelee_title>
+	<!-- Total ranged sidearms limit mode -->
+	<LimitModeAmountRanged_title>Режим ограничения общего количества дополнительного оружия дальнего боя</LimitModeAmountRanged_title>
+	<!-- What restrictions are there on all sidearms. -->
+	<LimitModeAmount_desc>Какие ограничения действуют на общее количество дополнительного оружия.</LimitModeAmount_desc>
+	<!-- What restrictions are there on all melee sidearms. -->
+	<LimitModeAmountMelee_desc>Какие ограничения существуют на все виды оружия ближнего боя.</LimitModeAmountMelee_desc>
+	<!-- What restrictions are there on all ranged sidearms. -->
+	<LimitModeAmountRanged_desc>Какие ограничения существуют на все виды огнестрельного оружия дальнего боя.</LimitModeAmountRanged_desc>
+	<!-- Single sidearm limit mode -->
+	<LimitModeSingle_title>Режим ограничения использования дополнительного оружия</LimitModeSingle_title>
+	<!-- Single melee sidearm limit mode -->
+	<LimitModeSingleMelee_title>Режим ограничения владения одиночным дополнительным оружием ближнего боя</LimitModeSingleMelee_title>
+	<!-- Single ranged sidearm limit mode -->
+	<LimitModeSingleRanged_title>Режим ограничения владения одиночным дополнительным оружием дальнего боя</LimitModeSingleRanged_title>
+	<!-- What restrictions are there on individual sidearms. -->
+	<LimitModeSingle_desc>Какие ограничения существуют на индивидуальное дополнительное оружие.</LimitModeSingle_desc>
+	<!-- What restrictions are there on individual melee sidearms. -->
+	<LimitModeSingleMelee_desc>Какие ограничения существуют на индивидуальное дополнительное оружие ближнего боя.</LimitModeSingleMelee_desc>
+	<!-- What restrictions are there on individual ranged sidearms. -->
+	<LimitModeSingleRanged_desc>Какие ограничения существуют на индивидуальное дополнительное оружие дальнего боя.</LimitModeSingleRanged_desc>
+
+	<!-- Total sidearms limit mode -->
+	<LimitModeAmountTotal_title>Режим ограничения общего количества огнестрельного дополнительного оружия</LimitModeAmountTotal_title>
+	<!-- What restrictions are there on all sidearms. -->
+	<LimitModeAmountTotal_desc>Какие ограничения существуют на всё дополнительного оружия.</LimitModeAmountTotal_desc>
+
+	<!-- Maximum total mass of sidearms a pawn can carry. -->
+	<MaximumMassAmountAbsolute_desc>Максимальная общая масса дополнительного оружия, которое может нести пешка.</MaximumMassAmountAbsolute_desc>
+	<!-- Max. mass of sidearms -->
+	<MaximumMassAmountAbsolute_title>Масса макс. дополнительного оружия</MaximumMassAmountAbsolute_title>
+	<!-- Maximum total mass of sidearms a pawn can carry relative to their carry capacity. -->
+	<MaximumMassAmountRelative_desc>Максимальный процент от общей массы дополнительного оружия, которое может нести пешка, по отношению к его грузоподъемности.</MaximumMassAmountRelative_desc>
+	<!-- Max. mass of sidearms -->
+	<MaximumMassAmountRelative_title>Максимальная масса дополнительного оружия</MaximumMassAmountRelative_title>
+	<!-- Maximum mass of a single sidearm a pawn can carry. -->
+	<MaximumMassSingleAbsolute_desc>Максимальная масса одного дополнительного оружия, которое может нести пешка.</MaximumMassSingleAbsolute_desc>
+	<!-- Max. mass per sidearm -->
+	<MaximumMassSingleAbsolute_title>Максимальная масса от дополнительного оружия</MaximumMassSingleAbsolute_title>
+	<!-- Maximum mass of a single sidearm a pawn can carry relative to their carry capacity. -->
+	<MaximumMassSingleRelative_desc>Максимальная масса одного дополнительного оружия, которое пешка может нести, от его грузоподъемности.</MaximumMassSingleRelative_desc>
+	<!-- Max. mass per sidearm -->
+	<MaximumMassSingleRelative_title>Максимальная масса от дополнительного оружия</MaximumMassSingleRelative_title>
+	<!-- How many sidearms can a pawn carry. -->
+	<MaximumSlots_desc>Сколько дополнительного оружия может нести пешка.</MaximumSlots_desc>
+	<!-- Slots -->
+	<MaximumSlots_title>Слоты</MaximumSlots_title>
+	<!-- What is the threshold after which a pawn will refuse to interrupt their attack to switch to a sidearm? -->
+	<RangedCombatAutoSwitchMaxWarmup_desc>Каков порог, после которого пешка откажется прервать свою атаку, чтобы перейти к дополнительному оружию ?</RangedCombatAutoSwitchMaxWarmup_desc>
+	<!-- Maximum warmup percentage -->
+	<RangedCombatAutoSwitchMaxWarmup_title>Максимальный процент разминки</RangedCombatAutoSwitchMaxWarmup_title>
+	<!-- Should pawns switch to range-appropriate ranged sidearms when attacking at range? -->
+	<RangedCombatAutoSwitch_desc>Должны ли пешки менять дополнительное оружие в зависимости от расстояния при дальней атаке ?</RangedCombatAutoSwitch_desc>
+	<!-- Use best ranged weapon -->
+	<RangedCombatAutoSwitch_title>Использовать лучшее оружие дальнего боя</RangedCombatAutoSwitch_title>
+	<!-- Should melee and ranged weapons have shared or separate restrictions? -->
+	<SeparateModes_desc>Должно ли оружие ближнего и дальнего боя иметь общие или отдельные ограничения?</SeparateModes_desc>
+	<!-- Split melee/ranged -->
+	<SeparateModes_title>Разделить ближний бой/дистанционный</SeparateModes_title>
+	<!-- None -->
+	<SidearmSelection_desc/>
+	<!-- Sidearm selection -->
+	<SidearmSelection_title>Выбор дополнительного оружия</SidearmSelection_title>
+	<!-- Should pawns switch to sidearms after expending single-use weapons? -->
+	<SingleshotAutoSwitch_desc>Должны ли пешки переходить на дополнительное оружие после того, как израсходовали одноразовое оружие?</SingleshotAutoSwitch_desc>
+	<!-- Singleshot autoswitch -->
+	<SingleshotAutoSwitch_title>Автоматический переключатель одиночного выстрела</SingleshotAutoSwitch_title>
+	<!-- Pawn bias towards selecting weapons with faster attack speed. -->
+	<SpeedSelectionBiasMelee_desc>Смещение интереса в сторону выбора оружия с более высокой скоростью атаки.</SpeedSelectionBiasMelee_desc>
+	<!-- Speed bias (melee) -->
+	<SpeedSelectionBiasMelee_title>Смещение интереса (ближний бой)</SpeedSelectionBiasMelee_title>
+	<!-- Pawn bias towards selecting weapons with faster warmup. -->
+	<SpeedSelectionBiasRanged_desc>Смещение интереса в сторону выбора оружия с более быстрой разминкой.</SpeedSelectionBiasRanged_desc>
+	<!-- Speed bias (ranged) -->
+	<SpeedSelectionBiasRanged_title>Смещение интереса (дальнее)</SpeedSelectionBiasRanged_title>
+	<!-- These are the weapons that match the given criteria. -->
+	<WeaponMatch_desc>Это то оружие, которое соответствует заданным критериям.</WeaponMatch_desc>
+	<!-- None -->
+	<WeaponMatch_title/>
+	<!-- Listing assumes standard carry capacity of 35 kg -->
+	<MaximumMassAmountRelative_hint>В описании предполагается, что стандартная грузоподъемность составляет 35 кг</MaximumMassAmountRelative_hint>
+
+	<!-- The chance for any pawn that spawns with a weapon to also have a sidearm. -->
+	<SidearmSpawnChance_desc>Шансы каждой пешки, которая появляется с оружием, также иметь дополнительное оружие.</SidearmSpawnChance_desc>
+	<!-- Sidearm spawn chance -->
+	<SidearmSpawnChance_title>Шанс появления дополнительного оружия</SidearmSpawnChance_title>
+	<!-- The amount by which the chance to spawn a sidearm is reduced by per additional sidearm. -->
+	<SidearmSpawnChanceDropoff_desc>Вероятность появления дополнительного оружия уменьшается на величину, на которую уменьшается шанс появления дополнительного оружия.</SidearmSpawnChanceDropoff_desc>
+	<!-- Additional spawn chance reduction -->
+	<SidearmSpawnChanceDropoff_title>Дополнительное снижение вероятности появления</SidearmSpawnChanceDropoff_title>
+	<!-- The amount of money a sidearm can be worth, based on the default primary weapon. -->
+	<SidearmBudgetMultiplier_desc>Сумма денег, которую может стоить дополнительное оружие, зависит от основного оружия по умолчанию.</SidearmBudgetMultiplier_desc>
+	<!-- Sidearm budget multiplier -->
+	<SidearmBudgetMultiplier_title>Увеличение бюджета на ношение дополнительного огнестрельного оружия</SidearmBudgetMultiplier_title>
+	<!-- The amount by which the budget is reduced by per additional sidearm. -->
+	<SidearmBudgetDropoff_desc>Сумма, на которую сокращается бюджет на каждое дополнительное оружие.</SidearmBudgetDropoff_desc>
+	<!-- Additional sidearm budget reduction -->
+	<SidearmBudgetDropoff_title>Дополнительное сокращение бюджета на дополнительное оружие</SidearmBudgetDropoff_title>
+	<!-- The default weapon preference mode for player-controlled pawns. -->
+	<ColonistDefaultWeaponMode_desc>Режим выбора оружия по умолчанию для пешек, управляемых игроком.</ColonistDefaultWeaponMode_desc>
+	<!-- Colonist default weapon mode -->
+	<ColonistDefaultWeaponMode_title>Стандартные модели оружия колониста</ColonistDefaultWeaponMode_title>
+	<!-- The default weapon preference mode for NPC pawns. -->
+	<NPCDefaultWeaponMode_desc>Режим выбора оружия по умолчанию для пешек NPC.</NPCDefaultWeaponMode_desc>
+	<!-- NPC default weapon mode -->
+	<NPCDefaultWeaponMode_title>Стандартные модели оружия NPC</NPCDefaultWeaponMode_title>
+
+	<!-- Ranged -->
+	<PrimaryWeaponMode_option_Ranged>Дальнее оружие</PrimaryWeaponMode_option_Ranged>
+	<!-- Melee -->
+	<PrimaryWeaponMode_option_Melee>Ближнее оружие</PrimaryWeaponMode_option_Melee>
+	<!-- By skill -->
+	<PrimaryWeaponMode_option_BySkill>Благодаря навыкам</PrimaryWeaponMode_option_BySkill>
+	<!-- By primary -->
+	<PrimaryWeaponMode_option_ByGenerated>Благодаря основному</PrimaryWeaponMode_option_ByGenerated>
+
+
+	<!-- No limit -->
+	<LimitModeSingle_option_None>Нет предела</LimitModeSingle_option_None>
+	<!-- Mass relative -->
+	<LimitModeSingle_option_RelativeWeight>Массовая доля</LimitModeSingle_option_RelativeWeight>
+	<!-- Mass absolute -->
+	<LimitModeSingle_option_AbsoluteWeight>Абсолютная масса</LimitModeSingle_option_AbsoluteWeight>
+	<!-- Specific weapons -->
+	<LimitModeSingle_option_Selection>Конкретное оружие</LimitModeSingle_option_Selection>
+
+	<!-- No limit -->
+	<LimitModeAmount_option_None>Нет предела</LimitModeAmount_option_None>
+	<!-- Mass relative -->
+	<LimitModeAmount_option_RelativeWeight>Массовая доля</LimitModeAmount_option_RelativeWeight>
+	<!-- Mass absolute -->
+	<LimitModeAmount_option_AbsoluteWeight>Абсолютная масса</LimitModeAmount_option_AbsoluteWeight>
+	<!-- Slots -->
+	<LimitModeAmount_option_Slots>Слоты</LimitModeAmount_option_Slots>
+
+	<!-- < -->
+	<ActiveTab_option_Folded>&lt;</ActiveTab_option_Folded>
+	<!-- Presets -->
+	<ActiveTab_option_Presets>Пресеты</ActiveTab_option_Presets>
+	<!-- Triggers -->
+	<ActiveTab_option_Automation>Перекление</ActiveTab_option_Automation>
+	<!-- Limits -->
+	<ActiveTab_option_Allowances>Пределы</ActiveTab_option_Allowances>
+	<!-- Spawns -->
+	<ActiveTab_option_Spawning>Появление</ActiveTab_option_Spawning>
+	<!-- Misc. -->
+	<ActiveTab_option_Misc>Прочее</ActiveTab_option_Misc>
+
+	<!-- Never -->
+	<DropMode_option_Never>Никогда</DropMode_option_Never>
+	<!-- In distress -->
+	<DropMode_option_InDistress>Убегает</DropMode_option_InDistress>
+	<!-- In combat -->
+	<DropMode_option_InCombat>В бою</DropMode_option_InCombat>
+	<!-- Always -->
+	<DropMode_option_Always>Всегда</DropMode_option_Always>
+
+	<!-- Fumble! -->
+	<Fumbled>Поиск!</Fumbled>
+	<!-- Fumble! ({0}) -->
+	<Fumbled_dev>Поиск! ({0})</Fumbled_dev>
+
+	<!-- None -->
+	<PresetExport_title/>
+	<!-- None -->
+	<PresetExport_desc/>
+	<!-- Copy active config to clipboard -->
+	<PresetExport_label>Скопировать активную конфигурацию в буфер обмена</PresetExport_label>
+
+
+	<!-- Custom -->
+	<PresetCustom_title>Настраиваемый</PresetCustom_title>
+	<!-- Custom settings. Automatically selected upon making a change. -->
+	<PresetCustom_desc>Пользовательские настройки. Выбирается автоматически при внесении изменений.</PresetCustom_desc>
+	<!-- None -->
+	<PresetCustom_label/>
+	<!-- Disabled -->
+	<Preset0_title>Отключен</Preset0_title>
+	<!-- All options disabled. Good base for configurations that use only a small portion of the mod's features. -->
+	<Preset0_desc>Все опции отключены. Хорошая база для конфигураций, использующих лишь малую часть возможностей мода.</Preset0_desc>
+	<!-- None -->
+	<Preset0_label/>
+	<!-- Lite -->
+	<Preset1half_title>Упрощённый</Preset1half_title>
+	<!-- Allows a single light weapon as a sidearm. -->
+	<Preset1half_desc>Позволяет использовать одно легкое оружие в качестве дополнительного.</Preset1half_desc>
+	<!-- None -->
+	<Preset1half_label/>
+	<!-- Loadout only -->
+	<Preset1_title>Только загрузка</Preset1_title>
+	<!-- Allows equipping sidearms, but nothing else. Essentially a convenient inventory extension. -->
+	<Preset1_desc>Позволяет оборудовать дополнительное оружие, но не более того. По сути, это удобное дополнение к инвентарю.</Preset1_desc>
+	<!-- None -->
+	<Preset1_label/>
+	<!-- Basic -->
+	<Preset2_title>Основной</Preset2_title>
+	<!-- A simple setup. Pawns can use a few light weapons and will attempt to use them in appropriate situations. -->
+	<Preset2_desc>Простая настройка. Пешки могут использовать несколько видов легкого оружия и будут пытаться использовать их в соответствующих ситуациях.</Preset2_desc>
+	<!-- None -->
+	<Preset2_label/>
+	<!-- Advanced -->
+	<Preset3_title>Продвинутый</Preset3_title>
+	<!-- Pawns get more creative with their weapon selection, but still remain within what one would expect possible from regular people trying to survive on a dangerous rimworld. -->
+	<Preset3_desc>Пешки более творчески подходят к выбору оружия, но все равно остаются в пределах того, что можно было бы ожидать от обычных людей, пытающихся выжить в опасном мире rimworld.</Preset3_desc>
+	<!-- None -->
+	<Preset3_label/>
+	<!-- Excessive -->
+	<Preset4_title>Избыточный</Preset4_title>
+	<!-- Bring all of it! Minigun? Bring two! Spears? I've got a whole collection in my backpack! -->
+	<Preset4_desc>Бери все! Миниган? Возьми два! Копья? У меня в рюкзаке целая коллекция!!</Preset4_desc>
+	<!-- None -->
+	<Preset4_label/>
+	<!-- Brawler mode -->
+	<Preset5_title>Режим боя</Preset5_title>
+	<!-- Melee sidearms for everyone. -->
+	<Preset5_desc>Дполнительное оружие ближнего боя для всех.</Preset5_desc>
+	<!-- None -->
+	<Preset5_label/>
+
+
+	<!-- No free space -->
+	<SidearmPickupFail_NoFreeSpace>Нет свободного места</SidearmPickupFail_NoFreeSpace>
+	<!-- Too heavy for a melee sidearm -->
+	<SidearmPickupFail_TooHeavyForSidearmMelee>Слишком тяжелый для дополнительного оружия ближнего боя</SidearmPickupFail_TooHeavyForSidearmMelee>
+	<!-- Too heavy for a ranged sidearm -->
+	<SidearmPickupFail_TooHeavyForSidearmRanged>Слишком тяжелый для дополнительного оружия дальнего боя</SidearmPickupFail_TooHeavyForSidearmRanged>
+	<!-- Too heavy for a sidearm -->
+	<SidearmPickupFail_TooHeavyForSidearm>Слишком тяжелый для дополнительного оружия</SidearmPickupFail_TooHeavyForSidearm>
+	<!-- Melee loadout too heavy -->
+	<SidearmPickupFail_SidearmsTooHeavyMelee>Слишком тяжелое снаряжение для ближнего боя</SidearmPickupFail_SidearmsTooHeavyMelee>
+	<!-- Ranged loadout too heavy -->
+	<SidearmPickupFail_SidearmsTooHeavyRanged>Дальнобойное снаряжение слишком тяжелое</SidearmPickupFail_SidearmsTooHeavyRanged>
+	<!-- Loadout too heavy -->
+	<SidearmPickupFail_SidearmsTooHeavyInTotal>Слишком тяжелый груз</SidearmPickupFail_SidearmsTooHeavyInTotal>
+	<!-- Not a sidearm -->
+	<SidearmPickupFail_NotASidearm>Никакого дополнительного оружия</SidearmPickupFail_NotASidearm>
+	<!-- Not a sidearm -->
+	<SidearmPickupFail_NotASidearmMelee>Никакого дополнительного оружия</SidearmPickupFail_NotASidearmMelee>
+	<!-- Not a sidearm -->
+	<SidearmPickupFail_NotASidearmRanged>Никакого дополнительного оружия</SidearmPickupFail_NotASidearmRanged>
+	<!-- Slots full -->
+	<SidearmPickupFail_AllSlotsFull>Слоты заполнены</SidearmPickupFail_AllSlotsFull>
+	<!-- Melee slots full -->
+	<SidearmPickupFail_MeleeSlotsFull>Места для ближнего боя заполнены</SidearmPickupFail_MeleeSlotsFull>
+	<!-- Ranged slots full -->
+	<SidearmPickupFail_RangedSlotsFull>Дальнобойные слоты заполнены</SidearmPickupFail_RangedSlotsFull>
+	<!-- Not a tool. {0} is incapable of violence. -->
+	<SidearmPickupFail_NotAToolForPacifist>Нет инструмента. {0} неспособен к насилию.</SidearmPickupFail_NotAToolForPacifist>
+	<!-- Not yet bonded -->
+	<SidearmPickupFail_NotYetBladelinkBonded>Еще не связаны узами</SidearmPickupFail_NotYetBladelinkBonded>
+	<!-- No issue -->
+	<SidearmPickupPass>Никаких проблем</SidearmPickupPass>
+	<!--  as sidearm -->
+	<AsSidearm> как дополнительное оружие</AsSidearm>
+	<!--  as tool -->
+	<AsTool> как инструмент</AsTool>
+
+	<!-- None -->
+	<Preset_option_NoneApplied>Никто</Preset_option_NoneApplied>
+	<!-- Custom -->
+	<Preset_option_Custom>Настраиваемый</Preset_option_Custom>
+	<!-- Lite -->
+	<Preset_option_Lite>Упрощённый</Preset_option_Lite>
+	<!-- Disabled -->
+	<Preset_option_Disabled>Отключен</Preset_option_Disabled>
+	<!-- Loadout only -->
+	<Preset_option_LoadoutOnly>Только загрузка</Preset_option_LoadoutOnly>
+	<!-- Basic -->
+	<Preset_option_Basic>Основной</Preset_option_Basic>
+	<!-- Advanced -->
+	<Preset_option_Advanced>Продвинутый</Preset_option_Advanced>
+	<!-- Excessive -->
+	<Preset_option_Excessive>Избыточный</Preset_option_Excessive>
+	<!-- Brawler -->
+	<Preset_option_Brawler>Дебошир</Preset_option_Brawler>
+
+	<!-- Both -->
+	<WeaponListKind_option_Both>Оба</WeaponListKind_option_Both>
+	<!-- Melee -->
+	<WeaponListKind_option_Melee>Ближний бой</WeaponListKind_option_Melee>
+	<!-- Ranged -->
+	<WeaponListKind_option_Ranged>Дальний бой</WeaponListKind_option_Ranged>
+
+	<!-- Tribal -->
+	<TribalWeapons>Племенной</TribalWeapons>
+	<!-- Not tribal -->
+	<NonTribalWeapons>Не племенной</NonTribalWeapons>
+
+	<!-- Sidearms -->
+	<ConsideredSidearms>Дополнительное оружие</ConsideredSidearms>
+	<!-- Not sidearms -->
+	<NotConsideredSidearms>Не дополнительное оружие</NotConsideredSidearms>
+
+	<!-- Cannot autoswitch (ranged) -->
+	<LockedWeaponSwitch>Невозможно автоматическое переключение (Дальний бой)</LockedWeaponSwitch>
+	<!-- Can autoswitch (ranged) -->
+	<UnlockedWeaponSwitch>Возможно автоматическое переключение (Дальний бой)</UnlockedWeaponSwitch>
+
+	<!-- Lock autoswitch on draw -->
+	<WeaponSwitchAutolockOn>Автоматическое включение блокировки при рисовании</WeaponSwitchAutolockOn>
+	<!-- Off -->
+	<WeaponSwitchAutolockOff>Выключение</WeaponSwitchAutolockOff>
+
+	<!-- Sidearms -->
+	<DrawSidearm_gizmoTitle>Дополнительное оружие</DrawSidearm_gizmoTitle>
+	<!-- Use ranged weapons. -->
+	<SidearmPreference_Ranged>Использование оружие дальнего боя.</SidearmPreference_Ranged>
+	<!-- Use weapons according to own skill or passion. -->
+	<SidearmPreference_Skill>Используйте оружие в соответствии с собственным мастерством или интересами.</SidearmPreference_Skill>
+	<!-- Use melee weapons. -->
+	<SidearmPreference_Melee>Использование оружия ближнего боя.</SidearmPreference_Melee>
+	<!-- Left click to set {0} as default ranged weapon.
+Right click to drop {0}. -->
+	<DrawSidearm_gizmoTooltipRanged>Щелкните левой кнопкой мыши, чтобы установить {0} в качестве оружия дальнего боя по умолчанию.
+Щелкните правой кнопкой мыши, чтобы удалить {0}.</DrawSidearm_gizmoTooltipRanged>
+	<!-- Left click to set {0} as preferred melee weapon.
+Right click to drop {0}. -->
+	<DrawSidearm_gizmoTooltipMelee>Щелкните левой кнопкой мыши, чтобы установить {0} как предпочтительное оружие ближнего боя.
+Щелкните правой кнопкой мыши, чтобы удалить {0}.</DrawSidearm_gizmoTooltipMelee>
+	<!-- Left click to force use of {0}.
+Right click to unset {0} as default ranged weapon. -->
+	<DrawSidearm_gizmoTooltipRangedDefault>Щелкните левой кнопкой мыши, чтобы принудительно использовать {0}.
+Щелкните правой кнопкой мыши, чтобы отменить установку {0} в качестве оружия дальнего боя по умолчанию.</DrawSidearm_gizmoTooltipRangedDefault>
+	<!-- Left click to force use of {0}.
+Right click to remove melee weapon preference of {0}. -->
+	<DrawSidearm_gizmoTooltipMeleePreferred>Щелкните левой кнопкой мыши, чтобы принудительно использовать {0}.
+Щелкните правой кнопкой мыши, чтобы удалить настройки оружия ближнего боя из {0}.</DrawSidearm_gizmoTooltipMeleePreferred>
+	<!-- Right click to remove forced use of {0}. -->
+	<DrawSidearm_gizmoTooltipForced>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование {0}.</DrawSidearm_gizmoTooltipForced>
+	<!-- Left click to force use of {0} until end of combat. -->
+	<DrawSidearm_gizmoTooltipWhileDrafted>Щелкните левой кнопкой мыши, чтобы принудительно использовать {0} до окончания боя.</DrawSidearm_gizmoTooltipWhileDrafted>
+	<!-- Right click to remove forced use of {0}. -->
+	<DrawSidearm_gizmoTooltipForcedWhileDrafted>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование {0}.</DrawSidearm_gizmoTooltipForcedWhileDrafted>
+	<!-- Right click to forget about {0}. -->
+	<DrawSidearm_gizmoTooltipMemory>Щелкните правой кнопкой мыши, чтобы забыть о {0}.</DrawSidearm_gizmoTooltipMemory>
+	<!-- No interaction while drafted. -->
+	<DrawSidearm_gizmoTooltipMemoryWhileDrafted>Никакого взаимодействия во время составления проекта.</DrawSidearm_gizmoTooltipMemoryWhileDrafted>
+	<!-- Left click to set unarmed combat as preferred melee option. -->
+	<DrawSidearm_gizmoTooltipUnarmed>Щелкните левой кнопкой мыши, чтобы выбрать ближний бой без оружия в качестве предпочтительного варианта ближнего боя.</DrawSidearm_gizmoTooltipUnarmed>
+	<!-- Left click to force use of unarmed combat. 
+Right click to remove unarmed combat as preferred melee option. -->
+	<DrawSidearm_gizmoTooltipUnarmedPreferred>Щелкните левой кнопкой мыши, чтобы принудительно перейти к ближнему бою. 
+Щелкните правой кнопкой мыши, чтобы удалить ближний бой в качестве предпочтительного варианта ближнего боя.</DrawSidearm_gizmoTooltipUnarmedPreferred>
+	<!-- Right click to remove forced use of unarmed combat. -->
+	<DrawSidearm_gizmoTooltipUnarmedForced>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование ближнего боя.</DrawSidearm_gizmoTooltipUnarmedForced>
+	<!-- Left click to force use of unarmed combat until end of combat. -->
+	<DrawSidearm_gizmoTooltipUnarmedWhileDrafted>Щелкните левой кнопкой мыши, чтобы принудительно использовать ближний бой до конца боя.</DrawSidearm_gizmoTooltipUnarmedWhileDrafted>
+	<!-- Right click to remove forced use of unarmed combat. -->
+	<DrawSidearm_gizmoTooltipUnarmedForcedWhileDrafted>Щелкните правой кнопкой мыши, чтобы удалить принудительное использование ближнего боя.</DrawSidearm_gizmoTooltipUnarmedForcedWhileDrafted>
+	<!-- Weapon unusable -->
+	<DrawSidearm_blocked>Оружие непригодное для использования</DrawSidearm_blocked>
+
+	<!-- Colonist missing sidearm -->
+	<Alert_MissingSidearm_label>У колониста пропало дополнительное оружие</Alert_MissingSidearm_label>
+	<!-- Colonist missing primary weapon -->
+	<Alert_MissingPrimary_label>У колониста пропало основное оружие</Alert_MissingPrimary_label>
+
+	<!-- These colonists are missing one or more of their sidearms:\n\n{0} -->
+	<Alert_MissingSidearm_desc>У этих колонистов отсутствует одно или несколько видов дополнительного оружия:\n\n{0}</Alert_MissingSidearm_desc>
+	<!-- These colonists are missing their primary weapon:\n\n{0} -->
+	<Alert_MissingPrimary_desc>У этих колонистов нет своего главного оружия:\n\n{0}</Alert_MissingPrimary_desc>
+
+	<!-- Using {0} will prevent use of {1}. -->
+	<SS_EquipWarning_CannotUseWithShield>С помощью {0} предотвратит использование {1}.</SS_EquipWarning_CannotUseWithShield>
+	<!-- Equipping {0} will unequip offhand {1}. -->
+	<SS_EquipWarning_WillUnequipOffhand>Экипирование {0} будет снято немедленно {1}.</SS_EquipWarning_WillUnequipOffhand>
+	<!-- Cannot equip {0} as offhand weapon - need a primary weapon to pair it with first. -->
+	<SS_EquipOffandFail_NoPrimary>Не удается экипировать {0} как дополнительное оружие - сначала нужно основное оружие, чтобы соединить его с другим.</SS_EquipOffandFail_NoPrimary>
+	<!-- Cannot equip {0} as offhand weapon - {1} is a two-handed weapon. -->
+	<SS_EquipOffandFail_PrimaryTwoHanded>Не удается экипировать {0} как дополнительное оружие - {1} это двуручное оружие.</SS_EquipOffandFail_PrimaryTwoHanded>
+	<!-- Cannot equip {0} as offhand weapon - already holding {1}. -->
+	<SS_EquipOffandFail_AlreadyHoldingShield>Не удается экипировать {0} как дополнительное оружие - уже держащееся {1}.</SS_EquipOffandFail_AlreadyHoldingShield>
+	<!-- Left click on the offhand icon to equip {0} as offhand weapon. -->
+	<SS_EquipAsOffand>Щелкните левой кнопкой мыши на значке "Готово", чтобы экипировать {0} как дополнительное оружие.</SS_EquipAsOffand>
+	<!-- Left click on the offhand icon to equip {0} as offhand weapon. -->
+	<SS_CanEquipAsOffand>Щелкните левой кнопкой мыши на значке "Готово", чтобы экипировать {0} как дополнительное оружие.</SS_CanEquipAsOffand>
+
+		<!-- Legacy -->
+	<!-- In distress -->
+	<DropMode_option_Panic>Убегает</DropMode_option_Panic>
+	<!-- In combat -->
+	<DropMode_option_PanicOrRange>В бою</DropMode_option_PanicOrRange>
+
+	<!-- Allow more weapons to be used as sidearms by tribals. -->
+	<SidearmsEnableNeolithicExtension_desc>Разрешить племенам использовать больше оружия в качестве дополнительного.</SidearmsEnableNeolithicExtension_desc>
+	<!-- Extend neolithic sidearms -->
+	<SidearmsEnableNeolithicExtension_title>Расширенное неолитическое оружие</SidearmsEnableNeolithicExtension_title>
+	<!-- None -->
+	<SidearmsNeolithicExtension_desc/>
+	<!-- Sidearms considered neolithic -->
+	<SidearmsNeolithicExtension_title>Дополнительное огнестрельное оружие, относящееся к эпохе неолита</SidearmsNeolithicExtension_title>
+</LanguageData>

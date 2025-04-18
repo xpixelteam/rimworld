@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Common/Defs/RecipeDefs/Recipes_Stonecutting_Cupro.xml-->
+                                  <!-- make claystone blocks x3 -->
+<Make_StoneBlocksBulkClaystoneCS.label>Сделать блоки из глиняного камня x3</Make_StoneBlocksBulkClaystoneCS.label>
+                                        <!-- Cuts claystone chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkClaystoneCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkClaystoneCS.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkClaystoneCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkClaystoneCS.jobString>
+                                 <!-- make andesite blocks x3 -->
+<Make_StoneBlocksBulkAndesiteCS.label>Сделать андезитовые блоки x3</Make_StoneBlocksBulkAndesiteCS.label>
+                                       <!-- Cuts andesite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkAndesiteCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkAndesiteCS.description>
+                                     <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkAndesiteCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkAndesiteCS.jobString>
+                                <!-- make syenite blocks x3 -->
+<Make_StoneBlocksBulkSyeniteCS.label>Сделать сиенитовые блоки x3</Make_StoneBlocksBulkSyeniteCS.label>
+                                      <!-- Cuts syenite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkSyeniteCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkSyeniteCS.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSyeniteCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkSyeniteCS.jobString>
+                               <!-- make gneiss blocks x3 -->
+<Make_StoneBlocksBulkGneissCS.label>Сделать блоки из гнейса x3</Make_StoneBlocksBulkGneissCS.label>
+                                     <!-- Cuts gneiss chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkGneissCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkGneissCS.description>
+                                   <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkGneissCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkGneissCS.jobString>
+                                  <!-- make quartzite blocks x3 -->
+<Make_StoneBlocksBulkQuartziteCS.label>Сделать кварцитовые блоки x3</Make_StoneBlocksBulkQuartziteCS.label>
+                                        <!-- Cuts quartzite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkQuartziteCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkQuartziteCS.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkQuartziteCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkQuartziteCS.jobString>
+                               <!-- make schist blocks x3 -->
+<Make_StoneBlocksBulkSchistCS.label>Сделать блоки из кристаллического сланца x3</Make_StoneBlocksBulkSchistCS.label>
+                                     <!-- Cuts schist chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkSchistCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkSchistCS.description>
+                                   <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkSchistCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkSchistCS.jobString>
+                               <!-- make gabbro blocks x3 -->
+<Make_StoneBlocksBulkGabbroCS.label>Сделать блоки из габбро x3</Make_StoneBlocksBulkGabbroCS.label>
+                                     <!-- Cuts gabbro chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkGabbroCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkGabbroCS.description>
+                                   <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkGabbroCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkGabbroCS.jobString>
+                                <!-- make diorite blocks x3 -->
+<Make_StoneBlocksBulkDioriteCS.label>Сделать диоритовые блоки x3</Make_StoneBlocksBulkDioriteCS.label>
+                                      <!-- Cuts diorite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkDioriteCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkDioriteCS.description>
+                                    <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkDioriteCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkDioriteCS.jobString>
+                               <!-- make dunite blocks x3 -->
+<Make_StoneBlocksBulkDuniteCS.label>Сделать дунитовые блоки x3</Make_StoneBlocksBulkDuniteCS.label>
+                                     <!-- Cuts dunite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkDuniteCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkDuniteCS.description>
+                                   <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkDuniteCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkDuniteCS.jobString>
+                                  <!-- make pegmatite blocks x3 -->
+<Make_StoneBlocksBulkPegmatiteCS.label>Сделать пегматитовые блоки x3</Make_StoneBlocksBulkPegmatiteCS.label>
+                                        <!-- Cuts pegmatite chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkPegmatiteCS.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkPegmatiteCS.description>
+                                      <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkPegmatiteCS.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkPegmatiteCS.jobString>
+
+</LanguageData>

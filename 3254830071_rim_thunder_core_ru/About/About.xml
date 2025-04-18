@@ -1,0 +1,22 @@
+<ModMetaData>
+	<name>RimThunder - Core RU</name>
+	<author>Rio3301</author>
+	<packageId>Rio3301.RimThunder.Core</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>RimThunder.Core</packageId>
+			<displayName>RimThunder - Core</displayName>
+			<steamWorkshopUrl>https:/steamcommunity.com/sharedfiles/filedetails/?id=3070495204</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>RimThunder.Core</li>
+	</loadAfter>
+	<description>Перевод RimThunder - Core
+Переведено 100%, если обнаружите косяки в переводе, пожалуйста сообщите.
+Оригинальный мод обязателен.</description>
+</ModMetaData>

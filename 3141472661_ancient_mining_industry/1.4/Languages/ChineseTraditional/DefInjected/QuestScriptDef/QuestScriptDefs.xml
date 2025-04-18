@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: questDescription->We heard rumors that there was a small abandoned mine pit nearby that might contain many untapped minerals.  It has been mentioned that there may be some threats, although this is uncertain.  We need to be well prepared before we go there for an adventure.  After all, there is some truth to rumors.  While we may not be the first to discover this mine pit, we still have a chance to be the first to develop it. -->
+  <AbandonedMine.questDescriptionRules.rulesStrings.0>questDescription->我们听说附近有一个废弃的小矿井，里面可能有许多未开发的矿物。有人提到那里可能存在一些不确定的威胁。在去那里冒险之前，我们需要做好充分的准备。毕竟，谣言是有一定道理的。虽然我们可能不是第一个发现这个矿井，但我们仍然有机会成为第一个开发它的人。</AbandonedMine.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Mine -->
+  <AbandonedMine.questNameRules.rulesStrings.0>questName->废弃采矿场</AbandonedMine.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The place has been ransacked by others. There's nothing left. The quest [resolvedQuestName] has expired. -->
+  <AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>这个地方被其他人洗劫一空。什么都没有了。任务[resolvedQuestName]已过期。</AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->We know from the information given by [asker_faction_name] that [siteFaction_name] got into the plasteel mine by other means, and the entrance to the mine collapsed for other reasons and they built a temporary base inside. We had no information on other routes into the mine, and if we were to seize the mine we would have to dig open the cave that had collapsed and destroy the garrison stationed at the temporary base. After some time, an expedition will be sent to bring in the spoils, and until then the defenders will be left alone to face all threats, including ours. -->
+  <AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings.0>questDescription->我们从[asker_faction_name]的消息中得知，[siteFaction_name]通过某种途径进入了一座洞口已经坍塌的玻璃钢矿山，并在其内部建立了临时基地。\n我们没有进入这座矿山其他路线的情报，如果我们要抢夺这批矿藏就要挖开已经坍塌的洞口并消灭驻扎在临时基地内的守军，[siteFaction_name]一段时间后就会派出一只远征队带走里面的战利品，在那之前守军要独自面对所有威胁，包括我们。</AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Plasteel Mining Site -->
+  <AbandonedPlasteelMineSite.questNameRules.rulesStrings.0>questName->废弃的玻璃钢矿场</AbandonedPlasteelMineSite.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+  <AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿井里的矿物已经完全开采完毕，只剩下无用的石头。任务[resolvedQuestName]已结束。</AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+  <AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>我们撤退后，他们加强了防御，使我们无法计划再次进攻。任务[resolvedQuestName]已结束。</AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->[asker_faction_name] tells us that [siteFaction_name] appears frequently near [map_definite] recently, By tracking them down and finding out that they're digging a hole in an ancient iron mine that collapsed, we might be able to wipe out the defenders and take the mine for ourselves, but why would they put so much effort into a collapsed iron mine?\n\nIt's not going to be easy to dig the hole open, we still have plenty of time. -->
+  <AbandonedSteelMineSite.questDescriptionRules.rulesStrings.0>questDescription->[asker_faction_name]告诉我们，最近[siteFaction_name]频繁出现在[map_definite]附近，通过追踪发现他们其正在挖掘一个已经坍塌了远古铁矿山的洞口，也许我们能消灭其中的守军，将这座矿山占为己有，不过他们为什么要对一座已经坍塌的铁矿山付出如此多的精力呢？\n\n\n要挖开坍塌的洞口可不是一件轻松的事情，我们的时间还有很多。</AbandonedSteelMineSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Steel Mining Site -->
+  <AbandonedSteelMineSite.questNameRules.rulesStrings.0>questName->废弃的钢铁矿场</AbandonedSteelMineSite.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+  <AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿井里的矿物已经完全开采完毕，只剩下无用的石头。任务[resolvedQuestName]已结束。</AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+  <AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>我们撤退后，他们加强了防御，使我们无法计划再次进攻。任务[resolvedQuestName]已结束。</AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->[asker_faction_name] tells us that [siteFaction_name] is occupying an ancient military uranium mine nearby that they have occupied, and we can be sure that the original defense system of the site has identified them as the new owners, and if we need the uranium mine, Then we need to take out both the garrison and the defense system.\n\n[siteFaction_name] is mining the mine, [asker_faction_name] has given us some time to deal with them, if we don't deal with them, they will take over. -->
+  <AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings.0>questDescription->[asker_faction_name]告诉我们[siteFaction_name]在附近有一座被他们所占领的远古军用铀矿，而且我们能确定该地原本的防御系统已经将他们识别为新的主人，如果我们需要这批铀矿，那我们就得同时解决掉其中的守军与防御系统。\n[siteFaction_name]正在开采这座矿山，这种等级的矿藏短期内是无法完全开采的，[asker_faction_name]给了我们时间，如果我们不去解决，他们将会接手。</AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Uranium MiningSite -->
+  <AbandonedUraniumMiningSite.questNameRules.rulesStrings.0>questName->废弃的铀矿场</AbandonedUraniumMiningSite.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+  <AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿井里的矿物已经完全开采完毕，只剩下无用的石头。任务[resolvedQuestName]已结束。</AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+  <AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>我们撤退后，他们加强了防御，使我们无法计划再次进攻。任务[resolvedQuestName]已结束。</AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->There is news that there is an ancient open-pit mine near us, and the important thing in its interior is that the giant excavator has collapsed, although it is no longer usable, but its advanced parts are not damaged.\n\nThis may be a trap, but it may also be an opportunity. -->
+  <AncientOpenPitMiningSite.questDescriptionRules.rulesStrings.0>questDescription->有消息称在我们附近存在一个古代露天矿场，其内部重要的就是已经坍塌了的巨型挖掘机，虽然已经无法使用了，但其中的高级零部件并没有损坏。\n\n这也许是个陷阱，同时也可能是一个机遇。</AncientOpenPitMiningSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Ancient Open Pit MiningSite -->
+  <AncientOpenPitMiningSite.questNameRules.rulesStrings.0>questName->古代露天矿场</AncientOpenPitMiningSite.questNameRules.rulesStrings.0>
+  
+  <!-- EN: questDescription->Rumors have been circulating about a collapsed ancient mine that looks worthless on the outside, but has recently been saying that its interior is not completely collapsed and contains vast resources.\n\nMaybe we can find out if this myth is true. -->
+  <AncientShieldMiningSite.questDescriptionRules.rulesStrings.0>questDescription->最近的流言蜚语都在提及一个已经坍塌的远古矿洞，这个矿洞从外表上看毫无价值，但最近都在说其内部并没有彻底坍塌，并蕴含了大量的资源。\n\n或许我们能去验证一下这个流言是不是真的。</AncientShieldMiningSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Ancient Shield Mining Site -->
+  <AncientShieldMiningSite.questNameRules.rulesStrings.0>questName->古代隧道矿井遗址</AncientShieldMiningSite.questNameRules.rulesStrings.0>
+  
+  <!-- EN: questDescription->The scanner reveals the presence of an undiscovered, incomplete tunnel construction site. Facilities at that location have been damaged; however, we can still recover a large amount of raw materials and components from it.\n\nThere were still quite a few automatic turrets in the construction area, and we weren't sure if their Identification Friend or Foe system would recognize us as the enemy. -->
+  <AncientTunnelRuins.questDescriptionRules.rulesStrings.0>questDescription->我们发现附近存在一个废弃已久的隧道施工地点，且人为破坏的痕迹极少，我们应该能从中回收大量的资源。\n\n施工区内仍有不少的自动炮塔，我们不能确定其敌我识别系统会不会将我们识别为敌人。</AncientTunnelRuins.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Ancient Tunnel Ruins -->
+  <AncientTunnelRuins.questNameRules.rulesStrings.0>questName->古代隧道遗址</AncientTunnelRuins.questNameRules.rulesStrings.0>
+  
+  <!-- EN: questDescription->[asker_faction_name] informed us about an mineral screening station near [map_definite]. Despite the main building being destroyed, the automatic defense system remains operational, and we won't be treated as hostile for unknown reasons.   This implies we can recover most of the resources without hindrance.\n\nIf we choose not to proceed with recycling, [asker_faction_name] will gather these ancient riches instead. -->
+  <MineralScreeningStation.questDescriptionRules.rulesStrings.0>questDescription->[asker_faction_name] 告诉我们在 [map_definite] 附近有一个远古筛矿站，虽然主体建筑已经被破坏，但自动防卫系统仍在运行，且并不会将我们识别为敌对目标，也就是说我们能毫无阻拦的回收其中大部分的资源。\n\n如果我们放弃回收，那 [asker_faction_name] 将会代替我们收下这批远古的财富。</MineralScreeningStation.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Mineral Screening Station -->
+  <MineralScreeningStation.questNameRules.rulesStrings.0>questName->矿物筛分站</MineralScreeningStation.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The mineral screening station has been ransacked by the others. The quest [resolvedQuestName] has expired. -->
+  <MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿物筛选站已被其他人洗劫一空。任务[resolvedQuestName]已过期。</MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->The scan revealed a small mine pit nearby. However, the scanner did not provide information on the minerals present.   We have received information suggesting the presence of numerous minerals inside, and the scanner also indicated a potential threat to the location.   If we intend to obtain these minerals, we must be prepared.\n\nSooner or later, others will notice this mineral deposit, and time is of the essence.   We must act swiftly. -->
+  <Scan_AbandonedMine.questDescriptionRules.rulesStrings.0>questDescription->扫描显示附近有一个小矿井。然而，扫描仪没有提供有关现有矿物的信息。我们收到的信息表明，里面存在大量矿物，扫描仪也表明该地点存在潜在威胁。如果我们打算获得这些矿物，我们就必须做好准备。\n\n迟早，其他人会注意到这个矿床，时间是至关重要的。我们必须迅速采取行动。</Scan_AbandonedMine.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Mine -->
+  <Scan_AbandonedMine.questNameRules.rulesStrings.0>questName->废弃采矿场</Scan_AbandonedMine.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Scan_AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</Scan_AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The place has been ransacked by others. There's nothing left. The quest [resolvedQuestName] has expired. -->
+  <Scan_AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>这个地方被其他人洗劫一空。什么都没有了。任务[resolvedQuestName]已过期。</Scan_AbandonedMine.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->The scanners tell us that there is an ancient plasteel mine nearby.  Although the entrance has collapsed, the scanners show that there is still a lot of life inside. If we are going to go there, we'd better take our weapons with us.\n\nSuch a large plasteel deposit is bound to attract the attention of other powers, but most of them take a long time to assemble a mining team, and we can do it faster than them. -->
+  <Scan_AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings.0>questDescription->扫描仪告诉我们附近有一座远古玻璃钢矿山，虽然洞口已经坍塌，但扫描仪上显示其内部仍有大量生命活动，如果我们要前往该地，最好带上武器装备，我们不能保证这些家伙不会攻击我们。\n\n如此大量的玻璃钢矿藏必定会引来其他势力的目光，但大部分势力组建一支采矿小队都需要不少的时间，而我们可以比他们更快。</Scan_AbandonedPlasteelMineSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Uranium Mining Site -->
+  <Scan_AbandonedPlasteelMineSite.questNameRules.rulesStrings.0>questName->废弃的玻璃钢矿场</Scan_AbandonedPlasteelMineSite.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+  <Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿井里的矿物已经完全开采完毕，只剩下无用的石头。任务[resolvedQuestName]已结束。</Scan_AbandonedPlasteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Scan_AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</Scan_AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+  <Scan_AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>我们撤退后，他们加强了防御，使我们无法计划再次进攻。任务[resolvedQuestName]已结束。</Scan_AbandonedPlasteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->We found an old steel mine whose entrance had collapsed, and the scanners told us that there was a lot of unmined steel inside the mine and a lot of broken equipment from which we could recover a lot of resources. But we are not the first to discover this steel mine, other forces are already on the move, the cave collapse may take a long time, they may be targeting more than just the mineral deposits inside. -->
+  <Scan_AbandonedSteelMineSite.questDescriptionRules.rulesStrings.0>questDescription->我们通过扫描仪发现了一座洞口坍塌了的远古铁矿，扫描仪告诉我们其矿洞内部有着大量未被开采的铁矿，其中有着不少的损坏的设备，我们能从中回收出不少的资源。\n\n但我们也不是第一个发现这座铁矿的人，其他派系的侦察小队早已出发，坍塌的洞口可以耗费他们不少的时间，而且他们的目标极大概率不止内部的矿藏。</Scan_AbandonedSteelMineSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Steel Mining Site -->
+  <Scan_AbandonedSteelMineSite.questNameRules.rulesStrings.0>questName->废弃的钢铁矿场</Scan_AbandonedSteelMineSite.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+  <Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿井里的矿物已经完全开采完毕，只剩下无用的石头。任务[resolvedQuestName]已结束。</Scan_AbandonedSteelMineSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Scan_AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</Scan_AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+  <Scan_AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>我们撤退后，他们加强了防御，使我们无法计划再次进攻。任务[resolvedQuestName]已结束。</Scan_AbandonedSteelMineSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->[worker_definite] successfully found an ancient military uranium mine on the scanner, but we are not the first to find this uranium mine, someone has occupied this uranium mine ahead of us, the original defense system identified them as the new master, we now not only have to face the defenders of the site, but also have to find a way to solve the defense facilities.\n\nThe defenders are now exploiting the remaining uranium in the mine. There is still some time before it is fully mined. We must be well prepared before we move. -->
+  <Scan_AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings.0>questDescription->[worker_definite]在扫描仪上成功发现了一个远古军用铀矿，但我们并不是第一个发现这座铀矿的，有人已经先于我们一步占领了这座铀矿，原先的防御系统将他们识别为了新的主人，我们现在不止要面对该地的守军，同时也要想办法解决防御设施。\n\n守军目前正在开采这座矿山剩余的铀矿，在完全开采一空前还有不少时间，我们行动前一定要做足准备。</Scan_AbandonedUraniumMiningSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Abandoned Uranium Mining Site -->
+  <Scan_AbandonedUraniumMiningSite.questNameRules.rulesStrings.0>questName->废弃的铀矿场</Scan_AbandonedUraniumMiningSite.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The minerals in the mine have been completely mined, and only useless stones remain.The quest [resolvedQuestName] has ended. -->
+  <Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿井里的矿物已经完全开采完毕，只剩下无用的石头。任务[resolvedQuestName]已结束。</Scan_AbandonedUraniumMiningSite.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <Scan_AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任务失败：[resolvedQuestName]</Scan_AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: They fortified their defenses after our retreat, making it impossible for us to plan another attack. The quest [resolvedQuestName] has ended. -->
+  <Scan_AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>我们撤退后，他们加强了防御，使我们无法计划再次进攻。任务[resolvedQuestName]已结束。</Scan_AbandonedUraniumMiningSite.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  
+  <!-- EN: questDescription->[worker_definite] have discovered an ancient open-pit mine nearby. Despite the collapse of the giant excavators due to years of disrepair, we should still be able to recover a substantial amount of resources and even salvage some advanced components. The damage to other structures is not as severe, and there might be a small amount of resources in these buildings as well.  -->
+  <Scan_AncientOpenPitMiningSite.questDescriptionRules.rulesStrings.0>questDescription->[worker_definite]通过扫描仪发现了附近有一个古代露天矿场，虽然其中的巨型挖掘机由于年久失修已经坍塌了，不过我们应该能从中回收出大量的资源，甚至高级零部件。其他建筑物的破坏程度也不高，内部应该也有少量资源。</Scan_AncientOpenPitMiningSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Ancient Open Pit MiningSite -->
+  <Scan_AncientOpenPitMiningSite.questNameRules.rulesStrings.0>questName->古代露天矿场</Scan_AncientOpenPitMiningSite.questNameRules.rulesStrings.0>
+  
+  <!-- EN: questDescription->[worker_definite] followed the scanner's instructions to find a collapsed mine hole nearby,Others might overlook a collapsed mine, but its internal structure remains intact, and there are abundant minerals accessible with tunnel boring machines.  If we can reach it, these resources will be ours. -->
+  <Scan_AncientShieldMiningSite.questDescriptionRules.rulesStrings.0>questDescription->[worker_definite]根据扫描仪的指示发现附近有一个坍塌的矿洞，其他人并不会在意一个已经坍塌了的矿洞，但扫描仪告诉我们其内部主体并没有被塌方所掩埋，其中还有大量的矿物和一些远古盾构机残骸。\n\n如果我们挖开入口，那这些资源就都是我们的了。</Scan_AncientShieldMiningSite.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Ancient Shield Mining Site -->
+  <Scan_AncientShieldMiningSite.questNameRules.rulesStrings.0>questName->古代隧道矿井遗址</Scan_AncientShieldMiningSite.questNameRules.rulesStrings.0>
+  
+  <!-- EN: questDescription->The scanner revealed an undiscovered Ancient Tunnel Ruins nearby, with varying degrees of damage to its facilities, but a significant amount of raw materials and parts being recovered.The automatic defense system in the construction area is still operating, so we need to be careful. -->
+  <Scan_AncientTunnelRuins.questDescriptionRules.rulesStrings.0>questDescription->扫描仪显示附近有一个未被他人发现的隧道施工地点，其设施有着不同程度的损坏，但我们依然能从中回收出大量的原材料及零部件。\n\n施工区的自动防卫系统仍在运行，我们需要小心行事。</Scan_AncientTunnelRuins.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Ancient Tunnel Ruins -->
+  <Scan_AncientTunnelRuins.questNameRules.rulesStrings.0>questName->古代隧道遗址</Scan_AncientTunnelRuins.questNameRules.rulesStrings.0>
+  
+  <!-- EN: questDescription->[worker_definite] has used scanners to locate an ancient screening station whose buildings are badly damaged, but there are still a lot of recoverable resources, and because the automatic defense system is still in operation, it somehow does not recognize us as enemies, so it can be determined that there is no threat to the site.\n            \n\nIt's only a matter of time before the sifting station is ransacked by other factions, and before that we still have [timeoutTicks_duration]. -->
+  <Scan_MineralScreeningStation.questDescriptionRules.rulesStrings.0>questDescription->[worker_definite]通过扫描仪确定了一个远古筛矿站的位置，其建筑已经严重损坏，但还有不少可回收的资源，而由于自动防卫系统仍在运行，其不知为何也不会把我们识别为敌人，目前能确定该地点没有任何威胁。\n\n筛矿站迟早会被其他发现的拾荒者搜刮一空，在这之前我们还有不少的时间。</Scan_MineralScreeningStation.questDescriptionRules.rulesStrings.0>
+  <!-- EN: questName->Mineral Screening Station -->
+  <Scan_MineralScreeningStation.questNameRules.rulesStrings.0>questName->矿物筛分站</Scan_MineralScreeningStation.questNameRules.rulesStrings.0>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <Scan_MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任务已过期：[resolvedQuestName]</Scan_MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The mineral screening station has been ransacked by the others.The quest [resolvedQuestName] has expired. -->
+  <Scan_MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>矿物筛选站已被其他人洗劫一空。任务[resolvedQuestName]已过期。</Scan_MineralScreeningStation.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

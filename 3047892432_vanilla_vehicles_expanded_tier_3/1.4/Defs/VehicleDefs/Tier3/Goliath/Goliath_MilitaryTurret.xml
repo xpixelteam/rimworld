@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>Goliath_MilitaryTurret</defName>
+		<label>goliath military turret</label>
+		<description>A military-grade double barreled automatic turret, usually mounted on Goliath siegepods. Requires steel to refurbish its barrels after heavy use. May explode when damaged. It has a limited angle it can fire in.</description>
+		
+		<turretType>Rotatable</turretType>
+		<shotSound>GunShotA</shotSound>
+		
+		<projectile>Bullet_MiniTurret</projectile>
+		
+		<reloadTimer>2.4</reloadTimer>
+		<warmUpTimer>1.2</warmUpTimer>
+		<chargePerAmmoCount>0.25</chargePerAmmoCount>
+		<magazineCapacity>75</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>2</rotationSpeed>
+		
+		<projectileOffset>1</projectileOffset>
+		
+		<minRange>3</minRange>
+		<maxRange>29.9</maxRange>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>4</shotsPerBurst>
+				<ticksBetweenShots>6</ticksBetweenShots>
+				<ticksBetweenBursts>25</ticksBetweenBursts>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+		</fireModes>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_SiegePod/Tier3_SiegePod_MilitaryTurret</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+</Defs>

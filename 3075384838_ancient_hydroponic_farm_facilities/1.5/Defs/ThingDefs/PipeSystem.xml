@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="AncientFacilities">
+		<defName>AncientNutrientPump</defName>
+		<label>Ancient nutrient pump</label>
+		<description>The ancient nutrient solution pump, due to the different pipelines of ancient technology from today, used a centralized pumping method to transport nutrient solution. This pump has been damaged, and destroying it may result in some useful things.</description>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/PipeSystem/AncientNutrientPump</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>75</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<HydroponicNutrientSolution>25</HydroponicNutrientSolution>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="AncientFacilities">
+		<defName>AncientNutrientSolutionStorageTank</defName>
+		<label>Ancient nutrient solution storage tank</label>
+		<description>Ancient nutrient solution storage tanks, destroying them may yield some useful things.</description>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/PipeSystem/AncientNutrientSolutionStorageTank</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.5,4.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(3, 0.8, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(3,3)</size>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<HydroponicNutrientSolution>55</HydroponicNutrientSolution>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="AncientBulidingBase">
+		<defName>AncientNutrientSolutionFeedPort</defName>
+		<label>Ancient nutrient solution feedport</label>
+		<description>Ancient nutrient solution feedport, It's already damaged.</description>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/PipeSystem/AncientNutrientSolutionFeedPort</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="AncientBulidingBase">
+		<defName>AncientNutrientSolutionOutlet</defName>
+		<label>Ancient nutrient solution outlet</label>
+		<description>Ancient nutrient solution outlet, It's already damaged.</description>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/PipeSystem/AncientNutrientSolutionOutlet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+		</statBases>
+		<costList>
+			<Steel>25</Steel>
+		</costList>
+	</ThingDef>
+
+
+</Defs>

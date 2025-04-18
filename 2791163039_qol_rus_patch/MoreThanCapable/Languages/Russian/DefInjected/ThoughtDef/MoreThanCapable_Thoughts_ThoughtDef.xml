@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Defs\Thoughts.xml-->
+	<!--             assigned to art -->
+	<AssignedToArt.stages.0.label>{PAWN_gender ? Назначен : Назначена} делать Исскуство</AssignedToArt.stages.0.label>
+	<!--                I hate art. -->
+	<AssignedToArt.stages.0.description>Я ненавижу искусство.</AssignedToArt.stages.0.description>
+	<!--             assigned to art (Annoyed) -->
+	<AssignedToArt.stages.1.label>{PAWN_gender ? Назначен : Назначена} делать Исскуство {PAWN_gender ? Раздражен : Раздражена}</AssignedToArt.stages.1.label>
+	<!--                I really hate art. -->
+	<AssignedToArt.stages.1.description>Я действительно ненавижу искусство.</AssignedToArt.stages.1.description>
+	<!--             assigned to art (Angry) -->
+	<AssignedToArt.stages.2.label>{PAWN_gender ? Назначен : Назначена} делать Исскуство {PAWN_gender ? Сердит : Сердита}</AssignedToArt.stages.2.label>
+	<!--                I really, really hate art! -->
+	<AssignedToArt.stages.2.description>Я действительно, действительно ненавижу искусство!</AssignedToArt.stages.2.description>
+	<!--             assigned to art (Furious) -->
+	<AssignedToArt.stages.3.label>{PAWN_gender ? Назначен : Назначена} делать Исскуство (В ярости)</AssignedToArt.stages.3.label>
+	<!--                I can't believe I'm still assigned to art! -->
+	<AssignedToArt.stages.3.description>Я не могу поверить, что я все еще занимаюсь искусством!</AssignedToArt.stages.3.description>
+	<!--             assigned to art (Mad) -->
+	<AssignedToArt.stages.4.label>{PAWN_gender ? Назначен : Назначена} делать Исскуство (На грани)</AssignedToArt.stages.4.label>
+	<!--                If I'm assigned to art, I swear I'm going to lose it! -->
+	<AssignedToArt.stages.4.description>Если меня еще хоть на минуту назначат заниматься искусством, клянусь, я сорвусь!</AssignedToArt.stages.4.description>
+	<!--             was assigned to art -->
+	<AssignedToArt.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} art</AssignedToArt.stages.5.label>
+	<!--                I'm still annoyed that I was assigned to art. -->
+	<AssignedToArt.stages.5.description>Я все еще раздражен тем, что меня назначили заниматься искусством.</AssignedToArt.stages.5.description>
+	<!--                assigned to cleaning -->
+	<AssignedToCleaning.stages.0.label>{PAWN_gender ? Назначен : Назначена} Убираться</AssignedToCleaning.stages.0.label>
+	<!--                   I hate cleaning. -->
+	<AssignedToCleaning.stages.0.description>Я ненавижу уборку.</AssignedToCleaning.stages.0.description>
+	<!--                was assigned to cleaning -->
+	<AssignedToCleaning.stages.1.label>{PAWN_gender ? Был назначен : Была Назначена} на уборку</AssignedToCleaning.stages.1.label>
+	<!--                   I'm still annoyed that I was assigned to cleaning. -->
+	<AssignedToCleaning.stages.1.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили убирать.</AssignedToCleaning.stages.1.description>
+	<!--                  assigned to construction -->
+	<AssignedToConstruction.stages.0.label>{PAWN_gender ? Назначен : Назначена} Строить</AssignedToConstruction.stages.0.label>
+	<!--                     I hate construction. -->
+	<AssignedToConstruction.stages.0.description>Я ненавижу Строить.</AssignedToConstruction.stages.0.description>
+	<!--                  assigned to construction (Annoyed) -->
+	<AssignedToConstruction.stages.1.label>{PAWN_gender ? Назначен : Назначена} Строить {PAWN_gender ? Раздражен : Раздражена}</AssignedToConstruction.stages.1.label>
+	<!--                     I really hate construction. -->
+	<AssignedToConstruction.stages.1.description>Я действительно ненавижу Строить.</AssignedToConstruction.stages.1.description>
+	<!--                  assigned to construction (Angry) -->
+	<AssignedToConstruction.stages.2.label>{PAWN_gender ? Назначен : Назначена} Строить {PAWN_gender ? Сердит : Сердита}</AssignedToConstruction.stages.2.label>
+	<!--                     I really, really hate construction! -->
+	<AssignedToConstruction.stages.2.description>Я действительно, действительно ненавижу Строить!</AssignedToConstruction.stages.2.description>
+	<!--                  assigned to construction (Furious) -->
+	<AssignedToConstruction.stages.3.label>{PAWN_gender ? Назначен : Назначена} Строить (В ярости)</AssignedToConstruction.stages.3.label>
+	<!--                     I can't believe I'm still assigned to construction! -->
+	<AssignedToConstruction.stages.3.description>Я не могу поверить, что я все еще Строю!</AssignedToConstruction.stages.3.description>
+	<!--                  assigned to construction (Mad) -->
+	<AssignedToConstruction.stages.4.label>{PAWN_gender ? Назначен : Назначена} Строить (На грани)</AssignedToConstruction.stages.4.label>
+	<!--                     If I'm assigned to construction, I swear I'm going to lose it! -->
+	<AssignedToConstruction.stages.4.description>Если меня еще хоть на минуту назначат Строить, клянусь, я сорвусь!</AssignedToConstruction.stages.4.description>
+	<!--                  was assigned to construction -->
+	<AssignedToConstruction.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Строить</AssignedToConstruction.stages.5.label>
+	<!--                     I'm still annoyed that I was assigned to construction. -->
+	<AssignedToConstruction.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Строить.</AssignedToConstruction.stages.5.description>
+	<!--               assigned to cooking -->
+	<AssignedToCooking.stages.0.label>{PAWN_gender ? Назначен : Назначена} Готовить</AssignedToCooking.stages.0.label>
+	<!--                  I hate cooking. -->
+	<AssignedToCooking.stages.0.description>Я ненавижу cooking.</AssignedToCooking.stages.0.description>
+	<!--               assigned to cooking (Annoyed) -->
+	<AssignedToCooking.stages.1.label>{PAWN_gender ? Назначен : Назначена} Готовить {PAWN_gender ? Раздражен : Раздражена}</AssignedToCooking.stages.1.label>
+	<!--                  I really hate cooking. -->
+	<AssignedToCooking.stages.1.description>Я действительно ненавижу Готовить.</AssignedToCooking.stages.1.description>
+	<!--               assigned to cooking (Angry) -->
+	<AssignedToCooking.stages.2.label>{PAWN_gender ? Назначен : Назначена} Готовить {PAWN_gender ? Сердит : Сердита}</AssignedToCooking.stages.2.label>
+	<!--                  I really, really hate cooking! -->
+	<AssignedToCooking.stages.2.description>Я действительно, действительно ненавижу Готовить!</AssignedToCooking.stages.2.description>
+	<!--               assigned to cooking (Furious) -->
+	<AssignedToCooking.stages.3.label>{PAWN_gender ? Назначен : Назначена} Готовить (В ярости)</AssignedToCooking.stages.3.label>
+	<!--                  I can't believe I'm still assigned to cooking! -->
+	<AssignedToCooking.stages.3.description>Я не могу поверить, что я все еще Готовлю!</AssignedToCooking.stages.3.description>
+	<!--               assigned to cooking (Mad) -->
+	<AssignedToCooking.stages.4.label>{PAWN_gender ? Назначен : Назначена} Готовить (На грани)</AssignedToCooking.stages.4.label>
+	<!--                  If I'm assigned to cooking, I swear I'm going to lose it! -->
+	<AssignedToCooking.stages.4.description>Если меня еще хоть на минуту назначат Готовить, клянусь, я сорвусь!</AssignedToCooking.stages.4.description>
+	<!--               was assigned to cooking -->
+	<AssignedToCooking.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Готовить</AssignedToCooking.stages.5.label>
+	<!--                  I'm still annoyed that I was assigned to cooking. -->
+	<AssignedToCooking.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Готовить.</AssignedToCooking.stages.5.description>
+	<!--                assigned to crafting -->
+	<AssignedToCrafting.stages.0.label>{PAWN_gender ? Назначен : Назначена} Создавать предметы</AssignedToCrafting.stages.0.label>
+	<!--                   I hate crafting. -->
+	<AssignedToCrafting.stages.0.description>Я ненавижу Создавать предметы.</AssignedToCrafting.stages.0.description>
+	<!--                assigned to crafting (Annoyed) -->
+	<AssignedToCrafting.stages.1.label>{PAWN_gender ? Назначен : Назначена} Создавать предметы {PAWN_gender ? Раздражен : Раздражена}</AssignedToCrafting.stages.1.label>
+	<!--                   I really hate crafting. -->
+	<AssignedToCrafting.stages.1.description>Я действительно ненавижу Создавать предметы.</AssignedToCrafting.stages.1.description>
+	<!--                assigned to crafting (Angry) -->
+	<AssignedToCrafting.stages.2.label>{PAWN_gender ? Назначен : Назначена} Создавать предметы {PAWN_gender ? Сердит : Сердита}</AssignedToCrafting.stages.2.label>
+	<!--                   I really, really hate crafting! -->
+	<AssignedToCrafting.stages.2.description>Я действительно, действительно ненавижу Создавать предметы!</AssignedToCrafting.stages.2.description>
+	<!--                assigned to crafting (Furious) -->
+	<AssignedToCrafting.stages.3.label>{PAWN_gender ? Назначен : Назначена} Создавать предметы (В ярости)</AssignedToCrafting.stages.3.label>
+	<!--                   I can't believe I'm still assigned to crafting! -->
+	<AssignedToCrafting.stages.3.description>Я не могу поверить, что я все еще Создаю предметы!</AssignedToCrafting.stages.3.description>
+	<!--                assigned to crafting (Mad) -->
+	<AssignedToCrafting.stages.4.label>{PAWN_gender ? Назначен : Назначена} Создавать предметы (На грани)</AssignedToCrafting.stages.4.label>
+	<!--                   If I'm assigned to crafting, I swear I'm going to lose it! -->
+	<AssignedToCrafting.stages.4.description>Если меня еще хоть на минуту назначат Создавать предметы, клянусь, я сорвусь!</AssignedToCrafting.stages.4.description>
+	<!--                was assigned to crafting -->
+	<AssignedToCrafting.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Создавать предметы</AssignedToCrafting.stages.5.label>
+	<!--                   I'm still annoyed that I was assigned to crafting. -->
+	<AssignedToCrafting.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Создавать предметы.</AssignedToCrafting.stages.5.description>
+	<!--               assigned to doctor -->
+	<AssignedToDoctor.stages.0.label>{PAWN_gender ? Назначен : Назначена} Лечить</AssignedToDoctor.stages.0.label>
+	<!--                  I hate playing doctor. -->
+	<AssignedToDoctor.stages.0.description>Я ненавижу Лечить.</AssignedToDoctor.stages.0.description>
+	<!--               assigned to doctor (Annoyed) -->
+	<AssignedToDoctor.stages.1.label>{PAWN_gender ? Назначен : Назначена} Лечить {PAWN_gender ? Раздражен : Раздражена}</AssignedToDoctor.stages.1.label>
+	<!--                  I really hate playing doctor. -->
+	<AssignedToDoctor.stages.1.description>Я действительно ненавижу Лечить.</AssignedToDoctor.stages.1.description>
+	<!--               assigned to doctor (Angry) -->
+	<AssignedToDoctor.stages.2.label>{PAWN_gender ? Назначен : Назначена} Лечить {PAWN_gender ? Сердит : Сердита}</AssignedToDoctor.stages.2.label>
+	<!--                  I really, really hate playing doctor! -->
+	<AssignedToDoctor.stages.2.description>Я действительно, действительно ненавижу Лечить!</AssignedToDoctor.stages.2.description>
+	<!--               assigned to doctor (Furious) -->
+	<AssignedToDoctor.stages.3.label>{PAWN_gender ? Назначен : Назначена} Лечить (В ярости)</AssignedToDoctor.stages.3.label>
+	<!--                  I can't believe I'm still assigned to play doctor! -->
+	<AssignedToDoctor.stages.3.description>Я не могу поверить, что я все еще занимаюсь Лечением!</AssignedToDoctor.stages.3.description>
+	<!--               assigned to doctor (Mad) -->
+	<AssignedToDoctor.stages.4.label>{PAWN_gender ? Назначен : Назначена} Лечить (На грани)</AssignedToDoctor.stages.4.label>
+	<!--                  If I'm assigned to play doctor, I swear I'm going to lose it! -->
+	<AssignedToDoctor.stages.4.description>Если меня еще хоть на минуту назначат Лечить, клянусь, я сорвусь!</AssignedToDoctor.stages.4.description>
+	<!--               was assigned to doctor -->
+	<AssignedToDoctor.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Лечить</AssignedToDoctor.stages.5.label>
+	<!--                  I'm still annoyed that I was assigned to play doctor. -->
+	<AssignedToDoctor.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Лечить.</AssignedToDoctor.stages.5.description>
+	<!--                 assigned to firefighter -->
+	<AssignedToFirefighter.stages.0.label>{PAWN_gender ? Назначен : Назначена} Тушить пожар</AssignedToFirefighter.stages.0.label>
+	<!--                    I hate firefighting. -->
+	<AssignedToFirefighter.stages.0.description>Я ненавижу Тушить пожар.</AssignedToFirefighter.stages.0.description>
+	<!--                 assigned to firefighter (Annoyed) -->
+	<AssignedToFirefighter.stages.1.label>{PAWN_gender ? Назначен : Назначена} Тушить пожар {PAWN_gender ? Раздражен : Раздражена}</AssignedToFirefighter.stages.1.label>
+	<!--                    I really hate firefighting. -->
+	<AssignedToFirefighter.stages.1.description>Я действительно ненавижу Тушить пожар.</AssignedToFirefighter.stages.1.description>
+	<!--                 assigned to firefighter (Angry) -->
+	<AssignedToFirefighter.stages.2.label>{PAWN_gender ? Назначен : Назначена} Тушить пожар {PAWN_gender ? Сердит : Сердита}</AssignedToFirefighter.stages.2.label>
+	<!--                    I really, really hate firefighting! -->
+	<AssignedToFirefighter.stages.2.description>Я действительно, действительно ненавижу Тушить пожар!</AssignedToFirefighter.stages.2.description>
+	<!--                 assigned to firefighter (Furious) -->
+	<AssignedToFirefighter.stages.3.label>{PAWN_gender ? Назначен : Назначена} Тушить пожар (В ярости)</AssignedToFirefighter.stages.3.label>
+	<!--                    I can't believe I'm still assigned to firefighting! -->
+	<AssignedToFirefighter.stages.3.description>Я не могу поверить, что я все еще Тушу пожар!</AssignedToFirefighter.stages.3.description>
+	<!--                 assigned to firefighter (Mad) -->
+	<AssignedToFirefighter.stages.4.label>{PAWN_gender ? Назначен : Назначена} Тушить пожар (На грани)</AssignedToFirefighter.stages.4.label>
+	<!--                    If I'm assigned to firefighting, I swear I'm going to lose it! -->
+	<AssignedToFirefighter.stages.4.description>Если меня еще хоть на минуту назначат Тушить пожар, клянусь, я сорвусь!</AssignedToFirefighter.stages.4.description>
+	<!--                 was assigned to firefighter -->
+	<AssignedToFirefighter.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Тушить пожар</AssignedToFirefighter.stages.5.label>
+	<!--                    I'm still annoyed that I was assigned to firefighting. -->
+	<AssignedToFirefighter.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Тушить пожар.</AssignedToFirefighter.stages.5.description>
+	<!--               assigned to growing -->
+	<AssignedToGrowing.stages.0.label>{PAWN_gender ? Назначен : Назначена} Выращивать растения</AssignedToGrowing.stages.0.label>
+	<!--                  I hate growing things. -->
+	<AssignedToGrowing.stages.0.description>Я ненавижу Выращивать растения.</AssignedToGrowing.stages.0.description>
+	<!--               assigned to growing (Annoyed) -->
+	<AssignedToGrowing.stages.1.label>{PAWN_gender ? Назначен : Назначена} Выращивать растения {PAWN_gender ? Раздражен : Раздражена}</AssignedToGrowing.stages.1.label>
+	<!--                  I really hate growing things. -->
+	<AssignedToGrowing.stages.1.description>Я действительно ненавижу Выращивать растения.</AssignedToGrowing.stages.1.description>
+	<!--               assigned to growing (Angry) -->
+	<AssignedToGrowing.stages.2.label>{PAWN_gender ? Назначен : Назначена} Выращивать растения {PAWN_gender ? Сердит : Сердита}</AssignedToGrowing.stages.2.label>
+	<!--                  I really, really hate growing things! -->
+	<AssignedToGrowing.stages.2.description>Я действительно, действительно ненавижу Выращивать растения!</AssignedToGrowing.stages.2.description>
+	<!--               assigned to growing (Furious) -->
+	<AssignedToGrowing.stages.3.label>{PAWN_gender ? Назначен : Назначена} Выращивать растения (В ярости)</AssignedToGrowing.stages.3.label>
+	<!--                  I can't believe I'm still assigned to growing things! -->
+	<AssignedToGrowing.stages.3.description>Я не могу поверить, что я все еще Выращиваю растения!</AssignedToGrowing.stages.3.description>
+	<!--               assigned to growing (Mad) -->
+	<AssignedToGrowing.stages.4.label>{PAWN_gender ? Назначен : Назначена} Выращивать растения (На грани)</AssignedToGrowing.stages.4.label>
+	<!--                  If I'm assigned to growing things, I swear I'm going to lose it! -->
+	<AssignedToGrowing.stages.4.description>Если меня еще хоть на минуту назначат Выращивать растения, клянусь, я сорвусь!</AssignedToGrowing.stages.4.description>
+	<!--               was assigned to growing -->
+	<AssignedToGrowing.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Выращивать растения</AssignedToGrowing.stages.5.label>
+	<!--                  I'm still annoyed that I was assigned to growing things. -->
+	<AssignedToGrowing.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Выращивать растения.</AssignedToGrowing.stages.5.description>
+	<!--                assigned to handling -->
+	<AssignedToHandling.stages.0.label>{PAWN_gender ? Назначен : Назначена} Ухаживать за животными</AssignedToHandling.stages.0.label>
+	<!--                   I hate animals. -->
+	<AssignedToHandling.stages.0.description>Я ненавижу животных.</AssignedToHandling.stages.0.description>
+	<!--                assigned to handling (Annoyed) -->
+	<AssignedToHandling.stages.1.label>{PAWN_gender ? Назначен : Назначена} Ухаживать за животными {PAWN_gender ? Раздражен : Раздражена}</AssignedToHandling.stages.1.label>
+	<!--                   I really hate animals. -->
+	<AssignedToHandling.stages.1.description>Я действительно ненавижу животных.</AssignedToHandling.stages.1.description>
+	<!--                assigned to handling (Angry) -->
+	<AssignedToHandling.stages.2.label>{PAWN_gender ? Назначен : Назначена} Ухаживать за животными {PAWN_gender ? Сердит : Сердита}</AssignedToHandling.stages.2.label>
+	<!--                   I really, really hate animals! -->
+	<AssignedToHandling.stages.2.description>Я действительно, действительно ненавижу животных!</AssignedToHandling.stages.2.description>
+	<!--                assigned to handling (Furious) -->
+	<AssignedToHandling.stages.3.label>{PAWN_gender ? Назначен : Назначена} Ухаживать за животными (В ярости)</AssignedToHandling.stages.3.label>
+	<!--                   I can't believe I'm still assigned to handling animals! -->
+	<AssignedToHandling.stages.3.description>Я не могу поверить, что я все еще Ухаживаю за животными!</AssignedToHandling.stages.3.description>
+	<!--                assigned to handling (Mad) -->
+	<AssignedToHandling.stages.4.label>{PAWN_gender ? Назначен : Назначена} Ухаживать за животными (На грани)</AssignedToHandling.stages.4.label>
+	<!--                   If I'm assigned to handling animals, I swear I'm going to lose it! -->
+	<AssignedToHandling.stages.4.description>Если меня еще хоть на минуту назначат Ухаживать за животными, клянусь, я сорвусь!</AssignedToHandling.stages.4.description>
+	<!--                was assigned to handling -->
+	<AssignedToHandling.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Ухаживать за животными</AssignedToHandling.stages.5.label>
+	<!--                   I'm still annoyed that I was assigned to handling animals. -->
+	<AssignedToHandling.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Ухаживать за животными.</AssignedToHandling.stages.5.description>
+	<!--               assigned to hauling -->
+	<AssignedToHauling.stages.0.label>{PAWN_gender ? Назначен : Назначена} Переносить предметы</AssignedToHauling.stages.0.label>
+	<!--                  I hate hauling. -->
+	<AssignedToHauling.stages.0.description>Я ненавижу Таскать предметы.</AssignedToHauling.stages.0.description>
+	<!--               was assigned to hauling -->
+	<AssignedToHauling.stages.1.label>{PAWN_gender ? Был назначен : Была Назначена} Переносить предметы</AssignedToHauling.stages.1.label>
+	<!--                  I'm still annoyed that I was assigned to hauling. -->
+	<AssignedToHauling.stages.1.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Переносить предметы.</AssignedToHauling.stages.1.description>
+	<!--               assigned to hunting -->
+	<AssignedToHunting.stages.0.label>{PAWN_gender ? Назначен : Назначена} Охотиться</AssignedToHunting.stages.0.label>
+	<!--                  I hate hunting. -->
+	<AssignedToHunting.stages.0.description>Я ненавижу Охотиться.</AssignedToHunting.stages.0.description>
+	<!--               assigned to hunting (Annoyed) -->
+	<AssignedToHunting.stages.1.label>{PAWN_gender ? Назначен : Назначена} Охотиться {PAWN_gender ? Раздражен : Раздражена}</AssignedToHunting.stages.1.label>
+	<!--                  I really hate hunting. -->
+	<AssignedToHunting.stages.1.description>Я действительно ненавижу Охотиться.</AssignedToHunting.stages.1.description>
+	<!--               assigned to hunting (Angry) -->
+	<AssignedToHunting.stages.2.label>{PAWN_gender ? Назначен : Назначена} Охотиться {PAWN_gender ? Сердит : Сердита}</AssignedToHunting.stages.2.label>
+	<!--                  I really, really hate hunting! -->
+	<AssignedToHunting.stages.2.description>Я действительно, действительно ненавижу Охотиться!</AssignedToHunting.stages.2.description>
+	<!--               assigned to hunting (Furious) -->
+	<AssignedToHunting.stages.3.label>{PAWN_gender ? Назначен : Назначена} Охотиться (В ярости)</AssignedToHunting.stages.3.label>
+	<!--                  I can't believe I'm still assigned to hunting! -->
+	<AssignedToHunting.stages.3.description>Я не могу поверить, что я все еще Охочусь!</AssignedToHunting.stages.3.description>
+	<!--               assigned to hunting (Mad) -->
+	<AssignedToHunting.stages.4.label>{PAWN_gender ? Назначен : Назначена} Охотиться (На грани)</AssignedToHunting.stages.4.label>
+	<!--                  If I'm assigned to hunting, I swear I'm going to lose it! -->
+	<AssignedToHunting.stages.4.description>Если меня еще хоть на минуту назначат Охотиться, клянусь, я сорвусь!</AssignedToHunting.stages.4.description>
+	<!--               was assigned to hunting -->
+	<AssignedToHunting.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Охотиться</AssignedToHunting.stages.5.label>
+	<!--                  I'm still annoyed that I was assigned to hunting. -->
+	<AssignedToHunting.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Охотиться.</AssignedToHunting.stages.5.description>
+	<!--               assigned to mining -->
+	<AssignedToMining.stages.0.label>{PAWN_gender ? Назначен : Назначена} Копать</AssignedToMining.stages.0.label>
+	<!--                  I hate mining. -->
+	<AssignedToMining.stages.0.description>Я ненавижу Копать.</AssignedToMining.stages.0.description>
+	<!--               assigned to mining (Annoyed) -->
+	<AssignedToMining.stages.1.label>{PAWN_gender ? Назначен : Назначена} Копать {PAWN_gender ? Раздражен : Раздражена}</AssignedToMining.stages.1.label>
+	<!--                  I really hate mining. -->
+	<AssignedToMining.stages.1.description>Я действительно ненавижу Копать.</AssignedToMining.stages.1.description>
+	<!--               assigned to mining (Angry) -->
+	<AssignedToMining.stages.2.label>{PAWN_gender ? Назначен : Назначена} Копать {PAWN_gender ? Сердит : Сердита}</AssignedToMining.stages.2.label>
+	<!--                  I really, really hate mining! -->
+	<AssignedToMining.stages.2.description>Я действительно, действительно ненавижу Копать!</AssignedToMining.stages.2.description>
+	<!--               assigned to mining (Furious) -->
+	<AssignedToMining.stages.3.label>{PAWN_gender ? Назначен : Назначена} Копать (В ярости)</AssignedToMining.stages.3.label>
+	<!--                  I can't believe I'm still assigned to mining! -->
+	<AssignedToMining.stages.3.description>Я не могу поверить, что я все еще Копать!</AssignedToMining.stages.3.description>
+	<!--               assigned to mining (Mad) -->
+	<AssignedToMining.stages.4.label>{PAWN_gender ? Назначен : Назначена} Копать (На грани)</AssignedToMining.stages.4.label>
+	<!--                  If I'm assigned to mining, I swear I'm going to lose it! -->
+	<AssignedToMining.stages.4.description>Если меня еще хоть на минуту назначат Копать, клянусь, я сорвусь!</AssignedToMining.stages.4.description>
+	<!--               was assigned to mining -->
+	<AssignedToMining.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Копать</AssignedToMining.stages.5.label>
+	<!--                  I'm still annoyed that I was assigned to mining. -->
+	<AssignedToMining.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Копать.</AssignedToMining.stages.5.description>
+	<!--                  assigned to plant cutting -->
+	<AssignedToPlantCutting.stages.0.label>{PAWN_gender ? Назначен : Назначена} Срезать растения</AssignedToPlantCutting.stages.0.label>
+	<!--                     I hate plant cutting. -->
+	<AssignedToPlantCutting.stages.0.description>Я ненавижу Срезать растения.</AssignedToPlantCutting.stages.0.description>
+	<!--                  was assigned to plant cutting -->
+	<AssignedToPlantCutting.stages.1.label>{PAWN_gender ? Был назначен : Была Назначена} Срезать растения</AssignedToPlantCutting.stages.1.label>
+	<!--                     I'm still annoyed that I was assigned to plant cutting. -->
+	<AssignedToPlantCutting.stages.1.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Срезать растения.</AssignedToPlantCutting.stages.1.description>
+	<!--                assigned to research -->
+	<AssignedToResearch.stages.0.label>{PAWN_gender ? Назначен : Назначена} Исследовать</AssignedToResearch.stages.0.label>
+	<!--                   I hate research. -->
+	<AssignedToResearch.stages.0.description>Я ненавижу Исследовать.</AssignedToResearch.stages.0.description>
+	<!--                assigned to research (Annoyed) -->
+	<AssignedToResearch.stages.1.label>{PAWN_gender ? Назначен : Назначена} Исследовать {PAWN_gender ? Раздражен : Раздражена}</AssignedToResearch.stages.1.label>
+	<!--                   I really hate research. -->
+	<AssignedToResearch.stages.1.description>Я действительно ненавижу Исследовать.</AssignedToResearch.stages.1.description>
+	<!--                assigned to research (Angry) -->
+	<AssignedToResearch.stages.2.label>{PAWN_gender ? Назначен : Назначена} Исследовать {PAWN_gender ? Сердит : Сердита}</AssignedToResearch.stages.2.label>
+	<!--                   I really, really hate research! -->
+	<AssignedToResearch.stages.2.description>Я действительно, действительно ненавижу Исследовать!</AssignedToResearch.stages.2.description>
+	<!--                assigned to research (Furious) -->
+	<AssignedToResearch.stages.3.label>{PAWN_gender ? Назначен : Назначена} Исследовать (В ярости)</AssignedToResearch.stages.3.label>
+	<!--                   I can't believe I'm still assigned to research! -->
+	<AssignedToResearch.stages.3.description>Я не могу поверить, что я все еще Исследую!</AssignedToResearch.stages.3.description>
+	<!--                assigned to research (Mad) -->
+	<AssignedToResearch.stages.4.label>{PAWN_gender ? Назначен : Назначена} Исследовать (На грани)</AssignedToResearch.stages.4.label>
+	<!--                   If I'm assigned to research, I swear I'm going to lose it! -->
+	<AssignedToResearch.stages.4.description>Если меня еще хоть на минуту назначат Исследовать, клянусь, я сорвусь!</AssignedToResearch.stages.4.description>
+	<!--                was assigned to research -->
+	<AssignedToResearch.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Исследовать</AssignedToResearch.stages.5.label>
+	<!--                   I'm still annoyed that I was assigned to research. -->
+	<AssignedToResearch.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Исследовать.</AssignedToResearch.stages.5.description>
+	<!--                assigned to smithing -->
+	<AssignedToSmithing.stages.0.label>{PAWN_gender ? Назначен : Назначена} Ковать</AssignedToSmithing.stages.0.label>
+	<!--                   I hate smithing. -->
+	<AssignedToSmithing.stages.0.description>Я ненавижу Ковать.</AssignedToSmithing.stages.0.description>
+	<!--                assigned to smithing (Annoyed) -->
+	<AssignedToSmithing.stages.1.label>{PAWN_gender ? Назначен : Назначена} Ковать {PAWN_gender ? Раздражен : Раздражена}</AssignedToSmithing.stages.1.label>
+	<!--                   I really hate smithing. -->
+	<AssignedToSmithing.stages.1.description>Я действительно ненавижу Ковать.</AssignedToSmithing.stages.1.description>
+	<!--                assigned to smithing (Angry) -->
+	<AssignedToSmithing.stages.2.label>{PAWN_gender ? Назначен : Назначена} Ковать {PAWN_gender ? Сердит : Сердита}</AssignedToSmithing.stages.2.label>
+	<!--                   I really, really hate smithing! -->
+	<AssignedToSmithing.stages.2.description>Я действительно, действительно ненавижу Ковать!</AssignedToSmithing.stages.2.description>
+	<!--                assigned to smithing (Furious) -->
+	<AssignedToSmithing.stages.3.label>{PAWN_gender ? Назначен : Назначена} Ковать (В ярости)</AssignedToSmithing.stages.3.label>
+	<!--                   I can't believe I'm still assigned to smithing! -->
+	<AssignedToSmithing.stages.3.description>Я не могу поверить, что я все еще Кую что-то!</AssignedToSmithing.stages.3.description>
+	<!--                assigned to smithing (Mad) -->
+	<AssignedToSmithing.stages.4.label>{PAWN_gender ? Назначен : Назначена} smithing (На грани)</AssignedToSmithing.stages.4.label>
+	<!--                   If I'm assigned to smithing, I swear I'm going to lose it! -->
+	<AssignedToSmithing.stages.4.description>Если меня еще хоть на минуту назначат Ковать, клянусь, я сорвусь!</AssignedToSmithing.stages.4.description>
+	<!--                was assigned to smithing -->
+	<AssignedToSmithing.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Ковать</AssignedToSmithing.stages.5.label>
+	<!--                   I'm still annoyed that I was assigned to smithing. -->
+	<AssignedToSmithing.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Ковать.</AssignedToSmithing.stages.5.description>
+	<!--                assigned to tailoring -->
+	<AssignedToTailoring.stages.0.label>{PAWN_gender ? Назначен : Назначена} Шить одежду</AssignedToTailoring.stages.0.label>
+	<!--                   I hate tailoring. -->
+	<AssignedToTailoring.stages.0.description>Я ненавижу Шить одежду.</AssignedToTailoring.stages.0.description>
+	<!--                assigned to tailoring (Annoyed) -->
+	<AssignedToTailoring.stages.1.label>{PAWN_gender ? Назначен : Назначена} Шить одежду {PAWN_gender ? Раздражен : Раздражена}</AssignedToTailoring.stages.1.label>
+	<!--                   I really hate tailoring. -->
+	<AssignedToTailoring.stages.1.description>Я действительно ненавижу Шить одежду.</AssignedToTailoring.stages.1.description>
+	<!--                assigned to tailoring (Angry) -->
+	<AssignedToTailoring.stages.2.label>{PAWN_gender ? Назначен : Назначена} Шить одежду {PAWN_gender ? Сердит : Сердита}</AssignedToTailoring.stages.2.label>
+	<!--                   I really, really hate tailoring! -->
+	<AssignedToTailoring.stages.2.description>Я действительно, действительно ненавижу Шить одежду!</AssignedToTailoring.stages.2.description>
+	<!--                assigned to tailoring (Furious) -->
+	<AssignedToTailoring.stages.3.label>{PAWN_gender ? Назначен : Назначена} Шить одежду (В ярости)</AssignedToTailoring.stages.3.label>
+	<!--                   I can't believe I'm still assigned to tailoring! -->
+	<AssignedToTailoring.stages.3.description>Я не могу поверить, что я все еще Шью одежду!</AssignedToTailoring.stages.3.description>
+	<!--                assigned to tailoring (Mad) -->
+	<AssignedToTailoring.stages.4.label>{PAWN_gender ? Назначен : Назначена} Шить одежду (На грани)</AssignedToTailoring.stages.4.label>
+	<!--                   If I'm assigned to tailoring, I swear I'm going to lose it! -->
+	<AssignedToTailoring.stages.4.description>Если меня еще хоть на минуту назначат Шить одежду, клянусь, я сорвусь!</AssignedToTailoring.stages.4.description>
+	<!--                was assigned to tailoring -->
+	<AssignedToTailoring.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} Шить одежду</AssignedToTailoring.stages.5.label>
+	<!--                   I'm still annoyed that I was assigned to tailoring. -->
+	<AssignedToTailoring.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Шить одежду.</AssignedToTailoring.stages.5.description>
+	<!--               assigned to warden -->
+	<AssignedToWarden.stages.0.label>{PAWN_gender ? Назначен : Назначена} Надзирать</AssignedToWarden.stages.0.label>
+	<!--                  I hate playing warden. -->
+	<AssignedToWarden.stages.0.description>Я ненавижу Надзирать.</AssignedToWarden.stages.0.description>
+	<!--               assigned to warden (Annoyed) -->
+	<AssignedToWarden.stages.1.label>{PAWN_gender ? Назначен : Назначена} Надзирать {PAWN_gender ? Раздражен : Раздражена}</AssignedToWarden.stages.1.label>
+	<!--                  I really hate playing warden. -->
+	<AssignedToWarden.stages.1.description>Я действительно ненавижу Надзирать.</AssignedToWarden.stages.1.description>
+	<!--               assigned to warden (Angry) -->
+	<AssignedToWarden.stages.2.label>{PAWN_gender ? Назначен : Назначена} Надзирать {PAWN_gender ? Сердит : Сердита}</AssignedToWarden.stages.2.label>
+	<!--                  I really, really hate playing warden! -->
+	<AssignedToWarden.stages.2.description>Я действительно, действительно ненавижу Надзирать!</AssignedToWarden.stages.2.description>
+	<!--               assigned to warden (Furious) -->
+	<AssignedToWarden.stages.3.label>{PAWN_gender ? Назначен : Назначена} Надзирать (В ярости)</AssignedToWarden.stages.3.label>
+	<!--                  I can't believe I'm still assigned to play warden! -->
+	<AssignedToWarden.stages.3.description>Я не могу поверить, что я все еще Надзираю за пленниками!</AssignedToWarden.stages.3.description>
+	<!--               assigned to warden (Mad) -->
+	<AssignedToWarden.stages.4.label>{PAWN_gender ? Назначен : Назначена} Надзирать (На грани)</AssignedToWarden.stages.4.label>
+	<!--                  If I'm assigned to play warden, I swear I'm going to lose it! -->
+	<AssignedToWarden.stages.4.description>Если меня еще хоть на минуту назначат Надзирать, клянусь, я сорвусь!</AssignedToWarden.stages.4.description>
+	<!--               was assigned to warden -->
+	<AssignedToWarden.stages.5.label>{PAWN_gender ? Был назначен : Была Назначена} warden</AssignedToWarden.stages.5.label>
+	<!--                  I'm still annoyed that I was assigned to play warden. -->
+	<AssignedToWarden.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что меня назначили Надзирать.</AssignedToWarden.stages.5.description>
+	<!--              Назначено оружие -->
+	<AssignedAWeapon.stages.0.label>Назначено оружие</AssignedAWeapon.stages.0.label>
+	<!--                 I hate носить оружие. -->
+	<AssignedAWeapon.stages.0.description>Я ненавижу носить оружие</AssignedAWeapon.stages.0.description>
+	<!--              Назначено оружие (Annoyed) -->
+	<AssignedAWeapon.stages.1.label>Назначено оружие {PAWN_gender ? Раздражен : Раздражена}</AssignedAWeapon.stages.1.label>
+	<!--                 I really hate носить оружие. -->
+	<AssignedAWeapon.stages.1.description>Я действительно ненавижу носить оружие.</AssignedAWeapon.stages.1.description>
+	<!--              Назначено оружие (Angry) -->
+	<AssignedAWeapon.stages.2.label>Назначено оружие {PAWN_gender ? Сердит : Сердита}</AssignedAWeapon.stages.2.label>
+	<!--                 I really, really hate носить оружие! -->
+	<AssignedAWeapon.stages.2.description>Я действительно, действительно ненавижу носить оружие!</AssignedAWeapon.stages.2.description>
+	<!--              Назначено оружие (Furious) -->
+	<AssignedAWeapon.stages.3.label>Назначено оружие (В ярости)</AssignedAWeapon.stages.3.label>
+	<!--                 I can't believe I'm still assigned to carry a weapon! -->
+	<AssignedAWeapon.stages.3.description>Я не могу поверить, что я все еще ношу оружие!</AssignedAWeapon.stages.3.description>
+	<!--              Назначено оружие (Mad) -->
+	<AssignedAWeapon.stages.4.label>Назначено оружие (На грани)</AssignedAWeapon.stages.4.label>
+	<!--                 If I'm assigned to carry a weapon, I swear I'm going to lose it! (Yeah, that's probably a bit ironic, but I don't care!) -->
+	<AssignedAWeapon.stages.4.description>Если меня еще хоть на минуту назначат носить оружие, клянусь, я сорвусь!</AssignedAWeapon.stages.4.description>
+	<!--              was Назначено оружие -->
+	<AssignedAWeapon.stages.5.label>Было Назначено оружие</AssignedAWeapon.stages.5.label>
+	<!--                 I'm still annoyed that I was assigned to carry a weapon. -->
+	<AssignedAWeapon.stages.5.description>Я все еще {PAWN_gender ? раздражен : раздражена} тем, что мне назначили носить оружие.</AssignedAWeapon.stages.5.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\Vehicles\Bicycle.xml-->
+	<!--                    EN: bicycle -->
+	<RT_Bicycle_Blueprint.label>велосипед</RT_Bicycle_Blueprint.label>
+	<!--                          EN: A man-powered bicycle, cheap and useful in most cases. -->
+	<RT_Bicycle_Blueprint.description>Велосипед с приводом от человека, дешевый и полезный в большинстве случаев.</RT_Bicycle_Blueprint.description>
+</LanguageData>

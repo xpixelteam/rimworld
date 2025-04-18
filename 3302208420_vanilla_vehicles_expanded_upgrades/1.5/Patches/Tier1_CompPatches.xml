@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName = "VVE_BangBus"]/comps</xpath>
+		<value>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>VVE_BangBus_UpgradeTree</def>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName = "VVE_Traveller"]/comps</xpath>
+		<value>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>VVE_Traveller_UpgradeTree</def>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName = "VVE_Mule"]/comps</xpath>
+		<value>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>VVE_Mule_UpgradeTree</def>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName = "VVE_Roadkill"]/comps</xpath>
+		<value>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>VVE_Roadkill_UpgradeTree</def>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName = "VVE_Highwayman"]/comps</xpath>
+		<value>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>VVE_Highwayman_UpgradeTree</def>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName = "VVE_Prowler"]/comps</xpath>
+		<value>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>VVE_Prowler_UpgradeTree</def>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName = "VVE_Bunsen"]/comps</xpath>
+		<value>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>VVE_Bunsen_UpgradeTree</def>
+			</li>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BreadMo_NutrientPipe.label>Трубопровод питательного раствора</BreadMo_NutrientPipe.label>
+  <BreadMo_NutrientPipe.description>Трубы, транспортирующие гидропонный питательный раствор.</BreadMo_NutrientPipe.description>
+  <BreadMo_NutrientPipe_Blueprint.label>Трубы для питательного раствора (чертеж)</BreadMo_NutrientPipe_Blueprint.label>
+  <BreadMo_NutrientPipe_Frame.label>Трубопровод питательных растворов (в стадии строительства)</BreadMo_NutrientPipe_Frame.label>
+  <BreadMo_NutrientPipe_Frame.description>Трубы, транспортирующие гидропонный питательный раствор.</BreadMo_NutrientPipe_Frame.description>
+
+  <BreadMo_NutrientPipeUnderground.label>Подземный трубопровод питательного раствора</BreadMo_NutrientPipeUnderground.label>
+  <BreadMo_NutrientPipeUnderground.description>Подземные трубы, несущие гидропонные питательные растворы.</BreadMo_NutrientPipeUnderground.description>
+  <BreadMo_NutrientPipeUnderground_Blueprint.label>Подземный трубопровод для подачи питательных веществ (чертеж)</BreadMo_NutrientPipeUnderground_Blueprint.label>
+  <BreadMo_NutrientPipeUnderground_Frame.label>Подземный трубопровод питательных растворов (в стадии строительства)</BreadMo_NutrientPipeUnderground_Frame.label>
+  <BreadMo_NutrientPipeUnderground_Frame.description>Подземные трубы, несущие гидропонные питательные растворы.</BreadMo_NutrientPipeUnderground_Frame.description>
+
+  <BreadMo_NutrientTankSmall.label>Резервуар для хранения питательного раствора</BreadMo_NutrientTankSmall.label>
+  <BreadMo_NutrientTankSmall.description>Резервуар с питательным раствором под давлением для буферизации.</BreadMo_NutrientTankSmall.description>
+  <BreadMo_NutrientTankSmall_Blueprint.label>Резервуар для хранения питательного раствора (чертеж)</BreadMo_NutrientTankSmall_Blueprint.label>
+  <BreadMo_NutrientTankSmall_Blueprint_Install.label>Резервуар для хранения питательных растворов (чертеж)</BreadMo_NutrientTankSmall_Blueprint_Install.label>
+  <BreadMo_NutrientTankSmall_Frame.label>Резервуар для хранения питательного раствора (в стадии строительства)</BreadMo_NutrientTankSmall_Frame.label>
+  <BreadMo_NutrientTankSmall_Frame.description>Резервуар с питательным раствором под давлением для буферизации.</BreadMo_NutrientTankSmall_Frame.description>
+
+  <BreadMo_NutrientTap.label>Кран питательного раствора</BreadMo_NutrientTap.label>
+  <BreadMo_NutrientTap.description>Заполните кран бутылки питательным раствором.</BreadMo_NutrientTap.description>
+  <BreadMo_NutrientTap_Blueprint.label>Кран питательного раствора (чертеж)</BreadMo_NutrientTap_Blueprint.label>
+  <BreadMo_NutrientTap_Blueprint_Install.label>Кран питательного раствора (чертеж)</BreadMo_NutrientTap_Blueprint_Install.label>
+  <BreadMo_NutrientTap_Frame.label>Кран питательного раствора (в стадии строительства)</BreadMo_NutrientTap_Frame.label>
+  <BreadMo_NutrientTap_Frame.description>Заполните кран бутылки питательным раствором.</BreadMo_NutrientTap_Frame.description>
+
+  <BreadMo_NutrientDrain.label>Вход питательного раствора</BreadMo_NutrientDrain.label>
+  <BreadMo_NutrientDrain.description>Залейте разлитый питательный раствор в сетевой кран.</BreadMo_NutrientDrain.description>
+  <BreadMo_NutrientDrain_Blueprint.label>Вход питательного раствора (чертеж)</BreadMo_NutrientDrain_Blueprint.label>
+  <BreadMo_NutrientDrain_Blueprint_Install.label>Вход питательного раствора (чертеж)</BreadMo_NutrientDrain_Blueprint_Install.label>
+  <BreadMo_NutrientDrain_Frame.label>Ввод питательного раствора (в стадии строительства)</BreadMo_NutrientDrain_Frame.label>
+  <BreadMo_NutrientDrain_Frame.description>Залейте разлитый питательный раствор в сетевой кран.</BreadMo_NutrientDrain_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DropSpotTradeShip.label>Место падения капсул</DropSpotTradeShip.label>
+  <DropSpotTradeShip.description>Определяет место, куда торговые суда могут сбрасывать свои товары</DropSpotTradeShip.description>
+</LanguageData>

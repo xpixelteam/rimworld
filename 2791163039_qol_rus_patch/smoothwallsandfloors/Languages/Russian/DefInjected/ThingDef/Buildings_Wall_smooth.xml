@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Hyper_SmoothWall.label>гладкая стена</Hyper_SmoothWall.label>
+  <Hyper_SmoothWall.description>Гладкая стена. Способна поддерживать крышу.</Hyper_SmoothWall.description>
+  <Hyper_SmoothWall_Blueprint.label>гладкая стена (чертеж)</Hyper_SmoothWall_Blueprint.label>
+  <Hyper_SmoothWall_Frame.label>гладкая стена (чертеж)</Hyper_SmoothWall_Frame.label>
+  <Hyper_SmoothWall_Frame.description>Гладкая стена. Способна поддерживать крышу.</Hyper_SmoothWall_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef>
+        <defName>BarrelBGraphics</defName>
+        <targetDef>BarrelB</targetDef>
+        <showContainedItems>false</showContainedItems>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Barrel/Barrel_B</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2.5,2.25)</drawSize>
+                    <drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>LMTV - грузовой</RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>Преобразовать в грузовой транспорт.</RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.0.label>Пассажир 1</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.0.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.1.label>Пассажир 2</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.1.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.2.label>Пассажир 3</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.2.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.3.label>Пассажир 4</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.3.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.4.label>Пассажир 5</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.4.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.5.label>Пассажир 6</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.5.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.6.label>Пассажир 7</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.6.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.7.label>Пассажир 8</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.7.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.8.label>Пассажир 9</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.8.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.9.label>Пассажир 10</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.9.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.10.label>Пассажир 11</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.10.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.11.label>Пассажир 12</RT_LMTV_Vehicle_UpgradeTree.nodes.0.upgrades.1.roles.11.label>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>MTV - грузовой</RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>Улучшение до M1083 6x6 MTV с большей грузоподъёмностью.</RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.0.label>Пассажир 1</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.0.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.1.label>Пассажир 2</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.1.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.2.label>Пассажир 3</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.2.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.3.label>Пассажир 4</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.3.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.4.label>Пассажир 5</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.4.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.5.label>Пассажир 6</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.5.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.6.label>Пассажир 7</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.6.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.7.label>Пассажир 8</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.7.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.8.label>Пассажир 9</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.8.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.9.label>Пассажир 10</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.9.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.10.label>Пассажир 11</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.10.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.11.label>Пассажир 12</RT_LMTV_Vehicle_UpgradeTree.nodes.1.upgrades.1.roles.11.label>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>MTV - пассажирский</RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>Улучшение до M1083 6x6 MTV с большей пассажировместимостью.</RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.label>Пулемётная турель M2HB</RT_MATV_Vehicle_UpgradeTree.nodes.0.label>
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.description>Установить дистанционно управляемый M2HB на крышу.</RT_MATV_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.label>Ракетная турель TOW</RT_MATV_Vehicle_UpgradeTree.nodes.1.label>
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.description>Установить ракетную установку TOW на крышу.</RT_MATV_Vehicle_UpgradeTree.nodes.1.description>
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.upgrades.2.roles.0.label>Стрелок</RT_MATV_Vehicle_UpgradeTree.nodes.1.upgrades.2.roles.0.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.label>Гранатомётная турель Mk19</RT_MATV_Vehicle_UpgradeTree.nodes.2.label>
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.description>Установить автоматический гранатомёт Mk19 на крышу.</RT_MATV_Vehicle_UpgradeTree.nodes.2.description>
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.upgrades.2.roles.0.label>Стрелок</RT_MATV_Vehicle_UpgradeTree.nodes.2.upgrades.2.roles.0.label>
+
+
+  </LanguageData>

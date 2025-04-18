@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<MakeAmmo_TOW2_HEAT.label>制作TOW-2反坦克导弹 x5</MakeAmmo_TOW2_HEAT.label>
+	<MakeAmmo_TOW2_HEAT.description>制作5枚 TOW-2反坦克导弹</MakeAmmo_TOW2_HEAT.description>
+	<MakeAmmo_TOW2_HEAT.jobString>正在制作5枚 TOW-2反坦克导弹</MakeAmmo_TOW2_HEAT.jobString>
+
+</LanguageData>

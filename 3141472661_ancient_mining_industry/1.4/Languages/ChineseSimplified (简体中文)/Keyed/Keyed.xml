@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BreadMo_ToggleOn>盾构机开启</BreadMo_ToggleOn>
+	<BreadMo_ToggleOff>盾构机关闭</BreadMo_ToggleOff>
+	<BreadMo_MakeWallOn>自动建造隧道</BreadMo_MakeWallOn>
+	<BreadMo_MakeWallOff>停止建造隧道</BreadMo_MakeWallOff>
+</LanguageData>

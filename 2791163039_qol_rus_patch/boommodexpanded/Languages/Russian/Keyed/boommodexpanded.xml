@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- BoomMod Expanded -->
+	<BME.explodefor.label>Взрыв при:</BME.explodefor.label>
+	<BME.explodefor.tooltip>События которые могут вызывать взрывы при смери взрывающихся существ.</BME.explodefor.tooltip>
+	<BME.slaughter.label>Забой существа</BME.slaughter.label>
+	<BME.slaughter.tooltip>Взрывается при забое скота</BME.slaughter.tooltip>
+	<BME.medieval.label>Ближний бой или средневековое оружие</BME.medieval.label>
+	<BME.medieval.tooltip>Взрывается при смерти от оружия ближнего боя или дальнобойного средневекового оружия</BME.medieval.tooltip>
+	<BME.nothing.label>Что ж, это глупо. Этот мод ничего не сделает, если вы не отмените выбор хотя бы одного события...</BME.nothing.label>
+	<BME.version.label>Установленная версия мода: {0}</BME.version.label>
+</LanguageData>

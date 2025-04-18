@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Roadkill_MainTurret.label>Пушка дорожного убийцы</Roadkill_MainTurret.label>
+  <Roadkill_MainTurret.description>Пушка способная выпускать взрывные снаряды танкового калибра на среднее расстояние. Обычно устанавливается на танки "Дорожный убийца". Требуется перезарядка сталью. Не может стрелять в движении. Имеет неплохую дальность, но не может стрелять по врагам, находящимся слишком близко.</Roadkill_MainTurret.description>
+  <Roadkill_MainTurret.fireModes.0.label>Одиночный выстрел</Roadkill_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

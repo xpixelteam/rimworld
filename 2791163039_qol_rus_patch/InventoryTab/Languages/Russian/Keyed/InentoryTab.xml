@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<!-- Hearder Labels-->
+<Options>Настройки</Options>
+<Search>Принудительный поиск</Search>
+<TotalFound>Всего найденных предметов</TotalFound>
+<!--Settings Labels-->
+<InventoryOptions>Настройки инвентаря</InventoryOptions>
+<SearchMap>Поиск по всей карте</SearchMap>
+<SearchMapToolTip>Поиск предметов по всей карте</SearchMapToolTip>
+<SearchPawns>Поиск по предметам пешек</SearchPawns>
+<SearchPawnsToolTip>Поиск в инвентаре пешек. Включая колонистов, заключенных, караванных животных и мертвых</SearchPawnsToolTip>
+<AutoUpdate>Автоматическое обновление</AutoUpdate>
+<AutoUpdateToolTip>Использует "Таймер обновления" для обновления списка предметов</AutoUpdateToolTip>
+<AutoUpdateTimeInterval>Таймер обновления</AutoUpdateTimeInterval>
+<!--Tab Labels-->
+<TabAll>Все</TabAll>
+<TabFoods>Еда</TabFoods>
+<TabManufactured>Изготовленные предметы</TabManufactured>
+<TabRawResources>Сырьевые Ресурсы</TabRawResources>
+<TabItems>Предметы</TabItems>
+<TabWeapons>Оружие</TabWeapons>
+<TabApparel>Одежда</TabApparel>
+<TabBuildings>Постройки</TabBuildings>
+<TabChunks>Обломки</TabChunks>
+<TabCorpses>Трупы</TabCorpses>
+</LanguageData>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_OreDressingMachine</defName>
+		<label>Ore Dressing Machine</label>
+		<description>An ore dressing machine brought back to life.Utilizing a mix of water washing, sieving and magnets, it screens useable metals from slags and blocks alike.</description>
+		<rotatable>false</rotatable>
+		<altitudeLayer>ItemImportant</altitudeLayer>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/OreDressingMachine/OreDressingMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<statBases>
+			<Mass>150</Mass>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<Plasteel>150</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Plasteel>75</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</killedLeavings>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="AncientMining.CompProperties_AutoStoneCutter">
+				<efficiency>0.5</efficiency>
+				<workAmount>240</workAmount>
+				<byProductChance>0.5</byProductChance>
+				<byProductModifier>0.8</byProductModifier>
+				<sustainer>Recipe_Machining</sustainer>
+				<chunkCheckDelay>300</chunkCheckDelay>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TD.MiningPriority>Приоритет добычи полезных ископаемых</TD.MiningPriority>
+  <TD.RestrictBest>Ограничить добычу полезных ископаемых с доходностью для лучших майнеров</TD.RestrictBest>
+  <TD.RestrictBestDesc>Потому что низкоквалифицированные шахтеры не будут производить столько же. Доходность увеличивается до навыка 8, но плохое здоровье может повлиять на это. Проверьте их доходность от добычи в окне их статистики</TD.RestrictBestDesc>
+  <TD.MineValue>Копать в порядке ценности</TD.MineValue>
+  <TD.SettingIgnoreBusy>Игнорируйте лучших майнеров, которые заняты другой работой</TD.SettingIgnoreBusy>
+  <TD.SettingIgnoreBusyDesc>Проверяет, занят ли ваш лучший щахтер другой работой, и позволяет следующим лучшим квалифицированным шахтерами добывать</TD.SettingIgnoreBusyDesc>
+  <TD.SettingMinerGoodEnough>Включите майнеров, которые достаточно хороши</TD.SettingMinerGoodEnough>
+  <TD.SettingMinerGoodEnoughDesc>Например, если ваш лучший шахтер имеет доходность 80%, установка 75% позволит шахтеру с доходностью 60%</TD.SettingMinerGoodEnoughDesc>
+  <TD.SettingPartialyMined>Предпочитаю частично раскопаные цели</TD.SettingPartialyMined>
+  <TD.JobFailReasonNotBestMiner>Не самый лучший шахтер</TD.JobFailReasonNotBestMiner>
+  <TD.SettingFinishUpDrills>Предпочитайте глубокие бурения, которые ближе к истощению</TD.SettingFinishUpDrills>
+</LanguageData>

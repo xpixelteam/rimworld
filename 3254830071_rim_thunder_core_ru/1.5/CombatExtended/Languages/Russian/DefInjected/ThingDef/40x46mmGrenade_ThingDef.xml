@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\CombatExtended\Defs\40x46mmGrenade.xml-->
+	<!--                 EN: 40x46mm grenade (Smoke) -->
+	<BulletCE_RTCSmoke.label>40x46mm Гранаты (Дым)</BulletCE_RTCSmoke.label>
+	<!--                    EN: 40x46mm grenade (Smoke) -->
+	<BulletCE_RTCSmokeSub.label>40x46mm Гранаты (Дым)</BulletCE_RTCSmokeSub.label>
+</LanguageData>

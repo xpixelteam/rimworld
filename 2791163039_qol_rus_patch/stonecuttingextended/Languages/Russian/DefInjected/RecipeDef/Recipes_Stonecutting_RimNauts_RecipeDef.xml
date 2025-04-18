@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Common/Defs/RecipeDefs/Recipes_Stonecutting_RimNauts.xml-->
+                                 <!-- make lunar highland blocks x3 -->
+<Make_StoneBlocksBulkHighlandRN.label>Сделать блоки с лунного плато</Make_StoneBlocksBulkHighlandRN.label>
+                                       <!-- Cuts lunar highland chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkHighlandRN.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkHighlandRN.description>
+                                     <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkHighlandRN.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkHighlandRN.jobString>
+                              <!-- make maria blocks x3 -->
+<Make_StoneBlocksBulkMariaRN.label>Сделать блоки марии</Make_StoneBlocksBulkMariaRN.label>
+                                    <!-- Cuts maria chunks into usable blocks in bulk. -->
+<Make_StoneBlocksBulkMariaRN.description>Разрезать куски камня на пригодные для использования блоки.</Make_StoneBlocksBulkMariaRN.description>
+                                  <!-- Cutting stone blocks from chunks in bulk. -->
+<Make_StoneBlocksBulkMariaRN.jobString>Нарезает каменные блоки из кусков породы</Make_StoneBlocksBulkMariaRN.jobString>
+
+</LanguageData>

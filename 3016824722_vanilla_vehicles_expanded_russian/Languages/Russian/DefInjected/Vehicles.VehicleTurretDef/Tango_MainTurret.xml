@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Tango_MainTurret.label>Автопушка Танго</Tango_MainTurret.label>
+  <Tango_MainTurret.description>Тяжелая автоматическая башня, установленная на БТР "Танго". Ее крупнокалиберные снаряды наносят серьезный урон на значительные расстояния, но она не точная и быстро расходует боеприпасы.</Tango_MainTurret.description>
+  <Tango_MainTurret.fireModes.0.label>Одиночный</Tango_MainTurret.fireModes.0.label>
+  <Tango_MainTurret.fireModes.1.label>Залп</Tango_MainTurret.fireModes.1.label>
+
+
+</LanguageData>

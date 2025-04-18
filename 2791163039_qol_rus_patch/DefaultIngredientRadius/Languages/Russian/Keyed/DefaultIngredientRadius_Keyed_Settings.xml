@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DIR.ModVersion>Версия: {0}</DIR.ModVersion>
+  <DIR.DefaultRadiusUnlimited>Радиус поиска ингредиентов: Вся карта</DIR.DefaultRadiusUnlimited>
+  <DIR.DefaultRadius>Радиус поиска ингредиентов: {0}</DIR.DefaultRadius>
+  <DIR.DefaultRadiusTT>Установить радиус по умолчанию для всех новых созданных работ требующих ингредиентов. Не повлияет на уже существующие работы.</DIR.DefaultRadiusTT>
+</LanguageData>

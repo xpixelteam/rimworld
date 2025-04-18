@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Vanilla Vehicles Expanded - Upgrades</name>
+    <author>Oskar Potocki, Smash Phil</author>
+    <url></url>
+    <description>Elevate your gameplay with the Vanilla Vehicles Expanded - Upgrades, which offers a revolutionary enhancement to your vehicle management in-game. This mod introduces a comprehensive upgrade system that allows players to customize and enhance their vehicles using valuable in-game resources.
+Here’s what you can expect:
+
+- Tailored Customization: Each vehicle in your fleet can be individually upgraded with unique enhancements, from reinforced armor and engine covers to offroad tires and cargo expansions.
+- Impactful Choices: Every upgrade comes with significant advantages but requires strategic resource investment, making your decisions impactful as you develop vehicles suited to various tasks.
+- Dynamic Visuals: Upgrades are not just statistical; they also change the appearance of your vehicles, adding layers like armored treads and upgraded exhaust systems that visually reflect your modifications.
+- Diverse Enhancements: Choose from a variety of enhancements that boost speed, improve armor, increase cargo capacity, and more, each tailored to different vehicle types, from explorers and haulers to combat-ready tanks.
+
+We’re excited to utilise what Vehicles Framework has to offer, and you can expect more vehicle upgrades to be added to this mod later down the line.
+
+</description>
+    <packageId>OskarPotocki.VanillaVehiclesExpandedUpgrades</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+		<li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>SmashPhil.VehicleFramework</packageId>
+			<displayName>Vehicle Framework</displayName>
+			<downloadUrl>https://github.com/SmashPhil/Vehicles/releases/latest</downloadUrl>
+			<steamWorkshopUrl/>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaVehiclesExpanded</packageId>
+			<displayName>Vanilla Vehicles Expanded</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014906877</downloadUrl>
+			<steamWorkshopUrl/>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>OskarPotocki.VanillaVehiclesExpanded</li>
+	</loadAfter>
+</ModMetaData>

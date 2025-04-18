@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef ParentName="RoadkillMainTurret">
+		<defName>Roadkill_MainTurret_LongBarrel</defName>
+		<label>roadkill cannon</label>
+
+		<rotationSpeed>0.9</rotationSpeed>
+
+		<maxRange>48.9</maxRange>
+		
+		<fireModes Inherit = "FALSE">
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenBursts>1</ticksBetweenBursts>
+				<spreadRadius>2</spreadRadius>
+				<label>Single Shot</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+		</fireModes>
+		
+		<graphicData>
+			<texPath>Upgrades/Roadkill/Tier1_Tank_UpgradeLong_CannonTop</texPath>
+		</graphicData>
+
+		<motes Inherit = "False">
+			<li>
+				<cycles>1</cycles>
+				<moteDef>Mote_CannonPlume</moteDef>
+				<offset>(0, 0, 1.6)</offset>
+				<animationType>Reset</animationType>
+			</li>
+		</motes>
+	</Vehicles.VehicleTurretDef>
+</Defs>

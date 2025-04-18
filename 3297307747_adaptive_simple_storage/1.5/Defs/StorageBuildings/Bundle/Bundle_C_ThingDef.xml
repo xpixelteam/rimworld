@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>BundleC</defName>
+        <label>Bundle C</label>
+        <graphicData>
+            <texPath>Bundle/Bundle_C</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.5,3.5)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A large bundle of fabric that can store a range of items underneath. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 84</description>
+        <researchPrerequisites>
+            <li>ComplexClothing</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Bundle/Bundle_C_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(2,2)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToBuild>750</WorkToBuild>
+            <Flammability>1</Flammability>
+            <Beauty>0.7</Beauty>
+            <Mass>8</Mass>
+        </statBases>
+        <costList>
+			<Cloth>50</Cloth>
+		</costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>20</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Root</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <paintable>true</paintable>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RimworldFavourites.Favourite>Избранное</RimworldFavourites.Favourite> 
+	<RimworldFavourites.FavouriteDesc>Отметьте этот элемент как избранный. Он будет выделен в торговых меню, на карте и в инвентаре.\n\N Щелкните правой кнопкой мыши, чтобы изменить цвет звезды.</RimworldFavourites.FavouriteDesc> 
+	<RimworldFavourites.FavouritedIconDesc>Этот элемент был отмечен как избранный.</RimworldFavourites.FavouritedIconDesc> 
+	<RimworldFavourites.FavouritedShortUpper>FAV</RimworldFavourites.FavouritedShortUpper> 
+	
+	<RimworldFavourites.Yellow>Желтый</RimworldFavourites.Yellow> 
+	<RimworldFavourites.Red>Красный</RimworldFavourites.Red> 
+	<RimworldFavourites.Green>Зеленый</RimworldFavourites.Green> 
+	<RimworldFavourites.Cyan>Голубой</RimworldFavourites.Cyan> 
+	<RimworldFavourites.Magenta>Пурпурный</RimworldFavourites.Magenta>
+	
+	<RimworldFavourites.ShowFavouritesOverlayButton>Переключение наложения избранных элементов.</RimworldFavourites.ShowFavouritesOverlayButton> 
+	
+	<!-- Mod settings -->
+	<RimworldFavourites.SettingsCategoryTitle>Favourites!</RimworldFavourites.SettingsCategoryTitle>
+	
+	<RimworldFavourites.Settings_AutoFavourite>Автоматическое добавление в избранное</RimworldFavourites.Settings_AutoFavourite>
+	<RimworldFavourites.Settings_AutoFavourite_ToolTip>Главный переключатель для автоматического выбора избранного.</RimworldFavourites.Settings_AutoFavourite_ToolTip>
+	
+	<RimworldFavourites.Settings_AutoFavouriteManufacturedThings>Изготовленные вещи</RimworldFavourites.Settings_AutoFavouriteManufacturedThings>
+	<RimworldFavourites.Settings_AutoFavouriteManufacturedThings_ToolTip>Автоматически отмечать избранными оружие, одежда и т.д., Которые сделаны вашими колонистами.</RimworldFavourites.Settings_AutoFavouriteManufacturedThings_ToolTip>
+
+	<RimworldFavourites.Settings_AutoFavouriteConstructedThings>Постройки</RimworldFavourites.Settings_AutoFavouriteConstructedThings>
+	<RimworldFavourites.Settings_AutoFavouriteConstructedThings_ToolTip>Автоматически отмечать избранными здания, построенные вашими колонистами.</RimworldFavourites.Settings_AutoFavouriteConstructedThings_ToolTip>
+
+
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewards>Награды за выполнение заданий</RimworldFavourites.Settings_AutoFavouriteQuestRewards>
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewards_ToolTip>Автоматически отмечать избранными награды за выполнение заданий.</RimworldFavourites.Settings_AutoFavouriteQuestRewards_ToolTip>
+	
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewardRawMaterials>Включать сырье</RimworldFavourites.Settings_AutoFavouriteQuestRewardRawMaterials>
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewardRawMaterials_ToolTip>Автоматически отмечать избранными включая сырье от награды за выполнение заданий.</RimworldFavourites.Settings_AutoFavouriteQuestRewardRawMaterials_ToolTip>
+
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewardPawns>Включать людей и животных</RimworldFavourites.Settings_AutoFavouriteQuestRewardPawns>
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewardPawns_ToolTip>Автоматически отмечать избранными людей и животных, которые имеют отношения с кем-либо из ваших колонистов или заключенных.</RimworldFavourites.Settings_AutoFavouriteQuestRewardPawns_ToolTip>
+
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewardPawnsUnrelated>Включать неродственных людей и животных</RimworldFavourites.Settings_AutoFavouriteQuestRewardPawnsUnrelated>
+	<RimworldFavourites.Settings_AutoFavouriteQuestRewardPawnsUnrelated_ToolTip>Также автоматически отмечать избранными люди и животные, которые не связаны ни с одним из ваших колонистов или заключенных.</RimworldFavourites.Settings_AutoFavouriteQuestRewardPawnsUnrelated_ToolTip>
+
+
+</LanguageData>

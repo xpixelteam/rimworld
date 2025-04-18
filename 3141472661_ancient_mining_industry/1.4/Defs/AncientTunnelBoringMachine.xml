@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningFacilities">
+		<defName>BreadMoAM_AncientTunnelBoringMachine</defName>
+		<label>Ancient Tunnel Boring Machine</label>
+		<description>The rusted, gigantic husk of an ancient tunnel boring machine. Bearing a horrible look more like a sandworm on the outside, it was used to dig through the mountains in the mean time of building tunnels. Back into its haydays, every motion of this behemoth trembles the ground more like manmade earthquake, plus its imposing digging disk that could eat through any material with ease. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientTunnelBoringMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7.5,9)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,7)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<statBases>
+			<Mass>1500</Mass>
+		</statBases>
+		<costList>
+			<Steel>85</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>65</Plasteel>
+			<Uranium>17</Uranium>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>9</ChunkSlagSteel>
+			<Plasteel>135</Plasteel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientElectricalEquipment</defName>
+		<label>Ancient Electrical Appliances</label>
+		<description>Weathered electrical appliances once used in an ancient tunnel boring machines. Back in its haydays, it was capable of converting electricity into hydraulic power, thus powering up the drilling behemoth at one flick of switch. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientElectricalEquipment</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>1</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientMineralConveyor</defName>
+		<label>Ancient Mineral Conveyor</label>
+		<description>A torn ancient mineral conveyor once used for transporting minerals to beneficiation machines or any other locations of mind. With its core components rusted and weathered, however, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientMineralConveyor</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>5</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Plasteel>1</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>1</ChunkSlagSteel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientTunnelStructuralSupport_a</defName>
+		<label>Ancient Structural Support</label>
+		<description>A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientTunnelStructuralSupport_a</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>150</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientTunnelStructuralSupport_b</defName>
+		<label>Ancient Structural Support</label>
+		<description>A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientTunnelStructuralSupport_b</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientTunnelStructuralSupport_c</defName>
+		<label>Ancient Structural Support</label>
+		<description>A piece of ancient tunnel support frame used to support tunnels during construction, compact with a corridor for easy access of workers on top. With most of the framework well rusted and weathered, however, it can't hold anything as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientTunnelStructuralSupport_b</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>4</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,4)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef ParentName="BreadMoAM_AncientMiningBulidingBase">
+		<defName>BreadMoAM_AncientMineralExports</defName>
+		<label>Ancient Mineral Outlet</label>
+		<description>A piece of ancient mineral outlet. With its core components rusted and weathered, it just woudn't function as of now.Destroying it may yield some useful resources.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/AncientTunnelBoringMachine/AncientMineralExports</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,3)</drawSize>
+			<drawOffset>(0,0,0.08)</drawOffset>
+			<shadowData>
+				<volume>(1, 0.8, 4)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,2)</size>
+		<building>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<costList>
+			<Steel>5</Steel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+</Defs>

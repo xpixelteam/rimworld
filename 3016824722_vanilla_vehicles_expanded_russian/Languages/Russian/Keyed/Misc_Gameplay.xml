@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Vehicle stats -->
+  <VVE_AccelerationSundayDriver>Ускорение: медленное</VVE_AccelerationSundayDriver>
+  <VVE_AccelerationHigh>Ускорение: высокое</VVE_AccelerationHigh>
+  <VVE_MaxSpeed_Increased>Максимальная скорость: увеличенная</VVE_MaxSpeed_Increased>
+  <VVE_HandbrakeDealsDamage>Ручной тормоз наносит урон</VVE_HandbrakeDealsDamage>
+  <VVE_StatsReport_AccelerationRate>Скорость ускорения: {0}
+Текущая скорость: {1} кл/с</VVE_StatsReport_AccelerationRate>
+  <VVE_HandbrakeWarning>{VEHICLE_nameDef} не имеет достаточно места для торможения, поэтому придется использовать ручной тормоз. Это повредит шины.</VVE_HandbrakeWarning>
+  <VVE_Open>Открыть</VVE_Open>
+  <VVE_Close>Закрыть</VVE_Close>
+  <VVE_OpenDescription>Открыть гаражные ворота.</VVE_OpenDescription>
+  <VVE_CloseDescription>Закрыть гаражные ворота.</VVE_CloseDescription>
+  <VVE_OpenDescription_AutoDoor>Открыть автоматические гаражные ворота.</VVE_OpenDescription_AutoDoor>
+  <VVE_CloseDescription_AutoDoor>Закрыть автоматические гаражные ворота.</VVE_CloseDescription_AutoDoor>
+  <VVE_VehicleObstructingClosingGarage>Техника блокирует гараж.</VVE_VehicleObstructingClosingGarage>
+
+  <VVE_VehicleTier>Уровень</VVE_VehicleTier>
+  <VVE_Tier0>Уровень 0</VVE_Tier0>
+  <VVE_Tier1>Уровень 1</VVE_Tier1>
+  <VVE_Tier2>Уровень 2</VVE_Tier2>
+  <VVE_Tier3>Уровень 3</VVE_Tier3>
+  <VVE_Tier4>Уровень 4</VVE_Tier4>
+
+
+  <!-- Stats Descriptions -->
+
+  <VVE_Tier0Desc>Транспорт уровня 0 - наиболее простой и доступный. Для создания не требуется ресурсов, исследований или проектов.</VVE_Tier0Desc>
+  <VVE_Tier1Desc>Транспорт уровня 1 требует базового исследования и небольших затрат ресурсов для постройки. Он неэффективен, имеет много недостатков, но дешев и доступен на ранних этапах игры.</VVE_Tier1Desc>
+  <VVE_Tier2Desc>Транспорт уровня 2 доступен только после выполнения специальных исследований и требует ресурсы, доступные только в конце игры. Уровень 2 считается "базовым" для всех транспортных средств.</VVE_Tier2Desc>
+  <VVE_Tier3Desc>Транспорт уровня 3 доступен только при выполнении определенного условия - например, когда он найден в разрушенном состоянии и восстановлен. Для создания требуются ресурсы поздней игры, и они, как правило, служат для очень конкретной цели.</VVE_Tier3Desc>
+  <VVE_Tier4Desc>Транспорт уровня 4 нельзя создать игроком, но его можно найти, купить или получить каким-то другим образом. Обычно они представляют технологии, превосходящие возможности мира Rimworld.</VVE_Tier4Desc>
+
+  <VVE_RestoreWreck>Восстановить развалину</VVE_RestoreWreck>
+  <VVE_RestoreWreckDesc>Доставьте необходимые компоненты для транспортного средства, чтобы полностью восстановить развалину, превратив её в работающее транспортное средство.</VVE_RestoreWreckDesc>
+  <VVE_WreckNotRestored>{0} еще не найдено и не восстановлено</VVE_WreckNotRestored>
+  <VVE_CannotBeResearched>{0} нельзя исследовать, пока вы не найдете и не восстановите развалины этого транспорта.</VVE_CannotBeResearched>
+  <VVE_Reload>Перезагрузить {0} с использованием {AMMO_label}</VVE_Reload>
+  <VVE_CannotReloadNotEnoughAmmo>Невозможно перезагрузить {0} с использованием {1} (недостаточно {1})</VVE_CannotReloadNotEnoughAmmo>
+  <VVE_CannotReloadFullAmmo>Невозможно перезагрузить {0} с использованием {1} (полностью заряжено)</VVE_CannotReloadFullAmmo>
+
+  <!-- Описания характеристик -->
+
+</LanguageData>

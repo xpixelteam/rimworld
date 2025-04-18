@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\Buildings\Buildings_Production.xml-->
+	<!--           EN: Operate Machine -->
+	<RTC_Operate.label>Привести машину в действие</RTC_Operate.label>
+	<!--          EN: Operate -->
+	<RTC_Operate.verb>Работать</RTC_Operate.verb>
+	<!--            EN: Operating at -->
+	<RTC_Operate.gerund>Работающий на</RTC_Operate.gerund>
+</LanguageData>

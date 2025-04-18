@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bulldog_MainTurret.label>Пушка Бульдога</Bulldog_MainTurret.label>
+  <Bulldog_MainTurret.description>Большая пушка с дальней дальностью стрельбы, способная выпускать взрывные снаряды на среднее расстояние. Обычно устанавливается на танки "Бульдог".</Bulldog_MainTurret.description>
+  <Bulldog_MainTurret.fireModes.0.label>Одиночный выстрел</Bulldog_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

@@ -1,0 +1,485 @@
+<LanguageData>
+		<!--
+        Surgery RecipeDefs
+    -->
+
+		<!-- Surgery categories -->
+	<!-- EN: Surgery category -->
+	<Stat_Recipe_Surgery_SurgeryCategory_Name>Категория операций</Stat_Recipe_Surgery_SurgeryCategory_Name>
+	<!-- EN: The basic type of surgery. -->
+	<Stat_Recipe_Surgery_SurgeryCategory_Desc>Базовый тип операций.</Stat_Recipe_Surgery_SurgeryCategory_Desc>
+
+		<!-- vanilla -->
+	<!-- EN: Administer ingestible -->
+	<Stat_Recipe_Surgery_SurgeryCategory_AdministerIngestible>Принять внутрь</Stat_Recipe_Surgery_SurgeryCategory_AdministerIngestible>
+	<!-- EN: Administer usable item -->
+	<Stat_Recipe_Surgery_SurgeryCategory_AdministerUsableItem>Принять полезный предмет</Stat_Recipe_Surgery_SurgeryCategory_AdministerUsableItem>
+	<!-- EN: Change implant level -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ChangeImplantLevel>Изменить уровень импланта</Stat_Recipe_Surgery_SurgeryCategory_ChangeImplantLevel>
+	<!-- EN: Execute by cut -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExecuteByCut>Убить разрезом</Stat_Recipe_Surgery_SurgeryCategory_ExecuteByCut>
+	<!-- EN: Install artificial body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPart>Установить искусственную часть тела</Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPart>
+	<!-- EN: Install implant -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallImplant>Установить имплант</Stat_Recipe_Surgery_SurgeryCategory_InstallImplant>
+	<!-- EN: Install natural body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallNaturalBodyPart>Установить естественную часть тела</Stat_Recipe_Surgery_SurgeryCategory_InstallNaturalBodyPart>
+	<!-- EN: Remove body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveBodyPart>Удалить часть тела</Stat_Recipe_Surgery_SurgeryCategory_RemoveBodyPart>
+	<!-- EN: Remove health condition -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveHediff>Удалить состояние здоровья</Stat_Recipe_Surgery_SurgeryCategory_RemoveHediff>
+	<!-- EN: Remove implant -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveImplant>Удалить имплант</Stat_Recipe_Surgery_SurgeryCategory_RemoveImplant>
+	<!-- EN: Surgery -->
+	<Stat_Recipe_Surgery_SurgeryCategory_Surgery>Операции</Stat_Recipe_Surgery_SurgeryCategory_Surgery>
+
+		<!-- biotech -->
+	<!-- EN: Extract hemogen -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExtractHemogen>Извлечь гемоген</Stat_Recipe_Surgery_SurgeryCategory_ExtractHemogen>
+	<!-- EN: Implant xenogerm -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ImplantXenogerm>Имплантировать ксеногерм</Stat_Recipe_Surgery_SurgeryCategory_ImplantXenogerm>
+	<!-- EN: Terminate pregnancy -->
+	<Stat_Recipe_Surgery_SurgeryCategory_TerminatePregnancy>Прервать беременность</Stat_Recipe_Surgery_SurgeryCategory_TerminatePregnancy>
+	<!-- EN: Extract ovum -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExtractOvum>Извлечь яйцеклетку</Stat_Recipe_Surgery_SurgeryCategory_ExtractOvum>
+	<!-- EN: Implant embryo -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ImplantEmbryo>Имплантировать эмбрион</Stat_Recipe_Surgery_SurgeryCategory_ImplantEmbryo>
+	<!-- EN: Implant IUD -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ImplantIUD>Имплантировать Внутриматочную спираль</Stat_Recipe_Surgery_SurgeryCategory_ImplantIUD>
+	<!-- EN: Blood transfusion -->
+	<Stat_Recipe_Surgery_SurgeryCategory_BloodTransfusion>Переливание крови</Stat_Recipe_Surgery_SurgeryCategory_BloodTransfusion>
+
+		<!-- modded -->
+	<!-- EN: Remove scar -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveScarHediff>Удалить шрам</Stat_Recipe_Surgery_SurgeryCategory_RemoveScarHediff>
+	<!-- EN: Remove brain scar -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveBrainScarHediff>Удалить шрам на мозгу</Stat_Recipe_Surgery_SurgeryCategory_RemoveBrainScarHediff>
+	<!-- EN: Remove health condition -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveHediffNoBrain>Удалить состояние</Stat_Recipe_Surgery_SurgeryCategory_RemoveHediffNoBrain>
+	<!-- EN: Install body part module -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallBodyPartModule>Установить модуль части тела</Stat_Recipe_Surgery_SurgeryCategory_InstallBodyPartModule>
+	<!-- EN: Install implant system -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallImplantSystem>Установить систему имплантов</Stat_Recipe_Surgery_SurgeryCategory_InstallImplantSystem>
+	<!-- EN: Remove implant system -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveImplantSystem>Удаление системы имплантов</Stat_Recipe_Surgery_SurgeryCategory_RemoveImplantSystem>
+
+	<!-- EN: Install module -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallModule>Установить модуль</Stat_Recipe_Surgery_SurgeryCategory_InstallModule>
+	<!-- EN: Remove module -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveModules>Удалить модуль</Stat_Recipe_Surgery_SurgeryCategory_RemoveModules>
+	<!-- EN: Install natural body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallNaturalBodyPartWithChildren>Установить естественную часть тела</Stat_Recipe_Surgery_SurgeryCategory_InstallNaturalBodyPartWithChildren>
+	<!-- EN: Install artificial body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPartWithChildren>Установить искусственную часть тела</Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPartWithChildren>
+
+	<!-- EN: Install simple part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFSimple>Установить простую часть</Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFSimple>
+	<!-- EN: Install bionic part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFBionic>Установить бионическую часть</Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFBionic>
+	<!-- EN: Install archotech part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFArcho>Установить Архотек часть</Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFArcho>
+	<!-- EN: Install battle booster -->
+	<Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFBattle>Установить боевой усилитель</Stat_Recipe_Surgery_SurgeryCategory_SurgeryCFBattle>
+
+	<!-- EN: Disassemble -->
+	<Stat_Recipe_Surgery_SurgeryCategory_Disassemble>Разобрать</Stat_Recipe_Surgery_SurgeryCategory_Disassemble>
+	<!-- EN: Use repair kit -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RepairKit>Использовать ремонтный комплект</Stat_Recipe_Surgery_SurgeryCategory_RepairKit>
+
+	<!-- EN: Rewire surgery -->
+	<Stat_Recipe_Surgery_SurgeryCategory_AndroidRewireSurgery>Перепрошить</Stat_Recipe_Surgery_SurgeryCategory_AndroidRewireSurgery>
+	<!-- EN: Remove sentience -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveSentience>Удалить разум</Stat_Recipe_Surgery_SurgeryCategory_RemoveSentience>
+	<!-- EN: Reroll traits -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RerollTraits>Переброс черт</Stat_Recipe_Surgery_SurgeryCategory_RerollTraits>
+	<!-- EN: Install (android) implant -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallImplantAndroid>Установить (андроид) имплант</Stat_Recipe_Surgery_SurgeryCategory_InstallImplantAndroid>
+	<!-- EN: Install (android) artificial body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPartAndroid>Установить (андроид) искусственную часть тела</Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPartAndroid>
+	<!-- EN: Install artificial brain -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBrain>Установить искусственный мозг</Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBrain>
+	<!-- EN: Apply hydraulic nanite bank -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ApplyHydraulicNaniteBank>Применить гидравлический банк нанитов</Stat_Recipe_Surgery_SurgeryCategory_ApplyHydraulicNaniteBank>
+	<!-- EN: Apply heal framework system -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ApplyHealFrameworkSystem>Применить систему исцеления</Stat_Recipe_Surgery_SurgeryCategory_ApplyHealFrameworkSystem>
+	<!-- EN: Apply heal cooling system -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ApplyHealCoolingSystem>Применить лечебную систему охлаждения</Stat_Recipe_Surgery_SurgeryCategory_ApplyHealCoolingSystem>
+	<!-- EN: Apply heal CPU serum -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ApplyHealCPUSerum>Применить сыворотку c лечебным процессором</Stat_Recipe_Surgery_SurgeryCategory_ApplyHealCPUSerum>
+
+	<!-- EN: Remove gauntlet -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveGauntlet>Удалить перчатку</Stat_Recipe_Surgery_SurgeryCategory_RemoveGauntlet>
+	<!-- EN: Remove facehugger -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveHugger>Удалить лицехвата</Stat_Recipe_Surgery_SurgeryCategory_RemoveHugger>
+
+	<!-- EN: Create brain scan -->
+	<Stat_Recipe_Surgery_SurgeryCategory_CreateBrainScan>Создать скан мозга</Stat_Recipe_Surgery_SurgeryCategory_CreateBrainScan>
+	<!-- EN: Genome sequencing -->
+	<Stat_Recipe_Surgery_SurgeryCategory_GenomeSequencing>Секвенирование генома</Stat_Recipe_Surgery_SurgeryCategory_GenomeSequencing>
+	<!-- EN: Nerve stapling -->
+	<Stat_Recipe_Surgery_SurgeryCategory_NerveStapling>Сшивание нервов</Stat_Recipe_Surgery_SurgeryCategory_NerveStapling>
+
+	<!-- EN: Install part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallPart>Установить часть</Stat_Recipe_Surgery_SurgeryCategory_InstallPart>
+
+	<!-- EN: Regrow body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RegrowBodyPart>Отрастить часть тела</Stat_Recipe_Surgery_SurgeryCategory_RegrowBodyPart>
+	<!-- EN: Regrow universal body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RegrowUniversalBodyPart>Вырастить универсальную часть тела</Stat_Recipe_Surgery_SurgeryCategory_RegrowUniversalBodyPart>
+
+	<!-- EN: Make cartridge surgery -->
+	<Stat_Recipe_Surgery_SurgeryCategory_MakeCartridgeSurgery>Сделать операцию по вживлению картриджа</Stat_Recipe_Surgery_SurgeryCategory_MakeCartridgeSurgery>
+	<!-- EN: Install combat chip -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallCombatChip>Установить боевой чип</Stat_Recipe_Surgery_SurgeryCategory_InstallCombatChip>
+	<!-- EN: Remove old scar -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveHediffIsOld>Удалить старый шрам</Stat_Recipe_Surgery_SurgeryCategory_RemoveHediffIsOld>
+	<!-- EN: Restore missing part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RestoreMissingPart>Восстановить недостающую часть</Stat_Recipe_Surgery_SurgeryCategory_RestoreMissingPart>
+	<!-- EN: Transgender surgery -->
+	<Stat_Recipe_Surgery_SurgeryCategory_TransgenderSurgery>Операция по смене пола</Stat_Recipe_Surgery_SurgeryCategory_TransgenderSurgery>
+	<!-- EN: Change bio-age surgery -->
+	<Stat_Recipe_Surgery_SurgeryCategory_SurgeryChangeBioAge>Операция по изменению биовозраста</Stat_Recipe_Surgery_SurgeryCategory_SurgeryChangeBioAge>
+	<!-- EN: Extract ability -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExtractAbility>Извлечение способности</Stat_Recipe_Surgery_SurgeryCategory_ExtractAbility>
+
+	<!-- EN: Extract brain data -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExtractBrainData>Извлечение данных мозга</Stat_Recipe_Surgery_SurgeryCategory_ExtractBrainData>
+	<!-- EN: Hack mechanoid -->
+	<Stat_Recipe_Surgery_SurgeryCategory_HackMechanoid>Взлом механоида</Stat_Recipe_Surgery_SurgeryCategory_HackMechanoid>
+	<!-- EN: Induce emergency signal -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InduceEmergencySignal>Вызвать аварийный сигнал</Stat_Recipe_Surgery_SurgeryCategory_InduceEmergencySignal>
+	<!-- EN: Modify mechanoid -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ModifyMechanoid>Модифицировать механоида</Stat_Recipe_Surgery_SurgeryCategory_ModifyMechanoid>
+	<!-- EN: Modify mechanoid (work module) -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ModifyMechanoidWorkModule>Модифицировать механоида (рабочий модуль)</Stat_Recipe_Surgery_SurgeryCategory_ModifyMechanoidWorkModule>
+	<!-- EN: Belt module -->
+	<Stat_Recipe_Surgery_SurgeryCategory_BeltModule>Поясной модуль</Stat_Recipe_Surgery_SurgeryCategory_BeltModule>
+	<!-- EN: Shut down -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ShutDown>Выключение</Stat_Recipe_Surgery_SurgeryCategory_ShutDown>
+
+	<!-- EN: Install CyberNet brain implant -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallCyberNetBrainImplant>Установить мозговой имплант CyberNet</Stat_Recipe_Surgery_SurgeryCategory_InstallCyberNetBrainImplant>
+
+	<!-- EN: Install artificial body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPartAndClearPawnFromCache>Установить искусственную часть тела</Stat_Recipe_Surgery_SurgeryCategory_InstallArtificialBodyPartAndClearPawnFromCache>
+
+	<!-- EN: Add mutation -->
+	<Stat_Recipe_Surgery_SurgeryCategory_AddMutationHediff>Добавить мутацию</Stat_Recipe_Surgery_SurgeryCategory_AddMutationHediff>
+
+	<!-- EN: Administer coma drug -->
+	<Stat_Recipe_Surgery_SurgeryCategory_AdministerComaDrug>Ввести препарат для комы</Stat_Recipe_Surgery_SurgeryCategory_AdministerComaDrug>
+
+	<!-- EN: Extract blood vial -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExtractBloodVial>Извлечь флакон с кровью</Stat_Recipe_Surgery_SurgeryCategory_ExtractBloodVial>
+	<!-- EN: Extract blood pack -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExtractBloodPack>Извлечь пакет крови</Stat_Recipe_Surgery_SurgeryCategory_ExtractBloodPack>
+	<!-- EN: Extract blood wine -->
+	<Stat_Recipe_Surgery_SurgeryCategory_ExtractBloodWine>Извлечь кровавое вино</Stat_Recipe_Surgery_SurgeryCategory_ExtractBloodWine>
+	<!-- EN: Transfer blood -->
+	<Stat_Recipe_Surgery_SurgeryCategory_TransferBlood>Передача крови</Stat_Recipe_Surgery_SurgeryCategory_TransferBlood>
+
+	<!-- EN: Install (android) part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallAndroidPart>Установить (андроид) часть</Stat_Recipe_Surgery_SurgeryCategory_InstallAndroidPart>
+	<!-- EN: Install reactor -->
+	<Stat_Recipe_Surgery_SurgeryCategory_InstallReactor>Установить реактор</Stat_Recipe_Surgery_SurgeryCategory_InstallReactor>
+	<!-- EN: Remove artificial body part -->
+	<Stat_Recipe_Surgery_SurgeryCategory_RemoveArtificialBodyPart>Удаление искусственной части тела</Stat_Recipe_Surgery_SurgeryCategory_RemoveArtificialBodyPart>
+
+		<!-- The rest of the stats -->
+	<!-- EN: Worker mod -->
+	<Stat_Recipe_Surgery_WorkerMod_Name>Мод Работы</Stat_Recipe_Surgery_WorkerMod_Name>
+	<!-- EN: The mod in which the surgery's worker class (aka surgery category) came from. This isn't always the same as the surgery's mod. -->
+	<Stat_Recipe_Surgery_WorkerMod_Desc>Мод, из которого взят worker class операции (он же категория операции). Это не всегда то же самое, что мод операции.</Stat_Recipe_Surgery_WorkerMod_Desc>
+
+	<!-- EN: Anesthetize -->
+	<Stat_Recipe_Surgery_Anesthetize_Name>Анестезия</Stat_Recipe_Surgery_Anesthetize_Name>
+	<!-- EN: Whether this surgery requires anesthetic. -->
+	<Stat_Recipe_Surgery_Anesthetize_Desc>Требуется ли для этой операции анестезия.</Stat_Recipe_Surgery_Anesthetize_Desc>
+
+	<!-- EN: Affected body parts -->
+	<Stat_Recipe_Surgery_AffectedBodyParts_Name>Затронутые части тела</Stat_Recipe_Surgery_AffectedBodyParts_Name>
+	<!-- EN: The body parts this surgery can target. -->
+	<Stat_Recipe_Surgery_AffectedBodyParts_Desc>Части тела, на которые может быть нацелена эта операция.</Stat_Recipe_Surgery_AffectedBodyParts_Desc>
+	<!-- EN: This surgery can target any body part. -->
+	<Stat_Recipe_Surgery_AffectedBodyParts_Desc_Any>Эта операция может быть нацелена на любую часть тела.</Stat_Recipe_Surgery_AffectedBodyParts_Desc_Any>
+	<!-- EN: This surgery affects the whole body. -->
+	<Stat_Recipe_Surgery_AffectedBodyParts_Desc_None>Эта операция затрагивает весь организм.</Stat_Recipe_Surgery_AffectedBodyParts_Desc_None>
+
+	<!-- EN: Any -->
+	<Any>Любой</Any>
+
+	<!-- EN: Incompatible with -->
+	<Stat_Recipe_Surgery_IncompatibleWithHediffTags_Name>Несовместимо с</Stat_Recipe_Surgery_IncompatibleWithHediffTags_Name>
+	<!-- EN: Health conditions (ie: installed body parts) that are incompatible with this surgery. -->
+	<Stat_Recipe_Surgery_IncompatibleWithHediffTags_Desc>Состояния (т. е. установленные части тела), несовместимые с этой операцией.</Stat_Recipe_Surgery_IncompatibleWithHediffTags_Desc>
+
+	<!-- EN: Adds health condition -->
+	<Stat_Recipe_Surgery_AddsHediff_Name>Добавляет состояние</Stat_Recipe_Surgery_AddsHediff_Name>
+	<!-- EN: The health condition this surgery adds when complete. -->
+	<Stat_Recipe_Surgery_AddsHediff_Desc>Состояние, которое добавляет эта операция после завершения.</Stat_Recipe_Surgery_AddsHediff_Desc>
+	<!-- EN: Removes health condition -->
+	<Stat_Recipe_Surgery_RemovesHediff_Name>Устраняет состояние</Stat_Recipe_Surgery_RemovesHediff_Name>
+	<!-- EN: The health condition this surgery removes when complete. -->
+	<Stat_Recipe_Surgery_RemovesHediff_Desc>Состояние, которое устраняет эта операция после завершения.</Stat_Recipe_Surgery_RemovesHediff_Desc>
+	<!-- EN: Augments health condition -->
+	<Stat_Recipe_Surgery_ChangesHediffLevel_Name>Улучшает состояние</Stat_Recipe_Surgery_ChangesHediffLevel_Name>
+	<!-- EN: The health condition this surgery enhances when complete. -->
+	<Stat_Recipe_Surgery_ChangesHediffLevel_Desc>Состояние после завершения этой операции улучшается.</Stat_Recipe_Surgery_ChangesHediffLevel_Desc>
+
+		<!--
+        HediffDefs
+    -->
+
+	<!-- EN: Health condition type -->
+	<Stat_Hediff_HediffType_Name>Тип состояния</Stat_Hediff_HediffType_Name>
+	<!-- EN: The basic type of health condition. -->
+	<Stat_Hediff_HediffType_Desc>Основной тип состояния.</Stat_Hediff_HediffType_Desc>
+
+	<!-- EN: Body Augment -->
+	<Stat_Hediff_HediffType_BodyAugment>Аугментация</Stat_Hediff_HediffType_BodyAugment>
+	<!-- EN: Wound -->
+	<Stat_Hediff_HediffType_Wound>Рана</Stat_Hediff_HediffType_Wound>
+	<!-- EN: Chronic Disease -->
+	<Stat_Hediff_HediffType_ChronicDisease>Хроническое заболевание</Stat_Hediff_HediffType_ChronicDisease>
+	<!-- EN: Sickness -->
+	<Stat_Hediff_HediffType_Sickness>Болезнь</Stat_Hediff_HediffType_Sickness>
+	<!-- EN: Affliction -->
+	<Stat_Hediff_HediffType_Affliction>Недуг</Stat_Hediff_HediffType_Affliction>
+	<!-- EN: Condition -->
+	<Stat_Hediff_HediffType_Condition>Состояние</Stat_Hediff_HediffType_Condition>
+
+	<!-- EN: Addiction -->
+	<Stat_Hediff_HediffType_Addiction>Зависимость</Stat_Hediff_HediffType_Addiction>
+	<!-- EN: High -->
+	<Stat_Hediff_HediffType_High>Под наркотиком</Stat_Hediff_HediffType_High>
+	<!-- EN: Added Part -->
+	<Stat_Hediff_HediffType_AddedPart>Добавлена ​​часть</Stat_Hediff_HediffType_AddedPart>
+	<!-- EN: Implant -->
+	<Stat_Hediff_HediffType_Implant>Имплант</Stat_Hediff_HediffType_Implant>
+	<!-- EN: Injury -->
+	<Stat_Hediff_HediffType_Injury>Рана</Stat_Hediff_HediffType_Injury>
+	<!-- EN: Missing Part -->
+	<Stat_Hediff_HediffType_MissingPart>Отсутствующая часть</Stat_Hediff_HediffType_MissingPart>
+	<!-- EN: Psylink -->
+	<Stat_Hediff_HediffType_Psylink>Псисвязь</Stat_Hediff_HediffType_Psylink>
+
+	<!-- EN: Tendable -->
+	<Stat_Hediff_Tendable_Name>Излечимо мед. уходом</Stat_Hediff_Tendable_Name>
+	<!-- EN: Whether this condition can be cured with medicine. -->
+	<Stat_Hediff_Tendable_Desc>Можно ли вылечить это состояние лекарствами.</Stat_Hediff_Tendable_Desc>
+
+	<!-- EN: Immunizable -->
+	<Stat_Hediff_Immunizable_Name>Лечится Иммунитетом</Stat_Hediff_Immunizable_Name>
+	<!-- EN: Whether a pawn can naturally develop an immunity to this condition. -->
+	<Stat_Hediff_Immunizable_Desc>Может ли пешка естественным образом выработать иммунитет к этому состоянию?</Stat_Hediff_Immunizable_Desc>
+
+	<!-- EN: Potentially lethal -->
+	<Stat_Hediff_Lethal_Name>Потенциально смертельно</Stat_Hediff_Lethal_Name>
+	<!-- EN: Whether this condition has a chance to be fatal. -->
+	<Stat_Hediff_Lethal_Desc>Имеет ли это состояние шанс стать фатальным.</Stat_Hediff_Lethal_Desc>
+
+	<!-- EN: Curable -->
+	<Stat_Hediff_Curable_Name>Излечимо Лекарствами</Stat_Hediff_Curable_Name>
+	<!-- EN: Whether the condition can be cured with medicine or some other item. -->
+	<Stat_Hediff_Curable_Desc>Можно ли вылечить это состояние с помощью лекарств или других предметов.</Stat_Hediff_Curable_Desc>
+	<!-- EN: Yes, in one dose -->
+	<Stat_Hediff_CurableAllAtOnce>Да, с одной дозы</Stat_Hediff_CurableAllAtOnce>
+
+	<!-- EN: Minimum severity -->
+	<Stat_Hediff_MinSeverity_Name>Минимальная тяжесть</Stat_Hediff_MinSeverity_Name>
+	<!-- EN: The minimum severity of the health condition. -->
+	<Stat_Hediff_MinSeverity_Desc>Минимальная тяжесть состояния.</Stat_Hediff_MinSeverity_Desc>
+
+	<!-- EN: Initial severity -->
+	<Stat_Hediff_InitialSeverity_Name>Начальная тяжесть</Stat_Hediff_InitialSeverity_Name>
+	<!-- EN: The starting severity of this health condition. -->
+	<Stat_Hediff_InitialSeverity_Desc>Исходная тяжесть этого состояния.</Stat_Hediff_InitialSeverity_Desc>
+
+	<!-- EN: Lethal severity -->
+	<Stat_Hediff_LethalSeverity_Name>Летальная тяжесть</Stat_Hediff_LethalSeverity_Name>
+	<!-- EN: The severity of this condition when it kills the pawn. -->
+	<Stat_Hediff_LethalSeverity_Desc>Тяжесть этого состояния, при которой пешка умирает.</Stat_Hediff_LethalSeverity_Desc>
+
+	<!-- EN: Maximum severity -->
+	<Stat_Hediff_MaxSeverity_Name>Максимальная тяжесть</Stat_Hediff_MaxSeverity_Name>
+	<!-- EN: The maximum severity of the health condition. -->
+	<Stat_Hediff_MaxSeverity_Desc>Максимальная тяжесть состояния.</Stat_Hediff_MaxSeverity_Desc>
+
+	<!-- EN: Chance to cause no pain -->
+	<Stat_Hediff_ChanceToCauseNoPain_Name>Шанс не причинять боли</Stat_Hediff_ChanceToCauseNoPain_Name>
+	<!-- EN: The chance that the pawn ignores the pain caused by this health condition. This lasts until the stage of the condition changes. -->
+	<Stat_Hediff_ChanceToCauseNoPain_Desc>Вероятность того, что пешка проигнорирует боль, вызванную этим состоянием здоровья. Это продолжается до тех пор, пока не изменится стадия состояния.</Stat_Hediff_ChanceToCauseNoPain_Desc>
+
+	<!-- EN: Creates a need for the pawn. -->
+	<Stat_Hediff_CausesNeed_Desc>Создает потребность у пешки</Stat_Hediff_CausesNeed_Desc>
+
+	<!-- EN: Prevents needs -->
+	<Stat_Hediff_DisablesNeeds_Name>Предотвращает потребность</Stat_Hediff_DisablesNeeds_Name>
+	<!-- EN: Prevents certain needs from the pawn. -->
+	<Stat_Hediff_DisablesNeeds_Desc>Предотвращает определенную потребность пешки.</Stat_Hediff_DisablesNeeds_Desc>
+
+	<!-- EN: Related part -->
+	<Stat_Hediff_RelatedPart_Name>Связанная часть</Stat_Hediff_RelatedPart_Name>
+	<!-- EN: The body augment installed as part of this health condition. -->
+	<Stat_Hediff_RelatedPart_Desc>Аугментация тела, установленная как часть этого состояния.</Stat_Hediff_RelatedPart_Desc>
+
+	<!-- EN: Better than natural -->
+	<Stat_Hediff_BetterThanNatural_Name>Лучше, чем натуральный</Stat_Hediff_BetterThanNatural_Name>
+	<!-- EN: Whether this augment is better than a natural part. If not, other factions may not appreciate swapping out the part from their pawns. -->
+	<Stat_Hediff_BetterThanNatural_Desc>Является ли это дополнение лучше натуральной части. В противном случае другие фракции могут не захотеть вынимать деталь из своих пешек.</Stat_Hediff_BetterThanNatural_Desc>
+
+	<!-- EN: Solid -->
+	<Stat_Hediff_Solid_Name>Твердый</Stat_Hediff_Solid_Name>
+	<!-- EN: Whether this augment is solid enough to resist certain types of damage. -->
+	<Stat_Hediff_Solid_Desc>Является ли это усиление достаточно прочным, чтобы противостоять определенным типам повреждений.</Stat_Hediff_Solid_Desc>
+
+	<!-- EN: Price offset -->
+	<Stat_Hediff_PriceOffset_Name>Смещение цены</Stat_Hediff_PriceOffset_Name>
+	<!-- EN: How much this adds to a creature's market value. -->
+	<Stat_Hediff_PriceOffset_Desc>Насколько это увеличивает рыночную стоимость существа.</Stat_Hediff_PriceOffset_Desc>
+
+		<!--
+        BodyPartDefs
+    -->
+
+	<!-- EN: Removed part -->
+	<Stat_BodyPart_RemovedPart_Name>Удаленная часть</Stat_BodyPart_RemovedPart_Name>
+	<!-- EN: The body part, as it appears removed from the body. -->
+	<Stat_BodyPart_RemovedPart_Desc>Часть тела, отделенная от тела.</Stat_BodyPart_RemovedPart_Desc>
+
+	<!-- EN: Permanent injury chance factor -->
+	<Stat_BodyPart_PermanentInjuryChanceFactor_Name>Фактор вероятности постоянной травмы</Stat_BodyPart_PermanentInjuryChanceFactor_Name>
+	<!-- EN: A multiplier on the chance this part will acquire a permanent injury when damaged. This is also impacted by the kind of injury and whether it's a delicate part or not. -->
+	<Stat_BodyPart_PermanentInjuryChanceFactor_Desc>Множитель шанса, что эта часть получит необратимую травму при повреждении. На это также влияет тип травмы и то, Нежная это часть или нет.</Stat_BodyPart_PermanentInjuryChanceFactor_Desc>
+
+	<!-- EN: Bleed rate -->
+	<Stat_BodyPart_BleedRate_Name>Скорость кровотечения</Stat_BodyPart_BleedRate_Name>
+	<!-- EN: A multiplier applied to the rate of blood loss on this body part. -->
+	<Stat_BodyPart_BleedRate_Desc>Множитель, применяемый к скорости кровопотери в этой части тела.</Stat_BodyPart_BleedRate_Desc>
+
+	<!-- EN: Frostbite vulnerability -->
+	<Stat_BodyPart_FrostbiteVulnerability_Name>Уязвимость к обморожению</Stat_BodyPart_FrostbiteVulnerability_Name>
+	<!-- EN: The chance that this part succumbs to frostbite in freezing temperatures. -->
+	<Stat_BodyPart_FrostbiteVulnerability_Desc>Вероятность того, что эта часть поддастся обморожению при отрицательных температурах.</Stat_BodyPart_FrostbiteVulnerability_Desc>
+
+	<!-- EN: Vital -->
+	<Stat_BodyPart_Vital_Name>Жизненно важная часть</Stat_BodyPart_Vital_Name>
+	<!-- EN: Whether this body part is vital to the mortality of the creature. -->
+	<Stat_BodyPart_Vital_Desc>Является ли эта часть тела жизненно важной для смертности существа.</Stat_BodyPart_Vital_Desc>
+
+	<!-- EN: Alive -->
+	<Stat_BodyPart_Alive_Name>Живой</Stat_BodyPart_Alive_Name>
+	<!-- EN: Whether this body part is alive (ie: fleshy). Living parts may be subject to certain health conditions. -->
+	<Stat_BodyPart_Alive_Desc>Является ли эта часть тела живой (т. е. мясистой). Живые части могут быть подвержены определенным заболеваниям.</Stat_BodyPart_Alive_Desc>
+
+	<!-- EN: Skin-covered -->
+	<Stat_BodyPart_SkinCovered_Name>Покрытый кожей</Stat_BodyPart_SkinCovered_Name>
+	<!-- EN: Whether this body part is covered in skin. Skin-covered parts provide (very) light protection against damage. These properties may change when replaced with other parts, such as bionics. -->
+	<Stat_BodyPart_SkinCovered_Desc>Покрыта ли эта часть тела кожей. Детали, покрытые кожей, обеспечивают (очень) легкую защиту от повреждений. Эти свойства могут измениться при замене на другие детали, например бионику.</Stat_BodyPart_SkinCovered_Desc>
+
+	<!-- EN: Solid -->
+	<Stat_BodyPart_Solid_Name>Твердый</Stat_BodyPart_Solid_Name>
+	<!-- EN: Whether this body part is solid. Solid parts provide a much higher protection against damage. These properties may change when replaced with other parts, such as bionics. -->
+	<Stat_BodyPart_Solid_Desc>Является ли эта часть тела твердой. Твердые детали обеспечивают гораздо более высокую защиту от повреждений. Эти свойства могут измениться при замене на другие детали, например бионику.</Stat_BodyPart_Solid_Desc>
+
+	<!-- EN: Invulnerable -->
+	<Stat_BodyPart_Invulnerable_Name>Неуязвимый</Stat_BodyPart_Invulnerable_Name>
+	<!-- EN: Whether this body part is invulnerable to damage. -->
+	<Stat_BodyPart_Invulnerable_Desc>Неуязвима ли эта часть тела для повреждений.</Stat_BodyPart_Invulnerable_Desc>
+
+	<!-- EN: Delicate -->
+	<Stat_BodyPart_Delicate_Name>Нежный</Stat_BodyPart_Delicate_Name>
+	<!-- EN: Whether this body part is delicate. Delicate parts have a higher risk of permanent injury. -->
+	<Stat_BodyPart_Delicate_Desc>Является ли эта часть тела деликатной. Деликатные детали имеют более высокий риск необратимых травм.</Stat_BodyPart_Delicate_Desc>
+
+	<!-- EN: Beauty-related -->
+	<Stat_BodyPart_BeautyRelated_Name>Связанные с красотой</Stat_BodyPart_BeautyRelated_Name>
+	<!-- EN: Whether this body part is a factor of the creature's beauty. These parts may impact relations if they are injured or destroyed. -->
+	<Stat_BodyPart_BeautyRelated_Desc>Является ли эта часть тела фактором красоты существа. Эти части могут повлиять на отношения, если они повреждены или разрушены.</Stat_BodyPart_BeautyRelated_Desc>
+
+	<!-- EN: Amputatable -->
+	<Stat_BodyPart_Amputatable_Name>Ампутируемая</Stat_BodyPart_Amputatable_Name>
+	<!-- EN: Whether this body part can be amputated to save a patient from an infection. -->
+	<Stat_BodyPart_Amputatable_Desc>Можно ли ампутировать эту часть тела, чтобы спасти пациента от инфекции.</Stat_BodyPart_Amputatable_Desc>
+
+		<!-- Body part properties -->
+	<!-- EN: Body part properties -->
+	<Stat_BodyPart_BodyPartProperties_Name>Свойства частей тела</Stat_BodyPart_BodyPartProperties_Name>
+	<!-- EN: Essential properties that are tied to the body part. -->
+	<Stat_BodyPart_BodyPartProperties_Desc>Основные свойства, которые привязаны к части тела.</Stat_BodyPart_BodyPartProperties_Desc>
+
+		<!-- vanilla -->
+	<!-- EN: Blood Filtration Source -->
+	<Stat_BodyPart_BodyPartProperties_BloodFiltrationSource>Источник фильтрации крови</Stat_BodyPart_BodyPartProperties_BloodFiltrationSource>
+	<!-- EN: Blood Filtration Liver -->
+	<Stat_BodyPart_BodyPartProperties_BloodFiltrationLiver>Фильтрация крови Печень</Stat_BodyPart_BodyPartProperties_BloodFiltrationLiver>
+	<!-- EN: Blood Filtration Kidney -->
+	<Stat_BodyPart_BodyPartProperties_BloodFiltrationKidney>Фильтрация крови Почки</Stat_BodyPart_BodyPartProperties_BloodFiltrationKidney>
+	<!-- EN: Blood Pumping Source -->
+	<Stat_BodyPart_BodyPartProperties_BloodPumpingSource>Источник перекачки крови</Stat_BodyPart_BodyPartProperties_BloodPumpingSource>
+	<!-- EN: Breathing Source -->
+	<Stat_BodyPart_BodyPartProperties_BreathingSource>Источник дыхания</Stat_BodyPart_BodyPartProperties_BreathingSource>
+	<!-- EN: Breathing Source Cage -->
+	<Stat_BodyPart_BodyPartProperties_BreathingSourceCage>Клетка с источником дыхания</Stat_BodyPart_BodyPartProperties_BreathingSourceCage>
+	<!-- EN: Breathing Pathway -->
+	<Stat_BodyPart_BodyPartProperties_BreathingPathway>Дыхательный путь</Stat_BodyPart_BodyPartProperties_BreathingPathway>
+	<!-- EN: Consciousness Source -->
+	<Stat_BodyPart_BodyPartProperties_ConsciousnessSource>Источник Сознания</Stat_BodyPart_BodyPartProperties_ConsciousnessSource>
+	<!-- EN: Eating Source -->
+	<Stat_BodyPart_BodyPartProperties_EatingSource>Источник пищи</Stat_BodyPart_BodyPartProperties_EatingSource>
+	<!-- EN: Eating Pathway -->
+	<Stat_BodyPart_BodyPartProperties_EatingPathway>Путь пищи</Stat_BodyPart_BodyPartProperties_EatingPathway>
+	<!-- EN: Hearing Source -->
+	<Stat_BodyPart_BodyPartProperties_HearingSource>Источник слуха</Stat_BodyPart_BodyPartProperties_HearingSource>
+	<!-- EN: Metabolism Source -->
+	<Stat_BodyPart_BodyPartProperties_MetabolismSource>Источник метаболизма</Stat_BodyPart_BodyPartProperties_MetabolismSource>
+	<!-- EN: Manipulation Limb Core -->
+	<Stat_BodyPart_BodyPartProperties_ManipulationLimbCore>Ядро Манипулирующей конечности</Stat_BodyPart_BodyPartProperties_ManipulationLimbCore>
+	<!-- EN: Manipulation Limb Segment -->
+	<Stat_BodyPart_BodyPartProperties_ManipulationLimbSegment>Сегмент Манипулирующей конечности</Stat_BodyPart_BodyPartProperties_ManipulationLimbSegment>
+	<!-- EN: Manipulation Limb Digit -->
+	<Stat_BodyPart_BodyPartProperties_ManipulationLimbDigit>Палец Манипулирующей конечности</Stat_BodyPart_BodyPartProperties_ManipulationLimbDigit>
+	<!-- EN: Moving Limb Core -->
+	<Stat_BodyPart_BodyPartProperties_MovingLimbCore>Ядро Перемещающей конечности</Stat_BodyPart_BodyPartProperties_MovingLimbCore>
+	<!-- EN: Moving Limb Segment -->
+	<Stat_BodyPart_BodyPartProperties_MovingLimbSegment>Сегмент Перемещающей конечности</Stat_BodyPart_BodyPartProperties_MovingLimbSegment>
+	<!-- EN: Moving Limb Digit -->
+	<Stat_BodyPart_BodyPartProperties_MovingLimbDigit>Палец Перемещающей конечности</Stat_BodyPart_BodyPartProperties_MovingLimbDigit>
+	<!-- EN: Pelvis -->
+	<Stat_BodyPart_BodyPartProperties_Pelvis>таз</Stat_BodyPart_BodyPartProperties_Pelvis>
+	<!-- EN: Sight Source -->
+	<Stat_BodyPart_BodyPartProperties_SightSource>Источник зрения</Stat_BodyPart_BodyPartProperties_SightSource>
+	<!-- EN: Spine -->
+	<Stat_BodyPart_BodyPartProperties_Spine>Позвоночник</Stat_BodyPart_BodyPartProperties_Spine>
+	<!-- EN: Talking Source -->
+	<Stat_BodyPart_BodyPartProperties_TalkingSource>Источник Голоса</Stat_BodyPart_BodyPartProperties_TalkingSource>
+	<!-- EN: Talking Pathway -->
+	<Stat_BodyPart_BodyPartProperties_TalkingPathway>Путь Голоса</Stat_BodyPart_BodyPartProperties_TalkingPathway>
+
+		<!-- modded -->
+
+		<!-- XXX: From Android Tiers... I have no idea... Don't think they are even being used. -->
+	<!-- EN: CP Source -->
+	<Stat_BodyPart_BodyPartProperties_CPSource>Источник КП</Stat_BodyPart_BodyPartProperties_CPSource>
+	<!-- EN: HV Source -->
+	<Stat_BodyPart_BodyPartProperties_HVSource>Источник высокого напряжения</Stat_BodyPart_BodyPartProperties_HVSource>
+	<!-- EN: Kidney -->
+	<Stat_BodyPart_BodyPartProperties_EVKidney>Почка</Stat_BodyPart_BodyPartProperties_EVKidney>
+	<!-- EN: Liver -->
+	<Stat_BodyPart_BodyPartProperties_EVLiver>Печень</Stat_BodyPart_BodyPartProperties_EVLiver>
+	<!-- EN: HV Pathway -->
+	<Stat_BodyPart_BodyPartProperties_HVPathway>Путь высокого напряжения</Stat_BodyPart_BodyPartProperties_HVPathway>
+
+	<!-- EN: Pilot Seat -->
+	<Stat_BodyPart_BodyPartProperties_PilotSeat>Сиденье пилота</Stat_BodyPart_BodyPartProperties_PilotSeat>
+	<!-- EN: Gunner Seat -->
+	<Stat_BodyPart_BodyPartProperties_GunnerSeat>Сиденье наводчика</Stat_BodyPart_BodyPartProperties_GunnerSeat>
+	<!-- EN: Passenger Seat -->
+	<Stat_BodyPart_BodyPartProperties_PassengerSeat>Пассажирское место</Stat_BodyPart_BodyPartProperties_PassengerSeat>
+
+
+	<!-- EN: Contained in -->
+	<Stat_BodyPart_BodyPartUsers_Name>Используются </Stat_BodyPart_BodyPartUsers_Name>
+	<!-- EN: Creature bodies that use this body part. -->
+	<Stat_BodyPart_BodyPartUsers_Desc>Тела существ, использующих эту часть тела.</Stat_BodyPart_BodyPartUsers_Desc>
+</LanguageData>

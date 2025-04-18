@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- HMG -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]</xpath>
+		<value>
+			<projectile>Bullet_50BMG_AP</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]</xpath>
+		<value>
+			<shotSound>HeavyMG</shotSound>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]/warmUpTimer</xpath>
+		<value>
+			<warmUpTimer>1.3</warmUpTimer>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]</xpath>
+		<value>
+			<maxRange>75</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_50BMG</ammoSet>
+				<shotHeight>2</shotHeight>
+				<sway>0.94</sway>
+				<spread>0.05</spread>
+				<recoil>1.5</recoil>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/projectile</xpath>
+		<value>
+			<projectile>Bullet_TOW2_HEAT</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/warmUpTimer</xpath>
+		<value>
+			<warmUpTimer>2.8</warmUpTimer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/maxRange</xpath>
+		<value>
+			<maxRange>86</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_BGM71TOW</ammoSet>
+				<shotHeight>2</shotHeight>
+				<sway>0.02</sway>
+				<spread>0.02</spread>
+				<recoil>1.5</recoil>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- Turret -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]/projectile</xpath>
+		<value>
+			<projectile>Bullet_40x53mmGrenade_HE</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]/reloadTimer</xpath>
+		<value>
+			<reloadTimer>8</reloadTimer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]/maxRange</xpath>
+		<value>
+			<maxRange>68</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_40x53mmGrenade</ammoSet>
+				<shotHeight>2</shotHeight>
+				<sway>0.94</sway>
+				<spread>0.5</spread>
+				<recoil>1.5</recoil>
+			</li>
+		</value>
+	</Operation>
+</Patch>

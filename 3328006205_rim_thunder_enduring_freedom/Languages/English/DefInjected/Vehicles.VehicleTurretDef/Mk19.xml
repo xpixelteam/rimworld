@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<RT_Mk19_Turret.label>Mk19 Grenade Launcher</RT_Mk19_Turret.label>
+  	<RT_Mk19_Turret.fireModes.0.label>Single</RT_Mk19_Turret.fireModes.0.label>
+	<RT_Mk19_Turret.fireModes.1.label>Auto</RT_Mk19_Turret.fireModes.1.label>
+	<RT_Mk19_Turret.fireModes.2.label>Burst</RT_Mk19_Turret.fireModes.2.label>
+  	<RT_Mk19_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 40x53mm Grenade</RT_Mk19_Turret.gizmoDescription>
+
+</LanguageData>

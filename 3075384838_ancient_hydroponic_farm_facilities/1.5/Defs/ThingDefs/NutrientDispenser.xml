@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="AncientFacilities">
+		<defName>AncientNutrientDispenser</defName>
+		<label>Ancient nutrient solution dispenser</label>
+		<description>The ancient nutrient solution dispenser was used to process and convert nutrient ointments into nutrient solutions, and then transport nutrient solutions for hydroponic cultivation through a pipeline system. Its core components have disappeared, but some are still intact. Perhaps destroying it can yield some useful things.</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+		<graphicData>
+			<texPath>Things/Building/NutrientDispenser/AncientNutrientDispenser</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(5, 0.8, 5)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(5,5)</size>
+		<statBases>
+			<Mass>150</Mass>
+		</statBases>
+		<costList>
+			<Steel>350</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<Plasteel>75</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Plasteel>15</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<HydroponicNutrientSolution>30</HydroponicNutrientSolution>
+			<MealNutrientPaste>40</MealNutrientPaste>
+		</killedLeavings>
+	</ThingDef>
+
+
+</Defs>

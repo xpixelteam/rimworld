@@ -1,0 +1,12 @@
+<LanguageData>
+	<!--1.5\Defs\ThingDefs\RotR_Buildings.xml-->
+	<!--             EN: ISR2G -->
+	<RotR_ISR2GNew.label>СРДнМ</RotR_ISR2GNew.label>
+	<!--                   EN: In Situ Road Resource Gatherer. Uses local resources when building roads, completely eliminating the need to bring wood and stone at the cost of 4 times the work. -->
+	<RotR_ISR2GNew.description>Сборщик ресурсов для дорог на месте (СРДнМ). Использует местные ресурсы при строительстве дорог, полностью избавляя от необходимости привозить дерево и камень, затрачивая в 4 раза больше труда.</RotR_ISR2GNew.description>
+	
+	<!--              EN: AISR2G -->
+	<RotR_AISR2GNew.label>УСРДнМ</RotR_AISR2GNew.label>
+	<!--                    EN: Advanced In Situ Road Resources Gatherer. Uses local resources when building roads, completely eliminating the need to bring wood, stone , steel, Chemfuel , Plasteel and Uranium at the cost of twice the work. -->
+	<RotR_AISR2GNew.description>Усовершенствованный сборщик дорожных ресурсов на месте (УСРДнМ). Использует местные ресурсы при строительстве дорог, полностью избавляя от необходимости привозить дерево, камень, сталь, химтопливо, пласталь и уран, затрачивая при этом в два раза больше работы.</RotR_AISR2GNew.description>
+</LanguageData>

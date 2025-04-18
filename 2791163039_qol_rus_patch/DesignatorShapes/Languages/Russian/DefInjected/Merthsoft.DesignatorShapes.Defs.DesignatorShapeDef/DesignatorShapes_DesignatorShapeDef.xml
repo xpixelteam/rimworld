@@ -1,0 +1,51 @@
+<LanguageData>
+<!--1.4/Defs/DesignatorShapes.xml-->
+<Line.label>линия</Line.label>
+<Line.description>Построить в линию</Line.description>
+<Rectangle.label>прямоугольник</Rectangle.label>
+<Rectangle.description>Построить прямоугольником</Rectangle.description>
+<RectangleFilled.label>заполненный прямоугольник</RectangleFilled.label>
+<RectangleFilled.description>Построить заполненным прямоугольником</RectangleFilled.description>
+<Rectangle_Input.label>прямоугольник</Rectangle_Input.label>
+<Rectangle_Input.description>Построить прямоугольником</Rectangle_Input.description>
+<RectangleFilled_Input.label>заполненный прямоугольник</RectangleFilled_Input.label>
+<RectangleFilled_Input.description>Построить заполненным прямоугольником</RectangleFilled_Input.description>
+<Ellipse.label>эллипс</Ellipse.label>
+<Ellipse.description>Построить эллипсом</Ellipse.description>
+<EllipseFilled.label>заполненный эллипс</EllipseFilled.label>
+<EllipseFilled.description>Построить заполненным эллипсом</EllipseFilled.description>
+<Ellipse_Input.label>эллипс</Ellipse_Input.label>
+<Ellipse_Input.description>Построить эллипсом</Ellipse_Input.description>
+<EllipseFilled_Input.label>заполненный эллипс</EllipseFilled_Input.label>
+<EllipseFilled_Input.description>Построить заполненным эллипсом</EllipseFilled_Input.description>
+<Hexagon.label>шестиугольник</Hexagon.label>
+<Hexagon.description>Построить шестиугольником</Hexagon.description>
+<HexagonFilled.label>заполненный шестиугольник</HexagonFilled.label>
+<HexagonFilled.description>Построить заполненным шестиугольником</HexagonFilled.description>
+<Pentagon.label>пятиугольник</Pentagon.label>
+<Pentagon.description>Построить пятиугольником</Pentagon.description>
+<PentagonFilled.label>заполненный пятиугольник</PentagonFilled.label>
+<PentagonFilled.description>Построить заполненным пятиугольником</PentagonFilled.description>
+<Circle.label>круг</Circle.label>
+<Circle.description>Построить кругом</Circle.description>
+<CircleFilled.label>заполненный круг</CircleFilled.label>
+<CircleFilled.description>Построить заполненным кругом</CircleFilled.description>
+<FloodFill.label>заливка</FloodFill.label>
+<FloodFill.description>Заполнить пространство между стенами.</FloodFill.description>
+<SunLamp.label>солнечная лампа</SunLamp.label>
+<SunLamp.description>Построить в форме радиуса солнечной лампы</SunLamp.description>
+<SunLampOutline.label>солнечная лампа (контур)</SunLampOutline.label>
+<SunLampOutline.description>Построить контуром радиуса солнечной лампы</SunLampOutline.description>
+<TradeBeacon.label>торговый маяк</TradeBeacon.label>
+<TradeBeacon.description>Построить в форме радиуса торгового маяка</TradeBeacon.description>
+<TradeBeaconOutline.label>торговый маяк (контур)</TradeBeaconOutline.label>
+<TradeBeaconOutline.description>Построить контуром радиуса торгового маяка</TradeBeaconOutline.description>
+<Undo.label>Отменить</Undo.label>
+<Undo.description>Отменить последнее действие</Undo.description>
+<Redo.label>Повторить</Redo.label>
+<Redo.description>Повторить последнюю отмену</Redo.description>
+
+<LineFreeform.label>линия свободной формы</LineFreeform.label>
+<LineFreeform.description>Построить линией произвольной формы, как ручкой</LineFreeform.description>
+	
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DamagedSunlamp.label>Сломанная древняя солнечная лампа</DamagedSunlamp.label>
+  <DamagedSunlamp.description>Древняя солнечная лампа с автономным питанием. Его внутренний источник питания был сильно разряжен, но он все еще слабо светился.</DamagedSunlamp.description>
+  <DamagedSunlamp_Blueprint.label>Сломанная древняя солнечная лампа (чертеж)</DamagedSunlamp_Blueprint.label>
+  <DamagedSunlamp_Frame.label>Сломанная древняя солнечная лампа (здание)</DamagedSunlamp_Frame.label>
+  <DamagedSunlamp_Frame.description>Древняя солнечная лампа с автономным питанием. Его внутренний источник питания был сильно разряжен, но он все еще слабо светился.</DamagedSunlamp_Frame.description>
+
+  <AncientSunlamp.label>древняя солнечная лампа</AncientSunlamp.label>
+  <AncientSunlamp.description>Древняя солнечная лампа с автономным питанием. Он имеет прочную внешнюю оболочку и питается от термоядерной батареи с длительным сроком службы. Автоматически отключается ночью.</AncientSunlamp.description>
+  <AncientSunlamp.comps.2.offMessage>Автоматически отключается во время покоя растения.</AncientSunlamp.comps.2.offMessage>
+  <AncientSunlamp_Blueprint.label>древняя солнечная лампа (blueprint)</AncientSunlamp_Blueprint.label>
+  <AncientSunlamp_Blueprint_Install.label>Древняя солнечная лампа (чертеж)</AncientSunlamp_Blueprint_Install.label>
+  <AncientSunlamp_Frame.label>Древняя солнечная лампа (здание)</AncientSunlamp_Frame.label>
+  <AncientSunlamp_Frame.description>Древняя солнечная лампа с автономным питанием. Он имеет прочную внешнюю оболочку и питается от термоядерной батареи с длительным сроком службы. Автоматически отключается ночью.</AncientSunlamp_Frame.description>
+
+
+</LanguageData>

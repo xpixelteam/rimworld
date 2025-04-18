@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimThunder - Enduring Freedom на русском языке</name>
+	<author>Хави</author>
+	<supportedVersions>
+	<li>1.5</li>
+	</supportedVersions>
+	<packageId>RimThunderTeams.RimThunder.EnduringFreedom.ru</packageId>
+	<description>В секторе одного из миров на краю обитаемой зоны появилась группа торговых флотов, предлагающих промышленные технологии и реплики старых боевых машин с Земли. Мы не знаем, зачем они это делают, но одно можно сказать наверняка — мы здесь не единственные покупатели.</description>
+	<modDependencies>
+    <li>
+        <packageId>RimThunderTeams.RimThunder.EnduringFreedom</packageId>
+        <displayName>RimThunder - Enduring Freedom</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/3328006205</steamWorkshopUrl>
+    </li>
+</modDependencies>
+
+</ModMetaData>

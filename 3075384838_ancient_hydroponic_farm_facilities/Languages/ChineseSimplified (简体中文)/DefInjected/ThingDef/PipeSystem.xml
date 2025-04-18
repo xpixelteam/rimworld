@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ancient nutrient pump -->
+  <AncientNutrientPump.label>古代营养液泵</AncientNutrientPump.label>
+  <!-- EN: The ancient nutrient solution pump, due to the different pipelines of ancient technology from today, used a centralized pumping method to transport nutrient solution. This pump has been damaged, and destroying it may result in some useful things. -->
+  <AncientNutrientPump.description>古代营养液泵，由于古代技术的管道与今天不同，采用集中泵送的方式输送营养液。这个泵已经损坏了，摧毁它可能得到一些有用的东西。</AncientNutrientPump.description>
+  
+  <!-- EN: Ancient nutrient solution feedport -->
+  <AncientNutrientSolutionFeedPort.label>古代营养液进料口</AncientNutrientSolutionFeedPort.label>
+  <!-- EN: Ancient nutrient solution feedport, It's already damaged. -->
+  <AncientNutrientSolutionFeedPort.description>古老的营养液进料口，它已经损坏了。</AncientNutrientSolutionFeedPort.description>
+  
+  <!-- EN: Ancient nutrient solution outlet -->
+  <AncientNutrientSolutionOutlet.label>古代营养液龙头</AncientNutrientSolutionOutlet.label>
+  <!-- EN: Ancient nutrient solution outlet, It's already damaged. -->
+  <AncientNutrientSolutionOutlet.description>古代营养液龙头, 它已经损坏了。</AncientNutrientSolutionOutlet.description>
+  
+  <!-- EN: Ancient nutrient solution storage tank -->
+  <AncientNutrientSolutionStorageTank.label>古代营养液储罐</AncientNutrientSolutionStorageTank.label>
+  <!-- EN: Ancient nutrient solution storage tanks, destroying them may yield some useful things. -->
+  <AncientNutrientSolutionStorageTank.description>古老的营养液储罐，摧毁它可能得到一些有用的东西。</AncientNutrientSolutionStorageTank.description>
+  
+</LanguageData>

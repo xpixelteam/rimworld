@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>VVE_Hermano_Blueprint</defName>
+		<label>Hermano</label>
+		<description>A dedicated refrigeration vehicle, the Hermano is a decent cargo transporter with a specific niche in ferrying perishable goods. Decent in long-range travel along roads, it performs terribly in off-road or winter conditions.\n\nWhile there are better cargo transporters even in lower tiers, this truck can transport cargo in a frozen state, preventing spoilage. Due to the extra machinery, performance suffers and it should stay away from conflict zones.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_RefrigeratedTruck/Tier3_RefrigeratedTruck</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 7)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>14000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<researchPrerequisites>
+			<li>VVE_BigRigs</li>
+		</researchPrerequisites>
+		
+		<size>(2, 5)</size>
+		
+		<costList>
+			<VVE_EngineBlock>1</VVE_EngineBlock>
+			<VVE_CarAlternator>2</VVE_CarAlternator>
+			<VVE_CarExhaust>4</VVE_CarExhaust>
+			<VVE_CarSuspension>8</VVE_CarSuspension>
+			<VVE_CarWheel>4</VVE_CarWheel>
+			<Steel>380</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
+			<VVE_CarRadiator>1</VVE_CarRadiator>
+			<VVE_CarWiring>2</VVE_CarWiring>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>VVE_Hermano</thingToSpawn>
+	</Vehicles.VehicleBuildDef>
+</Defs>

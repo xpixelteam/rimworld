@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: autocannon shell (Canister) -->
+  <Ammo_Autocannon_Canister.label>自动炮霰弹</Ammo_Autocannon_Canister.label>
+  <!-- EN: Large caliber cartridge used by autocannons. -->
+  <Ammo_Autocannon_Canister.description>自动炮使用的霰弹</Ammo_Autocannon_Canister.description>
+  
+</LanguageData>

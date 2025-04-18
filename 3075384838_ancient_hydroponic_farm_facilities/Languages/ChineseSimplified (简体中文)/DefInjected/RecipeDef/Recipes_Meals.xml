@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cook nutrient paste  -->
+  <CookMealNutrientPaste.label>烹制营养膏</CookMealNutrientPaste.label>
+  <!-- EN: Cook a nutrient paste  from one ingredient. -->
+  <CookMealNutrientPaste.description>从一份生食烹制一份营养膏.</CookMealNutrientPaste.description>
+  <!-- EN: Cooking nutrient paste. -->
+  <CookMealNutrientPaste.jobString>正在制作营养膏.</CookMealNutrientPaste.jobString>
+  
+  <!-- EN: cook nutrient paste x4 -->
+  <CookMealNutrientPasteBulk.label>烹制营养膏 x4</CookMealNutrientPasteBulk.label>
+  <!-- EN: Cook 4 nutrient pastes from one ingredient. -->
+  <CookMealNutrientPasteBulk.description>从一大份生食烹制4份营养膏.</CookMealNutrientPasteBulk.description>
+  <!-- EN: Cooking 4 nutrient pastes. -->
+  <CookMealNutrientPasteBulk.jobString>正在制作营养膏x4.</CookMealNutrientPasteBulk.jobString>
+  
+</LanguageData>

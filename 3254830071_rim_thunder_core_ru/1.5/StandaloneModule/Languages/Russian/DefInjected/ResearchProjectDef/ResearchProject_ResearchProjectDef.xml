@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\StandaloneModule\Defs\ResearchProject.xml-->
+	
+	<!--           EN: engine making -->
+	<EngineBasis.label>изготовление двигателей</EngineBasis.label>
+	<!--                 EN: a mature and reliable internal combustion engine, consume fuel and produce stable torque. -->
+	<EngineBasis.description>современный и надежный двигатель внутреннего сгорания, потребляющий топливо и обеспечивающий стабильный крутящий момент.</EngineBasis.description>
+	<!--                           EN: About: disassemble engine -->
+	<EngineBasis.discoveredLetterTitle>О компании: разборка двигателя</EngineBasis.discoveredLetterTitle>
+	<!--                          EN: Sometimes you may get some unused engines, you can sell them to traders or disassemble them on the machining table. -->
+	<EngineBasis.discoveredLetterText>Иногда у вас могут появиться неиспользуемые двигатели, вы можете продать их торговцам или разобрать на столе для обработки.</EngineBasis.discoveredLetterText>
+	
+	<!--          EN: Otto Cycle -->
+	<EnginePlus.label>Цикл Отто</EnginePlus.label>
+	<!--                EN: an engineering experience that was proposed in ancient times, it's applications are known as the four-stroke engine, the most common internal combustion engine design for motorized land transport, being used in automobiles, trucks, diesel trains and light aircraft. -->
+	<EnginePlus.description>инженерный опыт, который был предложен в древние времена, известен как четырехтактный двигатель, наиболее распространенная конструкция двигателя внутреннего сгорания для наземного транспорта, используемого в автомобилях, грузовиках, дизельных поездах и легких самолетах..</EnginePlus.description>
+	
+	<!--              EN: turbocharged -->
+	<EngineAdvanced.label>с турбонаддувом</EngineAdvanced.label>
+	<!--                    EN: a type of reaction engine, discharging a fast-moving jet of heated gas that generates thrust by jet propulsion. -->
+	<EngineAdvanced.description>тип реактивного двигателя, выпускающий быстро движущуюся струю нагретого газа, которая создает тягу за счет реактивного движения.</EngineAdvanced.description>
+</LanguageData>

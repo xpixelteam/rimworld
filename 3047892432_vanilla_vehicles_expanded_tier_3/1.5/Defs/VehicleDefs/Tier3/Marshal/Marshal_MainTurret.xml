@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Marshal_MainTurret</defName>
+		<label>high-explosive shell</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		
+		<graphicData>
+			<texPath>Projectiles/Marshal_Shot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4, 4)</drawSize>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>54</damageAmountBase>
+			<speed>162</speed>
+			<explosionRadius>5.9</explosionRadius>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+	
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>Marshal_MainTurret</defName>
+		<label>Main Turret</label>
+		<description>A large and powerful tank cannon capable of firing explosive shells over long distance. Usually mounted on Marshal tanks.</description>
+		
+		<turretType>Rotatable</turretType>
+		<shotSound>VVE_Shot_MarshalCannonSound</shotSound>
+		<reloadSound>VVE_MarshalReloadSound</reloadSound>
+		
+		<projectile>Bullet_Marshal_MainTurret</projectile>
+		<reloadTimer>4.4</reloadTimer>
+		<warmUpTimer>3.4</warmUpTimer>
+		<chargePerAmmoCount>5</chargePerAmmoCount>
+		
+		<magazineCapacity>1</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<hitFlags>IntendedTarget</hitFlags>
+		
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>1.35</rotationSpeed>
+		
+		<projectileOffset>4.15</projectileOffset>
+		
+		<minRange>4</minRange>
+		<maxRange>64.9</maxRange>
+		
+		<recoil>
+			<distanceTotal>0.7</distanceTotal>
+			<distancePerTick>0.15</distancePerTick>
+			<speedMultiplierPostRecoil>0.35</speedMultiplierPostRecoil>
+		</recoil>
+		
+		<vehicleRecoil>
+			<distanceTotal>0.35</distanceTotal>
+			<distancePerTick>0.15</distancePerTick>
+			<speedMultiplierPostRecoil>0.75</speedMultiplierPostRecoil>
+		</vehicleRecoil>
+		
+		<attachProjectileFlag>VVE_Tank</attachProjectileFlag>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<spreadRadius>4</spreadRadius>
+				<label>Single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_ModernArmor/Tier3_ModernArmor_CannonTop</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(8, 8)</drawSize>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</ammunition>
+		
+		<motes>
+			<li>
+				<cycles>1</cycles>
+				<moteDef>Mote_CannonPlume</moteDef>
+				<offset>(0, 0, 2)</offset>
+				<animationType>Reset</animationType>
+			</li>
+		</motes>
+	</Vehicles.VehicleTurretDef>
+</Defs>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+      <!-- Dwarven -->
+
+  <DesignatorDropdownGroupDef>
+    <defName>DV_Floor_Dwarven_Tile</defName>
+    <label>dwarven tile</label>
+  </DesignatorDropdownGroupDef>
+
+  <TerrainDef ParentName="IdeoStoneTileBase" Name="DwarvenStoneTile" Abstract="True">
+    <description>Fine stone tiles in a dwarven style.</description>
+    <texturePath>Terrain/Surfaces/DwarvenTiles</texturePath>
+    <designatorDropdown>DV_Floor_Dwarven_Tile</designatorDropdown>
+    <dominantStyleCategory>DV_Dwarven</dominantStyleCategory>
+  </TerrainDef>
+
+  <TerrainDef ParentName="DwarvenStoneTile">
+    <defName>Tile_DwarvenSandstone</defName>
+    <label>dwarven sandstone tile</label>
+    <color>(147,127,118)</color>
+    <costList>
+      <BlocksSandstone>20</BlocksSandstone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="DwarvenStoneTile">
+    <defName>Tile_DwarvenGranite</defName>
+    <label>dwarven granite tile</label>
+    <color>(105,95,97)</color>
+    <costList>
+      <BlocksGranite>20</BlocksGranite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="DwarvenStoneTile">
+    <defName>Tile_DwarvenLimestone</defName>
+    <label>dwarven limestone tile</label>
+    <color>(158,153,135)</color>
+    <costList>
+      <BlocksLimestone>20</BlocksLimestone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="DwarvenStoneTile">
+    <defName>Tile_DwarvenSlate</defName>
+    <label>dwarven slate tile</label>
+    <color>(70,70,70)</color>
+    <costList>
+      <BlocksSlate>20</BlocksSlate>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="DwarvenStoneTile">
+    <defName>Tile_DwarvenMarble</defName>
+    <label>dwarven marble tile</label>
+    <color>(180,180,180)</color>
+    <costList>
+      <BlocksMarble>20</BlocksMarble>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef MayRequire="det.epochspottery" ParentName="DwarvenStoneTile">
+    <defName>Tile_DwarvenClay</defName>
+    <label>dwarven clay tile</label>
+    <color>(130, 89, 67)</color>
+    <costList>
+      <DV_ClayBricks>20</DV_ClayBricks>
+    </costList>
+  </TerrainDef>
+  
+</Defs>

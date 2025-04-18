@@ -1,0 +1,45 @@
+<LanguageData>
+  <!--Initializing LightsOut-->
+  <LightsOut_InitializingMod>Инициализация LightsOut</LightsOut_InitializingMod>
+  <!--LightsOut-->
+  <LightsOut>LightsOut</LightsOut>
+  <!--On Standby-->
+  <LightsOut_OnStandby>В режиме ожидания</LightsOut_OnStandby>
+  <!--Turn off lights in empty rooms-->
+  <LightsOut_Settings_EverythingButLightsOutLabel>Выключать свет в пустых комнатах</LightsOut_Settings_EverythingButLightsOutLabel>
+  <!--If you turn this off, this mod becomes \"LightsOn\". On by default.-->
+  <LightsOut_Settings_EverythingButLightsOutTooltip>"Если вы отключите это, этот мод станет "LightsOn". Включено по умолчанию."</LightsOut_Settings_EverythingButLightsOutTooltip>
+  <!--Keep the lights on when your pawns go to bed-->
+  <LightsOut_Settings_NightLightsLabel>Держите свет включенным, когда ваши пешки ложатся спать</LightsOut_Settings_NightLightsLabel>
+  <!--Enable this if your pawns are scared of the dark. Off by default.-->
+  <LightsOut_Settings_NightLightsTooltip>Включите это, если ваши пешки боятся темноты. Выключено по умолчанию.</LightsOut_Settings_NightLightsTooltip>
+  <!--Standby power draw (%)-->
+  <LightsOut_Settings_LatentPowerDrawRateLabel>Потребляемая мощность в режиме ожидания (%)</LightsOut_Settings_LatentPowerDrawRateLabel>
+  <!--Percentage of normal power (or other resource) to draw when in standby. 0% by default (0-100%).-->
+  <LightsOut_Settings_LatentPowerDrawRateTooltip>Процент от нормальной мощности (или другого ресурса), потребляемого в режиме ожидания. 0% по умолчанию (0-100%).</LightsOut_Settings_LatentPowerDrawRateTooltip>
+  <!--Power draw when in use (%)-->
+  <LightsOut_Settings_ActivePowerDrawRateLabel>Потребляемая мощность при использовании (%)</LightsOut_Settings_ActivePowerDrawRateLabel>
+  <!--Percentage of normal power (or other resource) to draw when in use. 100% by default (100+%).-->
+  <LightsOut_Settings_ActivePowerDrawRateTooltip>Процент от нормальной мощности (или другого ресурса), потребляемого при использовании. 100% по умолчанию (100+%).</LightsOut_Settings_ActivePowerDrawRateTooltip>
+  <!--Log extra debug information-->
+  <LightsOut_Settings_DebugMessagesLabel>Записывать дополнительную отладочную информацию в журнал</LightsOut_Settings_DebugMessagesLabel>
+  <!--If enabled extra debug messages will be logged. Keep this off unless you're debugging this mod.-->
+  <LightsOut_Settings_DebugMessagesTooltip>Если включено, будут регистрироваться дополнительные отладочные сообщения. Отключите это, если только вы не отлаживаете этот мод.</LightsOut_Settings_DebugMessagesTooltip>
+  <!--Debug message keys-->
+  <LightsOut_Settings_DebugMessageFilterLabel>Ключи отладочных сообщений</LightsOut_Settings_DebugMessageFilterLabel>
+  <!--A space-delimited list of debug message keys that should log.-->
+  <LightsOut_Settings_DebugMessageFilterTooltip>Разделенный пробелом список ключей отладочных сообщений, которые должны регистрироваться.</LightsOut_Settings_DebugMessageFilterTooltip>
+  
+  <!--Keep On-->
+  <LightsOut_Gizmos_KeepOnLabel>Всегда включен</LightsOut_Gizmos_KeepOnLabel>
+  <!--Prevent pawns from turning this light off.-->
+  <LightsOut_Gizmos_KeepOnTooltip>Не переводить в режим ожидания.</LightsOut_Gizmos_KeepOnTooltip>
+  <!--Allow animals to activate lights-->
+  <LightsOut_Settings_AnimalPartyLabel>Разрешить животным включать свет</LightsOut_Settings_AnimalPartyLabel>
+  <!--Allows animals to activate/deactivate lights as they move around rooms-->
+  <LightsOut_Settings_AnimalPartyTooltip>Позволяет животным включать/выключать свет, когда они перемещаются по помещениям</LightsOut_Settings_AnimalPartyTooltip>
+  <!--Seconds to wait before turning off lights-->
+  <LightsOut_Settings_DelaySecondsLabel>Время до выключения света</LightsOut_Settings_DelaySecondsLabel>
+  <!--The number of seconds between a pawn wanting to turn off a light and the light actually turning off. Useful to stop lights from flickering in high-traffic areas.-->
+  <LightsOut_Settings_DelaySecondsTooltip>Количество секунд между желанием пешки выключить свет и фактическим выключением света. Полезно для предотвращения мерцания света в зонах с интенсивным движением.</LightsOut_Settings_DelaySecondsTooltip>
+</LanguageData>

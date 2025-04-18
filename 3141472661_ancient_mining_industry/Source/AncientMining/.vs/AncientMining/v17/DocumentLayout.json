@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3141472661\\source\\ancientmining\\ancientmining\\autodeepdrill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\autodeepdrill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3141472661\\source\\ancientmining\\ancientmining\\building_boringmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\building_boringmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3141472661\\source\\ancientmining\\ancientmining\\compquestscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\compquestscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3141472661\\source\\ancientmining\\ancientmining\\stonecutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\stonecutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3141472661\\source\\ancientmining\\ancientmining\\projectile_shotgunadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\projectile_shotgunadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|c:\\program files (x86)\\steam\\steamapps\\workshop\\content\\294100\\3141472661\\source\\ancientmining\\ancientmining\\harmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AC116-B28D-48FA-8148-B60E8BF7C90A}|AncientMining\\AncientMining.csproj|solutionrelative:ancientmining\\harmony.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoneCutter.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\StoneCutter.cs",
+              "RelativeDocumentMoniker": "AncientMining\\StoneCutter.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\StoneCutter.cs",
+              "RelativeToolTip": "AncientMining\\StoneCutter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:40:54.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Projectile_ShotgunAdaptor.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "RelativeDocumentMoniker": "AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "RelativeToolTip": "AncientMining\\Projectile_ShotgunAdaptor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:40:40.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Harmony.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\Harmony.cs",
+              "RelativeDocumentMoniker": "AncientMining\\Harmony.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\Harmony.cs",
+              "RelativeToolTip": "AncientMining\\Harmony.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:40:23.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompQuestScanner.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\CompQuestScanner.cs",
+              "RelativeDocumentMoniker": "AncientMining\\CompQuestScanner.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\CompQuestScanner.cs",
+              "RelativeToolTip": "AncientMining\\CompQuestScanner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:40:14.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Building_BoringMachine.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\Building_BoringMachine.cs",
+              "RelativeDocumentMoniker": "AncientMining\\Building_BoringMachine.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\Building_BoringMachine.cs",
+              "RelativeToolTip": "AncientMining\\Building_BoringMachine.cs",
+              "ViewState": "AQIAALUBAAAAAAAAAAA5wAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:40:03.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoDeepDrill.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\AutoDeepDrill.cs",
+              "RelativeDocumentMoniker": "AncientMining\\AutoDeepDrill.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\294100\\3141472661\\Source\\AncientMining\\AncientMining\\AutoDeepDrill.cs",
+              "RelativeToolTip": "AncientMining\\AutoDeepDrill.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:38:55.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

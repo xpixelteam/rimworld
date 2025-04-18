@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>MetalCrateB</defName>
+        <label>Metal Crate B</label>
+        <graphicData>
+            <texPath>Metal_Crate/Metal_Crate_B</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2.66,2.66)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <description>A small pile of metal crates that can store a range of items and is inflammable. Items stored inside will never deteriorate, burn, and don't affect the beauty of their surroundings.\n\nTotal Capacity: 40\n\nRotate to change appearance.</description>
+        <researchPrerequisites>
+            <li>Machining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Metal_Crate/Metal_Crate_B_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(2,2)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>900</MaxHitPoints>
+            <WorkToBuild>3,750</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>75</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>125</costStuffCount>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>10</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Root</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <paintable>true</paintable>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

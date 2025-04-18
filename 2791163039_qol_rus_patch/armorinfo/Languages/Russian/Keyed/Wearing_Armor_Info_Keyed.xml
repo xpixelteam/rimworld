@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <ArmorTab_TabName>Броня</ArmorTab_TabName>
+  <ArmorTab_ArmorRateByPart>Рейтинг брони</ArmorTab_ArmorRateByPart>
+  <ArmorTab_NoProtection>Часть тела не укрывается броней</ArmorTab_NoProtection>
+  <ArmorTab_ProtectArmorList>Защищен одеждой:</ArmorTab_ProtectArmorList>
+  <ArmorTab_ConfigExactProtection>Показывать точную защищенность броней</ArmorTab_ConfigExactProtection>
+  <ArmorTab_ConfigExactProtectionTooltip>Показывать точную информацию о защите от повреждений вместо  ванильной информации.</ArmorTab_ConfigExactProtectionTooltip>
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VVE_Sailing_Horrible.stages.0.label>{PAWN_gender ? Плавал : Плавала} на морском судне</VVE_Sailing_Horrible.stages.0.label>
+	<VVE_Sailing_Horrible.stages.0.description>Я {PAWN_gender ? был : была} на морском судне. Это было ужасно.</VVE_Sailing_Horrible.stages.0.description>
+
+	<VVE_Sailing_Approved.stages.0.label>{PAWN_gender ? Плавал : Плавала} на морском судне</VVE_Sailing_Approved.stages.0.label>
+	<VVE_Sailing_Approved.stages.0.description>Я {PAWN_gender ? был : была} на морском судне. Мне это понравилось.</VVE_Sailing_Approved.stages.0.description>
+
+	<VVE_Sailing_Required.stages.0.label>Зов сирен (более 1 дня)</VVE_Sailing_Required.stages.0.label>
+	<VVE_Sailing_Required.stages.0.description>Прошло уже какое-то время с тех пор, как я {PAWN_gender ? плавал : плавала} по волнам.</VVE_Sailing_Required.stages.0.description>
+
+	<VVE_Sailing_Required.stages.1.label>Зов сирен (более 5 дней)</VVE_Sailing_Required.stages.1.label>
+	<VVE_Sailing_Required.stages.1.description>Мне нужно поплавать на судне, я начинаю очень нервничать.</VVE_Sailing_Required.stages.1.description>
+
+	<VVE_Sailing_Required.stages.2.label>Зов сирен (более 10 дней)</VVE_Sailing_Required.stages.2.label>
+	<VVE_Sailing_Required.stages.2.description>Достаточно! Я чувствую призыв открытого моря! Я хочу плавать!</VVE_Sailing_Required.stages.2.description>
+
+	<VVE_Sailing_Required.stages.3.label>Зов сирен (более 20 дней)</VVE_Sailing_Required.stages.3.label>
+	<VVE_Sailing_Required.stages.3.description>Я {PAWN_gender ? ГОСПОДЬ : ГОСПОЖА} СВОЕЙ СУДЬБЫ! Я КАПИТАН СВОЕЙ ДУШИ! Я {PAWN_gender ? ДОЛЖЕН : ДОЛЖНА} ПЛАВАТЬ ПО МОРЯМ!</VVE_Sailing_Required.stages.3.description>
+</LanguageData>

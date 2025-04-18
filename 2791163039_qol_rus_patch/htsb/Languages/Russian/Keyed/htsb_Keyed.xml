@@ -1,0 +1,18 @@
+<LanguageData>
+    <HaulToBuilding>Take It to Storage!</HaulToBuilding>
+    <HaulToBuilding.Select>Выбрать</HaulToBuilding.Select>
+    <HaulToBuilding.UseWindows.Label>Использовать отдельное окно?</HaulToBuilding.UseWindows.Label>
+    <HaulToBuilding.UseWindows.Tooltip>Использовать отдельное окно при выборе складов из которых брать и в которые складывать в окне рецептов. Отдельное окно, например, используется при выборе назначения поселенца для определенной кровати.\nЕсли не выбирвать эту опцию, то выбор складов будет через выпадающее меню</HaulToBuilding.UseWindows.Tooltip>
+    <HaulToBuilding.TakeFromAll>Брать отовсюду</HaulToBuilding.TakeFromAll>
+    <HaulToBuilding.TakeFromSpecific>Брать из {0}</HaulToBuilding.TakeFromSpecific>
+    <HaulToBuilding.Places>{0} складов</HaulToBuilding.Places>
+    <HaulToBuilding.Designate.TakeFrom>Брать из...</HaulToBuilding.Designate.TakeFrom>
+    <HaulToBuilding.Designate.TakeTo>Хранить в...</HaulToBuilding.Designate.TakeTo>
+    <HaulToBuilding.Designate.LookIn>Искать в...</HaulToBuilding.Designate.LookIn>
+    <HaulToBuilding.Clear>Очистить</HaulToBuilding.Clear>
+    <HaulToBuidling.Reset>Сбросить положение окна инструмента выбора</HaulToBuidling.Reset>
+    <HaulToBuilding.DoDes.Label>Показывать инструмент выбора местоположений?</HaulToBuilding.DoDes.Label>
+    <HaulToBuilding.DoDes.Tooltip>Показывать кнопку в списке рецептов, чтобы открыть инструмент выбора местоположений на карте</HaulToBuilding.DoDes.Tooltip>
+    <HaulToBuilding.Des>Инструмент выбора открытого хранилища</HaulToBuilding.Des>
+    <HaulToBuilding.Designate.Remove>Удалить</HaulToBuilding.Designate.Remove>
+</LanguageData>

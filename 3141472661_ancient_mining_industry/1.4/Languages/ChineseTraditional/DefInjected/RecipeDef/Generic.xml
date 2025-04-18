@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: make autocannon shell (Canister) x50 -->
+  <MakeAmmo_Autocannon_Canister.label>制作自动炮霰弹x50</MakeAmmo_Autocannon_Canister.label>
+  <!-- EN: Craft 50 autocannon shell (Canister). -->
+  <MakeAmmo_Autocannon_Canister.description>制作自动炮霰弹x50</MakeAmmo_Autocannon_Canister.description>
+  <!-- EN: Making autocannon shell (Canister). -->
+  <MakeAmmo_Autocannon_Canister.jobString>制作自动炮霰弹x50</MakeAmmo_Autocannon_Canister.jobString>
+  
+</LanguageData>

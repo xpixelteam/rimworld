@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<VFEA.AbilityDisableReasonCooldown>{0} is on cooldown for {1}</VFEA.AbilityDisableReasonCooldown>
+	<VFEA.AbilityDisableReasonGeneral>{0} doesn't meet the requirements</VFEA.AbilityDisableReasonGeneral>
+
+	<VFEA.AbilityStatsPower>Power</VFEA.AbilityStatsPower>
+	<VFEA.AbilityStatsDuration>Duration</VFEA.AbilityStatsDuration>
+	
+	<VFEA.TargetMustBeHostile>Target must be hostile</VFEA.TargetMustBeHostile>
+
+	<VFEA.MinRadius>Minimum radius</VFEA.MinRadius>
+
+	<VFEA.RClickToAuto>Right-click to enable autocasting.</VFEA.RClickToAuto>
+	<VFEA.RClickToNoAuto>Right-click to disable autocasting.</VFEA.RClickToNoAuto>
+</LanguageData>

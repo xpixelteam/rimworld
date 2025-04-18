@@ -1,0 +1,41 @@
+<LanguageData>
+
+  <!-- Mod Settings -->
+  <Brrr.Name>Brrr and Phew</Brrr.Name>
+  <Brrr.CurrentModVersion>Версия: {0}</Brrr.CurrentModVersion>
+  <Brrr.UseBrrr>Включить Brrr (Реакция на Переохлаждение):</Brrr.UseBrrr>
+  <Brrr.UnsafeBrrrSev>Процент Переохлаждения для активации [по умол. 20%]:</Brrr.UnsafeBrrrSev>
+  <Brrr.UnsafeBrrrSevTip>По умол. [20%]</Brrr.UnsafeBrrrSevTip>
+  <Brrr.UsePhew>Включить Phew (Реакция на Тепловой удар):</Brrr.UsePhew>
+  <Brrr.UnsafePhewSev>Процент Теплового удара для активации [по умол. 20%]:</Brrr.UnsafePhewSev>
+  <Brrr.UnsafePhewSevTip>По умол. [20%]</Brrr.UnsafePhewSevTip>
+  <Brrr.UseYuk>Включить Yuk (Реакция на Токсины):</Brrr.UseYuk>
+  <Brrr.UnsafeYukSev>Процент Токсинов для активации [по умол. 10%]:</Brrr.UnsafeYukSev>
+  <Brrr.UnsafeYukSevTip>По умол. [10%]</Brrr.UnsafeYukSevTip>
+  <Brrr.UseGasp>Включить Gasp (Реакция на Ккислородное голодание):</Brrr.UseGasp>
+  <Brrr.UnsafeGaspSev>Процент Кислородного голодания для активации [по умол. 10%]:</Brrr.UnsafeGaspSev>
+  <Brrr.UnsafeGaspSevTip>По умол. [10%]</Brrr.UnsafeGaspSevTip>
+  <Brrr.UseOoh>Включить Ooh (Реакция на Приступ клаустрофобии):</Brrr.UseOoh>
+  <Brrr.OohSev>Процент Приступ клаустрофобии для активации [по умол. 20%]:</Brrr.OohSev>
+  <Brrr.OohSevTip>По умол. [20%]</Brrr.OohSevTip>
+  <Brrr.AllowJoy>Разрешить развлекательные активности во время выздоровления:</Brrr.AllowJoy>
+  <Brrr.JoySev>Процент, когда требуется развлечения [по умол. 12.5%]:</Brrr.JoySev>
+  <Brrr.JoySevTip>По умол. [12.5%]</Brrr.JoySevTip>
+  <Brrr.ApplyAnimals>Включить соответствующие реакции на животных:</Brrr.ApplyAnimals>
+  <Brrr.AllowUnsafeAreas>Разрешить восстановление в небезопасных зонах:</Brrr.AllowUnsafeAreas>
+  <!-- Content -->
+  <Brrr.BrrrRecoverSleeping>сон, восстановление (Переохлаждение).</Brrr.BrrrRecoverSleeping>
+  <Brrr.BrrrRecoverResting>отдых, восстановление (Переохлаждение).</Brrr.BrrrRecoverResting>
+  <Brrr.PhewRecoverSleeping>сон, восстановление (Тепловой удар).</Brrr.PhewRecoverSleeping>
+  <Brrr.PhewRecoverResting>отдых, восстановление (Тепловой удар).</Brrr.PhewRecoverResting>
+  <Brrr.YukRecoverSleeping>сон, восстановление (Токсины).</Brrr.YukRecoverSleeping>
+  <Brrr.YukRecoverResting>отдых, восстановление (Токсины).</Brrr.YukRecoverResting>
+  <Brrr.GaspRecoverSleeping>сон, восстановление (Ккислородное голодание).</Brrr.GaspRecoverSleeping>
+  <Brrr.GaspRecoverResting>отдых, восстановление (Ккислородное голодание).</Brrr.GaspRecoverResting>
+  <Brrr.OohEclipse>Наблюдает Затмение (Приступ клаустрофобии)</Brrr.OohEclipse>
+  <Brrr.OohAurora>Наблюдает Рассвет (Приступ клаустрофобии)</Brrr.OohAurora>
+  <Brrr.OohStarGazing>Мечтает (Приступ клаустрофобии)</Brrr.OohStarGazing>
+  <Brrr.OohSunrise>Наблюдает Восход (Приступ клаустрофобии)</Brrr.OohSunrise>
+  <Brrr.OohSunset>Наблюдает Закат (Приступ клаустрофобии)</Brrr.OohSunset>
+  <Brrr.OohClouds>Наблюдает за облаками (Приступ клаустрофобии)</Brrr.OohClouds>
+</LanguageData>

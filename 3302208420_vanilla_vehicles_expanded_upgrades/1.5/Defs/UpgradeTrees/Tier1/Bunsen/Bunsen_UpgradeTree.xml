@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.UpgradeTreeDef>
+		<defName>VVE_Bunsen_UpgradeTree</defName>
+		 
+		<nodes>
+			<li>
+				<key>EngineCover</key>
+				<label>Engine Cover</label>
+				<description>Cover the engine with extended armor plating, protecting it from gunfire.</description>
+				
+				<icon>Upgrades/Upgrade_EngineCover</icon>
+				
+				<work>3200</work>
+				
+				<gridCoordinate>(6, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.VehicleUpgrade">
+						<health>
+							<li>
+								<key>Engine</key>
+								<depth>Internal</depth>
+							</li>
+						</health>
+					</li>
+					<li Class = "Vehicles.StatUpgrade">
+						<stats>
+							<li>
+								<def>ArmorRating_Sharp</def>
+								<value>0.2</value>
+							</li>
+							<li>
+								<def>ArmorRating_Blunt</def>
+								<value>0.2</value>
+							</li>
+						</stats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>80</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Bunsen/Tier1_FlamerTank_UpgradeEngineCover</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,5)</drawSize>
+							<layer>2</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>ReinforcedArmor</key>
+				<label>Reinforced Armor</label>
+				<description>Weld a layer of reinforced steel plating to the vehicle, increasing its armor value at the cost of increasing vehicle mass and lowering acceleration.</description>
+				
+				<icon>Upgrades/Upgrade_ExtraArmor</icon>
+				
+				<work>6000</work>
+				
+				<gridCoordinate>(12, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<stats>
+							<li>
+								<def>ArmorRating_Blunt</def>
+								<value>0.16</value>
+							</li>
+							<li>
+								<def>ArmorRating_Sharp</def>
+								<value>0.18</value>
+							</li>
+						</stats>
+						<vehicleStats>
+							<li>
+								<def>AccelerationRate</def>
+								<value>-0.01</value>
+							</li>
+							<li>
+								<def>Mass</def>
+								<value>110</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>260</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Bunsen/Tier1_FlamerTank_UpgradeArmor</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,5)</drawSize>
+							<layer>2</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>ArmoredTreads</key>
+				<label>Armored Treads</label>
+				<description>Improve the armor of the treads by covering them in thick steel plating.</description>
+				
+				<icon>Upgrades/Upgrade_TreadArmor</icon>
+				
+				<work>6000</work>
+				
+				<gridCoordinate>(18, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.VehicleUpgrade">
+						<armor>
+							<li>
+								<key>LeftTrack</key>
+								<statModifiers>
+									<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+									<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+								</statModifiers>
+							</li>
+							<li>
+								<key>RightTrack</key>
+								<statModifiers>
+									<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+									<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+								</statModifiers>
+							</li>
+						</armor>
+						<health>
+							<li>
+								<key>LeftTrack</key>
+								<depth>Internal</depth>
+							</li>
+							<li>
+								<key>RightTrack</key>
+								<depth>Internal</depth>
+							</li>
+							<li>
+								<key>FrontLeftDriveSprocket</key>
+								<depth>Internal</depth>
+							</li>
+							<li>
+								<key>FrontRightDriveSprocket</key>
+								<depth>Internal</depth>
+							</li>
+							<li>
+								<key>BackLeftDriveSprocket</key>
+								<depth>Internal</depth>
+							</li>
+							<li>
+								<key>BackRightDriveSprocket</key>
+								<depth>Internal</depth>
+							</li>
+						</health>
+					</li>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>Mass</def>
+								<value>40</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>220</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Bunsen/Tier1_FlamerTank_UpgradeTreadArmor</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,5)</drawSize>
+							<layer>1</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>LongBarrel</key>
+				<label>Long Barrel</label>
+				<description>Increase the length of the tank barrel, allowing for more precise shots over significantly longer distance, but decreasing the rotation speed of the cannon.</description>
+				
+				<icon>Upgrades/Upgrade_TurretLong</icon>
+				
+				<work>7800</work>
+				
+				<gridCoordinate>(24, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+
+				<disableIfUpgradeNodesEnabled>
+					<li>ShortBarrel</li>
+					<li>LauncherBarrel</li>
+				</disableIfUpgradeNodesEnabled>
+
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li Class="VanillaVehiclesExpanded.FueledVehicleTurret">
+								<turretDef>VVE_Bunsen_MainTurret_Long</turretDef>
+								
+								<renderProperties>
+									<north>(-0.05, 0.2)</north>
+									<south>(-0.02, 0.2)</south>
+									<east>(-0.02, 0.4)</east>
+								</renderProperties>
+								<drawLayer>3</drawLayer>
+
+								<gizmoLabel>Main Turret</gizmoLabel>
+								
+								<angleRestricted/>
+								<aimPieOffset>(0, 1.5)</aimPieOffset>
+								
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+						<removeTurrets>
+							<li>mainTurret</li>
+						</removeTurrets>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>100</Steel>
+					<ComponentIndustrial>2</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<li>
+				<key>LauncherBarrel</key>
+				<label>Launcher Barrel</label>
+				<description>Change the fuel injection system and install a barrel choke to allow the tank to fire long range explosive flame projectiles instead of a stream of fire.</description>
+				
+				<icon>Upgrades/Upgrade_TurretLauncher</icon>
+				
+				<work>7800</work>
+				
+				<gridCoordinate>(30, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+
+				<disableIfUpgradeNodesEnabled>
+					<li>ShortBarrel</li>
+					<li>LongBarrel</li>
+				</disableIfUpgradeNodesEnabled>
+
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li Class="VanillaVehiclesExpanded.FueledVehicleTurret">
+								<turretDef>VVE_Bunsen_MainTurret_Launcher</turretDef>
+								
+								<renderProperties>
+									<north>(-0.05, 0.2)</north>
+									<south>(-0.02, 0.2)</south>
+									<east>(-0.02, 0.4)</east>
+								</renderProperties>
+								<drawLayer>3</drawLayer>
+
+								<gizmoLabel>Main Turret</gizmoLabel>
+								
+								<angleRestricted/>
+								<aimPieOffset>(0, 1.5)</aimPieOffset>
+								
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+						<removeTurrets>
+							<li>mainTurret</li>
+						</removeTurrets>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>100</Steel>
+					<ComponentIndustrial>2</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<li>
+				<key>ShortBarrel</key>
+				<label>Short Barrel</label>
+				<description>Decrease the length of the tank barrel, allowing for more rapid shots at the cost of precision and range. The reduced weight of the turret allows for faster rotation speed.</description>
+				
+				<icon>Upgrades/Upgrade_TurretShort</icon>
+				
+				<work>6000</work>
+				
+				<gridCoordinate>(36, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+
+				<disableIfUpgradeNodesEnabled>
+					<li>LauncherBarrel</li>
+					<li>LongBarrel</li>
+				</disableIfUpgradeNodesEnabled>
+
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li Class="VanillaVehiclesExpanded.FueledVehicleTurret">
+								<turretDef>VVE_Bunsen_MainTurret_Short</turretDef>
+								
+								<renderProperties>
+									<north>(-0.05, 0.2)</north>
+									<south>(-0.02, 0.2)</south>
+									<east>(-0.02, 0.4)</east>
+								</renderProperties>
+								<drawLayer>3</drawLayer>
+
+								<gizmoLabel>Main Turret</gizmoLabel>
+								
+								<angleRestricted/>
+								<aimPieOffset>(0, 1.5)</aimPieOffset>
+								
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+						<removeTurrets>
+							<li>mainTurret</li>
+						</removeTurrets>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>40</Steel>
+					<ComponentIndustrial>1</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<!-- Basic -->
+			<li>
+				<key>CargoCapacity</key>
+				<label>Cargo Capacity</label>
+				<description>Improve the cargo capacity of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_CargoCapacity</icon>
+				
+				<work>600</work>
+				
+				<gridCoordinate>(6, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>CargoCapacity</def>
+								<value>20</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>25</Steel>
+				</ingredients>
+			</li>
+			<li>
+				<key>Armor</key>
+				<label>Armor</label>
+				<description>Reinforce the armor of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_Armor</icon>
+				
+				<work>1200</work>
+				
+				<gridCoordinate>(12, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<stats>
+							<li>
+								<def>ArmorRating_Blunt</def>
+								<value>0.02</value>
+							</li>
+							<li>
+								<def>ArmorRating_Sharp</def>
+								<value>0.04</value>
+							</li>
+						</stats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>50</Steel>
+				</ingredients>
+			</li>
+			<li>
+				<key>Speed</key>
+				<label>Speed</label>
+				<description>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</description>
+				
+				<icon>Upgrades/Upgrade_MovementSpeed</icon>
+				
+				<work>1700</work>
+				
+				<gridCoordinate>(18, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>MoveSpeed</def>
+								<value>1.0</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_EngineBlock>1</VVE_EngineBlock>
+				</ingredients>
+			</li>
+			<li>
+				<key>Acceleration</key>
+				<label>Acceleration</label>
+				<description>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_Acceleration</icon>
+				
+				<work>1000</work>
+				
+				<gridCoordinate>(24, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>AccelerationRate</def>
+								<value>0.005</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarTransmission>1</VVE_CarTransmission>
+				</ingredients>
+			</li>
+			<li>
+				<key>FuelConsumption</key>
+				<label>Fuel Consumption</label>
+				<description>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</description>
+				
+				<icon>Upgrades/Upgrade_FuelConsumption</icon>
+				
+				<work>1000</work>
+				
+				<gridCoordinate>(30, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>FuelConsumptionRate</def>
+								<value>-2</value>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarExhaust>2</VVE_CarExhaust>
+				</ingredients>
+			</li>
+			<li>
+				<key>FuelCapacity</key>
+				<label>Fuel Capacity</label>
+				<description>Increase the size of the chemtank slightly.</description>
+				
+				<icon>Upgrades/Upgrade_FuelCapacity</icon>
+				
+				<work>800</work>
+				
+				<gridCoordinate>(36, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>FuelCapacity</def>
+								<value>20</value>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>20</Steel>
+				</ingredients>
+			</li>
+		</nodes>
+	</Vehicles.UpgradeTreeDef>
+</Defs>

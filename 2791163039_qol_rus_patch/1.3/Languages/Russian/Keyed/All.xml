@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- TD -->
+	<TD.PasteFrom>Вставить из</TD.PasteFrom>
+	<TD.SettingColorGenNoVariation>Не используйте вышеуказанную цветовую вариацию при использовании генератора цветов</TD.SettingColorGenNoVariation>
+	<TD.CaravanSaveManifest>Закрыв диалог каравана, вы запомните список вещей для отправки, и открыв его снова, вы снова выберете их</TD.CaravanSaveManifest>
+	<TD.BlueprintAnyStuff>Щелкните правой кнопкой мыши инструмент построения, чтобы выбрать любой материал для построки</TD.BlueprintAnyStuff>
+	<TD.RecipeCannotHaveSurplus>(Рецепт не может иметь избыточного количества материала, потому что содержит несколько ингредиентов.)</TD.RecipeCannotHaveSurplus>
+	<!-- allow tool maybe -->
+	<Designator_context_chop_home>Вырубить все деревья в домашней зоне</Designator_context_chop_home>
+	
+	
+	
+	<!-- Vanilla Furniture Expanded - Spacer Module -->
+	
+<TargetLightRadius>Текущий радиус света</TargetLightRadius>
+<CurrentLightOpacity>Текущая интенсивность</CurrentLightOpacity>
+<CommandRaiseLightRDesc>Увеличить текущий радиус.</CommandRaiseLightRDesc>
+<CommandLowerLightRDesc>Уменьшить текущий радиус.</CommandLowerLightRDesc>
+<CommandRaiseLightIntDesc>Увеличить текущую интенсивность.</CommandRaiseLightIntDesc>
+<CommandLowerLightIntDesc>Уменьшить текущую интенсивность.</CommandLowerLightIntDesc>
+<LightIntensityPercent>% Интенсивность.</LightIntensityPercent>
+<LightRadiusCells> Радиус клеток.</LightRadiusCells>
+<SwitchedColourDesc>Переключите цвет света на </SwitchedColourDesc>
+<LightColourRed>Красный</LightColourRed>
+<LightColourGreen>Зеленый</LightColourGreen>
+<LightColourBlue>Синий</LightColourBlue>
+<LightColourWhite>Белый</LightColourWhite>
+
+
+	<!--  -->
+	<!--  -->
+	<!--  -->
+</LanguageData>

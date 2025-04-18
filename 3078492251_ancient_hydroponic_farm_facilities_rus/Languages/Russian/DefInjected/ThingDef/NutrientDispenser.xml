@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AncientNutrientDispenser.label>Древний дозатор питательных растворов</AncientNutrientDispenser.label>
+  <AncientNutrientDispenser.description>Древний дозатор питательного раствора, используемый для обработки и преобразования питательной пасты в питательный раствор, который затем транспортируется по системе труб для использования в гидропонике. Его основные компоненты исчезли, но некоторые остались нетронутыми. Может быть, уничтожить его, чтобы получить что-то полезное.</AncientNutrientDispenser.description>
+  <AncientNutrientDispenser_Blueprint.label>Древний дозатор питательного раствора (чертеж)</AncientNutrientDispenser_Blueprint.label>
+  <AncientNutrientDispenser_Frame.label>древний дозатор питательного раствора (здание)</AncientNutrientDispenser_Frame.label>
+  <AncientNutrientDispenser_Frame.description>Древний дозатор питательного раствора, используемый для обработки и преобразования питательной пасты в питательный раствор, который затем транспортируется по системе труб для использования в гидропонике. Его основные компоненты исчезли, но некоторые остались нетронутыми. Может быть, уничтожить его, чтобы получить что-то полезное.</AncientNutrientDispenser_Frame.description>
+
+
+</LanguageData>

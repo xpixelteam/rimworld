@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Mixer</defName>
+    <label>mixer</label>
+    <description>A versatile kitchen appliance designed for combining, blending, and whipping ingredients together to create various culinary concoctions. Featuring a motorized base with multiple speed settings, a mixing bowl, and interchangeable attachments such as beaters, whisks, and dough hooks, the mixer offers convenience and efficiency in food preparation tasks.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Mixer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>50</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>1.2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<CookSpeed>0.35</CookSpeed>
+<DrugSynthesisSpeed>0.35</DrugSynthesisSpeed>
+<DrugCookingSpeed>0.35</DrugCookingSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>2</ComponentIndustrial>
+	   </costList>
+    <tools>
+     <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Drill</defName>
+    <label>drill</label>
+    <description>A portable, manually-operated tool used for drilling holes in various materials such as wood, metal, and plastic. Consisting of a handle, a chuck to hold drill bits, and a rotating mechanism, the hand drill allows users to exert controlled force to create precise holes without the need for electricity. Versatile and convenient, it's an essential tool for woodworking, DIY projects, and tasks where mobility and simplicity are valued.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Drill</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>50</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<ConstructionSpeed>0.30</ConstructionSpeed>
+<ConstructSuccessChance>0.20</ConstructSuccessChance>
+<ButcheryMechanoidSpeed>0.15</ButcheryMechanoidSpeed>
+<ButcheryMechanoidEfficiency>0.15</ButcheryMechanoidEfficiency>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>3</ComponentIndustrial>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Rock_Drill</defName>
+    <label>rock drill</label>
+    <description>A powerful, specialized tool designed for drilling holes into hard materials such as rock, concrete, or masonry. Featuring a pneumatic or hydraulic mechanism, along with hardened drill bits, the rock drill is capable of delivering high impact forces to penetrate tough surfaces efficiently. Widely used in construction, mining, and geological exploration, it enables workers to create boreholes for various purposes, including blasting, anchoring, and exploration.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Rock_drill</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>100</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<MiningSpeed>0.35</MiningSpeed>
+ <MiningYield>0.20</MiningYield>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>5</ComponentIndustrial>
+	<Chemfuel>50</Chemfuel>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Sander</defName>
+    <label>sander</label>
+    <description>A versatile power tool used for smoothing surfaces by abrasion. Featuring a motorized mechanism and abrasive material such as sandpaper, the sander rapidly removes rough spots, imperfections, or old finishes from wood, metal, or other materials</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Sander</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>100</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<SmoothingSpeed>0.30</SmoothingSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>3</ComponentIndustrial>
+	   </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Chainsaw</defName>
+    <label>chainsaw</label>
+    <description>A powerful handheld cutting tool equipped with a motorized chain and teeth that rotate around a guide bar. Used primarily for felling trees, pruning branches, and cutting lumber, the chainsaw is a versatile and efficient tool in forestry, landscaping, and construction. It enables users to quickly and precisely cut through wood with ease, making it indispensable for tasks requiring fast and precise cutting in outdoor environments.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Chainsaw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(1,1)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>100</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+ <PlantWorkSpeed>0.35</PlantWorkSpeed>
+<PlantHarvestYield>0.20</PlantHarvestYield>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>5</ComponentIndustrial>
+	<Chemfuel>50</Chemfuel>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Electric_Shears</defName>
+    <label>electric shears</label>
+    <description>Revolutionize the process of wool and fur harvesting by harnessing the power of electricity to enhance efficiency and productivity. Featuring precision-engineered blades and a motorized mechanism, these advanced shears effortlessly glide through animal coats, swiftly gathering valuable resources with minimal effort from colonists</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Electric_shears</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.7,0.7)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>50</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<AnimalGatherSpeed>0.30</AnimalGatherSpeed>
+<AnimalGatherYield>0.20</AnimalGatherYield>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>2</ComponentIndustrial>
+	<Chemfuel>50</Chemfuel>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>0.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+   
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Industrial_Tool_set</defName>
+    <label>industrial tool set</label>
+    <description>The industrial tool set for crafting is a comprehensive collection of high-quality tools specifically engineered for precision work in manufacturing, construction, or fabrication industries. This robust kit comprises a diverse range of instruments tailored to handle various materials and tasks with efficiency and accuracy.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Industrial_tools</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>100</costStuffCount> <weaponTags><li>Toolagri</li> </weaponTags>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<GeneralLaborSpeed>0.35</GeneralLaborSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>5</ComponentIndustrial>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Drilling_pad</defName>
+    <label>Drilling pad</label>
+    <description>A versatile drilling assistant pad designed to enhance stability and precision during drilling tasks. Its ergonomic design offers comfort and control, reducing fatigue and improving efficiency. Compatible with various drills, it provides a reliable foundation for accurate drilling, suitable for both professionals and DIY enthusiasts alike.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Drilling_pad</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<DeepDrillingSpeed>0.50</DeepDrillingSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+<costList>
+<Steel>100</Steel>
+	<ComponentIndustrial>5</ComponentIndustrial>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Vacuum_cleaner</defName>
+    <label>vacuum cleaner</label>
+    <description>A vacuum cleaner, commonly known as a hoover or simply vacuum, is a household appliance designed for the removal of dust, dirt, and debris from floors, carpets, and other surfaces. Typically consisting of a motorized suction mechanism housed within a casing, vacuum cleaners utilize various attachments such as brushes and hoses to agitate and capture particles.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Vacuum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<CleaningSpeed>0.30</CleaningSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+  
+<costList>
+<Steel>100</Steel>
+	<ComponentIndustrial>5</ComponentIndustrial>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Document_briefcase</defName>
+    <label>document_briefcase</label>
+    <description>Meticulously crafted accessory tailored to meet the demands of scholars, academics, and professionals engaged in comprehensive research endeavors. Constructed from durable and high-quality materials, such as leather or nylon, it features a sophisticated yet functional design optimized for the organization, protection, and transport of research materials. This includes academic papers, reference books, journals, electronic devices, and writing implements.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Electric/Briefcase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+<shaderType>CutoutComplex</shaderType>
+<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+ <uiIconScale>1</uiIconScale>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>100</costStuffCount>
+	
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+<equippedStatOffsets>
+<GlobalLearningFactor>0.20</GlobalLearningFactor>
+  <TradePriceImprovement>0.20</TradePriceImprovement>
+  <ResearchSpeed>0.20</ResearchSpeed>
+</equippedStatOffsets>
+
+    <relicChance>1</relicChance>
+   <stuffCategories>
+       <li>Leathery</li>
+    </stuffCategories>
+<costList>
+	<ComponentIndustrial>3</ComponentIndustrial>
+		<Chemfuel>50</Chemfuel>
+	   </costList>
+    <tools>
+	<li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>IndustrialTools</researchPrerequisite>
+	  <recipeUsers Inherit="false">
+	 <li>TableMachining</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <displayPriority>410</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AccelerationRate.label>Ускорение</AccelerationRate.label>
+  <AccelerationRate.description>Скорость, с которой автомобиль ускоряется, в клетках в секунду. Более высокая скорость означает, что транспортное средство будет быстрее достигать своей максимальной скорости. Это также влияет на скорость замедления, которая вдвое превышает скорость ускорения.</AccelerationRate.description>
+  <AccelerationRate.formatString>{0}</AccelerationRate.formatString>
+
+
+</LanguageData>

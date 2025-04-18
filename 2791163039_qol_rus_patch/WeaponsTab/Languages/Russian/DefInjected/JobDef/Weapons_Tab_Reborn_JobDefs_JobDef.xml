@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--Defs/JobDefs/JobDefs.xml-->
+                               <!-- dropping TargetA. -->
+<DropEquipmentNoForbid.reportString>Выбрасывает TargetA.</DropEquipmentNoForbid.reportString>
+
+</LanguageData>

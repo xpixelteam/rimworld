@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/ThingsDefs_Buildings.xml-->
+                <!-- Packing Table -->
+<JDSTableCrate.label>Упаковочный стол</JDSTableCrate.label>
+                      <!-- Table which your can either pack or unpack Crates -->
+<JDSTableCrate.description>Стол, на котором вы можете упаковать и распаковать ящики</JDSTableCrate.description>
+
+</LanguageData>

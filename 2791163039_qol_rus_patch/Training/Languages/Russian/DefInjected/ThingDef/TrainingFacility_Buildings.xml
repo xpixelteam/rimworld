@@ -1,0 +1,9 @@
+<LanguageData>
+
+	<ShootingRangeTarget.label>мишень для стрельбы</ShootingRangeTarget.label>
+	<ShootingRangeTarget.description>Тир - это место, где вы можете потренировать свою зрительно-моторную координацию.</ShootingRangeTarget.description>
+	
+	<MartialArtsTarget.label>манекен для боевых искусств</MartialArtsTarget.label>
+	<MartialArtsTarget.description>Манекен для боевых искусств - это место, где вы можете тренировать свои боевые искусства, с оружием или без него.</MartialArtsTarget.description>
+
+</LanguageData>

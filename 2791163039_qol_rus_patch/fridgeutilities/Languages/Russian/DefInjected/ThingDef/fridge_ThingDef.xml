@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+<!--1.4/Defs/fridge.xml-->
+                   <!-- refrigerator -->
+<owl_refrigerator.label>Холодильник</owl_refrigerator.label>
+                         <!-- A powered, sealed container which can be used to freeze and store perishable food. -->
+<owl_refrigerator.description>Герметичный контейнер с энергопитанием, который можно использовать для замораживания и хранения скоропортящихся продуктов.</owl_refrigerator.description>
+                         <!-- doublewide refrigerator -->
+<owl_doublerefrigerator.label>двойной холодильник</owl_doublerefrigerator.label>
+                               <!-- A powered, sealed container which can be used to freeze and store perishable food. This unit is double the size. -->
+<owl_doublerefrigerator.description>Герметичный контейнер с энергопитанием, который можно использовать для замораживания и хранения скоропортящихся продуктов. Этот в два раза больше обычного.</owl_doublerefrigerator.description>
+</LanguageData>

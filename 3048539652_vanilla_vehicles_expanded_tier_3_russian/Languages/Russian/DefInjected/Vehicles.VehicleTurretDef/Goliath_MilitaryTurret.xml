@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Goliath_MilitaryTurret.label>Военная турель "Голиаф"</Goliath_MilitaryTurret.label>
+  <Goliath_MilitaryTurret.description>Военная двуствольная автоматическая турель, обычно устанавливаемая на осадных модулях "Голиаф". Требует стали для восстановления стволов после интенсивного использования. Может взорваться при повреждении. Имеет ограниченный угол обстрела.</Goliath_MilitaryTurret.description>
+  <Goliath_MilitaryTurret.fireModes.0.label>Очередь</Goliath_MilitaryTurret.fireModes.0.label>
+
+
+</LanguageData>

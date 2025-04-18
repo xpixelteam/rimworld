@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef  ParentName="AncientFacilities">
+		<defName>SurvivalNutrientPackCrateA</defName>
+		<label>SurvivalNutrientPack Crate</label>
+		<description>The boxes of survival nutrient pastes pack stacked in the Crate，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/SurvivalNutrientPackCrateA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>50</Steel>
+			<MealNutrientPaste>30</MealNutrientPaste>
+     	</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<SurvivalNutrientPack>30</SurvivalNutrientPack>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef  ParentName="AncientFacilities">
+		<defName>SurvivalNutrientPackCrateB</defName>
+		<label>SurvivalNutrientPack Crate</label>
+		<description>The boxes of survival nutrient pastes pack stacked in the Crate，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/SurvivalNutrientPackCrateB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>50</Steel>
+			<MealNutrientPaste>50</MealNutrientPaste>
+     	</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<SurvivalNutrientPack>50</SurvivalNutrientPack>
+		</killedLeavings>
+	</ThingDef>
+
+	<ThingDef  ParentName="AncientFacilities">
+		<defName>NutrientSolutionCrate</defName>
+		<label>Nutrient solution Crate</label>
+		<description>The boxes of nutrient solution stacked in the Crate，They are bound by tarpaulins and ropes, and perhaps breaking them can yield some resources</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/NutrientSolutionCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>50</Steel>
+			<HydroponicNutrientSolution>45</HydroponicNutrientSolution>
+     	</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<HydroponicNutrientSolution>55</HydroponicNutrientSolution>
+		</killedLeavings>
+	</ThingDef>
+	
+		<ThingDef  ParentName="AncientFacilities">
+		<defName>ClothCrate</defName>
+		<label>Cloths Crate</label>
+		<description>Many cloths stacked in the Crate，They are bound by tarpaulins and ropes, perhaps destroying it can obtain some resources</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/ClothCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>50</Steel>
+			<Cloth>125</Cloth>
+     	</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Cloth>105</Cloth>
+		</killedLeavings>
+	</ThingDef>
+	
+		<ThingDef  ParentName="AncientFacilities">
+		<defName>DevilstrandCrate</defName>
+		<label>Devilstrand Crate</label>
+		<description>Many Devilstrands stacked in the Crate，They are bound by tarpaulins and ropes, perhaps destroying it can obtain some resources</description>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<graphicData>
+			<texPath>Things/Building/Props/DevilstrandCrate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2, 0.8, 2)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>50</Steel>
+			<DevilstrandCloth>125</DevilstrandCloth>
+     	</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<DevilstrandCloth>105</DevilstrandCloth>
+		</killedLeavings>
+	</ThingDef>
+
+</Defs>

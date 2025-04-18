@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<Sr_CircuitBreaker_OnWall.label>автоматический выключатель</Sr_CircuitBreaker_OnWall.label>
+<Sr_CircuitBreaker_OnWall.description>Комплект автоматических выключателей на стене. Выдерживает разряд до 1800 Вт, отключается при срабатывании.</Sr_CircuitBreaker_OnWall.description>
+</LanguageData>

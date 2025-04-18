@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--1.4/Defs/WorkTypeDefs/TrainingFacility_WorkTypes.xml-->
+<MiscTraining_CombatTraining.labelShort>Тренировка</MiscTraining_CombatTraining.labelShort>
+<MiscTraining_CombatTraining.pawnLabel>Тренер по боевой подготовке</MiscTraining_CombatTraining.pawnLabel>
+<MiscTraining_CombatTraining.gerundLabel>боевая подготовка</MiscTraining_CombatTraining.gerundLabel>
+<MiscTraining_CombatTraining.description>Боевая подготовка. Будь то боевые искусства или стрельба. Вид зависит от оружия пользователя.</MiscTraining_CombatTraining.description>
+<MiscTraining_CombatTraining.verb>боевая подготовка</MiscTraining_CombatTraining.verb>
+
+</LanguageData>

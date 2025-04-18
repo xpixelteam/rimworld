@@ -1,0 +1,282 @@
+<LanguageData>
+	<!-- EN: Installed mod-version: {0} -->
+	<MTP.CurrentModVersion>Установленная версия: {0}</MTP.CurrentModVersion>
+	<!-- EN: Default marker-set: {0} -->
+	<MTP.DefaultMarkerSet>Стандартный набор маркеров: {0}</MTP.DefaultMarkerSet>
+	<!-- EN: Colonist marker-set: {0} -->
+	<MTP.ColonistMarkerSet>Набор маркеров колониста: {0}</MTP.ColonistMarkerSet>
+	<!-- EN: Different set for colonists -->
+	<MTP.ColonistDiffer>Набор для Колонистов</MTP.ColonistDiffer>
+	<!-- EN: Show gizmo on colonists -->
+	<MTP.ShowForColonist>Показывать кнопку (гизмо) при выборе колонистов</MTP.ShowForColonist>
+	<!-- EN: Prisoner marker-set: {0} -->
+	<MTP.PrisonerMarkerSet>Набор маркеров заключенных: {0}</MTP.PrisonerMarkerSet>
+	<!-- EN: Different set for prisoners -->
+	<MTP.PrisonerDiffer>Набор для Заключенных</MTP.PrisonerDiffer>
+	<!-- EN: Show gizmo on prisoners -->
+	<MTP.ShowForPrisoner>Показывать кнопку (гизмо) при выборе заключенных</MTP.ShowForPrisoner>
+	<!-- EN: Slave marker-set: {0} -->
+	<MTP.SlaveMarkerSet>Набор маркеров рабов: {0}</MTP.SlaveMarkerSet>
+	<!-- EN: Different set for slaves -->
+	<MTP.SlaveDiffer>Набор для Рабов</MTP.SlaveDiffer>
+	<!-- EN: Show gizmo on slaves -->
+	<MTP.ShowForSlave>Показывать кнопку (гизмо) при выборе рабов</MTP.ShowForSlave>
+	<!-- EN: Enemy marker-set: {0} -->
+	<MTP.EnemyMarkerSet>Набор маркеров Врагов : {0}</MTP.EnemyMarkerSet>
+	<!-- EN: Different set for enemies -->
+	<MTP.EnemyDiffer>Набор для врагов</MTP.EnemyDiffer>
+	<!-- EN: Show gizmo on enemies -->
+	<MTP.ShowForEnemy>Показывать кнопку (гизмо) при выборе врагов</MTP.ShowForEnemy>
+	<!-- EN: Neutral marker-set: {0} -->
+	<MTP.NeutralMarkerSet>Набор маркеров Нейтралов : {0}</MTP.NeutralMarkerSet>
+	<!-- EN: Different set for neutrals -->
+	<MTP.NeutralDiffer>Набор для НЕ врагов</MTP.NeutralDiffer>
+	<!-- EN: Show gizmo on neutrals -->
+	<MTP.ShowForNeutral>Показывать кнопку (гизмо) при выборе не врагов</MTP.ShowForNeutral>
+	<!-- EN: Vehicle marker-set: {0} -->
+	<MTP.VehiclesMarkerSet>Набор маркеров Транспорта: {0}</MTP.VehiclesMarkerSet>
+	<!-- EN: Different set for vehicles -->
+	<MTP.VehiclesDiffer>Набор для транспорта</MTP.VehiclesDiffer>
+	<!-- EN: Show gizmo on vehicles -->
+	<MTP.ShowForVehicles>Показывать кнопку (гизмо) при выборе транспорта</MTP.ShowForVehicles>
+	<!-- EN: Select marker -->
+	<MTP.SelectMarker>Выбрать маркер</MTP.SelectMarker>
+	<!-- EN: Add a marker to this pawn -->
+	<MTP.SelectMarkerTT>Добавить маркер к этой пешке</MTP.SelectMarkerTT>
+	<!-- EN: Increase icon-size when zoomed out -->
+	<MTP.RelativeToZoom>Увеличивать размер маркера при уменьшении масштаба</MTP.RelativeToZoom>
+	<!-- EN: Will increase the icon-size when zooming out to keep them more visible -->
+	<MTP.RelativeToZoomTT>Увеличит размер маркеров при уменьшении масштаба, чтобы они были более заметными</MTP.RelativeToZoomTT>
+	<!-- EN: Relative icon-size based on pawn-size -->
+	<MTP.RelativeIconSize>Относительный размер маркера</MTP.RelativeIconSize>
+	<!-- EN: Changes the relative size of the icons based on the pawns size -->
+	<MTP.RelativeIconSizeTT>Изменяет размер маркеров в зависимости от размера пешек</MTP.RelativeIconSizeTT>
+	<!-- EN: There is an unsaved rule, do you want to save your changes before closing? -->
+	<MTP.UnsavedRule>Существует несохраненное правило, вы хотите сохранить свои изменения перед закрытием?</MTP.UnsavedRule>
+	<!-- EN: Reset rules -->
+	<MTP.ResetAll>Сброс правил</MTP.ResetAll>
+	<!-- EN: Really remove all defined rules? -->
+	<MTP.ResetAllConfirm>Действительно удалить все установленные правила?</MTP.ResetAllConfirm>
+	<!-- EN: None selected -->
+	<MTP.NoneSelected>Не выбрано</MTP.NoneSelected>
+	<!-- EN: {0} selected -->
+	<MTP.SomeSelected>{0} выбран</MTP.SomeSelected>
+	<!-- EN: Change traits -->
+	<MTP.ChangeTraits>Изменить черты характера</MTP.ChangeTraits>
+	<!-- EN: Change skills -->
+	<MTP.ChangeSkills>Изменить навыки</MTP.ChangeSkills>
+	<!-- EN: Custom-icon -->
+	<MTP.CustomIcon>Другие</MTP.CustomIcon>
+	<!-- EN: Enabled -->
+	<MTP.Enabled>Включено</MTP.Enabled>
+	<!-- EN: Rule enabled, click to disable -->
+	<MTP.EnabledChange>Правило включено, нажмите, чтобы отключить</MTP.EnabledChange>
+	<!-- EN: Disabled -->
+	<MTP.Disabled>Выключено</MTP.Disabled>
+	<!-- EN: Rule cannot be enabled due to missing setting -->
+	<MTP.CannotEnable>Правило не может быть включено из-за отсутствия настройки</MTP.CannotEnable>
+	<!-- EN: Rule disabled, click to enable -->
+	<MTP.DisabledChange>Правило выключено, нажмите, чтобы включить</MTP.DisabledChange>
+	<!-- EN: Increase priority -->
+	<MTP.IncreasePrio>Повысить приоритет</MTP.IncreasePrio>
+	<!-- EN: Decrease priority -->
+	<MTP.DecreasePrio>Уменьшить приоритет</MTP.DecreasePrio>
+	<!-- EN: Save -->
+	<MTP.SaveAutomaticType>Сохранить</MTP.SaveAutomaticType>
+	<!-- EN: Cancel -->
+	<MTP.CancelAutomaticType>Отменить</MTP.CancelAutomaticType>
+	<!-- EN: Edit -->
+	<MTP.EditAutomaticType>Редактировать</MTP.EditAutomaticType>
+	<!-- EN: Delete -->
+	<MTP.DeleteAutomaticType>Удалить</MTP.DeleteAutomaticType>
+	<!-- EN: Really delete rule? -->
+	<MTP.DeleteAutomaticTypeConfirm>Действительно удалить правило?</MTP.DeleteAutomaticTypeConfirm>
+	<!-- EN: Automatic marking rules -->
+	<MTP.AutomaticRulesTitle>Правила автоматической маркировки</MTP.AutomaticRulesTitle>
+	<!-- EN: New rule -->
+	<MTP.NewRuleButton>Новое правило</MTP.NewRuleButton>
+	<!-- EN: Automatic rules ({0} active) -->
+	<MTP.RulesButtonInfo>Автоматические правила \n({0} активны)</MTP.RulesButtonInfo>
+	<!-- EN: Edit rules -->
+	<MTP.RulesButtonText>Редактировать правила</MTP.RulesButtonText>
+	<!-- EN: Auto-icon -->
+	<MTP.UseAutoIcon>Авто-маркер</MTP.UseAutoIcon>
+	<!-- EN: Reset auto-icon -->
+	<MTP.ResetAutoIcon>Сбросить автоматический маркер</MTP.ResetAutoIcon>
+	<!-- EN: No marker -->
+	<MTP.None>Нет маркера</MTP.None>
+	<!-- EN: Duplicate rule -->
+	<MTP.DuplicateRule>Дублировать правило</MTP.DuplicateRule>
+	<!-- EN: Reset all values -->
+	<MTP.Reset>Сбросить все значения (Не правила)</MTP.Reset>
+	<!-- EN: Male -->
+	<MTP.Male>Мужчина</MTP.Male>
+	<!-- EN: Female -->
+	<MTP.Female>Женщина</MTP.Female>
+	<!-- EN: Animals -->
+	<MTP.Animal>Животные</MTP.Animal>
+	<!-- EN: Only when drafted -->
+	<MTP.OnlyWhenDrafted>Только когда в бою</MTP.OnlyWhenDrafted>
+	<!-- EN: Only animals -->
+	<MTP.OnlyAnimal>Только животные</MTP.OnlyAnimal>
+	<!-- EN: Not animals -->
+	<MTP.NotAnimal>Не животные</MTP.NotAnimal>
+	<!-- EN: Low age-limit: {0} -->
+	<MTP.LowAgeLimit>Нижний предел: {0}</MTP.LowAgeLimit>
+	<!-- EN: High age-limit: {0} -->
+	<MTP.HighAgeLimit>Верхний предел: {0}</MTP.HighAgeLimit>
+	<!-- EN: High age-limit: No limit -->
+	<MTP.Unlimited>Верхний предел: Нет</MTP.Unlimited>
+	<!-- EN: Vertical offset: {0} -->
+	<MTP.ZOffset>Отступ по вертикали: {0}</MTP.ZOffset>
+	<!-- EN: Horizontal offset: {0} -->
+	<MTP.XOffset>Отступ по горизонтали: {0}</MTP.XOffset>
+	<!-- EN: Show multiple icons -->
+	<MTP.SeparateTemporary>Показывать несколько маркеров</MTP.SeparateTemporary>
+	<!-- EN: Instead of replacing the icon, icons will be shown next to each other -->
+	<MTP.SeparateTemporaryTT>Вместо замены маркеры будут отображаться рядом друг с другом</MTP.SeparateTemporaryTT>
+	<!-- EN: - Show all temporary icons -->
+	<MTP.SeparateShowAll>- Показать все временные маркеры</MTP.SeparateShowAll>
+	<!-- EN: Will show all temporary icons instead of just the top in priority -->
+	<MTP.SeparateShowAllTT>Будут отображаться все временные маркеры, а не только самые приоритетные</MTP.SeparateShowAllTT>
+	<!-- EN: - Show all normal icons -->
+	<MTP.NormalShowAll>- Показывать все обычные маркеры</MTP.NormalShowAll>
+	<!-- EN: Will show all normal icons instead of just the top in priority -->
+	<MTP.NormalShowAllTT>Будут отображаться все обычные маркеры, а не только самые приоритетные</MTP.NormalShowAllTT>
+	<!-- EN: - Extra icon spacing: {0} -->
+	<MTP.IconSpacingFactor>Отступ маркеров: {0}</MTP.IconSpacingFactor>
+	<!-- EN: - Invert order -->
+	<MTP.InvertOrder>- Инвертировать порядок</MTP.InvertOrder>
+	<!-- EN: Icons will be ordered from right to left based on priority -->
+	<MTP.InvertOrderTT>Маркеры будут упорядочены справа налево в зависимости от приоритета</MTP.InvertOrderTT>
+	<!-- EN: - Expand when pawn selected -->
+	<MTP.ShowWhenSelected>- Расширить при выборе пешки</MTP.ShowWhenSelected>
+	<!-- EN: Icons will expand to default spacing when the pawn is selected -->
+	<MTP.ShowWhenSelectedTT>При выборе пешки маркеры расширятся до расстояния по умолчанию</MTP.ShowWhenSelectedTT>
+	<!-- EN: - Expand when mouse over icons -->
+	<MTP.ShowWhenHover>- Расширить при наведении курсора мыши на маркеры</MTP.ShowWhenHover>
+	<!-- EN: Icons will expand to default spacing when mouse is over the icons -->
+	<MTP.ShowWhenHoverTT>При наведении курсора мыши на маркеры интервал между ними будет увеличиваться до значения по умолчанию</MTP.ShowWhenHoverTT>
+	<!-- EN: - Expand when SHIFT is pressed -->
+	<MTP.ShowOnShift>- Расширить при нажатии клавиши SHIFT</MTP.ShowOnShift>
+	<!-- EN: Icons will expand to default spacing when the SHIFT key is pressed -->
+	<MTP.ShowOnShiftTT>При нажатии клавиши SHIFT маркеры будут расширяться до интервала по умолчанию</MTP.ShowOnShiftTT>
+	<!-- EN: - Expand when game is paused -->
+	<MTP.ShowOnPaused>- Расширить когда игра приостановлена</MTP.ShowOnPaused>
+	<!-- EN: Icons will expand to default spacing when the game is paused -->
+	<MTP.ShowOnPausedTT>При приостановке игры интервал между маркерами увеличится до значения по умолчанию</MTP.ShowOnPausedTT>
+	<!-- EN: - Rotate active icon -->
+	<MTP.RotateIcons>- Менять активный маркер</MTP.RotateIcons>
+	<!-- EN: Icons will rotate between possible icons instead of showing multiple at the same time -->
+	<MTP.RotateIconsTT>Маркеры будут меняться вместо того, чтобы показывать несколько одновременно</MTP.RotateIconsTT>
+	<!-- EN: Marker {0} -->
+	<MTP.MarkerNumber>Маркер {0}</MTP.MarkerNumber>
+	<!-- EN: Icon size: {0} -->
+	<MTP.IconSize>Размер маркера: {0}</MTP.IconSize>
+	<!-- EN: Zoom scaling factor: {0} -->
+	<MTP.IconScalingFactor>Коэфф. размера: {0}</MTP.IconScalingFactor>
+	<!-- EN: Use pulsating icons -->
+	<MTP.PulsatingIcons>Пульсирующие маркеры</MTP.PulsatingIcons>
+	<!-- EN: Icons will pulsate the same way the trader question-mark does -->
+	<MTP.PulsatingIconsTT>Маркеры будут пульсировать так же, как вопросительный знак трейдера</MTP.PulsatingIconsTT>
+	<!-- EN: Refresh pawn-rules regularly -->
+	<MTP.RefreshRules>Регулярно обновлять правила пешки</MTP.RefreshRules>
+	<!-- EN: Will reevaluate the rules regularly, to reflect changes that will affect the icon selected -->
+	<MTP.RefreshRulesTT>Регулярно пересчитывать правила, чтобы отразить изменения, которые повлияют на выбранный значок</MTP.RefreshRulesTT>
+	<!-- EN: Hide icons unless -->
+	<MTP.HideIcons>Показывать маркеры только если</MTP.HideIcons>
+	<!-- EN: - Game is paused -->
+	<MTP.GameIsPaused>- Игра приостановлена</MTP.GameIsPaused>
+	<!-- EN: - SHIFT is pressed -->
+	<MTP.ShiftIsPressed>- Нажата клавиша SHIFT</MTP.ShiftIsPressed>
+	<!-- EN: - Pawn is selected -->
+	<MTP.PawnIsSelected>- Пешка выбрана</MTP.PawnIsSelected>
+	<!-- EN: Melee weapon -->
+	<MTP.EquippedWeaponType.Melee>Оружие ближнего боя</MTP.EquippedWeaponType.Melee>
+	<!-- EN: Ranged projectile weapon -->
+	<MTP.EquippedWeaponType.Ranged>Дальнобойное стрелковое оружие</MTP.EquippedWeaponType.Ranged>
+	<!-- EN: Ranged explosive weapon -->
+	<MTP.EquippedWeaponType.RangedExplosive>Дальнобойное взрывное оружие</MTP.EquippedWeaponType.RangedExplosive>
+	<!-- EN: Thrown -->
+	<MTP.EquippedWeaponType.Thrown>Метательное</MTP.EquippedWeaponType.Thrown>
+	<!-- EN: Royal apparel -->
+	<MTP.EquippedApparelType.Royal>Королевское одеяние</MTP.EquippedApparelType.Royal>
+	<!-- EN: Psycast apparel -->
+	<MTP.EquippedApparelType.Psycast>Одежда Псионика</MTP.EquippedApparelType.Psycast>
+	<!-- EN: Mechanator apparel -->
+	<MTP.EquippedApparelType.Mechanator>Одежда Механитора</MTP.EquippedApparelType.Mechanator>
+	<!-- EN: Armored apparel -->
+	<MTP.EquippedApparelType.Armored>Бронированная одежда</MTP.EquippedApparelType.Armored>
+	<!-- EN: Environmental protection apparel -->
+	<MTP.EquippedApparelType.EnviromentalProtection>Одежда с защитой от окр. среды</MTP.EquippedApparelType.EnviromentalProtection>
+	<!-- EN: Basic apparel -->
+	<MTP.EquippedApparelType.Basic>Основная одежда</MTP.EquippedApparelType.Basic>
+	<!-- EN: Colonist -->
+	<MTP.PawnType.Colonist>Колонистов</MTP.PawnType.Colonist>
+	<!-- EN: Slave -->
+	<MTP.PawnType.Slave>Рабов</MTP.PawnType.Slave>
+	<!-- EN: Prisoner -->
+	<MTP.PawnType.Prisoner>Заключенных</MTP.PawnType.Prisoner>
+	<!-- EN: Vehicle -->
+	<MTP.PawnType.Vehicle>Транспорта</MTP.PawnType.Vehicle>
+	<!-- EN: Enemy -->
+	<MTP.PawnType.Enemy>Врагов</MTP.PawnType.Enemy>
+	<!-- EN: Neutral -->
+	<MTP.PawnType.Neutral>Нейтралов</MTP.PawnType.Neutral>
+	<!-- EN: Any -->
+	<MTP.PawnType.Default>Всех</MTP.PawnType.Default>
+	<!-- EN: Equipped weapon -->
+	<MTP.AutomaticType.Weapon>Оснащенное оружие</MTP.AutomaticType.Weapon>
+	<!-- EN: Equipped apparel -->
+	<MTP.AutomaticType.Apparel>Оснащенная одежда</MTP.AutomaticType.Apparel>
+	<!-- EN: Equipped weapon-type -->
+	<MTP.AutomaticType.WeaponType>Оснащенный тип оружия</MTP.AutomaticType.WeaponType>
+	<!-- EN: Equipped apparel-type -->
+	<MTP.AutomaticType.ApparelType>Оснащенный тип одежды</MTP.AutomaticType.ApparelType>
+	<!-- EN: Has traits -->
+	<MTP.AutomaticType.Trait>Обладает чертой</MTP.AutomaticType.Trait>
+	<!-- EN: Skill at least -->
+	<MTP.AutomaticType.Skill>Навык больше...</MTP.AutomaticType.Skill>
+	<!-- EN: Has relation to colonist -->
+	<MTP.AutomaticType.Relative>Имеет связь с колонистом</MTP.AutomaticType.Relative>
+	<!-- EN: Pawn is of type -->
+	<MTP.AutomaticType.PawnType>Пешка относится к типу</MTP.AutomaticType.PawnType>
+	<!-- EN: ^ Pawn is drafted -->
+	<MTP.AutomaticType.Drafted>Пешка в бою</MTP.AutomaticType.Drafted>
+	<!-- EN: ^ Pawn is in mental state -->
+	<MTP.AutomaticType.MentalState>Пешка в психическом срыве</MTP.AutomaticType.MentalState>
+	<!-- EN: ^ Pawn has temporary hediff -->
+	<MTP.AutomaticType.HediffDynamic>^ Пешка имеет временный hediff</MTP.AutomaticType.HediffDynamic>
+	<!-- EN: Pawn has permanent hediff -->
+	<MTP.AutomaticType.HediffStatic>Пешка имеет постоянный hediff</MTP.AutomaticType.HediffStatic>
+	<!-- EN: Pawn has any permanent bad hediff -->
+	<MTP.AutomaticType.AnyHediffStatic>У пешки есть какие-либо постоянный вредный hediff</MTP.AutomaticType.AnyHediffStatic>
+	<!-- EN: Pawn is a specific animal -->
+	<MTP.AutomaticType.Animal>Пешка - определенное животное</MTP.AutomaticType.Animal>
+	<!-- EN: Pawn is of specified gender -->
+	<MTP.AutomaticType.Gender>Пешка определенного пола</MTP.AutomaticType.Gender>
+	<!-- EN: Pawn is in specified age-range -->
+	<MTP.AutomaticType.Age>Пешка определенного возраста</MTP.AutomaticType.Age>
+	<!-- EN: Pawn is specific xenotype -->
+	<MTP.AutomaticType.Xenotype>Пешка определенного ксенотипа</MTP.AutomaticType.Xenotype>
+	<!-- EN: Pawn has a specific gene -->
+	<MTP.AutomaticType.Gene>У пешки есть определенный ген</MTP.AutomaticType.Gene>
+	<!-- EN: Undefined -->
+	<MTP.AutomaticType.GeneUndefinedCategory>Не определено</MTP.AutomaticType.GeneUndefinedCategory>
+	<!-- EN: stage {0} -->
+	<MTP.AutomaticType.HediffStage>этап {0}</MTP.AutomaticType.HediffStage>
+	<!-- EN: Show faction icon for pawn -->
+	<MTP.AutomaticType.FactionIcon>Показать маркер фракции для пешки</MTP.AutomaticType.FactionIcon>
+	<!-- EN: Show ideology icon for pawn -->
+	<MTP.AutomaticType.IdeologyIcon>Показать маркер идеологии для пешки</MTP.AutomaticType.IdeologyIcon>
+	<!-- EN: Only applies to: {0} -->
+	<MTP.PawnLimitation>Применяется для {0}</MTP.PawnLimitation>
+	<!-- EN: Any state -->
+	<MTP.MentalState.Any>Любой</MTP.MentalState.Any>
+	<!-- EN: Passive state -->
+	<MTP.MentalState.Passive>Пассивный срыв</MTP.MentalState.Passive>
+	<!-- EN: Aggressive state -->
+	<MTP.MentalState.Aggressive>Агрессивный срыв</MTP.MentalState.Aggressive>
+	<!-- EN: This is an temporary-rule. It will only be shown during the time the condition for it is fulfilled. -->
+	<MTP.OverrideRule>Это правило переопределения. Оно будет переопределять текущий маркер только в течение того времени, пока выполняется условие для него.</MTP.OverrideRule>
+</LanguageData>

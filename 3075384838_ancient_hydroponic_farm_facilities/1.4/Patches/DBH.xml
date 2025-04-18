@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Bad Hygiene</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="NutrientSolutionFermenter"]/comps/li[@Class="BreadMoAncientFarm.CompProperties_NutrientToResource"]</xpath>
+			<value>
+				<li Class="CompProperties_Refuelable">
+					<fuelConsumptionRate>0</fuelConsumptionRate>
+					<fuelCapacity>100.0</fuelCapacity>
+					<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+					<fuelFilter>
+						<thingDefs>
+							<li>FecalSludge</li>
+						</thingDefs>
+					</fuelFilter>
+					<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				</li>
+				<li Class="BreadMoAncientFarm.CompProperties_FuelToResource">
+					<pipeNet>BreadMo_NutrientNetwork</pipeNet>
+					<thingdef>HydroponicNutrientSolution</thingdef>
+					<fuelConsumptionRate>1</fuelConsumptionRate>
+					<exchangeRate>16</exchangeRate>
+					<ticksPerCycle>600</ticksPerCycle>
+				</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

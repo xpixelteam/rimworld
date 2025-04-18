@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+	
+	
+	<ToggleableOverlays.Header.TextOverlays>Скрывать текст</ToggleableOverlays.Header.TextOverlays>	
+	<ToggleableOverlays.Settings.HideItem>Предметов</ToggleableOverlays.Settings.HideItem>
+	<ToggleableOverlays.Settings.HideStorage>Преметов в постойках для хранения предметов</ToggleableOverlays.Settings.HideStorage>
+	<ToggleableOverlays.Settings.HideBed>Имен владельцев кроватей</ToggleableOverlays.Settings.HideBed>
+	<ToggleableOverlays.Settings.HideThrone>Имен владельцев тронов</ToggleableOverlays.Settings.HideThrone>
+	
+	<ToggleableOverlays.Settings.HideItem.Desc>Скрывать количество и качество предметов</ToggleableOverlays.Settings.HideItem.Desc>
+	<ToggleableOverlays.Settings.HideStorage.Desc>Скрывать текст преметов в постойках для хранения предметов (включая Deep Storage)</ToggleableOverlays.Settings.HideStorage.Desc>
+	<ToggleableOverlays.Settings.HideBed.Desc>Скрывать владельца кровати или спального места</ToggleableOverlays.Settings.HideBed.Desc>
+	<ToggleableOverlays.Settings.HideThrone.Desc>Скрывать владельца трона</ToggleableOverlays.Settings.HideThrone.Desc>
+
+
+	<ToggleableOverlays.Header.IconOverlays>Скрывать иконки</ToggleableOverlays.Header.IconOverlays>
+	<ToggleableOverlays.Settings.HidePower>Энергии</ToggleableOverlays.Settings.HidePower>
+	<ToggleableOverlays.Settings.HideFuel>Топлива</ToggleableOverlays.Settings.HideFuel>
+	<ToggleableOverlays.Settings.HideFuelGauge>Скрывать индикатор топлива (например для пусковой установки капсул)</ToggleableOverlays.Settings.HideFuelGauge>
+	<ToggleableOverlays.Settings.HideWindGauge>Скрывать индикатор выработки энергии ветрогенератора</ToggleableOverlays.Settings.HideWindGauge>
+	<ToggleableOverlays.Settings.HideBrokenDown>Сломанного</ToggleableOverlays.Settings.HideBrokenDown>
+	<ToggleableOverlays.Settings.HideForbidden>Запрещенных предметов</ToggleableOverlays.Settings.HideForbidden>
+	<ToggleableOverlays.Settings.HideForbiddenBuildings>Запрещенных зданий и чертежей</ToggleableOverlays.Settings.HideForbiddenBuildings>
+	<ToggleableOverlays.Settings.HidePower.Desc>Скрывать оверлей энергии (требуется питание / отключено)</ToggleableOverlays.Settings.HidePower.Desc>
+	<ToggleableOverlays.Settings.HideFuel.Desc>Скрывать оверлей топлива (требуется топливо / не заправлять)</ToggleableOverlays.Settings.HideFuel.Desc>
+	<ToggleableOverlays.Settings.HideBrokenDown.Desc>Скрывать оверлей сломанных предметов</ToggleableOverlays.Settings.HideBrokenDown.Desc>
+	<ToggleableOverlays.Settings.HideForbidden.Desc>Скрывать оверлей запрещенных предметов (красного X)</ToggleableOverlays.Settings.HideForbidden.Desc>
+	<ToggleableOverlays.Settings.HideForbiddenBuildings.Desc>Скрывать оверлей запрещенных зданий и чертежей (красного X)</ToggleableOverlays.Settings.HideForbiddenBuildings.Desc>
+	<ToggleableOverlays.Settings.HideFuelGauge.Desc>Спрячьте указатель уровня топлива, показанный над зданиями, пригодными для дозаправки, таких как пусковая установка для капсул.</ToggleableOverlays.Settings.HideFuelGauge.Desc>
+	<ToggleableOverlays.Settings.HideWindGauge.Desc>Скройте индикатор ветра, показанный над ветряными турбинами.</ToggleableOverlays.Settings.HideWindGauge.Desc>
+	
+	<ToggleableOverlays.Header.PawnOverlays>Скрывать имена пешек для:</ToggleableOverlays.Header.PawnOverlays>
+	<ToggleableOverlays.Settings.HidePlayerPawn>Пешек игрока</ToggleableOverlays.Settings.HidePlayerPawn>
+	<ToggleableOverlays.Settings.HideDraftedPawn>Пешек в режиме призыва</ToggleableOverlays.Settings.HideDraftedPawn>
+	<ToggleableOverlays.Settings.HidePrisonerPawn>Заключенных и рабов</ToggleableOverlays.Settings.HidePrisonerPawn>
+	<ToggleableOverlays.Settings.HideHostilePawn>Враждебных пешек</ToggleableOverlays.Settings.HideHostilePawn>
+	<ToggleableOverlays.Settings.HideOtherPawn>Дружеских и нейтральных пешек</ToggleableOverlays.Settings.HideOtherPawn>
+	<ToggleableOverlays.Settings.HideMoteProgress>Скрывать прогресс-бар при работе пешек</ToggleableOverlays.Settings.HideMoteProgress>
+	<ToggleableOverlays.Settings.HidePlayerPawn.Desc>Скрывать имена пешек игроков</ToggleableOverlays.Settings.HidePlayerPawn.Desc>
+	<ToggleableOverlays.Settings.HideDraftedPawn.Desc>Скрывать имена пешек в режиме призыва</ToggleableOverlays.Settings.HideDraftedPawn.Desc>
+	<ToggleableOverlays.Settings.HidePrisonerPawn.Desc>Скрывать имена заключенных и рабов</ToggleableOverlays.Settings.HidePrisonerPawn.Desc>
+	<ToggleableOverlays.Settings.HideHostilePawn.Desc>Скрывать имена враждебных пешек</ToggleableOverlays.Settings.HideHostilePawn.Desc>
+	<ToggleableOverlays.Settings.HideOtherPawn.Desc>Скрывать имена других пешек</ToggleableOverlays.Settings.HideOtherPawn.Desc>
+	<ToggleableOverlays.Settings.HideMoteProgress.Desc>Скрывать индикатор выполнения работы, который отображается над головой пешки, когда они что-то делают.</ToggleableOverlays.Settings.HideMoteProgress.Desc>
+	
+	<ToggleableOverlays.Header.MiscOverlays>Остальное:</ToggleableOverlays.Header.MiscOverlays>
+	<ToggleableOverlays.Settings.BlueprintTransparency>Непрозрачность чертежа (По умолчанию 1):</ToggleableOverlays.Settings.BlueprintTransparency>
+	<ToggleableOverlays.Settings.BlueprintTransparencyReload></ToggleableOverlays.Settings.BlueprintTransparencyReload>
+	<ToggleableOverlays.Settings.QuickShowEnabled>Включить отображение по горячей клавише</ToggleableOverlays.Settings.QuickShowEnabled>
+	<ToggleableOverlays.Settings.QuickShowAltMode>Включить режим переключения горячей клавиши</ToggleableOverlays.Settings.QuickShowAltMode>
+	<ToggleableOverlays.Settings.UseOptimizedLister>Использовать более эффективное отображение теста</ToggleableOverlays.Settings.UseOptimizedLister>
+	<ToggleableOverlays.Settings.UseZoomFilter>Использовать фильтр оботражения при зуме</ToggleableOverlays.Settings.UseZoomFilter>
+	<ToggleableOverlays.Settings.BlueprintTransparency.Desc>Позволяет изменять прозрачность чертежей (не работает для дверей). Вам нужно будет перезагрузить свое сохранение, чтобы оно применялось к существующим чертежам.</ToggleableOverlays.Settings.BlueprintTransparency.Desc>
+	<ToggleableOverlays.Settings.QuickShowEnabled.Desc>Показывать все скрытые элементы по нажатию горячей клавиши (CTRL по умолчанию).  Горячию клавишу можно изменить в настройких Rimworld</ToggleableOverlays.Settings.QuickShowEnabled.Desc>
+	<ToggleableOverlays.Settings.QuickShowAltMode.Desc>Отображение включается нажатием, а не удержанием горячей клавиши.</ToggleableOverlays.Settings.QuickShowAltMode.Desc>
+	<ToggleableOverlays.Settings.UseOptimizedLister.Desc>Замените цикл кода, отвечающий за отображение текста предметов, более быстрой версией. Вы можете отключить это, если столкнетесь с проблемой совместимости.</ToggleableOverlays.Settings.UseOptimizedLister.Desc>
+	<ToggleableOverlays.Settings.UseZoomFilter.Desc>Предлагает оптимизированному составителю списка пропустить прошлые элементы на основе фильтра масштабирования, что значительно повышает производительность при уменьшении масштаба. Вы можете отключить это, если столкнетесь с конфликтом модов, связанным с отображение текста на зданиях.</ToggleableOverlays.Settings.UseZoomFilter.Desc>
+	<ToggleableOverlays.Settings.HideAllGauges>Скрывать все индикаторы</ToggleableOverlays.Settings.HideAllGauges>
+	<ToggleableOverlays.Settings.HideAllGauges.Desc>Это скроет все индикаторы - включая те, которые конкретно перечислены в настройках выше, а также все разные датчики, включая те, которые поставляются из модов.</ToggleableOverlays.Settings.HideAllGauges.Desc>
+
+
+
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\VehicleTurrets\BaseLauncher.xml-->
+	
+	<!--               EN: smoke launcher shell -->
+	<Bullet_RTCSmoke.label>снаряд дымовой установки</Bullet_RTCSmoke.label>
+</LanguageData>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_Burya.label>Буря</VVE_Burya.label>
+  <VVE_Burya.description>Специализированная платформа реактивной системы залпового огня(РСЗО), "Буря" - это оружие дальнего действия для осады и блокирования территорий.  Её экипаж из двух человек обеспечивает быструю перезарядку.  "Буря" способна вести непрерывный огонь ракетами большой дальности, покрывая целые области взрывами противопехотных ракет.\n\nМедленная и уязвимая для огня противника, "Буря" нуждается в развёртывании перед открытием огня, что может оставить её в затруднительном положении на вражеской территории.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x2\n&lt;color=#bb8f04&gt;Тип топлива:&lt;/color&gt; Химтопливо</VVE_Burya.description>
+  <VVE_Burya.properties.roles.0.label>Водитель</VVE_Burya.properties.roles.0.label>
+  <VVE_Burya.properties.roles.1.label>Наводчик</VVE_Burya.properties.roles.1.label>
+  <VVE_Burya.components.0.label>Двигатель</VVE_Burya.components.0.label>
+  <VVE_Burya.components.1.label>Левое переднее колесо</VVE_Burya.components.1.label>
+  <VVE_Burya.components.2.label>Правое переднее колесо</VVE_Burya.components.2.label>
+  <VVE_Burya.components.3.label>Левое среднее колесо</VVE_Burya.components.3.label>
+  <VVE_Burya.components.4.label>Правое среднее колесо</VVE_Burya.components.4.label>
+  <VVE_Burya.components.5.label>Левое заднее колесо</VVE_Burya.components.5.label>
+  <VVE_Burya.components.6.label>Правое заднее колесо</VVE_Burya.components.6.label>
+  <VVE_Burya.components.7.label>Левая передняя подвеска</VVE_Burya.components.7.label>
+  <VVE_Burya.components.8.label>Правая передняя подвеска</VVE_Burya.components.8.label>
+  <VVE_Burya.components.9.label>Левая средняя подвеска</VVE_Burya.components.9.label>
+  <VVE_Burya.components.10.label>Правая средняя подвеска</VVE_Burya.components.10.label>
+  <VVE_Burya.components.11.label>Левая задняя подвеска</VVE_Burya.components.11.label>
+  <VVE_Burya.components.12.label>Правая задняя подвеска</VVE_Burya.components.12.label>
+  <VVE_Burya.components.13.label>Коробка передач</VVE_Burya.components.13.label>
+  <VVE_Burya.components.14.label>Левая бронеплита</VVE_Burya.components.14.label>
+  <VVE_Burya.components.15.label>Правая бронеплита</VVE_Burya.components.15.label>
+  <VVE_Burya.components.16.label>Передняя бронеплита</VVE_Burya.components.16.label>
+  <VVE_Burya.components.17.label>Левый химбак</VVE_Burya.components.17.label>
+  <VVE_Burya.components.18.label>Правый химбак</VVE_Burya.components.18.label>
+  <VVE_Burya.components.19.label>Приборная панель</VVE_Burya.components.19.label>
+  <VVE_Burya.components.20.label>Рулевое колесо</VVE_Burya.components.20.label>
+  <VVE_Burya.components.21.label>Генератор</VVE_Burya.components.21.label>
+  <VVE_Burya.components.22.label>Крыша</VVE_Burya.components.22.label>
+
+
+</LanguageData>

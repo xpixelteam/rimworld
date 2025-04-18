@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchProjectDef>
+    <defName>VVE_ClassicCars</defName>
+    <label>classic cars</label>
+    <description>Learn to build fancy, classic cars such as the springbok. In order to research this project, a springbok wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->classic car restoration</li>
+    <li>subject_story->began the journey of bringing elegance back to the roads by restoring a springbok wreck</li>
+    <li>subject_story->merged timeless designs with modern engineering to recreate the charm of classic cars</li>
+    <li>subject_gerund->reviving automotive elegance</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_SuperCars</defName>
+    <label>supercars</label>
+    <description>Learn to build fast and luxurious supercars such as the lightning. In order to research this project, a lightning wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->supercar engineering</li>
+    <li>subject_story->advanced to crafting vehicles that epitomize speed and luxury, starting with the restoration of a lightning wreck</li>
+    <li>subject_story->pushed the limits of performance and aesthetics to create the ultimate driving machines</li>
+    <li>subject_gerund->crafting speed and luxury</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_BattleTanks</defName>
+    <label>battle tanks</label>
+    <description>Learn to build heavily armored battle tanks such as the marshal, equipped with a variety of weapons. In order to research this project, a marshal wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->battle tank production</li>
+    <li>subject_story->initiated the era of armored warfare by resurrecting the prowess of a marshal wreck</li>
+    <li>subject_story->combined devastating firepower with impenetrable armor to dominate the battlefield</li>
+    <li>subject_gerund->dominating with armored might</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_LightArmoredVehicles</defName>
+    <label>light armored vehicles</label>
+    <description>Learn to build light armored vehicles such as the paladin or the badger, that can transport soldiers efficiently and effectively whilst providing them with fire support. In order to research this project, a paladin or badger wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->light armored mobility</li>
+    <li>subject_story->stepped into the realm of tactical versatility by restoring wrecks like the paladin or badger</li>
+    <li>subject_story->designed vehicles that balance speed, protection, and firepower to support troops on the move</li>
+    <li>subject_gerund->enhancing battlefield mobility</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_OffroadJeeps</defName>
+    <label>offroad jeeps</label>
+    <description>Learn to build offroad jeeps such as the nomad, that can traverse any terrain with ease. In order to research this project, a nomad wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->offroad jeep construction</li>
+    <li>subject_story->started mastering the craft of building versatile offroad jeeps like the nomad, requiring the restoration of a wreck</li>
+    <li>subject_story->unlocked the potential to explore and operate in previously inaccessible terrains</li>
+    <li>subject_gerund->navigating rugged landscapes</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_Louie</defName>
+    <label>louie</label>
+    <description>Learn to build a large transport helicopter called louie, that can deliver both cargo and troops over long distances with ease. In order to research this project, a louie wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>8.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->louie helicopter development</li>
+    <li>subject_story->ventured into aerial logistics by learning to build the louie, a large transport helicopter, starting from a wreck</li>
+    <li>subject_story->enabled rapid and flexible transport of cargo and troops over vast distances</li>
+    <li>subject_gerund->mastering aerial transport</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_BigRigs</defName>
+    <label>big rigs</label>
+    <description>Learn to build large, long-distance trucks such as the big rig or hermano, capable of delivering large amounts of cargo over extremely long distances. In order to research this project, a big rig or hermano wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->big rig trucking</li>
+    <li>subject_story->advanced to constructing monumental long-haul trucks like the big rig or hermano, following the recovery and study of a wreck</li>
+    <li>subject_story->dramatically increased cargo capacity and operational range for ground transport</li>
+    <li>subject_gerund->revolutionizing overland cargo delivery</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_Cherokee</defName>
+    <label>cherokee</label>
+    <description>Learn to build a dual-rotor cargo helicopter called cherokee, capable of delivering thousands of kilograms of resources via air routes. In order to research this project, a cherokee wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->cherokee helicopter creation</li>
+    <li>subject_story->expanded aerial logistics capabilities by designing the cherokee, a dual-rotor cargo helicopter, requiring the reconstruction of a wreck</li>
+    <li>subject_story->facilitated the movement of massive loads via air, bypassing ground-based obstacles</li>
+    <li>subject_gerund->lifting logistics to new heights</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_SelfpropelledArtillery</defName>
+    <label>self-propelled artillery</label>
+    <description>Learn to build a powerful, self-propelled artillery such as the famous udar, capable of raining artillery fire on enemies on the local map. In order to research this project, an udar wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->self-propelled artillery construction</li>
+    <li>subject_story->embarked on creating the udar, a formidable self-propelled artillery piece, after restoring a wreck</li>
+    <li>subject_story->enhanced battlefield support with mobile artillery capable of precise, long-range bombardments on local maps</li>
+    <li>subject_gerund->deploying strategic firepower</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_RocketArtillery</defName>
+    <label>rocket artillery</label>
+    <description>Learn to build multiple launch rocket systems with the ability to blanket a whole area with missiles. In order to research this project, a burya wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->rocket artillery development</li>
+    <li>subject_story->progressed to assembling multiple launch rocket systems like the burya, necessitating the reconstruction of a wreck</li>
+    <li>subject_story->introduced area saturation capabilities with volleys of missiles, transforming area denial and suppression tactics</li>
+    <li>subject_gerund->massing aerial assault</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>VVE_SiegePods</defName>
+    <label>siege pods</label>
+    <description>Learn to build powerful siege pods that act as temporary, moving bases during assaults in enemy territory. In order to research this project, a goliath wreck needs to be found and restored.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>VVE_ComplexVehicles</li>
+    </prerequisites>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>2.00</researchViewY>
+	<tab>Vehicles</tab>
+	<generalRules>
+  <rulesStrings>
+    <li>subject->siege pod engineering</li>
+    <li>subject_story->advanced to fabricating siege pods for dynamic assault bases, following the salvage of a goliath wreck</li>
+    <li>subject_story->created mobile bases that can be deployed during assaults, providing logistical and combat support in enemy territory</li>
+    <li>subject_gerund->establishing mobile fortresses</li>
+  </rulesStrings>
+</generalRules>
+  </ResearchProjectDef>
+
+</Defs>

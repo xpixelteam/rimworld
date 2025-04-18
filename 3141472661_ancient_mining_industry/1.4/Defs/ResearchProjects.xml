@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ResearchProjectDef>
+		<defName>BreadMoAM_AncientMiningTechniques</defName>
+		<label>Ancient mining techniques</label>
+		<description>Research ancient mining techniques and construct usable replicas of ancient mining equipment.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DeepDrilling</li>
+			<li>LongRangeMineralScanner</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>2.90</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
+

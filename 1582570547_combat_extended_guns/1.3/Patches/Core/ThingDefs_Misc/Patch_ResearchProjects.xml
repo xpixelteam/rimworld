@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
+		<value>
+			<hiddenPrerequisites>
+				<li>Gunpowder</li>
+			</hiddenPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Toad_MainTurret.label>Пушка от Жабы</Toad_MainTurret.label>
+  <Toad_MainTurret.description>Минометная установка, способная вести огонь различными типами снарядов (осколочно-фугасные, дымовые и т.д.). Обычно устанавливается на десантных модулях "Жаба". Несмотря на то, что она может нанести серьезный урон, низкая точность миномета делает ее более эффективной против крупных укреплений, чем против отдельных групп врагов на поле боя.</Toad_MainTurret.description>
+  <Toad_MainTurret.fireModes.0.label>Одиночный</Toad_MainTurret.fireModes.0.label>
+
+
+</LanguageData>

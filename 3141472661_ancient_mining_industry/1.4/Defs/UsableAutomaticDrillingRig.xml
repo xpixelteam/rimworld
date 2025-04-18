@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef  ParentName="BreadMoAM_MiningFacilities">
+		<defName>BreadMoAM_AutomaticDrillingRig</defName>
+		<label>Automatic Drilling Rig</label>
+		<description>A straightforward automatic drilling system built for automated mining. Mines up ores 24/7 so long as it is properly powered and placed on a tile with discovered ore deposit.</description>
+		<altitudeLayer>ItemImportant</altitudeLayer>
+		<rotatable>false</rotatable>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<fillPercent>1</fillPercent>
+		<blockWind>true</blockWind>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Building/AncientAutomaticDrillingRig/AutomaticDrillingRig</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7.5,7.5)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(3, 0.8, 3)</volume>
+			</shadowData>
+		</graphicData>
+		<placeWorkers>
+			<li>PlaceWorker_DeepDrill</li>
+			<li>AncientMining.Placeworker_AutoDeepDrill</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<size>(3,3)</size>
+		<statBases>
+			<Mass>75</Mass>
+		</statBases>
+		<costList>
+			<Steel>250</Steel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>75</Plasteel>
+		</costList>
+		<killedLeavings>
+			<ChunkSlagSteel>4</ChunkSlagSteel>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</killedLeavings>
+		<researchPrerequisites>
+			<li>BreadMoAM_AncientMiningTechniques</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="AncientMining.CompProperties_DeepDrillAutomated">
+			<effecter>BigDrill</effecter>
+			<effectOffset>(0,1,0)</effectOffset>
+			<operatingSustainer>Interact_Drill</operatingSustainer>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>600</basePowerConsumption>
+			</li>
+		</comps>
+	</ThingDef>
+
+  <EffecterDef>
+    <defName>BigDrill</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>Interact_Drill</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>DustSlow</fleckDef>
+        <ticksBetweenMotes>60</ticksBetweenMotes>
+        <scale>2.6~4.0</scale>
+        <rotationRate>-5~5</rotationRate>
+        <angle>30~60</angle>
+        <speed>0.4~0.9</speed>
+      </li>
+    </children>
+  </EffecterDef>
+
+
+</Defs>

@@ -1,0 +1,26 @@
+<ModMetaData>
+  <name>Русификатор Simple sidearms</name>
+  <author>swervll</author>
+  <packageId>RU.PeteTimesSix.SimpleSidearms</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+		<li>
+			<packageId>PeteTimesSix.SimpleSidearms</packageId>
+			<displayName>SimpleSidearms</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=927155256</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+  <description>
+Порядок загрузки:
+----------------------------
+Simple sidearms
+Русификатор Simple sidearms
+----------------------------
+По вопросам или предложениям пишите в чате моего дискорд сервера https://discord.gg/DTEVAvs5
+  </description>
+  <loadAfter>
+		<li>PeteTimesSix.SimpleSidearms</li>
+	</loadAfter>
+</ModMetaData>

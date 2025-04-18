@@ -1,0 +1,61 @@
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[@Name="Базовое транспортное средство-Легкое" or @Name="Базовое транспортное средство-Среднее"]/fireModes</xpath>
+		<value>
+			<fireModes>
+				<li>
+					<shotsPerBurst>20</shotsPerBurst>
+					<ticksBetweenShots>6</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Auto</label>
+					<texPath>UI/Gizmos/FireRate_Auto</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>10</shotsPerBurst>
+					<ticksBetweenShots>6</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Burst</label>
+					<texPath>UI/Gizmos/FireRate_Burst</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>1</shotsPerBurst>
+					<ticksBetweenShots>6</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Single</label>
+					<texPath>UI/Gizmos/FireRate_Single</texPath>
+				</li>
+			</fireModes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[@Name="Базовое транспортное средство-Тяжелое"]/fireModes</xpath>
+		<value>
+			<fireModes>
+				<li>
+					<shotsPerBurst>20</shotsPerBurst>
+					<ticksBetweenShots>10</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Auto</label>
+					<texPath>UI/Gizmos/FireRate_Auto</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>10</shotsPerBurst>
+					<ticksBetweenShots>10</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Burst</label>
+					<texPath>UI/Gizmos/FireRate_Burst</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>1</shotsPerBurst>
+					<ticksBetweenShots>10</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Single</label>
+					<texPath>UI/Gizmos/FireRate_Single</texPath>
+				</li>
+			</fireModes>
+		</value>
+	</Operation>
+
+
+	</Patch>

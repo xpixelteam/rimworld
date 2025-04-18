@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_Autocannon_BreadmoShotgun</defName>
+		<label>autocannon shell</label>
+		<ammoTypes>
+			<Ammo_Autocannon_Canister>Bullet_40x311mmR_Canister</Ammo_Autocannon_Canister>
+			<Ammo_Autocannon_AP>Bullet_40x311mmR_AP</Ammo_Autocannon_AP>
+			<Ammo_Autocannon_Incendiary>Bullet_40x311mmR_Incendiary</Ammo_Autocannon_Incendiary>
+			<Ammo_Autocannon_HE>Bullet_40x311mmR_HE</Ammo_Autocannon_HE>
+			<Ammo_Autocannon_Sabot>Bullet_40x311mmR_Sabot</Ammo_Autocannon_Sabot>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo40x311mmRBase">
+		<defName>Ammo_Autocannon_Canister</defName>
+		<label>autocannon shell (Canister)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/Bofors/Canister</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>11.49</MarketValue>
+		</statBases>
+		<ammoClass>BuckShot</ammoClass>
+		<cookOffProjectile>Bullet_40x311mmR_Canister</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Autocannon_Canister</defName>
+		<label>make autocannon shell (Canister) x50</label>
+		<description>Craft 50 autocannon shell (Canister).</description>
+		<jobString>Making autocannon shell (Canister).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>216</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Autocannon_Canister>50</Ammo_Autocannon_Canister>
+		</products>
+		<workAmount>25920</workAmount>
+	</RecipeDef>
+</Defs>

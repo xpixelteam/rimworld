@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>MealCrate_B</defName>
+        <label>Meal Crate B</label>
+        <graphicData>
+            <texPath>MealCrate/MealCrate_B_Base_Empty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+            <drawRotated>false</drawRotated>
+        </graphicData>
+        <description>A small crate that is designed to meals. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nTotal Capacity: 8\n\nStore items to change appearance.</description>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>MealCrate/MealCrate_B_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(1,1)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>25</MaxHitPoints>
+            <WorkToBuild>250</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>10</Mass>
+        </statBases>
+        <costList>
+            <Steel>35</Steel>
+        </costList>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>8</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <disallowNotEverStorable>true</disallowNotEverStorable>
+                    <categories>
+                        <li>FoodMeals</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

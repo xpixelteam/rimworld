@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/CultureDef[defName="Sophian"]/thingStyleCategories</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/CultureDef[defName="Sophian"]</xpath>
+						<value>
+							<thingStyleCategories>
+								<li MayRequire="Ludeon.RimWorld.Ideology">
+									<category>VIES_Sophian</category>
+									<priority>1</priority>
+								</li>
+							</thingStyleCategories>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/CultureDef[defName="Sophian"]/thingStyleCategories</xpath>
+						<value>
+							<li MayRequire="Ludeon.RimWorld.Ideology">
+									<category>VIES_Sophian</category>
+									<priority>1</priority>
+								</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

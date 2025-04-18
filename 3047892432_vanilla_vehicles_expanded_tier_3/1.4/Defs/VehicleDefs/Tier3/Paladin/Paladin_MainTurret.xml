@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>Paladin_MainTurret</defName>
+		<label>paladin smoke grenade launcher</label>
+		<description>A smoke grenade launcher mounted on a Paladin LAV. Excellent for providing smoke cover to infantry, this turret has no offensive capabilities.</description>
+		
+		<turretType>Rotatable</turretType>
+		<shotSound>Shot_IncendiaryLauncher</shotSound>
+		
+		<projectile>Bullet_SmokeLauncher</projectile>
+		<reloadTimer>3.5</reloadTimer>
+		<warmUpTimer>3.5</warmUpTimer>
+		<chargePerAmmoCount>5</chargePerAmmoCount>
+		
+		<magazineCapacity>50</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<hitFlags>IntendedTarget</hitFlags>
+		
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>2.95</rotationSpeed>
+		
+		<projectileOffset>1</projectileOffset>
+		
+		<minRange>2</minRange>
+		<maxRange>23.9</maxRange>
+		
+		<recoil>
+			<distanceTotal>0.15</distanceTotal>
+			<distancePerTick>0.05</distancePerTick>
+			<speedMultiplierPostRecoil>0.1</speedMultiplierPostRecoil>
+		</recoil>
+		
+		<attachProjectileFlag>VVE_Tank</attachProjectileFlag>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenShots>120</ticksBetweenShots>
+				<ticksBetweenBursts>120</ticksBetweenBursts>
+				<spreadRadius>2.9</spreadRadius>
+				<label>Single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>3</shotsPerBurst>
+				<ticksBetweenShots>20</ticksBetweenShots>
+				<ticksBetweenBursts>90</ticksBetweenBursts>
+				<spreadRadius>5.9</spreadRadius>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Things/Vehicles/Tier3/Tier3_LAV/Tier3_LAV_CannonTop</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+</Defs>

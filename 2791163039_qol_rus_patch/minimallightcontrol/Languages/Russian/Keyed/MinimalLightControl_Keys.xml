@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- Minimal Light Control -->
+	<MLC_Enabled_Title>Управление освещенностью включено</MLC_Enabled_Title>
+	<MLC_Enabled_Desc/>
+	<MLC_Mode_Title>Режим</MLC_Mode_Title>
+	<MLC_Mode_Desc>Только темнее - Измените яркость только тогда, когда погода темнее, чем модификатор.\n\nЛюбая погода - Изменение яркости с помощью модификатора.</MLC_Mode_Desc>
+	<MLC_Mode_Darker>Только темнее</MLC_Mode_Darker>
+	<MLC_Mode_Relative>Любая погода</MLC_Mode_Relative>
+	<MLC_Modifier_Title>Модификатор Уровня освещенности</MLC_Modifier_Title>
+	<MLC_Modifier_Desc>Только темнее - Насколько темным это может быть?\nЛюбая погода - Сдвиньте все уровни освещенности, используя это значение.\nЗначения: 10 - светло, 0 - темно</MLC_Modifier_Desc>
+	<MLC_Toggle_Tooltip>Переключить\nУправление освещенностью</MLC_Toggle_Tooltip>
+</LanguageData>

@@ -1,0 +1,67 @@
+<LanguageData>
+	<!-- EN: Designator Shapes -->
+	<Merthsoft_DesignatorShapes>Designator Shapes</Merthsoft_DesignatorShapes>
+	<!-- EN: Shape Dictionary -->
+	<Merthsoft_DesignatorShapes_Settings_ShowShapeDictionary>Список форм</Merthsoft_DesignatorShapes_Settings_ShowShapeDictionary>
+	<!-- EN: Announce tool selection. -->
+	<Merthsoft_DesignatorShapes_Settings_AnnounceToolSelection>Уведомление о выбранном инструменте.</Merthsoft_DesignatorShapes_Settings_AnnounceToolSelection>
+	<!-- EN: Maximum cells to select in flood fill. -->
+	<Merthsoft_DesignatorShapes_Settings_MaxCells>Максимальное количество ячеек для выбора при заливке.</Merthsoft_DesignatorShapes_Settings_MaxCells>
+	<!-- EN: Auto-select shapes when opening designation panels. -->
+	<Merthsoft_DesignatorShapes_Settings_AutoSelectShapes>Автоматический выбор формы при открытии панелей обозначений.</Merthsoft_DesignatorShapes_Settings_AutoSelectShapes>
+	<!-- EN: Reset the shape when you resume the game. -->
+	<Merthsoft_DesignatorShapes_Settings_ResetShapeOnResume>Сбросить форму, когда вы возобновите игру.</Merthsoft_DesignatorShapes_Settings_ResetShapeOnResume>
+	<!-- EN: Pause on flood fill selected. -->
+	<Merthsoft_DesignatorShapes_Settings_PauseOnFloodFill>Пауза при выбранной заливке.</Merthsoft_DesignatorShapes_Settings_PauseOnFloodFill>
+	<!-- EN: Allow collapsing the interface. -->
+	<Merthsoft_DesignatorShapes_Settings_AllowCollapsing>Разрешить сворачивание интерфейса.</Merthsoft_DesignatorShapes_Settings_AllowCollapsing>
+	<!-- EN: Hide when architect menu is hidden. -->
+	<Merthsoft_DesignatorShapes_Settings_HideWhenArchitectMenuIsHidden>Скрывать, когда скрыто меню архитектора.</Merthsoft_DesignatorShapes_Settings_HideWhenArchitectMenuIsHidden>
+	<!-- EN: Draw background -->
+	<Merthsoft_DesignatorShapes_Settings_DrawBackground>Фон в Интерфейсе</Merthsoft_DesignatorShapes_Settings_DrawBackground>
+	<!-- EN: Icon size: {0} -->
+	<Merthsoft_DesignatorShapes_Settings_IconSize>Размер интерфейса: {0}</Merthsoft_DesignatorShapes_Settings_IconSize>
+	<!-- EN: Window position, set to [-1, -1] to use default location. -->
+	<Merthsoft_DesignatorShapes_Settings_WindowPosition>Положение интерфейса([-1, -1] - местоположение по умолчанию)</Merthsoft_DesignatorShapes_Settings_WindowPosition>
+	<!-- EN: Window X -->
+	<Merthsoft_DesignatorShapes_Settings_WindowX>Позиция X		.</Merthsoft_DesignatorShapes_Settings_WindowX>
+	<!-- EN: Window Y -->
+	<Merthsoft_DesignatorShapes_Settings_WindowY>Позиция Y		.</Merthsoft_DesignatorShapes_Settings_WindowY>
+	<!-- EN: Lock the window in place to prevent mis-drags. -->
+	<Merthsoft_DesignatorShapes_Settings_LockWindow>Зафиксировать интерфейс на месте, чтобы предотвратить перемещение.</Merthsoft_DesignatorShapes_Settings_LockWindow>
+
+	<!-- EN: Enable keyboard inputs. -->
+	<Merthsoft_DesignatorShapes_Settings_EnableKeyboardInput>Включить ввод с клавиатуры.</Merthsoft_DesignatorShapes_Settings_EnableKeyboardInput>
+	<!-- EN: Allow toggling the interface with the alt-key. -->
+	<Merthsoft_DesignatorShapes_Settings_AltToggle>Разрешить переключение интерфейса с помощью клавиши alt.</Merthsoft_DesignatorShapes_Settings_AltToggle>
+	<!-- EN: Disable rotation keys. -->
+	<Merthsoft_DesignatorShapes_Settings_DisableRotation>Отключить клавиши поворота.</Merthsoft_DesignatorShapes_Settings_DisableRotation>
+	<!-- EN: Key bindings (undo and redo always require control to be pressed): -->
+	<Merthsoft_DesignatorShapes_Settings_KeyBindings>Привязки клавиш (для отмены и повтора всегда требуется нажать клавишу control):</Merthsoft_DesignatorShapes_Settings_KeyBindings>
+
+	<!-- EN: Rotate shape left -->
+	<Merthsoft_DesignatorShapes_KeyLabel_RotateLeft>Повернуть фигуру влево</Merthsoft_DesignatorShapes_KeyLabel_RotateLeft>
+	<!-- EN: Rotate shape right -->
+	<Merthsoft_DesignatorShapes_KeyLabel_RotateRight>Повернуть фигуру вправо</Merthsoft_DesignatorShapes_KeyLabel_RotateRight>
+	<!-- EN: Fill corners -->
+	<Merthsoft_DesignatorShapes_KeyLabel_FillCorners>Заполнять углы</Merthsoft_DesignatorShapes_KeyLabel_FillCorners>
+	<!-- EN: Increase thickness -->
+	<Merthsoft_DesignatorShapes_KeyLabel_IncreaseThickness>Увеличить толщину</Merthsoft_DesignatorShapes_KeyLabel_IncreaseThickness>
+	<!-- EN: Decrease thickness -->
+	<Merthsoft_DesignatorShapes_KeyLabel_DecreaseThickness>Уменьшить толщину</Merthsoft_DesignatorShapes_KeyLabel_DecreaseThickness>
+	<!-- EN: Undo -->
+	<Merthsoft_DesignatorShapes_KeyLabel_Undo>Отменить</Merthsoft_DesignatorShapes_KeyLabel_Undo>
+	<!-- EN: Redo -->
+	<Merthsoft_DesignatorShapes_KeyLabel_Redo>Повторить</Merthsoft_DesignatorShapes_KeyLabel_Redo>
+
+	<!-- EN: {0} selected. -->
+	<Merthsoft_DesignatorShapes_ToolSelected>Выбрано: {0}</Merthsoft_DesignatorShapes_ToolSelected>
+
+	<!-- EN: Shapes -->
+	<Merthsoft_DesignatorShapes_Shapes>Формы</Merthsoft_DesignatorShapes_Shapes>
+
+	<!-- EN: W -->
+	<Merthsoft_DesignatorShapes_SizeInputWidthLabel>Ш</Merthsoft_DesignatorShapes_SizeInputWidthLabel>
+	<!-- EN: H -->
+	<Merthsoft_DesignatorShapes_SizeInputHeightLabel>В</Merthsoft_DesignatorShapes_SizeInputHeightLabel>
+</LanguageData>

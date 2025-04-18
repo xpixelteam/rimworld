@@ -1,0 +1,97 @@
+<LanguageData>
+	<Kopp_CFI_CaravanFormationImprovements>Caravan Formation Improvements</Kopp_CFI_CaravanFormationImprovements>
+
+
+
+<!-- Mod settings -->
+	<Kopp_CFI_NeedsRestart>Для применения следующих настроек требуется перезагрузка!</Kopp_CFI_NeedsRestart>
+
+	<Kopp_CFI_DistanceToContinueRoping>Радиус, в котором происходит поиск следующего животного для привязывания:</Kopp_CFI_DistanceToContinueRoping>
+	<Kopp_CFI_DistanceToContinueRopingTooltip>По умолчанию: 10</Kopp_CFI_DistanceToContinueRopingTooltip>
+
+	<Kopp_CFI_MaxAnimalsToRopeAtOnce>Максимальное количество животных, которых можно привязать одновременно (при формировании каравана):</Kopp_CFI_MaxAnimalsToRopeAtOnce>
+	<Kopp_CFI_MaxAnimalsToRopeAtOnceTooltip>По умолчанию: 10</Kopp_CFI_MaxAnimalsToRopeAtOnceTooltip>
+
+	<Kopp_CFI_ModDefinesExitTile>Позвольте моду решить, где именно караван появится на карте мира после того, как он сформируется и покинет карту:</Kopp_CFI_ModDefinesExitTile>
+	<Kopp_CFI_ModDefinesExitTileTooltip>Когда вы формируете караван и приказываете ему идти на север, но вручную меняете место выхода на юг, этот параметр гарантирует, что караван появится к югу от вашей колонии на карте мира.</Kopp_CFI_ModDefinesExitTileTooltip>
+
+	<Kopp_CFI_RopeAnimalsOnArrival>Привязывайте животных по прибытии, если иначе они не были бы привязаны:</Kopp_CFI_RopeAnimalsOnArrival>
+	<Kopp_CFI_RopeAnimalsOnArrivalTooltip>Когда на карте нет места для стоянки или подходящего загона, животные бегут свободно. Если Выбрано, то вместо этого животные будут привязаны веревкой к земле.</Kopp_CFI_RopeAnimalsOnArrivalTooltip>
+
+	<Kopp_CFI_RopeAnimalsWhenPausing>Привязать животных веревкой к земле, чтобы они не вырвались на свободу, когда караван остановится:</Kopp_CFI_RopeAnimalsWhenPausing>
+	<Kopp_CFI_RopeAnimalsWhenPausingTooltip>Это сработает, когда вы вручную приостановите формирование каравана или когда у участника каравана случился психический срыв и формирование каравана было принудительно приостановлено.</Kopp_CFI_RopeAnimalsWhenPausingTooltip>
+
+	<Kopp_CFI_DontAddNewbornsToCaravans>Не добавлять новорожденных в караваны:</Kopp_CFI_DontAddNewbornsToCaravans>
+	<Kopp_CFI_DontAddNewbornsToCaravansTooltip>Когда животное из каравана рожает во время формирования каравана, все животные освобождаются от привязи, и новорожденный добавляется к каравану.\n\nВыберите чтобы отключить это.</Kopp_CFI_DontAddNewbornsToCaravansTooltip>
+
+	<Kopp_CFI_ConfirmationCancelCaravan>Добавить окно подтверждения при нажатии "отменить формирование каравана":</Kopp_CFI_ConfirmationCancelCaravan>
+	<Kopp_CFI_ConfirmationCancelCaravanTooltip>На всякий случай, если вы когда-нибудь случайно нажали "отменить формирование каравана" и не хотите, чтобы это повторилось.</Kopp_CFI_ConfirmationCancelCaravanTooltip>
+
+
+
+
+<!-- Gizmos -->
+	<!-- Pause forming caravan -->
+	<Kopp_CFI_PauseCaravanFormingLabel>Приостановить формирование каравана</Kopp_CFI_PauseCaravanFormingLabel>
+	<Kopp_CFI_PauseCaravanFormingDesc>Приостановить формирование каравана. Обратите внимание, что используется ванильная система, поэтому пешки не соблюдают зоны.</Kopp_CFI_PauseCaravanFormingDesc>
+	<Kopp_CFI_PauseCaravanFormationMessage>Процесс формирования каравана был приостановлен.</Kopp_CFI_PauseCaravanFormationMessage>
+	<Kopp_CFI_ContinueCaravanFormingLabel>Продолжить формирование каравана</Kopp_CFI_ContinueCaravanFormingLabel>
+
+	<!-- Leave immediately -->
+	<Kopp_CFI_LeaveNowLabel>Покиньте карту сейчас</Kopp_CFI_LeaveNowLabel>
+	<Kopp_CFI_LeaveNowDesc>Караван покинет карту, даже если еще есть предметы для загрузки. Это работает только в том случае, если все животные уже собраны и ни у одного колониста нет психического срыва.</Kopp_CFI_LeaveNowDesc>
+	<Kopp_CFI_LeaveNowConfirmation>Вы уверены, что хотите уйти раньше?\n\nЭто нельзя отменить.</Kopp_CFI_LeaveNowConfirmation>
+
+	<!-- Choose cell where to leave the map -->
+	<Kopp_CFI_SetExitCellLabel>Выбирать место выхода</Kopp_CFI_SetExitCellLabel>
+	<Kopp_CFI_SetExitCellDesc>Определите место, где караван должен покинуть карту. Могут быть выбраны только ячейки на краю карты, до которых могут добраться все пешки каравана.</Kopp_CFI_SetExitCellDesc>
+	<Kopp_CFI_ExitCellConfirmation>Караван покинет карту в выбранном месте.</Kopp_CFI_ExitCellConfirmation>
+	<Kopp_CFI_ExitCellRejection>Выбранное место выхода недопустимо.</Kopp_CFI_ExitCellRejection>
+	<Kopp_CFI_ExitCellNotReachable>Выбранное место выхода доступно не всем колонистам каравана. Караван будет использовать место, выбранное по умолчанию, чтобы покинуть карту. Вы можете установить новое место выхода, используя соответствующую кнопку на пешке каравана.</Kopp_CFI_ExitCellNotReachable>
+	<Kopp_CFI_ExitCellDownedPawn>Сбитые пешки были удалены из каравана.</Kopp_CFI_ExitCellDownedPawn>
+
+	<!-- Choose cell where to form -->
+	<Kopp_CFI_SetMeetingCellLabel>Выбирать место формирования</Kopp_CFI_SetMeetingCellLabel>
+	<Kopp_CFI_SetMeetingCellDesc>Определить место, где формируется караван и грузятся животные. Вы можете менять место несколько раз во время формирования каравана.</Kopp_CFI_SetMeetingCellDesc>
+	<Kopp_CFI_SetMeetingCellConfirmation>Караван сформируется в выбранном месте.</Kopp_CFI_SetMeetingCellConfirmation>
+	<Kopp_CFI_SetMeetingCellRejection>Выбранное место недопустимо. Караван продолжит формироваться на прежнем месте.</Kopp_CFI_SetMeetingCellRejection>
+	<Kopp_CFI_MeetingCellNotReachable>Выбранное место формирования доступно не всем колонистам каравана. Караван будет использовать место, выбранное по умолчанию, чтобы покинуть карту. Вы можете установить новое место выхода, используя соответствующую кнопку на пешке каравана.</Kopp_CFI_MeetingCellNotReachable>
+
+	<!-- Cancel caravan confirmation window -->
+	<Kopp_CFI_ConfirmationCancelCaravanText>Вы уверены, что хотите отменить формирование каравана?</Kopp_CFI_ConfirmationCancelCaravanText>
+
+
+
+
+<!-- World map -->
+	<!-- Choose cell where to enter a map -->
+	<Kopp_CFI_AtSpecificCell> в определенном месте</Kopp_CFI_AtSpecificCell>
+	<Kopp_CFI_EntryCellConfirmation>Караван появится на карте в выбранном месте.</Kopp_CFI_EntryCellConfirmation>
+	<Kopp_CFI_EntryCellRejection>Выбранное место для входа на карту является недопустимым.</Kopp_CFI_EntryCellRejection>
+
+
+<!-- Dialog_FormCaravan -->
+	<Kopp_CFI_SetSpots>Выберите место</Kopp_CFI_SetSpots>
+	<Kopp_CFI_NeedsNoRestart>Для применения следующих настроек перезагрузка не требуется!</Kopp_CFI_NeedsNoRestart>
+
+	<Kopp_CFI_PawnsRespectZonesOnCaravanPause>Пешки соблюдают отведенную им зону во время паузы каравана:</Kopp_CFI_PawnsRespectZonesOnCaravanPause>
+	<Kopp_CFI_PawnsRespectZonesOnCaravanPauseTooltip>Когда он активен, метод Pawn_PlayerSettings.RespectsAllowedArea патчится и проверяется, является ли dutyDef пешки pauseCaravan. Поскольку это снижает производительность, даже если прямо сейчас не сформирован караван, патч по умолчанию отключен.\n\nТем не менее, влияние на производительность должно быть близким к неизмеримому:\nПримерно от 0,057мс до 0,058мс в среднем, когда 50 пешек простаивают и, следовательно, довольно часто перемещаются.</Kopp_CFI_PawnsRespectZonesOnCaravanPauseTooltip>
+
+	<Kopp_CFI_ImproveBringingDownedPawnsToEdge>По возможности сбитые пешки и животные, нуждающиеся в привязи, одновременно доставляются к месту выхода</Kopp_CFI_ImproveBringingDownedPawnsToEdge>
+	<Kopp_CFI_ImproveBringingDownedPawnsToEdgeTooltip>Я не слишком часто тестировал эту функцию, потому что мне надоело возиться с формированием каравана.</Kopp_CFI_ImproveBringingDownedPawnsToEdgeTooltip>
+
+	<Kopp_CFI_Experimental>Экспериментальное: </Kopp_CFI_Experimental>
+
+	<Kopp_CFI_GizmosToDisplay>Какие иконки должны быть показывать?</Kopp_CFI_GizmosToDisplay>
+
+
+
+
+	<Kopp_CFI_LeaveNowConfirmation2>Пешки, удовлетворяющие свои потребности прямо сейчас, перестанут это делать.</Kopp_CFI_LeaveNowConfirmation2>
+	<Kopp_CFI_LeaveNowBadMood>Следующие пешки находятся в плохом настроении и могут сорваться еще до того, как достигнут края карты:</Kopp_CFI_LeaveNowBadMood>
+
+	<Kopp_CFI_SwitchMemberLabel>Следующий участник каравана</Kopp_CFI_SwitchMemberLabel>
+	<Kopp_CFI_SwitchMemberDesc>Щелкните левой/правой кнопкой мыши, чтобы перейти к другому участнику каравана.\n\nНаведите указатель мыши на иконку, чтобы стрелка указывала на каждого участника.</Kopp_CFI_SwitchMemberDesc>
+
+
+</LanguageData>

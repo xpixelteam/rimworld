@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VVE_ClassicCarWreck.label>Обломки классического авто</VVE_ClassicCarWreck.label>
+  <VVE_ClassicCarWreck.description>Древний, сломанный классический автомобиль. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Антилопу".</VVE_ClassicCarWreck.description>
+
+  <VVE_SupercarWreck.label>Обломки суперкара</VVE_SupercarWreck.label>
+  <VVE_SupercarWreck.description>Древний, сломанный суперкар. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Молнию".</VVE_SupercarWreck.description>
+
+  <VVE_BattleTankWreck.label>Обломки боевого танка</VVE_BattleTankWreck.label>
+  <VVE_BattleTankWreck.description>Древний, сломанный боевой танк. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Маршал".</VVE_BattleTankWreck.description>
+
+  <VVE_LightArmoredVehicleWreck.label>Обломки легкого броневика</VVE_LightArmoredVehicleWreck.label>
+  <VVE_LightArmoredVehicleWreck.description>Древний, сломанный легкий броневик. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Паладин".</VVE_LightArmoredVehicleWreck.description>
+
+  <VVE_OffroadJeepWreck.label>Обломки внедорожника</VVE_OffroadJeepWreck.label>
+  <VVE_OffroadJeepWreck.description>Древний, сломанный внедорожник. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Кочевник".</VVE_OffroadJeepWreck.description>
+
+  <VVE_HelicopterWreck.label>Обломки вертолета</VVE_HelicopterWreck.label>
+  <VVE_HelicopterWreck.description>Древний, сломанный вертолет. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Луи".</VVE_HelicopterWreck.description>
+
+  <VVE_TruckWreck.label>Обломки грузовика</VVE_TruckWreck.label>
+  <VVE_TruckWreck.description>Древний, сломанный грузовик. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Большую Фуру".</VVE_TruckWreck.description>
+
+  <VVE_ArtilleryWreck.label>Обломки артиллерии</VVE_ArtilleryWreck.label>
+  <VVE_ArtilleryWreck.description>Древний, сломанный артиллерийский комплекс. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Удар".</VVE_ArtilleryWreck.description>
+
+  <VVE_CargoHelicopterWreck.label>Обломки грузового вертолета</VVE_CargoHelicopterWreck.label>
+  <VVE_CargoHelicopterWreck.description>Древний, разбившийся грузовой вертолет. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Чероки".</VVE_CargoHelicopterWreck.description>
+
+  <VVE_RefrigeratedTruckWreck.label>Обломки рефрижератора</VVE_RefrigeratedTruckWreck.label>
+  <VVE_RefrigeratedTruckWreck.description>Древний, сломанный рефрижератор. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Эрмано".</VVE_RefrigeratedTruckWreck.description>
+
+  <VVE_InfantryFightingVehicleWreck.label>Обломки БМП</VVE_InfantryFightingVehicleWreck.label>
+  <VVE_InfantryFightingVehicleWreck.description>Древний, сломанный бронетранспортер. Все, что не проржавело, было давно разграблено. При наличии достаточных ресурсов его можно восстановить в "Барсук".</VVE_InfantryFightingVehicleWreck.description>
+
+  <VVE_RocketArtilleryWreck.label>Обломки ракетной установки</VVE_RocketArtilleryWreck.label>
+  <VVE_RocketArtilleryWreck.description>Древний, сломанный грузовик с ракетной установкой. Все, что не проржавело, было разграблено давным-давно. При наличии достаточного количества ресурсов его можно восстановить в "Бурю".</VVE_RocketArtilleryWreck.description>
+
+  <VVE_SiegePodWreck.label>Обломки осадной капсулы</VVE_SiegePodWreck.label>
+  <VVE_SiegePodWreck.description>Древняя, разрушенная осадная капсула. Все, что не проржавело, было разграблено давным-давно. При наличии достаточного количества ресурсов ее можно восстановить в "Голиаф".</VVE_SiegePodWreck.description>
+
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Combat Extended Melee</name>
+	<author>CE Team</author>
+	<url>https://github.com/CombatExtended-Continued/CombatExtendedMelee</url>
+	<description>Version: 15.1.2.0\n\nAdds several new melee weapons to take advantage of CE mechanics.</description>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/CE_ModIcon_JustHat</modIconPath>
+	<supportedVersions>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>CETeam.CombatExtendedMelee</packageId>
+	<modDependencies>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044</steamWorkshopUrl>
+			<downloadUrl>https://github.com/CombatExtended-Continued/CombatExtended/releases/</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+</ModMetaData>

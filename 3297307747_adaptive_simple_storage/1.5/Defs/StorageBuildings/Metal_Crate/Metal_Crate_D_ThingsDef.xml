@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="AdaptiveStorageBase">
+        <defName>MetalCrateD</defName>
+        <label>Metal Crate D</label>
+        <graphicData>
+            <texPath>Metal_Crate/Metal_Crate_D</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(4.95,3.96)</drawSize>
+            <drawRotated>false</drawRotated>
+        </graphicData>
+        <description>A large stack of metal crate that can store a range of items and is inflammable. Items stored inside will never deteriorate, burn, and don't affect the beauty of their surroundings.\n\nTotal Capacity: 96</description>
+        <researchPrerequisites>
+            <li>Machining</li>
+        </researchPrerequisites>
+        <fillPercent>0.2</fillPercent>
+        <uiIconPath>Metal_Crate/Metal_Crate_D_UI</uiIconPath>
+        <uiIconScale>1</uiIconScale>
+        <size>(3,2)</size>
+        <rotatable>true</rotatable>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <statBases>
+            <Beauty>0</Beauty>
+            <MaxHitPoints>1200</MaxHitPoints>
+            <WorkToBuild>7500</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>180</Mass>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>300</costStuffCount>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <building>
+            <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+            <maxItemsInCell>16</maxItemsInCell>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Root</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <paintable>true</paintable>
+        </building>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

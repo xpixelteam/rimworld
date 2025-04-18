@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>	
+	<ToggleTooltip>Отображение качества</ToggleTooltip>
+	<EnableForBuilding>Отображать качество зданий.</EnableForBuilding>
+	<EnableForWeapon>Отображать качество оружия.</EnableForWeapon>
+	<EnableForApparel>Отображать качество одежды.</EnableForApparel>
+	<OverlayOpacitySetting>Непрозрачность наложения (требуется перезапуск)</OverlayOpacitySetting>
+	<OverlayUpdateTicks>Интервал обновления наложения</OverlayUpdateTicks>
+	<QualityOverlayColorSettings>Цвет наложения для разного качества</QualityOverlayColorSettings>
+	<ResetAll>Сбросьте все</ResetAll>
+</LanguageData>

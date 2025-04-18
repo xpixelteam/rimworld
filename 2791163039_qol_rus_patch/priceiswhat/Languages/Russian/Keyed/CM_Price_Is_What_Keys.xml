@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<CM_Price_Is_What_WidgetLabel>Переключить отображение стоимости.\n\nОтображает текущее богатство карты, а также всплывающую подсказку с рыночной стоимостью объекта, на который указывает мышь.</CM_Price_Is_What_WidgetLabel>
+  <CM_Price_Is_What_MapWealthTooltip>Предметы:       {0}\nСтроения:  {1}\nПешки:      {2}\n\nВсего на карте: {3}</CM_Price_Is_What_MapWealthTooltip>
+</LanguageData>

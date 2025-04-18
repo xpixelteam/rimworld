@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.UpgradeTreeDef>
+		<defName>VVE_Prowler_UpgradeTree</defName>
+		 
+		<nodes>
+			<li>
+				<key>ReinforcedArmor</key>
+				<label>Reinforced Armor</label>
+				<description>Weld a layer of reinforced steel plating to the vehicle, increasing its armor value at the cost of increasing vehicle mass and lowering acceleration.</description>
+				
+				<icon>Upgrades/Upgrade_ExtraArmor</icon>
+				
+				<work>4000</work>
+				
+				<gridCoordinate>(6, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<stats>
+							<li>
+								<def>ArmorRating_Blunt</def>
+								<value>0.16</value>
+							</li>
+							<li>
+								<def>ArmorRating_Sharp</def>
+								<value>0.18</value>
+							</li>
+						</stats>
+						<vehicleStats>
+							<li>
+								<def>AccelerationRate</def>
+								<value>-0.01</value>
+							</li>
+							<li>
+								<def>Mass</def>
+								<value>40</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>100</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Prowler/Tier1_Explorer_UpgradeArmor</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,4)</drawSize>
+							<layer>1</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>OffRoadTires</key>
+				<label>Off Road Tires</label>
+				<description>Replace the tires with deep treaded tires that provide more traction and will allow the vehicle to move significantly faster offroad.</description>
+				
+				<icon>Upgrades/Upgrade_OffroadTires</icon>
+				
+				<work>2000</work>
+				
+				<gridCoordinate>(12, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<disableIfUpgradeNodeEnabled>ChainedTires</disableIfUpgradeNodeEnabled>
+
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>OffRoadMultiplier</def>
+								<value>-0.25</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WinterCostMultiplier</def>
+								<value>-2.0</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WorldSpeedMultiplier</def>
+								<value>0.1</value>
+								<type>Add</type>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarWheel>4</VVE_CarWheel>
+					<Steel>40</Steel>
+					<Chemfuel>40</Chemfuel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Prowler/Tier1_Explorer_UpgradeOffroadTires</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,4)</drawSize>
+							<layer>1</layer>
+							<shaderType>Cutout</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>ChainedTires</key>
+				<label>Chained Tires</label>
+				<description>Mount thick steel chains around tires, preventing them from slipping on icy surfaces and greatly improving winter travel speed. The additional grip slightly increases acceleration.</description>
+				
+				<icon>Upgrades/Upgrade_ChainedTires</icon>
+				
+				<work>2000</work>
+				
+				<gridCoordinate>(18, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<disableIfUpgradeNodeEnabled>OffRoadTires</disableIfUpgradeNodeEnabled>
+
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>OffRoadMultiplier</def>
+								<value>-0.25</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WinterCostMultiplier</def>
+								<value>-2.25</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WorldSpeedMultiplier</def>
+								<value>0.1</value>
+								<type>Add</type>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>40</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Prowler/Tier1_Explorer_UpgradeChainedTires</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,4)</drawSize>
+							<layer>1</layer>
+							<shaderType>Cutout</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>Spoiler</key>
+				<label>Spoiler</label>
+				<description>Install a spoiler to boost the maximum speed of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_Spoiler</icon>
+				
+				<work>1200</work>
+				
+				<gridCoordinate>(24, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>MoveSpeed</def>
+								<value>1</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>60</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Prowler/Tier1_Explorer_UpgradeSpeed</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,4)</drawSize>
+							<layer>1</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>MiniTurret</key>
+				<label>Mini Turret</label>
+				<description>Install an autonomous miniturret at the front of the vehicle. Requires steel to refurbish</description>
+				
+				<icon>Upgrades/Upgrade_Turret</icon>
+				
+				<work>7800</work>
+				
+				<gridCoordinate>(30, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>Prowler_MiniTurret</turretDef>
+								
+								<renderProperties>
+									<north>(0, 1.05)</north>
+									<south>(0, -0.5)</south>
+									<east>(0.95, 0.23)</east>
+								</renderProperties>
+								<drawLayer>3</drawLayer>
+
+								<gizmoLabel>Main Turret</gizmoLabel>
+								
+								<angleRestricted/>
+								<aimPieOffset>(0, -0.25)</aimPieOffset>
+								
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+
+				<ingredients>
+					<Steel>100</Steel>
+					<ComponentIndustrial>2</ComponentIndustrial>
+				</ingredients>
+
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Prowler/Tier1_Explorer_UpgradeTurretBase</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,4)</drawSize>
+							<layer>2</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<!-- Basic -->
+			<li>
+				<key>CargoCapacity</key>
+				<label>Cargo Capacity</label>
+				<description>Improve the cargo capacity of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_CargoCapacity</icon>
+				
+				<work>600</work>
+				
+				<gridCoordinate>(6, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>CargoCapacity</def>
+								<value>20</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>25</Steel>
+				</ingredients>
+			</li>
+			<li>
+				<key>Armor</key>
+				<label>Armor</label>
+				<description>Reinforce the armor of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_Armor</icon>
+				
+				<work>1200</work>
+				
+				<gridCoordinate>(12, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<stats>
+							<li>
+								<def>ArmorRating_Blunt</def>
+								<value>0.02</value>
+							</li>
+							<li>
+								<def>ArmorRating_Sharp</def>
+								<value>0.04</value>
+							</li>
+						</stats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>50</Steel>
+				</ingredients>
+			</li>
+			<li>
+				<key>Speed</key>
+				<label>Speed</label>
+				<description>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</description>
+				
+				<icon>Upgrades/Upgrade_MovementSpeed</icon>
+				
+				<work>1700</work>
+				
+				<gridCoordinate>(18, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>MoveSpeed</def>
+								<value>1.0</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_EngineBlock>1</VVE_EngineBlock>
+				</ingredients>
+			</li>
+			<li>
+				<key>Acceleration</key>
+				<label>Acceleration</label>
+				<description>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_Acceleration</icon>
+				
+				<work>1000</work>
+				
+				<gridCoordinate>(24, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>AccelerationRate</def>
+								<value>0.005</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarTransmission>1</VVE_CarTransmission>
+				</ingredients>
+			</li>
+			<li>
+				<key>FuelConsumption</key>
+				<label>Fuel Consumption</label>
+				<description>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</description>
+				
+				<icon>Upgrades/Upgrade_FuelConsumption</icon>
+				
+				<work>1000</work>
+				
+				<gridCoordinate>(30, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>FuelConsumptionRate</def>
+								<value>-2</value>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarExhaust>2</VVE_CarExhaust>
+				</ingredients>
+			</li>
+			<li>
+				<key>FuelCapacity</key>
+				<label>Fuel Capacity</label>
+				<description>Increase the size of the chemtank slightly.</description>
+				
+				<icon>Upgrades/Upgrade_FuelCapacity</icon>
+				
+				<work>800</work>
+				
+				<gridCoordinate>(36, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>FuelCapacity</def>
+								<value>20</value>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>20</Steel>
+				</ingredients>
+			</li>
+		</nodes>
+	</Vehicles.UpgradeTreeDef>
+</Defs>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>LMTV Cargo</RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>Switch to cargo transport.</RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>MTV Cargo</RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>Upgrade to M1083 6x6 MTV with better capacity.</RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>MTV Passenger</RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>Upgrade to M1083 6x6 MTV with better capacity.</RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.label>M2HB RWS</RT_MATV_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.description>Add M2HB RWS on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.label>TOW Turret</RT_MATV_Vehicle_UpgradeTree.nodes.1.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.description>Add TOW Launcher on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.label>Mk19 Turret</RT_MATV_Vehicle_UpgradeTree.nodes.2.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.description>Add Mk19 Grenade Launcher on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.2.description>
+
+</LanguageData>

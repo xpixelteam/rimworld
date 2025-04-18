@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 40x311mmR (Canister) -->
+  <Ammo_40x311mmR_Canister.label>40x311mmR霰弹</Ammo_40x311mmR_Canister.label>
+  <!-- EN: Large caliber cartridge used by autocannons. -->
+  <Ammo_40x311mmR_Canister.description>大口径炮塔使用的霰弹</Ammo_40x311mmR_Canister.description>
+  
+  <!-- EN: 40x311mmR canister pellet -->
+  <Bullet_40x311mmR_Canister.label>40x311mmR霰弹弹丸</Bullet_40x311mmR_Canister.label>
+  
+</LanguageData>

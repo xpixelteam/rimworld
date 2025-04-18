@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- Netrve's DeepStorage GUI -->
+
+	<DSGUI_Label>Netrve's DeepStorage GUI</DSGUI_Label>
+	<DSGUI_Warn>Несовместимо с исправлением других модов FloatMenuMapMaker.TryMakeFloatMenu</DSGUI_Warn>
+  
+	<DSGUI_List_Label>Контекстное меню</DSGUI_List_Label>
+	<DSGUI_List_Tile>Tile Orders</DSGUI_List_Tile>
+	<DSGUI_List_SortOrders>Сортировать порядок</DSGUI_List_SortOrders>
+	<DSGUI_List_SavePosSize>Сохранять последний размер и позицию окна</DSGUI_List_SavePosSize>
+	<DSGUI_List_DrawDividersRows>Показывать разделитель строк</DSGUI_List_DrawDividersRows>
+	<DSGUI_List_DrawDividersColumns>Показывать разделитель столбцов</DSGUI_List_DrawDividersColumns>
+	<DSGUI_List_IconScaling>Размер иконок</DSGUI_List_IconScaling>
+	<DSGUI_List_BoxHeight>Высота элемента прокрутки</DSGUI_List_BoxHeight>
+	<DSGUI_List_FontSize>Размер шрифта</DSGUI_List_FontSize>
+
+	<DSGUI_Tab_Label>Вкладка хранилища</DSGUI_Tab_Label>
+	<DSGUI_Tab_EnableTab>Включить использование новой вкладки хранилища</DSGUI_Tab_EnableTab>
+	<DSGUI_Tab_SortContent>Соритровать предметы во вкладке</DSGUI_Tab_SortContent>
+	<DSGUI_Tab_AdvSortContent>Используйте более детализированную сортировку</DSGUI_Tab_AdvSortContent>
+	<DSGUI_Tab_DrawDividersRows>Показывать разделитель строк</DSGUI_Tab_DrawDividersRows>
+	<DSGUI_Tab_DrawDividersColumns>Показывать разделитель столбцов</DSGUI_Tab_DrawDividersColumns>
+	<DSGUI_Tab_IconScaling>Размер иконок</DSGUI_Tab_IconScaling>
+	<DSGUI_Tab_BoxHeight>Высота элемента прокрутки</DSGUI_Tab_BoxHeight>
+	<DSGUI_Tab_FontSize>Размер шрифта (Пока не используется)</DSGUI_Tab_FontSize>
+  
+	<DSGUI_ResetBtn>Сброс к значениям по умолчанию</DSGUI_ResetBtn>
+
+</LanguageData>

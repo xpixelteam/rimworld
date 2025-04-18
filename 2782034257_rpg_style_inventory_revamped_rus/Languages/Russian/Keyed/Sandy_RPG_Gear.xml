@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SandyMassCarried>Переносимый вес</SandyMassCarried>
+  <SandyMassValue>{0} / {1} кг</SandyMassValue>
+  <Sandy_ViewList>Показать списком</Sandy_ViewList>
+  <RPG_Inventory_Width>Ширина вкладки</RPG_Inventory_Width>
+  <RPG_Inventory_Height>Высота вкладки</RPG_Inventory_Height>
+  <RPG_Style_Inventory_Title>RPG Style Inventory</RPG_Style_Inventory_Title>
+  <RPG_Style_Inventory_ArmorHarmony>Магическая защита</RPG_Style_Inventory_ArmorHarmony>
+  <RPG_Display_All_Slots_Label>Отобразить ВСЕ слоты</RPG_Display_All_Slots_Label>
+  <RPG_Display_All_Slots_Note>Отображать все поддерживаемые слоты, даже если их невозможно использовать</RPG_Display_All_Slots_Note>
+  <Primary_Weapon>Основное оружие</Primary_Weapon>
+  <Secondary_Weapon>Второстепенное оружие</Secondary_Weapon>
+  <RPG_AutoFitWidth_Button_Label>Автоподбор Ширины (Ближайшая)</RPG_AutoFitWidth_Button_Label>
+  <RPG_AutoFitWidth_Tight_Button_Label>Автоподбор Ширины (Узкая)</RPG_AutoFitWidth_Tight_Button_Label>
+  <RPG_AutoFitWidth_Wide_Button_Label>Автоподбор Ширины (Широкая)</RPG_AutoFitWidth_Wide_Button_Label>
+  <RPG_Dispaly_Temp_On_The_Same_Line_Label>Отображение комфортных значений температуры в одной строке</RPG_Dispaly_Temp_On_The_Same_Line_Label>
+  <RPG_Dispaly_Temp_On_The_Same_Line_Note></RPG_Dispaly_Temp_On_The_Same_Line_Note>
+  <Sandy_SimplifiedView>Простой</Sandy_SimplifiedView>
+  <RPG_Display_Apparel_Healthbar_Label>Индикатор состояния оборудования</RPG_Display_Apparel_Healthbar_Label>
+  <RPG_Display_Apparel_Healthbar_Note>Вместо фона о состоянии здоровья</RPG_Display_Apparel_Healthbar_Note>
+  <RPG_Colors_Changing>Переодевается {0}</RPG_Colors_Changing>
+  <RPG_Colors_Apply>Применить</RPG_Colors_Apply>
+  <RPG_Colors_Red>Красный:</RPG_Colors_Red>
+  <RPG_Colors_Green>Зеленый:</RPG_Colors_Green>
+  <RPG_Colors_Blue>Синий:</RPG_Colors_Blue>
+  <RPG_Colors_Preview>Превью:</RPG_Colors_Preview>
+  <RPG_Colors_Button_Label>Изменить</RPG_Colors_Button_Label>
+  <RPG_Color_Codes_Label>Используйте цветовую кодировку</RPG_Color_Codes_Label>
+  <RPG_Color_Codes_Note></RPG_Color_Codes_Note>
+  <RPG_Display_Background_Label>Отображать фон слотов</RPG_Display_Background_Label>
+  <RPG_Display_Background_Note></RPG_Display_Background_Note>
+  <RPG_Display_Static_Slot_Background_Label>Отображать фон слотов по умолчанию</RPG_Display_Static_Slot_Background_Label>
+  <RPG_Display_Static_Slot_Background_Note></RPG_Display_Static_Slot_Background_Note>
+  <RPG_Frame2_Label>Используйте толстые границы</RPG_Frame2_Label>
+  <RPG_Frame2_Note></RPG_Frame2_Note>
+  <!--<Sandy_Head>Головной убор</Sandy_Head>-->
+  <!--<Sandy_TorsoMiddle>Верхняя одежда</Sandy_TorsoMiddle>-->
+  <!--<Sandy_TorsoOnSkin>Верхняя нательная одежда</Sandy_TorsoOnSkin>-->
+  <!--<Sandy_TorsoShell>Броня</Sandy_TorsoShell>-->
+  <!--<Sandy_Belt>Ремень</Sandy_Belt>-->
+  <!--<Sandy_Pants>Штаны</Sandy_Pants>-->
+</LanguageData>

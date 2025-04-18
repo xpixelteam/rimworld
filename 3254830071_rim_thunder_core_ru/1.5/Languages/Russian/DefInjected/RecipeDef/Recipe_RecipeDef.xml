@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--1.5\Defs\Base\Recipe.xml-->
+	
+	<!--                      EN: make fueling compoment -->
+	<Make_ComponentFuelTank.label>сделайте заправочный компонент</Make_ComponentFuelTank.label>
+	<!--                            EN: make fueling compoment. -->
+	<Make_ComponentFuelTank.description>сделайте заправочный компонент.</Make_ComponentFuelTank.description>
+	<!--                          EN: Assembling metal. -->
+	<Make_ComponentFuelTank.jobString>Сборка металлоконструкций.</Make_ComponentFuelTank.jobString>
+	
+	<!--                          EN: make transmisson compoment -->
+	<Make_ComponentTransmission.label>сделать трансмиссионный компонент</Make_ComponentTransmission.label>
+	<!--                                EN: make transmisson compoment. -->
+	<Make_ComponentTransmission.description>сделать трансмиссионный компонент.</Make_ComponentTransmission.description>
+	<!--                              EN: Assembling metal. -->
+	<Make_ComponentTransmission.jobString>Сборка металлоконструкций.</Make_ComponentTransmission.jobString>
+</LanguageData>

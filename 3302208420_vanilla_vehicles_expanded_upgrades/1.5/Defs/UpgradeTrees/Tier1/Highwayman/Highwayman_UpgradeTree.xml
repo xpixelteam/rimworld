@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.UpgradeTreeDef>
+		<defName>VVE_Highwayman_UpgradeTree</defName>
+		 
+		<nodes>
+			<li>
+				<key>EngineCover</key>
+				<label>Engine Cover</label>
+				<description>Cover the engine with extended armor plating, protecting it from gunfire.</description>
+				
+				<icon>Upgrades/Upgrade_EngineCover</icon>
+				
+				<work>3200</work>
+				
+				<gridCoordinate>(6, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.VehicleUpgrade">
+						<health>
+							<li>
+								<key>Engine</key>
+								<depth>Internal</depth>
+							</li>
+						</health>
+					</li>
+					<li Class = "Vehicles.StatUpgrade">
+						<stats>
+							<li>
+								<def>ArmorRating_Sharp</def>
+								<value>0.2</value>
+							</li>
+							<li>
+								<def>ArmorRating_Blunt</def>
+								<value>0.2</value>
+							</li>
+						</stats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>80</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Highwayman/Tier1_APC_UpgradeEngineCover</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,5)</drawSize>
+							<layer>1</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>ReinforcedBumper</key>
+				<label>Reinforced Bumper</label>
+				<description>Reinforce the front bumper to allow this vehicle to deal more damage during collisions.</description>
+				
+				<icon>Upgrades/Upgrade_Bumper</icon>
+				
+				<work>1800</work>
+				
+				<gridCoordinate>(12, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>PawnCollisionMultiplier</def>
+								<value>0.2</value>
+							</li>
+						</statCategories>
+					</li>
+					<li Class = "Vehicles.VehicleUpgrade">
+						<health>
+							<li>
+								<key>FrontBumper</key>
+								<value>80</value>
+							</li>
+						</health>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>100</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Highwayman/Tier1_APC_UpgradeBumper</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3, 5)</drawSize>
+							<layer>1</layer>
+							<shaderType>Cutout</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>LargerCabin</key>
+				<label>Larger Cabin</label>
+				<description>Extend the cabin by adding space for an additional passenger.</description>
+				
+				<icon>Upgrades/Upgrade_ExtraSeat</icon>
+				
+				<work>3200</work>
+				
+				<gridCoordinate>(18, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.VehicleUpgrade">
+						<roles>
+							<li>
+								<key>passenger</key>
+								<editKey>largerCabin</editKey>
+								
+								<slots>2</slots>
+							</li>
+						</roles>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>60</Steel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Highwayman/Tier1_APC_UpgradeCrew</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3, 5)</drawSize>
+							<layer>2</layer>
+							<shaderType>CutoutComplexPattern</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>OffRoadTires</key>
+				<label>Off Road Tires</label>
+				<description>Replace the tires with deep treaded tires that provide more traction and will allow the vehicle to move significantly faster offroad.</description>
+				
+				<icon>Upgrades/Upgrade_OffroadTires</icon>
+				
+				<work>2000</work>
+				
+				<gridCoordinate>(24, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>OffRoadMultiplier</def>
+								<value>-0.25</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WinterCostMultiplier</def>
+								<value>-1.0</value>
+								<type>Add</type>
+							</li>
+							<li>
+								<def>WorldSpeedMultiplier</def>
+								<value>0.1</value>
+								<type>Add</type>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarWheel>4</VVE_CarWheel>
+					<Steel>40</Steel>
+					<Chemfuel>40</Chemfuel>
+				</ingredients>
+				
+				<graphicOverlays>
+					<li>
+						<graphicData>
+							<texPath>Upgrades/Highwayman/Tier1_APC_UpgradeTires</texPath>
+							<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+							<drawSize>(3,5)</drawSize>
+							<layer>1</layer>
+							<shaderType>Cutout</shaderType>
+						</graphicData>
+					</li>
+				</graphicOverlays>
+			</li>
+			<li>
+				<key>ImprovedTurret</key>
+				<label>Improved Turret</label>
+				<description>Improve the turret with more efficient firing mechanism and ammo feeding system, allowing it to fire more rapidly and with higher accuracy. Additionally, install smokepop canisters on a turret, allowing the vehicle to eject a smoke screen.</description>
+				
+				<icon>Upgrades/Upgrade_TurretImproved</icon>
+				
+				<work>7800</work>
+				
+				<gridCoordinate>(30, 7)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.CompUpgrade">
+						<activate>
+							<li Class="VanillaVehiclesExpanded.CompProperties_ReloadableWithVerbs">
+								<maxCharges>3</maxCharges>
+								<ammoDef>Chemfuel</ammoDef>
+								<ammoCountToRefill>10</ammoCountToRefill>
+								<soundReload>Standard_Reload</soundReload>
+								<hotKey>Misc4</hotKey>
+								<chargeNoun>smokepop</chargeNoun>
+								<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+								<verbs>
+									<li>
+										<verbClass>VanillaVehiclesExpanded.Verb_Smokepop</verbClass>
+										<label>pop smoke</label>
+										<violent>false</violent>
+										<hasStandardCommand>true</hasStandardCommand>
+										<commandIcon>UI/ActivateBlindsmokePop</commandIcon>
+										<targetable>false</targetable>
+										<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+										<onlyManualCast>True</onlyManualCast>
+									</li>
+								</verbs>
+								<commandDescriptions>
+									<li>A defensive smokescreen. When activated, it will release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. Has three charges and will require a chemfuel reload after they are spent. Right click to reload.</li>
+								</commandDescriptions>
+							</li>
+						</activate>
+					</li>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>Highwayman_MainTurret_Improved</turretDef>
+								
+								<renderProperties>
+									<north>(0, 0.85)</north>
+									<south>(0, 0.5)</south>
+									<east>(0.1, 0.5)</east>
+								</renderProperties>
+								<drawLayer>3</drawLayer>
+
+								<gizmoLabel>Main Turret</gizmoLabel>
+								
+								<angleRestricted/>
+								<aimPieOffset>(0, 0.65)</aimPieOffset>
+								
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+						<removeTurrets>
+							<li>mainTurret</li>
+						</removeTurrets>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>80</Steel>
+					<ComponentIndustrial>5</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<!-- Basic -->
+			<li>
+				<key>CargoCapacity</key>
+				<label>Cargo Capacity</label>
+				<description>Improve the cargo capacity of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_CargoCapacity</icon>
+				
+				<work>600</work>
+				
+				<gridCoordinate>(6, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>CargoCapacity</def>
+								<value>20</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>25</Steel>
+				</ingredients>
+			</li>
+			<li>
+				<key>Armor</key>
+				<label>Armor</label>
+				<description>Reinforce the armor of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_Armor</icon>
+				
+				<work>1200</work>
+				
+				<gridCoordinate>(12, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<stats>
+							<li>
+								<def>ArmorRating_Blunt</def>
+								<value>0.02</value>
+							</li>
+							<li>
+								<def>ArmorRating_Sharp</def>
+								<value>0.04</value>
+							</li>
+						</stats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>50</Steel>
+				</ingredients>
+			</li>
+			<li>
+				<key>Speed</key>
+				<label>Speed</label>
+				<description>Improve the engine of the vehicle, allowing it to reach higher maximum speed.</description>
+				
+				<icon>Upgrades/Upgrade_MovementSpeed</icon>
+				
+				<work>1700</work>
+				
+				<gridCoordinate>(18, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>MoveSpeed</def>
+								<value>1.0</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_EngineBlock>1</VVE_EngineBlock>
+				</ingredients>
+			</li>
+			<li>
+				<key>Acceleration</key>
+				<label>Acceleration</label>
+				<description>Improve shifting capabilities of transmission to increase acceleration speed of the vehicle slightly.</description>
+				
+				<icon>Upgrades/Upgrade_Acceleration</icon>
+				
+				<work>1000</work>
+				
+				<gridCoordinate>(24, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<vehicleStats>
+							<li>
+								<def>AccelerationRate</def>
+								<value>0.005</value>
+							</li>
+						</vehicleStats>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarTransmission>1</VVE_CarTransmission>
+				</ingredients>
+			</li>
+			<li>
+				<key>FuelConsumption</key>
+				<label>Fuel Consumption</label>
+				<description>Improve the exhaust system of the vehicle, improving fuel efficiency slightly.</description>
+				
+				<icon>Upgrades/Upgrade_FuelConsumption</icon>
+				
+				<work>1000</work>
+				
+				<gridCoordinate>(30, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>FuelConsumptionRate</def>
+								<value>-2</value>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<VVE_CarExhaust>2</VVE_CarExhaust>
+				</ingredients>
+			</li>
+			<li>
+				<key>FuelCapacity</key>
+				<label>Fuel Capacity</label>
+				<description>Increase the size of the chemtank slightly.</description>
+				
+				<icon>Upgrades/Upgrade_FuelCapacity</icon>
+				
+				<work>800</work>
+				
+				<gridCoordinate>(36, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				
+				<upgrades>
+					<li Class = "Vehicles.StatUpgrade">
+						<statCategories>
+							<li>
+								<def>FuelCapacity</def>
+								<value>20</value>
+							</li>
+						</statCategories>
+					</li>
+				</upgrades>
+				
+				<ingredients>
+					<Steel>20</Steel>
+				</ingredients>
+			</li>
+		</nodes>
+	</Vehicles.UpgradeTreeDef>
+</Defs>

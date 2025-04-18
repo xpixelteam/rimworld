@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>  
+  <ScenarioDef>
+    <defName>AncientFarm</defName>
+    <label>Farm covered with dust</label>
+	<scenario>
+		<summary>An ancient agricultural worker who woke up from a low-temperature dormant chamber， Extremely difficult</summary>
+		<description>A sudden sandstorm hit the hydroponic farm site where you work. You and your colleagues followed the company's regulations and entered a low-temperature dormant cabin to seek refuge. Unfortunately, this climate disaster seems to have lasted for a considerable amount of time, or perhaps there was a problem with the timing system. You don't know how long you have been sleeping, perhaps for a few years, ten years, or even thousands of years. The agricultural company has lost contact, Even whether they exist in the world is a question. You are hesitating whether to awaken your colleagues, after all, the current world may not be what they want to see. Now you need to find a way to survive.
+Your initial character will lack some necessary skills, which is a highly challenging script</description>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>PlayerColony</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnChoiceCount>8</pawnChoiceCount>
+				<pawnCount>1</pawnCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>Devilstrand</project>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SurvivalNutrientPack</thingDef>
+				<count>40</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Apparel_FlakVest</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Gun_MachinePistol</thingDef>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>450</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>WoodLog</thingDef>
+				<count>300</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>When you try to contact the company but find no results, you have already started thinking about your future. This planet has become unfamiliar to you, and the people and things you are familiar with no longer exist. You are like a ghost of the old times, out of place in this wild world.
+But ghosts also have to survive.</text>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>GunTurrets</project>
+			</li>
+			<li Class="ScenPart_ForcedTrait" MayRequire="Ludeon.RimWorld.Biotech">
+				<def>ForcedTrait</def>
+				<chance>0.25</chance>
+				<context>PlayerStarter</context>
+				<trait>Recluse</trait>
+			</li>
+			<li Class="KCSG.ScenPart_AddStartingStructure">
+				<def>VFEC_AddStartingStructure</def>
+				<structureLabel />
+				<nearMapCenter>True</nearMapCenter>
+				<chooseFrom>
+					<li>ancient_hydroponic_site</li>
+				</chooseFrom>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Apparel_AdvancedHelmet</thingDef>
+				<stuff>Plasteel</stuff>
+			</li>
+			<li Class="ScenPart_ForcedTrait">
+				<def>ForcedTrait</def>
+				<chance>0.25</chance>
+				<context>PlayerStarter</context>
+				<trait>QuickSleeper</trait>
+			</li>
+			<li Class="ScenPart_ForcedHediff">
+				<def>ForcedHediff</def>
+				<chance>1</chance>
+				<context>PlayerStarter</context>
+				<hediff>CryptosleepSickness</hediff>
+				<severityRange>0~0.2333333</severityRange>
+			</li>
+		</parts>
+	</scenario>
+  </ScenarioDef>
+</Defs>

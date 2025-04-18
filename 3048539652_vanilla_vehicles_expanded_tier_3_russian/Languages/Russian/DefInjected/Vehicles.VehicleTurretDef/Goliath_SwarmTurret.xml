@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Goliath_SwarmTurret.label>Турель "Голиафа"</Goliath_SwarmTurret.label>
+  <Goliath_SwarmTurret.description>Неточная пусковая установка, способная выпустить два залпа ракет, покрывающих большую площадь. Турель не стреляет, пока не получит команду. Она очень эффективна против больших групп слабых противников, но менее эффективна против небольшого числа бронированных целей. Продолжительная стрельба может привести к перегреву и отключению турели.</Goliath_SwarmTurret.description>
+  <Goliath_SwarmTurret.fireModes.0.label>Залп</Goliath_SwarmTurret.fireModes.0.label>
+
+
+</LanguageData>

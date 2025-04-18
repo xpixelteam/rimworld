@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AdaptiveStorage.GraphicsDef>
+        <defName>ChunkAGraphics</defName>
+        <targetDef>ChunkA</targetDef>
+        <showContainedItems>false</showContainedItems>
+        <useDominantContentColor>true</useDominantContentColor>
+        <graphics>
+            <li>
+                <graphicData>
+                    <texPath>Chunk/Chunk_A</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(5,2.95)</drawSize>
+                    <drawRotated>false</drawRotated>
+                    <shaderType>CutoutComplex</shaderType>
+                </graphicData>
+            </li>
+        </graphics>
+    </AdaptiveStorage.GraphicsDef>
+</Defs>
